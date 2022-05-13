@@ -10,11 +10,15 @@ Platform Guide and Documentation
 * [Tenant Owner Guide](002_tenant_owners/)
   Written for business owners, MIS Managers and resellers.
 
-
-* [Developer Guide](003_developers/)
+* [Applet Developer Guide](003_developers/)
+  This is specially written for Applet developers.
 
 * [Reseller Guide](004_resellers/)
+  For all beloved resellers.
 
 * [Integration Guide](005_integrations/)
+  Third party system integrators.
+
+
 
 
