@@ -1,6 +1,6 @@
-# Public Guide
+= Public Guide
 
-## [User Guide](User_Guide/)
+== link:User_Guide[User Guide]
 
 * General Users
 * Tenant Owners
@@ -8,18 +8,18 @@
 * Resellers
 * System Integrators
 
-## [Industry Guide](Industry_Guide/)
+== link:Industry_Guide[Industry Guide]
 
 * IT and Consumer Electronics Industry
 * Pharmacies
 * Automotive Repairs
 * Manufacturing
 
-## [Modules Guide](Modules_Guide/)
+== link:Modules_Guide[Modules Guide]
 
 A list of modules.
 
-## [Applet Guide](Applet_Directory/)
+== link:Applet_Directory[Applet Guide]
 
 You can find a very long list of applets here.
 
