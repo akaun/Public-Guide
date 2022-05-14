@@ -1,4 +1,4 @@
-# Guide by Industry
+= Guide by Industry
 
 * IT and Consumer Electronics Industry
 * Pharmacies

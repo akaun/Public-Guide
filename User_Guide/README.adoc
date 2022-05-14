@@ -1,25 +1,18 @@
 = Platform Guide
+Vincent Lee <vincent@akaun.com>
+v1.0, 2022-05-15
+:homepage: https://docs.akaun.com
+:toc: auto
+:toc-title: Table of Content
 
-Platform Guide and Documentation
+This public guide provides a high level understanding of how to make use of the Akaun Platform.
+
+include::0100_General_Users/README.adoc[leveloffset=+1]
+
+include::0200_Tenant_Owners/README.adoc[leveloffset=+1]
+
+include::0300_Applet_Developers/README.adoc[leveloffset=+1]
+
+include::0400_Resellers/README.adoc[leveloffset=+1]
 
 image::assets/bigledger_logo.jpeg[BigLedger Logo]
-
-* link:0100_General_Users[User Guide]
-  A very high level introduction to general users.
-
-* link:0200_Tenant_Owners[Tenant Owner Guide]
-  Written for business owners, MIS Managers and resellers.
-
-* link:0300_Applet_Developers[Applet Developer Guide]
-  This is specially written for Applet developers.
-
-* link:0400_Resellers[Reseller Guide]
-* [Reseller Guide](0400_Resellers/)
-  For all beloved resellers.
-
-* link:0500_System_Integrations[System Integration]
-  Third party system integrators.
-
-
-
-

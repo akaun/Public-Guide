@@ -1,27 +1,16 @@
 = Public Guide
+Vincent Lee <vincent@akaun.com>
+v1.0, 2022-05-15
+:homepage: https://docs.akaun.com
+:toc: auto
+:toc-title: Table of Content
 
-== link:User_Guide[User Guide]
+This public guide provides a high level understanding of how to make use of the Akaun Platform.
 
-* General Users
-* Tenant Owners
-* Applet Developers
-* Resellers
-* System Integrators
+include::User_Guide/README.adoc[leveloffset=+1]
 
-== link:Industry_Guide[Industry Guide]
+include::Industry_Guide/README.adoc[leveloffset=+1]
 
-* IT and Consumer Electronics Industry
-* Pharmacies
-* Automotive Repairs
-* Manufacturing
+include::Modules_Guide/README.adoc[leveloffset=+1]
 
-== link:Modules_Guide[Modules Guide]
-
-A list of modules.
-
-== link:Applet_Directory[Applet Guide]
-
-You can find a very long list of applets here.
-
-
-
+include::Applet_Directory/README.adoc[leveloffset=+1]
