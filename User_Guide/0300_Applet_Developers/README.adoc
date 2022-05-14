@@ -1,10 +1,10 @@
 [#id-applet-developers]
-== ({counter2:guide_no}{guide_no}.{counter2:chapter_no}{chapter_no}) Applet Developers Guide
+=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Applet Developers Guide
 :doctype: book
 
 Guid for applet Developers
 
-=== Signing up your bigledger account
+==== Signing up your bigledger account
 
 
 

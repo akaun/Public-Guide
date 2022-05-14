@@ -1,3 +1,4 @@
+[#id-guide-by-users]
 == ({counter2:guide_no}{guide_no}) Public Guide by User Types
 :doctype: book
 
@@ -6,20 +7,25 @@ This repository contains all the source code for publishing the Akaun Platform P
 
 <<<<<<<<<<<
 
-{counter2:chapter_no:1}
-include::0100_General_Users/README.adoc[leveloffset=+1]
+{counter2:chapter_no}
+
+include::0100_General_Users/README.adoc[]
 
 {counter2:chapter_no}
-include::0200_Tenant_Owners/README.adoc[leveloffset=+1]
+
+include::0200_Tenant_Owners/README.adoc[]
 
 {counter2:chapter_no}
-include::0300_Applet_Developers/README.adoc[leveloffset=+1]
+
+include::0300_Applet_Developers/README.adoc[]
 
 {counter2:chapter_no}
-include::0400_Resellers/README.adoc[leveloffset=+1]
+
+include::0400_Resellers/README.adoc[]
 
 {counter2:chapter_no}
-include::0500_System_Integrations/README.adoc[leveloffset=+1]
+
+include::0500_System_Integrations/README.adoc[]
 
 
 // This is the page break

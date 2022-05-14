@@ -1,15 +1,16 @@
 [#id-general-users]
-//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users
-== ({guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users
+=== ({guide_no}.{counter2:chapter_no}{chapter_no}) General Users
+:doctype: book
 
+//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users
 
 User guide for platform users.
 
-=== Section 1
+==== Section 1
 
 some sections here
 
-=== Section 2
+==== Section 2
 
 // This is the page break
 <<<<<<<<<<<

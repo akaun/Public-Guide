@@ -9,6 +9,8 @@ v1.0, 2022-05-15
 image::assets/bigledger_logo.jpeg[BigLedger Logo,align="center"]
 
 
+
+
 [width=50%,align="center",grid=none,frame=none]
 |===
 
@@ -22,15 +24,18 @@ toc::[]
 
 <<<<<<<<<
 
-{counter2:guide_no:1}
-include::User_Guide/README.adoc[leveloffset=1]
-//include::User_Guide/README.adoc[leveloffset=+1]
+{counter2:guide_no}
+
+include::User_Guide/README.adoc[]
 
 {counter2:guide_no}
-include::Industry_Guide/README.adoc[leveloffset=1]
+
+include::Industry_Guide/README.adoc[]
 
 {counter2:guide_no}
-include::Modules_Guide/README.adoc[leveloffset=1]
+
+include::Modules_Guide/README.adoc[]
 
 {counter2:guide_no}
-include::Applet_Directory/README.adoc[leveloffset=1]
+
+include::Applet_Directory/README.adoc[]

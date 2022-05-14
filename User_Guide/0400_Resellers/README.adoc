@@ -1,12 +1,12 @@
 [#id-resellers]
-== ({counter2:guide_no}{guide_no}.{counter2:chapter_no}{chapter_no}) Resellers' Guide
+=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Resellers' Guide
 :doctype: book
 
 Guide for resellers
 
-=== Section 1
+==== Section 1
 
-=== Section 2
+==== Section 2
 
 
 // This is the page break

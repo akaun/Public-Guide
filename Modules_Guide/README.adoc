@@ -1,3 +1,4 @@
+[#id-guide-by-module]
 == ({counter2:guide_no}{guide_no}) Modules Guide
 :doctype: book
 
