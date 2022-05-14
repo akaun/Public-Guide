@@ -1,16 +1,11 @@
 = Public Guide
-Vincent Lee <vincent@akaun.com>
-v1.0, 2022-05-15
-:homepage: https://docs.akaun.com
-:toc: auto
-:toc-title: Table of Content
 
 This public guide provides a high level understanding of how to make use of the Akaun Platform.
 
-include::User_Guide/README.adoc[leveloffset=+1]
+include::User_Guide/README.adoc[]
 
-include::Industry_Guide/README.adoc[leveloffset=+1]
+include::Industry_Guide/README.adoc[]
 
-include::Modules_Guide/README.adoc[leveloffset=+1]
+include::Modules_Guide/README.adoc[]
 
-include::Applet_Directory/README.adoc[leveloffset=+1]
+include::Applet_Directory/README.adoc[]

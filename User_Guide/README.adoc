@@ -1,18 +1,26 @@
-= Platform Guide
-Vincent Lee <vincent@akaun.com>
-v1.0, 2022-05-15
-:homepage: https://docs.akaun.com
-:toc: auto
-:toc-title: Table of Content
+== ({counter2:guide_no}{guide_no}) Public Guide by User Types
+:doctype: book
 
-This public guide provides a high level understanding of how to make use of the Akaun Platform.
+This repository contains all the source code for publishing the Akaun Platform Public Documentation.
 
+
+<<<<<<<<<<<
+
+{counter2:chapter_no:1}
 include::0100_General_Users/README.adoc[leveloffset=+1]
 
+{counter2:chapter_no}
 include::0200_Tenant_Owners/README.adoc[leveloffset=+1]
 
+{counter2:chapter_no}
 include::0300_Applet_Developers/README.adoc[leveloffset=+1]
 
+{counter2:chapter_no}
 include::0400_Resellers/README.adoc[leveloffset=+1]
 
-image::assets/bigledger_logo.jpeg[BigLedger Logo]
+{counter2:chapter_no}
+include::0500_System_Integrations/README.adoc[leveloffset=+1]
+
+
+// This is the page break
+<<<<<<<<<<<

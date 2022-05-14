@@ -1,2 +1,15 @@
-= System Integrations
+[#id-system-integrations]
+== ({counter2:guide_no}{guide_no}.{counter2:chapter_no}{chapter_no}) System Integrations
+:doctype: book
 
+Guide for system integrators
+
+=== Section 1
+
+some sections here
+
+=== Section 2
+
+
+// This is the page break
+<<<<<<<<<<<

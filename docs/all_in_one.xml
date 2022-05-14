@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Akaun Platform Guide (Public)</title>
+<date>2022-05-15</date>
+<author>
+<personname>
+<firstname>Vincent</firstname>
+<surname>Lee</surname>
+</personname>
+<email>vincent@akaun.com</email>
+</author>
+<authorinitials>VL</authorinitials>
+<revhistory>
+<revision>
+<revnumber>1.0</revnumber>
+<date>2022-05-15</date>
+<authorinitials>VL</authorinitials>
+</revision>
+</revhistory>
+</info>
+<preface>
+<title></title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/bigledger_logo.jpeg" align="center"/>
+</imageobject>
+<textobject><phrase>BigLedger Logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informaltable frame="none" rowsep="0" colsep="0">
+<?dbhtml table-width="50%"?>
+<?dbfo table-width="50%"?>
+<?dblatex table-width="50%"?>
+<tgroup cols="1">
+<colspec colname="col_1" colwidth="212.5*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>This is the public guide that provides all public use cases of the Akaun Platform</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara><?asciidoc-pagebreak?></simpara>
+
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: 1</simpara>
+</preface>
+<chapter xml:id="_1_public_guide_by_user_types">
+<title>(1) Public Guide by User Types</title>
+<simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: +1</simpara>
+</chapter>
+<chapter xml:id="id-general-users">
+<title>(1.2) General Users</title>
+<simpara>User guide for platform users.</simpara>
+<section xml:id="_section_1">
+<title>Section 1</title>
+<simpara>some sections here</simpara>
+</section>
+<section xml:id="_section_2">
+<title>Section 2</title>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: +1</simpara>
+</section>
+</chapter>
+<chapter xml:id="id-tenant-owners">
+<title>(2.3) Tenant Owners</title>
+<simpara>Platform Guide for Tenant Owners</simpara>
+<section xml:id="_section_1_2">
+<title>Section 1</title>
+
+</section>
+<section xml:id="_section_2_2">
+<title>Section 2</title>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: +1</simpara>
+</section>
+</chapter>
+<chapter xml:id="id-applet-developers">
+<title>(3.4) Applet Developers Guide</title>
+<simpara>Guid for applet Developers</simpara>
+<section xml:id="_signing_up_your_bigledger_account">
+<title>Signing up your bigledger account</title>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: +1</simpara>
+</section>
+</chapter>
+<chapter xml:id="id-resellers">
+<title>(4.5) Resellers' Guide</title>
+<simpara>Guide for resellers</simpara>
+<section xml:id="_section_1_3">
+<title>Section 1</title>
+
+</section>
+<section xml:id="_section_2_3">
+<title>Section 2</title>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: +1</simpara>
+</section>
+</chapter>
+<chapter xml:id="id-system-integrations">
+<title>(5.6) System Integrations</title>
+<simpara>Guide for system integrators</simpara>
+<section xml:id="_section_1_4">
+<title>Section 1</title>
+<simpara>some sections here</simpara>
+</section>
+<section xml:id="_section_2_4">
+<title>Section 2</title>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: 1</simpara>
+</section>
+</chapter>
+<chapter xml:id="_6_guide_by_industry">
+<title>(6) Guide by Industry</title>
+<section xml:id="_section_1_5">
+<title>Section 1</title>
+<simpara>testing</simpara>
+</section>
+<section xml:id="_section_2_5">
+<title>Section 2</title>
+<simpara>asdf</simpara>
+<itemizedlist>
+<listitem>
+<simpara>IT and Consumer Electronics Industry</simpara>
+</listitem>
+<listitem>
+<simpara>Pharmacies</simpara>
+</listitem>
+<listitem>
+<simpara>Automotive Repairs</simpara>
+</listitem>
+<listitem>
+<simpara>Manufacturing</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: 1</simpara>
+</section>
+</chapter>
+<chapter xml:id="_7_modules_guide">
+<title>(7) Modules Guide</title>
+<simpara>The module Guide</simpara>
+<section xml:id="_section_1_6">
+<title>Section 1</title>
+<simpara>testing</simpara>
+</section>
+<section xml:id="_section_2_6">
+<title>Section 2</title>
+<simpara>asdf</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara>:leveloffset: 1</simpara>
+</section>
+</chapter>
+<chapter xml:id="_8_applet_directory">
+<title>(8) Applet Directory</title>
+<simpara>list all the applets here.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+</chapter>
+</book>

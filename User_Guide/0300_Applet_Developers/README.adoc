@@ -1,4 +1,12 @@
-= Applet Developers' Guide
+[#id-applet-developers]
+== ({counter2:guide_no}{guide_no}.{counter2:chapter_no}{chapter_no}) Applet Developers Guide
+:doctype: book
 
-== Signing up your bigledger account
+Guid for applet Developers
 
+=== Signing up your bigledger account
+
+
+
+// This is the page break
+<<<<<<<<<<<

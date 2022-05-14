@@ -1,6 +1,17 @@
-= Guide by Industry
+== ({counter2:guide_no}{guide_no}) Guide by Industry
+:doctype: book
+
+=== Section 1
+
+testing
+
+=== Section 2
+
+asdf
 
 * IT and Consumer Electronics Industry
 * Pharmacies
 * Automotive Repairs
 * Manufacturing
+
+<<<<<<<<<<<

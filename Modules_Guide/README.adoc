@@ -1,3 +1,14 @@
-= Modules Guide
+== ({counter2:guide_no}{guide_no}) Modules Guide
+:doctype: book
 
 The module Guide
+
+=== Section 1
+
+testing
+
+=== Section 2
+
+asdf
+
+<<<<<<<<<<
