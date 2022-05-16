@@ -1,0 +1,13 @@
+[#section-car-workshops-industry]
+=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Car Workshops
+:doctype: book
+
+==== Problems
+
+
+==== Solutions
+
+
+==== Features
+
+

@@ -199,39 +199,120 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </chapter>
 <chapter xml:id="chapter-industry-guide">
 <title>(2) Guide by Industry</title>
-<section xml:id="_section_1_5">
-<title>Section 1</title>
-<simpara>testing</simpara>
-</section>
-<section xml:id="_section_2_5">
-<title>Section 2</title>
-<simpara>asdf</simpara>
+<simpara>This guide by industry provide :</simpara>
 <itemizedlist>
 <listitem>
-<simpara>IT and Consumer Electronics Industry</simpara>
+<simpara>use cases</simpara>
 </listitem>
 <listitem>
-<simpara>Pharmacies</simpara>
+<simpara>case study</simpara>
 </listitem>
 <listitem>
-<simpara>Automotive Repairs</simpara>
-</listitem>
-<listitem>
-<simpara>Manufacturing</simpara>
+<simpara>key paint points and feature of each industry</simpara>
 </listitem>
 </itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara></simpara>
+<section xml:id="section-consumer-electronics-industry">
+<title>(2.7) Consumer Electronics Industry</title>
+<section xml:id="_problems">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features">
+<title>Features</title>
+
+</section>
+</section>
+<section xml:id="section-pharmacy-industry">
+<title>(2.8) Pharmacies</title>
+<section xml:id="_problems_2">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions_2">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features_2">
+<title>Features</title>
+
+</section>
+</section>
+<section xml:id="section-car-workshops-industry">
+<title>(2.9) Car Workshops</title>
+<section xml:id="_problems_3">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions_3">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features_3">
+<title>Features</title>
+
+</section>
+</section>
+<section xml:id="section-retail-chainstores-industry">
+<title>(2.10) Retail Chainstores</title>
+<section xml:id="_problems_4">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions_4">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features_4">
+<title>Features</title>
+
+</section>
+</section>
+<section xml:id="section-logistics-industry">
+<title>(2.11) Logistics Industry</title>
+<section xml:id="_problems_5">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions_5">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features_5">
+<title>Features</title>
+
+</section>
+</section>
+<section xml:id="section-manufacturing-industry">
+<title>(2.12) Manufacturing Industry</title>
+<section xml:id="_problems_6">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions_6">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features_6">
+<title>Features</title>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara></simpara>
+</section>
 </section>
 </chapter>
 <chapter xml:id="chapter-modules-guide">
 <title>(3) Modules Guide</title>
 <simpara>The module Guide</simpara>
-<section xml:id="_section_1_6">
+<section xml:id="_section_1_5">
 <title>Section 1</title>
 <simpara>testing</simpara>
 </section>
-<section xml:id="_section_2_6">
+<section xml:id="_section_2_5">
 <title>Section 2</title>
 <simpara>asdf</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>

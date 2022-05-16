@@ -1,0 +1,13 @@
+[#section-manufacturing-industry]
+=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Manufacturing Industry
+:doctype: book
+
+==== Problems
+
+
+==== Solutions
+
+
+==== Features
+
+

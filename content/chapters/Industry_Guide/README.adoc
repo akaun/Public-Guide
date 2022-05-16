@@ -2,17 +2,29 @@
 == ({counter2:guide_no}{guide_no}) Guide by Industry
 :doctype: book
 
-=== Section 1
+This guide by industry provide :
 
-testing
+* use cases
 
-=== Section 2
+* case study
 
-asdf
+* key paint points and feature of each industry
 
-* IT and Consumer Electronics Industry
-* Pharmacies
-* Automotive Repairs
-* Manufacturing
+<<<<<<<<<<<
+
+{counter2:chapter_no}
+
+include::0100_Consumer_Electronics/README.adoc[]
+
+include::0200_Pharmacies/README.adoc[]
+
+include::0300_Car_Workshops/README.adoc[]
+
+include::0400_Retail_Chainstores/README.adoc[]
+
+include::0500_Logistics/README.adoc[]
+
+include::0600_Manufacturing/README.adoc[]
+
 
 <<<<<<<<<<<

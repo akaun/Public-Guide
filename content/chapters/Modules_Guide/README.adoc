@@ -2,7 +2,10 @@
 == ({counter2:guide_no}{guide_no}) Modules Guide
 :doctype: book
 
-The module Guide
+The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.
+
+
+
 
 === Section 1
 
