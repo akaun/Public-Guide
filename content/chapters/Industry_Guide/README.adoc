@@ -10,9 +10,7 @@ This guide by industry provide :
 
 * key paint points and feature of each industry
 
-<<<<<<<<<<<
-
-{counter2:chapter_no}
+<<<<<<<<<<
 
 include::0100_Consumer_Electronics/README.adoc[]
 

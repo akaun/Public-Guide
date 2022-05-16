@@ -1,5 +1,5 @@
 [#section-retail-chainstores-industry]
-=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Retail Chainstores
+=== ({guide_no}.{counter2:chapter_no_industry_guide}{chapter_no_industry_guide}) Retail Chainstores
 :doctype: book
 
 ==== Problems

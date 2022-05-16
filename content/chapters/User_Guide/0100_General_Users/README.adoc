@@ -1,8 +1,8 @@
 [#section-general-users]
-=== ({guide_no}.{counter2:chapter_no}{chapter_no}) General Users
+=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) General Users
 :doctype: book
 
-//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users
+//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no_user_guide:2}{chapter_no_user_guide}) General Users
 
 The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting https://akaun.com/
 

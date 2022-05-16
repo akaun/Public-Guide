@@ -1,5 +1,5 @@
 [#section-project-implementors]
-=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Project Implementors
+=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) Project Implementors
 :doctype: book
 
 //== ({counter2:guide_no}{guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users

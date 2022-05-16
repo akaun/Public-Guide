@@ -1,5 +1,5 @@
 [#section-tenant-owners]
-=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Tenant Owners
+=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) Tenant Owners
 :doctype: book
 
 Platform Guide for Tenant Owners

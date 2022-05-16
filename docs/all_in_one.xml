@@ -53,7 +53,6 @@ To view this in other formats, click on the following:</simpara>
 <title>(1) Public Guide by User Types</title>
 <simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 <section xml:id="section-general-users">
 <title>(1.1) General Users</title>
 <simpara>The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting <link xl:href="https://akaun.com/">https://akaun.com/</link></simpara>
@@ -131,7 +130,6 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </tgroup>
 </informaltable>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 </section>
 </section>
 <section xml:id="section-project-implementors">
@@ -144,7 +142,6 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <section xml:id="_section_2">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 </section>
 </section>
 <section xml:id="section-tenant-owners">
@@ -157,7 +154,6 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <section xml:id="_section_2_2">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 </section>
 </section>
 <section xml:id="section-applet-developers">
@@ -166,7 +162,6 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <section xml:id="_signing_up_your_bigledger_account">
 <title>Signing up your bigledger account</title>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 </section>
 </section>
 <section xml:id="section-resellers">
@@ -179,7 +174,6 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <section xml:id="_section_2_3">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 </section>
 </section>
 <section xml:id="section-system-integrations">
@@ -212,9 +206,8 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </listitem>
 </itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
-<simpara></simpara>
 <section xml:id="section-consumer-electronics-industry">
-<title>(2.7) Consumer Electronics Industry</title>
+<title>(2.1) Consumer Electronics Industry</title>
 <section xml:id="_problems">
 <title>Problems</title>
 
@@ -229,7 +222,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-pharmacy-industry">
-<title>(2.8) Pharmacies</title>
+<title>(2.2) Pharmacies</title>
 <section xml:id="_problems_2">
 <title>Problems</title>
 
@@ -244,7 +237,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-car-workshops-industry">
-<title>(2.9) Car Workshops</title>
+<title>(2.3) Car Workshops</title>
 <section xml:id="_problems_3">
 <title>Problems</title>
 
@@ -259,7 +252,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-retail-chainstores-industry">
-<title>(2.10) Retail Chainstores</title>
+<title>(2.4) Retail Chainstores</title>
 <section xml:id="_problems_4">
 <title>Problems</title>
 
@@ -274,7 +267,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-logistics-industry">
-<title>(2.11) Logistics Industry</title>
+<title>(2.5) Logistics Industry</title>
 <section xml:id="_problems_5">
 <title>Problems</title>
 
@@ -289,7 +282,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-manufacturing-industry">
-<title>(2.12) Manufacturing Industry</title>
+<title>(2.6) Manufacturing Industry</title>
 <section xml:id="_problems_6">
 <title>Problems</title>
 
@@ -307,7 +300,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </chapter>
 <chapter xml:id="chapter-modules-guide">
 <title>(3) Modules Guide</title>
-<simpara>The module Guide</simpara>
+<simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
 <section xml:id="_section_1_5">
 <title>Section 1</title>
 <simpara>testing</simpara>

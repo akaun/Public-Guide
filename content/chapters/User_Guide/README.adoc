@@ -7,27 +7,21 @@ This repository contains all the source code for publishing the Akaun Platform P
 
 <<<<<<<<<<<
 
-{counter2:chapter_no}
 
 include::0100_General_Users/README.adoc[]
 
-{counter2:chapter_no}
 
 include::0150_Project_Implementors/README.adoc[]
 
-{counter2:chapter_no}
 
 include::0200_Tenant_Owners/README.adoc[]
 
-{counter2:chapter_no}
 
 include::0300_Applet_Developers/README.adoc[]
 
-{counter2:chapter_no}
 
 include::0400_Resellers/README.adoc[]
 
-{counter2:chapter_no}
 
 include::0500_System_Integrations/README.adoc[]
 
