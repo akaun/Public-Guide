@@ -1,3 +1,4 @@
+echo 'Compiling build/all_in_one/single_file.html....'
 asciidoctor -o docs/index.html all_in_one.adoc
 asciidoctor -b docbook5 -o docs/all_in_one.xml all_in_one.adoc
 asciidoctor -o docs/all_in_one-$(date +%Y-%m-%d).html all_in_one.adoc
