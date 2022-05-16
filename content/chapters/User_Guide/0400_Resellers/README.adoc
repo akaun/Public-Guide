@@ -1,4 +1,4 @@
-[#id-resellers]
+[#section-resellers]
 === ({guide_no}.{counter2:chapter_no}{chapter_no}) Resellers' Guide
 :doctype: book
 

@@ -1,4 +1,4 @@
-[#id-applet-directory]
+[#chapter-applet-directory]
 == ({counter2:guide_no}{guide_no}) Applet Directory
 :doctype: book
 

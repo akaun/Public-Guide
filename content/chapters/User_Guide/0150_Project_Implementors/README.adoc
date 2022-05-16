@@ -1,0 +1,16 @@
+[#section-project-implementors]
+=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Project Implementors
+:doctype: book
+
+//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users
+
+Guide for Project Implementors
+
+==== Section 1
+
+some sections here
+
+==== Section 2
+
+// This is the page break
+<<<<<<<<<<<

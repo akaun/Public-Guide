@@ -1,4 +1,4 @@
-[#id-guide-by-users]
+[#chapter-user-guid]
 == ({counter2:guide_no}{guide_no}) Public Guide by User Types
 :doctype: book
 
@@ -10,6 +10,10 @@ This repository contains all the source code for publishing the Akaun Platform P
 {counter2:chapter_no}
 
 include::0100_General_Users/README.adoc[]
+
+{counter2:chapter_no}
+
+include::0150_Project_Implementors/README.adoc[]
 
 {counter2:chapter_no}
 

@@ -1,4 +1,4 @@
-[#id-applet-developers]
+[#section-applet-developers]
 === ({guide_no}.{counter2:chapter_no}{chapter_no}) Applet Developers Guide
 :doctype: book
 

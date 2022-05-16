@@ -1,4 +1,4 @@
-[#id-guide-by-industry]
+[#chapter-industry-guide]
 == ({counter2:guide_no}{guide_no}) Guide by Industry
 :doctype: book
 

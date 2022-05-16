@@ -1,4 +1,4 @@
-[#id-tenant-owners]
+[#section-tenant-owners]
 === ({guide_no}.{counter2:chapter_no}{chapter_no}) Tenant Owners
 :doctype: book
 

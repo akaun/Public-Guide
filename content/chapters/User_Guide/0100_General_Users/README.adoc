@@ -1,16 +1,65 @@
-[#id-general-users]
+[#section-general-users]
 === ({guide_no}.{counter2:chapter_no}{chapter_no}) General Users
 :doctype: book
 
 //== ({counter2:guide_no}{guide_no}.{counter2:chapter_no:2}{chapter_no}) General Users
 
-User guide for platform users.
+The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting https://akaun.com/
 
-==== Section 1
 
-some sections here
+==== Your AkaunID 
 
-==== Section 2
+It is important for you to understand that with a single AkaunID, it is possible for you to have multiple Sign-In methods. You could be using an email with password, a phone number with the same password, you could also be adding access keys to your AkaunID for integration purposes.
 
-// This is the page break
+==== The Production, Staging and Development Environment
+
+The very first thing to know is to understand the usage of each of the following environments.
+
+|===
+| Environment | URL | Custom Domain |  Description
+
+| Production
+| https://akaun.com
+| https://<something>.akaun.net
+| This is the life environment, used by real businesses in their day to day operations.
+
+| Staging
+| https://akaun.com
+| https://<something>.akaun.app
+| This environment is usually used for testing by the customers and project managers. New features are tested by the end users here before it gets deployed to the production environment.
+
+| Development
+| https://akaun.dev
+| https://<something>.akaun.xyz
+| This environment is usually used by the software developers to do their experiments. 
+
+|===
+
+If you have registered an AkaunID to login to the Production environment, that doesn't mean you have the same AkaunID registered in the Staging Environment and vice versa. 
+
+
+==== Understanding Root vs Tenant 
+
+Within a single environment (Production vs Staging vs Development) there's one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.
+
+
+|===
+
+| Rank of a users in a Tenant | Description
+
+| OWNER
+| The OWNER of a tenant is able to add any applets to an "applet catalog" if the person is also the owner/admin of the "applet catalog". The OWNER is able to add, remove or promote another user in the tenant to be the OWNER of the tenant. This RANK is usually granted to the business owners or MIS Manager of a company.
+
+| ADMIN
+| The ADMIN of a tenant can do almost everything that the OWNER can do, except adding , removing or promoting another user in the tenant to become the OWNER. This role is usually granted to the MIS Executive or managers in a company.
+
+| MEMBER
+| The MEMBER Rank does not entitle a user to administer the Tenants , Applet Catalogs, they can however, become the OWNER/ADMIN or MEMBER of an Applet after they installed the specific applet. 
+It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the same as the "OWNER/ADMIN" of the "Applet"
+
+|===
+
+
+
+
 <<<<<<<<<<<

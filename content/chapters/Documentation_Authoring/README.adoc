@@ -1,0 +1,64 @@
+[#chapter-documentation-authoring]
+== ({counter2:guide_no}{guide_no}) Documentation Authoring
+:doctype: book
+
+=== Authoring this Documentation
+
+If you wish to contribute to this documentation, kindly follow the steps below:
+
+=== Setup and Configurations
+
+==== Github Repository
+
+* Registering a Github Users
+
+* Downloading the Github Desktop Client
+
+* Accessing the repository
+
+====  Visual Studio Code
+
+* Downloading Visual Studio Code
+
+* Installing extensions
+
+* Checking out the source code
+
+* Creating a new branch for your edit
+
+* Pull request to the main branch
+
+
+==== Installing the AsciiDoctor Tool Chain
+
+
+=== Understanding the Directory Structure
+
+|===
+
+| Folder Name | Description
+
+| bin
+| This folder contains shell scripts that you need to install and setup. You will also see a file called all_in_one.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "docs" folder. You shouldn't be editing any files in this folder.
+
+| build
+| This is a temporary folder that gets deleted and re-created every time we "compile" the documentation. You shouldn't need to mess with files in this folder.
+
+| content
+| This is where you will be contributing by editing the files in this folder.
+
+| docs
+| You shouldn't need to edit any files in this folder. But you are welcome to open the files in this folder to check the "compiled output" of your changes , to ensure they are correct before pushing your code to the github, and request for your branch to be merged with the "main" branch in github.
+
+|===
+
+
+
+
+
+
+
+=== 
+
+
+<<<<<<<<<<<

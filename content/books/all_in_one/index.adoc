@@ -36,3 +36,9 @@ include::../../chapters/Modules_Guide/README.adoc[]
 {counter2:guide_no}
 
 include::../../chapters/Applet_Directory/README.adoc[]
+
+{counter2:guide_no}
+
+include::../../chapters/Documentation_Authoring/README.adoc[]
+
+

@@ -49,14 +49,90 @@ To view this in other formats, click on the following:</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara></simpara>
 </preface>
-<chapter xml:id="id-guide-by-users">
+<chapter xml:id="chapter-user-guid">
 <title>(1) Public Guide by User Types</title>
 <simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara></simpara>
-<section xml:id="id-general-users">
+<section xml:id="section-general-users">
 <title>(1.1) General Users</title>
-<simpara>User guide for platform users.</simpara>
+<simpara>The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting <link xl:href="https://akaun.com/">https://akaun.com/</link></simpara>
+<section xml:id="_the_production_staging_and_development_environment">
+<title>The Production, Staging and Development Environment</title>
+<simpara>The very first thing to know is to understand the usage of each of the following environments.</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="4">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="25*"/>
+<colspec colname="col_3" colwidth="25*"/>
+<colspec colname="col_4" colwidth="25*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Environment</entry>
+<entry align="left" valign="top">URL</entry>
+<entry align="left" valign="top">Custom Domain</entry>
+<entry align="left" valign="top">Description</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Production</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.com">https://akaun.com</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://&lt;something&gt;.akaun.net">https://&lt;something&gt;.akaun.net</link></simpara></entry>
+<entry align="left" valign="top"><simpara>This is the life environment, used by real businesses in their day to day operations.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Staging</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.com">https://akaun.com</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://&lt;something&gt;.akaun.app">https://&lt;something&gt;.akaun.app</link></simpara></entry>
+<entry align="left" valign="top"><simpara>This environment is usually used for testing by the customers and project managers. New features are tested by the end users here before it gets deployed to the production environment.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Development</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.dev">https://akaun.dev</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://&lt;something&gt;.akaun.xyz">https://&lt;something&gt;.akaun.xyz</link></simpara></entry>
+<entry align="left" valign="top"><simpara>This environment is usually used by the software developers to do their experiments.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara>If you have registered an AkaunID to login to the Production environment, that doesn&#8217;t mean you have the same AkaunID registered in the Staging Environment and vice versa.</simpara>
+</section>
+<section xml:id="_understanding_root_vs_tenant">
+<title>Understanding Root vs Tenant</title>
+<simpara>Within a single environment (Production vs Staging vs Development) there&#8217;s one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Rank of a users in a Tenant</simpara></entry>
+<entry align="left" valign="top"><simpara>Description</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>OWNER</simpara></entry>
+<entry align="left" valign="top"><simpara>The OWNER of a tenant is able to add any applets to an "applet catalog" if the person is also the owner/admin of the "applet catalog". The OWNER is able to add, remove or promote another user in the tenant to be the OWNER of the tenant. This RANK is usually granted to the business owners or MIS Manager of a company.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ADMIN</simpara></entry>
+<entry align="left" valign="top"><simpara>The ADMIN of a tenant can do almost everything that the OWNER can do, except adding , removing or promoting another user in the tenant to become the OWNER. This role is usually granted to the MIS Executive or managers in a company.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>MEMBER</simpara></entry>
+<entry align="left" valign="top"><simpara>The MEMBER Rank does not entitle a user to administer the Tenants , Applet Catalogs, they can however, become the OWNER/ADMIN or MEMBER of an Applet after they installed the specific applet.
+It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the same as the "OWNER/ADMIN" of the "Applet"</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara></simpara>
+</section>
+</section>
+<section xml:id="section-project-implementors">
+<title>(1.2) Project Implementors</title>
+<simpara>Guide for Project Implementors</simpara>
 <section xml:id="_section_1">
 <title>Section 1</title>
 <simpara>some sections here</simpara>
@@ -67,8 +143,8 @@ To view this in other formats, click on the following:</simpara>
 <simpara></simpara>
 </section>
 </section>
-<section xml:id="id-tenant-owners">
-<title>(1.2) Tenant Owners</title>
+<section xml:id="section-tenant-owners">
+<title>(1.3) Tenant Owners</title>
 <simpara>Platform Guide for Tenant Owners</simpara>
 <section xml:id="_section_1_2">
 <title>Section 1</title>
@@ -80,8 +156,8 @@ To view this in other formats, click on the following:</simpara>
 <simpara></simpara>
 </section>
 </section>
-<section xml:id="id-applet-developers">
-<title>(1.3) Applet Developers Guide</title>
+<section xml:id="section-applet-developers">
+<title>(1.4) Applet Developers Guide</title>
 <simpara>Guid for applet Developers</simpara>
 <section xml:id="_signing_up_your_bigledger_account">
 <title>Signing up your bigledger account</title>
@@ -89,8 +165,8 @@ To view this in other formats, click on the following:</simpara>
 <simpara></simpara>
 </section>
 </section>
-<section xml:id="id-resellers">
-<title>(1.4) Resellers' Guide</title>
+<section xml:id="section-resellers">
+<title>(1.5) Resellers' Guide</title>
 <simpara>Guide for resellers</simpara>
 <section xml:id="_section_1_3">
 <title>Section 1</title>
@@ -102,8 +178,8 @@ To view this in other formats, click on the following:</simpara>
 <simpara></simpara>
 </section>
 </section>
-<section xml:id="id-system-integrations">
-<title>(1.5) System Integrations</title>
+<section xml:id="section-system-integrations">
+<title>(1.6) System Integrations</title>
 <simpara>Guide for system integrators</simpara>
 <section xml:id="_section_1_4">
 <title>Section 1</title>
@@ -117,7 +193,7 @@ To view this in other formats, click on the following:</simpara>
 </section>
 </section>
 </chapter>
-<chapter xml:id="id-guide-by-industry">
+<chapter xml:id="chapter-industry-guide">
 <title>(2) Guide by Industry</title>
 <section xml:id="_section_1_5">
 <title>Section 1</title>
@@ -144,7 +220,7 @@ To view this in other formats, click on the following:</simpara>
 <simpara></simpara>
 </section>
 </chapter>
-<chapter xml:id="id-guide-by-module">
+<chapter xml:id="chapter-modules-guide">
 <title>(3) Modules Guide</title>
 <simpara>The module Guide</simpara>
 <section xml:id="_section_1_6">
@@ -158,7 +234,7 @@ To view this in other formats, click on the following:</simpara>
 <simpara></simpara>
 </section>
 </chapter>
-<chapter xml:id="id-applet-directory">
+<chapter xml:id="chapter-applet-directory">
 <title>(4) Applet Directory</title>
 <section xml:id="_section_here">
 <title>Section here</title>
