@@ -31,19 +31,19 @@
 <textobject><phrase>BigLedger Logo</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<informaltable frame="none" rowsep="0" colsep="0">
-<?dbhtml table-width="50%"?>
-<?dbfo table-width="50%"?>
-<?dblatex table-width="50%"?>
-<tgroup cols="1">
-<colspec colname="col_1" colwidth="212.5*"/>
-<tbody>
-<row>
-<entry align="left" valign="top"><simpara>This is the public guide that provides all public use cases of the Akaun Platform</simpara></entry>
-</row>
-</tbody>
-</tgroup>
-</informaltable>
+<simpara>This is the public guide that provides all public use cases of the Akaun Platform.
+To view this in other formats, click on the following:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="all_in_one.epub">Epub Format</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="all_in_one.html">Single File HTML</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="all_in_one.pdf">PDF Format</link></simpara>
+</listitem>
+</itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
 
 <simpara><?asciidoc-pagebreak?></simpara>
