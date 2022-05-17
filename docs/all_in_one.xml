@@ -345,7 +345,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </itemizedlist>
 <simpara><inlinemediaobject>
 <imageobject>
-<imagedata fileref="assets/github_akaun_PublicGuide_download_code.png"/>
+<imagedata fileref="./assets/github_akaun_PublicGuide_download_code.png"/>
 </imageobject>
 <textobject><phrase>Download source code</phrase></textobject>
 </inlinemediaobject></simpara>
