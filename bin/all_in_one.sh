@@ -28,3 +28,8 @@ cp -r build/all_in_one/www/* docs
 cp -r content/books/all_in_one/assets  build/all_in_one/www
 cp -r content/books/all_in_one/assets  docs
 cp ./build/all_in_one/all_in_one* docs
+
+echo 'Pushing to github...'
+git add .
+git commit -m "Compiled and commit .."
+git push
