@@ -51,7 +51,6 @@ To view this in other formats, click on the following:</simpara>
 <chapter xml:id="chapter-user-guid">
 <title>Guide by User Types</title>
 <simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
-<simpara><?asciidoc-pagebreak?></simpara>
 <section xml:id="section-general-users">
 <title>General Users</title>
 <simpara>The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting <link xl:href="https://akaun.com/">https://akaun.com/</link></simpara>
@@ -297,13 +296,78 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <chapter xml:id="chapter-modules-guide">
 <title>Guide by Modules</title>
 <simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
-<section xml:id="_section_1_5">
-<title>Section 1</title>
-<simpara>testing</simpara>
+<section xml:id="section_core_module">
+<title>Core Module</title>
+<section xml:id="_overview">
+<title>Overview</title>
+
 </section>
-<section xml:id="_section_2_5">
-<title>Section 2</title>
-<simpara>asdf</simpara>
+<section xml:id="_benefits">
+<title>Benefits</title>
+
+</section>
+<section xml:id="_related_applets">
+<title>Related Applets</title>
+
+</section>
+<section xml:id="_pricing">
+<title>Pricing</title>
+
+</section>
+</section>
+<section xml:id="section_accounting_module">
+<title>Accounting Module</title>
+<section xml:id="_overview_2">
+<title>Overview</title>
+
+</section>
+<section xml:id="_features_7">
+<title>Features</title>
+
+</section>
+</section>
+<section xml:id="section_pos_module">
+<title>Point of Sales Module</title>
+
+</section>
+<section xml:id="section_manufacturing_module">
+<title>Manufacturing Module</title>
+
+</section>
+<section xml:id="section_membership_module">
+<title>Membership Module</title>
+
+</section>
+<section xml:id="section_mlm_module">
+<title>Multilevel Marketing Module</title>
+
+</section>
+<section xml:id="section_ucc_module">
+<title>Unified Contact Center Module</title>
+
+</section>
+<section xml:id="section_inventory_module">
+<title>Inventory Module</title>
+
+</section>
+<section xml:id="section_ecomsync_module">
+<title>EcomSync Module</title>
+
+</section>
+<section xml:id="section_delivery_module">
+<title>Delivery Module</title>
+
+</section>
+<section xml:id="section_cp_commerce_module">
+<title>Cross Platform Commerce</title>
+
+</section>
+<section xml:id="section_procure_to_pay_module">
+<title>Procure to Pay Module</title>
+
+</section>
+<section xml:id="section_order_to_cash_module">
+<title>Order To Cash Module</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>

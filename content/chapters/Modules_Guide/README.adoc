@@ -7,13 +7,31 @@ The Akaun platform is like lego blocks, users will be able to mix and match diff
 
 
 
+include::0100_Core_Module/README.adoc[]
 
-=== Section 1
+include::0200_Accounting_Module/README.adoc[]
 
-testing
+include::0300_POS_Module/README.adoc[]
 
-=== Section 2
+include::0400_Manufacturing_Module/README.adoc[]
 
-asdf
+include::0500_Membership_Module/README.adoc[]
+
+include::0600_MLM_Module/README.adoc[]
+
+include::0700_UCC_Module/README.adoc[]
+
+include::0800_Inventory_Module/README.adoc[]
+
+include::0900_EcomSync_Module/README.adoc[]
+
+include::1000_Delivery_Module/README.adoc[]
+
+include::1100_CP_Commerce_Module/README.adoc[]
+
+include::1200_Procure_To_Pay_Module/README.adoc[]
+
+include::1500_Order_To_Cash_Module/README.adoc[]
+
 
 <<<<<<<<<<
