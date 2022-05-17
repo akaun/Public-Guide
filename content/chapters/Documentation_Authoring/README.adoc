@@ -19,7 +19,8 @@ You can request the HR department to grant you access to the mailto:hr@wavelet.n
 
 * Downloading the Github Desktop Client by clicking on the button below:
 
-image::assets/github_akaun_PublicGuide_download_code.png[Download source code]
+image::chapters/Documentation_Authoring/assets/github_akaun_PublicGuide_download_code.png[] 
+//assets/github_akaun_PublicGuide_download_code.png[Download source code]
 //image::content/chapters/Documentation_Authoring/assets/github_akaun_PublicGuide_download_code.png[]
 
 Please visit https://desktop.github.com/ to download the Github Desktop.
