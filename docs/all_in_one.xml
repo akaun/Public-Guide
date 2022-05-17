@@ -325,7 +325,19 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <title>(5) Documentation Authoring</title>
 <section xml:id="_authoring_this_documentation">
 <title>Authoring this Documentation</title>
-<simpara>If you wish to contribute to this documentation, kindly follow the steps below:</simpara>
+<simpara>This documentation is written using asciidoc, please take a few minutes to go through the following guide:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://docs.asciidoctor.org/asciidoctor/latest/">https://docs.asciidoctor.org/asciidoctor/latest/</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">https://docs.asciidoctor.org/asciidoc/latest/</link></simpara>
+</listitem>
+</itemizedlist>
+<simpara>Some useful videos:
+* <link xl:href="https://www.youtube.com/watch?v=KbmpBZO4EoY">https://www.youtube.com/watch?v=KbmpBZO4EoY</link>
+* <link xl:href="https://www.youtube.com/watch?v=GL1SEYOhEiQ">https://www.youtube.com/watch?v=GL1SEYOhEiQ</link>
+* <link xl:href="https://www.youtube.com/watch?v=wca5m7JpS_U">https://www.youtube.com/watch?v=wca5m7JpS_U</link></simpara>
 </section>
 <section xml:id="_setup_and_configurations">
 <title>Setup and Configurations</title>

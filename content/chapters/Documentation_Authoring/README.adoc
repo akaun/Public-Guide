@@ -4,7 +4,16 @@
 
 === Authoring this Documentation
 
-If you wish to contribute to this documentation, kindly follow the steps below:
+This documentation is written using asciidoc, please take a few minutes to go through the following guide:
+
+* https://docs.asciidoctor.org/asciidoctor/latest/
+* https://docs.asciidoctor.org/asciidoc/latest/ 
+
+Some useful videos:
+* https://www.youtube.com/watch?v=KbmpBZO4EoY
+* https://www.youtube.com/watch?v=GL1SEYOhEiQ
+* https://www.youtube.com/watch?v=wca5m7JpS_U 
+
 
 === Setup and Configurations
 
