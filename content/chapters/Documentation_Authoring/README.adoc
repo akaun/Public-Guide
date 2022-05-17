@@ -10,11 +10,24 @@ If you wish to contribute to this documentation, kindly follow the steps below:
 
 ==== Github Repository
 
-* Registering a Github Users
+* Github User Account
 
-* Downloading the Github Desktop Client
+In order to author this documentation, you will need to have a https://github.com account. As an employee of Wavelet.net or BigLedger.com , you will be using the <username>@wavelet.net to register for the github user.
+
+You can request the HR department to grant you access to the mailto:hr@wavelet.net[hr@wavelet.net] to grant you the access to Github Akaun organization (https://github.com/akaun).
+
+
+* Downloading the Github Desktop Client by clicking on the button below:
+
+image::./assets/github_akaun_PublicGuide_download_code.png[Download source code]
+
+Please visit https://desktop.github.com/ to download the Github Desktop.
 
 * Accessing the repository
+
+The repository is located at https://github.com/akaun/Public-Guide 
+
+You may click on the link below
 
 ====  Visual Studio Code
 

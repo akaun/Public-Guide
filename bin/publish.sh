@@ -12,6 +12,7 @@ asciidoctor -b docbook5 -o build/all_in_one/all_in_one.xml content/books/all_in_
 
 echo 'Compiling PDF Format....'
 asciidoctor --trace -r asciidoctor-pdf -b pdf -o build/all_in_one/all_in_one.pdf content/books/all_in_one/index.adoc
+# asciidoctor -a route-style=monokai --trace -r asciidoctor-pdf -b pdf -o build/all_in_one/all_in_one.pdf content/books/all_in_one/index.adoc
 
 echo 'Compiling EPUB Format .....'
 asciidoctor-epub3 -o build/all_in_one/all_in_one.epub content/books/all_in_one/index.adoc
