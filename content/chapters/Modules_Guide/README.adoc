@@ -1,6 +1,7 @@
 [#chapter-modules-guide]
-== ({counter2:guide_no}{guide_no}) Modules Guide
-:doctype: book
+== Guide by Modules
+//== ({counter2:guide_no}{guide_no}) Modules Guide
+//:doctype: book
 
 The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.
 

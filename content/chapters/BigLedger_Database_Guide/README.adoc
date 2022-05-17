@@ -1,2 +1,18 @@
+[#chapter_bigledger_database_guide]
+== BigLedger Database Guide
+
+=== Overview
+
+==== Database Schema
+
+==== Liquibase
+
+=== The Root Database Schema
+
+
+=== The Tenant Database Schema
+
+
+
 //  TODO: Need to write a database guide
 

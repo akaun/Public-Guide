@@ -1,6 +1,6 @@
 [#chapter-industry-guide]
-== ({counter2:guide_no}{guide_no}) Guide by Industry
-:doctype: book
+== Guide by Industry
+//== ({counter2:guide_no}{guide_no}) Guide by Industry
 
 This guide by industry provide :
 
@@ -10,7 +10,6 @@ This guide by industry provide :
 
 * key paint points and feature of each industry
 
-<<<<<<<<<<
 
 include::0100_Consumer_Electronics/README.adoc[]
 
