@@ -53,7 +53,7 @@ To view this in other formats, click on the following:</simpara>
 <simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 <section xml:id="section-general-users">
-<title>({guide_no}.1) General Users</title>
+<title>General Users</title>
 <simpara>The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting <link xl:href="https://akaun.com/">https://akaun.com/</link></simpara>
 <section xml:id="_your_akaunid">
 <title>Your AkaunID</title>
@@ -132,7 +132,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-project-implementors">
-<title>({guide_no}.2) Project Implementors</title>
+<title>Project Implementors</title>
 <simpara>Guide for Project Implementors</simpara>
 <section xml:id="_section_1">
 <title>Section 1</title>
@@ -144,7 +144,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-tenant-owners">
-<title>({guide_no}.3) Tenant Owners</title>
+<title>Tenant Owners</title>
 <simpara>Platform Guide for Tenant Owners</simpara>
 <section xml:id="_section_1_2">
 <title>Section 1</title>
@@ -156,7 +156,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-applet-developers">
-<title>({guide_no}.4) Applet Developers Guide</title>
+<title>Applet Developers</title>
 <simpara>Guid for applet Developers</simpara>
 <section xml:id="_signing_up_your_bigledger_account">
 <title>Signing up your bigledger account</title>
@@ -164,7 +164,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-resellers">
-<title>({guide_no}.5) Resellers' Guide</title>
+<title>Reseller Guide</title>
 <simpara>Guide for resellers</simpara>
 <section xml:id="_section_1_3">
 <title>Section 1</title>
@@ -176,7 +176,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 </section>
 <section xml:id="section-system-integrations">
-<title>({guide_no}.6) System Integrations</title>
+<title>System Integrators</title>
 <simpara>Guide for system integrators</simpara>
 <section xml:id="_section_1_4">
 <title>Section 1</title>

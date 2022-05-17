@@ -1,6 +1,5 @@
 [#section-system-integrations]
-=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) System Integrations
-:doctype: book
+=== System Integrators
 
 Guide for system integrators
 
