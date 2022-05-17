@@ -334,10 +334,18 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara><link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">https://docs.asciidoctor.org/asciidoc/latest/</link></simpara>
 </listitem>
 </itemizedlist>
-<simpara>Some useful videos:
-* <link xl:href="https://www.youtube.com/watch?v=KbmpBZO4EoY">https://www.youtube.com/watch?v=KbmpBZO4EoY</link>
-* <link xl:href="https://www.youtube.com/watch?v=GL1SEYOhEiQ">https://www.youtube.com/watch?v=GL1SEYOhEiQ</link>
-* <link xl:href="https://www.youtube.com/watch?v=wca5m7JpS_U">https://www.youtube.com/watch?v=wca5m7JpS_U</link></simpara>
+<simpara>Some useful videos:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://www.youtube.com/watch?v=KbmpBZO4EoY">https://www.youtube.com/watch?v=KbmpBZO4EoY</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.youtube.com/watch?v=GL1SEYOhEiQ">https://www.youtube.com/watch?v=GL1SEYOhEiQ</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.youtube.com/watch?v=wca5m7JpS_U">https://www.youtube.com/watch?v=wca5m7JpS_U</link></simpara>
+</listitem>
+</itemizedlist>
 </section>
 <section xml:id="_setup_and_configurations">
 <title>Setup and Configurations</title>

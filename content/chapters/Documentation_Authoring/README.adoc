@@ -10,6 +10,7 @@ This documentation is written using asciidoc, please take a few minutes to go th
 * https://docs.asciidoctor.org/asciidoc/latest/ 
 
 Some useful videos:
+
 * https://www.youtube.com/watch?v=KbmpBZO4EoY
 * https://www.youtube.com/watch?v=GL1SEYOhEiQ
 * https://www.youtube.com/watch?v=wca5m7JpS_U 
