@@ -29,6 +29,7 @@ cp -r build/all_in_one/www/* docs
 cp -r content/assets  build/all_in_one/www
 cp -r content/assets  docs
 cp ./build/all_in_one/all_in_one* docs
+cp ./content/CNAME docs
 
 echo 'Pushing to github...'
 git add .
