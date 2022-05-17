@@ -2,10 +2,9 @@
 
 This public guide provides a high level understanding of how to make use of the Akaun Platform.
 
-include::User_Guide/README.adoc[]
+To setup and install in MacOS, just run
+bin/macos_install.sh
 
-include::Industry_Guide/README.adoc[]
+To compile and output the results in "docs" folder, just type
+bin/all_in_one.sh
 
-include::Modules_Guide/README.adoc[]
-
-include::Applet_Directory/README.adoc[]
