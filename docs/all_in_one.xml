@@ -343,14 +343,12 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara>Downloading the Github Desktop Client by clicking on the button below:</simpara>
 </listitem>
 </itemizedlist>
-<informalfigure>
-<mediaobject>
+<simpara><inlinemediaobject>
 <imageobject>
 <imagedata fileref="assets/github_akaun_PublicGuide_download_code.png"/>
 </imageobject>
 <textobject><phrase>Download source code</phrase></textobject>
-</mediaobject>
-</informalfigure>
+</inlinemediaobject></simpara>
 <simpara>Please visit <link xl:href="https://desktop.github.com/">https://desktop.github.com/</link> to download the Github Desktop.</simpara>
 <itemizedlist>
 <listitem>
