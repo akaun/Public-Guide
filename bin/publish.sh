@@ -34,5 +34,4 @@ cp ./content/CNAME docs
 echo 'Pushing to github...'
 git add .
 git commit -m "Compiled and commit .."
-git push --rebase
 open docs
