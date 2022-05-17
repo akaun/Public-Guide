@@ -349,6 +349,10 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <listitem>
 <simpara>Downloading Visual Studio Code</simpara>
 </listitem>
+</itemizedlist>
+<simpara>Please visit the following page to download.
+<link xl:href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</link></simpara>
+<itemizedlist>
 <listitem>
 <simpara>Installing extensions</simpara>
 </listitem>

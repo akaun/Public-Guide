@@ -11,14 +11,14 @@ echo 'Compiling DocBook format....'
 asciidoctor -b docbook5 -o build/all_in_one/all_in_one.xml content/books/all_in_one/index.adoc
 
 echo 'Compiling PDF Format....'
-asciidoctor -r asciidoctor-pdf -b pdf -o build/all_in_one/all_in_one.pdf content/books/all_in_one/index.adoc
+asciidoctor --trace -r asciidoctor-pdf -b pdf -o build/all_in_one/all_in_one.pdf content/books/all_in_one/index.adoc
 
 echo 'Compiling EPUB Format .....'
 asciidoctor-epub3 -o build/all_in_one/all_in_one.epub content/books/all_in_one/index.adoc
 # asciidoctor -r asciidoctor-epub3 -b epub3 -o docs/all_in_one.epub pub/all_in_one.adoc
 
 echo 'Compiling Multipage HTML .....'
-asciidoctor -r asciidoctor-multipage -b multipage_html5 -o index.html -D build/all_in_one/www content/books/all_in_one/index.adoc
+asciidoctor --trace -r asciidoctor-multipage -b multipage_html5 -o index.html -D build/all_in_one/www content/books/all_in_one/index.adoc
 cp -r content/books/all_in_one/assets build/all_in_one/www
 
 echo 'Cleaning up "docs/* folder....'

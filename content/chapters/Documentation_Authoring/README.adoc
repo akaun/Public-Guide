@@ -20,6 +20,9 @@ If you wish to contribute to this documentation, kindly follow the steps below:
 
 * Downloading Visual Studio Code
 
+Please visit the following page to download.
+https://code.visualstudio.com/download
+
 * Installing extensions
 
 * Checking out the source code
