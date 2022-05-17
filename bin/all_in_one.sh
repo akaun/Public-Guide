@@ -33,3 +33,4 @@ echo 'Pushing to github...'
 git add .
 git commit -m "Compiled and commit .."
 git push
+open docs
