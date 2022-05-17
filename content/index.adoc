@@ -7,6 +7,7 @@ v1.0, 2022-05-15
 :toclevels: 4 
 :table-caption!:
 :doctype: book
+:multipage-level: 2
 
 image::assets/bigledger_logo.jpeg[BigLedger Logo,align="center"]
 
