@@ -23,11 +23,43 @@ image::assets/github_akaun_PublicGuide_download_code.png[]
 
 Please visit https://desktop.github.com/ to download the Github Desktop.
 
+
 * Accessing the repository
 
-The repository is located at https://github.com/akaun/Public-Guide 
+After you have downloaded the github, please clone the https://github.com/akaun/Public-Guide to your local computer.
 
-You may click on the link below
+==== Asciidoctor Toolchain
+
+Depends on the operating systems you are using, please follow the instructions below accordingly:
+
+===== Installing Asciidoctor
+
+* Linux 
+**    https://docs.asciidoctor.org/asciidoctor/latest/install/linux-packaging/
+
+* Windows
+**    https://docs.asciidoctor.org/asciidoctor/latest/install/windows/
+
+* Mac
+**    https://asciidoctor.org/docs/install-asciidoctor-macos/ 
+**    https://docs.asciidoctor.org/asciidoctor/latest/install/macos/
+
+===== Installing Epub3 Converter
+
+Please click on the link below for detailed instructions: 
+
+https://docs.asciidoctor.org/epub3-converter/latest/
+
+
+===== Installing PDF Converter
+
+https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem
+
+
+===== Installing Multipage HTML Converter
+
+https://github.com/owenh000/asciidoctor-multipage
+
 
 ====  Visual Studio Code
 
@@ -36,16 +68,14 @@ You may click on the link below
 Please visit the following page to download.
 https://code.visualstudio.com/download
 
-* Installing extensions
+After you have installed the Visual Studio Code, please install the following extensions:
 
-* Checking out the source code
+* AsciiDoc
+* Github Pull Requests and Issues
+* vscode-pdf
 
-* Creating a new branch for your edit
+The next step is to open the folder where you cloned the https://github.com/akaun/Public-Guide repository using the Visual Studio Code
 
-* Pull request to the main branch
-
-
-==== Installing the AsciiDoctor Tool Chain
 
 
 === Understanding the Directory Structure
@@ -69,9 +99,46 @@ https://code.visualstudio.com/download
 |===
 
 
+=== Contributing to this Documentation
+
+Before you make any changes, it is absolutely important that you *checkout* the local repository into a different branch, and the naming convention that we use would be:
+
+YYYY-<email_address>
+
+You may find the following resource useful:
+
+* https://code.visualstudio.com/docs/editor/versioncontrol#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository.
+
+* https://www.youtube.com/watch?v=X9-iaXfKY5g
+
+* https://www.youtube.com/watch?v=H5BLEPhqxe8
+
+* https://www.jasongaylord.com/blog/2020/07/08/create-delete-branches-using-visual-studio-code 
+
+Once you have made the changes you want, remember to run the command from the "Public-Guide" directory:
 
 
+[source,shell]
+----
+bin/publish.sh
+----
 
+The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build" folder and subsequently publish the final output into the "docs" folder.
+
+To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:
+
+* index.html (This is the multipage html output)
+* all_in_one.pub
+* all_in_one.pdf
+* all_in_one.html
+
+Once you have completed your editing, the next step is to create a *pull request*. Refer to the following for more information:
+
+*  https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models
+*  https://docs.github.com/en/pull-requests
+*  https://www.youtube.com/watch?v=oa1wXWeH1IQ
+
+Congratulations !! 
 
 
 === 

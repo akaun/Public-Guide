@@ -357,8 +357,56 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara>Accessing the repository</simpara>
 </listitem>
 </itemizedlist>
-<simpara>The repository is located at <link xl:href="https://github.com/akaun/Public-Guide">https://github.com/akaun/Public-Guide</link></simpara>
-<simpara>You may click on the link below</simpara>
+<simpara>After you have downloaded the github, please clone the <link xl:href="https://github.com/akaun/Public-Guide">https://github.com/akaun/Public-Guide</link> to your local computer.</simpara>
+</section>
+<section xml:id="_asciidoctor_toolchain">
+<title>Asciidoctor Toolchain</title>
+<simpara>Depends on the operating systems you are using, please follow the instructions below accordingly:</simpara>
+<section xml:id="_installing_asciidoctor">
+<title>Installing Asciidoctor</title>
+<itemizedlist>
+<listitem>
+<simpara>Linux</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://docs.asciidoctor.org/asciidoctor/latest/install/linux-packaging/">https://docs.asciidoctor.org/asciidoctor/latest/install/linux-packaging/</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Windows</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://docs.asciidoctor.org/asciidoctor/latest/install/windows/">https://docs.asciidoctor.org/asciidoctor/latest/install/windows/</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Mac</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://asciidoctor.org/docs/install-asciidoctor-macos/">https://asciidoctor.org/docs/install-asciidoctor-macos/</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://docs.asciidoctor.org/asciidoctor/latest/install/macos/">https://docs.asciidoctor.org/asciidoctor/latest/install/macos/</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_installing_epub3_converter">
+<title>Installing Epub3 Converter</title>
+<simpara>Please click on the link below for detailed instructions:</simpara>
+<simpara><link xl:href="https://docs.asciidoctor.org/epub3-converter/latest/">https://docs.asciidoctor.org/epub3-converter/latest/</link></simpara>
+</section>
+<section xml:id="_installing_pdf_converter">
+<title>Installing PDF Converter</title>
+<simpara><link xl:href="https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem">https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem</link></simpara>
+</section>
+<section xml:id="_installing_multipage_html_converter">
+<title>Installing Multipage HTML Converter</title>
+<simpara><link xl:href="https://github.com/owenh000/asciidoctor-multipage">https://github.com/owenh000/asciidoctor-multipage</link></simpara>
+</section>
 </section>
 <section xml:id="_visual_studio_code">
 <title>Visual Studio Code</title>
@@ -369,24 +417,19 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </itemizedlist>
 <simpara>Please visit the following page to download.
 <link xl:href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</link></simpara>
+<simpara>After you have installed the Visual Studio Code, please install the following extensions:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Installing extensions</simpara>
+<simpara>AsciiDoc</simpara>
 </listitem>
 <listitem>
-<simpara>Checking out the source code</simpara>
+<simpara>Github Pull Requests and Issues</simpara>
 </listitem>
 <listitem>
-<simpara>Creating a new branch for your edit</simpara>
-</listitem>
-<listitem>
-<simpara>Pull request to the main branch</simpara>
+<simpara>vscode-pdf</simpara>
 </listitem>
 </itemizedlist>
-</section>
-<section xml:id="_installing_the_asciidoctor_tool_chain">
-<title>Installing the AsciiDoctor Tool Chain</title>
-
+<simpara>The next step is to open the folder where you cloned the <link xl:href="https://github.com/akaun/Public-Guide">https://github.com/akaun/Public-Guide</link> repository using the Visual Studio Code</simpara>
 </section>
 </section>
 <section xml:id="_understanding_the_directory_structure">
@@ -419,6 +462,57 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </tbody>
 </tgroup>
 </informaltable>
+</section>
+<section xml:id="_contributing_to_this_documentation">
+<title>Contributing to this Documentation</title>
+<simpara>Before you make any changes, it is absolutely important that you <emphasis role="strong">checkout</emphasis> the local repository into a different branch, and the naming convention that we use would be:</simpara>
+<simpara>YYYY-&lt;email_address&gt;</simpara>
+<simpara>You may find the following resource useful:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://code.visualstudio.com/docs/editor/versioncontrol#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository">https://code.visualstudio.com/docs/editor/versioncontrol#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository</link>.</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.youtube.com/watch?v=X9-iaXfKY5g">https://www.youtube.com/watch?v=X9-iaXfKY5g</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.youtube.com/watch?v=H5BLEPhqxe8">https://www.youtube.com/watch?v=H5BLEPhqxe8</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.jasongaylord.com/blog/2020/07/08/create-delete-branches-using-visual-studio-code">https://www.jasongaylord.com/blog/2020/07/08/create-delete-branches-using-visual-studio-code</link></simpara>
+</listitem>
+</itemizedlist>
+<simpara>Once you have made the changes you want, remember to run the command from the "Public-Guide" directory:</simpara>
+<programlisting language="shell" linenumbering="unnumbered">bin/publish.sh</programlisting>
+<simpara>The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build" folder and subsequently publish the final output into the "docs" folder.</simpara>
+<simpara>To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>index.html (This is the multipage html output)</simpara>
+</listitem>
+<listitem>
+<simpara>all_in_one.pub</simpara>
+</listitem>
+<listitem>
+<simpara>all_in_one.pdf</simpara>
+</listitem>
+<listitem>
+<simpara>all_in_one.html</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Once you have completed your editing, the next step is to create a <emphasis role="strong">pull request</emphasis>. Refer to the following for more information:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models">https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://docs.github.com/en/pull-requests">https://docs.github.com/en/pull-requests</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.youtube.com/watch?v=oa1wXWeH1IQ">https://www.youtube.com/watch?v=oa1wXWeH1IQ</link></simpara>
+</listitem>
+</itemizedlist>
+<simpara>Congratulations !!</simpara>
 <simpara>===</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
