@@ -2,6 +2,7 @@
 Vincent Lee <vincent@akaun.com>
 v1.0, 2022-05-15
 :homepage: https://docs.akaun.com
+:sectnums:
 :toc: macro
 :toclevels: 4 
 :table-caption!:
