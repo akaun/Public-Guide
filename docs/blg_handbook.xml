@@ -758,6 +758,27 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara>This refers to the OWNER or ADMIN of the Tenant.</simpara>
 </glossdef>
 </glossentry>
-<simpara>Unresolved directive in index.adoc - include::other/0100_appendix.adoc[]</simpara>
 </glossary>
+<appendix xml:id="appendix_first">
+<title>First Appendix</title>
+<section xml:id="appendix_first_subsection">
+<title>First Subsection</title>
+
+</section>
+<section xml:id="appendix_second_subsection">
+<title>Second Subsection</title>
+
+</section>
+</appendix>
+<appendix xml:id="appendix_second">
+<title>Second Appendix</title>
+<section xml:id="appendix_first_chapter">
+<title>First Chapter</title>
+
+</section>
+<section xml:id="appendix_second_chapter">
+<title>Second Chapter</title>
+<simpara>sdfsfa</simpara>
+</section>
+</appendix>
 </book>

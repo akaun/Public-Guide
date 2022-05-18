@@ -41,4 +41,4 @@ include::chapters/Documentation_Authoring/README.adoc[]
 
 include::other/glossary.adoc[]
 
-include::other/0100_appendix.adoc[]
+include::other/appendix.adoc[]
