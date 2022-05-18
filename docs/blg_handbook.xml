@@ -287,6 +287,21 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </section>
 <section xml:id="_features_6">
 <title>Features</title>
+
+</section>
+</section>
+<section xml:id="section-pet-industry">
+<title>Pet Industry</title>
+<section xml:id="_problems_7">
+<title>Problems</title>
+
+</section>
+<section xml:id="_solutions_7">
+<title>Solutions</title>
+
+</section>
+<section xml:id="_features_7">
+<title>Features</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -319,7 +334,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <title>Overview</title>
 
 </section>
-<section xml:id="_features_7">
+<section xml:id="_features_8">
 <title>Features</title>
 
 </section>
@@ -378,29 +393,117 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </chapter>
 <chapter xml:id="chapter_cloud_native_architecture">
 <title>Cloud Native Architecture</title>
-<section xml:id="_background">
+<simpara>Common misunderstanding
+* thinking web based = cloud based.
+* everything has A.I.
+* online / networked = cloud based</simpara>
+<simpara>Our aspirations
+* To be the business operating systems</simpara>
+<section xml:id="section_cloud_native_background">
 <title>Background</title>
-
+<itemizedlist>
+<listitem>
+<simpara>Outdated JBoss application server, EJB 1.0 / 2.0</simpara>
+</listitem>
+<listitem>
+<simpara>Servers idling</simpara>
+</listitem>
+<listitem>
+<simpara>Hackers attack</simpara>
+</listitem>
+<listitem>
+<simpara>Certain minimum costs to power up a tenant</simpara>
+</listitem>
+<listitem>
+<simpara>Self service</simpara>
+</listitem>
+<listitem>
+<simpara>Internal employee users vs customers + suppliers</simpara>
+</listitem>
+<listitem>
+<simpara>Integration pains</simpara>
+</listitem>
+</itemizedlist>
 </section>
-<section xml:id="_motivation">
+<section xml:id="section_cloud_native_motivation">
 <title>Motivation</title>
+<simpara>Platform Business Model</simpara>
+<simpara>Multiple offerings
+&#8594; as middleware - backend as a service
+&#8594; as applets
+&#8594; as SAAS
+&#8594; as communication hub</simpara>
+<simpara>Cross Platform development</simpara>
+<simpara>Scalability</simpara>
+<simpara>Flexibility</simpara>
+<simpara>Growth</simpara>
+<simpara>Composable Enterprise</simpara>
+<simpara>Utility based billing</simpara>
+<section xml:id="section_cloud_native_integration">
+<title>Integrations</title>
+<simpara>spikes in loads</simpara>
+</section>
+<section xml:id="section_cloud_native_infra_toolchain">
+<title>Infrastructure and Toolchain</title>
+<simpara>Various tools ready to be used out of the box&#8230;&#8203;
+example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
+</section>
+<section xml:id="section_cloud_native_network_effect">
+<title>Network Effect</title>
 
 </section>
-<section xml:id="_journey">
+<section xml:id="section_cloud_native_cost_savings">
+<title>Cloud Cost Savings</title>
+
+</section>
+<section xml:id="section_cloud_native_ai">
+<title>Artificial Intelligence</title>
+
+</section>
+<section xml:id="section_cloud_native_human_resource">
+<title>Human Resource</title>
+
+</section>
+</section>
+<section xml:id="section_cloud_native_journey">
 <title>Journey</title>
 
 </section>
-<section xml:id="_challenges">
-<title>Challenges</title>
+<section xml:id="section_cloud_native_challenges_lessons">
+<title>Challenges and Lessons</title>
 
 </section>
-<section xml:id="_lessons_learned">
-<title>Lessons learned</title>
-
-</section>
-<section xml:id="_technical_considerations">
+<section xml:id="section_cloud_native_technical_considerations">
 <title>Technical Considerations</title>
-
+<itemizedlist>
+<listitem>
+<simpara>managing complexities</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about our journey to transform from monolith architecture to cloud native architecture</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about the problems and challenges implementing stateless applications</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about the implementation of Micro-Frontend Architecture</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about the implementation of Web Socket using API Gateway and DynamoDB</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about challenges of securing the API, permissions / configurations etc</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about the challenges of multi-tenant environments</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about the design of composable enterprise architecture</simpara>
+</listitem>
+<listitem>
+<simpara>Sharing about the tricky part of networked tenants</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </chapter>
 <chapter xml:id="chapter-documentation-authoring">
