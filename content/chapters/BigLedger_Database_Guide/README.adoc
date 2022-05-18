@@ -1,2 +1,0 @@
-//  TODO: Need to write a database guide
-

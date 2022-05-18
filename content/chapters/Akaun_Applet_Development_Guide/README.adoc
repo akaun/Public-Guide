@@ -1,1 +1,0 @@
-// TODO: to write about the Applet Developer's Guide for both internal and external software developers

@@ -1,0 +1,5 @@
+[#chapter_akaun_shell_development_guide]
+== Akaun Shell Development Guide
+
+// TODO: To create a guide for any software developers handling the Akaun Shell
+

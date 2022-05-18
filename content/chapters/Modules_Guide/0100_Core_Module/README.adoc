@@ -1,6 +1,5 @@
-[#section-module-core]
-=== ({guide_no}.{counter2:chapter_no}{chapter_no}) Core Module
-:doctype: book
+[#section_core_module]
+=== Core Module
 
 ==== Overview
 
