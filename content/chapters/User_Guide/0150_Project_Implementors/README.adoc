@@ -1,11 +1,11 @@
-[#h2_project-implementors]
+[#h2_project_implementors]
 === Project Implementors
 
+Implementation of BigLedger projects requires a deep understanding of the Akaun platform 
+features and functions. Depends on which module the business 
 
 
-Guide for Project Implementors
-
-==== Section 1
+==== 
 
 some sections here
 

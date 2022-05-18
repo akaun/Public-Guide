@@ -1,4 +1,4 @@
-[#h1_industry-guide]
+[#h1_industry_guide]
 == Guide by Industry
 //== ({counter2:guide_no}{guide_no}) Guide by Industry
 

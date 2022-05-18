@@ -1,4 +1,4 @@
-[#h2_consumer-electronics-industry]
+[#h2_consumer_electronics_industry]
 === Consumer Electronics Industry
 
 //=== ({guide_no}.{counter2:chapter_no_industry_guide}{chapter_no_industry_guide}) Consumer Electronics Industry

@@ -1,4 +1,4 @@
-[#h2_general-users]
+[#h2_general_users]
 === General Users
 //=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) General Users
 

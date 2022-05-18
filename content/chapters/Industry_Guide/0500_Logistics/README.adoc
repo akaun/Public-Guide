@@ -1,4 +1,4 @@
-[#h2_logistics-industry]
+[#h2_logistics_industry]
 === Logistics Industry
 
 //=== ({guide_no}.{counter2:chapter_no_industry_guide}{chapter_no_industry_guide}) Logistics Industry

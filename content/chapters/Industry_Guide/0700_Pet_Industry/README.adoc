@@ -1,4 +1,4 @@
-[#h2_pet-industry]
+[#h2_pet_industry]
 === Pet Industry
 
 ==== Problems

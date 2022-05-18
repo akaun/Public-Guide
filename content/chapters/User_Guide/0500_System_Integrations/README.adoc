@@ -1,4 +1,4 @@
-[#h2_system-integrations]
+[#h2_system_integrations]
 === System Integrators
 
 Guide for system integrators

@@ -1,4 +1,4 @@
-[#h1_documentation-authoring]
+[#h1_documentation_authoring]
 == Documentation Authoring
 
 //== ({counter2:guide_no}{guide_no}) Documentation Authoring
