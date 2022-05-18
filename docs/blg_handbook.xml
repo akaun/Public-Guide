@@ -7,17 +7,15 @@
 <date>2022-05-15</date>
 <author>
 <personname>
-<firstname>Vincent</firstname>
-<surname>Lee</surname>
+<firstname>Vincent Lee &lt;vincent@akaun.com&gt;, Diana Filimonova &lt;diana@wavelet.net&gt;</firstname>
 </personname>
-<email>vincent@akaun.com</email>
 </author>
-<authorinitials>VL</authorinitials>
+<authorinitials>V</authorinitials>
 <revhistory>
 <revision>
 <revnumber>1.0</revnumber>
 <date>2022-05-15</date>
-<authorinitials>VL</authorinitials>
+<authorinitials>V</authorinitials>
 </revision>
 </revhistory>
 </info>
