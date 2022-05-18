@@ -1,5 +1,6 @@
 [glossary]
-== Terminology
+[#blg_handbook_glossary]
+== Glossary
 
 [glossary]
 Platform Administrators:: 

@@ -738,8 +738,8 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
-<glossary xml:id="_terminology">
-<title>Terminology</title>
+<glossary xml:id="blg_handbook_glossary">
+<title>Glossary</title>
 <glossentry>
 <glossterm>Platform Administrators</glossterm>
 <glossdef>
