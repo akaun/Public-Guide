@@ -136,13 +136,18 @@ From the <emphasis role="strong">Applet Store</emphasis> , a user would be able 
 </section>
 <section xml:id="h2_project_implementors">
 <title>Project Implementors</title>
-<simpara>Implementation of BigLedger projects requires a deep understanding of the Akaun platform
-features and functions. Depends on which module the business</simpara>
+<simpara>Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
+using the BigLedger platform.</simpara>
+<simpara>In this section, we are going to</simpara>
+<section xml:id="h3_project_impl_subscription_setup">
+<title>Subscription setup in Akaun Platform</title>
+<simpara>This step can only be performed by the</simpara>
+</section>
 <section xml:id="h3_project_impl_tenant_setup">
 <title>Tenant setup in Akaun Platform</title>
-
+<simpara>As of the time of writing, only the Akaun Platform system administrators (Wavelet and BigLedger employees) are able power up the tenant for you. Each of the tenant</simpara>
 </section>
-<section xml:id="h3_project_impl_applet_catalog">
+<section xml:id="h3_project_impl_applet_catalog_setup">
 <title>Applet Catalogs</title>
 
 </section>
@@ -730,6 +735,30 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </itemizedlist>
 <simpara>Congratulations !!</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
+</chapter>
+<appendix xml:id="_first_appendix">
+<title>First Appendix</title>
+<section xml:id="_first_subsection">
+<title>First Subsection</title>
+
+</section>
+<section xml:id="_second_subsection">
+<title>Second Subsection</title>
+
+</section>
+</appendix>
+<appendix xml:id="_second_appendix">
+<title>Second Appendix</title>
+
+</appendix>
+<chapter xml:id="_first_chapter">
+<title>First Chapter</title>
+
+</chapter>
+<chapter xml:id="_second_chapter">
+<title>Second Chapter</title>
+
 </chapter>
 </book>

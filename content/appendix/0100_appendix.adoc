@@ -1,0 +1,14 @@
+[appendix]
+= First Appendix
+
+=== First Subsection
+
+=== Second Subsection
+
+[appendix]
+= Second Appendix
+
+== First Chapter
+
+== Second Chapter
+

@@ -1,13 +1,26 @@
 [#h2_project_implementors]
 === Project Implementors
 
-Implementation of BigLedger projects requires a deep understanding of the Akaun platform 
-features and functions. Depends on which module the business 
+Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
+using the BigLedger platform.
+
+In this section, we are going to 
+
+
+[#h3_project_impl_subscription_setup]
+==== Subscription setup in Akaun Platform
+
+This step can only be performed by the 
 
 [#h3_project_impl_tenant_setup]
 ==== Tenant setup in Akaun Platform
 
-[#h3_project_impl_applet_catalog]
+As of the time of writing, only the Akaun Platform system administrators (Wavelet and BigLedger employees) are able power up the tenant for you. Each of the tenant
+
+
+
+
+[#h3_project_impl_applet_catalog_setup]
 ==== Applet Catalogs 
 
 [#h3_project_impl_core_module]

@@ -37,4 +37,6 @@ include::chapters/Cloud_Native_Architecture/README.adoc[]
 
 include::chapters/Documentation_Authoring/README.adoc[]
 
+<<<<<<<<<
 
+include::appendix/0100_appendix.adoc[]
