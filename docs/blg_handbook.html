@@ -475,13 +475,14 @@ To view this in other formats, click on the following:</p>
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#h1_user-guid">1. Guide by User Types</a>
+<li><a href="#h1_user_guide">1. User Guide</a>
 <ul class="sectlevel2">
 <li><a href="#h2_general_users">1.1. General Users</a>
 <ul class="sectlevel3">
 <li><a href="#h3_general_users_your_akaun_id">1.1.1. Your AkaunID</a></li>
 <li><a href="#h3_general_users_prod_staging_dev">1.1.2. The Production, Staging and Development Environment</a></li>
-<li><a href="#_understanding_root_vs_tenant">1.1.3. Understanding Root vs Tenant</a></li>
+<li><a href="#h3_general_users_root_vs_tenant">1.1.3. Understanding Root vs Tenant</a></li>
+<li><a href="#h3_general_users_applet_store">1.1.4. The Applet Store</a></li>
 </ul>
 </li>
 <li><a href="#h2_project_implementors">1.2. Project Implementors</a>
@@ -648,7 +649,7 @@ To view this in other formats, click on the following:</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="h1_user-guid">1. Guide by User Types</h2>
+<h2 id="h1_user_guide">1. User Guide</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</p>
@@ -710,7 +711,7 @@ To view this in other formats, click on the following:</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_understanding_root_vs_tenant">1.1.3. Understanding Root vs Tenant</h4>
+<h4 id="h3_general_users_root_vs_tenant">1.1.3. Understanding Root vs Tenant</h4>
 <div class="paragraph">
 <p>Within a single environment (Production vs Staging vs Development) there&#8217;s one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.</p>
 </div>
@@ -739,6 +740,16 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </tr>
 </tbody>
 </table>
+</div>
+<div class="sect3">
+<h4 id="h3_general_users_applet_store">1.1.4. The Applet Store</h4>
+<div class="paragraph">
+<p>By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
+From the <strong>Applet Store</strong> , a user would be able to install applets in the public or private applet-catalogs.</p>
+</div>
+<div class="paragraph">
+<p>It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet.</p>
+</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>

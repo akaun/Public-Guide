@@ -1,5 +1,5 @@
-[#h1_user-guid]
-== Guide by User Types
+[#h1_user_guide]
+== User Guide
 
 This repository contains all the source code for publishing the Akaun Platform Public Documentation.
 

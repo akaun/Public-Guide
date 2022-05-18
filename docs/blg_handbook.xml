@@ -46,8 +46,8 @@ To view this in other formats, click on the following:</simpara>
 
 <simpara><?asciidoc-pagebreak?></simpara>
 </preface>
-<chapter xml:id="h1_user-guid">
-<title>Guide by User Types</title>
+<chapter xml:id="h1_user_guide">
+<title>User Guide</title>
 <simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
 <section xml:id="h2_general_users">
 <title>General Users</title>
@@ -97,7 +97,7 @@ To view this in other formats, click on the following:</simpara>
 </informaltable>
 <simpara>If you have registered an AkaunID to login to the Production environment, that doesn&#8217;t mean you have the same AkaunID registered in the Staging Environment and vice versa.</simpara>
 </section>
-<section xml:id="_understanding_root_vs_tenant">
+<section xml:id="h3_general_users_root_vs_tenant">
 <title>Understanding Root vs Tenant</title>
 <simpara>Within a single environment (Production vs Staging vs Development) there&#8217;s one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.</simpara>
 <informaltable frame="all" rowsep="1" colsep="1">
@@ -125,6 +125,12 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </tbody>
 </tgroup>
 </informaltable>
+</section>
+<section xml:id="h3_general_users_applet_store">
+<title>The Applet Store</title>
+<simpara>By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
+From the <emphasis role="strong">Applet Store</emphasis> , a user would be able to install applets in the public or private applet-catalogs.</simpara>
+<simpara>It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>

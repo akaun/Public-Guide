@@ -38,7 +38,7 @@ The very first thing to know is to understand the usage of each of the following
 
 If you have registered an AkaunID to login to the Production environment, that doesn't mean you have the same AkaunID registered in the Staging Environment and vice versa. 
 
-
+[#h3_general_users_root_vs_tenant]
 ==== Understanding Root vs Tenant 
 
 Within a single environment (Production vs Staging vs Development) there's one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.
@@ -59,6 +59,17 @@ Within a single environment (Production vs Staging vs Development) there's one a
 It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the same as the "OWNER/ADMIN" of the "Applet"
 
 |===
+
+
+[#h3_general_users_applet_store]
+==== The Applet Store
+
+By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
+From the *Applet Store* , a user would be able to install applets in the public or private applet-catalogs. 
+
+It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet.
+
+
 
 
 
