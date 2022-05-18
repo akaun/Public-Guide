@@ -1,5 +1,5 @@
-[#h1_applet_development_guide]
-== Applet Development Guide
+[#h2_applet_development_guide]
+=== Applet Development Guide
 
 // TODO: to write about the Applet Developer's Guide for both internal and external software developers
 

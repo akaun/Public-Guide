@@ -522,6 +522,44 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </itemizedlist>
 </section>
 </chapter>
+<chapter xml:id="h1_technical_guide">
+<title>Technical Guide</title>
+<simpara>This technical guide is used by both internal and external employees of</simpara>
+<simpara>Unresolved directive in chapters/Technical_Guide/README.adoc - include::Akaun_Applet_Development_Guid/README.adoc[]</simpara>
+<section xml:id="h2_akaun_shell_development_guide">
+<title>Akaun Shell Development Guide</title>
+
+</section>
+<section xml:id="h2_tech_guide_cloud_infra">
+<title>Cloud Infrastructure</title>
+
+</section>
+<section xml:id="h2_bigledger_database_guide">
+<title>BigLedger Database Guide</title>
+<section xml:id="_overview_3">
+<title>Overview</title>
+
+</section>
+<section xml:id="_database_schema">
+<title>Database Schema</title>
+
+</section>
+<section xml:id="_liquibase">
+<title>Liquibase</title>
+
+</section>
+<section xml:id="_the_root_database_schema">
+<title>The Root Database Schema</title>
+
+</section>
+<section xml:id="_the_tenant_database_schema">
+<title>The Tenant Database Schema</title>
+<simpara>Unresolved directive in chapters/Technical_Guide/README.adoc - include::BigLedger_Java_API_Guide[]</simpara>
+<simpara>Unresolved directive in chapters/Technical_Guide/README.adoc - include::Domain_Driven_Design_Guide[]</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
+</chapter>
 <chapter xml:id="h1_documentation_authoring">
 <title>Documentation Authoring</title>
 <section xml:id="h2_authoring_this_documentation">
@@ -794,6 +832,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara>This refers to the OWNER or ADMIN of the Tenant.</simpara>
 </glossdef>
 </glossentry>
+<simpara><?asciidoc-pagebreak?></simpara>
 </glossary>
 <appendix xml:id="appendix_first">
 <title>First Appendix</title>

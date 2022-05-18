@@ -35,10 +35,14 @@ include::chapters/Applet_Directory/README.adoc[]
 
 include::chapters/Cloud_Native_Architecture/README.adoc[]
 
+include::chapters/Technical_Guide/README.adoc[]
+
 include::chapters/Documentation_Authoring/README.adoc[]
 
 <<<<<<<<<
 
 include::other/glossary.adoc[]
+
+<<<<<<<<<
 
 include::other/appendix.adoc[]

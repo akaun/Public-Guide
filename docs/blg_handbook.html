@@ -623,13 +623,28 @@ To view this in other formats, click on the following:</p>
 <li><a href="#h2_cloud_native_technical_considerations">5.5. Technical Considerations</a></li>
 </ul>
 </li>
-<li><a href="#h1_documentation_authoring">6. Documentation Authoring</a>
+<li><a href="#h1_technical_guide">6. Technical Guide</a>
 <ul class="sectlevel2">
-<li><a href="#h2_authoring_this_documentation">6.1. Authoring this Documentation</a></li>
-<li><a href="#h2_authoring_setup_config">6.2. Setup and Configurations</a>
+<li><a href="#h2_akaun_shell_development_guide">6.1. Akaun Shell Development Guide</a></li>
+<li><a href="#h2_tech_guide_cloud_infra">6.2. Cloud Infrastructure</a></li>
+<li><a href="#h2_bigledger_database_guide">6.3. BigLedger Database Guide</a>
 <ul class="sectlevel3">
-<li><a href="#_github_repository">6.2.1. Github Repository</a></li>
-<li><a href="#_asciidoctor_toolchain">6.2.2. Asciidoctor Toolchain</a>
+<li><a href="#_overview_3">6.3.1. Overview</a></li>
+<li><a href="#_database_schema">6.3.2. Database Schema</a></li>
+<li><a href="#_liquibase">6.3.3. Liquibase</a></li>
+<li><a href="#_the_root_database_schema">6.3.4. The Root Database Schema</a></li>
+<li><a href="#_the_tenant_database_schema">6.3.5. The Tenant Database Schema</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#h1_documentation_authoring">7. Documentation Authoring</a>
+<ul class="sectlevel2">
+<li><a href="#h2_authoring_this_documentation">7.1. Authoring this Documentation</a></li>
+<li><a href="#h2_authoring_setup_config">7.2. Setup and Configurations</a>
+<ul class="sectlevel3">
+<li><a href="#_github_repository">7.2.1. Github Repository</a></li>
+<li><a href="#_asciidoctor_toolchain">7.2.2. Asciidoctor Toolchain</a>
 <ul class="sectlevel4">
 <li><a href="#_installing_asciidoctor">Installing Asciidoctor</a></li>
 <li><a href="#_installing_epub3_converter">Installing Epub3 Converter</a></li>
@@ -637,11 +652,11 @@ To view this in other formats, click on the following:</p>
 <li><a href="#_installing_multipage_html_converter">Installing Multipage HTML Converter</a></li>
 </ul>
 </li>
-<li><a href="#_visual_studio_code">6.2.3. Visual Studio Code</a></li>
+<li><a href="#_visual_studio_code">7.2.3. Visual Studio Code</a></li>
 </ul>
 </li>
-<li><a href="#h2_authoring_directory_structure">6.3. Understanding the Directory Structure</a></li>
-<li><a href="#h2_committing_changes_to_the_repo">6.4. Committing Changes To The Repository</a></li>
+<li><a href="#h2_authoring_directory_structure">7.3. Understanding the Directory Structure</a></li>
+<li><a href="#h2_committing_changes_to_the_repo">7.4. Committing Changes To The Repository</a></li>
 </ul>
 </li>
 <li><a href="#blg_handbook_glossary">Glossary</a></li>
@@ -1217,10 +1232,58 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="h1_documentation_authoring">6. Documentation Authoring</h2>
+<h2 id="h1_technical_guide">6. Technical Guide</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This technical guide is used by both internal and external employees of</p>
+</div>
+<div class="paragraph">
+<p>Unresolved directive in chapters/Technical_Guide/README.adoc - include::Akaun_Applet_Development_Guid/README.adoc[]</p>
+</div>
+<div class="sect2">
+<h3 id="h2_akaun_shell_development_guide">6.1. Akaun Shell Development Guide</h3>
+
+</div>
+<div class="sect2">
+<h3 id="h2_tech_guide_cloud_infra">6.2. Cloud Infrastructure</h3>
+
+</div>
+<div class="sect2">
+<h3 id="h2_bigledger_database_guide">6.3. BigLedger Database Guide</h3>
+<div class="sect3">
+<h4 id="_overview_3">6.3.1. Overview</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_database_schema">6.3.2. Database Schema</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_liquibase">6.3.3. Liquibase</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_the_root_database_schema">6.3.4. The Root Database Schema</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_the_tenant_database_schema">6.3.5. The Tenant Database Schema</h4>
+<div class="paragraph">
+<p>Unresolved directive in chapters/Technical_Guide/README.adoc - include::BigLedger_Java_API_Guide[]</p>
+</div>
+<div class="paragraph">
+<p>Unresolved directive in chapters/Technical_Guide/README.adoc - include::Domain_Driven_Design_Guide[]</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="h1_documentation_authoring">7. Documentation Authoring</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="h2_authoring_this_documentation">6.1. Authoring this Documentation</h3>
+<h3 id="h2_authoring_this_documentation">7.1. Authoring this Documentation</h3>
 <div class="paragraph">
 <p>This documentation is written using asciidoc, please take a few minutes to go through the following guide:</p>
 </div>
@@ -1252,9 +1315,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="h2_authoring_setup_config">6.2. Setup and Configurations</h3>
+<h3 id="h2_authoring_setup_config">7.2. Setup and Configurations</h3>
 <div class="sect3">
-<h4 id="_github_repository">6.2.1. Github Repository</h4>
+<h4 id="_github_repository">7.2.1. Github Repository</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -1295,7 +1358,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_asciidoctor_toolchain">6.2.2. Asciidoctor Toolchain</h4>
+<h4 id="_asciidoctor_toolchain">7.2.2. Asciidoctor Toolchain</h4>
 <div class="paragraph">
 <p>Depends on the operating systems you are using, please follow the instructions below accordingly:</p>
 </div>
@@ -1362,7 +1425,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_visual_studio_code">6.2.3. Visual Studio Code</h4>
+<h4 id="_visual_studio_code">7.2.3. Visual Studio Code</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -1396,7 +1459,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="h2_authoring_directory_structure">6.3. Understanding the Directory Structure</h3>
+<h3 id="h2_authoring_directory_structure">7.3. Understanding the Directory Structure</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -1427,7 +1490,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="h2_committing_changes_to_the_repo">6.4. Committing Changes To The Repository</h3>
+<h3 id="h2_committing_changes_to_the_repo">7.4. Committing Changes To The Repository</h3>
 <div class="paragraph">
 <p>Before you make any changes, it is absolutely important that you <strong>checkout</strong> the local repository into a different branch, and the naming convention that we use would be:</p>
 </div>
@@ -1550,6 +1613,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </dd>
 </dl>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 <div class="sect1">
@@ -1584,7 +1648,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 <div id="footer">
 <div id="footer-text">
 Version 1.0<br>
-Last updated 2022-05-19 00:53:35 +0800
+Last updated 2022-05-19 01:24:28 +0800
 </div>
 </div>
 </body>

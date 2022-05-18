@@ -1,0 +1,21 @@
+[#h1_technical_guide]
+== Technical Guide
+
+This technical guide is used by both internal and external employees of 
+
+
+include::Akaun_Applet_Development_Guid/README.adoc[]
+
+include::Akaun_Shell_Development_Guide/README.adoc[]
+
+include::Akaun_Platform_Cloud_Infrastructure/README.adoc[]
+
+include::BigLedger_Database_Guide/README.adoc[]
+
+include::BigLedger_Java_API_Guide[]
+
+include::Domain_Driven_Design_Guide[]
+
+
+
+<<<<<<<<<<<
