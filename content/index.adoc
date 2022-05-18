@@ -15,7 +15,7 @@ This is the public guide that provides all public use cases of the Akaun Platfor
 To view this in other formats, click on the following:
 
 * link:blg_handbook.epub[Epub Format]
-* link:blg_handhook.html[Single File HTML]
+* link:blg_handbook.html[Single File HTML]
 * link:blg_handbook.pdf[PDF Format]
 
 <<<<<<<<<
