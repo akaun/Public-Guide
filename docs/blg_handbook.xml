@@ -376,6 +376,33 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
+<chapter xml:id="chapter_cloud_native_architecture">
+<title>Cloud Native Architecture</title>
+<section xml:id="_background">
+<title>Background</title>
+
+</section>
+<section xml:id="_motivation">
+<title>Motivation</title>
+
+</section>
+<section xml:id="_journey">
+<title>Journey</title>
+
+</section>
+<section xml:id="_challenges">
+<title>Challenges</title>
+
+</section>
+<section xml:id="_lessons_learned">
+<title>Lessons learned</title>
+
+</section>
+<section xml:id="_technical_considerations">
+<title>Technical Considerations</title>
+
+</section>
+</chapter>
 <chapter xml:id="chapter-documentation-authoring">
 <title>Documentation Authoring</title>
 <section xml:id="section_authoring_this_documentation">

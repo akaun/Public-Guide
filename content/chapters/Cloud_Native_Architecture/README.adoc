@@ -1,0 +1,26 @@
+[#chapter_cloud_native_architecture]
+== Cloud Native Architecture
+
+
+=== Background
+
+
+
+=== Motivation
+
+
+=== Journey
+
+
+
+=== Challenges
+
+
+=== Lessons learned
+
+
+=== Technical Considerations
+
+
+
+

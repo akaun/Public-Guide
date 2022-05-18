@@ -27,15 +27,13 @@ toc::[]
 
 include::chapters/User_Guide/README.adoc[]
 
-
 include::chapters/Industry_Guide/README.adoc[]
-
 
 include::chapters/Modules_Guide/README.adoc[]
 
-
 include::chapters/Applet_Directory/README.adoc[]
 
+include::chapters/Cloud_Native_Architecture/README.adoc[]
 
 include::chapters/Documentation_Authoring/README.adoc[]
 
