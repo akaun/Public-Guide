@@ -1,4 +1,4 @@
-[#section-applet-developers]
+[#h2_applet-developers]
 === Applet Developers
 
 Guid for applet Developers

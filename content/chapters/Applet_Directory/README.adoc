@@ -1,4 +1,4 @@
-[#chapter-applet-directory]
+[#h1_applet-directory]
 == Applet Directory
 
 //== ({counter2:guide_no}{guide_no}) Applet Directory

@@ -1,4 +1,4 @@
-[#section-resellers]
+[#h2_resellers]
 === Reseller Guide
 
 Guide for resellers

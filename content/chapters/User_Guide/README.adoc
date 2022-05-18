@@ -1,4 +1,4 @@
-[#chapter-user-guid]
+[#h1_user-guid]
 == Guide by User Types
 
 This repository contains all the source code for publishing the Akaun Platform Public Documentation.

@@ -1,4 +1,4 @@
-[#section-tenant-owners]
+[#h2_tenant-owners]
 === Tenant Owners
 
 Platform Guide for Tenant Owners
