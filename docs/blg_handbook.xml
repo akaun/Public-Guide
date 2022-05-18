@@ -741,15 +741,51 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <glossary xml:id="blg_handbook_glossary">
 <title>Glossary</title>
 <glossentry>
+<glossterm>Akaun Shell</glossterm>
+<glossdef>
+<simpara>The user interface that loads into a web browser, and showing users a list of applets.</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm>Applet</glossterm>
+<glossdef>
+<simpara>An application that runs on the Akaun Shell.</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm>Applet Store</glossterm>
+<glossdef>
+<simpara>The applet where users can discover other applets and install these other applets.</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm>Environment</glossterm>
+<glossdef>
+<simpara>There are 3 environments, namely production, staging and development. Each of these environments lives in a different AWS account.</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
 <glossterm>Platform Administrators</glossterm>
 <glossdef>
-<simpara>This refers to the BigLedger MIS Department</simpara>
+<simpara>This refers to the BigLedger MIS Department.</simpara>
 </glossdef>
 </glossentry>
 <glossentry>
 <glossterm>System Administrator</glossterm>
 <glossdef>
-<simpara>This refers to the BigLedger MIS Department</simpara>
+<simpara>This refers to the BigLedger MIS Department.</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm>Root Database</glossterm>
+<glossdef>
+<simpara>This refers to the Platform main and global database.</simpara>
+</glossdef>
+</glossentry>
+<glossentry>
+<glossterm>Tenant</glossterm>
+<glossdef>
+<simpara>Every tenant is isolated from each other , it has its own independent database and other resources like files storage. Within a tenant, it is possible to create multiple companies, and they share the same database.</simpara>
 </glossdef>
 </glossentry>
 <glossentry>

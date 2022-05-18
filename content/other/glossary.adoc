@@ -3,9 +3,31 @@
 == Glossary
 
 [glossary]
+
+Akaun Shell::
+        The user interface that loads into a web browser, and showing users a list of applets.
+
+Applet::
+        An application that runs on the Akaun Shell.
+
+Applet Store::
+        The applet where users can discover other applets and install these other applets.
+
+Environment::
+        There are 3 environments, namely production, staging and development. Each of these environments lives in a different AWS account.
+
 Platform Administrators:: 
-        This refers to the BigLedger MIS Department
+        This refers to the BigLedger MIS Department.
+
 System Administrator:: 
-        This refers to the BigLedger MIS Department
-Tenant Admin:: This refers to the OWNER or ADMIN of the Tenant. 
+        This refers to the BigLedger MIS Department.
+
+Root Database::
+        This refers to the Platform main and global database.
+
+Tenant::
+        Every tenant is isolated from each other , it has its own independent database and other resources like files storage. Within a tenant, it is possible to create multiple companies, and they share the same database.
+
+Tenant Admin:: 
+        This refers to the OWNER or ADMIN of the Tenant. 
 
