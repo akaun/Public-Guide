@@ -373,9 +373,8 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </chapter>
 <chapter xml:id="chapter-applet-directory">
 <title>Applet Directory</title>
-<section xml:id="_section_here">
-<title>Section here</title>
-<simpara>lksjdkdjs</simpara>
+<section xml:id="section_applet_listing">
+<title>Applet Listing</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
