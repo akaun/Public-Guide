@@ -3,21 +3,19 @@
 <?asciidoc-numbered?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
-<title>Akaun Platform Guide (Public)</title>
+<title>BigLedger Handbook</title>
 <date>2022-05-15</date>
 <author>
 <personname>
-<firstname>Vincent</firstname>
-<surname>Lee</surname>
+<firstname>Vincent Lee &lt;vincent@akaun.com&gt;, Diana Filimonova &lt;diana@wavelet.net&gt;</firstname>
 </personname>
-<email>vincent@akaun.com</email>
 </author>
-<authorinitials>VL</authorinitials>
+<authorinitials>V</authorinitials>
 <revhistory>
 <revision>
 <revnumber>1.0</revnumber>
 <date>2022-05-15</date>
-<authorinitials>VL</authorinitials>
+<authorinitials>V</authorinitials>
 </revision>
 </revhistory>
 </info>
@@ -35,13 +33,13 @@
 To view this in other formats, click on the following:</simpara>
 <itemizedlist>
 <listitem>
-<simpara><link xl:href="all_in_one.epub">Epub Format</link></simpara>
+<simpara><link xl:href="blg_handbook.epub">Epub Format</link></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="all_in_one.html">Single File HTML</link></simpara>
+<simpara><link xl:href="blg_handbook.html">Single File HTML</link></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="all_in_one.pdf">PDF Format</link></simpara>
+<simpara><link xl:href="blg_handbook.pdf">PDF Format</link></simpara>
 </listitem>
 </itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
@@ -373,15 +371,41 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </chapter>
 <chapter xml:id="chapter-applet-directory">
 <title>Applet Directory</title>
-<section xml:id="_section_here">
-<title>Section here</title>
-<simpara>lksjdkdjs</simpara>
+<section xml:id="section_applet_listing">
+<title>Applet Listing</title>
 <simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</chapter>
+<chapter xml:id="chapter_cloud_native_architecture">
+<title>Cloud Native Architecture</title>
+<section xml:id="_background">
+<title>Background</title>
+
+</section>
+<section xml:id="_motivation">
+<title>Motivation</title>
+
+</section>
+<section xml:id="_journey">
+<title>Journey</title>
+
+</section>
+<section xml:id="_challenges">
+<title>Challenges</title>
+
+</section>
+<section xml:id="_lessons_learned">
+<title>Lessons learned</title>
+
+</section>
+<section xml:id="_technical_considerations">
+<title>Technical Considerations</title>
+
 </section>
 </chapter>
 <chapter xml:id="chapter-documentation-authoring">
 <title>Documentation Authoring</title>
-<section xml:id="_authoring_this_documentation">
+<section xml:id="section_authoring_this_documentation">
 <title>Authoring this Documentation</title>
 <simpara>This documentation is written using asciidoc, please take a few minutes to go through the following guide:</simpara>
 <itemizedlist>
@@ -405,7 +429,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="_setup_and_configurations">
+<section xml:id="section_authoring_setup_config">
 <title>Setup and Configurations</title>
 <section xml:id="_github_repository">
 <title>Github Repository</title>
@@ -510,7 +534,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara>The next step is to open the folder where you cloned the <link xl:href="https://github.com/akaun/Public-Guide">https://github.com/akaun/Public-Guide</link> repository using the Visual Studio Code</simpara>
 </section>
 </section>
-<section xml:id="_understanding_the_directory_structure">
+<section xml:id="section_authoring_directory_structure">
 <title>Understanding the Directory Structure</title>
 <informaltable frame="all" rowsep="1" colsep="1">
 <tgroup cols="2">
@@ -523,7 +547,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </row>
 <row>
 <entry align="left" valign="top"><simpara>bin</simpara></entry>
-<entry align="left" valign="top"><simpara>This folder contains shell scripts that you need to install and setup. You will also see a file called all_in_one.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "docs" folder. You shouldn&#8217;t be editing any files in this folder.</simpara></entry>
+<entry align="left" valign="top"><simpara>This folder contains shell scripts that you need to install and setup. You will also see a file called publish.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "docs" folder. You shouldn&#8217;t be editing any files in this folder.</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>build</simpara></entry>
@@ -541,8 +565,8 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </tgroup>
 </informaltable>
 </section>
-<section xml:id="_contributing_to_this_documentation">
-<title>Contributing to this Documentation</title>
+<section xml:id="section_committing_changes_to_the_repo">
+<title>Committing Changes To The Repository</title>
 <simpara>Before you make any changes, it is absolutely important that you <emphasis role="strong">checkout</emphasis> the local repository into a different branch, and the naming convention that we use would be:</simpara>
 <simpara>YYYY-&lt;email_address&gt;</simpara>
 <simpara>You may find the following resource useful:</simpara>
@@ -569,13 +593,13 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara>index.html (This is the multipage html output)</simpara>
 </listitem>
 <listitem>
-<simpara>all_in_one.pub</simpara>
+<simpara>blg_handbook.pub</simpara>
 </listitem>
 <listitem>
-<simpara>all_in_one.pdf</simpara>
+<simpara>blg_handbook.pdf</simpara>
 </listitem>
 <listitem>
-<simpara>all_in_one.html</simpara>
+<simpara>blg_handbook.html</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Once you have completed your editing, the next step is to create a <emphasis role="strong">pull request</emphasis>. Refer to the following for more information:</simpara>
