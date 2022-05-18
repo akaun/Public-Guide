@@ -2,7 +2,7 @@
 == Applet Directory
 
 //== ({counter2:guide_no}{guide_no}) Applet Directory
-[#section_applet_listing]
+[#h2_applet_listing]
 === Applet Listing
 
 

@@ -1,4 +1,4 @@
-[#section_hr_module]
+[#h2_hr_module]
 === Human Resource Module
 
 

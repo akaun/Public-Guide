@@ -1,2 +1,2 @@
-[#section_delivery_module]
+[#h2_delivery_module]
 === Delivery Module

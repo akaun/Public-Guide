@@ -1,4 +1,4 @@
-[#section_accounting_module]
+[#h2_accounting_module]
 === Accounting Module
 
 

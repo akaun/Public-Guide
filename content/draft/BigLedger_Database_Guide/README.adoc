@@ -1,4 +1,4 @@
-[#chapter_bigledger_database_guide]
+[#h1_bigledger_database_guide]
 == BigLedger Database Guide
 
 === Overview

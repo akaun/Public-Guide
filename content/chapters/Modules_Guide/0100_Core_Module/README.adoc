@@ -1,4 +1,4 @@
-[#section_core_module]
+[#h2_core_module]
 === Core Module
 
 ==== Overview

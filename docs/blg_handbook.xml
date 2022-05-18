@@ -309,7 +309,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <chapter xml:id="chapter-modules-guide">
 <title>Guide by Modules</title>
 <simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
-<section xml:id="section_core_module">
+<section xml:id="h2_core_module">
 <title>Core Module</title>
 <section xml:id="_overview">
 <title>Overview</title>
@@ -328,7 +328,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 
 </section>
 </section>
-<section xml:id="section_accounting_module">
+<section xml:id="h2_accounting_module">
 <title>Accounting Module</title>
 <section xml:id="_overview_2">
 <title>Overview</title>
@@ -339,59 +339,59 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 
 </section>
 </section>
-<section xml:id="section_pos_module">
+<section xml:id="h2_pos_module">
 <title>Point of Sales Module</title>
 
 </section>
-<section xml:id="section_manufacturing_module">
+<section xml:id="h2_manufacturing_module">
 <title>Manufacturing Module</title>
 
 </section>
-<section xml:id="section_membership_module">
+<section xml:id="h2_membership_module">
 <title>Membership Module</title>
 
 </section>
-<section xml:id="section_mlm_module">
+<section xml:id="h2_mlm_module">
 <title>Multilevel Marketing Module</title>
 
 </section>
-<section xml:id="section_ucc_module">
+<section xml:id="h2_ucc_module">
 <title>Unified Contact Center Module</title>
 
 </section>
-<section xml:id="section_inventory_module">
+<section xml:id="h2_inventory_module">
 <title>Inventory Module</title>
 
 </section>
-<section xml:id="section_ecomsync_module">
+<section xml:id="h2_ecomsync_module">
 <title>EcomSync Module</title>
 
 </section>
-<section xml:id="section_delivery_module">
+<section xml:id="h2_delivery_module">
 <title>Delivery Module</title>
 
 </section>
-<section xml:id="section_cp_commerce_module">
+<section xml:id="h2_cp_commerce_module">
 <title>Cross Platform Commerce</title>
 
 </section>
-<section xml:id="section_procure_to_pay_module">
+<section xml:id="h2_procure_to_pay_module">
 <title>Procure to Pay Module</title>
 
 </section>
-<section xml:id="section_order_to_cash_module">
+<section xml:id="h2_order_to_cash_module">
 <title>Order To Cash Module</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
 <chapter xml:id="chapter-applet-directory">
 <title>Applet Directory</title>
-<section xml:id="section_applet_listing">
+<section xml:id="h2_applet_listing">
 <title>Applet Listing</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
-<chapter xml:id="chapter_cloud_native_architecture">
+<chapter xml:id="h1_cloud_native_architecture">
 <title>Cloud Native Architecture</title>
 <simpara>Common misunderstanding
 * thinking web based = cloud based.
@@ -399,7 +399,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 * online / networked = cloud based</simpara>
 <simpara>Our aspirations
 * To be the business operating systems</simpara>
-<section xml:id="section_cloud_native_background">
+<section xml:id="h2_cloud_native_background">
 <title>Background</title>
 <itemizedlist>
 <listitem>
@@ -425,7 +425,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="section_cloud_native_motivation">
+<section xml:id="h2_cloud_native_motivation">
 <title>Motivation</title>
 <simpara>Platform Business Model</simpara>
 <simpara>Multiple offerings
@@ -439,41 +439,41 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara>Growth</simpara>
 <simpara>Composable Enterprise</simpara>
 <simpara>Utility based billing</simpara>
-<section xml:id="section_cloud_native_integration">
+<section xml:id="h2_cloud_native_integration">
 <title>Integrations</title>
 <simpara>spikes in loads</simpara>
 </section>
-<section xml:id="section_cloud_native_infra_toolchain">
+<section xml:id="h2_cloud_native_infra_toolchain">
 <title>Infrastructure and Toolchain</title>
 <simpara>Various tools ready to be used out of the box&#8230;&#8203;
 example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
-<section xml:id="section_cloud_native_network_effect">
+<section xml:id="h2_cloud_native_network_effect">
 <title>Network Effect</title>
 
 </section>
-<section xml:id="section_cloud_native_cost_savings">
+<section xml:id="h2_cloud_native_cost_savings">
 <title>Cloud Cost Savings</title>
 
 </section>
-<section xml:id="section_cloud_native_ai">
+<section xml:id="h2_cloud_native_ai">
 <title>Artificial Intelligence</title>
 
 </section>
-<section xml:id="section_cloud_native_human_resource">
+<section xml:id="h2_cloud_native_human_resource">
 <title>Human Resource</title>
 
 </section>
 </section>
-<section xml:id="section_cloud_native_journey">
+<section xml:id="h2_cloud_native_journey">
 <title>Journey</title>
 
 </section>
-<section xml:id="section_cloud_native_challenges_lessons">
+<section xml:id="h2_cloud_native_challenges_lessons">
 <title>Challenges and Lessons</title>
 
 </section>
-<section xml:id="section_cloud_native_technical_considerations">
+<section xml:id="h2_cloud_native_technical_considerations">
 <title>Technical Considerations</title>
 <itemizedlist>
 <listitem>
@@ -508,7 +508,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </chapter>
 <chapter xml:id="chapter-documentation-authoring">
 <title>Documentation Authoring</title>
-<section xml:id="section_authoring_this_documentation">
+<section xml:id="h2_authoring_this_documentation">
 <title>Authoring this Documentation</title>
 <simpara>This documentation is written using asciidoc, please take a few minutes to go through the following guide:</simpara>
 <itemizedlist>
@@ -532,7 +532,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="section_authoring_setup_config">
+<section xml:id="h2_authoring_setup_config">
 <title>Setup and Configurations</title>
 <section xml:id="_github_repository">
 <title>Github Repository</title>
@@ -637,7 +637,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara>The next step is to open the folder where you cloned the <link xl:href="https://github.com/akaun/Public-Guide">https://github.com/akaun/Public-Guide</link> repository using the Visual Studio Code</simpara>
 </section>
 </section>
-<section xml:id="section_authoring_directory_structure">
+<section xml:id="h2_authoring_directory_structure">
 <title>Understanding the Directory Structure</title>
 <informaltable frame="all" rowsep="1" colsep="1">
 <tgroup cols="2">
@@ -668,7 +668,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </tgroup>
 </informaltable>
 </section>
-<section xml:id="section_committing_changes_to_the_repo">
+<section xml:id="h2_committing_changes_to_the_repo">
 <title>Committing Changes To The Repository</title>
 <simpara>Before you make any changes, it is absolutely important that you <emphasis role="strong">checkout</emphasis> the local repository into a different branch, and the naming convention that we use would be:</simpara>
 <simpara>YYYY-&lt;email_address&gt;</simpara>

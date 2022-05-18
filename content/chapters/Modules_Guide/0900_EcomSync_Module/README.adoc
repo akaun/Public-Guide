@@ -1,4 +1,4 @@
-[#section_ecomsync_module]
+[#h2_ecomsync_module]
 === EcomSync Module
 
 
