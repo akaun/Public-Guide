@@ -740,11 +740,11 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </chapter>
 <appendix xml:id="_first_appendix">
 <title>First Appendix</title>
-<section xml:id="_first_subsection">
+<section xml:id="appendix_first_subsection">
 <title>First Subsection</title>
 
 </section>
-<section xml:id="_second_subsection">
+<section xml:id="appendix_second_subsection">
 <title>Second Subsection</title>
 
 </section>
@@ -753,11 +753,11 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <title>Second Appendix</title>
 
 </appendix>
-<chapter xml:id="_first_chapter">
+<chapter xml:id="appendix_first_chapter">
 <title>First Chapter</title>
 
 </chapter>
-<chapter xml:id="_second_chapter">
+<chapter xml:id="appendix_second_chapter">
 <title>Second Chapter</title>
 
 </chapter>
