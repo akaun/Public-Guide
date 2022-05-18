@@ -1,26 +1,99 @@
 [#chapter_cloud_native_architecture]
 == Cloud Native Architecture
 
+Common misunderstanding
+* thinking web based = cloud based.
+* everything has A.I.
+* online / networked = cloud based
 
+Our aspirations
+* To be the business operating systems
+
+
+[#section_cloud_native_background]
 === Background
 
+* Outdated JBoss application server, EJB 1.0 / 2.0
+* Servers idling
+* Hackers attack
+* Certain minimum costs to power up a tenant
+* Self service
+* Internal employee users vs customers + suppliers 
+* Integration pains
 
 
+[#section_cloud_native_motivation]
 === Motivation
 
+Platform Business Model
 
+Multiple offerings
+-> as middleware - backend as a service
+-> as applets
+-> as SAAS
+-> as communication hub
+
+Cross Platform development
+
+
+
+Scalability
+
+Flexibility
+
+Growth
+
+Composable Enterprise
+
+Utility based billing
+
+[#section_cloud_native_integration]
+==== Integrations 
+
+spikes in loads
+
+[#section_cloud_native_infra_toolchain]
+==== Infrastructure and Toolchain
+
+Various tools ready to be used out of the box...
+example : OCR, Lambda, RDS, NoSQL, API Gateway
+
+[#section_cloud_native_network_effect]
+==== Network Effect
+
+[#section_cloud_native_cost_savings]
+==== Cloud Cost Savings
+
+[#section_cloud_native_ai]
+==== Artificial Intelligence
+
+[#section_cloud_native_human_resource]
+==== Human Resource
+
+
+[#section_cloud_native_journey]
 === Journey
 
 
-
-=== Challenges
-
-
-=== Lessons learned
+[#section_cloud_native_challenges_lessons]
+=== Challenges and Lessons 
 
 
+
+
+[#section_cloud_native_technical_considerations]
 === Technical Considerations
 
+* managing complexities
+
+* Sharing about our journey to transform from monolith architecture to cloud native architecture
+* Sharing about the problems and challenges implementing stateless applications
+* Sharing about the implementation of Micro-Frontend Architecture
+* Sharing about the implementation of Web Socket using API Gateway and DynamoDB
+* Sharing about challenges of securing the API, permissions / configurations etc
+* Sharing about the challenges of multi-tenant environments
+* Sharing about the design of composable enterprise architecture
+* Sharing about the tricky part of networked tenants
 
 
 
