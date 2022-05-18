@@ -6,11 +6,12 @@
 
 The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting https://akaun.com/
 
-
+[#h3_general_users_your_akaun_id]
 ==== Your AkaunID 
 
 It is important for you to understand that with a single AkaunID, it is possible for you to have multiple Sign-In methods. You could be using an email with password, a phone number with the same password, you could also be adding access keys to your AkaunID for integration purposes.
 
+[#h3_general_users_prod_staging_dev]
 ==== The Production, Staging and Development Environment
 
 The very first thing to know is to understand the usage of each of the following environments.

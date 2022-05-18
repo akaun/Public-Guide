@@ -4,12 +4,16 @@
 Implementation of BigLedger projects requires a deep understanding of the Akaun platform 
 features and functions. Depends on which module the business 
 
+[#h3_project_impl_tenant_setup]
+==== Tenant setup in Akaun Platform
 
-==== 
+[#h3_project_impl_applet_catalog]
+==== Applet Catalogs 
 
-some sections here
+[#h3_project_impl_core_module]
+==== Configuration of Core Modules
 
-==== Section 2
 
 // This is the page break
+
 <<<<<<<<<<<
