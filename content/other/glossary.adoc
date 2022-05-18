@@ -1,0 +1,11 @@
+[glossary]
+== Terminology
+
+[glossary]
+Platform Administrators:: 
+        This refers to the BigLedger MIS Department
+System Administrator:: 
+        This refers to the BigLedger MIS Department
+Tenant Admin::
+        This refers to the OWNER or ADMIN of the Tenant. 
+
