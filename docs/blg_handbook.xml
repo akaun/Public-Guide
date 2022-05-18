@@ -738,7 +738,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
-<appendix xml:id="_first_appendix">
+<appendix xml:id="appendix_first">
 <title>First Appendix</title>
 <section xml:id="appendix_first_subsection">
 <title>First Subsection</title>
@@ -757,8 +757,8 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <title>First Chapter</title>
 
 </chapter>
-<chapter xml:id="appendix_second_chapter">
+<appendix xml:id="appendix_second_chapter">
 <title>Second Chapter</title>
-
-</chapter>
+<simpara>sdfsfa</simpara>
+</appendix>
 </book>
