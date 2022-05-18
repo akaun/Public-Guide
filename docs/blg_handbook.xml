@@ -573,6 +573,14 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="h2_tech_guide_domain_driven_design">
 <title>Domain Driven Design</title>
+
+</section>
+<section xml:id="h2_tech_guide_cp_commerce_dev">
+<title>CP Commerce Development</title>
+
+</section>
+<section xml:id="h2_tech_guide_kubernetes">
+<title>Kubernetes</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>

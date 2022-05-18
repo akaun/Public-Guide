@@ -16,6 +16,10 @@ include::BigLedger_Java_API_Guide/README.adoc[]
 
 include::Domain_Driven_Design_Guide/README.adoc[]
 
+include::CP_Commerce_Development/README.adoc[]
+
+include::Kubernetes_Cluster/README.adoc[]
+
 
 
 <<<<<<<<<<<
