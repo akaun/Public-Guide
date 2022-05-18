@@ -557,10 +557,23 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="_the_tenant_database_schema">
 <title>The Tenant Database Schema</title>
-<simpara>Unresolved directive in chapters/Technical_Guide/README.adoc - include::BigLedger_Java_API_Guide[]</simpara>
-<simpara>Unresolved directive in chapters/Technical_Guide/README.adoc - include::Domain_Driven_Design_Guide[]</simpara>
-<simpara><?asciidoc-pagebreak?></simpara>
+
 </section>
+</section>
+<section xml:id="h2_bigledger_java_api_guide">
+<title>BigLedger Java API Guide</title>
+<section xml:id="_spring_framework">
+<title>Spring Framework</title>
+
+</section>
+<section xml:id="_restful_api_best_practices">
+<title>RESTful API Best Practices</title>
+
+</section>
+</section>
+<section xml:id="h2_tech_guide_domain_driven_design">
+<title>Domain Driven Design</title>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
 <chapter xml:id="h1_documentation_authoring">

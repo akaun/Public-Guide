@@ -12,9 +12,9 @@ include::Akaun_Platform_Cloud_Infrastructure/README.adoc[]
 
 include::BigLedger_Database_Guide/README.adoc[]
 
-include::BigLedger_Java_API_Guide[]
+include::BigLedger_Java_API_Guide/README.adoc[]
 
-include::Domain_Driven_Design_Guide[]
+include::Domain_Driven_Design_Guide/README.adoc[]
 
 
 
