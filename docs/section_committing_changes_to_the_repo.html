@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
 <meta name="author" content="Vincent Lee">
-<title>Akaun Platform Guide (Public)</title>
+<title>BigLedger Handbook</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -441,9 +441,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
              .nav-footer{text-align: center; margin-top: auto;}
              .nav-footer > p > a {white-space: nowrap;}</style>
 </head>
-<body id="_setup_and_configurations" class="book">
+<body id="section_committing_changes_to_the_repo" class="book">
 <div id="header">
-<h1>Akaun Platform Guide (Public)</h1>
+<h1>BigLedger Handbook</h1>
 <div class="details">
 <span id="author" class="author">Vincent Lee</span><br>
 <span id="email" class="email"><a href="mailto:vincent@akaun.com">vincent@akaun.com</a></span><br>
@@ -453,157 +453,91 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect2">
-<h3 id="_setup_and_configurations">5.2. Setup and Configurations</h3>
-<div class="sect3">
-<h4 id="_github_repository">5.2.1. Github Repository</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Github User Account</p>
-</li>
-</ul>
+<h3 id="section_committing_changes_to_the_repo">5.4. Committing Changes To The Repository</h3>
+<div class="paragraph">
+<p>Before you make any changes, it is absolutely important that you <strong>checkout</strong> the local repository into a different branch, and the naming convention that we use would be:</p>
 </div>
 <div class="paragraph">
-<p>In order to author this documentation, you will need to have a <a href="https://github.com" class="bare">https://github.com</a> account. As an employee of Wavelet.net or BigLedger.com , you will be using the &lt;username&gt;@wavelet.net to register for the github user.</p>
+<p>YYYY-&lt;email_address&gt;</p>
 </div>
 <div class="paragraph">
-<p>You can request the HR department to grant you access to the <a href="mailto:hr@wavelet.net">hr@wavelet.net</a> to grant you the access to Github Akaun organization (<a href="https://github.com/akaun" class="bare">https://github.com/akaun</a>).</p>
+<p>You may find the following resource useful:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Downloading the Github Desktop Client by clicking on the button below:</p>
+<p><a href="https://code.visualstudio.com/docs/editor/versioncontrol#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository" class="bare">https://code.visualstudio.com/docs/editor/versioncontrol#:~:text=You%20can%20create%20and%20checkout,tags%20in%20the%20current%20repository</a>.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=X9-iaXfKY5g" class="bare">https://www.youtube.com/watch?v=X9-iaXfKY5g</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=H5BLEPhqxe8" class="bare">https://www.youtube.com/watch?v=H5BLEPhqxe8</a></p>
+</li>
+<li>
+<p><a href="https://www.jasongaylord.com/blog/2020/07/08/create-delete-branches-using-visual-studio-code" class="bare">https://www.jasongaylord.com/blog/2020/07/08/create-delete-branches-using-visual-studio-code</a></p>
 </li>
 </ul>
 </div>
-<div class="imageblock">
+<div class="paragraph">
+<p>Once you have made the changes you want, remember to run the command from the "Public-Guide" directory:</p>
+</div>
+<div class="listingblock">
 <div class="content">
-<img src="assets/github_akaun_PublicGuide_download_code.png" alt="github akaun PublicGuide download code">
+<pre class="highlight"><code class="language-shell" data-lang="shell">bin/publish.sh</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Please visit <a href="https://desktop.github.com/" class="bare">https://desktop.github.com/</a> to download the Github Desktop.</p>
+<p>The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build" folder and subsequently publish the final output into the "docs" folder.</p>
+</div>
+<div class="paragraph">
+<p>To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Accessing the repository</p>
+<p>index.html (This is the multipage html output)</p>
+</li>
+<li>
+<p>all_in_one.pub</p>
+</li>
+<li>
+<p>all_in_one.pdf</p>
+</li>
+<li>
+<p>all_in_one.html</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>After you have downloaded the github, please clone the <a href="https://github.com/akaun/Public-Guide" class="bare">https://github.com/akaun/Public-Guide</a> to your local computer.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_asciidoctor_toolchain">5.2.2. Asciidoctor Toolchain</h4>
-<div class="paragraph">
-<p>Depends on the operating systems you are using, please follow the instructions below accordingly:</p>
-</div>
-<div class="sect4">
-<h5 id="_installing_asciidoctor">Installing Asciidoctor</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>Linux</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.asciidoctor.org/asciidoctor/latest/install/linux-packaging/" class="bare">https://docs.asciidoctor.org/asciidoctor/latest/install/linux-packaging/</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Windows</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.asciidoctor.org/asciidoctor/latest/install/windows/" class="bare">https://docs.asciidoctor.org/asciidoctor/latest/install/windows/</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Mac</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://asciidoctor.org/docs/install-asciidoctor-macos/" class="bare">https://asciidoctor.org/docs/install-asciidoctor-macos/</a></p>
-</li>
-<li>
-<p><a href="https://docs.asciidoctor.org/asciidoctor/latest/install/macos/" class="bare">https://docs.asciidoctor.org/asciidoctor/latest/install/macos/</a></p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_installing_epub3_converter">Installing Epub3 Converter</h5>
-<div class="paragraph">
-<p>Please click on the link below for detailed instructions:</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.asciidoctor.org/epub3-converter/latest/" class="bare">https://docs.asciidoctor.org/epub3-converter/latest/</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_installing_pdf_converter">Installing PDF Converter</h5>
-<div class="paragraph">
-<p><a href="https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem" class="bare">https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_installing_multipage_html_converter">Installing Multipage HTML Converter</h5>
-<div class="paragraph">
-<p><a href="https://github.com/owenh000/asciidoctor-multipage" class="bare">https://github.com/owenh000/asciidoctor-multipage</a></p>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_visual_studio_code">5.2.3. Visual Studio Code</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Downloading Visual Studio Code</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Please visit the following page to download.
-<a href="https://code.visualstudio.com/download" class="bare">https://code.visualstudio.com/download</a></p>
-</div>
-<div class="paragraph">
-<p>After you have installed the Visual Studio Code, please install the following extensions:</p>
+<p>Once you have completed your editing, the next step is to create a <strong>pull request</strong>. Refer to the following for more information:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>AsciiDoc</p>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models" class="bare">https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models</a></p>
 </li>
 <li>
-<p>Github Pull Requests and Issues</p>
+<p><a href="https://docs.github.com/en/pull-requests" class="bare">https://docs.github.com/en/pull-requests</a></p>
 </li>
 <li>
-<p>vscode-pdf</p>
+<p><a href="https://www.youtube.com/watch?v=oa1wXWeH1IQ" class="bare">https://www.youtube.com/watch?v=oa1wXWeH1IQ</a></p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>The next step is to open the folder where you cloned the <a href="https://github.com/akaun/Public-Guide" class="bare">https://github.com/akaun/Public-Guide</a> repository using the Visual Studio Code</p>
+<p>Congratulations !!</p>
 </div>
-</div>
+<div style="page-break-after: always;"></div>
 </div>
 <div class="paragraph nav-footer">
-<p>← Previous: <a href="_authoring_this_documentation.html">Authoring this Documentation</a> | ↑ Up: <a href="chapter-documentation-authoring.html">Documentation Authoring</a> | ⌂ Home: <a href="index.html">Akaun Platform Guide (Public)</a> | Next: <a href="_understanding_the_directory_structure.html">Understanding the Directory Structure</a> →</p>
+<p>← Previous: <a href="section_authoring_directory_structure.html">Understanding the Directory Structure</a> | ↑ Up: <a href="chapter-documentation-authoring.html">Documentation Authoring</a> | ⌂ Home: <a href="index.html">BigLedger Handbook</a></p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 1.0<br>
-Last updated 2022-05-18 04:14:27 +0800
+Last updated 2022-05-18 09:21:04 +0800
 </div>
 </div>
 </body>
