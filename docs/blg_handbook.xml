@@ -520,7 +520,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </row>
 <row>
 <entry align="left" valign="top"><simpara>bin</simpara></entry>
-<entry align="left" valign="top"><simpara>This folder contains shell scripts that you need to install and setup. You will also see a file called all_in_one.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "docs" folder. You shouldn&#8217;t be editing any files in this folder.</simpara></entry>
+<entry align="left" valign="top"><simpara>This folder contains shell scripts that you need to install and setup. You will also see a file called publish.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "docs" folder. You shouldn&#8217;t be editing any files in this folder.</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>build</simpara></entry>
@@ -566,13 +566,13 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <simpara>index.html (This is the multipage html output)</simpara>
 </listitem>
 <listitem>
-<simpara>all_in_one.pub</simpara>
+<simpara>blg_handbook.pub</simpara>
 </listitem>
 <listitem>
-<simpara>all_in_one.pdf</simpara>
+<simpara>blg_handbook.pdf</simpara>
 </listitem>
 <listitem>
-<simpara>all_in_one.html</simpara>
+<simpara>blg_handbook.html</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Once you have completed your editing, the next step is to create a <emphasis role="strong">pull request</emphasis>. Refer to the following for more information:</simpara>
