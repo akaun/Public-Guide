@@ -751,14 +751,13 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </appendix>
 <appendix xml:id="appendix_second">
 <title>Second Appendix</title>
-
-</appendix>
-<chapter xml:id="appendix_first_chapter">
+<section xml:id="appendix_first_chapter">
 <title>First Chapter</title>
 
-</chapter>
-<chapter xml:id="appendix_second_chapter">
+</section>
+<section xml:id="appendix_second_chapter">
 <title>Second Chapter</title>
 <simpara>sdfsfa</simpara>
-</chapter>
+</section>
+</appendix>
 </book>
