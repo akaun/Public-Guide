@@ -21,6 +21,7 @@ Some useful videos:
 [#h2_authoring_setup_config]
 === Setup and Configurations
 
+[#h3_authoring_github_repository]
 ==== Github Repository
 
 * Github User Account
@@ -41,6 +42,7 @@ Please visit https://desktop.github.com/ to download the Github Desktop.
 
 After you have downloaded the github, please clone the https://github.com/akaun/Public-Guide to your local computer.
 
+[#h3_authoring_asciidoctor_toolchain]
 ==== Asciidoctor Toolchain
 
 Depends on the operating systems you are using, please follow the instructions below accordingly:
@@ -73,7 +75,7 @@ https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem
 
 https://github.com/owenh000/asciidoctor-multipage
 
-
+[#h3_authoring_visual_studio_code]
 ====  Visual Studio Code
 
 * Downloading Visual Studio Code
@@ -110,6 +112,17 @@ The next step is to open the folder where you cloned the https://github.com/akau
 | You shouldn't need to edit any files in this folder. But you are welcome to open the files in this folder to check the "compiled output" of your changes , to ensure they are correct before pushing your code to the github, and request for your branch to be merged with the "main" branch in github.
 
 |===
+
+[#h2_authoring_images]
+=== Images 
+
+You may place the images anywhere in any sub-folders inside the "content/" folder, and reference to it in your asciidoc document using assets/<image-file-name>. The *bin/publish.sh* would copy all images in the "content" folder into the "content/assets" folder before the compilation and build of all asciidoctor formats.
+
+Example:
+[source,asciidoc]
+------
+    image::assets/<image-file-name>[]
+------
 
 [#h2_committing_changes_to_the_repo]
 === Committing Changes To The Repository

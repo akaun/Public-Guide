@@ -1,6 +1,5 @@
 = BigLedger Handbook 
-Vincent Lee <vincent@akaun.com>, Diana Filimonova <diana@wavelet.net>
-v1.0, 2022-05-15
+v1.0
 :homepage: https://docs.akaun.com
 :sectnums:
 :toc: macro
