@@ -1,7 +1,18 @@
-echo 'Removing build/blg_handbook/ folder...'
+
+echo 'Cleaning up "docs/* folder....'
+rm -rf docs/*
+rm -rf content/assets
 rm -rf build/blg_handbook
+
 echo 'Creating empty build/blg_handbook/ folder...'
-mkdir -p build/blg_handbook/www
+mkdir -p build/blg_handbook/www/assets
+
+echo 'Copying all non-adoc files into content/assets.... '
+mkdir -p content/assets
+find ./content/chapters -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
+find ./content/other -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
+cp ./content/bigledger_logo.jpeg ./content/assets
+
 
 echo 'Compiling single file.html....'
 asciidoctor -o build/blg_handbook/blg_handbook.html content/index.adoc
@@ -21,11 +32,8 @@ echo 'Compiling Multipage HTML .....'
 asciidoctor --trace -r asciidoctor-multipage -b multipage_html5 -o index.html -D build/blg_handbook/www content/index.adoc
 
 echo 'Copying all non-adoc files into build/blg_handbook/www/assets folder....'
-mkdir -p build/blg_handbook/www/assets
-find ./content -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" build/blg_handbook/www/assets \;
+cp -r ./content/asset ./build/blg_handbook/www
 
-echo 'Cleaning up "docs/* folder....'
-rm -rf docs/*
 echo 'Copying files to docs folder for github pages publishing .... '
 cp -r build/blg_handbook/www/* docs
 cp ./build/blg_handbook/blg_handbook* docs
