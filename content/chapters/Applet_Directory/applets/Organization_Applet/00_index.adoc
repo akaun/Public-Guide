@@ -1,8 +1,8 @@
-[#h3_manual_template_applet]
-==== Manual Template Applet
+[#h3_organization_applet]
+==== Organization Applet
 
 
-image::assets/applet_logo.png[]
+image::assets/organization_applet_logo.png[]
 
 
 include::introduction.adoc[]

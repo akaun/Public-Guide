@@ -6,5 +6,27 @@
 === Applet Listing
 
 
+|===
+
+| Applet Name | Description
+
+| xref:h3_applet_store[xrefstyle=basic] 
+| 
+include::applets/Applet_Store/intro_description.adoc[]
+
+
+| xref:h3_organization_applet[xrefstyle=basic] 
+| 
+include::applets/Organization_Applet/intro_description.adoc[]
+
+|===
 
 <<<<<<<<<<
+
+include::applets/Applet_Store/00_index.adoc[]
+
+include::applets/Organization_Applet/00_index.adoc[]
+
+// we will keep adding the long list of applet here.
+
+

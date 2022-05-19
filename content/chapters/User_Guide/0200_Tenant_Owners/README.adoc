@@ -1,11 +1,37 @@
 [#h2_tenant_owners]
 === Tenant Owners
 
-Platform Guide for Tenant Owners
 
-==== Section 1
 
-==== Section 2
+==== What is a Tenant ? 
+
+==== Managing Users
+
+
+* You can invite / add a user to a tenant or remove their access to a tenant but you cannot reset their password
+
+* Identity management is handled at the root or platform level
+
+
+==== Fees and Charges
+
+
+==== Access and Permissions
+
+
+==== System Performance
+
+==== API 
+
+
+==== Subscriptions , Applet-Catalogs , Applets
+
+
+==== Audit Trail
+
+
+
+
 
 // This is the page break
 <<<<<<<<<<<

@@ -1,17 +1,17 @@
-[#h2_general_users]
-=== General Users
+[#h2_user_guide_all]
+=== All Users
 //=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) General Users
 
 //== ({counter2:guide_no}{guide_no}.{counter2:chapter_no_user_guide:2}{chapter_no_user_guide}) General Users
 
 The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting https://akaun.com/
 
-[#h3_general_users_your_akaun_id]
+[#h3_user_guide_your_akaun_id]
 ==== Your AkaunID 
 
 It is important for you to understand that with a single AkaunID, it is possible for you to have multiple Sign-In methods. You could be using an email with password, a phone number with the same password, you could also be adding access keys to your AkaunID for integration purposes.
 
-[#h3_general_users_prod_staging_dev]
+[#h3_user_guide_prod_staging_dev]
 ==== The Production, Staging and Development Environment
 
 The very first thing to know is to understand the usage of each of the following environments.
@@ -38,7 +38,7 @@ The very first thing to know is to understand the usage of each of the following
 
 If you have registered an AkaunID to login to the Production environment, that doesn't mean you have the same AkaunID registered in the Staging Environment and vice versa. 
 
-[#h3_general_users_root_vs_tenant]
+[#h3_user_guide_root_vs_tenant]
 ==== Understanding Root vs Tenant 
 
 Within a single environment (Production vs Staging vs Development) there's one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.
@@ -61,7 +61,7 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 |===
 
 
-[#h3_general_users_applet_store]
+[#h3_user_guide_applet_store]
 ==== The Applet Store
 
 By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
@@ -69,9 +69,7 @@ From the *Applet Store* , a user would be able to install applets in the public 
 
 It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet, so that they are installing the right applet for themselves.
 
-If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog. If you see a blank page, please contact the platform-administrators to add grant you access to the applet-catalogs specially created for your organization, so that you can start installing applets with them.
-
-
+If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog and choose to install any of the applets accordingly.
 
 
 

@@ -1,8 +1,7 @@
-[#h3_manual_template_applet]
-==== Manual Template Applet
+[#h3_applet_store]
+==== Applet Store
 
-
-image::assets/applet_logo.png[]
+image::assets/applet_store_logo.png[]
 
 
 include::introduction.adoc[]

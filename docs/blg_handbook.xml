@@ -42,14 +42,14 @@ To view this in other formats, click on the following:</simpara>
 <chapter xml:id="h1_user_guide">
 <title>User Guide</title>
 <simpara>This repository contains all the source code for publishing the Akaun Platform Public Documentation.</simpara>
-<section xml:id="h2_general_users">
-<title>General Users</title>
+<section xml:id="h2_user_guide_all">
+<title>All Users</title>
 <simpara>The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting <link xl:href="https://akaun.com/">https://akaun.com/</link></simpara>
-<section xml:id="h3_general_users_your_akaun_id">
+<section xml:id="h3_user_guide_your_akaun_id">
 <title>Your AkaunID</title>
 <simpara>It is important for you to understand that with a single AkaunID, it is possible for you to have multiple Sign-In methods. You could be using an email with password, a phone number with the same password, you could also be adding access keys to your AkaunID for integration purposes.</simpara>
 </section>
-<section xml:id="h3_general_users_prod_staging_dev">
+<section xml:id="h3_user_guide_prod_staging_dev">
 <title>The Production, Staging and Development Environment</title>
 <simpara>The very first thing to know is to understand the usage of each of the following environments.</simpara>
 <informaltable frame="all" rowsep="1" colsep="1">
@@ -90,7 +90,7 @@ To view this in other formats, click on the following:</simpara>
 </informaltable>
 <simpara>If you have registered an AkaunID to login to the Production environment, that doesn&#8217;t mean you have the same AkaunID registered in the Staging Environment and vice versa.</simpara>
 </section>
-<section xml:id="h3_general_users_root_vs_tenant">
+<section xml:id="h3_user_guide_root_vs_tenant">
 <title>Understanding Root vs Tenant</title>
 <simpara>Within a single environment (Production vs Staging vs Development) there&#8217;s one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.</simpara>
 <informaltable frame="all" rowsep="1" colsep="1">
@@ -119,12 +119,12 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 </tgroup>
 </informaltable>
 </section>
-<section xml:id="h3_general_users_applet_store">
+<section xml:id="h3_user_guide_applet_store">
 <title>The Applet Store</title>
 <simpara>By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
 From the <emphasis role="strong">Applet Store</emphasis> , a user would be able to install applets in the public or private applet-catalogs.</simpara>
 <simpara>It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet, so that they are installing the right applet for themselves.</simpara>
-<simpara>If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog. If you see a blank page, please contact the platform-administrators to add grant you access to the applet-catalogs specially created for your organization, so that you can start installing applets with them.</simpara>
+<simpara>If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog and choose to install any of the applets accordingly.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -161,13 +161,43 @@ using the BigLedger platform.</simpara>
 </section>
 <section xml:id="h2_tenant_owners">
 <title>Tenant Owners</title>
-<simpara>Platform Guide for Tenant Owners</simpara>
-<section xml:id="_section_1">
-<title>Section 1</title>
+<section xml:id="_what_is_a_tenant">
+<title>What is a Tenant ?</title>
 
 </section>
-<section xml:id="_section_2">
-<title>Section 2</title>
+<section xml:id="_managing_users">
+<title>Managing Users</title>
+<itemizedlist>
+<listitem>
+<simpara>You can invite / add a user to a tenant or remove their access to a tenant but you cannot reset their password</simpara>
+</listitem>
+<listitem>
+<simpara>Identity management is handled at the root or platform level</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_fees_and_charges">
+<title>Fees and Charges</title>
+
+</section>
+<section xml:id="_access_and_permissions">
+<title>Access and Permissions</title>
+
+</section>
+<section xml:id="_system_performance">
+<title>System Performance</title>
+
+</section>
+<section xml:id="_api">
+<title>API</title>
+
+</section>
+<section xml:id="_subscriptions_applet_catalogs_applets">
+<title>Subscriptions , Applet-Catalogs , Applets</title>
+
+</section>
+<section xml:id="_audit_trail">
+<title>Audit Trail</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -182,11 +212,11 @@ using the BigLedger platform.</simpara>
 <section xml:id="h2_resellers">
 <title>Reseller Guide</title>
 <simpara>Guide for resellers</simpara>
-<section xml:id="_section_1_2">
+<section xml:id="_section_1">
 <title>Section 1</title>
 
 </section>
-<section xml:id="_section_2_2">
+<section xml:id="_section_2">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
@@ -194,11 +224,11 @@ using the BigLedger platform.</simpara>
 <section xml:id="h2_system_integrations">
 <title>System Integrators</title>
 <simpara>Guide for system integrators</simpara>
-<section xml:id="_section_1_3">
+<section xml:id="_section_1_2">
 <title>Section 1</title>
 <simpara>some sections here</simpara>
 </section>
-<section xml:id="_section_2_3">
+<section xml:id="_section_2_2">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
@@ -442,7 +472,265 @@ Every <xref linkend="h2_project_implementors"/> need to ensure these applets are
 <title>Applet Directory</title>
 <section xml:id="h2_applet_listing">
 <title>Applet Listing</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Applet Name</simpara></entry>
+<entry align="left" valign="top"><simpara>Description</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><xref linkend="h3_applet_store"/></simpara></entry>
+<entry align="left" valign="top"><simpara>This is the default applet that every user will get when they sign up to the Akaun Platform. Users can open this applet to install all other applets.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><xref linkend="h3_organization_applet"/></simpara></entry>
+<entry align="left" valign="top"><simpara>You can use this applet to create / update / delete companies, branches and locations.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
 <simpara><?asciidoc-pagebreak?></simpara>
+<section xml:id="h3_applet_store">
+<title>Applet Store</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_store_logo.png"/>
+</imageobject>
+<textobject><phrase>applet store logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_applet_store_introduction">
+<title>Introduction</title>
+<simpara>This is the default applet that every user will get when they sign up to the Akaun Platform. Users can open this applet to install all other applets.</simpara>
+</section>
+<section xml:id="h4_applet_store_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_mlm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_ucc_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_ecomsync_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_applet_store_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_applet_store_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_applet_store_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_applet_store_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_applet_store_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_applet_store_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_applet_store_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_applet_store_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_organization_applet">
+<title>Organization Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/organization_applet_logo.png"/>
+</imageobject>
+<textobject><phrase>organization applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_organization_introduction">
+<title>Introduction</title>
+<simpara>You can use this applet to create / update / delete companies, branches and locations.</simpara>
+</section>
+<section xml:id="h4_organization_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_mlm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_ucc_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_ecomsync_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_organization_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_organization_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_organization_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_organization_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_organization_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_organization_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_organization_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_organization_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
 </section>
 </chapter>
 <chapter xml:id="h1_cloud_native_architecture">
@@ -786,7 +1074,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="h2_authoring_images">
 <title>Images</title>
-<simpara>You may place the images anywhere in any folders inside the "content/" folder, and reference to it in your asciidoc document using assets/&lt;image-file-name&gt;.</simpara>
+<simpara>You may place the images anywhere in any sub-folders inside the "content/" folder, and reference to it in your asciidoc document using assets/&lt;image-file-name&gt;. The <emphasis role="strong">bin/publish.sh</emphasis> would copy all images in the "content" folder into the "content/assets" folder before the compilation and build of all asciidoctor formats.</simpara>
 <simpara>Example:</simpara>
 <programlisting language="asciidoc" linenumbering="unnumbered">    image::assets/&lt;image-file-name&gt;[]</programlisting>
 </section>
