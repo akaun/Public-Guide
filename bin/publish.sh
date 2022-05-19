@@ -19,13 +19,15 @@ asciidoctor-epub3 -o build/blg_handbook/blg_handbook.epub content/index.adoc
 
 echo 'Compiling Multipage HTML .....'
 asciidoctor --trace -r asciidoctor-multipage -b multipage_html5 -o index.html -D build/blg_handbook/www content/index.adoc
-cp -r content/assets build/blg_handbook/www
+
+echo 'Copying all non-adoc files into build/blg_handbook/www/assets folder....'
+mkdir -p build/blg_handbook/www/assets
+find ./content -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" build/blg_handbook/www/assets \;
 
 echo 'Cleaning up "docs/* folder....'
 rm -rf docs/*
 echo 'Copying files to docs folder for github pages publishing .... '
 cp -r build/blg_handbook/www/* docs
-cp -r content/assets  docs
 cp ./build/blg_handbook/blg_handbook* docs
 cp ./content/CNAME docs
 

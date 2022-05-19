@@ -41,31 +41,10 @@ When the users install applets from the "Applet Store" the RANK/TENANT tags will
 [#h3_project_impl_core_module]
 ==== Configuration of Core Modules
 
-The Core Module consist of the following applets:
+The Core Module consist of the following the main applets that are depended by all other applets. For example, in order to issue a sales invoice, we need to ensure that the Company and Branches are setup and configured, the products and services are added into the Item Maintenance applet, the employees of the company is setup so that the users can select the salesman when issuing the sales invoice.
 
-* Chart of Account Applet
+The applets in <<h2_core_module>> should be installed, configured in proper sequence, before you proceed to install the other applets.
 
-* Organization Applet
-
-* Tax Configuration Applet
-
-* Cashbook Applet
-
-* Doc Item Maintenance Applet
-
-* Inventory Item Maintenance Applet
-
-* Customer Maintenance Applet
-
-* Supplier Maintenance Applet
-
-* Employee Maintenance Applet
-
-* Entity Maintenance Applet
-
-These applets should be installed, configured in proper sequence, before you proceed to install the other applets.
-
-See <<h2_core_module>> for more details.
 See xref:h2_core_module[xrefstyle=full] for more details.
 
 

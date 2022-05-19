@@ -1,7 +1,34 @@
 [#h2_core_module]
 === Core Module
 
+The Core Module consist of the basic applets that would be required and depended by all other applets.
+Every <<h2_project_implementors>> need to ensure these applets are properly setup and configured before moving on to the other applets.
+
 ==== Overview
+
+The Core Module consist of the following applets:
+
+* Chart of Account Applet
+
+* Organization Applet
+
+* Tax Configuration Applet
+
+* Cashbook Applet
+
+* Doc Item Maintenance Applet
+
+* Inventory Item Maintenance Applet
+
+* Customer Maintenance Applet
+
+* Supplier Maintenance Applet
+
+* Employee Maintenance Applet
+
+* Entity Maintenance Applet
+
+These applets should be installed, configured in proper sequence, before you proceed to install the other applets.
 
 
 ==== Benefits

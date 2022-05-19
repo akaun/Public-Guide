@@ -160,42 +160,9 @@ using the BigLedger platform.</simpara>
 </section>
 <section xml:id="h3_project_impl_core_module">
 <title>Configuration of Core Modules</title>
-<simpara>The Core Module consist of the following applets:</simpara>
-<itemizedlist>
-<listitem>
-<simpara>Chart of Account Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Organization Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Tax Configuration Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Cashbook Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Doc Item Maintenance Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Inventory Item Maintenance Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Customer Maintenance Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Supplier Maintenance Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Employee Maintenance Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Entity Maintenance Applet</simpara>
-</listitem>
-</itemizedlist>
-<simpara>These applets should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
-<simpara>See <xref linkend="h2_core_module"/> for more details.
-See <xref linkend="h2_core_module"/> for more details.</simpara>
+<simpara>The Core Module consist of the following the main applets that are depended by all other applets. For example, in order to issue a sales invoice, we need to ensure that the Company and Branches are setup and configured, the products and services are added into the Item Maintenance applet, the employees of the company is setup so that the users can select the salesman when issuing the sales invoice.</simpara>
+<simpara>The applets in <xref linkend="h2_core_module"/> should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
+<simpara>See <xref linkend="h2_core_module"/> for more details.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -370,9 +337,44 @@ See <xref linkend="h2_core_module"/> for more details.</simpara>
 <simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
 <section xml:id="h2_core_module">
 <title>Core Module</title>
+<simpara>The Core Module consist of the basic applets that would be required and depended by all other applets.
+Every <xref linkend="h2_project_implementors"/> need to ensure these applets are properly setup and configured before moving on to the other applets.</simpara>
 <section xml:id="_overview">
 <title>Overview</title>
-
+<simpara>The Core Module consist of the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Chart of Account Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Organization Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Tax Configuration Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Cashbook Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Doc Item Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Inventory Item Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Customer Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Supplier Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Employee Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Entity Maintenance Applet</simpara>
+</listitem>
+</itemizedlist>
+<simpara>These applets should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
 </section>
 <section xml:id="_benefits">
 <title>Benefits</title>

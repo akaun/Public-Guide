@@ -1,0 +1,12 @@
+[#h3_manual_template_applet]
+==== Manual Template Applet
+
+
+include::introduction.adoc[]
+
+
+
+
+
+
+
