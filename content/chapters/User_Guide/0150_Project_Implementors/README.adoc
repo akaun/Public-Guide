@@ -66,6 +66,7 @@ The Core Module consist of the following applets:
 These applets should be installed, configured in proper sequence, before you proceed to install the other applets.
 
 See <<h2_core_module>> for more details.
+See xref:h2_core_module[xrefstyle=full] for more details.
 
 
 // This is the page break

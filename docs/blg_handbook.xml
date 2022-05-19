@@ -194,7 +194,8 @@ using the BigLedger platform.</simpara>
 </listitem>
 </itemizedlist>
 <simpara>These applets should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
-<simpara>See <xref linkend="h2_core_module"/> for more details.</simpara>
+<simpara>See <xref linkend="h2_core_module"/> for more details.
+See <xref linkend="h2_core_module"/> for more details.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
