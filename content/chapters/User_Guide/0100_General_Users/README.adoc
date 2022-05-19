@@ -67,7 +67,9 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
 From the *Applet Store* , a user would be able to install applets in the public or private applet-catalogs. 
 
-It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet.
+It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet, so that they are installing the right applet for themselves.
+
+If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog. If you see a blank page, please contact the platform-administrators to add grant you access to the applet-catalogs specially created for your organization, so that you can start installing applets with them.
 
 
 

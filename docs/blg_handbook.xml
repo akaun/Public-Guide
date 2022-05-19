@@ -130,7 +130,8 @@ It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the sa
 <title>The Applet Store</title>
 <simpara>By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
 From the <emphasis role="strong">Applet Store</emphasis> , a user would be able to install applets in the public or private applet-catalogs.</simpara>
-<simpara>It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet.</simpara>
+<simpara>It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet, so that they are installing the right applet for themselves.</simpara>
+<simpara>If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog. If you see a blank page, please contact the platform-administrators to add grant you access to the applet-catalogs specially created for your organization, so that you can start installing applets with them.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -138,21 +139,62 @@ From the <emphasis role="strong">Applet Store</emphasis> , a user would be able 
 <title>Project Implementors</title>
 <simpara>Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
 using the BigLedger platform.</simpara>
-<simpara>In this section, we are going to</simpara>
+<simpara>In this section, we are going to list down what the Platform System Administrators need to do, in order for a company to start using the Akaun-Platform.</simpara>
 <section xml:id="h3_project_impl_subscription_setup">
 <title>Subscription setup in Akaun Platform</title>
-<simpara>This step can only be performed by the</simpara>
+<simpara>The Platform System Administrator should be using the "Platform SysAdmin Applet" to create a subscription, and then add the OWNER / ADMIN of the tenants (usually the MIS Manager or business owners) as a MEMBER of this subscription. By adding a user to this subscription, he/she will be able to create new Applet Catalogs using the "Tenant Admin Applet".</simpara>
+<simpara>(<emphasis>At the time of writing as per 2022-05-19, the new "Platform SysAdmin Applet" and "Tenant Admin Applet" are being redeveloped, hence, we will use the work around method to achieve this for the time being.</emphasis>)</simpara>
 </section>
 <section xml:id="h3_project_impl_tenant_setup">
 <title>Tenant setup in Akaun Platform</title>
-<simpara>As of the time of writing, only the Akaun Platform system administrators (Wavelet and BigLedger employees) are able power up the tenant for you. Each of the tenant</simpara>
+<simpara>Only the Akaun Platform system administrators (Wavelet and BigLedger employees) are able power up the tenant for you. The Platform System administrators need to ensure that when creating the Tenant, the correct subscription account is chosen.</simpara>
+<simpara>Please email <link xl:href="mailto:jira-mis@wavelet.net">jira-mis@wavelet.net</link> to request for the tenant to be created.</simpara>
+<simpara>(_We do not plan to allow non-System Administrators to create new tenants at the moment, because our Billing engine and FPX recurring payment authorization is not ready yet. Once these are ready, we may consider allowing businesses that have authorized us to bill and charge be able to create tenants in the "Tenant Admin Applet" _)</simpara>
 </section>
 <section xml:id="h3_project_impl_applet_catalog_setup">
-<title>Applet Catalogs</title>
-
+<title>Applet-Catalogs</title>
+<simpara>Think of applet-catalog as a collection of applets, tagged with RANK and TENANT. When the OWNER/ADMIN of the applet-catalogs can add applets to it, and they have to specify the "rank" and "tenant". This also mean, within the same applet-catalog, it is possible to include the same applet that links to different tenants.</simpara>
+<simpara>The ADMIN/OWNER of the applet-catalog also need to add users to the applet-catalogs, and they can add them as OWNER/ADMIN/MEMBER to the applet-catalogs. Only OWNER/ADMIN of the catalogs can manage the applet-catalog (adding / removing applets and users from the applet-catalogs).</simpara>
+<simpara>All OWNER/ADMIN/MEMBER of an applet-catalog can see the applets in this catalog and install these applets when they use the "Applet Store &#8658; Private"</simpara>
+<simpara>When the users install applets from the "Applet Store" the RANK/TENANT tags will be applied to grant the users the respective permissions when they open the respective applet. Only the OWNER/ADMIN of the applets will be able to see and click on the "Settings" on the left handside menu of the applets to perform some further configuration for the applet. (This is not the same as the rank of the users in the applet-catalog).</simpara>
 </section>
 <section xml:id="h3_project_impl_core_module">
 <title>Configuration of Core Modules</title>
+<simpara>The Core Module consist of the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Chart of Account Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Organization Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Tax Configuration Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Cashbook Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Doc Item Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Inventory Item Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Customer Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Supplier Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Employee Maintenance Applet</simpara>
+</listitem>
+<listitem>
+<simpara>Entity Maintenance Applet</simpara>
+</listitem>
+</itemizedlist>
+<simpara>These applets should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
+<simpara>See &lt;h2_core_module&gt; for more details.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
