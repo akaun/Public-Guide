@@ -1,4 +1,5 @@
 /build/*
 /docs/CNAME
 /content/assets
+.DS_Store
 

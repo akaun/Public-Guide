@@ -75,7 +75,7 @@ To view this in other formats, click on the following:</simpara>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Staging</simpara></entry>
-<entry align="left" valign="top"><simpara><link xl:href="https://akaun.com">https://akaun.com</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.cloud">https://akaun.cloud</link></simpara></entry>
 <entry align="left" valign="top"><simpara><link xl:href="https://&lt;something&gt;.akaun.app">https://&lt;something&gt;.akaun.app</link></simpara></entry>
 <entry align="left" valign="top"><simpara>This environment is usually used for testing by the customers and project managers. New features are tested by the end users here before it gets deployed to the production environment.</simpara></entry>
 </row>

@@ -25,7 +25,7 @@ The very first thing to know is to understand the usage of each of the following
 | This is the life environment, used by real businesses in their day to day operations.
 
 | Staging
-| https://akaun.com
+| https://akaun.cloud
 | https://<something>.akaun.app
 | This environment is usually used for testing by the customers and project managers. New features are tested by the end users here before it gets deployed to the production environment.
 
