@@ -1,0 +1,58 @@
+[#h3_core_introduction]
+==== Introduction
+
+The intention of this section in the documentation.
+What this section cover, and not covering... and how it will link to othe other modules.
+Explaining that certain detail about 
+
+
+===== Overview
+
+Some background of why this module was developed
+Provide a summary of what this module does and doesn't do.
+
+
+===== Applets
+
+The core module consiste of the following applets:
+
+* xref:h3_tax_configuration_applet[xrefstyle=full]
+
+* xref:h3_organization_applet[xrefstyle=full]
+
+* xref:h3_chart_of_account_applet[xrefstyle=full]
+
+* xref:h3_doc_item_maintenance_applet[xrefstyle=full]
+
+* xref:h3_cashbook_applet[xrefstyle=full]
+
+* xref:h3_inv_item_maintenance_applet[xrefstyle=full]
+
+* xref:h3_entity_maintenance_applet[xrefstyle=full]
+
+* xref:h3_customer_maintenance_applet[xrefstyle=full]
+
+* xref:h3_employee_maintenance_applet[xrefstyle=full]
+
+* xref:h3_supplier_maintenance_applet[xrefstyle=full]
+
+
+
+
+
+
+===== Features and Functions
+
+
+
+===== What's New
+
+
+
+===== Getting Started
+
+
+
+===== Module Dependencies
+
+

@@ -1,0 +1,13 @@
+[#h2_inventory_module]
+=== Inventory Module
+
+include::introduction.adoc[]
+
+include::unique_value_proposition.adoc[]
+
+include::related_applets.adoc[]
+
+include::project_implementation_steps.adoc[]
+
+
+

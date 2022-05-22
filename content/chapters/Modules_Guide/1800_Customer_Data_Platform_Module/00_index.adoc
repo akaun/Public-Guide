@@ -1,0 +1,13 @@
+[#h2_customer_data_platform_module]
+=== Customer Data Platform
+
+include::introduction.adoc[]
+
+include::unique_value_proposition.adoc[]
+
+include::related_applets.adoc[]
+
+include::project_implementation_steps.adoc[]
+
+
+

@@ -1,9 +1,0 @@
-[#h2_accounting_module]
-=== Accounting Module
-
-
-==== Overview
-
-
-==== Features
-

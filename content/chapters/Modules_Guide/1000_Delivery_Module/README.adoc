@@ -1,2 +1,0 @@
-[#h2_delivery_module]
-=== Delivery Module

@@ -360,112 +360,3037 @@ using the BigLedger platform.</simpara>
 <simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
 <section xml:id="h2_core_module">
 <title>Core Module</title>
-<simpara>The Core Module consist of the basic applets that would be required and depended by all other applets.
-Every <xref linkend="h2_project_implementors"/> need to ensure these applets are properly setup and configured before moving on to the other applets.</simpara>
+<section xml:id="h3_core_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
 <section xml:id="_overview">
 <title>Overview</title>
-<simpara>The Core Module consist of the following applets:</simpara>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets">
+<title>Applets</title>
+<simpara>The core module consiste of the following applets:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Chart of Account Applet</simpara>
+<simpara><xref linkend="h3_tax_configuration_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Organization Applet</simpara>
+<simpara><xref linkend="h3_organization_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Tax Configuration Applet</simpara>
+<simpara><xref linkend="h3_chart_of_account_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Cashbook Applet</simpara>
+<simpara><xref linkend="h3_doc_item_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Doc Item Maintenance Applet</simpara>
+<simpara><xref linkend="h3_cashbook_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Inventory Item Maintenance Applet</simpara>
+<simpara><xref linkend="h3_inv_item_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Customer Maintenance Applet</simpara>
+<simpara><xref linkend="h3_entity_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Supplier Maintenance Applet</simpara>
+<simpara><xref linkend="h3_customer_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Employee Maintenance Applet</simpara>
+<simpara><xref linkend="h3_employee_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Entity Maintenance Applet</simpara>
+<simpara><xref linkend="h3_supplier_maintenance_applet"/></simpara>
 </listitem>
 </itemizedlist>
-<simpara>These applets should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
 </section>
-<section xml:id="_benefits">
-<title>Benefits</title>
+<section xml:id="_features_and_functions">
+<title>Features and Functions</title>
 
 </section>
-<section xml:id="_related_applets">
-<title>Related Applets</title>
+<section xml:id="_whats_new">
+<title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_pricing">
-<title>Pricing</title>
+<section xml:id="_getting_started">
+<title>Getting Started</title>
 
+</section>
+<section xml:id="_module_dependencies">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_core_name_unique_value_proposition">
+<title>Module Name - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_core_name_related_applets">
+<title>Module Name - Related Applets</title>
+
+</section>
+<section xml:id="h3_core_project_implementation_steps">
+<title>Module Name - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem">
+<title>Post Mortem</title>
+
+</section>
 </section>
 </section>
 <section xml:id="h2_accounting_module">
 <title>Accounting Module</title>
+<section xml:id="h3_accounting_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
 <section xml:id="_overview_2">
 <title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_2">
+<title>Applets</title>
 
 </section>
-<section xml:id="_features_8">
-<title>Features</title>
+<section xml:id="_features_and_functions_2">
+<title>Features and Functions</title>
 
+</section>
+<section xml:id="_whats_new_2">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_2">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_2">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_accounting_unique_value_proposition">
+<title>Accounting - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_accounting_related_applets">
+<title>Accounting Module - Related Applets</title>
+
+</section>
+<section xml:id="h3_accounting_project_implementation_steps">
+<title>Module Name - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_2">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_2">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_2">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_2">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_2">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_2">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_2">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_2">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_2">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_2">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_2">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_2">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_2">
+<title>Post Mortem</title>
+
+</section>
 </section>
 </section>
 <section xml:id="h2_pos_module">
 <title>Point of Sales Module</title>
+<section xml:id="h3_pos_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_3">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_3">
+<title>Applets</title>
 
+</section>
+<section xml:id="_features_and_functions_3">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_3">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_3">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_3">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_pos_unique_value_proposition">
+<title>Point of Sales - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_pos_related_applets">
+<title>Point of Sales Module - Related Applets</title>
+
+</section>
+<section xml:id="h3_pos_project_implementation_steps">
+<title>Point of Sales Module - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_3">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_3">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_3">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_3">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_3">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_3">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_3">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_3">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_3">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_3">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_3">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_3">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_3">
+<title>Post Mortem</title>
+
+</section>
+</section>
 </section>
 <section xml:id="h2_manufacturing_module">
 <title>Manufacturing Module</title>
+<section xml:id="h3_manufacturing_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_4">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_4">
+<title>Applets</title>
 
+</section>
+<section xml:id="_features_and_functions_4">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_4">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_4">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_4">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_manufacturing_unique_value_proposition">
+<title>Manufacturing - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_manufacturing_related_applets">
+<title>Manufacturing - Related Applets</title>
+
+</section>
+<section xml:id="h3_manufacturing_project_implementation_steps">
+<title>Manufacturing - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_4">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_4">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_4">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_4">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_4">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_4">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_4">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_4">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_4">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_4">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_4">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_4">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_4">
+<title>Post Mortem</title>
+
+</section>
+</section>
 </section>
 <section xml:id="h2_membership_module">
 <title>Membership Module</title>
+<section xml:id="h3_membership_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_5">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_5">
+<title>Applets</title>
 
 </section>
-<section xml:id="h2_mlm_module">
-<title>Multilevel Marketing Module</title>
+<section xml:id="_features_and_functions_5">
+<title>Features and Functions</title>
 
 </section>
-<section xml:id="h2_ucc_module">
-<title>Unified Contact Center Module</title>
+<section xml:id="_whats_new_5">
+<title>What&#8217;s New</title>
 
+</section>
+<section xml:id="_getting_started_5">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_5">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_membership_unique_value_proposition">
+<title>Membership - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_membership_related_applets">
+<title>Membership - Related Applets</title>
+
+</section>
+<section xml:id="h3_membership_project_implementation_steps">
+<title>Membership - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_5">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_5">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_5">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_5">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_5">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_5">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_5">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_5">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_5">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_5">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_5">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_5">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_5">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_referral_module">
+<title>Referral Module</title>
+<section xml:id="h3_referral_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_6">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_6">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_6">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_6">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_6">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_6">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_referral_unique_value_proposition">
+<title>Referral - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_referral_related_applets">
+<title>Referral Module - Related Applets</title>
+
+</section>
+<section xml:id="h3_referral_project_implementation_steps">
+<title>Module Name - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_6">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_6">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_6">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_6">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_6">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_6">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_6">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_6">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_6">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_6">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_6">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_6">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_6">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_crm_module">
+<title>Customer Relationship Management</title>
+<section xml:id="h3_crm_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_7">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_7">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_7">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_7">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_7">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_7">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_crm_unique_value_proposition">
+<title>CRM - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_crm_related_applets">
+<title>CRM - Related Applets</title>
+
+</section>
+<section xml:id="h3_crm_project_implementation_steps">
+<title>CRM - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_7">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_7">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_7">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_7">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_7">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_7">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_7">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_7">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_7">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_7">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_7">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_7">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_7">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_contact_center_module">
+<title>Contact Center Module</title>
+<section xml:id="h3_contact_center_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_8">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_8">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_8">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_8">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_8">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_8">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_contact_center_unique_value_proposition">
+<title>Contact Center - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_contact_center_related_applets">
+<title>Contact Center - Related Applets</title>
+
+</section>
+<section xml:id="h3_contact_center_project_implementation_steps">
+<title>Contact Center - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_8">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_8">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_8">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_8">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_8">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_8">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_8">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_8">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_8">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_8">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_8">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_8">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_8">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_digital_marketing_module">
+<title>Name of Module</title>
+<section xml:id="h3_digital_marketing_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_9">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_9">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_9">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_9">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_9">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_9">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_digital_marketing_unique_value_proposition">
+<title>Digital Marketing - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_digital_marketing_related_applets">
+<title>Digital Marketing - Related Applets</title>
+
+</section>
+<section xml:id="h3_digital_marketing_project_implementation_steps">
+<title>Digital Marketing - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_9">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_9">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_9">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_9">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_9">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_9">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_9">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_9">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_9">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_9">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_9">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_9">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_9">
+<title>Post Mortem</title>
+
+</section>
+</section>
 </section>
 <section xml:id="h2_inventory_module">
 <title>Inventory Module</title>
+<section xml:id="h3_inventory_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_10">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_10">
+<title>Applets</title>
 
 </section>
-<section xml:id="h2_ecomsync_module">
-<title>EcomSync Module</title>
+<section xml:id="_features_and_functions_10">
+<title>Features and Functions</title>
 
 </section>
-<section xml:id="h2_delivery_module">
-<title>Delivery Module</title>
+<section xml:id="_whats_new_10">
+<title>What&#8217;s New</title>
 
+</section>
+<section xml:id="_getting_started_10">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_10">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_inventory_unique_value_proposition">
+<title>Inventory Module - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_inventory_related_applets">
+<title>Inventory Module - Related Applets</title>
+
+</section>
+<section xml:id="h3_inventory_project_implementation_steps">
+<title>Inventory Module  - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_10">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_10">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_10">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_10">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_10">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_10">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_10">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_10">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_10">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_10">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_10">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_10">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_10">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_marketplace_connector_module">
+<title>Marketplace Connector Module</title>
+<section xml:id="h3_marketplace_connector_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_11">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_11">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_11">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_11">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_11">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_11">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_marketplace_connector_unique_value_proposition">
+<title>Marketplace Connector - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_marketplace_connector_related_applets">
+<title>Marketplace Connector - Related Applets</title>
+
+</section>
+<section xml:id="h3_marketplace_connector_project_implementation_steps">
+<title>Marketplace Connector - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_11">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_11">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_11">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_11">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_11">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_11">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_11">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_11">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_11">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_11">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_11">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_11">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_11">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_delivery_fulfillment_module">
+<title>Delivery Fulfillment Module</title>
+<section xml:id="h3_delivery_fulfillment_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_12">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_12">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_12">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_12">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_12">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_12">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_delivery_fulfillment_unique_value_proposition">
+<title>Delivery Fulfillment - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_delivery_fulfillment_related_applets">
+<title>Delivery Fulfillment - Related Applets</title>
+
+</section>
+<section xml:id="h3_delivery_fulfillment_project_implementation_steps">
+<title>Delivery Fulfillment - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_12">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_12">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_12">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_12">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_12">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_12">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_12">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_12">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_12">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_12">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_12">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_12">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_12">
+<title>Post Mortem</title>
+
+</section>
+</section>
 </section>
 <section xml:id="h2_cp_commerce_module">
-<title>Cross Platform Commerce</title>
+<title>CP Commerce Module</title>
+<section xml:id="h3_cp_commerce_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_13">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_13">
+<title>Applets</title>
 
+</section>
+<section xml:id="_features_and_functions_13">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_13">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_13">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_13">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_cp_commerce_unique_value_proposition">
+<title>CP Commerce - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_cp_commerce_related_applets">
+<title>CP Commerce - Related Applets</title>
+
+</section>
+<section xml:id="h3_cp_commerce_project_implementation_steps">
+<title>CP Commerce - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_13">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_13">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_13">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_13">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_13">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_13">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_13">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_13">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_13">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_13">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_13">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_13">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_13">
+<title>Post Mortem</title>
+
+</section>
+</section>
 </section>
 <section xml:id="h2_procure_to_pay_module">
 <title>Procure to Pay Module</title>
+<section xml:id="h3_procure_to_pay_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_14">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_14">
+<title>Applets</title>
 
+</section>
+<section xml:id="_features_and_functions_14">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_14">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_14">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_14">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_procure_to_pay_unique_value_proposition">
+<title>Procure To Pay - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_procure_to_pay_related_applets">
+<title>Procure To Pay - Related Applets</title>
+
+</section>
+<section xml:id="h3_procure_to_pay_project_implementation_steps">
+<title>Procure To Pay - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_14">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_14">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_14">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_14">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_14">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_14">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_14">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_14">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_14">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_14">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_14">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_14">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_14">
+<title>Post Mortem</title>
+
+</section>
+</section>
 </section>
 <section xml:id="h2_order_to_cash_module">
 <title>Order To Cash Module</title>
+<section xml:id="h3_order_to_cash_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_15">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_15">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_15">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_15">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_15">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_15">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_order_to_cash_unique_value_proposition">
+<title>Order To Cash - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_order_to_cash_related_applets">
+<title>Order To Cash - Related Applets</title>
+
+</section>
+<section xml:id="h3_order_to_cash_project_implementation_steps">
+<title>Order To Cash - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_15">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_15">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_15">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_15">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_15">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_15">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_15">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_15">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_15">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_15">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_15">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_15">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_15">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_warehouse_management_module">
+<title>Warehouse Management Module</title>
+<section xml:id="h3_warehouse_management_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_16">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_16">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_16">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_16">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_16">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_16">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_warehouse_management_unique_value_proposition">
+<title>Warehouse Management - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_warehouse_management_related_applets">
+<title>Warehouse Management - Related Applets</title>
+
+</section>
+<section xml:id="h3_warehouse_management_project_implementation_steps">
+<title>Warehouse Management - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_16">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_16">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_16">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_16">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_16">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_16">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_16">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_16">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_16">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_16">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_16">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_16">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_16">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_customer_data_platform_module">
+<title>Customer Data Platform</title>
+<section xml:id="h3_customer_data_platform_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_17">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_17">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_17">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_17">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_17">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_17">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_customer_data_platform_unique_value_proposition">
+<title>Customer Data Platform - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_customer_data_platform_related_applets">
+<title>Customer Data Platform - Related Applets</title>
+
+</section>
+<section xml:id="h3_customer_data_platform_project_implementation_steps">
+<title>Customer Data Platform - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_17">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_17">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_17">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_17">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_17">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_17">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_17">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_17">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_17">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_17">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_17">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_17">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_17">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_digital_twin_module">
+<title>Digital Twin Module</title>
+<section xml:id="h3_digital_twin_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_18">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_18">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_18">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_18">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_18">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_18">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_digital_twin_unique_value_proposition">
+<title>Digital Twin - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_digital_twin_related_applets">
+<title>Digital Twin - Related Applets</title>
+
+</section>
+<section xml:id="h3_digital_twin_project_implementation_steps">
+<title>Module Name - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_18">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_18">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_18">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_18">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_18">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_18">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_18">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_18">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_18">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_18">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_18">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_18">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_18">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_datalake_module">
+<title>Datalake Module</title>
+<section xml:id="h3_datalake_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_19">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_19">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_19">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_19">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_19">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_19">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_datalake_unique_value_proposition">
+<title>Datalake - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_datalake_related_applets">
+<title>Datalake - Related Applets</title>
+
+</section>
+<section xml:id="h3_datalake_project_implementation_steps">
+<title>Datalake - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_19">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_19">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_19">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_19">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_19">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_19">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_19">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_19">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_19">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_19">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_19">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_19">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_19">
+<title>Post Mortem</title>
 <simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
 </section>
 </chapter>
 <chapter xml:id="h1_applet_directory">
@@ -527,19 +3452,25 @@ Every <xref linkend="h2_project_implementors"/> need to ensure these applets are
 <simpara><xref linkend="h2_membership_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_mlm_module"/></simpara>
+<simpara><xref linkend="h2_referral_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_ucc_module"/></simpara>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_inventory_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_ecomsync_module"/></simpara>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_delivery_module"/></simpara>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_cp_commerce_module"/></simpara>
@@ -551,13 +3482,16 @@ Every <xref linkend="h2_project_implementors"/> need to ensure these applets are
 <simpara><xref linkend="h2_order_to_cash_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
 </listitem>
 </itemizedlist>
 </section>
@@ -646,19 +3580,25 @@ Every <xref linkend="h2_project_implementors"/> need to ensure these applets are
 <simpara><xref linkend="h2_membership_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_mlm_module"/></simpara>
+<simpara><xref linkend="h2_referral_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_ucc_module"/></simpara>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_inventory_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_ecomsync_module"/></simpara>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_delivery_module"/></simpara>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_cp_commerce_module"/></simpara>
@@ -670,13 +3610,16 @@ Every <xref linkend="h2_project_implementors"/> need to ensure these applets are
 <simpara><xref linkend="h2_order_to_cash_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
 </listitem>
 </itemizedlist>
 </section>
@@ -727,6 +3670,1158 @@ Every <xref linkend="h2_project_implementors"/> need to ensure these applets are
 
 </section>
 <section xml:id="h4_organization_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_tax_configuration_applet">
+<title>Tax Configuration Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_tax_configuration_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_tax_configuration_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_tax_configuration_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_tax_configuration_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_tax_configuration_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_tax_configuration_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_tax_configuration_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_tax_configuration_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_tax_configuration_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_tax_configuration_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_cashbook_applet">
+<title>Cashbook Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_cashbook_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_cashbook_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_cashbook_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_cashbook_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_cashbook_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_cashbook_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_cashbook_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_cashbook_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_cashbook_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_cashbook_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_chart_of_account_applet">
+<title>Chart of Account Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_chart_of_account_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_chart_of_account_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_chart_of_account_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_chart_of_account_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_chart_of_account_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_chart_of_account_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_chart_of_account_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_chart_of_account_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_chart_of_account_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_chart_of_account_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_doc_item_maintenance_applet">
+<title>Doc Item Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_doc_item_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_doc_item_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_doc_item_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_doc_item_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_doc_item_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_doc_item_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_doc_item_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_doc_item_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_doc_item_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_doc_item_maintenance_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_inv_item_maintenance_applet">
+<title>Inventory Item Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_inv_item_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_inv_item_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_inv_item_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_inv_item_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_inv_item_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_inv_item_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_inv_item_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_inv_item_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_inv_item_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_inv_item_maintenance_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_entity_maintenance_applet">
+<title>Entity Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_entity_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_entity_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_entity_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_entity_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_entity_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_entity_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_entity_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_entity_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_entity_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_entity_maintenance_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_customer_maintenance_applet">
+<title>Customer Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_customer_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_customer_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_customer_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_customer_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_customer_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_customer_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_customer_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_customer_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_customer_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_customer_maintenance_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_supplier_maintenance_applet">
+<title>Supplier Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_supplier_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_supplier_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_supplier_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_supplier_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_supplier_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_supplier_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_supplier_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_supplier_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_supplier_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_supplier_maintenance_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_employee_maintenance_applet">
+<title>Employee Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_employee_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_employee_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_employee_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_employee_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_employee_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_employee_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_employee_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_employee_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_employee_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_employee_maintenance_roadmap">
 <title>Roadmap</title>
 
 </section>
@@ -1110,7 +5205,7 @@ on the applet&#8230;&#8203; etc..</simpara>
 </section>
 <section xml:id="h2_bigledger_database_guide">
 <title>BigLedger Database Guide</title>
-<section xml:id="_overview_3">
+<section xml:id="_overview_20">
 <title>Overview</title>
 
 </section>

@@ -1,3 +1,0 @@
-[#h2_membership_module]
-=== Membership Module
-

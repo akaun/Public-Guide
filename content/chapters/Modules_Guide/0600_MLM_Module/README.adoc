@@ -1,2 +1,0 @@
-[#h2_mlm_module]
-=== Multilevel Marketing Module

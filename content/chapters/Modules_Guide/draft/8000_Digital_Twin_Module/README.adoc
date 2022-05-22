@@ -1,3 +1,0 @@
-[#h2_digital_twin_module]
-=== Digital Twin Module
-

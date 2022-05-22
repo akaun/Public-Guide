@@ -1,0 +1,13 @@
+[#h2_datalake_module]
+=== Datalake Module
+
+include::introduction.adoc[]
+
+include::unique_value_proposition.adoc[]
+
+include::related_applets.adoc[]
+
+include::project_implementation_steps.adoc[]
+
+
+

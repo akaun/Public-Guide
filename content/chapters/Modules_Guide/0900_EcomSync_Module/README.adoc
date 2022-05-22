@@ -1,4 +1,0 @@
-[#h2_ecomsync_module]
-=== EcomSync Module
-
-
