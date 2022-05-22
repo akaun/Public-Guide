@@ -1,0 +1,4 @@
+[#h3_applet_dev_types_of_applet]
+==== Types of Applet
+
+

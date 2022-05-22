@@ -1,0 +1,26 @@
+[#h3_applet_dev_qc_checklist]
+==== Quality Control Checklist
+
+In order to ensure the best user experience on the Akaun Platform, we need to ensure this checklist is executed on a periodic basis.
+
+===== UI Design QC
+
+
+===== Documentation QC
+
+
+===== Permissions QC
+
+
+===== Features QC
+
+
+===== Development / Staging Environment QC
+
+
+===== Commercials QC
+
+
+===== Source Code QC
+
+

@@ -1,0 +1,5 @@
+[#h3_applet_dev_example_applet_template]
+==== Example Applet Template
+
+This guide provide a walk thru of the example applet so that the applet developers can cut short the learning time required to produce an applet from scratch.
+

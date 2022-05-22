@@ -1,0 +1,11 @@
+[#h3_applet_dev_publishing_an_applet]
+==== Publishing an Applet
+
+* Logo design
+* Applet Description
+* Applet images (for Applet Store)
+* Pricing Country 
+* Applet Type
+* Quality Checking
+* Security Checking
+* 

@@ -1,0 +1,12 @@
+[#h3_applet_dev_releasing_new_version]
+==== Releasing new version of the applets
+
+
+===== Handling changes in permission templates
+
+
+===== Getting approval
+
+
+
+

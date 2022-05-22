@@ -1,0 +1,9 @@
+[#h3_applet_dev_ui_design_guide]
+==== UI Design Guidelines
+
+* Must have Applet settings at the bottom left
+* Having Personal Settings at the bottom left
+* Showing the Tenant-code at the top left
+* Showing the applet logo at the top left
+* Having left menu 
+* Responsive to both desktop and mobile

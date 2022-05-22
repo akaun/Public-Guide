@@ -1,0 +1,7 @@
+[#h3_applet_dev_client_side_settings]
+==== Client Side Settings
+
+* This is used for certain client side permissions to hide certain fields in the UI
+
+* Allowing users to configure customize the behavior of the client-side
+

@@ -1,0 +1,5 @@
+[#h3_applet_dev_archiving_an_applet]
+==== Archiving an Applet
+
+Archiving an applet would be permanently in-activating an applet.
+

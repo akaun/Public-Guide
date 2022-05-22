@@ -1,0 +1,9 @@
+[#h3_applet_dev_webhook]
+==== Webhooks for Applets
+
+The webhook for an applet is different from the webhook for Sales Order etc...
+
+This webhook is specific to an applet, to cater for the following scenario...
+For example, when the users first installed an applet, or when they first start clicking
+on the applet... etc..
+

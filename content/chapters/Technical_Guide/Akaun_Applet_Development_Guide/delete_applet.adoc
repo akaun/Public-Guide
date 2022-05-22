@@ -1,0 +1,22 @@
+[#h3_applet_dev_delete_of_applet]
+==== Full Deletion of Applet
+
+
+===== Removal of applet from Applet-Catalogs
+
+===== Removal of applet from users who have installed the applet
+
+===== Removal of the Javascript Bundle from s3
+
+===== Delete all applet settings / configurations in bl_applet_* tables in both Tenant and Root
+
+* This would include Permission Templates / Permission Sets etc.
+
+===== Removal of all schedulers related to this applet
+
+===== Removal of Audit Trails and other applet related tables
+
+
+===== Removal of applet from the Applet Master List - Google Spreadsheet
+
+===== Removal 

@@ -1,0 +1,9 @@
+[#h3_applet_dev_inactive_applet]
+==== Inactive Applet
+
+An inactive applet is taken out from the applet store, but they are NOT deleted from the system yet.
+
+The developer can still see this applet in their applet listing.
+
+
+

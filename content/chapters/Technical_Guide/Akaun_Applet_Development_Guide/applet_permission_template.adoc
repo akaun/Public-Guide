@@ -1,0 +1,9 @@
+[#h3_applet_dev_permission_template]
+
+understanding of permission / assignee / target type table.
+
+understanding of difference between permission set and permission template
+
+requesting for the permission template to be created for third party developer..
+
+

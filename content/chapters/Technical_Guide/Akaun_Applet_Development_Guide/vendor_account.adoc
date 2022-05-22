@@ -1,0 +1,11 @@
+[#h3_applet_dev_vendor_account]
+==== Vendor Account
+
+
+===== Vendor Registration
+
+===== Developer Registration
+
+
+===== Linking to the AkaunHQ Entity Account
+

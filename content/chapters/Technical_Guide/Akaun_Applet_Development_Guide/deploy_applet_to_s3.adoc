@@ -1,0 +1,6 @@
+[#h3_applet_dev_deploying_to_s3]
+==== Deploying applet to s3
+
+* Making pull request the github vendor repository
+* Platform SysAdmin to merge the changes from vendor repository to the global applet repository, and then syncing it to various branches : production, staging , development. Subsequently, these changes to be sync to the s3 bucket in AWS
+* Submission for testing

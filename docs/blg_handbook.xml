@@ -853,7 +853,252 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara>This technical guide is used by both internal and external employees of</simpara>
 <section xml:id="h2_applet_development_guide">
 <title>Applet Development Guide</title>
+<section xml:id="h3_applet_dev_new_applet">
+<title>Creating a new Applet</title>
+<simpara>There are many steps involved when you want to create a new applet, a well designed applet would have to follow our applet design guidelines.</simpara>
+<h4_applet_dev_preparation_before_developing_new_applet xml:id="_preparation_before_developing_a_new_applet">
+<title>Preparation Before Developing A New Applet</title>
 
+</h4_applet_dev_preparation_before_developing_new_applet>
+<section xml:id="h4_applet_dev_business_requirements">
+<title>Business Requirements</title>
+
+</section>
+<section xml:id="h4_applet_dev_database_design">
+<title>Database Design</title>
+
+</section>
+<section xml:id="h4_applet_dev_mockup_design">
+<title>Mock Up and Design</title>
+
+</section>
+<section xml:id="h4_applet_dev_api_design">
+<title>API Design</title>
+
+</section>
+</section>
+<section xml:id="h3_applet_dev_deploying_to_s3">
+<title>Deploying applet to s3</title>
+<itemizedlist>
+<listitem>
+<simpara>Making pull request the github vendor repository</simpara>
+</listitem>
+<listitem>
+<simpara>Platform SysAdmin to merge the changes from vendor repository to the global applet repository, and then syncing it to various branches : production, staging , development. Subsequently, these changes to be sync to the s3 bucket in AWS</simpara>
+</listitem>
+<listitem>
+<simpara>Submission for testing</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_applet_dev_developer_sysadmin_applet">
+<title>Developer SysAdmin Applet</title>
+<simpara>This applet is used by the Platform System Administrator to configure various applets</simpara>
+</section>
+<section xml:id="h3_applet_dev_example_applet_template">
+<title>Example Applet Template</title>
+<simpara>This guide provide a walk thru of the example applet so that the applet developers can cut short the learning time required to produce an applet from scratch.</simpara>
+</section>
+<section xml:id="h3_applet_dev_inactive_applet">
+<title>Inactive Applet</title>
+<simpara>An inactive applet is taken out from the applet store, but they are NOT deleted from the system yet.</simpara>
+<simpara>The developer can still see this applet in their applet listing.</simpara>
+</section>
+<section xml:id="h3_applet_dev_publishing_an_applet">
+<title>Publishing an Applet</title>
+<itemizedlist>
+<listitem>
+<simpara>Logo design</simpara>
+</listitem>
+<listitem>
+<simpara>Applet Description</simpara>
+</listitem>
+<listitem>
+<simpara>Applet images (for Applet Store)</simpara>
+</listitem>
+<listitem>
+<simpara>Pricing Country</simpara>
+</listitem>
+<listitem>
+<simpara>Applet Type</simpara>
+</listitem>
+<listitem>
+<simpara>Quality Checking</simpara>
+</listitem>
+<listitem>
+<simpara>Security Checking
+*</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_applet_dev_releasing_new_version">
+<title>Releasing new version of the applets</title>
+<section xml:id="_handling_changes_in_permission_templates">
+<title>Handling changes in permission templates</title>
+
+</section>
+<section xml:id="_getting_approval">
+<title>Getting approval</title>
+
+</section>
+</section>
+<section xml:id="h3_applet_dev_delete_of_applet">
+<title>Full Deletion of Applet</title>
+<section xml:id="_removal_of_applet_from_applet_catalogs">
+<title>Removal of applet from Applet-Catalogs</title>
+
+</section>
+<section xml:id="_removal_of_applet_from_users_who_have_installed_the_applet">
+<title>Removal of applet from users who have installed the applet</title>
+
+</section>
+<section xml:id="_removal_of_the_javascript_bundle_from_s3">
+<title>Removal of the Javascript Bundle from s3</title>
+
+</section>
+<section xml:id="_delete_all_applet_settings_configurations_in_bl_applet_tables_in_both_tenant_and_root">
+<title>Delete all applet settings / configurations in bl_applet_* tables in both Tenant and Root</title>
+<itemizedlist>
+<listitem>
+<simpara>This would include Permission Templates / Permission Sets etc.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_removal_of_all_schedulers_related_to_this_applet">
+<title>Removal of all schedulers related to this applet</title>
+
+</section>
+<section xml:id="_removal_of_audit_trails_and_other_applet_related_tables">
+<title>Removal of Audit Trails and other applet related tables</title>
+
+</section>
+<section xml:id="_removal_of_applet_from_the_applet_master_list_google_spreadsheet">
+<title>Removal of applet from the Applet Master List - Google Spreadsheet</title>
+
+</section>
+<section xml:id="_removal">
+<title>Removal</title>
+
+</section>
+</section>
+<section xml:id="h3_applet_dev_qc_checklist">
+<title>Quality Control Checklist</title>
+<simpara>In order to ensure the best user experience on the Akaun Platform, we need to ensure this checklist is executed on a periodic basis.</simpara>
+<section xml:id="_ui_design_qc">
+<title>UI Design QC</title>
+
+</section>
+<section xml:id="_documentation_qc">
+<title>Documentation QC</title>
+
+</section>
+<section xml:id="_permissions_qc">
+<title>Permissions QC</title>
+
+</section>
+<section xml:id="_features_qc">
+<title>Features QC</title>
+
+</section>
+<section xml:id="_development_staging_environment_qc">
+<title>Development / Staging Environment QC</title>
+
+</section>
+<section xml:id="_commercials_qc">
+<title>Commercials QC</title>
+
+</section>
+<section xml:id="_source_code_qc">
+<title>Source Code QC</title>
+
+</section>
+</section>
+<section xml:id="h3_applet_dev_support_maintenance">
+<title>Support and Maintenance of Applet</title>
+
+</section>
+<section xml:id="h3_applet_dev_suspend_applet">
+<title>Suspension of Applet</title>
+<itemizedlist>
+<listitem>
+<simpara>Usually this happens when the developer / applet violates the policy of applet store etc.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_applet_dev_types_of_applet">
+<title>Types of Applet</title>
+
+</section>
+<section xml:id="h3_applet_dev_ui_design_guide">
+<title>UI Design Guidelines</title>
+<itemizedlist>
+<listitem>
+<simpara>Must have Applet settings at the bottom left</simpara>
+</listitem>
+<listitem>
+<simpara>Having Personal Settings at the bottom left</simpara>
+</listitem>
+<listitem>
+<simpara>Showing the Tenant-code at the top left</simpara>
+</listitem>
+<listitem>
+<simpara>Showing the applet logo at the top left</simpara>
+</listitem>
+<listitem>
+<simpara>Having left menu</simpara>
+</listitem>
+<listitem>
+<simpara>Responsive to both desktop and mobile</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_applet_dev_vendor_account">
+<title>Vendor Account</title>
+<section xml:id="_vendor_registration">
+<title>Vendor Registration</title>
+
+</section>
+<section xml:id="_developer_registration">
+<title>Developer Registration</title>
+
+</section>
+<section xml:id="_linking_to_the_akaunhq_entity_account">
+<title>Linking to the AkaunHQ Entity Account</title>
+<simpara xml:id="h3_applet_dev_permission_template">understanding of permission / assignee / target type table.</simpara>
+<simpara>understanding of difference between permission set and permission template</simpara>
+<simpara>requesting for the permission template to be created for third party developer..</simpara>
+</section>
+</section>
+<section xml:id="h3_applet_dev_pricing">
+<title>Pricing for applets</title>
+<simpara>For now, we go with simplified pricing strategy by just charging per user per applet per month manually before the Billing Engine is ready.</simpara>
+</section>
+<section xml:id="h3_applet_dev_scheduler">
+<title>Scheduler for applet</title>
+<simpara>The scheduler of an applet allow recurring task to be executed on a periodic basis.</simpara>
+</section>
+<section xml:id="h3_applet_dev_webhook">
+<title>Webhooks for Applets</title>
+<simpara>The webhook for an applet is different from the webhook for Sales Order etc&#8230;&#8203;</simpara>
+<simpara>This webhook is specific to an applet, to cater for the following scenario&#8230;&#8203;
+For example, when the users first installed an applet, or when they first start clicking
+on the applet&#8230;&#8203; etc..</simpara>
+</section>
+<section xml:id="h3_applet_dev_archiving_an_applet">
+<title>Archiving an Applet</title>
+<simpara>Archiving an applet would be permanently in-activating an applet.</simpara>
+</section>
+<section xml:id="h3_applet_dev_client_side_settings">
+<title>Client Side Settings</title>
+<itemizedlist>
+<listitem>
+<simpara>This is used for certain client side permissions to hide certain fields in the UI</simpara>
+</listitem>
+<listitem>
+<simpara>Allowing users to configure customize the behavior of the client-side</simpara>
+</listitem>
+</itemizedlist>
+</section>
 </section>
 <section xml:id="h2_akaun_shell_development_guide">
 <title>Akaun Shell Development Guide</title>

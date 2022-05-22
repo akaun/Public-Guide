@@ -660,7 +660,69 @@ To view this in other formats, click on the following:</p>
 </li>
 <li><a href="#h1_technical_guide">6. Technical Guide</a>
 <ul class="sectlevel2">
-<li><a href="#h2_applet_development_guide">6.1. Applet Development Guide</a></li>
+<li><a href="#h2_applet_development_guide">6.1. Applet Development Guide</a>
+<ul class="sectlevel3">
+<li><a href="#h3_applet_dev_new_applet">6.1.1. Creating a new Applet</a>
+<ul class="sectlevel4">
+<li><a href="#_preparation_before_developing_a_new_applet">Preparation Before Developing A New Applet</a></li>
+<li><a href="#h4_applet_dev_business_requirements">Business Requirements</a></li>
+<li><a href="#h4_applet_dev_database_design">Database Design</a></li>
+<li><a href="#h4_applet_dev_mockup_design">Mock Up and Design</a></li>
+<li><a href="#h4_applet_dev_api_design">API Design</a></li>
+</ul>
+</li>
+<li><a href="#h3_applet_dev_deploying_to_s3">6.1.2. Deploying applet to s3</a></li>
+<li><a href="#h3_applet_dev_developer_sysadmin_applet">6.1.3. Developer SysAdmin Applet</a></li>
+<li><a href="#h3_applet_dev_example_applet_template">6.1.4. Example Applet Template</a></li>
+<li><a href="#h3_applet_dev_inactive_applet">6.1.5. Inactive Applet</a></li>
+<li><a href="#h3_applet_dev_publishing_an_applet">6.1.6. Publishing an Applet</a></li>
+<li><a href="#h3_applet_dev_releasing_new_version">6.1.7. Releasing new version of the applets</a>
+<ul class="sectlevel4">
+<li><a href="#_handling_changes_in_permission_templates">Handling changes in permission templates</a></li>
+<li><a href="#_getting_approval">Getting approval</a></li>
+</ul>
+</li>
+<li><a href="#h3_applet_dev_delete_of_applet">6.1.8. Full Deletion of Applet</a>
+<ul class="sectlevel4">
+<li><a href="#_removal_of_applet_from_applet_catalogs">Removal of applet from Applet-Catalogs</a></li>
+<li><a href="#_removal_of_applet_from_users_who_have_installed_the_applet">Removal of applet from users who have installed the applet</a></li>
+<li><a href="#_removal_of_the_javascript_bundle_from_s3">Removal of the Javascript Bundle from s3</a></li>
+<li><a href="#_delete_all_applet_settings_configurations_in_bl_applet_tables_in_both_tenant_and_root">Delete all applet settings / configurations in bl_applet_* tables in both Tenant and Root</a></li>
+<li><a href="#_removal_of_all_schedulers_related_to_this_applet">Removal of all schedulers related to this applet</a></li>
+<li><a href="#_removal_of_audit_trails_and_other_applet_related_tables">Removal of Audit Trails and other applet related tables</a></li>
+<li><a href="#_removal_of_applet_from_the_applet_master_list_google_spreadsheet">Removal of applet from the Applet Master List - Google Spreadsheet</a></li>
+<li><a href="#_removal">Removal</a></li>
+</ul>
+</li>
+<li><a href="#h3_applet_dev_qc_checklist">6.1.9. Quality Control Checklist</a>
+<ul class="sectlevel4">
+<li><a href="#_ui_design_qc">UI Design QC</a></li>
+<li><a href="#_documentation_qc">Documentation QC</a></li>
+<li><a href="#_permissions_qc">Permissions QC</a></li>
+<li><a href="#_features_qc">Features QC</a></li>
+<li><a href="#_development_staging_environment_qc">Development / Staging Environment QC</a></li>
+<li><a href="#_commercials_qc">Commercials QC</a></li>
+<li><a href="#_source_code_qc">Source Code QC</a></li>
+</ul>
+</li>
+<li><a href="#h3_applet_dev_support_maintenance">6.1.10. Support and Maintenance of Applet</a></li>
+<li><a href="#h3_applet_dev_suspend_applet">6.1.11. Suspension of Applet</a></li>
+<li><a href="#h3_applet_dev_types_of_applet">6.1.12. Types of Applet</a></li>
+<li><a href="#h3_applet_dev_ui_design_guide">6.1.13. UI Design Guidelines</a></li>
+<li><a href="#h3_applet_dev_vendor_account">6.1.14. Vendor Account</a>
+<ul class="sectlevel4">
+<li><a href="#_vendor_registration">Vendor Registration</a></li>
+<li><a href="#_developer_registration">Developer Registration</a></li>
+<li><a href="#_linking_to_the_akaunhq_entity_account">Linking to the AkaunHQ Entity Account</a></li>
+</ul>
+</li>
+<li><a href="#h3_applet_dev_pricing">6.1.15. Pricing for applets</a></li>
+<li><a href="#h3_applet_dev_scheduler">6.1.16. Scheduler for applet</a></li>
+<li><a href="#h3_applet_dev_webhook">6.1.17. Webhooks for Applets</a></li>
+<li><a href="#h3_applet_dev_archiving_an_applet">6.1.18. Archiving an Applet</a></li>
+<li><a href="#h3_applet_dev_client_side_settings">6.1.19. Client Side Settings</a></li>
+</ul>
+</li>
 <li><a href="#h2_akaun_shell_development_guide">6.2. Akaun Shell Development Guide</a></li>
 <li><a href="#h2_tech_guide_cloud_infra">6.3. Cloud Infrastructure</a></li>
 <li><a href="#h2_bigledger_database_guide">6.4. BigLedger Database Guide</a>
@@ -1674,7 +1736,292 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 <div class="sect2">
 <h3 id="h2_applet_development_guide">6.1. Applet Development Guide</h3>
+<div class="sect3">
+<h4 id="h3_applet_dev_new_applet">6.1.1. Creating a new Applet</h4>
+<div class="paragraph">
+<p>There are many steps involved when you want to create a new applet, a well designed applet would have to follow our applet design guidelines.</p>
+</div>
+<div class="sect4">
+<h5 id="_preparation_before_developing_a_new_applet">Preparation Before Developing A New Applet</h5>
 
+</div>
+<div class="sect4">
+<h5 id="h4_applet_dev_business_requirements">Business Requirements</h5>
+
+</div>
+<div class="sect4">
+<h5 id="h4_applet_dev_database_design">Database Design</h5>
+
+</div>
+<div class="sect4">
+<h5 id="h4_applet_dev_mockup_design">Mock Up and Design</h5>
+
+</div>
+<div class="sect4">
+<h5 id="h4_applet_dev_api_design">API Design</h5>
+
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_deploying_to_s3">6.1.2. Deploying applet to s3</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Making pull request the github vendor repository</p>
+</li>
+<li>
+<p>Platform SysAdmin to merge the changes from vendor repository to the global applet repository, and then syncing it to various branches : production, staging , development. Subsequently, these changes to be sync to the s3 bucket in AWS</p>
+</li>
+<li>
+<p>Submission for testing</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_developer_sysadmin_applet">6.1.3. Developer SysAdmin Applet</h4>
+<div class="paragraph">
+<p>This applet is used by the Platform System Administrator to configure various applets</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_example_applet_template">6.1.4. Example Applet Template</h4>
+<div class="paragraph">
+<p>This guide provide a walk thru of the example applet so that the applet developers can cut short the learning time required to produce an applet from scratch.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_inactive_applet">6.1.5. Inactive Applet</h4>
+<div class="paragraph">
+<p>An inactive applet is taken out from the applet store, but they are NOT deleted from the system yet.</p>
+</div>
+<div class="paragraph">
+<p>The developer can still see this applet in their applet listing.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_publishing_an_applet">6.1.6. Publishing an Applet</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Logo design</p>
+</li>
+<li>
+<p>Applet Description</p>
+</li>
+<li>
+<p>Applet images (for Applet Store)</p>
+</li>
+<li>
+<p>Pricing Country</p>
+</li>
+<li>
+<p>Applet Type</p>
+</li>
+<li>
+<p>Quality Checking</p>
+</li>
+<li>
+<p>Security Checking
+*</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_releasing_new_version">6.1.7. Releasing new version of the applets</h4>
+<div class="sect4">
+<h5 id="_handling_changes_in_permission_templates">Handling changes in permission templates</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_getting_approval">Getting approval</h5>
+
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_delete_of_applet">6.1.8. Full Deletion of Applet</h4>
+<div class="sect4">
+<h5 id="_removal_of_applet_from_applet_catalogs">Removal of applet from Applet-Catalogs</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_removal_of_applet_from_users_who_have_installed_the_applet">Removal of applet from users who have installed the applet</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_removal_of_the_javascript_bundle_from_s3">Removal of the Javascript Bundle from s3</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_delete_all_applet_settings_configurations_in_bl_applet_tables_in_both_tenant_and_root">Delete all applet settings / configurations in bl_applet_* tables in both Tenant and Root</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>This would include Permission Templates / Permission Sets etc.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_removal_of_all_schedulers_related_to_this_applet">Removal of all schedulers related to this applet</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_removal_of_audit_trails_and_other_applet_related_tables">Removal of Audit Trails and other applet related tables</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_removal_of_applet_from_the_applet_master_list_google_spreadsheet">Removal of applet from the Applet Master List - Google Spreadsheet</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_removal">Removal</h5>
+
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_qc_checklist">6.1.9. Quality Control Checklist</h4>
+<div class="paragraph">
+<p>In order to ensure the best user experience on the Akaun Platform, we need to ensure this checklist is executed on a periodic basis.</p>
+</div>
+<div class="sect4">
+<h5 id="_ui_design_qc">UI Design QC</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_documentation_qc">Documentation QC</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_permissions_qc">Permissions QC</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_features_qc">Features QC</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_development_staging_environment_qc">Development / Staging Environment QC</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_commercials_qc">Commercials QC</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_source_code_qc">Source Code QC</h5>
+
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_support_maintenance">6.1.10. Support and Maintenance of Applet</h4>
+
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_suspend_applet">6.1.11. Suspension of Applet</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Usually this happens when the developer / applet violates the policy of applet store etc.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_types_of_applet">6.1.12. Types of Applet</h4>
+
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_ui_design_guide">6.1.13. UI Design Guidelines</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Must have Applet settings at the bottom left</p>
+</li>
+<li>
+<p>Having Personal Settings at the bottom left</p>
+</li>
+<li>
+<p>Showing the Tenant-code at the top left</p>
+</li>
+<li>
+<p>Showing the applet logo at the top left</p>
+</li>
+<li>
+<p>Having left menu</p>
+</li>
+<li>
+<p>Responsive to both desktop and mobile</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_vendor_account">6.1.14. Vendor Account</h4>
+<div class="sect4">
+<h5 id="_vendor_registration">Vendor Registration</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_developer_registration">Developer Registration</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_linking_to_the_akaunhq_entity_account">Linking to the AkaunHQ Entity Account</h5>
+<div id="h3_applet_dev_permission_template" class="paragraph">
+<p>understanding of permission / assignee / target type table.</p>
+</div>
+<div class="paragraph">
+<p>understanding of difference between permission set and permission template</p>
+</div>
+<div class="paragraph">
+<p>requesting for the permission template to be created for third party developer..</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_pricing">6.1.15. Pricing for applets</h4>
+<div class="paragraph">
+<p>For now, we go with simplified pricing strategy by just charging per user per applet per month manually before the Billing Engine is ready.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_scheduler">6.1.16. Scheduler for applet</h4>
+<div class="paragraph">
+<p>The scheduler of an applet allow recurring task to be executed on a periodic basis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_webhook">6.1.17. Webhooks for Applets</h4>
+<div class="paragraph">
+<p>The webhook for an applet is different from the webhook for Sales Order etc&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>This webhook is specific to an applet, to cater for the following scenario&#8230;&#8203;
+For example, when the users first installed an applet, or when they first start clicking
+on the applet&#8230;&#8203; etc..</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_archiving_an_applet">6.1.18. Archiving an Applet</h4>
+<div class="paragraph">
+<p>Archiving an applet would be permanently in-activating an applet.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_applet_dev_client_side_settings">6.1.19. Client Side Settings</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>This is used for certain client side permissions to hide certain fields in the UI</p>
+</li>
+<li>
+<p>Allowing users to configure customize the behavior of the client-side</p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="h2_akaun_shell_development_guide">6.2. Akaun Shell Development Guide</h3>
@@ -2114,7 +2461,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-05-20 17:20:31 +0800
+Last updated 2022-05-20 01:26:29 +0800
 </div>
 </div>
 </body>
