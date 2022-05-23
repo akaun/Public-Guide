@@ -1,2 +1,0 @@
-[#h2_tech_guide_cp_commerce_dev]
-=== CP Commerce Development

@@ -4,21 +4,10 @@
 This technical guide is used by both internal and external employees of 
 
 
-include::Akaun_Applet_Development_Guide/README.adoc[]
+include::Applet_Development/00_index.adoc[]
 
-include::Akaun_Shell_Development_Guide/README.adoc[]
+include::ETL_Guide/00_index.adoc[]
 
-include::Akaun_Platform_Cloud_Infrastructure/README.adoc[]
-
-include::BigLedger_Database_Guide/README.adoc[]
-
-include::BigLedger_Java_API_Guide/README.adoc[]
-
-include::Domain_Driven_Design_Guide/README.adoc[]
-
-include::CP_Commerce_Development/README.adoc[]
-
-include::Kubernetes_Cluster/README.adoc[]
 
 
 

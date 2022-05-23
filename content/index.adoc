@@ -1,21 +1,21 @@
-= BigLedger Handbook 
+= BigLedger Blueprint 
 v1.0
 :homepage: https://docs.akaun.com
 :sectnums:
 :toc: macro
-:toclevels: 4 
+:toclevels: 3 
 :table-caption!:
 :doctype: book
-:multipage-level: 2
+:multipage-level: 3
 
 image::assets/bigledger_logo.jpeg[BigLedger Logo,align="center"]
 
 This is the public guide that provides all public use cases of the Akaun Platform. 
 To view this in other formats, click on the following:
 
-* link:blg_handbook.epub[Epub Format]
-* link:blg_handbook.html[Single File HTML]
-* link:blg_handbook.pdf[PDF Format]
+* link:blg_blueprint.epub[Epub Format]
+* link:blg_blueprint.html[Single File HTML]
+* link:blg_blueprint.pdf[PDF Format]
 
 <<<<<<<<<
 

@@ -1,9 +1,0 @@
-[#h2_bigledger_java_api_guide]
-=== BigLedger Java API Guide
-
-
-==== Spring Framework
-
-
-==== RESTful API Best Practices
-

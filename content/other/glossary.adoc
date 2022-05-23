@@ -1,5 +1,5 @@
 [glossary]
-[#blg_handbook_glossary]
+[#blg_blueprint_glossary]
 == Glossary
 
 [glossary]

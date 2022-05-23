@@ -1,4 +1,0 @@
-[#h2_tech_guide_domain_driven_design]
-=== Domain Driven Design
-
-
