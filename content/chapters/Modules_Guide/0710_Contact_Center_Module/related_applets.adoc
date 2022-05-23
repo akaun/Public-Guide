@@ -3,3 +3,14 @@
 
 
 
+* xref:h3_ucc_applet[xrefstyle=full] 
+
+// linking to the issue tracker
+
+// linking to the sales order applet
+
+// linking the contact Maintenance applet
+
+// ... ???? ....
+
+// linking to the Doc Item Maintenance applet, if you want to send Product Info to thru the messaging channels.

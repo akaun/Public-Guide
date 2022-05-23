@@ -428,8 +428,18 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 <section xml:id="h3_core_name_related_applets">
-<title>Module Name - Related Applets</title>
-
+<title>Core Module - Related Applets</title>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h3_tax_configuration_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_organization_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_chart_of_account_applet"/></simpara>
+</listitem>
+</itemizedlist>
 </section>
 <section xml:id="h3_core_project_implementation_steps">
 <title>Module Name - Project Implementation Steps</title>
@@ -1535,7 +1545,11 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
 <section xml:id="h3_contact_center_related_applets">
 <title>Contact Center - Related Applets</title>
-
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h3_ucc_applet"/></simpara>
+</listitem>
+</itemizedlist>
 </section>
 <section xml:id="h3_contact_center_project_implementation_steps">
 <title>Contact Center - Project Implementation Steps</title>
@@ -5192,27 +5206,16 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <listitem>
 <simpara><xref linkend="h2_digital_marketing_module"/></simpara>
 </listitem>
-<listitem>
-<simpara><xref linkend="h2_inventory_module"/></simpara>
-</listitem>
+</itemizedlist>
+<itemizedlist>
 <listitem>
 <simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
-<listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
-</listitem>
+</itemizedlist>
+<itemizedlist>
 <listitem>
 <simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
 </listitem>
@@ -5917,9 +5920,20 @@ on the applet&#8230;&#8203; etc..</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Congratulations !!</simpara>
-<simpara><?asciidoc-pagebreak?></simpara>
-<simpara><?asciidoc-pagebreak?></simpara>
 </section>
+<h2_authoring_videos xml:id="_list_of_workshops">
+<title>List of workshops</title>
+<itemizedlist>
+<listitem>
+<simpara>YYYY-MM-DD : First workshop by Vincent to Zain and Bagty</simpara>
+</listitem>
+<listitem>
+<simpara>YYYY-MM-DD</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+</h2_authoring_videos>
 </chapter>
 <glossary xml:id="blg_handbook_glossary">
 <title>Glossary</title>
