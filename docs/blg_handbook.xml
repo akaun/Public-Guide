@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-05-20</date>
+<date>2022-05-23</date>
 <author>
 <personname>
 <firstname>v1.0</firstname>
@@ -161,11 +161,11 @@ using the BigLedger platform.</simpara>
 </section>
 <section xml:id="h2_tenant_owners">
 <title>Tenant Owners</title>
-<section xml:id="_what_is_a_tenant">
+<section xml:id="h3_tenant_owners_what_is_tenant">
 <title>What is a Tenant ?</title>
 
 </section>
-<section xml:id="_managing_users">
+<section xml:id="h3_tenant_owners_managing_users">
 <title>Managing Users</title>
 <itemizedlist>
 <listitem>
@@ -176,47 +176,47 @@ using the BigLedger platform.</simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="_fees_and_charges">
+<section xml:id="h3_tenant_owners_fees_and_charges">
 <title>Fees and Charges</title>
 
 </section>
-<section xml:id="_access_and_permissions">
+<section xml:id="h3_tenant_owners_access_and_permissions">
 <title>Access and Permissions</title>
 
 </section>
-<section xml:id="_system_performance">
+<section xml:id="h3_tenant_owners_system_performance">
 <title>System Performance</title>
 
 </section>
-<section xml:id="_api">
+<section xml:id="h3_tenant_owners_api">
 <title>API</title>
 
 </section>
-<section xml:id="_subscriptions_applet_catalogs_applets">
+<section xml:id="h3_tenant_owners_subscriptions_catalogs_applets">
 <title>Subscriptions , Applet-Catalogs , Applets</title>
 
 </section>
-<section xml:id="_audit_trail">
+<section xml:id="h3_tenant_owners_audit_trail">
 <title>Audit Trail</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
-<section xml:id="h2_applet-developers">
+<section xml:id="h2_applet_developers">
 <title>Applet Developers</title>
 <simpara>Guid for applet Developers</simpara>
-<section xml:id="_signing_up_your_bigledger_account">
-<title>Signing up your bigledger account</title>
+<section xml:id="h3_applet_developers_signing_up_akaunid">
+<title>Signing up your AkaunID</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
 <section xml:id="h2_resellers">
 <title>Reseller Guide</title>
 <simpara>Guide for resellers</simpara>
-<section xml:id="_section_1">
+<section xml:id="h3_resellers_section_1">
 <title>Section 1</title>
 
 </section>
-<section xml:id="_section_2">
+<section xml:id="h3_resellers_section_2">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
@@ -224,11 +224,11 @@ using the BigLedger platform.</simpara>
 <section xml:id="h2_system_integrations">
 <title>System Integrators</title>
 <simpara>Guide for system integrators</simpara>
-<section xml:id="_section_1_2">
+<section xml:id="h3_system_integrations_section_1">
 <title>Section 1</title>
 <simpara>some sections here</simpara>
 </section>
-<section xml:id="_section_2_2">
+<section xml:id="h3_system_integrations_section_2">
 <title>Section 2</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
@@ -251,105 +251,105 @@ using the BigLedger platform.</simpara>
 </itemizedlist>
 <section xml:id="h2_consumer_electronics_industry">
 <title>Consumer Electronics Industry</title>
-<section xml:id="_problems">
+<section xml:id="h3_consumer_electronics_industry_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions">
+<section xml:id="h3_consumer_electronics_industry_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features">
+<section xml:id="h3_consumer_electronics_industry_features">
 <title>Features</title>
 
 </section>
 </section>
 <section xml:id="h2_pharmacy_industry">
 <title>Pharmacy Industry</title>
-<section xml:id="_problems_2">
+<section xml:id="h3_pharmacy_industry_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions_2">
+<section xml:id="h3_pharmacy_industry_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features_2">
+<section xml:id="h3_pharmacy_industry_features">
 <title>Features</title>
 
 </section>
 </section>
 <section xml:id="h2_car_workshops_industry">
 <title>Car Workshops</title>
-<section xml:id="_problems_3">
+<section xml:id="h3_car_workshops_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions_3">
+<section xml:id="h3_car_workshops_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features_3">
+<section xml:id="h3_car_workshops_features">
 <title>Features</title>
 
 </section>
 </section>
-<section xml:id="h2_retail-chainstores_industry">
+<section xml:id="h2_retail_chainstores_industry">
 <title>Retail Chainstores</title>
-<section xml:id="_problems_4">
+<section xml:id="h3_retail_chainstores_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions_4">
+<section xml:id="h3_retail_chainstores_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features_4">
+<section xml:id="h3_retail_chainstores_features">
 <title>Features</title>
 
 </section>
 </section>
 <section xml:id="h2_logistics_industry">
 <title>Logistics Industry</title>
-<section xml:id="_problems_5">
+<section xml:id="h3_logistics_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions_5">
+<section xml:id="h3_logistics_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features_5">
+<section xml:id="h3_logistics_features">
 <title>Features</title>
 
 </section>
 </section>
 <section xml:id="h2_manufacturing_industry">
 <title>Manufacturing Industry</title>
-<section xml:id="_problems_6">
+<section xml:id="h3_manufacturing_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions_6">
+<section xml:id="h3_manufacturing_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features_6">
+<section xml:id="h3_manufacturing_features">
 <title>Features</title>
 
 </section>
 </section>
 <section xml:id="h2_pet_industry">
 <title>Pet Industry</title>
-<section xml:id="_problems_7">
+<section xml:id="h3_pet_problems">
 <title>Problems</title>
 
 </section>
-<section xml:id="_solutions_7">
+<section xml:id="h3_pet_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="_features_7">
+<section xml:id="h3_pet_features">
 <title>Features</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
@@ -5657,34 +5657,34 @@ on the applet&#8230;&#8203; etc..</simpara>
 </section>
 <section xml:id="h2_bigledger_database_guide">
 <title>BigLedger Database Guide</title>
-<section xml:id="_overview_21">
+<section xml:id="blg_database_overview">
 <title>Overview</title>
 
 </section>
-<section xml:id="_database_schema">
+<section xml:id="blg_database_db_schema">
 <title>Database Schema</title>
 
 </section>
-<section xml:id="_liquibase">
+<section xml:id="blg_database_liquibase">
 <title>Liquibase</title>
 
 </section>
-<section xml:id="_the_root_database_schema">
+<section xml:id="blg_database_root_database_schema">
 <title>The Root Database Schema</title>
 
 </section>
-<section xml:id="_the_tenant_database_schema">
+<section xml:id="blg_database_tenant_database_schema">
 <title>The Tenant Database Schema</title>
 
 </section>
 </section>
 <section xml:id="h2_bigledger_java_api_guide">
 <title>BigLedger Java API Guide</title>
-<section xml:id="_spring_framework">
+<section xml:id="h3_java_api_spring_framework">
 <title>Spring Framework</title>
 
 </section>
-<section xml:id="_restful_api_best_practices">
+<section xml:id="h3_java_api_restful_best_practices">
 <title>RESTful API Best Practices</title>
 
 </section>
@@ -5921,7 +5921,7 @@ on the applet&#8230;&#8203; etc..</simpara>
 </itemizedlist>
 <simpara>Congratulations !!</simpara>
 </section>
-<h2_authoring_videos xml:id="_list_of_workshops">
+<section xml:id="h2_authoring_list_of_workshops">
 <title>List of workshops</title>
 <itemizedlist>
 <listitem>
@@ -5933,7 +5933,7 @@ on the applet&#8230;&#8203; etc..</simpara>
 </itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
-</h2_authoring_videos>
+</section>
 </chapter>
 <glossary xml:id="blg_handbook_glossary">
 <title>Glossary</title>

@@ -6,7 +6,7 @@ v1.0
 :toclevels: 4 
 :table-caption!:
 :doctype: book
-:multipage-level: 2
+:multipage-level: 3
 
 image::assets/bigledger_logo.jpeg[BigLedger Logo,align="center"]
 

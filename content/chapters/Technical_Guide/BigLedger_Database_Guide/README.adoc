@@ -1,15 +1,20 @@
 [#h2_bigledger_database_guide]
 === BigLedger Database Guide
 
+[#blg_database_overview]
 ==== Overview
 
+[#blg_database_db_schema]
 ==== Database Schema
 
+[#blg_database_liquibase]
 ==== Liquibase
 
+[#blg_database_root_database_schema]
 ==== The Root Database Schema
 
 
+[#blg_database_tenant_database_schema]
 ==== The Tenant Database Schema
 
 

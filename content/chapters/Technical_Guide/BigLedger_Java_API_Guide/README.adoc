@@ -2,8 +2,10 @@
 === BigLedger Java API Guide
 
 
+[#h3_java_api_spring_framework]
 ==== Spring Framework
 
 
+[#h3_java_api_restful_best_practices]
 ==== RESTful API Best Practices
 
