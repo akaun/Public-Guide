@@ -3076,9 +3076,9 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
 </section>
 </section>
-<section xml:id="h2_digital_twin_module">
-<title>Digital Twin Module</title>
-<section xml:id="h3_digital_twin_introduction">
+<section xml:id="h2_pgw_module">
+<title>PGW Module</title>
+<section xml:id="h3_pgw_introduction">
 <title>Introduction</title>
 <simpara>The intention of this section in the documentation.
 What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
@@ -3090,7 +3090,39 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
 <section xml:id="_applets_18">
 <title>Applets</title>
-
+<simpara>The pgw module consiste of the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h3_tax_configuration_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_organization_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_chart_of_account_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_doc_item_maintenance_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_cashbook_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_inv_item_maintenance_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_entity_maintenance_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_customer_maintenance_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_employee_maintenance_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h3_supplier_maintenance_applet"/></simpara>
+</listitem>
+</itemizedlist>
 </section>
 <section xml:id="_features_and_functions_18">
 <title>Features and Functions</title>
@@ -3109,15 +3141,15 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 </section>
-<section xml:id="h3_digital_twin_unique_value_proposition">
-<title>Digital Twin - Unique Value Proposition</title>
+<section xml:id="h3_pgw_name_unique_value_proposition">
+<title>Payment Gateway Module - Unique Value Proposition</title>
 
 </section>
-<section xml:id="h3_digital_twin_related_applets">
-<title>Digital Twin - Related Applets</title>
+<section xml:id="h3_pgw_name_related_applets">
+<title>Module Name - Related Applets</title>
 
 </section>
-<section xml:id="h3_digital_twin_project_implementation_steps">
+<section xml:id="h3_pgw_project_implementation_steps">
 <title>Module Name - Project Implementation Steps</title>
 <section xml:id="_scope_management_end_results_18">
 <title>Scope Management (End Results)</title>
@@ -3234,9 +3266,9 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
 </section>
 </section>
-<section xml:id="h2_datalake_module">
-<title>Datalake Module</title>
-<section xml:id="h3_datalake_introduction">
+<section xml:id="h2_digital_twin_module">
+<title>Digital Twin Module</title>
+<section xml:id="h3_digital_twin_introduction">
 <title>Introduction</title>
 <simpara>The intention of this section in the documentation.
 What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
@@ -3267,16 +3299,16 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 </section>
-<section xml:id="h3_datalake_unique_value_proposition">
-<title>Datalake - Unique Value Proposition</title>
+<section xml:id="h3_digital_twin_unique_value_proposition">
+<title>Digital Twin - Unique Value Proposition</title>
 
 </section>
-<section xml:id="h3_datalake_related_applets">
-<title>Datalake - Related Applets</title>
+<section xml:id="h3_digital_twin_related_applets">
+<title>Digital Twin - Related Applets</title>
 
 </section>
-<section xml:id="h3_datalake_project_implementation_steps">
-<title>Datalake - Project Implementation Steps</title>
+<section xml:id="h3_digital_twin_project_implementation_steps">
+<title>Module Name - Project Implementation Steps</title>
 <section xml:id="_scope_management_end_results_19">
 <title>Scope Management (End Results)</title>
 <simpara><emphasis>Begin with the end in mind</emphasis></simpara>
@@ -3387,6 +3419,164 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 <section xml:id="_post_mortem_19">
+<title>Post Mortem</title>
+
+</section>
+</section>
+</section>
+<section xml:id="h2_datalake_module">
+<title>Datalake Module</title>
+<section xml:id="h3_datalake_introduction">
+<title>Introduction</title>
+<simpara>The intention of this section in the documentation.
+What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
+Explaining that certain detail about</simpara>
+<section xml:id="_overview_20">
+<title>Overview</title>
+<simpara>Some background of why this module was developed
+Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+</section>
+<section xml:id="_applets_20">
+<title>Applets</title>
+
+</section>
+<section xml:id="_features_and_functions_20">
+<title>Features and Functions</title>
+
+</section>
+<section xml:id="_whats_new_20">
+<title>What&#8217;s New</title>
+
+</section>
+<section xml:id="_getting_started_20">
+<title>Getting Started</title>
+
+</section>
+<section xml:id="_module_dependencies_20">
+<title>Module Dependencies</title>
+
+</section>
+</section>
+<section xml:id="h3_datalake_unique_value_proposition">
+<title>Datalake - Unique Value Proposition</title>
+
+</section>
+<section xml:id="h3_datalake_related_applets">
+<title>Datalake - Related Applets</title>
+
+</section>
+<section xml:id="h3_datalake_project_implementation_steps">
+<title>Datalake - Project Implementation Steps</title>
+<section xml:id="_scope_management_end_results_20">
+<title>Scope Management (End Results)</title>
+<simpara><emphasis>Begin with the end in mind</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>This is where we define the end results and priorities</simpara>
+</listitem>
+<listitem>
+<simpara>We decide what to do in phase 1, phase 2, phase 3 etc.</simpara>
+</listitem>
+<listitem>
+<simpara>This is where we create the WBS (Work Break Down) as well.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_gantt_chart_20">
+<title>Project Gantt Chart</title>
+<itemizedlist>
+<listitem>
+<simpara>Defining Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>List down all the activities involved for each work breakdown</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Sequence Activities</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Which one first, which one next</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Estimated Resource Requirements for each activity</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Estimate how long it will take, what skills may be required to do this</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Schedule</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Identify the activities dependency, and based on resource availability , developing a schedule</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Identify Critical Path</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_project_kickstart_meeting_20">
+<title>Project Kickstart Meeting</title>
+
+</section>
+<section xml:id="_weekly_meeting_20">
+<title>Weekly Meeting</title>
+
+</section>
+<section xml:id="_agile_method_20">
+<title>Agile Method</title>
+
+</section>
+<section xml:id="_cashflow_projection_20">
+<title>Cashflow Projection</title>
+
+</section>
+<section xml:id="_human_resource_management_20">
+<title>Human Resource Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Milestones and Rewards</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_communication_management_20">
+<title>Communication Management</title>
+
+</section>
+<section xml:id="_risk_management_20">
+<title>Risk Management</title>
+<itemizedlist>
+<listitem>
+<simpara>Identify third party dependency</simpara>
+</listitem>
+<listitem>
+<simpara>Identify backup plans</simpara>
+</listitem>
+<listitem>
+<simpara>Identify contingency plans</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_uat_user_acceptance_test_20">
+<title>UAT (User Acceptance Test)</title>
+
+</section>
+<section xml:id="_requirement_analysis_20">
+<title>Requirement Analysis</title>
+
+</section>
+<section xml:id="_project_goes_live_20">
+<title>Project Goes Live</title>
+
+</section>
+<section xml:id="_post_mortem_20">
 <title>Post Mortem</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
@@ -3546,134 +3736,6 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 </section>
-<section xml:id="h3_organization_applet">
-<title>Organization Applet</title>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="assets/organization_applet_logo.png"/>
-</imageobject>
-<textobject><phrase>organization applet logo</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<section xml:id="h4_organization_introduction">
-<title>Introduction</title>
-<simpara>You can use this applet to create / update / delete companies, branches and locations.</simpara>
-</section>
-<section xml:id="h4_organization_modules">
-<title>Modules</title>
-<simpara>This applet is used in the following modules:</simpara>
-<itemizedlist>
-<listitem>
-<simpara><xref linkend="h2_core_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_accounting_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_pos_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_manufacturing_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_membership_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_referral_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_crm_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_contact_center_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_inventory_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_digital_twin_module"/></simpara>
-</listitem>
-<listitem>
-<simpara><xref linkend="h2_datalake_module"/></simpara>
-</listitem>
-</itemizedlist>
-</section>
-<section xml:id="h4_organization_sales_order_listing">
-<title>Menu 01 - e.g. Sales Orders Listing</title>
-
-</section>
-<section xml:id="h4_organization_line_items">
-<title>Menu 02 - e.g. Line Items</title>
-
-</section>
-<section xml:id="h4_organization_permission_settings">
-<title>Permission Settings</title>
-
-</section>
-<section xml:id="h4_organization_personalization">
-<title>Personalization</title>
-
-</section>
-<section xml:id="h4_organization_related_applets">
-<title>Related Applets</title>
-<simpara>This applet also depends on the following applets:</simpara>
-<itemizedlist>
-<listitem>
-<simpara>Applet 1</simpara>
-</listitem>
-<listitem>
-<simpara>Applet 2</simpara>
-</listitem>
-</itemizedlist>
-<simpara>The following applets depends on this applet:</simpara>
-<itemizedlist>
-<listitem>
-<simpara>Applet 3</simpara>
-</listitem>
-<listitem>
-<simpara>Applet 4</simpara>
-</listitem>
-</itemizedlist>
-<simpara>Also see</simpara>
-</section>
-<section xml:id="h4_organization_pricing">
-<title>Pricing</title>
-
-</section>
-<section xml:id="h4_organization_release_note">
-<title>Release Note</title>
-
-</section>
-<section xml:id="h4_organization_roadmap">
-<title>Roadmap</title>
-
-</section>
-</section>
 <section xml:id="h3_tax_configuration_applet">
 <title>Tax Configuration Applet</title>
 <informalfigure>
@@ -3802,21 +3864,21 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 </section>
-<section xml:id="h3_cashbook_applet">
-<title>Cashbook Applet</title>
+<section xml:id="h3_organization_applet">
+<title>Organization Applet</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="assets/applet_logo.png"/>
+<imagedata fileref="assets/organization_applet_logo.png"/>
 </imageobject>
-<textobject><phrase>applet logo</phrase></textobject>
+<textobject><phrase>organization applet logo</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<section xml:id="h4_cashbook_introduction">
+<section xml:id="h4_organization_introduction">
 <title>Introduction</title>
-<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+<simpara>You can use this applet to create / update / delete companies, branches and locations.</simpara>
 </section>
-<section xml:id="h4_cashbook_modules">
+<section xml:id="h4_organization_modules">
 <title>Modules</title>
 <simpara>This applet is used in the following modules:</simpara>
 <itemizedlist>
@@ -3872,6 +3934,9 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
 </listitem>
 <listitem>
+<simpara><xref linkend="h2_pgw_module"/></simpara>
+</listitem>
+<listitem>
 <simpara><xref linkend="h2_digital_twin_module"/></simpara>
 </listitem>
 <listitem>
@@ -3879,23 +3944,23 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="h4_cashbook_sales_order_listing">
+<section xml:id="h4_organization_sales_order_listing">
 <title>Menu 01 - e.g. Sales Orders Listing</title>
 
 </section>
-<section xml:id="h4_cashbook_line_items">
+<section xml:id="h4_organization_line_items">
 <title>Menu 02 - e.g. Line Items</title>
 
 </section>
-<section xml:id="h4_cashbook_permission_settings">
+<section xml:id="h4_organization_permission_settings">
 <title>Permission Settings</title>
 
 </section>
-<section xml:id="h4_cashbook_personalization">
+<section xml:id="h4_organization_personalization">
 <title>Personalization</title>
 
 </section>
-<section xml:id="h4_cashbook_related_applets">
+<section xml:id="h4_organization_related_applets">
 <title>Related Applets</title>
 <simpara>This applet also depends on the following applets:</simpara>
 <itemizedlist>
@@ -3917,15 +3982,15 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </itemizedlist>
 <simpara>Also see</simpara>
 </section>
-<section xml:id="h4_cashbook_pricing">
+<section xml:id="h4_organization_pricing">
 <title>Pricing</title>
 
 </section>
-<section xml:id="h4_cashbook_release_note">
+<section xml:id="h4_organization_release_note">
 <title>Release Note</title>
 
 </section>
-<section xml:id="h4_cashbook_roadmap">
+<section xml:id="h4_organization_roadmap">
 <title>Roadmap</title>
 
 </section>
@@ -4054,6 +4119,134 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 <section xml:id="h4_chart_of_account_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_cashbook_applet">
+<title>Cashbook Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/applet_logo.png"/>
+</imageobject>
+<textobject><phrase>applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_cashbook_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_cashbook_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_cashbook_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_cashbook_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_cashbook_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_cashbook_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_cashbook_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_cashbook_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_cashbook_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_cashbook_roadmap">
 <title>Roadmap</title>
 
 </section>
@@ -4826,6 +5019,134 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 </section>
+<section xml:id="h3_merchant_admin_maintenance_applet">
+<title>Merchant Admin Maintenance Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/merchant_admin_maintenance.png"/>
+</imageobject>
+<textobject><phrase>merchant admin maintenance</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_merchant_admin_maintenance_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_merchant_admin_maintenance_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_merchant_admin_maintenance_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_merchant_admin_maintenance_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_merchant_admin_maintenance_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_merchant_admin_maintenance_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_merchant_admin_maintenance_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_merchant_admin_maintenance_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_merchant_admin_maintenance_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_merchant_admin_maintenance_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
 </section>
 </chapter>
 <chapter xml:id="h1_cloud_native_architecture">
@@ -5205,7 +5526,7 @@ on the applet&#8230;&#8203; etc..</simpara>
 </section>
 <section xml:id="h2_bigledger_database_guide">
 <title>BigLedger Database Guide</title>
-<section xml:id="_overview_20">
+<section xml:id="_overview_21">
 <title>Overview</title>
 
 </section>

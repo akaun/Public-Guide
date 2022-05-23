@@ -1,0 +1,5 @@
+[#h4_merchant_admin_maintenance_introduction]
+===== Introduction
+
+include::intro_description.adoc[]
+
