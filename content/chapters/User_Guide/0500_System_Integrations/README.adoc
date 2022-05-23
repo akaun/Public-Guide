@@ -3,10 +3,12 @@
 
 Guide for system integrators
 
+[#h3_system_integrations_section_1]
 ==== Section 1
 
 some sections here
 
+[#h3_system_integrations_section_2]
 ==== Section 2
 
 

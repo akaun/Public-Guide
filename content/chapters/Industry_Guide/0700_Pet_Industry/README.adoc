@@ -1,10 +1,12 @@
 [#h2_pet_industry]
 === Pet Industry
 
+
+[#h3_pet_problems]
 ==== Problems
 
-
+[#h3_pet_solutions]
 ==== Solutions
 
-
+[#h3_pet_features]
 ==== Features

@@ -167,6 +167,14 @@ Once you have completed your editing, the next step is to create a *pull request
 Congratulations !! 
 
 
+[#h2_authoring_list_of_workshops]
+=== List of workshops
 
+* YYYY-MM-DD : First workshop by Vincent to Zain and Bagty
+// include the URL of the video recording here
+
+
+* YYYY-MM-DD
+// include the URL of the video recording here
 
 <<<<<<<<<<<

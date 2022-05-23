@@ -1,9 +1,10 @@
-[#h2_applet-developers]
+[#h2_applet_developers]
 === Applet Developers
 
 Guid for applet Developers
 
-==== Signing up your bigledger account
+[#h3_applet_developers_signing_up_akaunid]
+==== Signing up your AkaunID
 
 
 

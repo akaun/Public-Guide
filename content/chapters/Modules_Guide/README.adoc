@@ -41,6 +41,8 @@ include::1700_Warehouse_Management_Module/00_index.adoc[]
 
 include::1800_Customer_Data_Platform_Module/00_index.adoc[]
 
+include::1900_Payment_Gateway_Module/00_index.adoc[]
+
 include::8000_Digital_Twin_Module/00_index.adoc[]
 
 include::9000_Datalake_Module/00_index.adoc[]
