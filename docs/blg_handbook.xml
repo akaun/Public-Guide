@@ -362,13 +362,10 @@ using the BigLedger platform.</simpara>
 <title>Core Module</title>
 <section xml:id="h3_core_introduction">
 <title>Introduction</title>
-<simpara>The intention of this section in the documentation.
-What this section cover, and not covering&#8230;&#8203; and how it will link to othe other modules.
-Explaining that certain detail about</simpara>
+<simpara>This Section provide you a high level overview of what is in the "Core Module", so that you have a good understanding of how various applets work together. For the detail user guide for each of the applet, you may click on the links below, and drill down for further details.</simpara>
 <section xml:id="_overview">
 <title>Overview</title>
-<simpara>Some background of why this module was developed
-Provide a summary of what this module does and doesn&#8217;t do.</simpara>
+<simpara>"Core Module" is the only module that is depended by all other modules in the system.</simpara>
 </section>
 <section xml:id="_applets">
 <title>Applets</title>
@@ -408,7 +405,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
 <section xml:id="_features_and_functions">
 <title>Features and Functions</title>
-
+<simpara>The "Core Module" is the foundation of all other applets.</simpara>
 </section>
 <section xml:id="_whats_new">
 <title>What&#8217;s New</title>
@@ -5274,6 +5271,134 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 <section xml:id="h4_ucc_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_bank_reconciliation_applet">
+<title>Bank Reconciliation Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/bank_reconciliation_applet_logo.png"/>
+</imageobject>
+<textobject><phrase>bank reconciliation applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_bank_reconciliation_introduction">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_bank_reconciliation_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_bank_reconciliation_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_bank_reconciliation_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_bank_reconciliation_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_bank_reconciliation_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_bank_reconciliation_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_bank_reconciliation_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_bank_reconciliation_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_bank_reconciliation_roadmap">
 <title>Roadmap</title>
 
 </section>

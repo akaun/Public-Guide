@@ -1,14 +1,11 @@
 [#h3_core_introduction]
 ==== Introduction
 
-The intention of this section in the documentation.
-What this section cover, and not covering... and how it will link to othe other modules.
-Explaining that certain detail about 
+This Section provide you a high level overview of what is in the "Core Module", so that you have a good understanding of how various applets work together. For the detail user guide for each of the applet, you may click on the links below, and drill down for further details.
 
 ===== Overview
 
-Some background of why this module was developed
-Provide a summary of what this module does and doesn't do.
+"Core Module" is the only module that is depended by all other modules in the system.
 
 
 ===== Applets
@@ -36,11 +33,9 @@ The core module consiste of the following applets:
 * xref:h3_supplier_maintenance_applet[xrefstyle=full]
 
 
-
-
-
-
 ===== Features and Functions
+
+The "Core Module" is the foundation of all other applets. 
 
 
 
