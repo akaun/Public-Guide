@@ -1,12 +1,13 @@
 
 echo 'Cleaning up "docs/* folder....'
-rm -rf docs/*
+rm -rf docs
 rm -rf content/assets
 rm -rf build/blg_blueprint
 
 echo 'Creating empty build/blg_blueprint/ folder...'
 mkdir -p build/blg_blueprint/www/assets
 mkdir -p content/assets
+mkdir -p docs
 
 echo 'Copying all non-adoc files into content/assets.... '
 find ./content/chapters -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
@@ -39,7 +40,7 @@ cp -r build/blg_blueprint/www/* docs
 cp ./build/blg_blueprint/blg_blueprint* docs
 cp ./content/CNAME docs
 
-echo 'Pushing to github...'
+echo 'Opening docs folder...'
 #git add .
 #git commit -m "Compiled and commit .."
 open docs

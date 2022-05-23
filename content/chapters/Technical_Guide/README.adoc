@@ -4,7 +4,7 @@
 This technical guide is used by both internal and external employees of 
 
 
-include::Applet_Development/00_index.adoc[]
+include::Applet_Development_Guide/00_index.adoc[]
 
 include::ETL_Guide/00_index.adoc[]
 
