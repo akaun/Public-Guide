@@ -177,4 +177,13 @@ Congratulations !!
 * YYYY-MM-DD
 // include the URL of the video recording here
 
+[#h2_authoring_contributors]
+=== Contributors
+
+* Vincent Lee (vincent@akaun.com)
+
+
+
+
+
 <<<<<<<<<<<
