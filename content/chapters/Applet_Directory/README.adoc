@@ -49,6 +49,7 @@ include::applets/Merchant_Admin_Maintenance_Applet/00_index.adoc[]
 
 include::applets/UCC_Applet/00_index.adoc[]
 
+include::applets/Bank_Reconciliation_Applet/00_index.adoc[]
 
 
 
