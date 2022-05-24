@@ -3,8 +3,8 @@
 <?asciidoc-numbered?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
-<title>BigLedger Blueprint</title>
-<date>2022-05-23</date>
+<title>BigLedger Handbook</title>
+<date>2022-05-25</date>
 <author>
 <personname>
 <firstname>v1.0</firstname>
@@ -26,13 +26,13 @@
 To view this in other formats, click on the following:</simpara>
 <itemizedlist>
 <listitem>
-<simpara><link xl:href="blg_blueprint.epub">Epub Format</link></simpara>
+<simpara><link xl:href="blg_handbook.epub">Epub Format</link></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="blg_blueprint.html">Single File HTML</link></simpara>
+<simpara><link xl:href="blg_handbook.html">Single File HTML</link></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="blg_blueprint.pdf">PDF Format</link></simpara>
+<simpara><link xl:href="blg_handbook.pdf">PDF Format</link></simpara>
 </listitem>
 </itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
@@ -5648,8 +5648,8 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <title>Removal of applet from the Applet Master List - Google Spreadsheet</title>
 
 </section>
-<section xml:id="_removal">
-<title>Removal</title>
+<section xml:id="_removal_of_other_links_related_to_applets">
+<title>Removal of other links related to applets</title>
 
 </section>
 </section>
@@ -5970,13 +5970,13 @@ on the applet&#8230;&#8203; etc..</simpara>
 <simpara>index.html (This is the multipage html output)</simpara>
 </listitem>
 <listitem>
-<simpara>blg_blueprint.pub</simpara>
+<simpara>blg_handbook.pub</simpara>
 </listitem>
 <listitem>
-<simpara>blg_blueprint.pdf</simpara>
+<simpara>blg_handbook.pdf</simpara>
 </listitem>
 <listitem>
-<simpara>blg_blueprint.html</simpara>
+<simpara>blg_handbook.html</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Once you have completed your editing, the next step is to create a <emphasis role="strong">pull request</emphasis>. Refer to the following for more information:</simpara>
@@ -6007,7 +6007,7 @@ on the applet&#8230;&#8203; etc..</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </chapter>
-<glossary xml:id="blg_blueprint_glossary">
+<glossary xml:id="blg_handbook_glossary">
 <title>Glossary</title>
 <glossentry>
 <glossterm>Akaun Shell</glossterm>

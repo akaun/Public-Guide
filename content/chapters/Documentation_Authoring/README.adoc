@@ -154,9 +154,9 @@ The above shell script will clean up the "docs" and "build" folders, and then co
 To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:
 
 * index.html (This is the multipage html output)
-* blg_blueprint.pub
-* blg_blueprint.pdf
-* blg_blueprint.html
+* blg_handbook.pub
+* blg_handbook.pdf
+* blg_handbook.html
 
 Once you have completed your editing, the next step is to create a *pull request*. Refer to the following for more information:
 
