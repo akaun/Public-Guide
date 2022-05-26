@@ -51,7 +51,7 @@ include::applets/UCC_Applet/00_index.adoc[]
 
 include::applets/Bank_Reconciliation_Applet/00_index.adoc[]
 
-
+include::applets/Stock_Take_V2_Applet/00_index.adoc[]
 
 
 

@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Blueprint</title>
-<date>2022-05-23</date>
+<date>2022-05-24</date>
 <author>
 <personname>
 <firstname>v1.0</firstname>
@@ -5399,6 +5399,134 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 
 </section>
 <section xml:id="h4_bank_reconciliation_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h3_stock_take_v2_applet">
+<title>Stock Take V2 Applet</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="assets/stock_take_V2_applet_logo.png"/>
+</imageobject>
+<textobject><phrase>stock take V2 applet logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="h4_stock_take_v2">
+<title>Introduction</title>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h4_stock_take_v2_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_twin_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_stock_take_v2_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h4_stock_take_v2_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h4_stock_take_v2_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h4_stock_take_v2_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h4_stock_take_v2_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h4_stock_take_v2_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h4_stock_take_v2_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h4_stock_take_v2_roadmap">
 <title>Roadmap</title>
 
 </section>
