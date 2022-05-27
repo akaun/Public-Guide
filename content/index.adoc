@@ -1,5 +1,5 @@
 = BigLedger Handbook
-v1.1
+v1.2
 :homepage: https://docs.akaun.com
 :sectnums:
 :toc: macro
