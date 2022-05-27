@@ -1,0 +1,3 @@
+[#h4_stock_take_v2_permission_settings]
+===== Permission Settings
+
