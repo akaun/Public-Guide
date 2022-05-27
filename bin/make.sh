@@ -26,7 +26,7 @@ echo 'Compiling single file.html....'
 asciidoctor -o build/blg_handbook/www/blg_handbook.html content/index.adoc
 
 echo 'Compiling DocBook format....'
-asciidoctor -b docbook5 -o build/blg_handbook/www/blg_handbook.xml content/index.adoc
+asciidoctor -b docbook5 -o build/www/blg_handbook/blg_handbook.xml content/index.adoc
 
 echo 'Compiling PDF Format....'
 asciidoctor --trace -r asciidoctor-pdf -b pdf -o build/blg_handbook/www/blg_handbook.pdf content/index.adoc
@@ -36,18 +36,14 @@ echo 'Compiling EPUB Format .....'
 asciidoctor-epub3 -o build/blg_handbook/www/blg_handbook.epub content/index.adoc
 # asciidoctor -r asciidoctor-epub3 -b epub3 -o docs/all_in_one.epub pub/all_in_one.adoc
 
-#TIMESTAMP=tmp_$(date +"%Y-%m-%d-%H-%M")
-#echo 'Copying files to docs folder for github pages publishing .... '
-#mkdir -p docs/`date +"%Y-%m-%d-%H-%M"`
-#mkdir -p docs/$TIMESTAMP
-#cp -r build/blg_handbook/www/* docs/$TIMESTAMP
-#cp ./build/blg_handbook/blg_handbook* docs/$TIMESTAMP
-#cp ./content/CNAME docs/$TIMESTAMP
+
+echo 'Copying files to docs folder for github pages publishing .... '
+cp -r build/blg_handbook/www/* docs
+#cp ./build/blg_handbook/blg_handbook* docs
+#cp ./content/CNAME docs
 
 echo 'Opening docs folder...'
 #git add .
 #git commit -m "Compiled and commit .."
-#open docs/$TIMESTAMP
-open build/blg_handbook/www/index.html
-
+open docs/index.html
 
