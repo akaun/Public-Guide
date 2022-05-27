@@ -91,6 +91,7 @@ After you have installed the Visual Studio Code, please install the following ex
 
 The next step is to open the folder where you cloned the https://github.com/akaun/Public-Guide repository using the Visual Studio Code
 
+:Tip: Public-Guide is normally located in Documents\GitHub\Public-Guide folder.
 
 [#h2_authoring_directory_structure]
 === Understanding the Directory Structure
@@ -154,9 +155,9 @@ The above shell script will clean up the "docs" and "build" folders, and then co
 To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:
 
 * index.html (This is the multipage html output)
-* blg_blueprint.pub
-* blg_blueprint.pdf
-* blg_blueprint.html
+* blg_handbook.pub
+* blg_handbook.pdf
+* blg_handbook.html
 
 Once you have completed your editing, the next step is to create a *pull request*. Refer to the following for more information:
 
