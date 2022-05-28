@@ -11,6 +11,8 @@ include::0100_Core_Module/00_index.adoc[]
 
 include::0200_Accounting_Module/00_index.adoc[]
 
+include::0250_Inventory_Module/00_index.adoc[]
+
 include::0300_POS_Module/00_index.adoc[]
 
 include::0400_Manufacturing_Module/00_index.adoc[]
@@ -24,8 +26,6 @@ include::0700_CRM_Module/00_index.adoc[]
 include::0710_Contact_Center_Module/00_index.adoc[]
 
 include::0720_Digital_Marketing_Module/00_index.adoc[]
-
-include::0800_Inventory_Module/00_index.adoc[]
 
 include::0900_Marketplace_Connector_Module/00_index.adoc[]
 

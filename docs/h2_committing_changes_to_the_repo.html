@@ -485,10 +485,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="paragraph">
-<p>The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build" folder and subsequently publish the final output into the "docs" folder.</p>
-</div>
-<div class="paragraph">
-<p>To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:</p>
+<p>The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build/blg_handbook/www" folder, and you can open this folder to view the results.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -525,18 +522,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Congratulations !!</p>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">bin/make.sh</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This command is more or less like publish.sh, the only difference is , it would compile and store the files into the "docs" folder. For authors that are NOT do not have the permission to manage the "main" branch, do not use this option.</p>
+</div>
 <div class="ulist">
 <ul>
 </ul>
 </div>
 </div>
 <div class="paragraph nav-footer">
-<p>← Previous: <a href="h2_authoring_images.html">Images</a> | ↑ Up: <a href="h1_documentation_authoring.html">Documentation Authoring</a> | ⌂ Home: <a href="index.html">BigLedger Handbook</a> | Next: <a href="h2_authoring_list_of_workshops.html">List of workshops</a> →</p>
+<p>← Previous: <a href="h2_authoring_images.html">Images</a> | ↑ Up: <a href="h1_handbook_authoring.html">Handbook Authoring</a> | ⌂ Home: <a href="index.html">BigLedger Handbook</a> | Next: <a href="h2_authoring_deployment_to_s3_bucket.html">Deployment to s3 bucket</a> →</p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-05-28 04:42:29 +0800
+Last updated 2022-05-28 10:34:46 +0800
 </div>
 </div>
 </body>

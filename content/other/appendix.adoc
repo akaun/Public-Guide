@@ -1,6 +1,6 @@
 [appendix]
 [#appendix_first]
-= First Appendix
+== First Section
 
 [#appendix_first_subsection]
 === First Subsection
@@ -10,7 +10,7 @@
 
 [appendix]
 [#appendix_second]
-= Second Appendix
+== First Section again
 
 [#appendix_first_chapter]
 === First Chapter

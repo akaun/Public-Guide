@@ -1,0 +1,6 @@
+[#h4_cp_commerce_admin_introduction]
+===== Introduction
+
+include::intro_description.adoc[]
+
+

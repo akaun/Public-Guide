@@ -1,0 +1,12 @@
+[#h3_cp_commerce_order_fulfillment]
+==== Order Fulfillment
+
+* We will talk about Sales Order Applet
+
+* Delivery & Installation Applet
+
+* Syncing to the EMP
+
+* Choosing the serial numbers, printing of the Consignment Notes / stickers etc.
+
+* 

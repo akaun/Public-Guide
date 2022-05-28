@@ -2,4 +2,3 @@
 ===== Introduction
 
 include::intro_description.adoc[]
-

@@ -14,8 +14,11 @@ _Begin with the end in mind_
 
 ===== Project Gantt Chart
 
+Although there are many project Gantt Chart software out there, in the past, we have used Smartsheet.com, Google spreadsheet and others. We found that the issue due dates and the actual progress of the issue status became outdated within days because everyone else in the team are NOT updating the issues in these Gantt Chart, they are using Jira issue tracker at https://wavelet.atlassian.net . As a results, we have decided to make use of the following https://www.atlassian.com/software/jira/features/roadmaps 
+
+
 * Defining Activities
-** List down all the activities involved for each work breakdown
+** List down all the activities involved for each <<h3_cp_commerce_work_breakdown>>
 
 * Sequence Activities
 ** Which one first, which one next 
@@ -27,6 +30,8 @@ _Begin with the end in mind_
 ** Identify the activities dependency, and based on resource availability , developing a schedule
 
 * Identify Critical Path
+** As many activities can happen in parallel , we need to identify the critical path to ensure the activities that are in critical path are given the highest urgency, to ensure the project is not delayed.
+
 
 ===== Project Kickstart Meeting
 

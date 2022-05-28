@@ -1,0 +1,12 @@
+[#h3_cp_commerce_product_management]
+==== Product Management
+
+* Basic Product
+* Group Product (variants)
+* Bundle Product
+* Product Categories
+* Product Dimensions / Volumetric 
+* Product Description Pages
+* Product Images
+* Product Reviews / Ratings
+* 

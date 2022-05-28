@@ -9,5 +9,17 @@ include::related_applets.adoc[]
 
 include::project_implementation_steps.adoc[]
 
+include::work_breakdown_list.adoc[]
 
+include::product_management.adoc[]
+
+include::shipping_fee.adoc[]
+
+include::settlement_methods.adoc[]
+
+include::order_fulfillment.adoc[]
+
+include::search_engine_optimization.adoc[]
+
+include::qc_checklist.adoc[]
 

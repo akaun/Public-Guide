@@ -53,6 +53,14 @@ include::applets/Bank_Reconciliation_Applet/00_index.adoc[]
 
 include::applets/Stock_Take_V2_Applet/00_index.adoc[]
 
+include::applets/CP_Commerce_Admin_Applet/00_index.adoc[]
+
+include::applets/Media_Library_Applet/00_index.adoc[]
+
+include::applets/Payment_Channel_Applet/00_index.adoc[]
+
+
+
 
 
 // we will keep adding the long list of applet here.

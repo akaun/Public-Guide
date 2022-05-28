@@ -5,16 +5,23 @@ The intention of this section in the documentation.
 What this section cover, and not covering... and how it will link to othe other modules.
 Explaining that certain detail about 
 
-
-===== Overview
+[#h4_cp_commerce_overview]
+===== CP Commerce Overview
 
 Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.
 
+[#h4_cp_commerce_module_applets]
+===== CP Commerce Applets
 
-===== Applets
+* <<h3_cp_commerce_admin_applet>>
 
+* Media Library Applet
 
+* Platform SysAdmin Applet
+    - For configuration of hostname
+
+[#h4_cp_commerce_features_and_functions]
 ===== Features and Functions
 
 

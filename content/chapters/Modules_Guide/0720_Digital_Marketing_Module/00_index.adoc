@@ -1,5 +1,5 @@
 [#h2_digital_marketing_module]
-=== Name of Module
+=== Digital Marketing Module 
 
 include::introduction.adoc[]
 
