@@ -1,5 +1,5 @@
-[#h1_documentation_authoring]
-== Documentation Authoring
+[#h1_handbook_authoring]
+== Handbook Authoring
 
 //== ({counter2:guide_no}{guide_no}) Documentation Authoring
 
@@ -101,7 +101,7 @@ The next step is to open the folder where you cloned the https://github.com/akau
 | Folder Name | Description
 
 | bin
-| This folder contains shell scripts that you need to install and setup. You will also see a file called publish.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "docs" folder. You shouldn't be editing any files in this folder.
+| This folder contains shell scripts that you need to install and setup. You will also see a file called publish.sh , and this is the file that you would execute to compile the asciidoc into various file formats, and save them in the "build/blg_handbook/www" folder. You shouldn't be editing any files in this folder.
 
 | build
 | This is a temporary folder that gets deleted and re-created every time we "compile" the documentation. You shouldn't need to mess with files in this folder.
@@ -150,9 +150,7 @@ Once you have made the changes you want, remember to run the command from the "P
 bin/publish.sh
 ----
 
-The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build" folder and subsequently publish the final output into the "docs" folder.
-
-To view the final output, you can open the "docs" folder and view the content in the folder by opening one of the following files:
+The above shell script will clean up the "docs" and "build" folders, and then compile all the adoc files into the intermediate "build/blg_handbook/www" folder, and you can open this folder to view the results.
 
 * index.html (This is the multipage html output)
 * blg_handbook.pub
@@ -167,6 +165,24 @@ Once you have completed your editing, the next step is to create a *pull request
 
 Congratulations !! 
 
+[source,shell]
+----
+bin/make.sh
+----
+
+This command is more or less like publish.sh, the only difference is , it would compile and store the files into the "docs" folder. For authors that are NOT do not have the permission to manage the "main" branch, do not use this option.
+
+
+[#h2_authoring_deployment_to_s3_bucket]
+=== Deployment to s3 bucket
+
+The domain name is currently hosted in the "Akaun-production" AWS s3 bucket. It has been configured in such a way that whenever there's a commit to the Github main branch https://github.com/akaun/Public-Guide/tree/main , a github action would be executed to copy the files in "docs" folder to the s3 bucket.
+
+The details of the github action could be found in https://github.com/akaun/Public-Guide/blob/main/.github/workflows/main.yml 
+
+The credentials of the AWS secrets can be found in https://github.com/akaun/Public-Guide/settings/secrets/actions 
+
+Typically, only the chief author, in our case, Vincent will be the only running the "bin/make.sh", and generate the output html files, epub, pdf etc into this "docs" folder.
 
 [#h2_authoring_list_of_workshops]
 === List of workshops
