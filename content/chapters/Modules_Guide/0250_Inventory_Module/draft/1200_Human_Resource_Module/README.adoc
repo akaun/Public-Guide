@@ -1,0 +1,10 @@
+[#h2_hr_module]
+=== Human Resource Module
+
+
+
+* Employee Claims
+
+* Time Attendance
+
+

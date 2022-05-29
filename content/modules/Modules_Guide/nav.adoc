@@ -1,6 +1,0 @@
-//* xref:0100_Core_Module/pages/00_index.adoc[]
-//* xref:0200_Accounting_Module/pages/00_index.adoc[]
-//* xref:0250_Inventory_Module/pages/00_index.adoc[]
-//* xref:0300_POS_Module/pages/00_index.adoc[]
-
-xref:README.adoc[]

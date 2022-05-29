@@ -1,0 +1,3 @@
+* xref:handbook-modules-guide:0100_Core_Module/00_index.adoc[Core Module]
+
+//xref:README.adoc[]

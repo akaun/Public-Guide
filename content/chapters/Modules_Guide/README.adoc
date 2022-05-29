@@ -1,0 +1,53 @@
+[#h1_modules_guide]
+== Guide by Modules
+//== ({counter2:guide_no}{guide_no}) Modules Guide
+//:doctype: book
+
+The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.
+
+
+
+include::0100_Core_Module/pages/00_index.adoc[]
+
+include::0200_Accounting_Module/pages/00_index.adoc[]
+
+include::0250_Inventory_Module/pages/00_index.adoc[]
+
+include::0300_POS_Module/pages/00_index.adoc[]
+
+include::0400_Manufacturing_Module/pages/00_index.adoc[]
+
+include::0500_Membership_Module/pages/00_index.adoc[]
+
+include::0600_Referral_Module/pages/00_index.adoc[]
+
+include::0700_CRM_Module/pages/00_index.adoc[]
+
+include::0710_Contact_Center_Module/pages/00_index.adoc[]
+
+include::0720_Digital_Marketing_Module/pages/00_index.adoc[]
+
+include::0900_Marketplace_Connector_Module/pages/00_index.adoc[]
+
+include::1000_Delivery_Module/pages/00_index.adoc[]
+
+include::1100_CP_Commerce_Module/pages/00_index.adoc[]
+
+include::1200_Procure_To_Pay_Module/pages/00_index.adoc[]
+
+include::1500_Order_To_Cash_Module/pages/00_index.adoc[]
+
+include::1700_Warehouse_Management_Module/pages/00_index.adoc[]
+
+include::1800_Customer_Data_Platform_Module/pages/00_index.adoc[]
+
+include::1900_Payment_Gateway_Module/pages/00_index.adoc[]
+
+include::8000_Digital_Twin_Module/pages/00_index.adoc[]
+
+include::9000_Datalake_Module/pages/00_index.adoc[]
+
+
+
+
+<<<<<<<<<<

@@ -1,3 +1,0 @@
-= The Pages Folder index.adoc
-
-The pages folder index.adoc

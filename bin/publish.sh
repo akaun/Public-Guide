@@ -1,22 +1,22 @@
 
 echo 'Cleaning up "docs/* folder....'
 rm -rf docs
-rm -rf content/assets
+rm -rf content/images
 rm -rf build/blg_handbook
 
 echo 'Creating empty build/blg_handbook/ folder...'
-mkdir -p build/blg_handbook/www/assets
-mkdir -p content/assets
+mkdir -p build/blg_handbook/www/images
+mkdir -p content/images
 mkdir -p docs
 
-echo 'Copying all non-adoc files into content/assets.... '
-find ./content/modules -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
-#find ./content/modules appendix -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
-cp ./content/bigledger_logo.jpeg ./content/assets
-cp ./content/akaun_colourful_logo.png ./content/assets
+echo 'Copying all non-adoc files into content/images.... '
+find ./content/chapters -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/images \;
+#find ./content/chapters appendix -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/images \;
+cp ./content/bigledger_logo.jpeg ./content/images
+cp ./content/akaun_colourful_logo.png ./content/images
 
-echo 'Copying all non-adoc files into build/blg_handbook/www/assets folder....'
-cp -r content/assets/* build/blg_handbook/www/assets
+echo 'Copying all non-adoc files into build/blg_handbook/www/images folder....'
+cp -r content/images/* build/blg_handbook/www/images
 
 
 echo 'Compiling Multipage HTML .....'

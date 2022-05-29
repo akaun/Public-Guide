@@ -1,0 +1,16 @@
+* xref:00_index.adoc[Applet Listing]
+
+
+* xref:pages/Applet_Store/pages/00_index.adoc[]
+
+* xref:pages/Tax_Configuration_Applet/pages/00_index.adoc[]
+
+* xref:pages/Organization_Applet/pages/00_index.adoc[]
+
+* xref:pages/Chart_of_Account_Applet/pages/00_index.adoc[]
+
+* xref:pages/Cashbook_Applet/pages/00_index.adoc[]
+
+* xref:pages/Doc_Item_Maintenance_Applet/pages/00_index.adoc[]
+
+* xref:00_index.adoc[]
