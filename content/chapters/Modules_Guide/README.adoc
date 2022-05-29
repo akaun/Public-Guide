@@ -7,45 +7,45 @@ The Akaun platform is like lego blocks, users will be able to mix and match diff
 
 
 
-include::0100_Core_Module/pages/00_index.adoc[]
+include::modules/0100-core-module/pages/00_index.adoc[]
 
-include::0200_Accounting_Module/pages/00_index.adoc[]
+include::modules/0200-accounting-module/pages/00_index.adoc[]
 
-include::0250_Inventory_Module/pages/00_index.adoc[]
+include::modules/0250-inventory-module/pages/00_index.adoc[]
 
-include::0300_POS_Module/pages/00_index.adoc[]
+include::modules/0300-pos-module/pages/00_index.adoc[]
 
-include::0400_Manufacturing_Module/pages/00_index.adoc[]
+include::modules/0400-manufacturing-module/pages/00_index.adoc[]
 
-include::0500_Membership_Module/pages/00_index.adoc[]
+include::modules/0500-membership-module/pages/00_index.adoc[]
 
-include::0600_Referral_Module/pages/00_index.adoc[]
+include::modules/0600-referral-module/pages/00_index.adoc[]
 
-include::0700_CRM_Module/pages/00_index.adoc[]
+include::modules/0700-crm-module/pages/00_index.adoc[]
 
-include::0710_Contact_Center_Module/pages/00_index.adoc[]
+include::modules/0710-contact-center-module/pages/00_index.adoc[]
 
-include::0720_Digital_Marketing_Module/pages/00_index.adoc[]
+include::modules/0720-digital-marketing-module/pages/00_index.adoc[]
 
-include::0900_Marketplace_Connector_Module/pages/00_index.adoc[]
+include::modules/0900-marketplace-connector-module/pages/00_index.adoc[]
 
-include::1000_Delivery_Module/pages/00_index.adoc[]
+include::modules/1000-delivery-module/pages/00_index.adoc[]
 
-include::1100_CP_Commerce_Module/pages/00_index.adoc[]
+include::modules/1100-cp-commerce-module/pages/00_index.adoc[]
 
-include::1200_Procure_To_Pay_Module/pages/00_index.adoc[]
+include::modules/1200-procure-to-pay-module/pages/00_index.adoc[]
 
-include::1500_Order_To_Cash_Module/pages/00_index.adoc[]
+include::modules/1500-order-to-cash-module/pages/00_index.adoc[]
 
-include::1700_Warehouse_Management_Module/pages/00_index.adoc[]
+include::modules/1700-warehouse-management-module/pages/00_index.adoc[]
 
-include::1800_Customer_Data_Platform_Module/pages/00_index.adoc[]
+include::modules/1800-customer-data-platform-module/pages/00_index.adoc[]
 
-include::1900_Payment_Gateway_Module/pages/00_index.adoc[]
+include::modules/1900-payment-gateway-module/pages/00_index.adoc[]
 
-include::8000_Digital_Twin_Module/pages/00_index.adoc[]
+include::modules/8000-digital-twin-module/pages/00_index.adoc[]
 
-include::9000_Datalake_Module/pages/00_index.adoc[]
+include::modules/9000-datalake-module/pages/00_index.adoc[]
 
 
 
