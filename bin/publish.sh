@@ -11,7 +11,7 @@ mkdir -p docs
 
 echo 'Copying all non-adoc files into content/assets.... '
 find ./content/chapters -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
-find ./content/other -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
+find ./content/appendix -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/assets \;
 cp ./content/bigledger_logo.jpeg ./content/assets
 cp ./content/akaun_colourful_logo.png ./content/assets
 

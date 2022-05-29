@@ -1,0 +1,5 @@
+[#h4_stock_take_v2]
+==== Introduction
+
+include::intro_description.adoc[]
+

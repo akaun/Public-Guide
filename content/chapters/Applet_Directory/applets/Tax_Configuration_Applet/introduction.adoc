@@ -1,5 +1,0 @@
-[#h4_tax_configuration_introduction]
-===== Introduction
-
-include::intro_description.adoc[]
-

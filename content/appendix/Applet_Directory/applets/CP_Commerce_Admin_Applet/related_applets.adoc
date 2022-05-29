@@ -1,0 +1,19 @@
+[#h4_cp_commerce_admin_related_applets]
+==== Related Applets
+
+This applet also depends on the following applets:
+
+// * xref:reference_anchor_id[xrefstyle=full] 
+* Applet 1
+
+* Applet 2
+
+
+The following applets depends on this applet:
+
+* Applet 3
+
+* Applet 4
+
+Also see
+

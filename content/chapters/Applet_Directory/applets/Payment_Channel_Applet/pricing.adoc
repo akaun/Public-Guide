@@ -1,4 +1,0 @@
-[#h4_payment_channel_pricing]
-===== Pricing
-
-

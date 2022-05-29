@@ -1,2 +1,0 @@
-[#h4_cp_commerce_admin_layout_instance]
-===== Layout Instance

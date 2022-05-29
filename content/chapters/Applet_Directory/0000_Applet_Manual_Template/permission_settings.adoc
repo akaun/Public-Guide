@@ -1,3 +1,0 @@
-[#h4_manual_template_permission_settings]
-===== Permission Settings
-

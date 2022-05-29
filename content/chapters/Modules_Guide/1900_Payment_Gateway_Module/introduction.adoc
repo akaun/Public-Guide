@@ -16,7 +16,7 @@ Provide a summary of what this module does and doesn't do.
 
 The pgw module consiste of the following applets:
 
-* xref:h3_merchant_maintenance_applet[xrefstyle=full]
+* xref:h3_merchant_admin_maintenance_applet[xrefstyle=full]
 
 //* xref:h3_supplier_maintenance_applet[xrefstyle=full]
 

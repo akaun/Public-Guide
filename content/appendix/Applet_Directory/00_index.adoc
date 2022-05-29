@@ -1,0 +1,65 @@
+[appendix]
+[#h1_applet_directory]
+== Applet Directory
+
+
+|===
+
+| Applet Name | Description
+
+| xref:h3_applet_store[xrefstyle=basic] 
+| 
+include::applets/Applet_Store/intro_description.adoc[]
+
+
+| xref:h3_organization_applet[xrefstyle=basic] 
+| 
+include::applets/Organization_Applet/intro_description.adoc[]
+
+|===
+
+<<<<<<<<<<
+
+include::applets/Applet_Store/00_index.adoc[]
+
+include::applets/Tax_Configuration_Applet/00_index.adoc[]
+
+include::applets/Organization_Applet/00_index.adoc[]
+
+include::applets/Chart_of_Account_Applet/00_index.adoc[]
+
+include::applets/Cashbook_Applet/00_index.adoc[]
+
+include::applets/Doc_Item_Maintenance_Applet/00_index.adoc[]
+
+include::applets/Inventory_Item_Maintenance_Applet/00_index.adoc[]
+
+include::applets/Entity_Maintenance_Applet/00_index.adoc[]
+
+include::applets/Customer_Maintenance_Applet/00_index.adoc[]
+
+include::applets/Supplier_Maintenance_Applet/00_index.adoc[]
+
+include::applets/Employee_Maintenance_Applet/00_index.adoc[]
+
+include::applets/Merchant_Admin_Maintenance_Applet/00_index.adoc[]
+
+include::applets/UCC_Applet/00_index.adoc[]
+
+include::applets/Bank_Reconciliation_Applet/00_index.adoc[]
+
+include::applets/Stock_Take_V2_Applet/00_index.adoc[]
+
+include::applets/CP_Commerce_Admin_Applet/00_index.adoc[]
+
+include::applets/Media_Library_Applet/00_index.adoc[]
+
+include::applets/Payment_Channel_Applet/00_index.adoc[]
+
+
+
+
+
+// we will keep adding the long list of applet here.
+
+

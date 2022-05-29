@@ -1,3 +1,0 @@
-[#h4_tax_configuration_permission_settings]
-===== Permission Settings
-

@@ -1,5 +1,0 @@
-[#h4_organization_introduction]
-===== Introduction
-
-include::intro_description.adoc[]
-

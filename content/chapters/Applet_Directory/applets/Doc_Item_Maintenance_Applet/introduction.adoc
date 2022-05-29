@@ -1,5 +1,0 @@
-[#h4_doc_item_maintenance_introduction]
-===== Introduction
-
-include::intro_description.adoc[]
-

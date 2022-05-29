@@ -1,0 +1,5 @@
+[#h4_applet_store_introduction]
+==== Introduction
+
+include::intro_description.adoc[]
+

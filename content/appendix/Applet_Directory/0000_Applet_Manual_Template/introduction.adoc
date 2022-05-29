@@ -1,0 +1,4 @@
+[#h4_manual_template_introduction]
+==== Introduction
+
+include::intro_description.adoc[]

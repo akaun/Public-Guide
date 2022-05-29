@@ -1,0 +1,51 @@
+[#h4_inv_item_maintenance_modules]
+==== Modules
+
+This applet is used in the following modules:
+
+* xref:h2_core_module[xrefstyle=full] 
+
+* xref:h2_accounting_module[xrefstyle=full] 
+
+* xref:h2_pos_module[xrefstyle=full] 
+
+* xref:h2_manufacturing_module[xrefstyle=full] 
+
+* xref:h2_membership_module[xrefstyle=full] 
+
+* xref:h2_referral_module[xrefstyle=full] 
+
+* xref:h2_crm_module[xrefstyle=full] 
+
+* xref:h2_contact_center_module[xrefstyle=full] 
+
+* xref:h2_digital_marketing_module[xrefstyle=full] 
+
+* xref:h2_inventory_module[xrefstyle=full] 
+
+* xref:h2_marketplace_connector_module[xrefstyle=full] 
+
+* xref:h2_delivery_fulfillment_module[xrefstyle=full] 
+
+* xref:h2_cp_commerce_module[xrefstyle=full] 
+
+* xref:h2_procure_to_pay_module[xrefstyle=full] 
+
+* xref:h2_order_to_cash_module[xrefstyle=full] 
+
+* xref:h2_warehouse_management_module[xrefstyle=full] 
+
+* xref:h2_customer_data_platform_module[xrefstyle=full] 
+
+* xref:h2_digital_twin_module[xrefstyle=full] 
+
+* xref:h2_datalake_module[xrefstyle=full] 
+
+
+
+
+
+
+
+
+
