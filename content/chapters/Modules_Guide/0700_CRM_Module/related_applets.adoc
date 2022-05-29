@@ -3,3 +3,16 @@
 
 
 
+* URL-Shortener Applet (optional)
+* SFA Applet (optional)
+* CP-Commerce Applet (optional)
+* Digital Marketing Applet (optional)
+
+* Contact Maintenance Applet (compulsory)
+* Core Module applets
+* Issue Tracker Applet
+* RMA Applet
+* Statement and Billings Applet
+* Point of Sales Applet (optional)
+
+

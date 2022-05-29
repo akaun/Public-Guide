@@ -12,6 +12,46 @@ Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.
 
 
+* Sales Funnel
+    => Search Engine Optimization => LD-JSON in CP-Commerce / 
+        Facebook pixel, Google pixel, LinkedIn pixel, Tiktok Pixel
+    => Sales Lead Generation through SEO / Adwords etc
+    => Visitor Tracking URL Shortener
+// bl_url_hyperlink_hdr bl_url_campaign_hdr bl_url_hyperlink_click_event_history bl_hyperlink_click_event_fact
+
+    => Capturing these sales leads inside the CP-Commerce Module
+    => Creating Sales Lead automatically in the SFA Applet (and then triggering customer journey), or bringing the customer to UCC
+
+* Customer 360
+    => Contact Maintenance Applet
+    => Segmentation of contacts / members / customers / sales leads
+    => Full history of all transactional data
+    => Either using BLG ERP module or Virtual ETL applet to sync transactional data from other systems
+
+* Touch Points
+    => UCC Applet
+    => CP-Commerce: Mobile Apps / Web / Mobile Web
+    => Point of Sales
+
+* Customer Journey
+    => Digital-Marketing
+    => CP-Commerce: Topic subscriptions for newsletter
+    => CP-Commerce: Tracking consumer interest - viewing which products etc
+
+* Customer Service
+    => Issue Tracker Applet
+    => RMA
+    => Statements and Billings
+
+* Analytics
+    => Segmentations 
+    => ROI on Adwords
+    => Customer churn
+
+* Robotic Automation 
+    => Custom scripts , reminders  
+
+
 ===== Applets
 
 
