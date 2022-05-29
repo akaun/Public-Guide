@@ -19,23 +19,28 @@ To view this in other formats, click on the following:
 * link:blg_handbook.pdf[PDF Format]
 
 <<<<<<<<<
-
+ifndef::backend-multipage_html5[]
 toc::[]
+endif::[]
+
+ifdef::backend-multipage_html5[]
+Click on one of the links below:
+endif::[]
 
 <<<<<<<<<
 
 
-include::chapters/User_Guide/README.adoc[]
+include::modules/User_Guide/README.adoc[]
 
-include::chapters/Industry_Guide/README.adoc[]
+include::modules/Industry_Guide/README.adoc[]
 
-include::chapters/Modules_Guide/README.adoc[]
+include::modules/Modules_Guide/README.adoc[]
 
-include::chapters/Cloud_Native_Architecture/README.adoc[]
+include::modules/Cloud_Native_Architecture/README.adoc[]
 
-include::chapters/Technical_Guide/README.adoc[]
+include::modules/Technical_Guide/README.adoc[]
 
-include::chapters/Handbook_Authoring/README.adoc[]
+include::modules/Handbook_Authoring/README.adoc[]
 
 <<<<<<<<<
 
@@ -44,6 +49,6 @@ include::glossary.adoc[]
 
 <<<<<<<<<
 
-include::appendix/Applet_Directory/00_index.adoc[]
+include::modules/appendix/Applet_Directory/00_index.adoc[]
 
 //include::other/appendix.adoc[]
