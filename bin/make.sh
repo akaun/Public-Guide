@@ -2,6 +2,7 @@
 echo 'Cleaning up "docs/* folder....'
 rm -rf docs
 rm -rf build/blg_handbook
+rm -rf tmp
 
 echo 'Creating empty build/blg_handbook/ folder...'
 mkdir -p build/blg_handbook/www/images
@@ -9,7 +10,8 @@ mkdir -p tmp
 mkdir -p docs
 
 echo 'Copying all non-adoc files into content/images.... '
-find ./content -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" tmp\;
+find ./content -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" tmp \;
+cp -r tmp/* build/blg_handbook/www/
 #find ./content/appendix -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/images \;
 
 #echo 'Copying all non-adoc files into build/blg_handbook/www/images folder....'

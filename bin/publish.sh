@@ -4,11 +4,11 @@ rm -rf tmp
 rm -rf build
 
 echo 'Creating empty build/blg_handbook/ folder...'
-mkdir -p build/blg_handbook/www/images
-mkdir -p tmp
+mkdir -p build/blg_handbook/www/
 
 echo 'Copying all non-adoc files into content/images.... '
 find ./content -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" tmp \;
+cp tmp/* build/blg_handbook/www/
 #find ./content/chapters appendix -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" content/images \;
 #cp ./content/bigledger_logo.jpeg ./content/images
 #cp ./content/akaun_colourful_logo.png ./content/images
