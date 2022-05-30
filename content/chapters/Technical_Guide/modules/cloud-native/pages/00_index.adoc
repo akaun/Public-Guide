@@ -1,5 +1,5 @@
-[#h1_cloud_native_architecture]
-== Cloud Native Architecture
+[#h2_tech_guide_cloud_native]
+=== Cloud Native Architecture
 
 Common misunderstanding
 * thinking web based = cloud based.
@@ -10,8 +10,8 @@ Our aspirations
 * To be the business operating systems
 
 
-[#h2_cloud_native_background]
-=== Background
+[#h3_cloud_native_background]
+==== Background
 
 * Outdated JBoss application server, EJB 1.0 / 2.0
 * Servers idling
@@ -22,8 +22,8 @@ Our aspirations
 * Integration pains
 
 
-[#h2_cloud_native_motivation]
-=== Motivation
+[#h3_cloud_native_motivation]
+==== Motivation
 
 Platform Business Model
 
@@ -47,42 +47,42 @@ Composable Enterprise
 
 Utility based billing
 
-[#h2_cloud_native_integration]
+[#h3_cloud_native_integration]
 ==== Integrations 
 
 spikes in loads
 
-[#h2_cloud_native_infra_toolchain]
+[#h3_cloud_native_infra_toolchain]
 ==== Infrastructure and Toolchain
 
 Various tools ready to be used out of the box...
 example : OCR, Lambda, RDS, NoSQL, API Gateway
 
-[#h2_cloud_native_network_effect]
+[#h3_cloud_native_network_effect]
 ==== Network Effect
 
-[#h2_cloud_native_cost_savings]
+[#h3_cloud_native_cost_savings]
 ==== Cloud Cost Savings
 
-[#h2_cloud_native_ai]
+[#h3_cloud_native_ai]
 ==== Artificial Intelligence
 
-[#h2_cloud_native_human_resource]
+[#h3_cloud_native_human_resource]
 ==== Human Resource
 
 
-[#h2_cloud_native_journey]
-=== Journey
+[#h3_cloud_native_journey]
+==== Journey
 
 
-[#h2_cloud_native_challenges_lessons]
-=== Challenges and Lessons 
+[#h3_cloud_native_challenges_lessons]
+==== Challenges and Lessons 
 
 
 
 
-[#h2_cloud_native_technical_considerations]
-=== Technical Considerations
+[#h3_cloud_native_technical_considerations]
+==== Technical Considerations
 
 * managing complexities
 

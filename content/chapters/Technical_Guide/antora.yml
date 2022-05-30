@@ -3,5 +3,6 @@ title: Technical Guide
 version: '1.0' 
 start_page: applet-development:00_index.adoc 
 nav: 
-- modules/applet-development-guide/nav.adoc
+- modules/applet-development/nav.adoc
 - modules/etl-guide/nav.adoc
+- modules/cloud-native/nav.adoc
