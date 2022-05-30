@@ -1,0 +1,11 @@
+name: handbook-user-guide
+title: User Guide
+version: '1.0' 
+start_page: general-users:00_index.adoc 
+nav: 
+- modules/general-users/nav.adoc
+- modules/project-implementors/nav.adoc
+- modules/applet-developers/nav.adoc
+- modules/resellers/nav.adoc
+- modules/tenant-owners/nav.adoc
+- modules/project-implementors/nav.adoc

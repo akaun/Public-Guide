@@ -9,7 +9,7 @@ v1.3
 :multipage-level: 3
 
 //image::images/bigledger_logo.jpeg[BigLedger Logo,align="center"]
-image::images/akaun_colourful_logo.png[Akaun Logo,align="center"]
+image::akaun_colourful_logo.png[Akaun Logo,align="center"]
 
 This is the BigLedger Handbook that provides all public use cases of the Akaun Platform. 
 To view this in other formats, click on the following:
@@ -36,11 +36,9 @@ include::chapters/Industry_Guide/README.adoc[]
 
 include::chapters/Modules_Guide/README.adoc[]
 
-include::chapters/Cloud_Native_Architecture/README.adoc[]
-
 include::chapters/Technical_Guide/README.adoc[]
 
-include::chapters/Handbook_Authoring/README.adoc[]
+include::chapters/Handbook_Authoring/modules/authoring-handbook/pages/00_index.adoc[]
 
 <<<<<<<<<
 
@@ -49,6 +47,6 @@ include::glossary.adoc[]
 
 <<<<<<<<<
 
-include::chapters/appendix/Applet_Directory/applets/00_index.adoc[]
+include::chapters/appendix/Applet_Directory/modules/00_index.adoc[]
 
 //include::other/appendix.adoc[]

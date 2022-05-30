@@ -1,24 +1,24 @@
 name: handbook-applet-directory
 title: Applet Directory
 version: '1.0' 
-start_page: ROOT:index.adoc 
+start_page: applet-store:00_index.adoc 
 nav: 
-#- modules/ROOT/nav.adoc
-- applets/Applet_Store/nav.adoc
-- applets/Bank_Reconciliation_Applet/nav.adoc
-- applets/Cashbook_Applet/nav.adoc
-- applets/Chart_of_Account_Applet/nav.adoc
-- applets/CP_Commerce_Admin_Applet/nav.adoc
-- applets/Customer_Maintenance_Applet/nav.adoc
-- applets/Doc_Item_Maintenance_Applet/nav.adoc
-- applets/Employee_Maintenance_Applet/nav.adoc
-- applets/Entity_Maintenance_Applet/nav.adoc
-- applets/Inventory_Item_Maintenance_Applet/nav.adoc
-- applets/Media_Library_Applet/nav.adoc
-- applets/Merchant_Admin_Maintenance_Applet/nav.adoc
-- applets/Organization_Applet/nav.adoc
-- applets/Payment_Channel_Applet/nav.adoc
-- applets/Stock_Take_V2_Applet/nav.adoc
-- applets/Supplier_Maintenance_Applet/nav.adoc
-- applets/Tax_Configuration_Applet/nav.adoc
-- applets/UCC_Applet/nav.adoc
+- modules/applet-store/nav.adoc
+- modules/bank-reconciliation-applet/nav.adoc
+- modules/cashbook-applet/nav.adoc
+- modules/chart-of-account-applet/nav.adoc
+- modules/cp-commerce-admin-applet/nav.adoc
+- modules/customer-maintenance-applet/nav.adoc
+- modules/doc-item-maintenance-applet/nav.adoc
+- modules/employee-maintenance-applet/nav.adoc
+- modules/entity-maintenance-applet/nav.adoc
+- modules/inventory-item-maintenance-applet/nav.adoc
+- modules/media-library-applet/nav.adoc
+- modules/merchant-admin-maintenance-applet/nav.adoc
+- modules/organization-applet/nav.adoc
+- modules/payment-channel-applet/nav.adoc
+- modules/stock-take-v2-applet/nav.adoc
+- modules/supplier-maintenance-applet/nav.adoc
+- modules/tax-configuration-applet/nav.adoc
+- modules/ucc-applet/nav.adoc
+

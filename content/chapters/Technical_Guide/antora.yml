@@ -1,0 +1,7 @@
+name: handbook-technical-guide
+title: Technical Guide
+version: '1.0' 
+start_page: applet-development:00_index.adoc 
+nav: 
+- modules/applet-development-guide/nav.adoc
+- modules/etl-guide/nav.adoc

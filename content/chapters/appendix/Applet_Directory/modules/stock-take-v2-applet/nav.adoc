@@ -1,0 +1,1 @@
+* xref:00_index.adoc[Stock Take V2 Applet]

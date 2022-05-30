@@ -1,3 +1,0 @@
-* xref:0100-core-module/00_index.adoc[Core Module]
-
-//xref:README.adoc[]

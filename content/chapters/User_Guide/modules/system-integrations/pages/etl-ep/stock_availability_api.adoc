@@ -1,0 +1,23 @@
+[#h3_system_integrations_stock_availability_api]
+==== Stock Availability API
+
+We will pull the data from bl_fi_mst_ecomsync_item_hdr.bal_qty / avai_qty
+
+This is because , in the organization applet the users will configure the stock balance to get from multiple branches, and the system deduct the sales orders based on the user selected branches, and the system will update this column accordingly.
+
+
+An example of the calculations for BUNDLE items can be seen here.
+https://docs.google.com/spreadsheets/d/1Yx82ME9v3FpFjP3op33-DYSd2arSLwNJlJcuxJD717c/edit#gid=0
+
+For Single item...
+The formula is:
+
+Qty_To_Sync_To_Marketplace = Qty_of_System_Stock(multiple locations) - Qty_of_Open_Sales_order - Qty_buffer_configured
+
+
+There should be 3 columns:
+* qty_balance = Qty_of_System_Stock(multiple locations) - Qty_of_Open_Sales_order 
+  -> This number is obtained and calculated from the system stock balance of multiple inv_locations, minus the "Open Sales Order Qty" (calculated from bl_fi_generic_doc_line_open_queue)
+
+* qty_buffer = Qty_buffer_configured
+  -> this figure is set in the organization applet

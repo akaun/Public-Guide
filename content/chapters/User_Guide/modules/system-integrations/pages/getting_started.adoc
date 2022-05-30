@@ -1,0 +1,12 @@
+[#h3_system_integrations_getting_started]
+==== Getting Started
+
+Please copy the content from the following URL:
+https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/3271558668/Tenant+-+System+Integrators
+
+Need to talk about the Virtual ETL Applet
+* This part should be done by the Platform Sysadmin 
+* The platform SysAdmin will install the Virtual ETL applet for you, and then grant you the necessary permissions, after this step is done, you may try out the selected endpoints that you have access to.
+
+
+

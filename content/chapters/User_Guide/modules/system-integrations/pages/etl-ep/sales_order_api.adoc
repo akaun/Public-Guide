@@ -1,0 +1,41 @@
+[#h3_sales_order]
+====Sales order
+
+These links are documentation on sales order api
+
+* The detail explanation of the list of fields and columns in the json format.
+
+* Explain about the PNS txn_class GenDocLine , and the STL_MTHD type..
+
+* Explain about the GenDocLine, fields, as below:
+https://docs.google.com/spreadsheets/d/1Ecl4n36Yo7qAHhEgoc-t4vimHLrXnywodXFSU8HmJ5k/edit#gid=1455136088
+
+* We need explain about the difference in the branch_guid and store_guid (location_guid)
+
+* What if sync wrongly, need to cancel / void?
+
+* Where do I store the sales order number from Lazada/shopee ? or my own e-commerce system running number?
+
+* Can I edit a sales order multiple times?
+** Once a sales order is FINAL, you can only change the remarks but not the quantity and price...
+
+* What if there's membership points to be rewarded? 
+
+* To understand the difference between the txn_class = PNS vs STL_MTHD
+** See this google spreadsheet https://docs.google.com/spreadsheets/d/1_1ETNP4arvLpL5T_fI2A3xrnyfq7Lw8g7X-v46XdVyg/edit#gid=0
+** Athirah, please get the video recording of this google spreadsheet discussion from Aida and paste here.
+
+
+=====Create sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
+
+
+=====Update sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep
+
+=====Get all sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
+
+
+=====Get sales order by specific guid
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0c36501cddfbf-internal-sales-order-get-by-guid-etl-ep
