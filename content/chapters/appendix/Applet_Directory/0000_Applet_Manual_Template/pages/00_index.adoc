@@ -2,7 +2,7 @@
 === Manual Template Applet
 
 
-image::images/applet_logo.png[]
+image::blank_logo.png[]
 
 
 include::introduction.adoc[]
