@@ -11,20 +11,13 @@ This guide by industry provide :
 * key paint points and feature of each industry
 
 
-include::0100_Consumer_Electronics/README.adoc[]
-
-include::0200_Pharmacies/README.adoc[]
-
-include::0300_Car_Workshops/README.adoc[]
-
-include::0400_Retail_Chainstores/README.adoc[]
-
-include::0500_Logistics/README.adoc[]
-
-include::0600_Manufacturing/README.adoc[]
-
-include::0700_Pet_Industry/README.adoc[]
-
+include::modules/consumer-electronics/pages/00_index.adoc[]
+include::modules/pharmacies/pages/00_index.adoc[]
+include::modules/car-workshops/pages/00_index.adoc[]
+include::modules/retail-chainstores/pages/00_index.adoc[]
+include::modules/logistics/pages/00_index.adoc[]
+include::modules/manufacturing/pages/00_index.adoc[]
+include::modules/pet-industry/pages/00_index.adoc[]
 
 
 <<<<<<<<<<<

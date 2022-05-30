@@ -16,7 +16,7 @@ cp ./content/bigledger_logo.jpeg ./content/images
 cp ./content/akaun_colourful_logo.png ./content/images
 
 echo 'Copying all non-adoc files into build/blg_handbook/www/images folder....'
-cp -r content/images/* build/blg_handbook/www/images
+cp -r content/images/* build/blg_handbook/www/
 
 
 echo 'Compiling Multipage HTML .....'
