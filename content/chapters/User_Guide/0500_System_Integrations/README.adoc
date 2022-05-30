@@ -1,12 +1,15 @@
 [#h2_system_integrations]
 === System Integrators
 
-Guide for system integrators
+Guide for system integrators.
+
+
 
 [#h3_system_integrations_section_1]
 ==== Section 1
 
-some sections here
+
+
 
 [#h3_system_integrations_section_2]
 ==== Section 2
