@@ -1,12 +1,133 @@
 [#h3_cp_commerce_introduction]
 ==== Introduction
 
-The intention of this section in the documentation.
-What this section cover, and not covering... and how it will link to othe other modules.
-Explaining that certain detail about 
+This section provides you the guide to implementing the *CP Commerce* module.
+You will get to know what is included in the CP Commerce module, how to use it, how to get started and what are the features that you can use to launch your next e-commerce project.
 
 [#h4_cp_commerce_overview]
 ===== CP Commerce Overview
+
+*CP Commerce* stands for "Cross Platform Commerce". Most of our customers use the CP Commerce module for the following reasons:
+
+* Cross Platform
+    The CP Commerce supports desktop web, mobile web, android and ios platforms. With hybrid technologies, 
+
+* Flexible
+** Powerful layout engine to allow for any layouts and any widgets to be configured for different pages in the website.
+
+* Cost Effective
+* There's no need to power up another server because the e-commerce website is running on serverless and cloud native technologies
+
+* Integrated
+** Out of the box integration with inventory module, accounting module, market places, point of sales and conversation commerce, no more painful integration and no more duplicated data entry.
+
+* SEO Optimized
+
+* Multi-Lingual and Multi-Country
+** Payment Gateway integration across 33 countries when using it with our PGW Module
+** Different products for different countries is supported, auto switching of payment gateway based on country
+** Same products sold in different currencies is also supported
+** Support for multiple timezones 
+
+
+* Scalable
+** Backend is using serverless and cloud native technologies 
+** Performing as usual during peak seasons
+
+* Powerful search
+
+* Improved User Experience (PWA)
+** No page reload like those applications built with PHP websites
+** Responsive to screen size, seamless experience on mobile devices
+** Automatic caching of images for faster speed
+
+* Re-targetting 
+** Facebook pixel
+** LinkedIn
+
+* Add-ons
+
+* Shipping Fees
+
+* Inventory Stock
+** Able to display stock balance across multiple warehouses and stores
+** Advanced formula to calculate the stock availability by deducting "open sales order" from the "inventory stock balance" to avoid out of stock situation
+
+* Marketplace Integration
+** With the integrated *Marketplace Connector* , users can import images, product name, pricing and other information from Lazada and Shopee, saving valuable time to get started
+
+* Rich API
+** Excellent for integration with other ERP / Accounting systems 
+
+* Vouchers
+
+* Membership Program
+
+* Various Product Types
+** Single product
+** Variants (Grouped Product)
+** Bundle
+** Extended Warranty
+** Purchase With Purchase
+
+* RMA (Service Note)
+
+* Pricing Scheme
+
+* Promotions
+
+* Content Management
+
+* Unlimited Categories
+
+* Mailing lists and Topic subscriptions
+
+* Using rebate during checkout
+
+* Branch locators
+
+* Unified Contact Centre
+** WebChat
+
+* Multiple Login Methods
+** Despite multiple login methods, they are all consolidated as a single login-id. 
+** Users can login with email/password, phone/sms, Google Login, Facebook Login, Apple Login
+
+* Delivery and Fulfillment
+
+* Printing , Picking , Packing
+
+* Analytics
+
+* Abandoned shopping cart
+
+* Favourite lists
+
+* Product Reviews and Ratings
+
+The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.
+
+* Full transaction history and billing statements
+
+* Full receipts 
+
+* Restricted access
+
+* Multiple websites with different pricing scheme
+
+* Credit Limit control
+** Checkout now pay later
+
+* Single Login Multiple Accounts (Entities), Each Account supports Multiple Memberships
+
+* Single Account with multiple logins
+
+* Online Forms
+
+* Blocked Users and Spending Limits
+
+* Multi-UOM
+
 
 Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.

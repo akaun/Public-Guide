@@ -11,7 +11,7 @@ include::project_implementation_steps.adoc[]
 
 include::work_breakdown_list.adoc[]
 
-include::product_management.adoc[]
+include::product_maintenance.adoc[]
 
 include::shipping_fee.adoc[]
 

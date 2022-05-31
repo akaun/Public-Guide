@@ -1,5 +1,5 @@
-[#h3_cp_commerce_product_management]
-==== Product Management
+[#h3_cp_commerce_product_maintenance]
+==== Product Maintenance
 
 * Basic Product
 * Group Product (variants)
