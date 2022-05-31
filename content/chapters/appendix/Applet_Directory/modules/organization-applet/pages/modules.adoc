@@ -40,7 +40,7 @@ This applet is used in the following modules:
 
 * xref:h2_pgw_module[xrefstyle=full]
 
-* xref:h2_digital_twin_module[xrefstyle=full] 
+* xref:h2_chatbot_module[xrefstyle=full] 
 
 * xref:h2_datalake_module[xrefstyle=full] 
 

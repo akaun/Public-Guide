@@ -30,13 +30,13 @@ endif::[]
 <<<<<<<<<
 
 
-include::chapters/User_Guide/README.adoc[]
+include::chapters/User_Guide/index.adoc[]
 
-include::chapters/Industry_Guide/README.adoc[]
+include::chapters/Industry_Guide/index.adoc[]
 
-include::chapters/Modules_Guide/README.adoc[]
+include::chapters/Modules_Guide/index.adoc[]
 
-include::chapters/Technical_Guide/README.adoc[]
+include::chapters/Technical_Guide/index.adoc[]
 
 // include::chapters/Handbook_Authoring/modules/authoring-handbook/pages/00_index.adoc[]
 

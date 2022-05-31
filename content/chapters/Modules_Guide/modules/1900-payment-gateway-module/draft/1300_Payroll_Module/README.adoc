@@ -1,3 +1,0 @@
-[#h2_payroll_module]
-=== Payroll Module
-

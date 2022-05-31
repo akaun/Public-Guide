@@ -1,3 +1,0 @@
-* xref:00_index.adoc[Digital Twin Module]
-
-//xref:README.adoc[]
