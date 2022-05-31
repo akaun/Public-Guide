@@ -1,0 +1,10 @@
+[#h4_stock_take_v2_sales_order_listing]
+===== Menu 01 - Stock Take Session
+
+1.1 Please go to Akaun.com - Stock Take Applet V2
+
+image::assets/akaun_com.png[]
+
+1.2 Go to the Stock Take Session
+
+image::assets/stock_take_session.png[]
