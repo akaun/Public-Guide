@@ -1,3 +1,0 @@
-* xref:00_index.adoc[Authoring Handbook]
-
-//xref:README.adoc[]

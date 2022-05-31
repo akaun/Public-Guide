@@ -38,7 +38,7 @@ include::chapters/Modules_Guide/README.adoc[]
 
 include::chapters/Technical_Guide/README.adoc[]
 
-include::chapters/Handbook_Authoring/modules/authoring-handbook/pages/00_index.adoc[]
+// include::chapters/Handbook_Authoring/modules/authoring-handbook/pages/00_index.adoc[]
 
 <<<<<<<<<
 

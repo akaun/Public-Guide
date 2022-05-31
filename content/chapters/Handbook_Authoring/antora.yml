@@ -1,6 +1,0 @@
-name: handbook-authoring
-title: Handbook Authoring
-version: '1.0' 
-start_page: authoring-handbook:00_index.adoc 
-nav: 
-- modules/authoring-handbook/nav.adoc
