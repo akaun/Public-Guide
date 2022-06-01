@@ -22,6 +22,9 @@ You will get to know what is included in the CP Commerce module, how to use it, 
 ** Out of the box integration with inventory module, accounting module, market places, point of sales and conversation commerce, no more painful integration and no more duplicated data entry.
 
 * SEO Optimized
+** Support LD-JSON format
+// TODO: lsdkjflsdkjdlkj alksdjflskjdld 
+
 
 * Multi-Lingual and Multi-Country
 ** Payment Gateway integration across 33 countries when using it with our PGW Module

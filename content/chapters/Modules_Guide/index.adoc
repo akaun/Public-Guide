@@ -35,6 +35,8 @@ include::modules/1100-cp-commerce-module/pages/00_index.adoc[]
 
 include::modules/1200-procure-to-pay-module/pages/00_index.adoc[]
 
+include::modules/1300-hr-module/pages/00_index.adoc[]
+
 include::modules/1500-order-to-cash-module/pages/00_index.adoc[]
 
 include::modules/1700-warehouse-management-module/pages/00_index.adoc[]
