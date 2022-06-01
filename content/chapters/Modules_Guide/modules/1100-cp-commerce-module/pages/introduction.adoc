@@ -107,6 +107,7 @@ You will get to know what is included in the CP Commerce module, how to use it, 
 * Favourite lists
 
 * Product Reviews and Ratings
+** Able to set multiple reviews per product, so that customers are able to feedback on multiple perspectives of the product, not just how many stars. For example: (1) Satisfaction the product (2) Delivery Speed (3) After sales support etc..
 
 The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.
 
