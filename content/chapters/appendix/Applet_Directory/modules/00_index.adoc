@@ -46,6 +46,8 @@ include::merchant-admin-maintenance-applet/pages/00_index.adoc[]
 
 include::ucc-applet/pages/00_index.adoc[]
 
+include::url-shortening-applet/pages/00_index.adoc[]
+
 include::bank-reconciliation-applet/pages/00_index.adoc[]
 
 include::stock-take-v2-applet/pages/00_index.adoc[]

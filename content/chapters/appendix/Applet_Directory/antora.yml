@@ -21,4 +21,5 @@ nav:
 - modules/supplier-maintenance-applet/nav.adoc
 - modules/tax-configuration-applet/nav.adoc
 - modules/ucc-applet/nav.adoc
+- modules/url-shortening-applet/nav.adoc
 
