@@ -139,12 +139,17 @@ Provide a summary of what this module does and doesn't do.
 [#h4_cp_commerce_module_applets]
 ===== CP Commerce Applets
 
+
 * <<h3_cp_commerce_admin_applet>>
 
 * Media Library Applet
 
 * Platform SysAdmin Applet
-    - For configuration of hostname
+
+
+
+
+* 
 
 [#h4_cp_commerce_features_and_functions]
 ===== Features and Functions
@@ -157,6 +162,23 @@ Provide a summary of what this module does and doesn't do.
 
 ===== Getting Started
 
+* Please ensure that you have setup the pricing scheme in "Doc Item Maintenace applet", you are going to need to use the pricing scheme when configuring the Virtual Branch
+
+* Create a virtual branch for CP Commerce
+    - Goto the "Organization Applet" to create a virtual branch 
+
+
+* Create a CP Commerce Website
+    - Goto the CP Commerce Admin Applet, and then click "+" to create a website.
+    - You may refer to the CP Commerce Admin Applet user guide for more details.
+    - When
+* Setting up Hostname
+    - For configuration of hostname. 
+    - MIS Department can help you to configure the hostname
+        Currently, Tuan (our programmer) is working on a feature where the platform sysadmin applet, will provide the feature for users to just click and power up the hostname.
+    - What is a hostname??  Every website has a hostname... for example:
+        https://www.wavelet.net    
+        https://www.wavelet.net/contact-us (this is a URL, the hostname part is only www.wavelet.net, the https:// is the protocol, and the "contact-us" is the "url path")
 
 
 ===== Module Dependencies
