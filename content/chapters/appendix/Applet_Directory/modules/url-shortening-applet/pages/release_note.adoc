@@ -1,4 +1,4 @@
-[#h4_ucc_release_note]
+[#h4_url_shortening_release_note]
 ==== Release Note
 
 

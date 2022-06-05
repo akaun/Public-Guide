@@ -43,7 +43,7 @@ include::modules/1700-warehouse-management-module/pages/00_index.adoc[]
 
 include::modules/1800-customer-data-platform-module/pages/00_index.adoc[]
 
-include::modules/1900-payment-gateway-module/pages/00_index.adoc[]
+include::modules/1900-payment-switch-module/pages/00_index.adoc[]
 
 include::modules/8000-chatbot-module/pages/00_index.adoc[]
 
