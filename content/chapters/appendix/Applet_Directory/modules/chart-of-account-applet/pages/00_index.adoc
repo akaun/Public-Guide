@@ -1,8 +1,7 @@
-[#h3_chart_of_account_applet]
+[#h2_chart_of_account_applet]
 === Chart of Account Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

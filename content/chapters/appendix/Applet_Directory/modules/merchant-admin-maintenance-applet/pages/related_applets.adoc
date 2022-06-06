@@ -1,4 +1,4 @@
-[#h4_merchant_admin_maintenance_related_applets]
+[#h3_merchant_admin_maintenance_related_applets]
 ==== Related Applets
 
 This applet also depends on the following applets:

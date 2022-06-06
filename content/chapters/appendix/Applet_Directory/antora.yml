@@ -3,6 +3,7 @@ title: Applet Directory
 version: '1.0' 
 start_page: applet-store:00_index.adoc 
 nav: 
+- modules/applet-listing/nav.adoc
 - modules/applet-store/nav.adoc
 - modules/bank-reconciliation-applet/nav.adoc
 - modules/cashbook-applet/nav.adoc

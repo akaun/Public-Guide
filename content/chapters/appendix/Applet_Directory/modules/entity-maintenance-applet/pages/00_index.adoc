@@ -1,8 +1,7 @@
-[#h3_entity_maintenance_applet]
+[#h2_entity_maintenance_applet]
 === Entity Maintenance Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

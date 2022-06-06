@@ -1,4 +1,4 @@
-[#h4_payment_channel_modules]
+[#h3_payment_channel_modules]
 ==== Modules
 
 This applet is used in the following modules:

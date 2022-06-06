@@ -1,5 +1,9 @@
-[#h4_ucc_introduction]
+[#h3_ucc_introduction]
 ==== Introduction
+
+
+image::ucc_applet_logo.png[]
+
 
 include::intro_description.adoc[]
 

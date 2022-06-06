@@ -150,7 +150,7 @@ Provide a summary of what this module does and doesn't do.
 ===== CP Commerce Applets
 
 
-* <<h3_cp_commerce_admin_applet>>
+* <<h2_cp_commerce_admin_applet>>
 
 * Media Library Applet
 

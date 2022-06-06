@@ -1,4 +1,4 @@
-[#h4_organization_personalization]
+[#h3_organization_personalization]
 ==== Personalization
 
 

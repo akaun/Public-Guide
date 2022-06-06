@@ -1,3 +1,3 @@
-[#h4_ucc_permission_settings]
+[#h3_ucc_permission_settings]
 ==== Permission Settings
 

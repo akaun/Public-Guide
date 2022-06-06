@@ -1,9 +1,5 @@
-[#h3_merchant_admin_maintenance_applet]
+[#h2_merchant_admin_maintenance_applet]
 === Merchant Admin Maintenance Applet
-
-
-image::merchant_admin_maintenance.png[]
-
 
 include::introduction.adoc[]
 

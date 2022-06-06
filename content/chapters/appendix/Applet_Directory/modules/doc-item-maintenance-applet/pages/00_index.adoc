@@ -1,8 +1,7 @@
-[#h3_doc_item_maintenance_applet]
+[#h2_doc_item_maintenance_applet]
 === Doc Item Maintenance Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

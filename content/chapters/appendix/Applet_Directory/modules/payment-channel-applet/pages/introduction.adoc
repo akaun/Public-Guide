@@ -1,4 +1,7 @@
-[#h4_payment_channel_introduction]
+[#h3_payment_channel_introduction]
 ==== Introduction
+
+image::blank_logo.png[]
+
 
 include::intro_description.adoc[]

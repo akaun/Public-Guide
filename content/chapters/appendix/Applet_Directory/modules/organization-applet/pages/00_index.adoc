@@ -1,8 +1,5 @@
-[#h3_organization_applet]
+[#h2_organization_applet]
 === Organization Applet
-
-
-image::organization_applet_logo.png[]
 
 
 include::introduction.adoc[]

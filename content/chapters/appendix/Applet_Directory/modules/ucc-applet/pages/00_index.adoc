@@ -1,9 +1,5 @@
-[#h3_ucc_applet]
+[#h2_ucc_applet]
 === UCC Applet
-
-
-image::ucc_applet_logo.png[]
-
 
 include::introduction.adoc[]
 

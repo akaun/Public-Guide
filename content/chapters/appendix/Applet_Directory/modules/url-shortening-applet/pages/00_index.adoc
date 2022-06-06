@@ -1,4 +1,4 @@
-[#h3_url_shortening_applet]
+[#h2_url_shortening_applet]
 === URL Shortening Applet
 
 

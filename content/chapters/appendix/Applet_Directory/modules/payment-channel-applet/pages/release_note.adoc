@@ -1,4 +1,4 @@
-[#h4_payment_channel_release_note]
+[#h3_payment_channel_release_note]
 ==== Release Note
 
 

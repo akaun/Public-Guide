@@ -1,8 +1,7 @@
-[#h3_employee_maintenance_applet]
+[#h2_employee_maintenance_applet]
 === Employee Maintenance Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

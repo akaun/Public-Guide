@@ -1,11 +1,11 @@
 [#h3_core_name_related_applets]
 ==== Core Module - Related Applets
 
-* xref:h3_tax_configuration_applet[xrefstyle=full]
+* xref:h2_tax_configuration_applet[xrefstyle=full]
 
-* xref:h3_organization_applet[xrefstyle=full] 
+* xref:h2_organization_applet[xrefstyle=full] 
 
-* xref:h3_chart_of_account_applet[xrefstyle=full]
+* xref:h2_chart_of_account_applet[xrefstyle=full]
 
 
 

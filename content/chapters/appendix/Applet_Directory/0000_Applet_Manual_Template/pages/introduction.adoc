@@ -1,4 +1,6 @@
-[#h4_manual_template_introduction]
+[#h3_named_applet_introduction]
 ==== Introduction
+
+image::blank_logo.png[]
 
 include::intro_description.adoc[]

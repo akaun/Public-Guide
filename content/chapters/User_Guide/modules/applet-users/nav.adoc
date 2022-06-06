@@ -1,2 +1,2 @@
-* General Users
+* Applet Users
 ** xref:introduction.adoc[Introduction]

@@ -1,4 +1,4 @@
-[#h3_applet_store]
+[#h2_applet_store]
 === Applet Store
 
 image::applet_store_logo.png[]

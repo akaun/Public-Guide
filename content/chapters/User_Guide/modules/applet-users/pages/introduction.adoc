@@ -1,17 +1,11 @@
-[#h2_user_guide_all]
-=== All Users
-//=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) General Users
+[#h2_applet_users]
+=== Applet Users
+//=== ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) Applet Users
 
-//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no_user_guide:2}{chapter_no_user_guide}) General Users
+//== ({counter2:guide_no}{guide_no}.{counter2:chapter_no_user_guide:2}{chapter_no_user_guide}) Applet Users
 
 The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting https://akaun.com/
 
-This is the BigLedger Handbook that provides all public use cases of the Akaun Platform. 
-To view this in other formats, click on the following:
-
-* link:blg_handbook.epub[Epub Format]
-* link:blg_handbook.html[Single File HTML]
-* link:blg_handbook.pdf[PDF Format]
 
 
 

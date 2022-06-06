@@ -1,4 +1,4 @@
-[#h3_core_introduction]
+[#h2_core_introduction]
 ==== Introduction
 
 This Section provide you a high level overview of what is in the "Core Module", so that you have a good understanding of how various applets work together. For the detail user guide for each of the applet, you may click on the links below, and drill down for further details.
@@ -13,25 +13,25 @@ This Section provide you a high level overview of what is in the "Core Module", 
 
 The core module consiste of the following applets:
 
-* xref:h3_tax_configuration_applet[xrefstyle=full]
+* xref:h2_tax_configuration_applet[xrefstyle=full]
 
-* xref:h3_organization_applet[xrefstyle=full]
+* xref:h2_organization_applet[xrefstyle=full]
 
-* xref:h3_chart_of_account_applet[xrefstyle=full]
+* xref:h2_chart_of_account_applet[xrefstyle=full]
 
-* xref:h3_doc_item_maintenance_applet[xrefstyle=full]
+* xref:h2_doc_item_maintenance_applet[xrefstyle=full]
 
-* xref:h3_cashbook_applet[xrefstyle=full]
+* xref:h2_cashbook_applet[xrefstyle=full]
 
-* xref:h3_inv_item_maintenance_applet[xrefstyle=full]
+* xref:h2_inv_item_maintenance_applet[xrefstyle=full]
 
-* xref:h3_entity_maintenance_applet[xrefstyle=full]
+* xref:h2_entity_maintenance_applet[xrefstyle=full]
 
-* xref:h3_customer_maintenance_applet[xrefstyle=full]
+* xref:h2_customer_maintenance_applet[xrefstyle=full]
 
-* xref:h3_employee_maintenance_applet[xrefstyle=full]
+* xref:h2_employee_maintenance_applet[xrefstyle=full]
 
-* xref:h3_supplier_maintenance_applet[xrefstyle=full]
+* xref:h2_supplier_maintenance_applet[xrefstyle=full]
 
 [#h4_core_features_and_functions]
 ===== Core Module Features and Functions

@@ -1,5 +1,8 @@
-[#h4_supplier_maintenance_introduction]
+[#h3_supplier_maintenance_introduction]
 ==== Introduction
+
+image::applet_logo.png[]
+
 
 include::intro_description.adoc[]
 

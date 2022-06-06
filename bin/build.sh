@@ -36,9 +36,9 @@ asciidoctor-epub3 -o build/blg_handbook/www/blg_handbook.epub tmp/index.adoc
 # asciidoctor -r asciidoctor-epub3 -b epub3 -o docs/all_in_one.epub pub/all_in_one.adoc
 
 echo 'Copying docbook, pdf, epub back to the "attachments" folder ...'
-cp build/blg_handbook/www/blg_handbook.epub content/chapters/User_Guide/modules/general-users/attachments 
-cp build/blg_handbook/www/blg_handbook.pdf content/chapters/User_Guide/modules/general-users/attachments 
-cp build/blg_handbook/www/blg_handbook.xml content/chapters/User_Guide/modules/general-users/attachments 
+cp build/blg_handbook/www/blg_handbook.epub content/chapters/BigLedger_Overview/modules/intro/attachments 
+cp build/blg_handbook/www/blg_handbook.pdf content/chapters/BigLedger_Overview/modules/intro/attachments 
+cp build/blg_handbook/www/blg_handbook.xml content/chapters/BigLedger_Overview/modules/intro/attachments 
 
 #TIMESTAMP=tmp_$(date +"%Y-%m-%d-%H-%M")
 #echo 'Copying files to docs folder for github pages publishing .... '

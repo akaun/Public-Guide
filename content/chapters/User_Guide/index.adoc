@@ -4,7 +4,7 @@
 This repository contains all the source code for publishing the Akaun Platform Public Documentation.
 
 
-include::modules/general-users/pages/00_index.adoc[]
+include::modules/applet-users/pages/00_index.adoc[]
 
 
 include::modules/project-implementors/pages/00_index.adoc[]

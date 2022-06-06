@@ -1,8 +1,5 @@
-[#h3_payment_channel_applet]
+[#h2_payment_channel_applet]
 === Payment Channel Applet
-
-
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

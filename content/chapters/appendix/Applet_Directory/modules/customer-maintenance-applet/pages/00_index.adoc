@@ -1,8 +1,7 @@
-[#h3_customer_maintenance_applet]
+[#h2_customer_maintenance_applet]
 === Customer Maintenance Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

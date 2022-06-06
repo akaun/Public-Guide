@@ -1,8 +1,5 @@
-[#h3_tax_configuration_applet]
+[#h2_tax_configuration_applet]
 === Tax Configuration Applet
-
-
-image::applet_logo.png[]
 
 
 include::introduction.adoc[]

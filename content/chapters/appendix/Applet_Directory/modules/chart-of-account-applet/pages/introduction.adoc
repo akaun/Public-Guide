@@ -1,5 +1,7 @@
-[#h4_chart_of_account_introduction]
+[#h3_chart_of_account_introduction]
 ==== Introduction
+
+image::blank_logo.png[]
 
 include::intro_description.adoc[]
 

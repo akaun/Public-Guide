@@ -1,9 +1,5 @@
-[#h3_manual_template_applet]
-=== Manual Template Applet
-
-
-image::blank_logo.png[]
-
+[#h2_named_applet]
+=== Named-Applet
 
 include::introduction.adoc[]
 

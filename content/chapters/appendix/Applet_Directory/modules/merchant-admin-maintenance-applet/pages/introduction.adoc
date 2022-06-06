@@ -1,5 +1,9 @@
-[#h4_merchant_admin_maintenance_introduction]
+[#h3_merchant_admin_maintenance_introduction]
 ==== Introduction
+
+
+image::merchant_admin_maintenance.png[]
+
 
 include::intro_description.adoc[]
 

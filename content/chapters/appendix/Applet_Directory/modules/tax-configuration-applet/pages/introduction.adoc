@@ -1,5 +1,8 @@
-[#h4_tax_configuration_introduction]
+[#h3_tax_configuration_introduction]
 ==== Introduction
+
+
+image::applet_logo.png[]
 
 include::intro_description.adoc[]
 

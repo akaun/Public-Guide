@@ -1,3 +1,3 @@
-[#h4_cp_commerce_admin_rating_configuration]
+[#h3_cp_commerce_admin_rating_configuration]
 ==== Rating Configuration
 

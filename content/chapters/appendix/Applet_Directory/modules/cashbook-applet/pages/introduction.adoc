@@ -1,5 +1,7 @@
-[#h4_cashbook_introduction]
+[#h3_cashbook_introduction]
 ==== Introduction
+
+image::blank_logo.png[]
 
 include::intro_description.adoc[]
 

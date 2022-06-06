@@ -1,4 +1,4 @@
-[#h4_doc_item_maintenance_related_applets]
+[#h3_doc_item_maintenance_related_applets]
 ==== Related Applets
 
 This applet also depends on the following applets:

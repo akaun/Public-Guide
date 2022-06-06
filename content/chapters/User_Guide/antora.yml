@@ -1,9 +1,9 @@
 name: handbook-user-guide
 title: User Guide
 version: '1.0' 
-start_page: general-users:introduction.adoc 
+start_page: applet-users:introduction.adoc 
 nav: 
-- modules/general-users/nav.adoc
+- modules/applet-users/nav.adoc
 - modules/project-implementors/nav.adoc
 - modules/applet-developers/nav.adoc
 - modules/resellers/nav.adoc

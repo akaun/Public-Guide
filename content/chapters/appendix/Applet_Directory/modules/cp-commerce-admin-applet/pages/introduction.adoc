@@ -1,5 +1,7 @@
-[#h4_cp_commerce_admin_introduction]
+[#h3_cp_commerce_admin_introduction]
 ==== Introduction
+
+image::blank_logo.png[]
 
 include::intro_description.adoc[]
 

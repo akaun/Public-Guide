@@ -1,5 +1,9 @@
-[#h4_organization_introduction]
+[#h3_organization_introduction]
 ==== Introduction
+
+
+
+image::organization_applet_logo.png[]
 
 include::intro_description.adoc[]
 

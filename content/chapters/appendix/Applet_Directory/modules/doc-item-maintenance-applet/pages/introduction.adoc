@@ -1,5 +1,6 @@
-[#h4_doc_item_maintenance_introduction]
+[#h3_doc_item_maintenance_introduction]
 ==== Introduction
+image::blank_logo.png[]
 
 include::intro_description.adoc[]
 

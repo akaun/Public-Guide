@@ -29,6 +29,7 @@ endif::[]
 
 <<<<<<<<<
 
+include::chapters/BigLedger_Overview/index.adoc[]
 
 include::chapters/User_Guide/index.adoc[]
 
@@ -47,6 +48,6 @@ include::glossary.adoc[]
 
 <<<<<<<<<
 
-include::chapters/appendix/Applet_Directory/modules/00_index.adoc[]
+include::chapters/appendix/Applet_Directory/index.adoc[]
 
 //include::other/appendix.adoc[]

@@ -1,8 +1,7 @@
-[#h3_bank_reconciliation_applet]
+[#h2_bank_reconciliation_applet]
 === Bank Reconciliation Applet
 
 
-image::bank_reconciliation_applet_logo.png[]
 
 
 include::introduction.adoc[]

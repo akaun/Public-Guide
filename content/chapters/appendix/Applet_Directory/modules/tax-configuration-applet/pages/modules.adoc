@@ -1,4 +1,4 @@
-[#h4_tax_configuration_modules]
+[#h3_tax_configuration_modules]
 ==== Modules
 
 This applet is used in the following modules:

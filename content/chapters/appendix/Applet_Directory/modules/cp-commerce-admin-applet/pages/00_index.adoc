@@ -1,8 +1,7 @@
-[#h3_cp_commerce_admin_applet]
+[#h2_cp_commerce_admin_applet]
 === CP Commerce Admin Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

@@ -1,4 +1,8 @@
-[#h4_media_library_introduction]
-==== Introduction
+[#h2_media_library_introduction]
+=== Introduction
+
+
+image::blank_logo.png[]
+
 
 include::intro_description.adoc[]

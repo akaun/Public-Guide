@@ -1,4 +1,4 @@
-[#h4_doc_item_maintenance_modules]
+[#h3_doc_item_maintenance_modules]
 ==== Modules
 
 This applet is used in the following modules:

@@ -1,8 +1,7 @@
-[#h3_inv_item_maintenance_applet]
+[#h2_inv_item_maintenance_applet]
 === Inventory Item Maintenance Applet
 
 
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]

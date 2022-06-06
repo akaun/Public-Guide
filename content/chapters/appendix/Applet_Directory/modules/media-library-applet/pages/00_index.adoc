@@ -1,9 +1,5 @@
-[#h3_media_library_applet]
+[#h2_media_library_applet]
 === Media Library Applet
-
-
-image::blank_logo.png[]
-
 
 include::introduction.adoc[]
 

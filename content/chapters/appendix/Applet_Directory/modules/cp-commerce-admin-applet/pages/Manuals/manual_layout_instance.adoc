@@ -1,2 +1,2 @@
-[#h4_cp_commerce_admin_layout_instance]
+[#h3_cp_commerce_admin_layout_instance]
 ==== Layout Instance

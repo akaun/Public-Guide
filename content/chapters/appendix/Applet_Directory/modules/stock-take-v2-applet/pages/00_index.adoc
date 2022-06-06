@@ -1,8 +1,5 @@
-[#h3_stock_take_v2_applet]
+[#h2_stock_take_v2_applet]
 === Stock Take V2 Applet
-
-
-image::stock_take_V2_applet_logo.png[]
 
 
 include::introduction.adoc[]

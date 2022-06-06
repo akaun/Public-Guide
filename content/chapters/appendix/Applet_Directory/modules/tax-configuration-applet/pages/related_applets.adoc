@@ -1,4 +1,4 @@
-[#h4_tax_configuration_related_applets]
+[#h3_tax_configuration_related_applets]
 ==== Related Applets
 
 This applet also depends on the following applets:

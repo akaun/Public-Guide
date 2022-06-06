@@ -1,8 +1,5 @@
-[#h3_supplier_maintenance_applet]
+[#h2_supplier_maintenance_applet]
 === Supplier Maintenance Applet
-
-
-image::applet_logo.png[]
 
 
 include::introduction.adoc[]

@@ -1,4 +1,4 @@
-[#h4_tax_configuration_personalization]
+[#h3_tax_configuration_personalization]
 ==== Personalization
 
 

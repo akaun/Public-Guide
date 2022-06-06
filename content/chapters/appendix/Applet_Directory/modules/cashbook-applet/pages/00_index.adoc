@@ -1,8 +1,6 @@
-[#h3_cashbook_applet]
+[#h2_cashbook_applet]
 === Cashbook Applet
 
-
-image::blank_logo.png[]
 
 
 include::introduction.adoc[]
