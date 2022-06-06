@@ -8,3 +8,24 @@ image::assets/akaun_com.png[]
 1.2 Go to the Stock Take Session
 
 image::assets/stock_take_session.png[]
+
+1.3 Create a Stock Take Session Ex: STOCK - JUNE 2022
+
+image::assets/create_stock.png[]
+
+1.4 After creating the Stock Session, go to devices tab to add PIC for handling the Stock Take
+
+image::assets/add_pic.png[]
+
+1.5 Find a PIC name to add under the created stock take Session
+
+image::assets/pic_name.png[]
+
+1.6 After selecting the PIC, go to the PIC name to start performing your Stock Take
+
+image::assets/perform_stocktake.png[]
+
+1.7  Once click into devices, please go to Records Tab
+
+image::assets/records_tab..png[]
+
