@@ -1,12 +1,12 @@
 [#h2_pet_industry]
 === Pet Industry
 
+include::overview.adoc[]
 
-[#h3_pet_problems]
-==== Problems
+include::solutions.adoc[]
 
-[#h3_pet_solutions]
-==== Solutions
+include::stories.adoc[]
 
-[#h3_pet_features]
-==== Features
+include::faqs.adoc[]
+
+

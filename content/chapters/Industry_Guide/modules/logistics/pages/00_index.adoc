@@ -1,15 +1,15 @@
 [#h2_logistics_industry]
 === Logistics Industry
 
-//=== ({guide_no}.{counter2:chapter_no_industry_guide}{chapter_no_industry_guide}) Logistics Industry
 
-[#h3_logistics_problems]
-==== Problems
+include::overview.adoc[]
 
-[#h3_logistics_solutions]
-==== Solutions
+include::solutions.adoc[]
 
-[#h3_logistics_features]
-==== Features
+include::stories.adoc[]
+
+include::faqs.adoc[]
+
+
 
 

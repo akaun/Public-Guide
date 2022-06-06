@@ -258,121 +258,137 @@ using the BigLedger platform.</simpara>
 </section>
 </chapter>
 <chapter xml:id="h1_industry_guide">
-<title>Guide by Industry</title>
-<simpara>This guide by industry provide :</simpara>
-<itemizedlist>
-<listitem>
-<simpara>use cases</simpara>
-</listitem>
-<listitem>
-<simpara>case study</simpara>
-</listitem>
-<listitem>
-<simpara>key paint points and feature of each industry</simpara>
-</listitem>
-</itemizedlist>
+<title>Industry Guide</title>
 <section xml:id="h2_consumer_electronics_industry">
 <title>Consumer Electronics Industry</title>
-<section xml:id="h3_consumer_electronics_industry_problems">
-<title>Problems</title>
+<section xml:id="h3_consumer_electronics_overview">
+<title>Overview</title>
 
 </section>
-<section xml:id="h3_consumer_electronics_industry_solutions">
+<section xml:id="h3_consumer_electronics_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_consumer_electronics_industry_features">
-<title>Features</title>
+<section xml:id="h3_consumer_electronics_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_consumer_electronics_faqs">
+<title>FAQs</title>
 
 </section>
 </section>
 <section xml:id="h2_pharmacy_industry">
 <title>Pharmacy Industry</title>
-<section xml:id="h3_pharmacy_industry_problems">
-<title>Problems</title>
+<section xml:id="h3_pharmacies_overview">
+<title>Overview</title>
 
 </section>
-<section xml:id="h3_pharmacy_industry_solutions">
+<section xml:id="h3_pharmacies_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_pharmacy_industry_features">
-<title>Features</title>
+<section xml:id="h3_pharmacies_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_pharmacies_faqs">
+<title>FAQs</title>
 
 </section>
 </section>
 <section xml:id="h2_car_workshops_industry">
 <title>Car Workshops</title>
-<section xml:id="h3_car_workshops_problems">
-<title>Problems</title>
+<section xml:id="h3_car_workshops_overview">
+<title>Overview</title>
 
 </section>
 <section xml:id="h3_car_workshops_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_car_workshops_features">
-<title>Features</title>
+<section xml:id="h3_car_workshops_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_car_workshops_faqs">
+<title>FAQs</title>
 
 </section>
 </section>
 <section xml:id="h2_retail_chainstores_industry">
 <title>Retail Chainstores</title>
-<section xml:id="h3_retail_chainstores_problems">
-<title>Problems</title>
+<section xml:id="h3_retail_chainstores_overview">
+<title>Overview</title>
 
 </section>
 <section xml:id="h3_retail_chainstores_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_retail_chainstores_features">
-<title>Features</title>
+<section xml:id="h3_retail_chainstores_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_retail_chainstores_faqs">
+<title>FAQs</title>
 
 </section>
 </section>
 <section xml:id="h2_logistics_industry">
 <title>Logistics Industry</title>
-<section xml:id="h3_logistics_problems">
-<title>Problems</title>
+<section xml:id="h3_logistics_overview">
+<title>Overview</title>
 
 </section>
 <section xml:id="h3_logistics_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_logistics_features">
-<title>Features</title>
+<section xml:id="h3_logistics_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_logistics_faqs">
+<title>FAQs</title>
 
 </section>
 </section>
 <section xml:id="h2_manufacturing_industry">
 <title>Manufacturing Industry</title>
-<section xml:id="h3_manufacturing_problems">
-<title>Problems</title>
+<section xml:id="h3_manufacturing_overview">
+<title>Overview</title>
 
 </section>
 <section xml:id="h3_manufacturing_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_manufacturing_features">
-<title>Features</title>
+<section xml:id="h3_manufacturing_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_manufacturing_faqs">
+<title>FAQs</title>
 
 </section>
 </section>
 <section xml:id="h2_pet_industry">
 <title>Pet Industry</title>
-<section xml:id="h3_pet_problems">
-<title>Problems</title>
+<section xml:id="h3_pet_industry_overview">
+<title>Overview</title>
 
 </section>
-<section xml:id="h3_pet_solutions">
+<section xml:id="h3_pet_industry_solutions">
 <title>Solutions</title>
 
 </section>
-<section xml:id="h3_pet_features">
-<title>Features</title>
+<section xml:id="h3_pet_industry_stories">
+<title>Stories</title>
+
+</section>
+<section xml:id="h3_pet_industry_faqs">
+<title>FAQs</title>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
