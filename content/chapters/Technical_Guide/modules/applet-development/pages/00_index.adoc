@@ -1,9 +1,8 @@
 [#h2_tech_guide_applet_development]
 === Applet Development Guide
 
-// TODO: to write about the Applet Developer's Guide for both internal and external software developers
 
-
+include::introduction.adoc[]
 
 include::create_applet.adoc[]
 

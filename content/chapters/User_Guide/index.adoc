@@ -19,7 +19,7 @@ include::modules/applet-developers/pages/00_index.adoc[]
 include::modules/resellers/pages/00_index.adoc[]
 
 
-include::modules/system-integrations/pages/00_index.adoc[]
+include::modules/system-integrators/pages/00_index.adoc[]
 
 
 // This is the page break

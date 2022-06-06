@@ -1,1 +1,0 @@
-* xref:00_index.adoc[System Integrations]
