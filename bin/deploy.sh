@@ -35,6 +35,10 @@ asciidoctor-epub3 -o build/blg_handbook/www/blg_handbook.epub tmp/index.adoc
 # asciidoctor -r asciidoctor-epub3 -b epub3 -o docs/all_in_one.epub pub/all_in_one.adoc
 
 
+echo 'Copying docbook, pdf, epub back to the "attachments" folder ...'
+#cp tmp/blg_handbook* content/chapters/User_Guide/modules/general-users/attachments 
+cp build/blg_handbook/www/blg_handbook* content/chapters/User_Guide/modules/general-users/attachments 
+
 echo 'Copying files to docs folder for github pages publishing .... '
 cp -r build/blg_handbook/www/* docs
 #cp ./build/blg_handbook/blg_handbook* docs

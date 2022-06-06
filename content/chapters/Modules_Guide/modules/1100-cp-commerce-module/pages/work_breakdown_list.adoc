@@ -46,7 +46,7 @@ We need to create a virtual branch for every CP-Commerce website, refer to the V
 [#h4_cp_commerce_wbs_pgw_config]
 ===== PGW Configurations
 
-Please visit <<h2_pgw_module>> for more information about the configuration of PGW Module.
+Please visit <<h2_payment_switching_module>> for more information about the configuration of PGW Module.
 
 // TODO: Improve the PGW Module to automatically create the merchant entity based on company information of the branch selected for a specific "website" in the cp-commerce admin applet itself.
 

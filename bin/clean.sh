@@ -1,5 +1,4 @@
-echo 'Cleaning up "docs/* folder....'
-rm -rf docs/*
-rm -rf build/blg_handbook
+echo 'Cleaning up tmp and build folders....'
+rm -rf build
 rm -rf tmp
 

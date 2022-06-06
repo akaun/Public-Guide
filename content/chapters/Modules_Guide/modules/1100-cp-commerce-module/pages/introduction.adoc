@@ -97,14 +97,24 @@ You will get to know what is included in the CP Commerce module, how to use it, 
 ** Users can login with email/password, phone/sms, Google Login, Facebook Login, Apple Login
 
 * Delivery and Fulfillment
-
-* Printing , Picking , Packing
+** Printing , Picking , Packing
+** Trips Planning and Drivers allocation
 
 * Analytics
+** Analysis of abandoned shopping cart
+** Linking to Google Analytics
+** Review and ratings of products
+** Products clicks and page views
+** Abandoned shopping carts
+** Favourites and visitor profiles
 
 * Abandoned shopping cart
+** Automation to create outbound notifications and automatically create sales leads for agents to follow up and assist customer to 
+** Customers are able to view their previously abandoned shopping cart
+** Contact center agents are able to assist the customer to complete their shopping cart, and request for payments within messaging applications (conversational commerce)
 
 * Favourite lists
+** Understanding the customer's preferences and subsequently send targetted email / whatsapp messages on promotions
 
 * Product Reviews and Ratings
 ** Able to set multiple reviews per product, so that customers are able to feedback on multiple perspectives of the product, not just how many stars. For example: (1) Satisfaction the product (2) Delivery Speed (3) After sales support etc..

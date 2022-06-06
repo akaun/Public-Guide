@@ -5,6 +5,7 @@ rm -rf build
 
 echo 'Creating empty build/blg_handbook/ folder...'
 mkdir -p build/blg_handbook/www/
+mkdir -p tmp
 
 echo 'Copying all non-adoc files into content/images.... '
 find ./content -type f \( -not -name "*.adoc" -and -not -name ".*" -and -not -name "CNAME" \) -exec cp -- "{}" tmp \;
@@ -33,6 +34,11 @@ asciidoctor --trace -r asciidoctor-pdf -b pdf -o build/blg_handbook/www/blg_hand
 echo 'Compiling EPUB Format .....'
 asciidoctor-epub3 -o build/blg_handbook/www/blg_handbook.epub tmp/index.adoc
 # asciidoctor -r asciidoctor-epub3 -b epub3 -o docs/all_in_one.epub pub/all_in_one.adoc
+
+echo 'Copying docbook, pdf, epub back to the "attachments" folder ...'
+cp build/blg_handbook/www/blg_handbook.epub content/chapters/User_Guide/modules/general-users/attachments 
+cp build/blg_handbook/www/blg_handbook.pdf content/chapters/User_Guide/modules/general-users/attachments 
+cp build/blg_handbook/www/blg_handbook.xml content/chapters/User_Guide/modules/general-users/attachments 
 
 #TIMESTAMP=tmp_$(date +"%Y-%m-%d-%H-%M")
 #echo 'Copying files to docs folder for github pages publishing .... '

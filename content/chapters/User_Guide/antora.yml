@@ -1,7 +1,7 @@
 name: handbook-user-guide
 title: User Guide
 version: '1.0' 
-start_page: general-users:00_index.adoc 
+start_page: general-users:introduction.adoc 
 nav: 
 - modules/general-users/nav.adoc
 - modules/project-implementors/nav.adoc
