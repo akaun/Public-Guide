@@ -1,3 +1,0 @@
-[#h3_stock_take_v2_line_items]
-==== Menu 02 - e.g. Line Items
-

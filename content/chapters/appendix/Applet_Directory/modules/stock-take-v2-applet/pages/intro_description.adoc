@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Stock Take Applet is an applet that designed to keep track of your items based on their locations, reference number or any other reference related to the Stock take count in hand. Stock Take Applet can compare your physical stock in hand with EMP system which identify variance of each stock. Stock Take Applet also allows you to track stock count records by user and specially assigned each item to each user. Therefore, it will reduce human error and streamline business operations efficiently. 
