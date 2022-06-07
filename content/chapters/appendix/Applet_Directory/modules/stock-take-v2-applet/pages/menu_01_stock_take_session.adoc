@@ -26,5 +26,16 @@ image::pic_name.png[]
 image::perform_stocktake.png[]
  
 1.7  Once click into devices, please go to Records Tab
-
 image::records_tab.png[]
+
+1.8 You can directly scan your serial number scan button
+
+image::scan_code.png[]
+
+1.9 Auto-save feature is available
+
+image::auto_save.png[]
+
+1.10 Once complete performing stock take, please go to the report tab. Filter by Report Type and click Search
+
+image::report_type.png[]
