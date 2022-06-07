@@ -26,7 +26,6 @@ image::pic_name.png[]
 image::perform_stocktake.png[]
  
 1.7  Once click into devices, please go to Records Tab
-
 image::records_tab.png[]
 
 1.8 You can directly scan your serial number scan button
