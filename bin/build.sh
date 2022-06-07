@@ -48,10 +48,5 @@ cp build/blg_handbook/www/blg_handbook.xml content/chapters/BigLedger_Overview/m
 #cp ./build/blg_handbook/blg_handbook* docs/$TIMESTAMP
 #cp ./content/CNAME docs/$TIMESTAMP
 
-echo 'Opening docs folder...'
-#git add .
-#git commit -m "Compiled and commit .."
-#open docs/$TIMESTAMP
-open build/blg_handbook/www/index.html
 
 
