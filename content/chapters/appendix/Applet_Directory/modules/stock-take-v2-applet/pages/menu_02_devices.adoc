@@ -1,3 +1,27 @@
 [#h3_stock_take_v2_devices]
 ==== Menu 02 - Devices
 
+2.1 Go to the device menu to create Device. The Device will be used to assign to the stock take session
+
+image::devices_listing.png[]
+
+2.2 Search box is for search for Device Code and Device Name
+
+image::search_box.png[]
+
+2.3 Advanced Filter search is  to search based on brand, model, status and date.
+
+image::advanced_search.png[]
+
+2.4 Click "+" button to create new Device and fill in the required fields
+
+image::create_device.png[]
+
+2.5 Click Create button and Device Listing will show the recent device created top of the listing
+
+image::new_device.png[]
+
+2.6 Once click at the specific device, edit the highlighted fields and click button to save changes 
+
+image::edit_device.png[]
+

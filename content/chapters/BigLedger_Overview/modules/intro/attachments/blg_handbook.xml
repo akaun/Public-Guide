@@ -6790,13 +6790,48 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>records tab</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara>1.8 You can directly scan your serial number scan button</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="scan_item_code.png"/>
+</imageobject>
+<textobject><phrase>scan item code</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.9 Auto-save feature is available</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="auto_save.png"/>
+</imageobject>
+<textobject><phrase>auto save</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.10 Once complete performing stock take, please go to the report tab. Filter by Report Type and click h3_cp_commerce_search_engine_optimization</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="report_type.png"/>
+</imageobject>
+<textobject><phrase>report type</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
 </section>
 <section xml:id="h3_stock_take_v2_devices">
 <title>Menu 02 - Devices</title>
 <section xml:id="h3_stock_take_v2_reports">
 <title>Menu 03 - Reports</title>
-
+<simpara>3.1 After closing Stock Take session, you may click on to the reports menu to view stock take listing</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="view_stock_take_listing.png"/>
+</imageobject>
+<textobject><phrase>view stock take listing</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
 </section>
 <section xml:id="h3_stock_take_v2_permission_settings">
