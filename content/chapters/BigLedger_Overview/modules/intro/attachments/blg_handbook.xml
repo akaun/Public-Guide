@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-06-06</date>
+<date>2022-06-07</date>
 <author>
 <personname>
 <firstname>v1.3</firstname>
@@ -6652,7 +6652,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>stock take V2 applet logo</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+<simpara>Stock Take Applet is an applet that designed to keep track of your items based on their locations, reference number or any other reference related to the Stock take count in hand. Stock Take Applet can compare your physical stock in hand with EMP system which identify variance of each stock. Stock Take Applet also allows you to track stock count records by user and specially assigned each item to each user. Therefore, it will reduce human error and streamline business operations efficiently.</simpara>
 </section>
 <section xml:id="h3_stock_take_v2_modules">
 <title>Modules</title>
@@ -6725,14 +6725,79 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_datalake_module"/></simpara>
 </listitem>
 </itemizedlist>
+<section xml:id="h3_stock_take_v2_stock_take_session">
+<title>Menu 01 - Stock Take Session</title>
+<simpara>1.1  Please go to Akaun.com - Stock Take Applet V2</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="applet_logo_v2.png"/>
+</imageobject>
+<textobject><phrase>applet logo v2</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.2  Go to the Stock Take Session</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="stock_take_session.png"/>
+</imageobject>
+<textobject><phrase>stock take session</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.3  Create a Stock Take Session Ex: STOCK - JUNE 2022</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="create_stock.png"/>
+</imageobject>
+<textobject><phrase>create stock</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.4 After creating the Stock Session, go to devices tab to add PIC for handling the Stock Take</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="add_pic.png"/>
+</imageobject>
+<textobject><phrase>add pic</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.5 Find a PIC name to add under the created stock take Session</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="pic_name.png"/>
+</imageobject>
+<textobject><phrase>pic name</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.6 After selecting the PIC, go to the PIC name to start performing your Stock Take</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="perform_stocktake.png"/>
+</imageobject>
+<textobject><phrase>perform stocktake</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.7  Once click into devices, please go to Records Tab</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="records_tab.png"/>
+</imageobject>
+<textobject><phrase>records tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
-<section xml:id="h3_stock_take_v2_sales_order_listing">
-<title>Menu 01 - e.g. Sales Orders Listing</title>
+</section>
+<section xml:id="h3_stock_take_v2_devices">
+<title>Menu 02 - Devices</title>
+<section xml:id="h3_stock_take_v2_reports">
+<title>Menu 03 - Reports</title>
 
 </section>
-<section xml:id="h3_stock_take_v2_line_items">
-<title>Menu 02 - e.g. Line Items</title>
-
 </section>
 <section xml:id="h3_stock_take_v2_permission_settings">
 <title>Permission Settings</title>
@@ -6740,17 +6805,18 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="h3_stock_take_v2_personalization">
 <title>Personalization</title>
-
-</section>
-<section xml:id="h3_stock_take_v2_related_applets">
+<section xml:id="h4_stock_take_v2_related_applets">
 <title>Related Applets</title>
 <simpara>This applet also depends on the following applets:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Applet 1</simpara>
+<simpara><xref linkend="h2_organization_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara>Applet 2</simpara>
+<simpara><xref linkend="h2_inv_item_maintenance_applet"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_doc_item_maintenance_applet"/></simpara>
 </listitem>
 </itemizedlist>
 <simpara>The following applets depends on this applet:</simpara>
@@ -6763,6 +6829,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Also see</simpara>
+</section>
 </section>
 <section xml:id="h3_stock_take_v2_pricing">
 <title>Pricing</title>
