@@ -1,4 +1,4 @@
-[#h3_stock_take_v2]
+[#h3_stock_take_v2_introduction]
 ==== Introduction
 
 image::stock_take_V2_applet_logo.png[]
