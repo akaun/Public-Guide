@@ -1,2 +1,2 @@
 [#h2_hr_module]
-=== HR Module
+= HR Module

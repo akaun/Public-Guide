@@ -1,8 +1,8 @@
 [#h3_digital_marketing_project_implementation_steps]
-==== Digital Marketing - Project Implementation Steps
+= Digital Marketing - Project Implementation Steps
 
 
-===== Scope Management (End Results)
+== Scope Management (End Results)
 
 _Begin with the end in mind_ 
 
@@ -12,7 +12,7 @@ _Begin with the end in mind_
 
 * This is where we create the WBS (Work Break Down) as well.
 
-===== Project Gantt Chart
+== Project Gantt Chart
 
 * Defining Activities
 ** List down all the activities involved for each work breakdown
@@ -28,24 +28,24 @@ _Begin with the end in mind_
 
 * Identify Critical Path
 
-===== Project Kickstart Meeting
+== Project Kickstart Meeting
 
 
-===== Weekly Meeting
+== Weekly Meeting
 
-===== Agile Method
+== Agile Method
 
-===== Cashflow Projection
+== Cashflow Projection
 
 
-===== Human Resource Management
+== Human Resource Management
 
 * Milestones and Rewards
 
-===== Communication Management
+== Communication Management
 
 
-===== Risk Management
+== Risk Management
 
 * Identify third party dependency
 
@@ -53,15 +53,15 @@ _Begin with the end in mind_
 
 * Identify contingency plans
 
-===== UAT (User Acceptance Test)
+== UAT (User Acceptance Test)
 
 
-===== Requirement Analysis
+== Requirement Analysis
 
 
-===== Project Goes Live
+== Project Goes Live
 
-===== Post Mortem
+== Post Mortem
 
 
 

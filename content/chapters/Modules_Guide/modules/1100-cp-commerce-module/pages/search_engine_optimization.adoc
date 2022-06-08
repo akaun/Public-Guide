@@ -1,4 +1,4 @@
 [#h3_cp_commerce_search_engine_optimization]
-==== Search Engine Optimization
+= Search Engine Optimization
 
 

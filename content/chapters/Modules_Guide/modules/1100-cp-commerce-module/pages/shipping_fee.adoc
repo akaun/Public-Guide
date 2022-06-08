@@ -1,5 +1,5 @@
 [#h3_cp_commerce_shipping_fee]
-==== Shipping Fees
+= Shipping Fees
 
 * Shipping Fee Applets
 

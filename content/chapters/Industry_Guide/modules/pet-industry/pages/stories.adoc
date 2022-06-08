@@ -1,2 +1,2 @@
 [#h3_pet_industry_stories]
-==== Stories
+= Stories

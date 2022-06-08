@@ -1,5 +1,5 @@
 [#h3_applet_dev_suspend_applet]
-==== Suspension of Applet
+= Suspension of Applet
 
 * Usually this happens when the developer / applet violates the policy of applet store etc.
 

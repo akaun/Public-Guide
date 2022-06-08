@@ -1,5 +1,5 @@
 [#h3_warehouse_management_related_applets]
-==== Warehouse Management - Related Applets
+= Warehouse Management - Related Applets
 
 
 

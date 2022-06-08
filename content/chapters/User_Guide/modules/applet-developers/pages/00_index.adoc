@@ -1,10 +1,10 @@
 [#h2_applet_developers]
-=== Applet Developers
+= Applet Developers
 
 Guide for applet Developers
 
 [#h3_applet_developers_signing_up_akaunid]
-==== Signing up your AkaunID
+== Signing up your AkaunID
 
 
 

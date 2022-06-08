@@ -1,12 +1,12 @@
 [#h2_pet_industry]
-=== Pet Industry
+= Pet Industry
 
-include::overview.adoc[]
+include::overview.adoc[leveloffset=3]
 
-include::solutions.adoc[]
+include::solutions.adoc[leveloffset=3]
 
-include::stories.adoc[]
+include::stories.adoc[leveloffset=3]
 
-include::faqs.adoc[]
+include::faqs.adoc[leveloffset=3]
 
 

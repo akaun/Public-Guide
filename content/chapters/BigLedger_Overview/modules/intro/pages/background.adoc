@@ -1,4 +1,4 @@
 [#h3_bigledger_overview_background]
-==== Background
+= Background
 
 

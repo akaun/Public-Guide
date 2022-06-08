@@ -1,11 +1,11 @@
 [#h3_cp_commerce_introduction]
-==== Introduction
+= Introduction
 
 This section provides you the guide to implementing the *CP Commerce* module.
 You will get to know what is included in the CP Commerce module, how to use it, how to get started and what are the features that you can use to launch your next e-commerce project.
 
 [#h4_cp_commerce_overview]
-===== CP Commerce Overview
+== CP Commerce Overview
 
 *CP Commerce* stands for "Cross Platform Commerce". Most of our customers use the CP Commerce module for the following reasons:
 
@@ -147,7 +147,7 @@ Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.
 
 [#h4_cp_commerce_module_applets]
-===== CP Commerce Applets
+== CP Commerce Applets
 
 
 * <<h2_cp_commerce_admin_applet>>
@@ -162,15 +162,15 @@ Provide a summary of what this module does and doesn't do.
 * 
 
 [#h4_cp_commerce_features_and_functions]
-===== Features and Functions
+== Features and Functions
 
 
 
-===== What's New
+== What's New
 
 
 
-===== Getting Started
+== Getting Started
 
 * Please ensure that you have setup the pricing scheme in "Doc Item Maintenace applet", you are going to need to use the pricing scheme when configuring the Virtual Branch
 
@@ -191,6 +191,6 @@ Provide a summary of what this module does and doesn't do.
         https://www.wavelet.net/contact-us (this is a URL, the hostname part is only www.wavelet.net, the https:// is the protocol, and the "contact-us" is the "url path")
 
 
-===== Module Dependencies
+== Module Dependencies
 
 

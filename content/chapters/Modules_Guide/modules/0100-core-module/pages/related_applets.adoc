@@ -1,5 +1,5 @@
 [#h3_core_name_related_applets]
-==== Core Module - Related Applets
+= Core Module - Related Applets
 
 * xref:h2_tax_configuration_applet[xrefstyle=full]
 

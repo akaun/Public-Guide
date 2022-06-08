@@ -1,5 +1,5 @@
 [#h3_system_integrations_stock_availability_api]
-==== Stock Availability API
+== Stock Availability API
 
 We will pull the data from bl_fi_mst_ecomsync_item_hdr.bal_qty / avai_qty
 

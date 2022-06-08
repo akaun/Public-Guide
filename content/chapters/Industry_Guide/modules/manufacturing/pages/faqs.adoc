@@ -1,2 +1,2 @@
 [#h3_manufacturing_faqs]
-==== FAQs
+= FAQs

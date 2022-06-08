@@ -1,8 +1,8 @@
 [#h3_cp_commerce_project_implementation_steps]
-==== CP Commerce - Project Implementation Steps
+= CP Commerce - Project Implementation Steps
 
 
-===== Scope Management (End Results)
+== Scope Management (End Results)
 
 _Begin with the end in mind_ 
 
@@ -12,7 +12,7 @@ _Begin with the end in mind_
 
 * This is where we create the WBS (Work Break Down) as well.
 
-===== Project Gantt Chart
+== Project Gantt Chart
 
 Although there are many project Gantt Chart software out there, in the past, we have used Smartsheet.com, Google spreadsheet and others. We found that the issue due dates and the actual progress of the issue status became outdated within days because everyone else in the team are NOT updating the issues in these Gantt Chart, they are using Jira issue tracker at https://wavelet.atlassian.net . As a results, we have decided to make use of the following https://www.atlassian.com/software/jira/features/roadmaps 
 
@@ -33,24 +33,24 @@ Although there are many project Gantt Chart software out there, in the past, we 
 ** As many activities can happen in parallel , we need to identify the critical path to ensure the activities that are in critical path are given the highest urgency, to ensure the project is not delayed.
 
 
-===== Project Kickstart Meeting
+== Project Kickstart Meeting
 
 
-===== Weekly Meeting
+== Weekly Meeting
 
-===== Agile Method
+== Agile Method
 
-===== Cashflow Projection
+== Cashflow Projection
 
 
-===== Human Resource Management
+== Human Resource Management
 
 * Milestones and Rewards
 
-===== Communication Management
+== Communication Management
 
 
-===== Risk Management
+== Risk Management
 
 * Identify third party dependency
 
@@ -58,15 +58,15 @@ Although there are many project Gantt Chart software out there, in the past, we 
 
 * Identify contingency plans
 
-===== UAT (User Acceptance Test)
+== UAT (User Acceptance Test)
 
 
-===== Requirement Analysis
+== Requirement Analysis
 
 
-===== Project Goes Live
+== Project Goes Live
 
-===== Post Mortem
+== Post Mortem
 
 
 

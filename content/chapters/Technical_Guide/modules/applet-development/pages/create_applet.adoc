@@ -1,23 +1,23 @@
 [#h3_applet_dev_new_applet]
-==== Creating a new Applet 
+= Creating a new Applet 
 
 There are many steps involved when you want to create a new applet, a well designed applet would have to follow our applet design guidelines. 
 
 
 [h4_applet_dev_preparation_before_developing_new_applet]
-===== Preparation Before Developing A New Applet
+== Preparation Before Developing A New Applet
 
 
 [#h4_applet_dev_business_requirements]
-===== Business Requirements
+== Business Requirements
 
 [#h4_applet_dev_database_design]
-===== Database Design
+== Database Design
 
 [#h4_applet_dev_mockup_design]
-===== Mock Up and Design
+== Mock Up and Design
 
 
 [#h4_applet_dev_api_design]
-===== API Design
+== API Design
 

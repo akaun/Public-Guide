@@ -1,5 +1,5 @@
 [#h3_bigledger_overview_introduction]
-==== Overview - Introduction
+= Overview - Introduction
 
 
 To view this in other formats, click on the following:

@@ -1,25 +1,25 @@
 [#h2_cp_commerce_module]
-=== CP Commerce Module
+= CP Commerce Module
 
-include::introduction.adoc[]
+include::introduction.adoc[leveloffset=3]
 
-include::unique_value_proposition.adoc[]
+include::unique_value_proposition.adoc[leveloffset=3]
 
-include::related_applets.adoc[]
+include::related_applets.adoc[leveloffset=3]
 
-include::project_implementation_steps.adoc[]
+include::project_implementation_steps.adoc[leveloffset=3]
 
-include::work_breakdown_list.adoc[]
+include::work_breakdown_list.adoc[leveloffset=3]
 
-include::product_maintenance.adoc[]
+include::product_maintenance.adoc[leveloffset=3]
 
-include::shipping_fee.adoc[]
+include::shipping_fee.adoc[leveloffset=3]
 
-include::settlement_methods.adoc[]
+include::settlement_methods.adoc[leveloffset=3]
 
-include::order_fulfillment.adoc[]
+include::order_fulfillment.adoc[leveloffset=3]
 
-include::search_engine_optimization.adoc[]
+include::search_engine_optimization.adoc[leveloffset=3]
 
-include::qc_checklist.adoc[]
+include::qc_checklist.adoc[leveloffset=3]
 

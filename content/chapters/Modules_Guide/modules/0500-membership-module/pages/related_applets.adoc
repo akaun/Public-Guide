@@ -1,5 +1,5 @@
 [#h3_membership_related_applets]
-==== Membership - Related Applets
+= Membership - Related Applets
 
 
 
