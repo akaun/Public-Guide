@@ -534,6 +534,13 @@ using the BigLedger platform.</simpara>
 <chapter xml:id="h1_modules_guide">
 <title>Guide by Modules</title>
 <simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
+<section xml:id="h2_module_guide">
+<title>Module Guide</title>
+<section xml:id="h3_module_guide_introduction">
+<title>Introduction</title>
+<simpara>this is the introduction to module guide.</simpara>
+</section>
+</section>
 <section xml:id="h2_core_module">
 <title>Core Module</title>
 <section xml:id="h3_core_introduction">
