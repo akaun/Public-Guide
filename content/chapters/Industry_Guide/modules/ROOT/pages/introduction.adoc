@@ -1,0 +1,16 @@
+[#h3_industry_guide_introduction]
+= Industry Guide - Introduction
+
+// Example Case Study Format
+// https://content.bridgepointeducation.com/curriculum/file/078d7964-9052-4248-8a8b-e85592ff572e/1/Sample%20Case%20Study%20Analysis.pdf 
+
+
+For each of the following industry covered in this guide, we provide you with the following:
+
+* Background 
+* Identify the problems, goals
+* Assumptions
+* Evaluation of the case (finding the root cause)
+* Proposed solution / changes and compare with alternate solutions. 
+* Recommendations with reasons and justifications
+* Appendices (charts , financials , visuals)
