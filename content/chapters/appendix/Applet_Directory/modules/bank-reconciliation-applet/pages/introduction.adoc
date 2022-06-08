@@ -1,6 +1,6 @@
 [#h3_bank_reconciliation_introduction]
-==== Introduction
+= Introduction
 image::bank_reconciliation_applet_logo.png[]
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]
 

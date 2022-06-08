@@ -1,4 +1,4 @@
 [#h3_media_library_pricing]
-==== Pricing
+= Pricing
 
 

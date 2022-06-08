@@ -1,9 +1,9 @@
 [#h3_merchant_admin_maintenance_introduction]
-==== Introduction
+= Introduction
 
 
 image::merchant_admin_maintenance.png[]
 
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]
 

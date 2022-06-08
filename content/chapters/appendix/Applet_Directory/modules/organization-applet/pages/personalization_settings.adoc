@@ -1,5 +1,5 @@
 [#h3_organization_personalization]
-==== Personalization
+= Personalization
 
 
 

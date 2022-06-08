@@ -1,5 +1,5 @@
 [#h3_bank_reconciliation_personalization]
-==== Personalization
+= Personalization
 
 
 

@@ -1,0 +1,6 @@
+[#h2_tech_guide_cloud_native]
+= Cloud Native Architecture
+
+include::pages/introduction.adoc[leveloffset=3]
+
+

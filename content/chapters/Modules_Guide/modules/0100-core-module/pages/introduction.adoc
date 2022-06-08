@@ -1,4 +1,4 @@
-[#h2_core_introduction]
+[#h3_core_introduction]
 = Introduction
 
 This Section provide you a high level overview of what is in the "Core Module", so that you have a good understanding of how various applets work together. For the detail user guide for each of the applet, you may click on the links below, and drill down for further details.

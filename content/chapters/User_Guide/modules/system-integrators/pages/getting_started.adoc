@@ -1,5 +1,5 @@
 [#h3_system_integrations_getting_started]
-== Getting Started
+= Getting Started
 
 Please copy the content from the following URL:
 https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/3271558668/Tenant+-+System+Integrators

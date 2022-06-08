@@ -1,4 +1,4 @@
 [#h3_cp_commerce_admin_integration_to_ucc]
-==== Integration to UCC
+= Integration to UCC
 
 Webchat

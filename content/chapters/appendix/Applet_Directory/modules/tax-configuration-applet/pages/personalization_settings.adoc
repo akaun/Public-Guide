@@ -1,5 +1,5 @@
 [#h3_tax_configuration_personalization]
-==== Personalization
+= Personalization
 
 
 

@@ -1,7 +1,7 @@
 [#h3_url_shortening_introduction]
-==== Introduction
+= Introduction
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]
 
 Vincent Lee, [02/06/2022 9:33 PM]
 https://drive.google.com/file/d/1IL4nMJRTWdENwB7t0402PNtAU0msEghE/view?usp=sharing

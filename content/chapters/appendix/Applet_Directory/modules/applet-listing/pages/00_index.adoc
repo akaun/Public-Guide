@@ -1,4 +1,0 @@
-[#h2_applet_listing]
-=== Applet Listing
-
-a list of applets

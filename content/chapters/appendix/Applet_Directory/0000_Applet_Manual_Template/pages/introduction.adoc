@@ -1,5 +1,5 @@
 [#h3_named_applet_introduction]
-==== Introduction
+=  Introduction
 
 image::blank_logo.png[]
 

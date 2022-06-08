@@ -1,5 +1,5 @@
 [#h3_cashbook_personalization]
-==== Personalization
+= Personalization
 
 
 

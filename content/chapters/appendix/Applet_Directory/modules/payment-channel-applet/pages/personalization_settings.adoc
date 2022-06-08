@@ -1,5 +1,5 @@
 [#h3_payment_channel_personalization]
-==== Personalization
+= Personalization
 
 
 

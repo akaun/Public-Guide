@@ -1,4 +1,4 @@
 [#h3_tax_configuration_pricing]
-==== Pricing
+= Pricing
 
 
