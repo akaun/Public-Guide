@@ -2,6 +2,7 @@
 v1.3
 :homepage: https://docs.akaun.com
 :sectnums:
+:sectnumlevels: 4 
 :toc: macro
 :toclevels: 3 
 :table-caption!:

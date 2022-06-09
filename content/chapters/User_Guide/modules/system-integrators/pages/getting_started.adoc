@@ -1,12 +1,273 @@
 [#h3_system_integrations_getting_started]
 ==== Getting Started
 
-Please copy the content from the following URL:
-https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/3271558668/Tenant+-+System+Integrators
+This guide is meant for system integrators who are NOT developing Akaun Applets, third party system integrators refer to developers intending to consume the Akaun API. 
 
-Need to talk about the Virtual ETL Applet
-* This part should be done by the Platform Sysadmin 
-* The platform SysAdmin will install the Virtual ETL applet for you, and then grant you the necessary permissions, after this step is done, you may try out the selected endpoints that you have access to.
+[#h4_developer_account_registration_and_configuration]
+===== Developer Account Registration and Configuration
+
+Akaun provides various environment for developers to test, stage and deploy into production. 
+
+|===
+|  | Sandbox | Staging |  Production: Akaun.com  | Production: Akaun.in |  Production: Akaun.cn
+
+| Custom Hostnames
+| *.akaun.xyz
+| *.akaun.app
+| *.akaun.net 
+| *.akauncom.in
+| *.akaun.com.cn 
+
+| Region
+| Singapore
+| Singapore
+| Singapore
+| India
+| China
+
+| status
+| Live
+| Live
+| Live
+| FUTURE
+| FUTURE
+
+| Description
+| This is the developer sandbox to experiments , test and develop.
+| This is for UAT, Demo, Final testing before deployment to the production environment.
+| This is the global live environment.
+| This is the isolated environment for India market.
+| This is the isolated environment for China market.
+
+| Shell Website
+| https://akaun.dev  
+| https://akaun.cloud  
+| https://akaun.com
+| https://akaun.in 
+| https://akaun.cn 
+
+| API
+| api.akaun.dev 
+| api.akaun.cloud 
+| api.akaun.com
+| 
+| 
+
+|===
+
+{empty} +
+// [#h5_registration_developer_account]
+*Registration of developer account*
+
+As a new developer, the developer should register an account in Production environment via the website: https://akaun.com. These are the brief registration steps:
+
+* Register an account using either email or phone number +
+* Activate account using 6 digits number
+
+// [#h5_registration_user_account_in_prod_env]
+*Registration of user account in production environment*
+
+A new user should register an account at: https://akaun.com:
+
+* Register an account using either email or phone number +
+* Activate account using 6 digits number +
+* Login and install desired applets
+
+// [#h5_vendor_and_developer_registration]
+*Vendor and Developer Registration*
+
+{empty} +
+// [#h5_registration_user_account_in_dev_env]
+*Registration of user account in development environment*
+
+Similar to product environment, a new user register a development account at: https://akaun.dev
+
+* Register an account using the same email or phone at https://akaun.com +
+* Activate account using 6 digits number +
+* Login and install desired applets +
+
+// [#h5_obtaining_access_id_and_access_key]
+*Obtaining access id and access key*
+
+These access key is required as credential to call etl endpoint. Please go to https://akaun.prod (depending on the environment) and follow these step:
+
+image::create_access_key_and_access_id_1.png[align="center"] 
+image::create_access_key_and_access_id_2.png[align="center"] 
+image::create_access_key_and_access_id_3.png[align="center"] 
+
+// [#h5_system_integration_applet]
+*System Integration Applet*
+
+
+[#h4_understanding_akaun_applet_platform]
+===== Understanding Akaun Applet Platform
+
+
+// [#h5_akaun_platform_system_diagram]
+*Akaun Platform System Diagram*
+
+// [#h5_understanding_various_endpoint_based_permission_schemes]
+*Understanding various endpoint based permission schemes*
+ 
+// [#h5_using_api_reference]
+*Using the API Reference*
+
+[#h4_api_testing]
+===== API Testing
+ 
+// [#h5_software_tools_to_test_apis]
+*Software Tools to test the APIs*
+
+Api Developers may test the api in stoplight documentation: 
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public
+
+
+|===
+
+|  Environment  |  Website URL  | Api URL 
+
+|  Sandbox (development) 
+|  https://akaun.dev
+|  https://api.akaun.dev/{endpoint_url}
+
+|  Staging environment
+|  https://akaun.cloud
+|  https://api.akaun.cloud/{endpoint_url}
+
+|  Production environment
+|  https://akaun.com 
+|  https://api.akaun.com/{endpoint_url}
+
+|===
+
+*Notice*: AuthToken is refreshed every month, developers should get new authToken once every month(for testing api using authtoken**not applicable for etl endpoint).
+
+
+Below is the method to get authToken using sandbox (development) environment as an example
+
+* Login into https://akaun.dev
+//
+* Right click on an empty space and choose “Inspect”
+//
+* Find “Local Storage” under “Storage” tag
+
+
+image::Authtoken_api.png[align="center"]
+
+{empty} +
+// [#h5_using_system_integration_applet]
+*Using the “System Integration Applet”*
+
+
+// [#h5_example_of_frequently_used_apis]
+*Example of frequently used APIs*
+
+// [#h6_product_api]
+*a. Product API*
+
+// [#h6_customer_api]
+*b. Customer API*
+
+// [#h6_sales_order_api]
+*c. Sales Order API*
+ 
+[#h4_understanding_triggers_and_web_hooks]
+===== Understanding Triggers and Web hooks
+
+When you are integrating with the Akaun Platform, instead of polling the APIs with repetitive schedulers, it is possible for the system integrators to be using Web Hooks for more efficient integrations.
+
+// [#h5_webhooks]
+*Webhooks*
+
+// [#h6_briefing_on_webhook]
+*a. Briefing on webhook*
+
+Webhooks are used in BigLedger to allow external integrations to be called whenever a particular event occurs. Usually, the event is an API call received by BigLedger.
+
+For any kind of event such as creating vouchers or creating Items:
+
+* From BigLedger side, a topic of webhook is created +
+* From external side, they will need to subscribe to those topics. And later when they do any operations like "create Item", the webhook will be triggered and they will get a response.
+ 
+
+// [#h6_Webhook_topic_apis]
+// =======Webhook Topics APIs
+
+// [#h7_get_webhook_topics]
+// ========GET Webhook Topics
+
+// Webhook topics are created automatically when a new tenant is created.
+
+// To get the all Webhook Topics, you can call GET api using Postman:
+
+// *Url: /core2/tnt/dm/webhook-topic
+
+// *Request Headers:
+
+// **Authorization: {{authToken from website}}
+// **Content-Type: application/json
+// **tenantCode: {{tenant_code}}
+
+// *Request Method: GET
+
+// Sample Data
+
+// |===
+// | Guid |  Topic_Code 
+
+// | 6dc08d0d-b125-4b41-8395-7f401b56908d		
+// | COMPANY_CREATED
+
+// | c529ecd5-b16a-402b-a085-d4bf35f017c2		
+// | FINANCIAL_ITEM_CREATED
+
+// | 1cb59911-6dbc-4a32-9ac9-406c5bf496e8		
+// | CUSTOMER_CREATED
+
+// | 1b231010-92fd-423e-b4d3-eaa26eba0c93		
+// | BRANCH_CREATED
+
+// | c3f2c364-bd1b-4ce0-9a98-8d93c277be7f		
+// | VOUCHER_CREATED 
+
+// |===
+
+// [#h7_create_webhook_topic]
+// ========CREATE Webhook Topic
+
+// Notice: Webhook topics are defined by BigLedger backend team, please confirm webhook topic codes with @Ahmed Hassan before creating new API.
+
+// *Url: /core2/tnt/dm/webhook-topic
+
+// *Request Headers:
+
+// **Authorization: {{authToken from website}}
+
+// **Content-Type: application/json
+
+// **tenantCode: {{tenant_code}}
+
+// *Request Method: POST
+
+// *Request body:
+
+// { 
+//     "bl_webhook_topic_hdr": {
+//         "topic_code": {{compulsory}},
+//         "topic_name": {{topic_name}},
+//         "topic_description": {{topic_description}},
+//         "property_json":{
+//         	"anything1": ""
+//         }
+// }
+
+
+[#h4_virtual_etl_applet]
+===== Virtual ETL Applet
+Virtual Etl applet is an applet which for setting purpose including organization of the permission for etl APIs. Platform Sysadmin will be in charge of installing the the applet and granting necessary permission to access etl APIs.
+
+Once the permission granted, the user may try to access the endpoint to ensure the permissions are successfully granted. The user also may visit this applet to see the list of permission being granted. 
+
 
 
 
