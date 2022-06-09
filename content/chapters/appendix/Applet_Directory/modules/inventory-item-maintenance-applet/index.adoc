@@ -1,4 +1,4 @@
-[#h2_inv_item_maintenance_applet]
+[#h2_inventory_item_maintenance_applet]
 = Inventory Item Maintenance Applet
 
 

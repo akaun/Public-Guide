@@ -13,25 +13,79 @@ This Section provide you a high level overview of what is in the "Core Module", 
 
 The core module consiste of the following applets:
 
-* xref:h2_tax_configuration_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_tax_configuration_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:tax-configuration-applet:introduction.adoc[Tax Configuration Applet] 
+endif::[]
 
-* xref:h2_organization_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_organization_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:organization-applet:introduction.adoc[Organization Applet] 
+endif::[]
 
-* xref:h2_chart_of_account_applet[xrefstyle=full]
 
-* xref:h2_doc_item_maintenance_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_chart_of_account_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:chart-of-account-applet:introduction.adoc[Chart Of Account Applet] 
+endif::[]
 
-* xref:h2_cashbook_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_doc_item_maintenance_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:doc-item-maintenance-applet:introduction.adoc[Doc Item Maintenance Applet] 
+endif::[]
 
-* xref:h2_inv_item_maintenance_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_cashbook_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:cashbook-applet:introduction.adoc[Cashbook Applet] 
+endif::[]
 
-* xref:h2_entity_maintenance_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_inventory_item_maintenance_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:inventory-item-applet:introduction.adoc[Inventory Item Maintenance Applet] 
+endif::[]
 
-* xref:h2_customer_maintenance_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_entity_maintenance_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:entity-maintenance-applet:introduction.adoc[Entity Maintenance Applet] 
+endif::[]
 
-* xref:h2_employee_maintenance_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_customer_maintenance_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:customer-maintenance-applet:introduction.adoc[Customer Maintenance Applet] 
+endif::[]
 
-* xref:h2_supplier_maintenance_applet[xrefstyle=full]
+ifndef::site-gen-antora[]
+* xref:h2_employee_maintenance_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:employee-maintenance-applet:introduction.adoc[Employee Maintenance Applet] 
+endif::[]
+
+ifndef::site-gen-antora[]
+* xref:h2_supplier_maintenance_applet[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-applet-directory:supplier-maintenance-applet:introduction.adoc[Supplier Maintenance Applet] 
+endif::[]
+
+
+
 
 [#h4_core_features_and_functions]
 == Core Module Features and Functions

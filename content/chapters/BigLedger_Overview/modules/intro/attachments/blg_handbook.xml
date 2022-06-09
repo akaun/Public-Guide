@@ -570,7 +570,7 @@ using the BigLedger platform.</simpara>
 <simpara><xref linkend="h2_cashbook_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_inv_item_maintenance_applet"/></simpara>
+<simpara><xref linkend="h2_inventory_item_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_entity_maintenance_applet"/></simpara>
@@ -5005,6 +5005,16 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </mediaobject>
 </informalfigure>
 <simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+<section xml:id="_resources">
+<title>Resources</title>
+<itemizedlist>
+<listitem>
+<simpara>Discussion on the secret behind Auto Matching using artificial intelligence in the Bank Reconciliation applet<?asciidoc-br?>
+<link xl:href="https://drive.google.com/file/d/1EnHMzBGY0eb5FgW7hWICjnybERFSpIgF/view">Discussion 1</link><?asciidoc-br?>
+<link xl:href="https://drive.google.com/file/d/1e2VUGvWEc0RFqBjE-Zf8aEy30Ey_6YXz/view">Discussion 2</link></simpara>
+</listitem>
+</itemizedlist>
+</section>
 </section>
 <section xml:id="h3_bank_reconciliation_modules">
 <title>Modules</title>
@@ -6116,7 +6126,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 
 </section>
 </section>
-<section xml:id="h2_inv_item_maintenance_applet">
+<section xml:id="h2_inventory_item_maintenance_applet">
 <title>Inventory Item Maintenance Applet</title>
 <section xml:id="h3_inv_item_maintenance_introduction">
 <title>Introduction</title>
