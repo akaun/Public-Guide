@@ -1,0 +1,4 @@
+[#h3_module_guide_introduction]
+= Introduction
+
+this is the introduction to module guide.

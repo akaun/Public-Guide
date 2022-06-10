@@ -1,3 +1,0 @@
-= Modules Guide
-
-this is the introduction to module guide.

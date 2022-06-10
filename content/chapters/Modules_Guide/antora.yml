@@ -1,8 +1,9 @@
 name: handbook-modules-guide
 title: Modules Guide
 version: '1.0' 
-start_page: 0100-core-module:introduction.adoc 
+start_page: ROOT:introduction.adoc 
 nav: 
+- modules/ROOT/nav.adoc
 - modules/0100-core-module/nav.adoc
 - modules/0200-accounting-module/nav.adoc
 - modules/0250-inventory-module/nav.adoc
