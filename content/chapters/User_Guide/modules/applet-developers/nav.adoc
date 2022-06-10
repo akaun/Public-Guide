@@ -1,1 +1,2 @@
-* xref:00_index.adoc[Applet Developers]
+* Applet Developer
+** xref:introduction.adoc[Introduction]

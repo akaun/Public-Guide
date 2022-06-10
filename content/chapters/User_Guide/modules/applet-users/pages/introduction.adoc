@@ -1,5 +1,5 @@
-[#h3_applet_users]
-= Applet Users
+[#h3_applet_users_introduction]
+= Introduction
 //= ({guide_no}.{counter2:chapter_no_user_guide}{chapter_no_user_guide}) Applet Users
 
 //== ({counter2:guide_no}{guide_no}.{counter2:chapter_no_user_guide:2}{chapter_no_user_guide}) Applet Users

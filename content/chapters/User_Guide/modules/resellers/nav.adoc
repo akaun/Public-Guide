@@ -1,1 +1,2 @@
-* xref:00_index.adoc[Resellers]
+* Resellers
+** xref:introduction.adoc[Introduction]

@@ -1,3 +1,0 @@
-[#h2_applet_users]
-= Applet Users
-include::introduction.adoc[leveloffset=3]

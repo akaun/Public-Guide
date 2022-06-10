@@ -1,0 +1,15 @@
+[#h2_retail_chainstores_industry]
+= Retail Chainstores
+
+
+include::pages/overview.adoc[leveloffset=3]
+
+include::pages/solutions.adoc[leveloffset=3]
+
+include::pages/stories.adoc[leveloffset=3]
+
+include::pages/faqs.adoc[leveloffset=3]
+
+
+
+

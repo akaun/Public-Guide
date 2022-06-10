@@ -1,3 +1,0 @@
-[#h2_process_automation_module]
-= Process Automation Module
-

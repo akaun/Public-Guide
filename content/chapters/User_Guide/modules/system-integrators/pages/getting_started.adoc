@@ -1,5 +1,5 @@
 [#h3_system_integrations_getting_started]
-== Getting Started
+= Getting Started
 
 This guide is meant for system integrators who are NOT developing Akaun Applets, third party system integrators refer to developers intending to consume the Akaun API. 
 

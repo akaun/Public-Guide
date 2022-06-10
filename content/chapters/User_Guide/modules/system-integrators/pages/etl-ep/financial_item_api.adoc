@@ -1,6 +1,6 @@
-[#h4_financial_item_api]
-===== Financial Item API 
-Financial item is storing every type of item including inventory/non inventory product, voucher, warranty etc. In order to create sales order or product syncing from marketplace, the item need to be created and store in financial item table. Financial Item container consists of three tables for data storing which are:
+[#h4_financial_item]
+==Sales order
+These links are documentation on sales order api
 
 * bl_fi_mst_item_hdr
 ** consist of details of the item 

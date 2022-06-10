@@ -1,5 +1,7 @@
 [#h3_applet_store_introduction]
-==== Introduction
+= Introduction
 
-include::intro_description.adoc[]
+image::applet_store_logo.png[]
+
+include::intro_description.adoc[leveloffset=3]
 

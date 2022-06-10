@@ -1,5 +1,5 @@
 [#h3_media_library_personalization]
-==== Personalization
+= Personalization
 
 
 

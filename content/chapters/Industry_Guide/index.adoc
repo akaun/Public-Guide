@@ -1,13 +1,13 @@
 [#h1_industry_guide]
 == Industry Guide
 
-include::modules/consumer-electronics/pages/00_index.adoc[leveloffset=2]
-include::modules/pharmacies/pages/00_index.adoc[leveloffset=2]
-include::modules/car-workshops/pages/00_index.adoc[leveloffset=2]
-include::modules/retail-chainstores/pages/00_index.adoc[leveloffset=2]
-include::modules/logistics/pages/00_index.adoc[leveloffset=2]
-include::modules/manufacturing/pages/00_index.adoc[leveloffset=2]
-include::modules/pet-industry/pages/00_index.adoc[leveloffset=2]
+include::modules/consumer-electronics/index.adoc[leveloffset=2]
+include::modules/pharmacies/index.adoc[leveloffset=2]
+include::modules/car-workshops/index.adoc[leveloffset=2]
+include::modules/retail-chainstores/index.adoc[leveloffset=2]
+include::modules/logistics/index.adoc[leveloffset=2]
+include::modules/manufacturing/index.adoc[leveloffset=2]
+include::modules/pet-industry/index.adoc[leveloffset=2]
 
 
 <<<<<<<<<<<

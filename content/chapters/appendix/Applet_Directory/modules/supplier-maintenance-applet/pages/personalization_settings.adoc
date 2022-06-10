@@ -1,5 +1,5 @@
 [#h3_supplier_maintenance_personalization]
-==== Personalization
+= Personalization
 
 
 

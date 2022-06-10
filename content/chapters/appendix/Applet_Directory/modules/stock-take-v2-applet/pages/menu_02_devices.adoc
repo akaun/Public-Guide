@@ -1,5 +1,5 @@
 [#h3_stock_take_v2_devices]
-==== Menu 02 - Devices
+= Menu 02 - Devices
 
 2.1 Go to the device menu to create Device. The Device will be used to assign to the stock take session
 
