@@ -1,5 +1,5 @@
 [#h3_applet_dev_inactive_applet]
-==== Inactive Applet
+= Inactive Applet
 
 An inactive applet is taken out from the applet store, but they are NOT deleted from the system yet.
 

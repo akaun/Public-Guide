@@ -1,5 +1,5 @@
 [#h3_cp_commerce_unique_value_proposition]
-==== CP Commerce - Unique Value Proposition
+= CP Commerce - Unique Value Proposition
 
 
 

@@ -1,5 +1,5 @@
 [#h3_pgw_name_unique_value_proposition]
-==== Payment Gateway Module - Unique Value Proposition
+= Payment Gateway Module - Unique Value Proposition
 
 
 

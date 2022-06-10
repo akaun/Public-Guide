@@ -1,5 +1,5 @@
 [#h3_datalake_unique_value_proposition]
-==== Datalake - Unique Value Proposition
+= Datalake - Unique Value Proposition
 
 
 

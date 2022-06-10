@@ -1,5 +1,5 @@
 [#h3_cp_commerce_product_maintenance]
-==== Product Maintenance
+= Product Maintenance
 
 * Basic Product
 * Group Product (variants)

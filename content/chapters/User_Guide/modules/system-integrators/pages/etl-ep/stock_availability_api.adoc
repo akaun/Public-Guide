@@ -1,5 +1,5 @@
-[#h4_stock_availability_api]
-===== Stock Availability API
+[#h3_system_integrations_stock_availability_api]
+== Stock Availability API
 
 This api to get stock availability of the product which synced from marketplace. To get stock availability, you may refer to Ecomsync Item Api(xref:h4_ecomsync_item_api[xrefstyle=full]). The stock availability is stored in bl_fi_mst_ecomsync_item_hdr.qty_balance. 
 

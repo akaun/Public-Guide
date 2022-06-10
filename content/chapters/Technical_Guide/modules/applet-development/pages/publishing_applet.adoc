@@ -1,5 +1,5 @@
 [#h3_applet_dev_publishing_an_applet]
-==== Publishing an Applet
+= Publishing an Applet
 
 * Logo design
 * Applet Description

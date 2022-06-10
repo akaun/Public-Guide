@@ -1,5 +1,5 @@
 [#h3_customer_data_platform_related_applets]
-==== Customer Data Platform - Related Applets
+= Customer Data Platform - Related Applets
 
 
 

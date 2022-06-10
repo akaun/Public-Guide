@@ -1,5 +1,5 @@
-[#h4_sales_order_api]
-===== Sales order API
+[#h3_sales_order]
+==Sales order
 
 Sales order consists of five tables for data storing which are:
 
@@ -26,6 +26,7 @@ Calculation in line level:
 include::genDocLinePricingCalc.csv[]
 |===
 
+<<<<<<< HEAD
 ====== Create sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
 
@@ -36,6 +37,27 @@ https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-inte
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
 
 ====== Get sales order by guid
+=======
+* What if there's membership points to be rewarded? 
+
+* To understand the difference between the txn_class = PNS vs STL_MTHD
+** See this google spreadsheet https://docs.google.com/spreadsheets/d/1_1ETNP4arvLpL5T_fI2A3xrnyfq7Lw8g7X-v46XdVyg/edit#gid=0
+** Athirah, please get the video recording of this google spreadsheet discussion from Aida and paste here.
+
+
+===Create sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
+
+
+===Update sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep
+
+===Get all sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
+
+
+===Get sales order by specific guid
+>>>>>>> 56c6e97 (restructured)
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0c36501cddfbf-internal-sales-order-get-by-guid-etl-ep
 
 [#h5_frequently asked questions]

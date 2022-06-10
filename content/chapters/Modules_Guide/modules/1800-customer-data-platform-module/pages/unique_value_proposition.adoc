@@ -1,5 +1,5 @@
 [#h3_customer_data_platform_unique_value_proposition]
-==== Customer Data Platform - Unique Value Proposition
+= Customer Data Platform - Unique Value Proposition
 
 
 

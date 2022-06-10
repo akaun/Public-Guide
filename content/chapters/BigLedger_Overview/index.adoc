@@ -2,7 +2,7 @@
 == BigLedger Overview
 
 
-include::modules/intro/pages/00_index.adoc[]
+include::modules/intro/pages/00_index.adoc[leveloffset=2]
 
 
 

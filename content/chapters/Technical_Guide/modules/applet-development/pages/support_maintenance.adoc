@@ -1,4 +1,4 @@
 [#h3_applet_dev_support_maintenance]
-==== Support and Maintenance of Applet
+= Support and Maintenance of Applet
 
 

@@ -1,15 +1,15 @@
 [#h2_core_introduction]
-==== Introduction
+= Introduction
 
 This Section provide you a high level overview of what is in the "Core Module", so that you have a good understanding of how various applets work together. For the detail user guide for each of the applet, you may click on the links below, and drill down for further details.
 
 [#h4_core_overview]
-===== Overview
+== Overview
 
 "Core Module" is the only module that is depended by all other modules in the system.
 
 [#h4_core_module_applets]
-===== Core Module Applets
+== Core Module Applets
 
 The core module consiste of the following applets:
 
@@ -34,20 +34,20 @@ The core module consiste of the following applets:
 * xref:h2_supplier_maintenance_applet[xrefstyle=full]
 
 [#h4_core_features_and_functions]
-===== Core Module Features and Functions
+== Core Module Features and Functions
 
 The "Core Module" is the foundation of all other applets. 
 
 
 
-===== What's New
+== What's New
 
 
 
-===== Getting Started
+== Getting Started
 
 
 
-===== Module Dependencies
+== Module Dependencies
 
 
