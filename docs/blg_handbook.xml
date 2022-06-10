@@ -44,8 +44,44 @@ To view this in other formats, click on the following:</simpara>
 <section xml:id="h2_bigledger_overview">
 <title>BigLedger BigPicture</title>
 <section xml:id="h3_bigledger_overview_introduction">
-<title>Overview - Introduction</title>
-<simpara>To view this in other formats, click on the following:</simpara>
+<title>Introduction</title>
+<simpara>This documentation consist of two parts:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>BigLedger <link xl:href="https://dictionary.cambridge.org/dictionary/english/handbook">Handbook</link><?asciidoc-br?>
+For public users wanting to learn about BigLedger Akaun Platform. Click <link xl:href="https://playbook.akaun.com/handbook/index.html">here</link> to access.</simpara>
+</listitem>
+<listitem>
+<simpara>BigLedger <link xl:href="https://dictionary.cambridge.org/dictionary/english/blueprint">Blueprint</link><?asciidoc-br?>
+For BigLedger employees only. Click <link xl:href="https://playbook.akaun.com/bigdoc/index.html">here</link> to access.</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_getting_started">
+<title>Getting Started</title>
+<simpara>Before you rush into learning how to use the Akaun Platform, we strongly recommend that you refer to the following chapters to grasp the high level overview of what the Akaun Platform can do for you as follows:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h3_industry_guide_introduction"/><?asciidoc-br?>
+This guide provide you an in-depth case study of the problems faced by consumer electronics, car repair workshops, logistics, manufacturing, healthcare and retail businesses and how they might be able to solve their problems using the Akaun Platform.</simpara>
+</listitem>
+<listitem>
+<simpara>Modules Guide</simpara>
+</listitem>
+<listitem>
+<simpara>User Guide</simpara>
+</listitem>
+<listitem>
+<simpara>Technical Guide</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_speak_to_us">
+<title>Speak To Us</title>
+<simpara>==</simpara>
+</section>
+<section xml:id="_downloads">
+<title>Downloads</title>
+<simpara>If you would like to download the <emphasis role="strong">BigLedger Handbook</emphasis> for offline reading or prefer to read the BigLedger Handbook using your favourite Epub reader, you may download from the links below.</simpara>
 <itemizedlist>
 <listitem>
 <simpara><link xl:href="blg_handbook.pdf">PDF Format</link></simpara>
@@ -57,6 +93,92 @@ To view this in other formats, click on the following:</simpara>
 <simpara><link xl:href="blg_handbook.html">Single File HTML</link></simpara>
 </listitem>
 </itemizedlist>
+</section>
+</section>
+<section xml:id="h3_bigledger_overview_background">
+<title>Background</title>
+<simpara>Founded in 2017, the company name "BigLedger" carry the meaning of "<emphasis role="strong">Big</emphasis> Data" + "Financial <emphasis role="strong">Ledger</emphasis>", it has grown from an idea of combining structured and unstructured data with the financial data to an operational data lake platform that could be used by big enterprises as well as small and medium businesses.</simpara>
+<simpara>BigLedger started with the intention to solve one of the biggest problem faced by businesses, which is to integrate various systems, namely:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Accounting Software</simpara>
+</listitem>
+<listitem>
+<simpara>Customer Relationship Management System</simpara>
+</listitem>
+<listitem>
+<simpara>Point of Sales</simpara>
+</listitem>
+<listitem>
+<simpara>Marketplace Integration</simpara>
+</listitem>
+<listitem>
+<simpara>Human Resource System</simpara>
+</listitem>
+<listitem>
+<simpara>Issue Tracker</simpara>
+</listitem>
+<listitem>
+<simpara>Project Management</simpara>
+</listitem>
+<listitem>
+<simpara>Digital Marketing</simpara>
+</listitem>
+<listitem>
+<simpara>Sales Force Automation</simpara>
+</listitem>
+<listitem>
+<simpara>Procurement System</simpara>
+</listitem>
+<listitem>
+<simpara>E-Commerce Applications</simpara>
+</listitem>
+<listitem>
+<simpara>Mobile Apps</simpara>
+</listitem>
+<listitem>
+<simpara>Membership Program (Customer Loyalty Systems)</simpara>
+</listitem>
+<listitem>
+<simpara>Warehouse Management</simpara>
+</listitem>
+<listitem>
+<simpara>Inventory Management Software</simpara>
+</listitem>
+<listitem>
+<simpara>Logistics and Delivery</simpara>
+</listitem>
+<listitem>
+<simpara>Contact Center System</simpara>
+</listitem>
+<listitem>
+<simpara>Taxation</simpara>
+</listitem>
+<listitem>
+<simpara>Customer Helpdesk</simpara>
+</listitem>
+<listitem>
+<simpara>&#8230;&#8203;. and many more</simpara>
+</listitem>
+</itemizedlist>
+<simpara>We are thankful to our customers that embark the BigLedger journey with us as follows:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="blg_customer_logos_2022_06.jpg"/>
+</imageobject>
+<textobject><phrase>2022 BigLedger Customer Logos</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Born in the cloud, the BigLedger <emphasis role="strong">operational data lake</emphasis> connect all parts of a business into an intelligent suite on a fully digital platform and is capable of replacing process-driven, legacy platforms. The "Akaun Platform" is also officially recognized as the winner of APICTA (Asia Pacific ICT Award) in the Business Services Category as follows:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="apicta_2021_akaun_platform.png"/>
+</imageobject>
+<textobject><phrase>Apicta Award 2021</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -245,6 +367,36 @@ using the BigLedger platform.</simpara>
 </chapter>
 <chapter xml:id="h1_industry_guide">
 <title>Industry Guide</title>
+<section xml:id="h2_industry_guide">
+<title>Overview</title>
+<section xml:id="h3_industry_guide_introduction">
+<title>Industry Guide - Introduction</title>
+<simpara>For each of the following industry covered in this guide, we provide you with the following:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Background</simpara>
+</listitem>
+<listitem>
+<simpara>Identify the problems, goals</simpara>
+</listitem>
+<listitem>
+<simpara>Assumptions</simpara>
+</listitem>
+<listitem>
+<simpara>Evaluation of the case (finding the root cause)</simpara>
+</listitem>
+<listitem>
+<simpara>Proposed solution / changes and compare with alternate solutions.</simpara>
+</listitem>
+<listitem>
+<simpara>Recommendations with reasons and justifications</simpara>
+</listitem>
+<listitem>
+<simpara>Appendices (charts , financials , visuals)</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
 <section xml:id="h2_consumer_electronics_industry">
 <title>Consumer Electronics Industry</title>
 <section xml:id="h3_consumer_electronics_overview">
@@ -435,7 +587,7 @@ using the BigLedger platform.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started">
+<section xml:id="_getting_started_2">
 <title>Getting Started</title>
 
 </section>
@@ -603,7 +755,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_2">
+<section xml:id="_getting_started_3">
 <title>Getting Started</title>
 
 </section>
@@ -761,7 +913,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_3">
+<section xml:id="_getting_started_4">
 <title>Getting Started</title>
 
 </section>
@@ -919,7 +1071,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_4">
+<section xml:id="_getting_started_5">
 <title>Getting Started</title>
 
 </section>
@@ -1077,7 +1229,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_5">
+<section xml:id="_getting_started_6">
 <title>Getting Started</title>
 
 </section>
@@ -1235,7 +1387,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_6">
+<section xml:id="_getting_started_7">
 <title>Getting Started</title>
 
 </section>
@@ -1393,7 +1545,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_7">
+<section xml:id="_getting_started_8">
 <title>Getting Started</title>
 
 </section>
@@ -1597,7 +1749,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_8">
+<section xml:id="_getting_started_9">
 <title>Getting Started</title>
 
 </section>
@@ -1786,7 +1938,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_9">
+<section xml:id="_getting_started_10">
 <title>Getting Started</title>
 
 </section>
@@ -1948,7 +2100,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_10">
+<section xml:id="_getting_started_11">
 <title>Getting Started</title>
 
 </section>
@@ -2106,7 +2258,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_11">
+<section xml:id="_getting_started_12">
 <title>Getting Started</title>
 
 </section>
@@ -2264,7 +2416,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_12">
+<section xml:id="_getting_started_13">
 <title>Getting Started</title>
 
 </section>
@@ -2729,7 +2881,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_13">
+<section xml:id="_getting_started_14">
 <title>Getting Started</title>
 <itemizedlist>
 <listitem>
@@ -3137,7 +3289,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_14">
+<section xml:id="_getting_started_15">
 <title>Getting Started</title>
 
 </section>
@@ -3302,7 +3454,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_15">
+<section xml:id="_getting_started_16">
 <title>Getting Started</title>
 
 </section>
@@ -3460,7 +3612,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_16">
+<section xml:id="_getting_started_17">
 <title>Getting Started</title>
 
 </section>
@@ -3618,7 +3770,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_17">
+<section xml:id="_getting_started_18">
 <title>Getting Started</title>
 
 </section>
@@ -3781,7 +3933,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_18">
+<section xml:id="_getting_started_19">
 <title>Getting Started</title>
 
 </section>
@@ -3939,7 +4091,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_19">
+<section xml:id="_getting_started_20">
 <title>Getting Started</title>
 
 </section>
@@ -4106,7 +4258,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 <title>What&#8217;s New</title>
 
 </section>
-<section xml:id="_getting_started_20">
+<section xml:id="_getting_started_21">
 <title>Getting Started</title>
 
 </section>
