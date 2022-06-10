@@ -4,7 +4,7 @@
 This guide is meant for system integrators who are NOT developing Akaun Applets, third party system integrators refer to developers intending to consume the Akaun API. 
 
 [#h4_developer_account_registration_and_configuration]
-===== Developer Account Registration and Configuration
+== Developer Account Registration and Configuration
 
 Akaun provides various environment for developers to test, stage and deploy into production. 
 
@@ -100,7 +100,7 @@ image::create_access_key_and_access_id_3.png[align="center"]
 
 
 [#h4_understanding_akaun_applet_platform]
-===== Understanding Akaun Applet Platform
+== Understanding Akaun Applet Platform
 
 
 // [#h5_akaun_platform_system_diagram]
@@ -113,7 +113,7 @@ image::create_access_key_and_access_id_3.png[align="center"]
 *Using the API Reference*
 
 [#h4_api_testing]
-===== API Testing
+== API Testing
  
 // [#h5_software_tools_to_test_apis]
 *Software Tools to test the APIs*
@@ -172,7 +172,7 @@ image::Authtoken_api.png[align="center"]
 *c. Sales Order API*
  
 [#h4_understanding_triggers_and_web_hooks]
-===== Understanding Triggers and Web hooks
+== Understanding Triggers and Web hooks
 
 When you are integrating with the Akaun Platform, instead of polling the APIs with repetitive schedulers, it is possible for the system integrators to be using Web Hooks for more efficient integrations.
 
@@ -191,10 +191,10 @@ For any kind of event such as creating vouchers or creating Items:
  
 
 // [#h6_Webhook_topic_apis]
-// =======Webhook Topics APIs
+// ====Webhook Topics APIs
 
 // [#h7_get_webhook_topics]
-// ========GET Webhook Topics
+// =====GET Webhook Topics
 
 // Webhook topics are created automatically when a new tenant is created.
 
@@ -233,7 +233,7 @@ For any kind of event such as creating vouchers or creating Items:
 // |===
 
 // [#h7_create_webhook_topic]
-// ========CREATE Webhook Topic
+// =====CREATE Webhook Topic
 
 // Notice: Webhook topics are defined by BigLedger backend team, please confirm webhook topic codes with @Ahmed Hassan before creating new API.
 
@@ -263,7 +263,7 @@ For any kind of event such as creating vouchers or creating Items:
 
 
 [#h4_virtual_etl_applet]
-===== Virtual ETL Applet
+== Virtual ETL Applet
 Virtual Etl applet is an applet which for setting purpose including organization of the permission for etl APIs. Platform Sysadmin will be in charge of installing the the applet and granting necessary permission to access etl APIs.
 
 Once the permission granted, the user may try to access the endpoint to ensure the permissions are successfully granted. The user also may visit this applet to see the list of permission being granted. 
