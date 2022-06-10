@@ -1,7 +1,10 @@
-[#h3_system_integrations]
+[#h3_system_integrators]
 = System Integrators
 
-Guide for system integrators.
+include::getting_started.adoc[]
+
+include::etl-ep/000_index.adoc[]
+
 
 
 
@@ -16,4 +19,3 @@ Guide for system integrators.
 
 
 // This is the page break
-<<<<<<<<<<<

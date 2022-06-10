@@ -1,0 +1,11 @@
+[#h3_list_of_etl_endpoints]
+==== List of ETL Endpoints
+
+These are list of etl endpoint with description. In order to use the api, please ensure you have the access key and access id. If you do not yet create access key and access id, please refer to this link (xref:h4_developer_account_registration_and_configuration[xrefstyle=full] )
+
+The links of api will leads to stoplight documentation website for reference and testing purpose
+
+include::financial_item_api.adoc[]
+include::ecomsync_item.adoc[]
+include::stock_availability_api.adoc[]
+include::sales_order_api.adoc[]

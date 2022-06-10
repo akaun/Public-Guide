@@ -1,0 +1,173 @@
+Generic Doc Line,remarks,formula
+unit_price_std,taken from bl_fi_mst_pricing_scheme_hdr with uom etc,"1) user use unit_price_by_uom
+unit_price_std = unit_price_by_uom / uom_to_base_ratio
+
+2) user key in amount_std
+unit_price_std = amount_std / qty_base
+
+3) user key in amount_net, amount_disc, or other fields
+unit_price not changing, because it is taken from the base-uom and pricing scheme"
+unit_discount,"This is not stored in the DATABASE, only showed in the angular ui.
+In case the user prefer to key in unit_discount INSTEAD of amount_disc, we can do the formula accordingly.","1) user key in unit_discount
+* just take what user key in
+
+2) user key in amount_disc
+unit_discount = round_2dec( amount_disc / qty)
+
+3) user key amount_net
+unit_discount = round_2dec ( unit_price_std - amount_net / qty )
+
+4)user key in amount_txn
+=>
+amount_net = amount_txn - amount_tax_gst + amount_tax_wht
+
+unit_discount = unit_price_std - round_2dec(amount_txn - amount_tax_gst + amount_tax_wht) / qty
+unit_discount = unit_price_std - round_2dec(amount_txn / ((1 + gst_percent - wht_percent) * qty))
+
+5) user key in unit_disc_by_uom
+unit_discount = round_2dec (unit_disc_by_uom / uom_to_base_ratio)
+
+6) user key in unit_price_by_uom
+unit_discount = unit_disc_by_uom
+= unit_price - round_2dec(unit_price_by_uom/uom_to_base_ratio)
+
+"
+qty_base,"for basic item, user can key the qty, but for certain other document, like sales invoice, and if serialized is enabled, they will choose from the list of serial number and the qty will be recalculated","1) user key in qty_base
+qty_base = take from value that user key in
+2) user key in uom_qty
+qty_base = uom_qty * uom_to_base_ratio"
+uom,,"BASEUOM, BOX , STRIPE etc......."
+uom_to_base_ratio,,"1) This is copied from the UOM setting in Doc Item Maintenance
+
+2) user key in unit_price
+unit_price_by_uom = unit_price * uom_to_base_ratio
+"
+unit_price_by_uom,,"1) This is copied from the Pricing Scheme by UOM in the Doc Item Maintenance
+
+2) user key in unit_price
+
+unit_price_by_uom = unit_price * base_ratio
+
+3) user key in amount_std?
+
+unit_price_by_uom = round_2dec(amount_std * uom_to_base_ratio / qty_base)
+
+"
+unit_disc_by_uom,,"1) user key in unit_disc_by_uom
+unit_disc_by_uom = whatever user key in
+
+2) user key in unit_discount
+unit_disc_by_uom = unit_discount * uom_to_base_ratio
+
+2) user key in amount_disc
+unit_disc_by_uom = round_2dec( amount_disc* uom_to_base_ratio / qty_base)
+
+3) user key amount_net
+unit_disc_by_uom = round_2dec ( unit_price_by_uom - amount_net * uom_to_base_ratio / qty )
+
+4)user key in amount_txn
+=>
+amount_net = amount_txn - amount_tax_gst + amount_tax_wht
+
+unit_disc_by_uom = unit_price_std - round_2dec (amount_txn - amount_tax_gst + amount_tax_wht) *uom_to_base_ratio / qty"
+qty_by_uom,,"1) user key in qty_base
+uom_qty = qty_base / uom_to_base_ratio
+
+2) user key in uom_qty
+uom_qty = take from value that user key in"
+amount_std,qty x unit_price,"There are 2 ways to calculate , either way will result in the same answer:
+1) user key in or modify the unit_price_std
+amount_std = unit_price_std * qty_base
+
+2) user key in or modify the unit_price_by_uom or qty_by_uom
+amount_std = unit_price_by_uom * qty_by_uom
+
+"
+amount_disc,"If user key in unit_discount, then we will calculate this as qty x unit_discount
+if user can key in amount_disc manually (remember, this IS NOT unit discount)
+if user key in amount_net => calculated from amount_std - amount_net","1) user key in unit_discount
+amount_disc = unit_discount * qty
+
+2) user key in amount_disc
+* just take what user key in
+
+3) user key amount_net
+amount_disc = amount_std - amount_net
+
+4)user key in amount_txn
+Tips:
+amount_net = amount_txn - amount_tax_gst + amount_tax_wht
+
+amount_disc = amount_std - (amount_txn - amount_tax_gst + amount_tax_wht)
+amount_disc = amount_std - (amount_txn / (1 + gst_percent -wht_percent)) 
+
+5) user key in unit_disc_by_uom
+amount_disc = unit_disc_by_uom * qty_by_uom
+"
+amount_net,amount_std - amount_disc,"1) user key in unit_discount
+amount_net = (unit_price_std - unit_discount) * qty
+
+2) user key in amount_disc
+amount_net = unit_price_std* qty - amount_disc
+
+3) user key amount_net
+* just take what user key in
+
+4) user key in amount_txn
+Tips:
+amount_tax_gst = gst_pct * amount_net ........ (4.1)
+amount_tax_wht = wht_pct * amount_net....... (4.2)
+amount_txn = amount_net + amount_tax_gst - amount_tax_wht ...... (4.3)
+
+so.... substitute (4.1) and (4.2) into (4.3)
+
+amount_txn = amount_net + gst_pct * amount_net - wht_pct * amount_net 
+amount_txn = amount_net (1+ gst_pct - wht_pct ) 
+
+amount_net = round_2dec(amount_txn / (1+ gst_pct - wht_pct)) ... QED
+amount_tax_gst = amount_net * gst_pct
+
+
+5) user key in unit_disc_by_uom
+amount_net = (unit_price_by_uom - unit_disc_by_uom) * qty_by_uom
+
+"
+gst_percent,,
+amount_tax_gst,amount_net x 6% gst as example,"1) User key in amount_net
+amount_tax_gst = round_2dec ( gst_percent * amount_net)
+
+2) User key amount_txn
+amount_tax_gst = round_2dec(amount_txn / (1+ gst_pct - wht_pct)) * gst_percent
+
+"
+wht_percent,,
+amount_tax_wht,amount_net x 6% wht as example,amount_tax_wht = round_2dec ( wht_percent * amount_net)
+unit_price_txn,amount_txn / qty_base,"1) user key in amount_txn
+unit_price_txn = amount_txn / quantity_base"
+amount_txn,amount_net + amount_tax_gst,"1) user key in unit_discount
+amount_txn = round_2dec ((unit_price_std - unit_discount) * qty * (1+gst_pct - wht_pct) )
+OR
+amount_txn = amount_net + amount_tax_gst - amount_tax_wht
+
+2) user key in amount_disc
+amount_net = unit_price_std* qty - amount_disc ...... (2.1)
+amount_txn = amount_net + amount_tax_gst - amount_tax_wht ....... (2.2)
+substitute (2.1) into (2.2)
+
+amount_txn = unit_price_std* qty - amount_disc + amount_tax_gst - amount_tax_wht
+
+3) user key amount_net
+amount_txn = amount_net + amount_tax_gst - amount_tax_wht ....... (3.1)
+amount_tax_gst = round_2dec (. gst_pct * amount_net )........ (3.2)
+amount_tax_wht = round_2dec (wht_pct * amount_net.)...... (3.3)
+Subsitute (3.2) and (3.3) into (3.1)
+amount_txn = amount_net + gst_pct * amount_net - wht_pct * amount_net
+Then factorize the amount_net, you will get the following:
+amount_txn = amount_net * (1+ gst_pct - wht_pct)
+
+4)user key in amount_txn
+* just take the value  
+
+5) user key in unit_price_txn
+amount_txn = unit_price_txn * qty_base
+"
