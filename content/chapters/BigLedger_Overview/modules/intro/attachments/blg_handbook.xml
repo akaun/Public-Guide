@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-06-09</date>
+<date>2022-06-10</date>
 <author>
 <personname>
 <firstname>v1.3</firstname>
@@ -7068,7 +7068,7 @@ image::records_tab.png[]</simpara>
 <simpara><xref linkend="h2_organization_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_inv_item_maintenance_applet"/></simpara>
+<simpara><xref linkend="h2_inventory_item_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_doc_item_maintenance_applet"/></simpara>

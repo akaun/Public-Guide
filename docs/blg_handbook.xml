@@ -563,7 +563,7 @@ using the BigLedger platform.</simpara>
 <simpara><xref linkend="h2_cashbook_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_inv_item_maintenance_applet"/></simpara>
+<simpara><xref linkend="h2_inventory_item_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_entity_maintenance_applet"/></simpara>
@@ -6109,7 +6109,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 
 </section>
 </section>
-<section xml:id="h2_inv_item_maintenance_applet">
+<section xml:id="h2_inventory_item_maintenance_applet">
 <title>Inventory Item Maintenance Applet</title>
 <section xml:id="h3_inv_item_maintenance_introduction">
 <title>Introduction</title>
@@ -7051,7 +7051,7 @@ image::records_tab.png[]</simpara>
 <simpara><xref linkend="h2_organization_applet"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_inv_item_maintenance_applet"/></simpara>
+<simpara><xref linkend="h2_inventory_item_maintenance_applet"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_doc_item_maintenance_applet"/></simpara>
