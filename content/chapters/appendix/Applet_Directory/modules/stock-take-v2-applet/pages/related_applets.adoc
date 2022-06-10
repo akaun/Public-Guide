@@ -1,12 +1,14 @@
-[#h3_stock_take_v2_related_applets]
-==== Related Applets
+[#h4_stock_take_v2_related_applets]
+===== Related Applets
 
 This applet also depends on the following applets:
 
 // * xref:reference_anchor_id[xrefstyle=full] 
-* Applet 1
+* xref:h2_organization_applet[xrefstyle=full] 
 
-* Applet 2
+* xref:h2_inv_item_maintenance_applet[xrefstyle=full]
+
+* xref:h2_doc_item_maintenance_applet[xrefstyle=full]
 
 
 The following applets depends on this applet:
@@ -16,4 +18,3 @@ The following applets depends on this applet:
 * Applet 4
 
 Also see
-

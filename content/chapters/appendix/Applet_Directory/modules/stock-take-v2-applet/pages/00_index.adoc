@@ -6,9 +6,11 @@ include::introduction.adoc[]
 
 include::modules.adoc[]
 
-include::menu_01_sales_order_listing.adoc[]
+include::menu_01_stock_take_session.adoc[]
 
-include::menu_02_line_items.adoc[]
+include::menu_02_devices.adoc[]
+
+include::menu_03_reports.adoc[]
 
 include::permission_settings.adoc[]
 
