@@ -1,12 +1,6 @@
 [#h3_system_integrators]
 = System Integrators
 
-include::getting_started.adoc[]
-
-include::etl-ep/000_index.adoc[]
-
-
-
 
 [#h4_system_integrations_section_1]
 == Section 1
