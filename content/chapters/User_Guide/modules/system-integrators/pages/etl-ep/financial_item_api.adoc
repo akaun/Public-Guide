@@ -6,6 +6,7 @@ These links are documentation on sales order api
 ** consist of details of the item 
 ** the child item of the group item is considered as single item(basic_item)
 
+
 * bl_fi_mst_item_ext
 ** this table store extra information which not stored in header or line
 
@@ -18,6 +19,7 @@ https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5b75f5fe0e7aa-crea
 
 ====== Update Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/295784efab326-update-financial-item-etl
+
 
 ====== Get all Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0ee6f6e50f5e3-get-all-ecomsync-item-etl-ep

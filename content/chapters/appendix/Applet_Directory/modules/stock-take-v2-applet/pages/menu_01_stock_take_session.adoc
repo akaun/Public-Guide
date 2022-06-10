@@ -40,3 +40,4 @@ image::auto_save.png[]
 1.10 Once complete performing stock take, please go to the report tab. Filter by Report Type and click Search
 
 image::report_type.png[]
+
