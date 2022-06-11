@@ -3,4 +3,5 @@
 
 Go to the Personalization Menu to add or edit Profile
 
+
 image::personalization.png[]
