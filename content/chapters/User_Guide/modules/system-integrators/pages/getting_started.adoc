@@ -9,49 +9,37 @@ This guide is meant for system integrators who are NOT developing Akaun Applets,
 Akaun provides various environment for developers to test, stage and deploy into production. 
 
 |===
-|  | Sandbox | Staging |  Production: Akaun.com  | Production: Akaun.in |  Production: Akaun.cn
+|  | Sandbox | Staging |  Production: Akaun.com  
 
 | Custom Hostnames
 | *.akaun.xyz
 | *.akaun.app
 | *.akaun.net 
-| *.akauncom.in
-| *.akaun.com.cn 
 
 | Region
 | Singapore
 | Singapore
 | Singapore
-| India
-| China
 
-| status
+| Status
 | Live
 | Live
 | Live
-| FUTURE
-| FUTURE
 
 | Description
 | This is the developer sandbox to experiments , test and develop.
 | This is for UAT, Demo, Final testing before deployment to the production environment.
 | This is the global live environment.
-| This is the isolated environment for India market.
-| This is the isolated environment for China market.
 
 | Shell Website
 | https://akaun.dev  
 | https://akaun.cloud  
 | https://akaun.com
-| https://akaun.in 
-| https://akaun.cn 
 
 | API
 | api.akaun.dev 
 | api.akaun.cloud 
 | api.akaun.com
-| 
-| 
 
 |===
 
@@ -76,7 +64,6 @@ A new user should register an account at: https://akaun.com:
 // [#h5_vendor_and_developer_registration]
 *Vendor and Developer Registration*
 
-{empty} +
 // [#h5_registration_user_account_in_dev_env]
 *Registration of user account in development environment*
 
@@ -128,15 +115,15 @@ https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public
 
 |  Sandbox (development) 
 |  https://akaun.dev
-|  https://api.akaun.dev/{endpoint_url}
+|  https://api.akaun.dev/endpoint_url
 
 |  Staging environment
 |  https://akaun.cloud
-|  https://api.akaun.cloud/{endpoint_url}
+|  https://api.akaun.cloud/endpoint_url
 
 |  Production environment
 |  https://akaun.com 
-|  https://api.akaun.com/{endpoint_url}
+|  https://api.akaun.com/endpoint_url
 
 |===
 

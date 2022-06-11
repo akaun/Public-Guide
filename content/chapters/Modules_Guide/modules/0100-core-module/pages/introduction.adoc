@@ -53,7 +53,7 @@ ifndef::site-gen-antora[]
 * xref:h2_inventory_item_maintenance_applet[xrefstyle=full] 
 endif::[]
 ifdef::site-gen-antora[]
-* xref:handbook-applet-directory:inventory-item-applet:introduction.adoc[Inventory Item Maintenance Applet] 
+* xref:handbook-applet-directory:inventory-item-maintenance-applet:introduction.adoc[Inventory Item Maintenance Applet] 
 endif::[]
 
 ifndef::site-gen-antora[]

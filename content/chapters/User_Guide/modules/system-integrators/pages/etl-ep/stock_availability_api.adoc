@@ -1,7 +1,7 @@
-[#h3_system_integrations_stock_availability_api]
-== Stock Availability API
+[#h4_system_integrations_stock_availability_api]
+= Stock Availability API
 
-This api to get stock availability of the product which synced from marketplace. To get stock availability, you may refer to Ecomsync Item Api(xref:h4_ecomsync_item_api[xrefstyle=full]). The stock availability is stored in bl_fi_mst_ecomsync_item_hdr.qty_balance. 
+This api to get stock availability of the product which synced from marketplace. To get stock availability, you may refer to Ecomsync Item Api(xref:h4_system_integrators_ecomsync_item_api[xrefstyle=full]). The stock availability is stored in bl_fi_mst_ecomsync_item_hdr.qty_balance. 
 
 The different between stock availability and stock balance is stock availability is the stock which can be sold to customer while stock balance is the stock which exist/hold by the branch. Meaning if the stock has been ordered(sales order created), the stock will be deducted from stock availability as it is already booked for the customer. Once sales invoice created, the stock will also be deducted from stock balance.
 

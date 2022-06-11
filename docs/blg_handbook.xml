@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?asciidoc-toc maxdepth="3"?>
-<?asciidoc-numbered?>
+<?asciidoc-numbered maxdepth="4"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-06-09</date>
+<date>2022-06-12</date>
 <author>
 <personname>
 <firstname>v1.3</firstname>
@@ -322,6 +322,11 @@ using the BigLedger platform.</simpara>
 <title>Applet Developers</title>
 <section xml:id="h3_user_guide_applet_developers_introduction">
 <title>Introduction</title>
+<simpara>Welcome to BigLedger Applet Developer&#8217;s guide. This guide provide you the steps and information on the
+full software development lifecycle of developing an applet as well as launching, promoting and selling
+your applet in <emphasis role="strong">Akaun Store</emphasis>.</simpara>
+<simpara><emphasis role="strong">Akaun Applets</emphasis> provide businesses the ability to consume software in a modular way, cost effectively,
+without the pains of integrations.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
@@ -342,26 +347,773 @@ using the BigLedger platform.</simpara>
 </section>
 <section xml:id="h2_user_guide_system_integrators">
 <title>System Integrators</title>
-<section xml:id="h3_system_integrations">
-<title>System Integrators</title>
-<simpara>Guide for system integrators.</simpara>
-<section xml:id="h4_system_integrations_section_1">
-<title>Section 1</title>
-
+<section xml:id="h3_system_integrators_introduction">
+<title>Introduction</title>
+<simpara>Welcome to integrate with <emphasis role="strong">Akaun Platform</emphasis>! The possibilities are endless.
+This overview will cover everything you need to know to integrate
+with the BigLedger Data Lake</simpara>
+<simpara>There are a few ways you could integrate with the Akaun Platform:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>REST-api<?asciidoc-br?>
+Ready to use, anytime.
+You can use any programming languages, framework and tools to call the Akaun RESTful API.</simpara>
+</listitem>
+<listitem>
+<simpara>Webhook</simpara>
+</listitem>
+<listitem>
+<simpara>Python SDK<?asciidoc-br?>
+This will only be available from 2024.</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="h4_system_integrators_use_cases">
+<title>Use cases</title>
+<simpara>We work with various system integrators to integrate with Akaun Platform in the scenarios as follow:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>E-Commerce<?asciidoc-br?>
+E-commerce system providers would usually integrate to synchronize the following:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Product Information<?asciidoc-br?>
+E-Commerce would pull the the latest item code from Akaun Platform because typically, the latest information of the products (e.g. pricing, promotions etc) is maintained in the data lake.</simpara>
+</listitem>
+<listitem>
+<simpara>Sales Order Transactions<?asciidoc-br?>
+After an order is confirmed in the shopping cart, this need to be pushed into the data lake for fulfillment and delivery</simpara>
+</listitem>
+<listitem>
+<simpara>Customer Data<?asciidoc-br?>
+New users (email addresses) created in the shopping cart need to be sync back to the data lake</simpara>
+</listitem>
+<listitem>
+<simpara>Stock Availability<?asciidoc-br?>
+In order to prevent oversell situation where orders from the customers could not be delivered, resulting in bad customer experience, the e-commerce software will have to pull the stock availability information from the Akaun Platform.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Point of Sales<?asciidoc-br?></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Product Information<?asciidoc-br?>
+Similar to e-commerce, this information should flow from the Data Lake to the Point of Sales.</simpara>
+</listitem>
+<listitem>
+<simpara>Sales - Cash bills / Receipts<?asciidoc-br?>
+Generally, Point of Sales systems would send the Sales Receipts (Cash bills) transactional information to the Akaun platform.</simpara>
+</listitem>
+<listitem>
+<simpara>Customer Data<?asciidoc-br?>
+This information is usually consolidated and processed in the data lake platform</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Accounting System</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Sales Invoices, Sales Return, Credit Notes, Receipt Vouchers<?asciidoc-br?>
+As Akaun Platform is usually used for consolidating various operational data , including transactions with the customers, it is possible that these sales transactions are exported to certain accounting software for financial reporting.</simpara>
+</listitem>
+<listitem>
+<simpara>Purchase Invoices, Purchase Return, Credit Notes, Payment Vouchers<?asciidoc-br?>
+Likewise, transactions with the suppliers could also be exported to third party accounting system for financial reporting.</simpara>
+</listitem>
+<listitem>
+<simpara>Journal Transactions<?asciidoc-br?>
+As Akaun Platform is also capable of generating Journal Transactions, it is possible that instead of exporting transactional documents, only the journals are exported into third party accounting systems accordingly.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Membership Program</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Member Records<?asciidoc-br?>
+The data lake contains all member records, and it is also associated with various contact channels (Facebook, Whatsapp, Telegram, email, mobile phone etc).
+Third party Loyalty program could be pulling or pushing data into the Akaun Platform (both directions).</simpara>
+</listitem>
+<listitem>
+<simpara>Point Transaction Lines<?asciidoc-br?>
+If membership point calculations are done in the membership program, this information could be synced from the Membership program into the Akaun Platform, by doing so, businesses would be able to utilize this data in their e-commerce websites, mobile apps etc.</simpara>
+</listitem>
+<listitem>
+<simpara>Membership Point Control Account
+This table is used to store a list of membership points balance based on expiry dates. Internally, Akaun Platform could auto calculate and update this information and make it available for any third party loyalty program.</simpara>
+</listitem>
+<listitem>
+<simpara>Latest Membership Point Balance
+This table only store the latest membership point balance that is also calculated whenever new membership point transaction lines are inserted. This information could be used by Point of Sales or E-Commerce website to pull the information on a near real time basis.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Warehouse Management</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Purchase Orders<?asciidoc-br?>
+Usually, the purchase orders are issued from the Akaun Platform to the suppliers, and these Purchase Orders need to be synced to the WMS so that when the suppliers deliver the goods, the users will use the Warehouse Management System to enter the records of the goods received from the supplier, and subsequently compare and check this against the Purchase Order from within the WMS software itself. So, the usual direction of syncing for Purchase Order is from the Akaun Platform to the WMS system.</simpara>
+</listitem>
+<listitem>
+<simpara>Purchase - Goods Received Notes<?asciidoc-br?>
+As Goods Received Notes are usually created using the WMS system, this information is synced back to the Akaun Platform as inventory stock balance calculations are done in the Akaun Platform. The Goods Received Note synced to the Akaun Platform would also be used to generate the Internal Purchase Invoice document, for Account Payable calculations, self billing, GST / VAT (taxation) purposes.</simpara>
+</listitem>
+<listitem>
+<simpara>Sales Orders <?asciidoc-br?>
+The Akaun Platform consolidates the sales orders from E-Commerce, <emphasis role="strong">Conversational commerce</emphasis> , outlets (branches), marketplaces (e.g. Lazada and Shopee etc), these orders could be sent to the Warehouse Management System for picking , packing and delivery purposes.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Human Resource</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Sales related data<?asciidoc-br?>
+In order to calculate the sales commission, third party payroll or human resource software could extract the sales reports from the Akaun Platform for calculations and processing of payroll and automate the processes accordingly.</simpara>
+</listitem>
+<listitem>
+<simpara>Identity and Access Control<?asciidoc-br?>
+Whenever there&#8217;s a new employee joining or leaving, with the auto-import / export function, we would be able to ensure identity and access management could be automated.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Mobile Apps</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Statement of Account<?asciidoc-br?>
+Third party mobile apps developer could potentially be pulling the statement of account of specific customer and display it in the mobile app to provide a great user experience.</simpara>
+</listitem>
+<listitem>
+<simpara>Transaction history
+The transaction history would include all business documents, for example, Sales Order, Sales Invoice, Sales Return, Credit Note, Purchase Order, Purchase Invoice, Payment Voucher, Credit Note etc.</simpara>
+</listitem>
+<listitem>
+<simpara>Warranty Information
+Given a product serial number, it is possible to pull information from the Akaun Platform on the warranty expiry date and other information that may be useful for consumers.</simpara>
+</listitem>
+<listitem>
+<simpara>Sales Quotations
+Certain quotations would need to be approved by the customers, it is possible for the mobile apps developer to obtain this information for the customers to "approve" the Sales Quotation in order for the Sales Order or Job Order to be carried out.</simpara>
+</listitem>
+<listitem>
+<simpara>Sales Orders
+It is likely that the mobile app might want to pull information about the sales order history, and also be able to create a sales order directly into the Akaun Platform.</simpara>
+</listitem>
+<listitem>
+<simpara>Product Information
+If the mobile app would like to display a list of products and services (including images), the mobile apps would need to pull from Akaun Platform the product pricing, images, item code, item name and other information that is necessary.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
 </section>
-<section xml:id="h4_system_integrations_section_2">
-<title>Section 2</title>
-<simpara><?asciidoc-pagebreak?></simpara>
+<section xml:id="h4_system_integrators_benefits">
+<title>Benefits</title>
+
 </section>
 </section>
 <section xml:id="h3_system_integrations_getting_started">
 <title>Getting Started</title>
-<simpara>Please copy the content from the following URL:
-<link xl:href="https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/3271558668/Tenant+-+System+Integrators">https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/3271558668/Tenant+-+System+Integrators</link></simpara>
-<simpara>Need to talk about the Virtual ETL Applet
-* This part should be done by the Platform Sysadmin
-* The platform SysAdmin will install the Virtual ETL applet for you, and then grant you the necessary permissions, after this step is done, you may try out the selected endpoints that you have access to.</simpara>
+<simpara>This guide is meant for system integrators who are NOT developing Akaun Applets, third party system integrators refer to developers intending to consume the Akaun API.</simpara>
+<section xml:id="h4_developer_account_registration_and_configuration">
+<title>Developer Account Registration and Configuration</title>
+<simpara>Akaun provides various environment for developers to test, stage and deploy into production.</simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="6">
+<colspec colname="col_1" colwidth="16.6666*"/>
+<colspec colname="col_2" colwidth="16.6666*"/>
+<colspec colname="col_3" colwidth="16.6666*"/>
+<colspec colname="col_4" colwidth="16.6666*"/>
+<colspec colname="col_5" colwidth="16.6666*"/>
+<colspec colname="col_6" colwidth="16.667*"/>
+<thead>
+<row>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top">Sandbox</entry>
+<entry align="left" valign="top">Staging</entry>
+<entry align="left" valign="top">Production: Akaun.com</entry>
+<entry align="left" valign="top">Production: Akaun.in</entry>
+<entry align="left" valign="top">Production: Akaun.cn</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Custom Hostnames</simpara></entry>
+<entry align="left" valign="top"><simpara>*.akaun.xyz</simpara></entry>
+<entry align="left" valign="top"><simpara>*.akaun.app</simpara></entry>
+<entry align="left" valign="top"><simpara>*.akaun.net</simpara></entry>
+<entry align="left" valign="top"><simpara>*.akauncom.in</simpara></entry>
+<entry align="left" valign="top"><simpara>*.akaun.com.cn</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Region</simpara></entry>
+<entry align="left" valign="top"><simpara>Singapore</simpara></entry>
+<entry align="left" valign="top"><simpara>Singapore</simpara></entry>
+<entry align="left" valign="top"><simpara>Singapore</simpara></entry>
+<entry align="left" valign="top"><simpara>India</simpara></entry>
+<entry align="left" valign="top"><simpara>China</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>status</simpara></entry>
+<entry align="left" valign="top"><simpara>Live</simpara></entry>
+<entry align="left" valign="top"><simpara>Live</simpara></entry>
+<entry align="left" valign="top"><simpara>Live</simpara></entry>
+<entry align="left" valign="top"><simpara>FUTURE</simpara></entry>
+<entry align="left" valign="top"><simpara>FUTURE</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Description</simpara></entry>
+<entry align="left" valign="top"><simpara>This is the developer sandbox to experiments , test and develop.</simpara></entry>
+<entry align="left" valign="top"><simpara>This is for UAT, Demo, Final testing before deployment to the production environment.</simpara></entry>
+<entry align="left" valign="top"><simpara>This is the global live environment.</simpara></entry>
+<entry align="left" valign="top"><simpara>This is the isolated environment for India market.</simpara></entry>
+<entry align="left" valign="top"><simpara>This is the isolated environment for China market.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Shell Website</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.dev">https://akaun.dev</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.cloud">https://akaun.cloud</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.com">https://akaun.com</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.in">https://akaun.in</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.cn">https://akaun.cn</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>API</simpara></entry>
+<entry align="left" valign="top"><simpara>api.akaun.dev</simpara></entry>
+<entry align="left" valign="top"><simpara>api.akaun.cloud</simpara></entry>
+<entry align="left" valign="top"><simpara>api.akaun.com</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara><?asciidoc-br?>
+<emphasis role="strong">Registration of developer account</emphasis></simpara>
+<simpara>As a new developer, the developer should register an account in Production environment via the website: <link xl:href="https://akaun.com">https://akaun.com</link>. These are the brief registration steps:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Register an account using either email or phone number<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Activate account using 6 digits number</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="strong">Registration of user account in production environment</emphasis></simpara>
+<simpara>A new user should register an account at: <link xl:href="https://akaun.com">https://akaun.com</link>:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Register an account using either email or phone number<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Activate account using 6 digits number<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Login and install desired applets</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="strong">Vendor and Developer Registration</emphasis></simpara>
+<simpara><emphasis role="strong">Registration of user account in development environment</emphasis></simpara>
+<simpara>Similar to product environment, a new user register a development account at: <link xl:href="https://akaun.dev">https://akaun.dev</link></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Register an account using the same email or phone at <link xl:href="https://akaun.com">https://akaun.com</link><?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Activate account using 6 digits number<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Login and install desired applets<?asciidoc-br?></simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="strong">Obtaining access id and access key</emphasis></simpara>
+<simpara>These access key is required as credential to call etl endpoint. Please go to <link xl:href="https://akaun.prod">https://akaun.prod</link> (depending on the environment) and follow these step:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="create_access_key_and_access_id_1.png" align="center"/>
+</imageobject>
+<textobject><phrase>create access key and access id 1</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="create_access_key_and_access_id_2.png" align="center"/>
+</imageobject>
+<textobject><phrase>create access key and access id 2</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="create_access_key_and_access_id_3.png" align="center"/>
+</imageobject>
+<textobject><phrase>create access key and access id 3</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">System Integration Applet</emphasis></simpara>
+</section>
+<section xml:id="h4_understanding_akaun_applet_platform">
+<title>Understanding Akaun Applet Platform</title>
+<simpara><emphasis role="strong">Akaun Platform System Diagram</emphasis></simpara>
+<simpara><emphasis role="strong">Understanding various endpoint based permission schemes</emphasis></simpara>
+<simpara><emphasis role="strong">Using the API Reference</emphasis></simpara>
+</section>
+<section xml:id="h4_api_testing">
+<title>API Testing</title>
+<simpara><emphasis role="strong">Software Tools to test the APIs</emphasis></simpara>
+<simpara>Api Developers may test the api in stoplight documentation:
+<link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public</link></simpara>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Environment</simpara></entry>
+<entry align="left" valign="top"><simpara>Website URL</simpara></entry>
+<entry align="left" valign="top"><simpara>Api URL</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Sandbox (development)</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.dev">https://akaun.dev</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://api.akaun.dev/endpoint_url">https://api.akaun.dev/endpoint_url</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Staging environment</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.cloud">https://akaun.cloud</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://api.akaun.cloud/endpoint_url">https://api.akaun.cloud/endpoint_url</link></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Production environment</simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://akaun.com">https://akaun.com</link></simpara></entry>
+<entry align="left" valign="top"><simpara><link xl:href="https://api.akaun.com/endpoint_url">https://api.akaun.com/endpoint_url</link></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara><emphasis role="strong">Notice</emphasis>: AuthToken is refreshed every month, developers should get new authToken once every month(for testing api using authtoken**not applicable for etl endpoint).</simpara>
+<simpara>Below is the method to get authToken using sandbox (development) environment as an example</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Login into <link xl:href="https://akaun.dev">https://akaun.dev</link></simpara>
+</listitem>
+<listitem>
+<simpara>Right click on an empty space and choose “Inspect”</simpara>
+</listitem>
+<listitem>
+<simpara>Find “Local Storage” under “Storage” tag</simpara>
+</listitem>
+</itemizedlist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="Authtoken_api.png" align="center"/>
+</imageobject>
+<textobject><phrase>Authtoken api</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><?asciidoc-br?>
+<emphasis role="strong">Using the “System Integration Applet”</emphasis></simpara>
+<simpara><emphasis role="strong">Example of frequently used APIs</emphasis></simpara>
+<simpara><emphasis role="strong">a. Product API</emphasis></simpara>
+<simpara><emphasis role="strong">b. Customer API</emphasis></simpara>
+<simpara><emphasis role="strong">c. Sales Order API</emphasis></simpara>
+</section>
+<section xml:id="h4_understanding_triggers_and_web_hooks">
+<title>Understanding Triggers and Web hooks</title>
+<simpara>When you are integrating with the Akaun Platform, instead of polling the APIs with repetitive schedulers, it is possible for the system integrators to be using Web Hooks for more efficient integrations.</simpara>
+<simpara><emphasis role="strong">Webhooks</emphasis></simpara>
+<simpara><emphasis role="strong">a. Briefing on webhook</emphasis></simpara>
+<simpara>Webhooks are used in BigLedger to allow external integrations to be called whenever a particular event occurs. Usually, the event is an API call received by BigLedger.</simpara>
+<simpara>For any kind of event such as creating vouchers or creating Items:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>From BigLedger side, a topic of webhook is created<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>From external side, they will need to subscribe to those topics. And later when they do any operations like "create Item", the webhook will be triggered and they will get a response.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_virtual_etl_applet">
+<title>Virtual ETL Applet</title>
+<simpara>Virtual Etl applet is an applet which for setting purpose including organization of the permission for etl APIs. Platform Sysadmin will be in charge of installing the the applet and granting necessary permission to access etl APIs.</simpara>
+<simpara>Once the permission granted, the user may try to access the endpoint to ensure the permissions are successfully granted. The user also may visit this applet to see the list of permission being granted.</simpara>
+</section>
+</section>
+<section xml:id="h3_list_of_etl_endpoints">
+<title>ETL Endpoints</title>
+<simpara>These are list of etl endpoint with description. In order to use the api, please ensure you have the access key and access id. If you do not yet create access key and access id, please refer to this link (<xref linkend="h4_developer_account_registration_and_configuration"/> )</simpara>
+<simpara>The links of api will leads to stoplight documentation website for reference and testing purpose</simpara>
+<section xml:id="h4_system_integrators_financial_item_api">
+<title>Financial Item API</title>
+<simpara>These links are documentation on sales order api</simpara>
+<itemizedlist>
+<listitem>
+<simpara>bl_fi_mst_item_hdr</simpara>
+<itemizedlist>
+<listitem>
+<simpara>consist of details of the item</simpara>
+</listitem>
+<listitem>
+<simpara>the child item of the group item is considered as single item(basic_item)</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_mst_item_ext</simpara>
+<itemizedlist>
+<listitem>
+<simpara>this table store extra information which not stored in header or line</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_mst_item_line</simpara>
+<itemizedlist>
+<listitem>
+<simpara>this table to store the child item after the child item being created in header table as single product. It is to link child item to specific group product.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<section xml:id="_create_financial_item">
+<title>Create Financial Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5b75f5fe0e7aa-create-financial-item-etl">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5b75f5fe0e7aa-create-financial-item-etl</link></simpara>
+</section>
+<section xml:id="_update_financial_item">
+<title>Update Financial Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/295784efab326-update-financial-item-etl">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/295784efab326-update-financial-item-etl</link></simpara>
+</section>
+<section xml:id="_get_all_financial_item">
+<title>Get all Financial Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0ee6f6e50f5e3-get-all-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0ee6f6e50f5e3-get-all-ecomsync-item-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_financial_item_by_guid">
+<title>Get Financial Item by Guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/7944401702018-get-financial-item-by-guid-etl">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/7944401702018-get-financial-item-by-guid-etl</link></simpara>
+</section>
+<section xml:id="_get_financial_item_by_criteria">
+<title>Get Financial Item by Criteria</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6df7f69f6c4f8-get-ecomsync-item-by-query-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6df7f69f6c4f8-get-ecomsync-item-by-query-etl-ep</link></simpara>
+</section>
+<section xml:id="_delete_financial_item">
+<title>Delete Financial Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/71405b7103746-delete-financial-item-by-guid-etl">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/71405b7103746-delete-financial-item-by-guid-etl</link></simpara>
+</section>
+<section xml:id="_get_all_financial_item_extension">
+<title>Get All Financial Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/e51e41d5fc1a9-get-all-ecomsync-item-extensions-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/e51e41d5fc1a9-get-all-ecomsync-item-extensions-etl-ep</link></simpara>
+</section>
+<section xml:id="_create_financial_item_extension">
+<title>Create Financial Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/4a50f7cd4d7cf-create-ecomsync-item-extension-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/4a50f7cd4d7cf-create-ecomsync-item-extension-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_financial_item_extension">
+<title>Update Financial Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/15ff4a9d542f9-update-ecomsync-item-extension-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/15ff4a9d542f9-update-ecomsync-item-extension-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_financial_item_extension_by_guid">
+<title>Get Financial Item Extension By Guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/97913c9d1d2ea-get-ecomsync-item-extension-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/97913c9d1d2ea-get-ecomsync-item-extension-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_delete_financial_item_extension">
+<title>Delete Financial Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b82778b66b76c-delete-ecomsync-item-extension-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b82778b66b76c-delete-ecomsync-item-extension-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_financial_item_extension_by_criteria">
+<title>Get Financial Item Extension By Criteria</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b0b7a9b4c805d-get-ecomsync-item-extension-by-query-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b0b7a9b4c805d-get-ecomsync-item-extension-by-query-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_all_financial_item_line">
+<title>Get All Financial Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6eddda835861e-get-all-ecomsync-item-lines-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6eddda835861e-get-all-ecomsync-item-lines-etl-ep</link></simpara>
+</section>
+<section xml:id="_create_financial_item_line">
+<title>Create Financial Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5df4b6cc4f6df-create-ecomsync-item-line-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5df4b6cc4f6df-create-ecomsync-item-line-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_financial_item_line">
+<title>Update Financial Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/712933bd78ea8-update-ecomsync-item-line-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/712933bd78ea8-update-ecomsync-item-line-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_financial_item_line_by_guid">
+<title>Get Financial Item Line By Guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/c6d77508653f7-get-ecomsync-item-line-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/c6d77508653f7-get-ecomsync-item-line-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_delete_financial_item_line">
+<title>Delete Financial Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/1c8eb2f0066e1-delete-ecomsync-item-line-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/1c8eb2f0066e1-delete-ecomsync-item-line-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_financial_item_line_by_criteria">
+<title>Get Financial Item Line By Criteria</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/92a7efd385ddd-get-ecomsync-item-line-by-query-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/92a7efd385ddd-get-ecomsync-item-line-by-query-etl-ep</link></simpara>
+</section>
+<section xml:id="_add_files_to_financial_item">
+<title>Add Files to Financial Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/d968514aaa538-add-files-for-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/d968514aaa538-add-files-for-ecomsync-item-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_file_in_financial_item">
+<title>Get File In Financial Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/958568a53ac93-get-file-of-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/958568a53ac93-get-file-of-ecomsync-item-etl-ep</link></simpara>
+</section>
+</section>
+<section xml:id="h4_system_integrators_ecomsync_item_api">
+<title>Ecomsync Item Api</title>
+<simpara>Ecomsync item is where the product stored for marketplace such as Lazada, Shopee, CpCommerce or any Ecommerce platform. In order for any item to be created/synced from marketplace to blg database or vice versa, the item must be created in financial item beforehand through api <indexterm>
+<primary><xref linkend="h4_system_integrators_financial_item_api"/></primary>
+</indexterm><xref linkend="h4_system_integrators_financial_item_api"/> or doc item maintenance applet.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>bl_fi_mst_ecomsync_item_hdr</simpara>
+<itemizedlist>
+<listitem>
+<simpara>compulsory table that need to be passed</simpara>
+</listitem>
+<listitem>
+<simpara>consist of details of marketplace product</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_mst_ecomsync_item_ext</simpara>
+<itemizedlist>
+<listitem>
+<simpara>consists of extra information of the product that not exist in header or line table</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_mst_ecomsync_item_line</simpara>
+<itemizedlist>
+<listitem>
+<simpara>this table is storing marketplace product details for child item</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<section xml:id="_create_ecomsync_item">
+<title>Create Ecomsync Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/63fba45dbd3fc-create-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/63fba45dbd3fc-create-ecomsync-item-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_ecomsync_item">
+<title>Update Ecomsync Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/bebff518c890b-update-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/bebff518c890b-update-ecomsync-item-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_all_ecomsync_item">
+<title>Get all Ecomsync Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0ee6f6e50f5e3-get-all-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0ee6f6e50f5e3-get-all-ecomsync-item-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_ecomsync_item_by_guid">
+<title>Get Ecomsync Item by Guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/be1c6ce90be69-get-ecomsync-item-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/be1c6ce90be69-get-ecomsync-item-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_ecomsync_item_by_criteria">
+<title>Get Ecomsync Item by Criteria</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6df7f69f6c4f8-get-ecomsync-item-by-query-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6df7f69f6c4f8-get-ecomsync-item-by-query-etl-ep</link></simpara>
+</section>
+<section xml:id="_delete_ecomsync_item">
+<title>Delete Ecomsync Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/9545dd93ac5b4-delete-ecomsync-item-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/9545dd93ac5b4-delete-ecomsync-item-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_create_ecomsync_item_extension">
+<title>Create Ecomsync Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/4a50f7cd4d7cf-create-ecomsync-item-extension-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/4a50f7cd4d7cf-create-ecomsync-item-extension-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_ecomsync_item_extension">
+<title>Update Ecomsync Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/15ff4a9d542f9-update-ecomsync-item-extension-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/15ff4a9d542f9-update-ecomsync-item-extension-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_all_ecomsync_item_extension">
+<title>Get All Ecomsync Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/e51e41d5fc1a9-get-all-ecomsync-item-extensions-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/e51e41d5fc1a9-get-all-ecomsync-item-extensions-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_ecomsync_item_extension_by_guid">
+<title>Get Ecomsync Item Extension by Guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/97913c9d1d2ea-get-ecomsync-item-extension-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/97913c9d1d2ea-get-ecomsync-item-extension-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_ecomsync_item_extension_by_criteria">
+<title>Get Ecomsync Item Extension by Criteria</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b0b7a9b4c805d-get-ecomsync-item-extension-by-query-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b0b7a9b4c805d-get-ecomsync-item-extension-by-query-etl-ep</link></simpara>
+</section>
+<section xml:id="_delete_ecomsync_item_extension">
+<title>Delete Ecomsync Item Extension</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b82778b66b76c-delete-ecomsync-item-extension-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b82778b66b76c-delete-ecomsync-item-extension-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_create_ecomsync_item_line">
+<title>Create Ecomsync Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5df4b6cc4f6df-create-ecomsync-item-line-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5df4b6cc4f6df-create-ecomsync-item-line-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_ecomsync_item_line">
+<title>Update Ecomsync Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/712933bd78ea8-update-ecomsync-item-line-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/712933bd78ea8-update-ecomsync-item-line-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_all_ecomsync_item_line">
+<title>Get All Ecomsync Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6eddda835861e-get-all-ecomsync-item-lines-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6eddda835861e-get-all-ecomsync-item-lines-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_ecomsync_item_line_by_guid">
+<title>Get Ecomsync Item Line By Guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/c6d77508653f7-get-ecomsync-item-line-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/c6d77508653f7-get-ecomsync-item-line-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_ecomsync_item_line_by_criteria">
+<title>Get Ecomsync Item Line by Criteria</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/92a7efd385ddd-get-ecomsync-item-line-by-query-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/92a7efd385ddd-get-ecomsync-item-line-by-query-etl-ep</link></simpara>
+</section>
+<section xml:id="_delete_ecomsync_item_line">
+<title>Delete Ecomsync Item Line</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/1c8eb2f0066e1-delete-ecomsync-item-line-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/1c8eb2f0066e1-delete-ecomsync-item-line-by-guid-etl-ep</link></simpara>
+</section>
+<section xml:id="_add_multiple_files_in_ecomsync_item">
+<title>Add Multiple Files In Ecomsync Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/d968514aaa538-add-files-for-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/d968514aaa538-add-files-for-ecomsync-item-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_file_in_ecomsync_item">
+<title>Get File In Ecomsync Item</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/958568a53ac93-get-file-of-ecomsync-item-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/958568a53ac93-get-file-of-ecomsync-item-etl-ep</link></simpara>
+</section>
+</section>
+<section xml:id="h4_system_integrations_stock_availability_api">
+<title>Stock Availability API</title>
+<simpara>This api to get stock availability of the product which synced from marketplace. To get stock availability, you may refer to Ecomsync Item Api(<xref linkend="h4_system_integrators_ecomsync_item_api"/>). The stock availability is stored in bl_fi_mst_ecomsync_item_hdr.qty_balance.</simpara>
+<simpara>The different between stock availability and stock balance is stock availability is the stock which can be sold to customer while stock balance is the stock which exist/hold by the branch. Meaning if the stock has been ordered(sales order created), the stock will be deducted from stock availability as it is already booked for the customer. Once sales invoice created, the stock will also be deducted from stock balance.</simpara>
+<simpara>The stock balance is obtained from multiple branches which will be configured by users in organization applet.Based on this selection of branches, everytime the sales order created, the system will updated the stock availability in bl_fi_mst_ecomsync_item_hdr.qty_balance where the mkt_guid(branch/marketplace) part of branch that are configured.</simpara>
+<simpara>The calculation of stock availability as followed</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Single item</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Qty_To_Sync_To_Marketplace = Qty_of_System_Stock(multiple locations) - Qty_of_Open_Sales_order - Qty_buffer_configured</simpara>
+<itemizedlist>
+<listitem>
+<simpara>bl_fi_mst_ecomsync_item_hdr.qty_buffer = Qty_buffer_configured &#8594; this figure is set in the organization applet</simpara>
+<itemizedlist>
+<listitem>
+<simpara>qty_buffer is the total stock that will be held from included in stock availability. The purpose is ensured there are extra stock in case of emergency or reserved for specific reason.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Qty_of_Open_Sales_order is calculated from bl_fi_generic_doc_line_open_queue</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h4_system_integrators_sales_order_api">
+<title>Sales Order API</title>
+<simpara>Sales order consists of five tables for data storing which are:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>bl_fi_generic_doc_hdr</simpara>
+<itemizedlist>
+<listitem>
+<simpara>compulsory table that need to be passed</simpara>
+</listitem>
+<listitem>
+<simpara>consist of details of sales order including sales order number, billing and and delivery details</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_generic_doc_line</simpara>
+<itemizedlist>
+<listitem>
+<simpara>consists of details ofitem including voucher involve in sales order transaction</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_generic_doc_ext</simpara>
+<itemizedlist>
+<listitem>
+<simpara>this table store extra information which not stored in bl_fi_generic_doc_hdr</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_generic_doc_event</simpara>
+<itemizedlist>
+<listitem>
+<simpara>this table for report tracking purpose. For example when sales order successfully synced from marketplace, the row will be inserted to indicate the syncing process happened</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>bl_fi_generic_doc_link</simpara>
+<itemizedlist>
+<listitem>
+<simpara>this table to link the generic document. It can link from any server doc type such sales order, sales invoice etc</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<section xml:id="_create_sales_order">
+<title>Create sales order</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_sales_order">
+<title>Update sales order</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_all_sales_order">
+<title>Get all sales order</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_sales_order_by_guid">
+<title>Get sales order by guid</title>
+<itemizedlist>
+<listitem>
+<simpara>What if there&#8217;s membership points to be rewarded?</simpara>
+</listitem>
+<listitem>
+<simpara>To understand the difference between the txn_class = PNS vs STL_MTHD</simpara>
+<itemizedlist>
+<listitem>
+<simpara>See this google spreadsheet <link xl:href="https://docs.google.com/spreadsheets/d/1_1ETNP4arvLpL5T_fI2A3xrnyfq7Lw8g7X-v46XdVyg/edit#gid=0">https://docs.google.com/spreadsheets/d/1_1ETNP4arvLpL5T_fI2A3xrnyfq7Lw8g7X-v46XdVyg/edit#gid=0</link></simpara>
+</listitem>
+<listitem>
+<simpara>Athirah, please get the video recording of this google spreadsheet discussion from Aida and paste here.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_create_sales_order_2">
+<title>Create sales order</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep</link></simpara>
+</section>
+<section xml:id="_update_sales_order_2">
+<title>Update sales order</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_all_sales_order_2">
+<title>Get all sales order</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep</link></simpara>
+</section>
+<section xml:id="_get_sales_order_by_specific_guid">
+<title>Get sales order by specific guid</title>
+<simpara><link xl:href="https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0c36501cddfbf-internal-sales-order-get-by-guid-etl-ep">https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0c36501cddfbf-internal-sales-order-get-by-guid-etl-ep</link></simpara>
+</section>
+<#h5_frequently asked questions xml:id="_frequently_asked_question">
+<title>Frequently Asked Question</title>
+<simpara><emphasis role="strong">PNS VS STL_MTHD</emphasis></simpara>
+<simpara>PNS(product and services) is txn_type which involve the transaction of product or service while STL_MTHD is the settlement method involved payment in any kind of form such as cash, debit card, or voucher. Once there is order created, that is considered PNS as it involve sales of the product. When the customer pay by cash, the receipt is issued and this is considered as STL_MTHD. To understand further, you may watch the video in the link
+<link xl:href="https://drive.google.com/file/d/1rzXKlOXaXKT2ADwugYIrjJvxbQGYuKMY/view">https://drive.google.com/file/d/1rzXKlOXaXKT2ADwugYIrjJvxbQGYuKMY/view</link></simpara>
+<simpara><emphasis role="strong">Can sales order being edited multiple times?</emphasis></simpara>
+<simpara>Sales order can not be edited once the sales order is finalized. In order to know if the sales order is finalized, you may refer to column bl_fi_generic_doc_hdr.posting_status. If the column is 'FINAL', the data can not be edited except for remarks column.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
+</#h5_frequently asked questions>
+</section>
 </section>
 </section>
 </chapter>
@@ -534,6 +1286,13 @@ using the BigLedger platform.</simpara>
 <chapter xml:id="h1_modules_guide">
 <title>Guide by Modules</title>
 <simpara>The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.</simpara>
+<section xml:id="h2_module_guide">
+<title>Module Guide</title>
+<section xml:id="h3_module_guide_introduction">
+<title>Introduction</title>
+<simpara>this is the introduction to module guide.</simpara>
+</section>
+</section>
 <section xml:id="h2_core_module">
 <title>Core Module</title>
 <section xml:id="h3_core_introduction">
@@ -4998,6 +5757,16 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </mediaobject>
 </informalfigure>
 <simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+<section xml:id="_resources">
+<title>Resources</title>
+<itemizedlist>
+<listitem>
+<simpara>Discussion on the secret behind Auto Matching using artificial intelligence in the Bank Reconciliation applet<?asciidoc-br?>
+<link xl:href="https://drive.google.com/file/d/1EnHMzBGY0eb5FgW7hWICjnybERFSpIgF/view">Discussion 1</link><?asciidoc-br?>
+<link xl:href="https://drive.google.com/file/d/1e2VUGvWEc0RFqBjE-Zf8aEy30Ey_6YXz/view">Discussion 2</link></simpara>
+</listitem>
+</itemizedlist>
+</section>
 </section>
 <section xml:id="h3_bank_reconciliation_modules">
 <title>Modules</title>
@@ -6936,8 +7705,15 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>perform stocktake</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.7  Once click into devices, please go to Records Tab
-image::records_tab.png[]</simpara>
+<simpara>1.7  Once click into devices, please go to Records Tab</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="records_tab.png"/>
+</imageobject>
+<textobject><phrase>records tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>1.8 You can directly scan your serial number scan button</simpara>
 <informalfigure>
 <mediaobject>
