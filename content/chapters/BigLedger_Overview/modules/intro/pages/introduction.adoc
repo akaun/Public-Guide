@@ -1,8 +1,46 @@
 [#h3_bigledger_overview_introduction]
-==== Overview - Introduction
+= Introduction
+
+This documentation consist of two parts:
+
+* BigLedger https://dictionary.cambridge.org/dictionary/english/handbook[Handbook] +
+    For public users wanting to learn about BigLedger Akaun Platform. Click https://playbook.akaun.com/handbook/index.html[here] to access. 
+
+* BigLedger https://dictionary.cambridge.org/dictionary/english/blueprint[Blueprint] +
+    For BigLedger employees only. Click https://playbook.akaun.com/bigdoc/index.html[here] to access.
+
+== Getting Started
+
+Before you rush into learning how to use the Akaun Platform, we strongly recommend that you refer to the following chapters to grasp the high level overview of what the Akaun Platform can do for you as follows:
+
+ifndef::site-gen-antora[]
+* xref:h3_industry_guide_introduction[xrefstyle=full] +
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-industry-guide:ROOT:introduction.adoc[Industry Guide] +
+endif::[]
+    This guide provide you an in-depth case study of the problems faced by consumer electronics, car repair workshops, logistics, manufacturing, healthcare and retail businesses and how they might be able to solve their problems using the Akaun Platform.
+
+* Modules Guide
 
 
-To view this in other formats, click on the following:
+* User Guide
+
+
+* Technical Guide
+
+
+
+
+== Speak To Us
+
+
+== 
+
+
+== Downloads
+
+If you would like to download the *BigLedger Handbook* for offline reading or prefer to read the BigLedger Handbook using your favourite Epub reader, you may download from the links below.
 
 ifndef::site-gen-antora[]
 * link:blg_handbook.pdf[PDF Format]

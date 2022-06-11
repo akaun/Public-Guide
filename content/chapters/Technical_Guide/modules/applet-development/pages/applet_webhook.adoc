@@ -1,5 +1,5 @@
 [#h3_applet_dev_webhook]
-==== Webhooks for Applets
+= Webhooks for Applets
 
 The webhook for an applet is different from the webhook for Sales Order etc...
 

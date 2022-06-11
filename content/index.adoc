@@ -2,11 +2,12 @@
 v1.3
 :homepage: https://docs.akaun.com
 :sectnums:
+:sectnumlevels: 4 
 :toc: macro
 :toclevels: 3 
 :table-caption!:
 :doctype: book
-:multipage-level: 3
+:multipage-level: 2
 
 //image::images/bigledger_logo.jpeg[BigLedger Logo,align="center"]
 image::akaun_colourful_logo.png[Akaun Logo,align="center"]

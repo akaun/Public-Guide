@@ -1,7 +1,7 @@
 name: handbook-applet-directory
 title: Applet Directory
 version: '1.0' 
-start_page: applet-store:00_index.adoc 
+start_page: applet-store:introduction.adoc 
 nav: 
 - modules/applet-listing/nav.adoc
 - modules/applet-store/nav.adoc

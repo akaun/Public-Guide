@@ -1,5 +1,5 @@
 [#h3_pos_related_applets]
-==== Point of Sales Module - Related Applets
+= Point of Sales Module - Related Applets
 
 
 

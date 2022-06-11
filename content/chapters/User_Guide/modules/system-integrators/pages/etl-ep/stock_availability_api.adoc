@@ -1,23 +1,24 @@
-[#h3_system_integrations_stock_availability_api]
-==== Stock Availability API
+[#h4_system_integrations_stock_availability_api]
+= Stock Availability API
 
-We will pull the data from bl_fi_mst_ecomsync_item_hdr.bal_qty / avai_qty
+This api to get stock availability of the product which synced from marketplace. To get stock availability, you may refer to Ecomsync Item Api(xref:h4_system_integrators_ecomsync_item_api[xrefstyle=full]). The stock availability is stored in bl_fi_mst_ecomsync_item_hdr.qty_balance. 
 
-This is because , in the organization applet the users will configure the stock balance to get from multiple branches, and the system deduct the sales orders based on the user selected branches, and the system will update this column accordingly.
+The different between stock availability and stock balance is stock availability is the stock which can be sold to customer while stock balance is the stock which exist/hold by the branch. Meaning if the stock has been ordered(sales order created), the stock will be deducted from stock availability as it is already booked for the customer. Once sales invoice created, the stock will also be deducted from stock balance.
 
-
-An example of the calculations for BUNDLE items can be seen here.
-https://docs.google.com/spreadsheets/d/1Yx82ME9v3FpFjP3op33-DYSd2arSLwNJlJcuxJD717c/edit#gid=0
-
-For Single item...
-The formula is:
-
-Qty_To_Sync_To_Marketplace = Qty_of_System_Stock(multiple locations) - Qty_of_Open_Sales_order - Qty_buffer_configured
+The stock balance is obtained from multiple branches which will be configured by users in organization applet.Based on this selection of branches, everytime the sales order created, the system will updated the stock availability in bl_fi_mst_ecomsync_item_hdr.qty_balance where the mkt_guid(branch/marketplace) part of branch that are configured.
 
 
-There should be 3 columns:
-* qty_balance = Qty_of_System_Stock(multiple locations) - Qty_of_Open_Sales_order 
-  -> This number is obtained and calculated from the system stock balance of multiple inv_locations, minus the "Open Sales Order Qty" (calculated from bl_fi_generic_doc_line_open_queue)
+The calculation of stock availability as followed
 
-* qty_buffer = Qty_buffer_configured
-  -> this figure is set in the organization applet
+* Single item
+** Qty_To_Sync_To_Marketplace = Qty_of_System_Stock(multiple locations) - Qty_of_Open_Sales_order - Qty_buffer_configured
+*** bl_fi_mst_ecomsync_item_hdr.qty_buffer = Qty_buffer_configured -> this figure is set in the organization applet
+**** qty_buffer is the total stock that will be held from included in stock availability. The purpose is ensured there are extra stock in case of emergency or reserved for specific reason.
+*** Qty_of_Open_Sales_order is calculated from bl_fi_generic_doc_line_open_queue 
+//how  Qty_of_Open_Sales_order calculated
+
+
+
+// An example of the calculations for BUNDLE items can be seen here.
+// https://docs.google.com/spreadsheets/d/1Yx82ME9v3FpFjP3op33-DYSd2arSLwNJlJcuxJD717c/edit#gid=0
+

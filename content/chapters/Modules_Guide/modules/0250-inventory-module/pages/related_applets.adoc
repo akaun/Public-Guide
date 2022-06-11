@@ -1,5 +1,5 @@
 [#h3_inventory_related_applets]
-==== Inventory Module - Related Applets
+= Inventory Module - Related Applets
 
 
 

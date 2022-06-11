@@ -1,5 +1,5 @@
 [#h3_applet_store_release_note]
-==== Release Note
+= Release Note
 
 
 

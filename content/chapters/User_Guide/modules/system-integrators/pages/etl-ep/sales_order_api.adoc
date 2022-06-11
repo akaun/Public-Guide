@@ -1,23 +1,35 @@
-[#h3_sales_order]
-====Sales order
+[#h4_system_integrators_sales_order_api]
+= Sales Order API
 
-These links are documentation on sales order api
+Sales order consists of five tables for data storing which are:
 
-* The detail explanation of the list of fields and columns in the json format.
+* bl_fi_generic_doc_hdr
+** compulsory table that need to be passed
+** consist of details of sales order including sales order number, billing and and delivery details
 
-* Explain about the PNS txn_class GenDocLine , and the STL_MTHD type..
+* bl_fi_generic_doc_line
+** consists of details ofitem including voucher involve in sales order transaction
 
-* Explain about the GenDocLine, fields, as below:
-https://docs.google.com/spreadsheets/d/1Ecl4n36Yo7qAHhEgoc-t4vimHLrXnywodXFSU8HmJ5k/edit#gid=1455136088
+* bl_fi_generic_doc_ext
+** this table store extra information which not stored in bl_fi_generic_doc_hdr 
 
-* We need explain about the difference in the branch_guid and store_guid (location_guid)
+* bl_fi_generic_doc_event
+** this table for report tracking purpose. For example when sales order successfully synced from marketplace, the row will be inserted to indicate the syncing process happened
 
-* What if sync wrongly, need to cancel / void?
+* bl_fi_generic_doc_link
+** this table to link the generic document. It can link from any server doc type such sales order, sales invoice etc
 
-* Where do I store the sales order number from Lazada/shopee ? or my own e-commerce system running number?
 
-* Can I edit a sales order multiple times?
-** Once a sales order is FINAL, you can only change the remarks but not the quantity and price...
+== Create sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
+
+== Update sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep
+
+== Get all sales order
+https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
+
+== Get sales order by guid
 
 * What if there's membership points to be rewarded? 
 
@@ -26,16 +38,40 @@ https://docs.google.com/spreadsheets/d/1Ecl4n36Yo7qAHhEgoc-t4vimHLrXnywodXFSU8Hm
 ** Athirah, please get the video recording of this google spreadsheet discussion from Aida and paste here.
 
 
-=====Create sales order
+== Create sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
 
 
-=====Update sales order
+== Update sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep
 
-=====Get all sales order
+== Get all sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
 
 
-=====Get sales order by specific guid
+== Get sales order by specific guid
+
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0c36501cddfbf-internal-sales-order-get-by-guid-etl-ep
+
+[#h5_frequently asked questions]
+== Frequently Asked Question
+
+*PNS VS STL_MTHD*
+
+PNS(product and services) is txn_type which involve the transaction of product or service while STL_MTHD is the settlement method involved payment in any kind of form such as cash, debit card, or voucher. Once there is order created, that is considered PNS as it involve sales of the product. When the customer pay by cash, the receipt is issued and this is considered as STL_MTHD. To understand further, you may watch the video in the link 
+https://drive.google.com/file/d/1rzXKlOXaXKT2ADwugYIrjJvxbQGYuKMY/view
+
+
+*Can sales order being edited multiple times?*
+
+Sales order can not be edited once the sales order is finalized. In order to know if the sales order is finalized, you may refer to column bl_fi_generic_doc_hdr.posting_status. If the column is 'FINAL', the data can not be edited except for remarks column.
+
+// * What if sync wrongly, need to cancel / void?
+
+
+// * What if there's membership points to be rewarded? 
+
+// *which server doc number should be used to indicate sales order number when sales order being generated
+
+
+

@@ -1,2 +1,2 @@
 [#h3_consumer_electronics_stories]
-==== Stories
+= Stories

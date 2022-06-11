@@ -1,5 +1,5 @@
 [#h3_applet_dev_pricing]
-==== Pricing for applets
+= Pricing for applets
 
 For now, we go with simplified pricing strategy by just charging per user per applet per month manually before the Billing Engine is ready.
 

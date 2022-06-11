@@ -1,9 +1,9 @@
 [#h3_organization_introduction]
-==== Introduction
+= Introduction
 
 
 
 image::organization_applet_logo.png[]
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]
 

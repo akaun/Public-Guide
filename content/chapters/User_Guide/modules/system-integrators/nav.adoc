@@ -1,1 +1,9 @@
-* xref:00_index.adoc[System Integrators]
+* System Integrators
+** xref:introduction.adoc[Introduction]
+** xref:getting_started.adoc[Getting Started]
+** xref:etl-ep/introduction.adoc[ETL Endpoints]
+*** xref:etl-ep/ecomsync_item.adoc[Ecomsync Item API]
+*** xref:etl-ep/financial_item_api.adoc[Financial Item API]
+*** xref:etl-ep/sales_order_api.adoc[Sales Order API]
+*** xref:etl-ep/stock_availability_api.adoc[Stock Availability API]
+

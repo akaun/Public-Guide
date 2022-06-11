@@ -1,4 +1,4 @@
 [#h3_applet_store_pricing]
-==== Pricing
+= Pricing
 
 

@@ -1,5 +1,5 @@
 [#h3_applet_store_personalization]
-==== Personalization
+= Personalization
 
 
 

@@ -1,4 +1,36 @@
 [#h3_bigledger_overview_background]
-==== Background
+= Background
 
+Founded in 2017, the company name "BigLedger" carry the meaning of "*Big* Data" + "Financial *Ledger*", it has grown from an idea of combining structured and unstructured data with the financial data to an operational data lake platform that could be used by big enterprises as well as small and medium businesses.
+
+BigLedger started with the intention to solve one of the biggest problem faced by businesses, which is to integrate various systems, namely:
+
+* Accounting Software
+* Customer Relationship Management System
+* Point of Sales 
+* Marketplace Integration
+* Human Resource System
+* Issue Tracker
+* Project Management
+* Digital Marketing
+* Sales Force Automation
+* Procurement System
+* E-Commerce Applications
+* Mobile Apps
+* Membership Program (Customer Loyalty Systems)
+* Warehouse Management
+* Inventory Management Software
+* Logistics and Delivery
+* Contact Center System
+* Taxation
+* Customer Helpdesk
+* .... and many more
+
+We are thankful to our customers that embark the BigLedger journey with us as follows:
+
+image::blg_customer_logos_2022_06.jpg[2022 BigLedger Customer Logos]
+
+Born in the cloud, the BigLedger *operational data lake* connect all parts of a business into an intelligent suite on a fully digital platform and is capable of replacing process-driven, legacy platforms. The "Akaun Platform" is also officially recognized as the winner of APICTA (Asia Pacific ICT Award) in the Business Services Category as follows:
+
+image::apicta_2021_akaun_platform.png[Apicta Award 2021]
 

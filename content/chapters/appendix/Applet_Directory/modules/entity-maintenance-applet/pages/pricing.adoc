@@ -1,4 +1,4 @@
 [#h3_entity_maintenance_pricing]
-==== Pricing
+= Pricing
 
 

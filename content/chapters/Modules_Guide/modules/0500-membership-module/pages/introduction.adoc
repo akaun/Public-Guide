@@ -1,33 +1,33 @@
 [#h3_membership_introduction]
-==== Membership Module Introduction
+= Membership Module Introduction
 
 The intention of this section in the documentation.
 What this section cover, and not covering... and how it will link to othe other modules.
 Explaining that certain detail about 
 
 [#h4_membership_overview]
-===== Membership Module Overview
+== Membership Module Overview
 
 Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.
 
 [#h4_membership_module_applets]
-===== Membership Module Applets
+== Membership Module Applets
 
 
 [#h4_membership_features_and_functions]
-===== Membership Module Features and Functions
+== Membership Module Features and Functions
 
 
 
-===== What's New
+== What's New
 
 
 
-===== Getting Started
+== Getting Started
 
 
 
-===== Module Dependencies
+== Module Dependencies
 
 

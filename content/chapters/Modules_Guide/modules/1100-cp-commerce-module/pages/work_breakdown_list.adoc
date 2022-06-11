@@ -1,21 +1,21 @@
 [#h3_cp_commerce_work_breakdown]
-==== Work Breakdown
+= Work Breakdown
 
 [#h4_cp_commerce_wbs_url_and_domain_name]
-===== URL and Domain Name
+== URL and Domain Name
 
 * Domain Name
     This can be top level domain name, or sub-domain name.
 * BigLedger hostname
 
 [#h4_cp_commerce_wbs_ui_design]
-===== UI Design
+== UI Design
 
 * Both mobile and desktop
 
 
 [#h4_cp_commerce_wbs_applet_installation]
-===== Applet Installations
+== Applet Installations
 
 * Applet Catalogs
 
@@ -30,7 +30,7 @@ Please install the applet in the following modules:
 * <<h4_cp_commerce_module_applets>>
 
 [#h4_cp_commerce_wbs_products_and_pricing]
-===== Products and Pricing
+== Products and Pricing
 
 Define a pricing scheme in the Doc Item Maintenance applet, and ensure all the product pricing is accurate.
 
@@ -39,50 +39,50 @@ Attach the categories and set of attributes to each of the product.
 Upload the product images to cp-commerce
 
 [#h4_cp_commerce_wbs_virtual_branch]
-===== CP Commerce Virtual Branch
+== CP Commerce Virtual Branch
 
 We need to create a virtual branch for every CP-Commerce website, refer to the Virtual Branch feature in Organization Applet accordingly.
 
 [#h4_cp_commerce_wbs_pgw_config]
-===== PGW Configurations
+== PGW Configurations
 
 Please visit <<h2_payment_switching_module>> for more information about the configuration of PGW Module.
 
 // TODO: Improve the PGW Module to automatically create the merchant entity based on company information of the branch selected for a specific "website" in the cp-commerce admin applet itself.
 
 [#h4_cp_commerce_wbs_digital_signature]
-===== Digital Signature
+== Digital Signature
 
 
 [#h4_cp_commerce_wbs_post_registration_config]
-===== Post Registration Configuration
+== Post Registration Configuration
 
 
 [#h4_cp_commerce_wbs_third_party_auth]
-===== Third Party Authentication and Authorization
+== Third Party Authentication and Authorization
 
 
 [#h4_cp_commerce_wbs_google_recaptcha]
-===== Google reCaptcha
+== Google reCaptcha
 
 
 [#h4_cp_commerce_wbs_google_analytics]
-===== Google Analytics
+== Google Analytics
 
 [#h4_cp_commerce_wbs_review_settings]
-===== Review Settings
+== Review Settings
 
 [#h4_cp_commerce_wbs_menu_list]
-===== Menu List
+== Menu List
 
 [#h4_cp_commerce_wbs_label_list]
-===== Label List
+== Label List
 
 [#h4_cp_commerce_wbs_content_category]
-===== Content Category
+== Content Category
 
 [#h4_cp_commerce_wbs_posts]
-===== Static Posts
+== Static Posts
 
 * About us
 * Privacy Policy
@@ -90,20 +90,20 @@ Please visit <<h2_payment_switching_module>> for more information about the conf
 * .... other content in a typical website
 
 [#h4_cp_commerce_wbs_restricted_access_by_entity]
-===== Restricted Access By Entity Accounts
+== Restricted Access By Entity Accounts
 
 [#h4_cp_commerce_wbs_layout_instance]
-===== Layout Instance
+== Layout Instance
 
 [#h4_cp_commerce_wbs_language_region_country]
-===== Configuring Language, Region and Country
+== Configuring Language, Region and Country
 
 [#h4_cp_commerce_wbs_voucher_management]
-===== Voucher Management
+== Voucher Management
 
 
 [#h4_cp_commerce_wbs_quality_control]
-===== Quality Control Checklist
+== Quality Control Checklist
 
 
 

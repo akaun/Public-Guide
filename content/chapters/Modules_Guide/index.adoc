@@ -5,51 +5,51 @@
 
 The Akaun platform is like lego blocks, users will be able to mix and match different applets to formulate a new module, even if it is not in the list below.
 
+include::modules/ROOT/index.adoc[leveloffset=2]
 
+include::modules/0100-core-module/index.adoc[leveloffset=2]
 
-include::modules/0100-core-module/pages/00_index.adoc[]
+include::modules/0200-accounting-module/index.adoc[leveloffset=2]
 
-include::modules/0200-accounting-module/pages/00_index.adoc[]
+include::modules/0250-inventory-module/index.adoc[leveloffset=2]
 
-include::modules/0250-inventory-module/pages/00_index.adoc[]
+include::modules/0300-pos-module/index.adoc[leveloffset=2]
 
-include::modules/0300-pos-module/pages/00_index.adoc[]
+include::modules/0400-manufacturing-module/index.adoc[leveloffset=2]
 
-include::modules/0400-manufacturing-module/pages/00_index.adoc[]
+include::modules/0500-membership-module/index.adoc[leveloffset=2]
 
-include::modules/0500-membership-module/pages/00_index.adoc[]
+include::modules/0600-referral-module/index.adoc[leveloffset=2]
 
-include::modules/0600-referral-module/pages/00_index.adoc[]
+include::modules/0700-crm-module/index.adoc[leveloffset=2]
 
-include::modules/0700-crm-module/pages/00_index.adoc[]
+include::modules/0710-contact-center-module/index.adoc[leveloffset=2]
 
-include::modules/0710-contact-center-module/pages/00_index.adoc[]
+include::modules/0720-digital-marketing-module/index.adoc[leveloffset=2]
 
-include::modules/0720-digital-marketing-module/pages/00_index.adoc[]
+include::modules/0900-marketplace-connector-module/index.adoc[leveloffset=2]
 
-include::modules/0900-marketplace-connector-module/pages/00_index.adoc[]
+include::modules/1000-delivery-module/index.adoc[leveloffset=2]
 
-include::modules/1000-delivery-module/pages/00_index.adoc[]
+include::modules/1100-cp-commerce-module/index.adoc[leveloffset=2]
 
-include::modules/1100-cp-commerce-module/pages/00_index.adoc[]
+include::modules/1200-procure-to-pay-module/index.adoc[leveloffset=2]
 
-include::modules/1200-procure-to-pay-module/pages/00_index.adoc[]
+include::modules/1300-hr-module/index.adoc[leveloffset=2]
 
-include::modules/1300-hr-module/pages/00_index.adoc[]
+include::modules/1500-order-to-cash-module/index.adoc[leveloffset=2]
 
-include::modules/1500-order-to-cash-module/pages/00_index.adoc[]
+include::modules/1700-warehouse-management-module/index.adoc[leveloffset=2]
 
-include::modules/1700-warehouse-management-module/pages/00_index.adoc[]
+include::modules/1800-customer-data-platform-module/index.adoc[leveloffset=2]
 
-include::modules/1800-customer-data-platform-module/pages/00_index.adoc[]
+include::modules/1900-payment-switch-module/index.adoc[leveloffset=2]
 
-include::modules/1900-payment-switch-module/pages/00_index.adoc[]
+include::modules/8000-chatbot-module/index.adoc[leveloffset=2]
 
-include::modules/8000-chatbot-module/pages/00_index.adoc[]
+include::modules/8800-process-automation-module/index.adoc[leveloffset=2]
 
-include::modules/8800-process-automation-module/pages/00_index.adoc[]
-
-include::modules/9000-datalake-module/pages/00_index.adoc[]
+include::modules/9000-datalake-module/index.adoc[leveloffset=2]
 
 
 

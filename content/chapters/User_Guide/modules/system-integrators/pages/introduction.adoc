@@ -1,0 +1,103 @@
+[#h3_system_integrators_introduction]
+= Introduction
+
+Welcome to integrate with *Akaun Platform*! The possibilities are endless. 
+This overview will cover everything you need to know to integrate 
+with the BigLedger Data Lake
+
+There are a few ways you could integrate with the Akaun Platform:
+
+* REST-api +
+    Ready to use, anytime. 
+    You can use any programming languages, framework and tools to call the Akaun RESTful API.
+
+* Webhook 
+
+* Python SDK +
+    This will only be available from 2024. 
+
+[#h4_system_integrators_use_cases]
+== Use cases
+
+We work with various system integrators to integrate with Akaun Platform in the scenarios as follow:
+
+* E-Commerce +
+    E-commerce system providers would usually integrate to synchronize the following:
+    ** Product Information +
+        E-Commerce would pull the the latest item code from Akaun Platform because typically, the latest information of the products (e.g. pricing, promotions etc) is maintained in the data lake. 
+    ** Sales Order Transactions +
+        After an order is confirmed in the shopping cart, this need to be pushed into the data lake for fulfillment and delivery
+    ** Customer Data +
+        New users (email addresses) created in the shopping cart need to be sync back to the data lake
+    ** Stock Availability +
+        In order to prevent oversell situation where orders from the customers could not be delivered, resulting in bad customer experience, the e-commerce software will have to pull the stock availability information from the Akaun Platform.
+
+* Point of Sales +
+    **  Product Information +
+        Similar to e-commerce, this information should flow from the Data Lake to the Point of Sales.
+    ** Sales - Cash bills / Receipts +
+        Generally, Point of Sales systems would send the Sales Receipts (Cash bills) transactional information to the Akaun platform. 
+    ** Customer Data +
+        This information is usually consolidated and processed in the data lake platform
+
+* Accounting System
+    ** Sales Invoices, Sales Return, Credit Notes, Receipt Vouchers +
+        As Akaun Platform is usually used for consolidating various operational data , including transactions with the customers, it is possible that these sales transactions are exported to certain accounting software for financial reporting.
+    ** Purchase Invoices, Purchase Return, Credit Notes, Payment Vouchers +
+        Likewise, transactions with the suppliers could also be exported to third party accounting system for financial reporting.
+    ** Journal Transactions +
+        As Akaun Platform is also capable of generating Journal Transactions, it is possible that instead of exporting transactional documents, only the journals are exported into third party accounting systems accordingly.
+
+* Membership Program
+    ** Member Records +
+        The data lake contains all member records, and it is also associated with various contact channels (Facebook, Whatsapp, Telegram, email, mobile phone etc). 
+        Third party Loyalty program could be pulling or pushing data into the Akaun Platform (both directions).
+    ** Point Transaction Lines +
+        If membership point calculations are done in the membership program, this information could be synced from the Membership program into the Akaun Platform, by doing so, businesses would be able to utilize this data in their e-commerce websites, mobile apps etc.
+    ** Membership Point Control Account
+        This table is used to store a list of membership points balance based on expiry dates. Internally, Akaun Platform could auto calculate and update this information and make it available for any third party loyalty program.
+    ** Latest Membership Point Balance
+        This table only store the latest membership point balance that is also calculated whenever new membership point transaction lines are inserted. This information could be used by Point of Sales or E-Commerce website to pull the information on a near real time basis.
+
+* Warehouse Management
+    ** Purchase Orders +
+        Usually, the purchase orders are issued from the Akaun Platform to the suppliers, and these Purchase Orders need to be synced to the WMS so that when the suppliers deliver the goods, the users will use the Warehouse Management System to enter the records of the goods received from the supplier, and subsequently compare and check this against the Purchase Order from within the WMS software itself. So, the usual direction of syncing for Purchase Order is from the Akaun Platform to the WMS system.
+    ** Purchase - Goods Received Notes + 
+        As Goods Received Notes are usually created using the WMS system, this information is synced back to the Akaun Platform as inventory stock balance calculations are done in the Akaun Platform. The Goods Received Note synced to the Akaun Platform would also be used to generate the Internal Purchase Invoice document, for Account Payable calculations, self billing, GST / VAT (taxation) purposes.
+    ** Sales Orders  +
+        The Akaun Platform consolidates the sales orders from E-Commerce, *Conversational commerce* , outlets (branches), marketplaces (e.g. Lazada and Shopee etc), these orders could be sent to the Warehouse Management System for picking , packing and delivery purposes.
+* Human Resource 
+    ** Sales related data +
+        In order to calculate the sales commission, third party payroll or human resource software could extract the sales reports from the Akaun Platform for calculations and processing of payroll and automate the processes accordingly.
+    ** Identity and Access Control +
+        Whenever there's a new employee joining or leaving, with the auto-import / export function, we would be able to ensure identity and access management could be automated.
+
+
+* Mobile Apps
+    ** Statement of Account +
+        Third party mobile apps developer could potentially be pulling the statement of account of specific customer and display it in the mobile app to provide a great user experience.
+    ** Transaction history
+        The transaction history would include all business documents, for example, Sales Order, Sales Invoice, Sales Return, Credit Note, Purchase Order, Purchase Invoice, Payment Voucher, Credit Note etc.
+    ** Warranty Information
+        Given a product serial number, it is possible to pull information from the Akaun Platform on the warranty expiry date and other information that may be useful for consumers.
+    ** Sales Quotations
+        Certain quotations would need to be approved by the customers, it is possible for the mobile apps developer to obtain this information for the customers to "approve" the Sales Quotation in order for the Sales Order or Job Order to be carried out.
+    ** Sales Orders
+        It is likely that the mobile app might want to pull information about the sales order history, and also be able to create a sales order directly into the Akaun Platform.
+    ** Product Information
+        If the mobile app would like to display a list of products and services (including images), the mobile apps would need to pull from Akaun Platform the product pricing, images, item code, item name and other information that is necessary.
+
+
+
+
+
+[#h4_system_integrators_benefits]
+== Benefits
+
+
+
+
+
+
+
+// This is the page break

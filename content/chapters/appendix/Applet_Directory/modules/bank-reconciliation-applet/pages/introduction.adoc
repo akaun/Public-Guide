@@ -1,6 +1,14 @@
 [#h3_bank_reconciliation_introduction]
-==== Introduction
+= Introduction
 image::bank_reconciliation_applet_logo.png[]
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]
+
+
+
+== Resources
+
+* Discussion on the secret behind Auto Matching using artificial intelligence in the Bank Reconciliation applet + 
+    https://drive.google.com/file/d/1EnHMzBGY0eb5FgW7hWICjnybERFSpIgF/view[Discussion 1] + 
+    https://drive.google.com/file/d/1e2VUGvWEc0RFqBjE-Zf8aEy30Ey_6YXz/view[Discussion 2]
 

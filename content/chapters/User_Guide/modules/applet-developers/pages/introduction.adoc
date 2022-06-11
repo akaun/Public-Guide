@@ -1,0 +1,11 @@
+[#h3_user_guide_applet_developers_introduction]
+= Introduction
+
+Welcome to BigLedger Applet Developer's guide. This guide provide you the steps and information on the
+full software development lifecycle of developing an applet as well as launching, promoting and selling
+your applet in *Akaun Store*.
+
+*Akaun Applets* provide businesses the ability to consume software in a modular way, cost effectively, 
+without the pains of integrations.
+
+

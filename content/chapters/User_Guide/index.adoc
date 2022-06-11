@@ -4,22 +4,22 @@
 This repository contains all the source code for publishing the Akaun Platform Public Documentation.
 
 
-include::modules/applet-users/pages/00_index.adoc[]
+include::modules/applet-users/index.adoc[leveloffset=2]
 
 
-include::modules/project-implementors/pages/00_index.adoc[]
+include::modules/project-implementors/index.adoc[leveloffset=2]
 
 
-include::modules/tenant-owners/pages/00_index.adoc[]
+include::modules/tenant-owners/index.adoc[leveloffset=2]
 
 
-include::modules/applet-developers/pages/00_index.adoc[]
+include::modules/applet-developers/index.adoc[leveloffset=2]
 
 
-include::modules/resellers/pages/00_index.adoc[]
+include::modules/resellers/index.adoc[leveloffset=2]
 
 
-include::modules/system-integrators/pages/00_index.adoc[]
+include::modules/system-integrators/index.adoc[leveloffset=2]
 
 
 // This is the page break

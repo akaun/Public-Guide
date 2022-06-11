@@ -1,5 +1,5 @@
 [#h3_chatbot_related_applets]
-==== Chatbot - Related Applets
+= Chatbot - Related Applets
 
 
 

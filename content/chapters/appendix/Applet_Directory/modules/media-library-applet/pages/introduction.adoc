@@ -1,8 +1,8 @@
 [#h2_media_library_introduction]
-=== Introduction
+= Introduction
 
 
 image::blank_logo.png[]
 
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]

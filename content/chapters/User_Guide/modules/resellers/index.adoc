@@ -1,0 +1,4 @@
+[#h2_user_guide_resellers]
+= Resellers
+
+include::pages/introduction.adoc[leveloffset=3]

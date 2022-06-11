@@ -1,5 +1,5 @@
 [#h3_applet_dev_developer_sysadmin_applet]
-==== Developer SysAdmin Applet
+= Developer SysAdmin Applet
 
 This applet is used by the Platform System Administrator to configure various applets
 

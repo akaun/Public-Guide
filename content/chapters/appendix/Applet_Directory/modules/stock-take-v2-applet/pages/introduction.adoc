@@ -1,8 +1,8 @@
 [#h3_stock_take_v2_introduction]
-==== Introduction
+= Introduction
 
 image::stock_take_V2_applet_logo.png[]
 
 
-include::intro_description.adoc[]
+include::intro_description.adoc[leveloffset=3]
 
