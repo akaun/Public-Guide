@@ -3,7 +3,7 @@
 
 1.1  Please go to Akaun.com - Stock Take Applet V2
 
-image::applet_logo_v2.png[]
+image::stock_take_logo.png[]
 
 1.2  Go to the Stock Take Session
 
@@ -41,3 +41,30 @@ image::auto_save.png[]
 
 image::report_type.png[]
 
+1.11 Click Upload Reason
+
+image::upload_reason.png[]
+
+1.12 Select report type and export the report in excel
+
+image::export_excel.png[]
+
+1.13 An excel will be dowloaded
+
+image::downloaded_excel.png[]
+
+1.14 Fill up a reason for an item that has variance
+
+image::fill_up_reason.png[]
+
+1.15 Save the file and reupload into Stock Take Applet
+
+image::fill_the_reason_button.png[]
+
+1.16 Once uploaded, go to the details tab and change the status to closed, then click save.
+
+image::details_save.png[]
+
+1.17 Ammendment and Adjustment can't be made once the stock take has Closed
+
+image::closed_stock_take.png[]
