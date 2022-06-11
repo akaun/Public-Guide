@@ -1,7 +1,7 @@
-[#h4_ecomsync_item_api]
+[#h4_system_integrators_ecomsync_item_api]
 = Ecomsync Item Api
 
-Ecomsync item is where the product stored for marketplace such as Lazada, Shopee, CpCommerce or any Ecommerce platform. In order for any item to be created/synced from marketplace to blg database or vice versa, the item must be created in financial item beforehand through api ((xref:h4_financial_item_api[xrefstyle=full])) or doc item maintenance applet.
+Ecomsync item is where the product stored for marketplace such as Lazada, Shopee, CpCommerce or any Ecommerce platform. In order for any item to be created/synced from marketplace to blg database or vice versa, the item must be created in financial item beforehand through api ((xref:h4_system_integrators_financial_item_api[xrefstyle=full])) or doc item maintenance applet.
 
 
 * bl_fi_mst_ecomsync_item_hdr

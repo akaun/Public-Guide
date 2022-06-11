@@ -2,5 +2,12 @@
 = System Integrators
 
 include::pages/introduction.adoc[leveloffset=3]
+
 include::pages/getting_started.adoc[leveloffset=3]
-include::pages/etl-ep.adoc[leveloffset=3]
+
+include::pages/etl-ep/introduction.adoc[leveloffset=3]
+include::pages/etl-ep/financial_item_api.adoc[leveloffset=4]
+include::pages/etl-ep/ecomsync_item.adoc[leveloffset=4]
+include::pages/etl-ep/stock_availability_api.adoc[leveloffset=4]
+include::pages/etl-ep/sales_order_api.adoc[leveloffset=4]
+

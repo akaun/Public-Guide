@@ -5,11 +5,3 @@ These are list of etl endpoint with description. In order to use the api, please
 
 The links of api will leads to stoplight documentation website for reference and testing purpose
 
-include::etl-ep/financial_item_api.adoc[]
-
-include::etl-ep/ecomsync_item.adoc[]
-
-include::etl-ep/stock_availability_api.adoc[]
-
-include::etl-ep/sales_order_api.adoc[]
-

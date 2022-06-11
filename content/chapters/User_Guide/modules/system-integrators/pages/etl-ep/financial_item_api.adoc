@@ -1,5 +1,5 @@
-[#h4_financial_item_api]
-== Financial Item API
+[#h4_system_integrators_financial_item_api]
+= Financial Item API
 These links are documentation on sales order api
 
 * bl_fi_mst_item_hdr
@@ -14,63 +14,63 @@ These links are documentation on sales order api
 ** this table to store the child item after the child item being created in header table as single product. It is to link child item to specific group product. 
 
 
-=== Create Financial Item
+== Create Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5b75f5fe0e7aa-create-financial-item-etl
 
-=== Update Financial Item
+== Update Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/295784efab326-update-financial-item-etl
 
 
-=== Get all Financial Item
+== Get all Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0ee6f6e50f5e3-get-all-ecomsync-item-etl-ep
 
-=== Get Financial Item by Guid
+== Get Financial Item by Guid
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/7944401702018-get-financial-item-by-guid-etl
 
-=== Get Financial Item by Criteria
+== Get Financial Item by Criteria
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6df7f69f6c4f8-get-ecomsync-item-by-query-etl-ep
 
-=== Delete Financial Item
+== Delete Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/71405b7103746-delete-financial-item-by-guid-etl
 
-=== Get All Financial Item Extension
+== Get All Financial Item Extension
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/e51e41d5fc1a9-get-all-ecomsync-item-extensions-etl-ep
 
-=== Create Financial Item Extension
+== Create Financial Item Extension
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/4a50f7cd4d7cf-create-ecomsync-item-extension-etl-ep
 
-=== Update Financial Item Extension
+== Update Financial Item Extension
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/15ff4a9d542f9-update-ecomsync-item-extension-etl-ep
 
-=== Get Financial Item Extension By Guid
+== Get Financial Item Extension By Guid
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/97913c9d1d2ea-get-ecomsync-item-extension-by-guid-etl-ep
 
-=== Delete Financial Item Extension
+== Delete Financial Item Extension
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b82778b66b76c-delete-ecomsync-item-extension-by-guid-etl-ep
 
-=== Get Financial Item Extension By Criteria
+== Get Financial Item Extension By Criteria
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/b0b7a9b4c805d-get-ecomsync-item-extension-by-query-etl-ep
 
-=== Get All Financial Item Line
+== Get All Financial Item Line
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/6eddda835861e-get-all-ecomsync-item-lines-etl-ep
 
-=== Create Financial Item Line
+== Create Financial Item Line
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/5df4b6cc4f6df-create-ecomsync-item-line-etl-ep
 
-=== Update Financial Item Line
+== Update Financial Item Line
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/712933bd78ea8-update-ecomsync-item-line-etl-ep
 
-=== Get Financial Item Line By Guid
+== Get Financial Item Line By Guid
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/c6d77508653f7-get-ecomsync-item-line-by-guid-etl-ep
 
-=== Delete Financial Item Line
+== Delete Financial Item Line
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/1c8eb2f0066e1-delete-ecomsync-item-line-by-guid-etl-ep
 
-=== Get Financial Item Line By Criteria
+== Get Financial Item Line By Criteria
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/92a7efd385ddd-get-ecomsync-item-line-by-query-etl-ep
 
-=== Add Files to Financial Item
+== Add Files to Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/d968514aaa538-add-files-for-ecomsync-item-etl-ep
 
-=== Get File In Financial Item
+== Get File In Financial Item
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/958568a53ac93-get-file-of-ecomsync-item-etl-ep

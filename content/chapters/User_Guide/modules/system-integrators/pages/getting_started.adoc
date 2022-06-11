@@ -76,7 +76,6 @@ A new user should register an account at: https://akaun.com:
 // [#h5_vendor_and_developer_registration]
 *Vendor and Developer Registration*
 
-{empty} +
 // [#h5_registration_user_account_in_dev_env]
 *Registration of user account in development environment*
 
@@ -128,15 +127,15 @@ https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public
 
 |  Sandbox (development) 
 |  https://akaun.dev
-|  https://api.akaun.dev/{endpoint_url}
+|  https://api.akaun.dev/endpoint_url
 
 |  Staging environment
 |  https://akaun.cloud
-|  https://api.akaun.cloud/{endpoint_url}
+|  https://api.akaun.cloud/endpoint_url
 
 |  Production environment
 |  https://akaun.com 
-|  https://api.akaun.com/{endpoint_url}
+|  https://api.akaun.com/endpoint_url
 
 |===
 

@@ -1,5 +1,5 @@
-[#h4_sales_order_api]
-== Sales Order API
+[#h4_system_integrators_sales_order_api]
+= Sales Order API
 
 Sales order consists of five tables for data storing which are:
 
@@ -19,23 +19,17 @@ Sales order consists of five tables for data storing which are:
 * bl_fi_generic_doc_link
 ** this table to link the generic document. It can link from any server doc type such sales order, sales invoice etc
 
-Calculation in line level:
 
-[%header,format=csv]
-|===
-include::genDocLinePricingCalc.csv[]
-|===
-
-=== Create sales order
+== Create sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
 
-=== Update sales order
+== Update sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep
 
-=== Get all sales order
+== Get all sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
 
-=== Get sales order by guid
+== Get sales order by guid
 
 * What if there's membership points to be rewarded? 
 
@@ -44,23 +38,23 @@ https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-inte
 ** Athirah, please get the video recording of this google spreadsheet discussion from Aida and paste here.
 
 
-=== Create sales order
+== Create sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/efd10d9cc76c9-internal-sales-order-insert-etl-ep
 
 
-=== Update sales order
+== Update sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/94aaf04d32918-internal-sales-order-update-etl-ep
 
-=== Get all sales order
+== Get all sales order
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/ab3844710a466-internal-sales-order-get-all-etl-ep
 
 
-=== Get sales order by specific guid
+== Get sales order by specific guid
 
 https://bigledger.stoplight.io/docs/blg-akaun-api-docs-public/0c36501cddfbf-internal-sales-order-get-by-guid-etl-ep
 
 [#h5_frequently asked questions]
-=== Frequently Asked Question
+== Frequently Asked Question
 
 *PNS VS STL_MTHD*
 
