@@ -522,21 +522,17 @@ If the mobile app would like to display a list of products and services (includi
 <title>Developer Account Registration and Configuration</title>
 <simpara>Akaun provides various environment for developers to test, stage and deploy into production.</simpara>
 <informaltable frame="all" rowsep="1" colsep="1">
-<tgroup cols="6">
-<colspec colname="col_1" colwidth="16.6666*"/>
-<colspec colname="col_2" colwidth="16.6666*"/>
-<colspec colname="col_3" colwidth="16.6666*"/>
-<colspec colname="col_4" colwidth="16.6666*"/>
-<colspec colname="col_5" colwidth="16.6666*"/>
-<colspec colname="col_6" colwidth="16.667*"/>
+<tgroup cols="4">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="25*"/>
+<colspec colname="col_3" colwidth="25*"/>
+<colspec colname="col_4" colwidth="25*"/>
 <thead>
 <row>
 <entry align="left" valign="top"></entry>
 <entry align="left" valign="top">Sandbox</entry>
 <entry align="left" valign="top">Staging</entry>
 <entry align="left" valign="top">Production: Akaun.com</entry>
-<entry align="left" valign="top">Production: Akaun.in</entry>
-<entry align="left" valign="top">Production: Akaun.cn</entry>
 </row>
 </thead>
 <tbody>
@@ -545,48 +541,36 @@ If the mobile app would like to display a list of products and services (includi
 <entry align="left" valign="top"><simpara>*.akaun.xyz</simpara></entry>
 <entry align="left" valign="top"><simpara>*.akaun.app</simpara></entry>
 <entry align="left" valign="top"><simpara>*.akaun.net</simpara></entry>
-<entry align="left" valign="top"><simpara>*.akauncom.in</simpara></entry>
-<entry align="left" valign="top"><simpara>*.akaun.com.cn</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Region</simpara></entry>
 <entry align="left" valign="top"><simpara>Singapore</simpara></entry>
 <entry align="left" valign="top"><simpara>Singapore</simpara></entry>
 <entry align="left" valign="top"><simpara>Singapore</simpara></entry>
-<entry align="left" valign="top"><simpara>India</simpara></entry>
-<entry align="left" valign="top"><simpara>China</simpara></entry>
 </row>
 <row>
-<entry align="left" valign="top"><simpara>status</simpara></entry>
+<entry align="left" valign="top"><simpara>Status</simpara></entry>
 <entry align="left" valign="top"><simpara>Live</simpara></entry>
 <entry align="left" valign="top"><simpara>Live</simpara></entry>
 <entry align="left" valign="top"><simpara>Live</simpara></entry>
-<entry align="left" valign="top"><simpara>FUTURE</simpara></entry>
-<entry align="left" valign="top"><simpara>FUTURE</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Description</simpara></entry>
 <entry align="left" valign="top"><simpara>This is the developer sandbox to experiments , test and develop.</simpara></entry>
 <entry align="left" valign="top"><simpara>This is for UAT, Demo, Final testing before deployment to the production environment.</simpara></entry>
 <entry align="left" valign="top"><simpara>This is the global live environment.</simpara></entry>
-<entry align="left" valign="top"><simpara>This is the isolated environment for India market.</simpara></entry>
-<entry align="left" valign="top"><simpara>This is the isolated environment for China market.</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>Shell Website</simpara></entry>
 <entry align="left" valign="top"><simpara><link xl:href="https://akaun.dev">https://akaun.dev</link></simpara></entry>
 <entry align="left" valign="top"><simpara><link xl:href="https://akaun.cloud">https://akaun.cloud</link></simpara></entry>
 <entry align="left" valign="top"><simpara><link xl:href="https://akaun.com">https://akaun.com</link></simpara></entry>
-<entry align="left" valign="top"><simpara><link xl:href="https://akaun.in">https://akaun.in</link></simpara></entry>
-<entry align="left" valign="top"><simpara><link xl:href="https://akaun.cn">https://akaun.cn</link></simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>API</simpara></entry>
 <entry align="left" valign="top"><simpara>api.akaun.dev</simpara></entry>
 <entry align="left" valign="top"><simpara>api.akaun.cloud</simpara></entry>
 <entry align="left" valign="top"><simpara>api.akaun.com</simpara></entry>
-<entry align="left" valign="top"></entry>
-<entry align="left" valign="top"></entry>
 </row>
 </tbody>
 </tgroup>
@@ -7655,9 +7639,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="applet_logo_v2.png"/>
+<imagedata fileref="stock_take_logo.png"/>
 </imageobject>
-<textobject><phrase>applet logo v2</phrase></textobject>
+<textobject><phrase>stock take logo</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <simpara>1.2  Go to the Stock Take Session</simpara>
@@ -7741,6 +7725,69 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>report type</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara>1.11 Click Upload Reason</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="upload_reason.png"/>
+</imageobject>
+<textobject><phrase>upload reason</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.12 Select report type and export the report in excel</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="export_excel.png"/>
+</imageobject>
+<textobject><phrase>export excel</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.13 An excel will be dowloaded</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="downloaded_excel.png"/>
+</imageobject>
+<textobject><phrase>downloaded excel</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.14 Fill up a reason for an item that has variance</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="fill_up_reason.png"/>
+</imageobject>
+<textobject><phrase>fill up reason</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.15 Save the file and reupload into Stock Take Applet</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="fill_the_reason_button.png"/>
+</imageobject>
+<textobject><phrase>fill the reason button</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.16 Once uploaded, go to the details tab and change the status to closed, then click save.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="details_save.png"/>
+</imageobject>
+<textobject><phrase>details save</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>1.17 Ammendment and Adjustment can&#8217;t be made once the stock take has Closed</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="closed_stock_take.png"/>
+</imageobject>
+<textobject><phrase>closed stock take</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
 <section xml:id="h3_stock_take_v2_devices">
 <title>Menu 02 - Devices</title>
@@ -7817,7 +7864,15 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="h3_stock_take_v2_personalization">
 <title>Personalization</title>
-
+<simpara>Go to the Personalization Menu to add or edit Profile</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="personalization.png"/>
+</imageobject>
+<textobject><phrase>personalization</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
 <section xml:id="h4_stock_take_v2_related_applets">
 <title>Related Applets</title>
