@@ -1,5 +1,5 @@
-[#h2_named_applet_index]
-= Named-Applet
+[#h2_pos_gp_index]
+= POS - GP
 
 include::pages/introduction.adoc[leveloffset=3]
 

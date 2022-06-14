@@ -1,0 +1,6 @@
+[#h3_pos_gp_introduction]
+=  Introduction
+
+image::blank_logo.png[]
+
+include::intro_description.adoc[]
