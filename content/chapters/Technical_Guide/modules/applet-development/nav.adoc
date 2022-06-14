@@ -1,4 +1,5 @@
 * Applet Development
+** xref:introduction.adoc[Introduction]
 ** xref:applet_permission_template.adoc[Permission Template]
 ** xref:applet_pricing.adoc[Applet Pricing]
 ** xref:applet_qc_checklist.adoc[QC Checklist]
@@ -12,7 +13,6 @@
 ** xref:developer_sysadmin_applet.adoc[Developer SysAdmin Applet]
 ** xref:example_applet_template.adoc[Example Applet Template]
 ** xref:inactive_applet.adoc[Inactive Applet]
-** xref:introduction.adoc[Introduction]
 ** xref:publishing_applet.adoc[Publishing Applet]
 ** xref:releasing_new_version.adoc[Release New Version]
 ** xref:support_maintenance.adoc[Support Maintenance]
