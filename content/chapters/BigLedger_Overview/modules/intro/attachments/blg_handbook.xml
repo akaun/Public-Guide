@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-06-12</date>
+<date>2022-06-16</date>
 <author>
 <personname>
 <firstname>v1.3</firstname>
@@ -241,7 +241,7 @@ From the <emphasis role="strong">Applet Store</emphasis> , a user would be able 
 </section>
 <section xml:id="h2_user_guide_project_implementors">
 <title>Project Implementors</title>
-<section xml:id="h2_project_implementors_introduction">
+<section xml:id="h2_user_guide_project_implementors_introduction">
 <title>Introduction</title>
 <simpara>Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
 using the BigLedger platform.</simpara>
@@ -267,9 +267,440 @@ using the BigLedger platform.</simpara>
 <section xml:id="h3_project_impl_core_module">
 <title>Configuration of Core Modules</title>
 <simpara>The Core Module consist of the following the main applets that are depended by all other applets. For example, in order to issue a sales invoice, we need to ensure that the Company and Branches are setup and configured, the products and services are added into the Item Maintenance applet, the employees of the company is setup so that the users can select the salesman when issuing the sales invoice.</simpara>
-<simpara>The applets in <xref linkend="h2_core_module"/> should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
-<simpara>See <xref linkend="h2_core_module"/> for more details.</simpara>
+<simpara>The applets in
+<xref linkend="h2_core_module"/>
+should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
+<section xml:id="h3_user_guide_project_implementors_catalog_maintenance">
+<title>Applet-Catalog Maintenance</title>
+<simpara>Applet-Catalog is a curated list of applets combined with a curated list of users with permissions to install these applets in the list.
+Users are able to open the Applet Store to see a list of Private Catalogs and install the applets accordingly.
+Currently, only the Platform System Administrator is allowed to create the Applet-Catalogs, and add users to the</simpara>
+<simpara>When adding an applet to a catalog, the Platform System administrators get to specify the tenant, rank, edition and addons. While the tenant and rank options do not affect the subscription pricing, the edition and addons determines the monthly subscription fee of the applets.</simpara>
+<simpara>A tenant OWNER/ADMIN who happens to also be the ADMIN/OWNER of a Applet-Catalog is able to add/remove applets from the Applet-Catalog as well as adding or removing users from the Applet-Catalog. Typically, many catalogs would be created for the users of a tenant. In the example below, we make use of some fictitious company names for elaboration purpose.</simpara>
+<simpara>Kindly refer to
+<xref linkend="h3_user_guide_project_implementors_fictitious_companies"/>
+for elaboration of <emphasis role="strong">fictitious</emphasis> names.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Group level top management</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-pharmacy ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-pharmacy ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-group-director-01 ,
+* abc-group-director-02 ,
+* abc-group-director-03 ,
+* abc-group-director-04 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the group level, hence, they need to have access to applets linked to various tenants, and they should have the permissions to modify any settings as OWNER of the applets as well.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division management</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-retail-director-01 ,
+* abc-ce-retail-director-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Pharmacy Division management</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-pharmacy ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-pharmacy+
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-pharmacy-director-01 ,
+* abc-pharmacy-director-02 ,
+* abc-pharmacy-director-03 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group Pharmacy businesses only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - Finance Managers</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Tax Configuration Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Chart of Account Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Cashbook Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Entity Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Employee Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Bank Reconciliation Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : Auto-Match</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-finance-manager-01 ,
+* abc-ce-finance-manager-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - Finance Executives</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Tax Configuration Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Chart of Account Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Cashbook Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Inventory Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Entity Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Employee Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Bank Reconciliation Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : Auto-Match</simpara><simpara>* <emphasis role="strong">Internal Payment Voucher Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : FPX-Integration</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-finance-exec-01 ,
+* abc-ce-finance-exec-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - HQ Operation Managers</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Customer Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">POS - General Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Internal Sales Order Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Inventory Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Internal Purchase Order Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Report - Daily Sales Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-hq-ops-manager-01 ,
+* abc-ce-hq-ops-manager-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - Branch Cashiers</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Customer Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">POS - General Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Internal Sales Order Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Inventory Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Report - Daily Cashier Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-hq-branch-cashier-01 ,
+* abc-ce-hq-branch-cashier-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section xml:id="h3_user_guide_project_implementors_fictitious_companies">
+<title>Fictitious Companies</title>
+<simpara>For the ease of elaboration, we will be using a fictitious company throughout this guide.</simpara>
+<note>
+<title>Disclaimer : Use of fictitious names</title>
+<simpara>The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, places, or events is intended or should be inferred.</simpara>
+</note>
+<section xml:id="h4_user_guide_fictitious_companies">
+<title>Fictitious Company Names</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Group (Nickname)</simpara></entry>
+<entry align="left" valign="top"><simpara>Tenant</simpara></entry>
+<entry align="left" valign="top"><simpara>Company Name</simpara></entry>
+<entry align="left" valign="top"><simpara>Users</simpara></entry>
+<entry align="left" valign="top"><simpara>Description</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top" morerows="6"><simpara>ABC Group</simpara></entry>
+<entry align="left" valign="top" morerows="4"><simpara>abc-main</simpara></entry>
+<entry align="left" valign="top"><simpara>ABC Public Listed Berhad</simpara></entry>
+<entry align="left" valign="top"><simpara>Lim-KH</simpara></entry>
+<entry align="left" valign="top"><simpara>A large conglomerate in Malaysia, public listed.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC CE (Malaysia) Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Lim-KC</simpara></entry>
+<entry align="left" valign="top"><simpara>The largest consumer electronic chain store in Malaysia with 120 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC IT (Malaysia) Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Wai-Hang</simpara></entry>
+<entry align="left" valign="top"><simpara>A premium IT retailer in Malaysia with 15 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC CE (Singapore) Pte Ltd</simpara></entry>
+<entry align="left" valign="top"><simpara>Johnny</simpara></entry>
+<entry align="left" valign="top"><simpara>Retail consumer electronics chain store with 20 branches in Singapore owned by ABC Group in Malaysia</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC IT (Singapore) Pte Ltd</simpara></entry>
+<entry align="left" valign="top"><simpara>Wong</simpara></entry>
+<entry align="left" valign="top"><simpara>Retail computer chain stores with 30 branches in Singapore</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top" morerows="1"><simpara>abc-pharmacy</simpara></entry>
+<entry align="left" valign="top"><simpara>ABC Pharmacy (Malaysia) Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Michael</simpara></entry>
+<entry align="left" valign="top"><simpara>Malaysia Pharmacy chain  with 50 branches owned by ABC Group</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC Pharmacy (Singapore) Pte Ltd</simpara></entry>
+<entry align="left" valign="top"><simpara>Stephen</simpara></entry>
+<entry align="left" valign="top"><simpara>Singapore Pharmacy retail with 30 branches owned by ABC Group</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>PC-City Group</simpara></entry>
+<entry align="left" valign="top"><simpara>pccity</simpara></entry>
+<entry align="left" valign="top"><simpara>PC-City Hypermarket Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Yee</simpara></entry>
+<entry align="left" valign="top"><simpara>The largest IT Hypermarket in Malaysia with 10 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Tander</simpara></entry>
+<entry align="left" valign="top"><simpara>tander</simpara></entry>
+<entry align="left" valign="top"><simpara>Tander Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Eric</simpara></entry>
+<entry align="left" valign="top"><simpara>Largest computer chainstores with 60 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ingrem</simpara></entry>
+<entry align="left" valign="top"><simpara>ingrem</simpara></entry>
+<entry align="left" valign="top"><simpara>Ingrem Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Victor</simpara></entry>
+<entry align="left" valign="top"><simpara>One of the largest IT distributors in Malaysia</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UncleSam</simpara></entry>
+<entry align="left" valign="top"><simpara>unclesam</simpara></entry>
+<entry align="left" valign="top"><simpara>Uncle Sam Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Kim</simpara></entry>
+<entry align="left" valign="top"><simpara>One of the largest android handphone manufacturer in the world.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
 </section>
 </section>
 </section>
@@ -7543,6 +7974,143 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 
 </section>
 <section xml:id="h3_payment_channel_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
+<section xml:id="h2_pos_gp_index">
+<title>POS - GP</title>
+<section xml:id="h3_pos_gp_introduction">
+<title>Introduction</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="blank_logo.png"/>
+</imageobject>
+<textobject><phrase>blank logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h3_applet_pos_gp_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_hr_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_payment_switching_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_chatbot_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_process_automation_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_pos_gp_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h3_pos_gp_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h3_pos_gp_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h3_pos_gp_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h3_pos_gp_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h3_pos_gp_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h3_pos_gp_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h3_pos_gp_roadmap">
 <title>Roadmap</title>
 
 </section>

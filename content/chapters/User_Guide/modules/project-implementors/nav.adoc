@@ -1,2 +1,4 @@
 * Project Implementors
 ** xref:introduction.adoc[Introduction]
+** xref:catalog_maintenance.adoc[Applet-Catalog]
+** xref:fictitious_companies.adoc[Fictitious Names]
