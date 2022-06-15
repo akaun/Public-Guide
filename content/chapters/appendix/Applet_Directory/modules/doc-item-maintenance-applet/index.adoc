@@ -8,9 +8,21 @@ include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 
-include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]
+include::pages/menu_01_items.adoc[leveloffset=3]
 
-include::pages/menu_02_line_items.adoc[leveloffset=3]
+include::pages/menu_02_category_groups.adoc[leveloffset=3]
+
+include::pages/menu_03_categories.adoc[leveloffset=3]
+
+include::pages/menu_04_pricing_scheme.adoc[leveloffset=3]
+
+include::pages/menu_05_import_item.adoc[leveloffset=3]
+
+include::pages/menu_06_scheduler.adoc[leveloffset=3]
+
+include::pages/menu_07_file_import.adoc[leveloffset=3]
+
+include::pages/menu_08_search_filter.adoc[leveloffset=3]
 
 include::pages/permission_settings.adoc[leveloffset=3]
 

@@ -1,12 +1,13 @@
 * Stock Take Applet v2
 ** xref:introduction.adoc[Introduction]
+** xref:menu_01_stock_take_session.adoc[Stock Take Session]
+** xref:menu_02_devices.adoc[Devices]
+** xref:menu_03_reports.adoc[Reports]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
 ** xref:release_note.adoc[Release Note]
 ** xref:pricing.adoc[Pricing]
 ** xref:personalization_settings.adoc[Personalization]
-** xref:menu_01_stock_take_session.adoc[Stock Take Session]
-** xref:menu_02_devices.adoc[Devices]
-** xref:menu_03_reports.adoc[Reports]
+
 
