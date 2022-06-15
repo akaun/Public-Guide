@@ -2,3 +2,5 @@
 = Project Implementors
 
 include::pages/introduction.adoc[leveloffset=3]
+include::pages/catalog_maintenance.adoc[leveloffset=3]
+include::pages/fictitious_companies.adoc[leveloffset=3]

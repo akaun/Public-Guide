@@ -1,0 +1,365 @@
+[#h3_user_guide_project_implementors_catalog_maintenance]
+= Applet-Catalog Maintenance
+
+Applet-Catalog is a curated list of applets combined with a curated list of users with permissions to install these applets in the list. 
+Users are able to open the Applet Store to see a list of Private Catalogs and install the applets accordingly.
+Currently, only the Platform System Administrator is allowed to create the Applet-Catalogs, and add users to the 
+
+When adding an applet to a catalog, the Platform System administrators get to specify the tenant, rank, edition and addons. While the tenant and rank options do not affect the subscription pricing, the edition and addons determines the monthly subscription fee of the applets. 
+
+A tenant OWNER/ADMIN who happens to also be the ADMIN/OWNER of a Applet-Catalog is able to add/remove applets from the Applet-Catalog as well as adding or removing users from the Applet-Catalog. Typically, many catalogs would be created for the users of a tenant. In the example below, we make use of some fictitious company names for elaboration purpose.
+
+Kindly refer to 
+ifndef::site-gen-antora[]
+xref:h3_user_guide_project_implementors_fictitious_companies[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+xref:handbook-user-guide:project-implementors:fictitious_companies.adoc[Fictitious Companies] 
+endif::[]
+for elaboration of *fictitious* names.
+
+.Example Applet-Catalog for ABC Group level top management
+|===
+| Applet List | User List | Remarks
+
+| 
+* *Organization Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Organization Applet* +
+** Rank: OWNER ,
+** Tenant: abc-pharmacy ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Financial Report Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Financial Report Applet* +
+** Rank: OWNER , 
+** Tenant: abc-pharmacy , 
+** Edition: Default ,
+** Addons : n/a ,
+
+| 
+* abc-group-director-01 ,
+* abc-group-director-02 ,
+* abc-group-director-03 ,
+* abc-group-director-04 ,
+
+| The people included in this list are holding positions at the group level, hence, they need to have access to applets linked to various tenants, and they should have the permissions to modify any settings as OWNER of the applets as well.
+|=== 
+
+// --------------
+.Example Applet-Catalog for ABC Consumer Electronics Division management
+|===
+| Applet List | User List | Remarks
+
+| 
+* *Organization Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Financial Report Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+|
+* abc-ce-retail-director-01 ,
+* abc-ce-retail-director-02 ,
+
+| The people included in this list are holding positions at the *business division* level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to *abc-pharmacy* tenant.
+|===
+// --------------
+.Example Applet-Catalog for ABC Pharmacy Division management
+|===
+| Applet List | User List | Remarks
+
+| 
+* *Organization Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-pharmacy ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Financial Report Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-pharmacy+
+** Edition: Default ,
+** Addons : n/a ,
+
+|
+* abc-pharmacy-director-01 ,
+* abc-pharmacy-director-02 ,
+* abc-pharmacy-director-03 ,
+
+| The people included in this list are holding positions at the *business division* level (for ABC Group Pharmacy businesses only), hence, they need do not have access to applets linked to *abc-pharmacy* tenant.
+
+|===
+// --------------
+
+.Example Applet-Catalog for ABC Consumer Electronics Division - Finance Managers
+|===
+| Applet List | User List | Remarks
+
+| 
+* *Organization Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Financial Report Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Tax Configuration Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Chart of Account Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Cashbook Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+
+* *Entity Maintenance Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Employee Maintenance Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Bank Reconciliation Applet* +
+** Rank: OWNER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : Auto-Match
+
+
+
+|
+* abc-ce-finance-manager-01 ,
+* abc-ce-finance-manager-02 ,
+
+| The people included in this list are holding positions at the *business division* level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to *abc-pharmacy* tenant.
+
+
+|===
+// --------------
+
+.Example Applet-Catalog for ABC Consumer Electronics Division - Finance Executives
+|===
+| Applet List | User List | Remarks
+
+|
+* *Tax Configuration Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Chart of Account Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Doc Item Maintenance Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Cashbook Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Inventory Item Maintenance Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Entity Maintenance Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Employee Maintenance Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+
+* *Bank Reconciliation Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : Auto-Match
+
+* *Internal Payment Voucher Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : FPX-Integration
+
+|
+* abc-ce-finance-exec-01 ,
+* abc-ce-finance-exec-02 ,
+
+| The people included in this list are holding positions at the *business division* level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to *abc-pharmacy* tenant.
+
+
+|===
+// --------------
+
+.Example Applet-Catalog for ABC Consumer Electronics Division - HQ Operation Managers
+|===
+| Applet List | User List | Remarks
+
+| 
+* *Doc Item Maintenance Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Customer Maintenance Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *POS - General Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Internal Sales Order Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Inventory Item Maintenance Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Doc Item Maintenance Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Internal Purchase Order Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Report - Daily Sales Applet* +
+** Rank: ADMIN ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+|
+* abc-ce-hq-ops-manager-01 ,
+* abc-ce-hq-ops-manager-02 ,
+
+| The people included in this list are holding positions at the *business division* level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to *abc-pharmacy* tenant.
+
+
+|===
+// --------------
+
+.Example Applet-Catalog for ABC Consumer Electronics Division - Branch Cashiers
+|===
+| Applet List | User List | Remarks
+
+| 
+* *Doc Item Maintenance Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Customer Maintenance Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *POS - General Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Internal Sales Order Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Inventory Item Maintenance Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Doc Item Maintenance Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+* *Report - Daily Cashier Report Applet* +
+** Rank: MEMBER ,
+** Tenant: abc-main ,
+** Edition: Default ,
+** Addons : n/a ,
+
+|
+* abc-ce-hq-branch-cashier-01 ,
+* abc-ce-hq-branch-cashier-02 ,
+
+| The people included in this list are holding positions at the *business division* level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to *abc-pharmacy* tenant.
+
+|===
+
+
