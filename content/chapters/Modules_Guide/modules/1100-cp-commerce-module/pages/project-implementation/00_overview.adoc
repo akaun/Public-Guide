@@ -1,0 +1,76 @@
+[#h3_cpcom_mod_project_implementation_steps]
+= CP Commerce - Project Implementation Steps
+
+
+== Scope Management (End Results)
+
+_Begin with the end in mind_ 
+
+* This is where we define the end results and priorities
+
+* We decide what to do in phase 1, phase 2, phase 3 etc.
+
+* This is where we create the WBS (Work Break Down) as well.
+
+== Project Gantt Chart
+
+Although there are many project Gantt Chart software out there, in the past, we have used Smartsheet.com, Google spreadsheet and others. We found that the issue due dates and the actual progress of the issue status became outdated within days because everyone else in the team are NOT updating the issues in these Gantt Chart, they are using Jira issue tracker at https://wavelet.atlassian.net . As a results, we have decided to make use of the following https://www.atlassian.com/software/jira/features/roadmaps 
+
+
+* Defining Activities
+** List down all the activities involved for each <<h4_cpcom_mod_work_breakdown>>
+
+* Sequence Activities
+** Which one first, which one next 
+
+* Estimated Resource Requirements for each activity
+** Estimate how long it will take, what skills may be required to do this
+
+* Schedule
+** Identify the activities dependency, and based on resource availability , developing a schedule
+
+* Identify Critical Path
+** As many activities can happen in parallel , we need to identify the critical path to ensure the activities that are in critical path are given the highest urgency, to ensure the project is not delayed.
+
+
+== Project Kickstart Meeting
+
+
+== Weekly Meeting
+
+== Agile Method
+
+== Cashflow Projection
+
+
+== Human Resource Management
+
+* Milestones and Rewards
+
+== Communication Management
+
+
+== Risk Management
+
+* Identify third party dependency
+
+* Identify backup plans
+
+* Identify contingency plans
+
+== UAT (User Acceptance Test)
+
+
+== Requirement Analysis
+
+
+== Project Goes Live
+
+== Post Mortem
+
+
+
+
+
+
+

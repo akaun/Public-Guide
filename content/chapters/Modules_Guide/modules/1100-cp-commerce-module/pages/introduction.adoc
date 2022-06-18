@@ -1,10 +1,10 @@
-[#h3_cp_commerce_introduction]
+[#h3_cpcom_mod_introduction]
 = Introduction
 
 This section provides you the guide to implementing the *CP Commerce* module.
 You will get to know what is included in the CP Commerce module, how to use it, how to get started and what are the features that you can use to launch your next e-commerce project.
 
-[#h4_cp_commerce_overview]
+[#h4_cpcom_mod_overview]
 == CP Commerce Overview
 
 *CP Commerce* stands for "Cross Platform Commerce". Most of our customers use the CP Commerce module for the following reasons:
@@ -119,38 +119,15 @@ You will get to know what is included in the CP Commerce module, how to use it, 
 * Product Reviews and Ratings
 ** Able to set multiple reviews per product, so that customers are able to feedback on multiple perspectives of the product, not just how many stars. For example: (1) Satisfaction the product (2) Delivery Speed (3) After sales support etc..
 
-The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.
-
-* Full transaction history and billing statements
-
-* Full receipts 
-
-* Restricted access
-
-* Multiple websites with different pricing scheme
-
-* Credit Limit control
-** Checkout now pay later
-
-* Single Login Multiple Accounts (Entities), Each Account supports Multiple Memberships
-
-* Single Account with multiple logins
-
-* Online Forms
-
-* Blocked Users and Spending Limits
-
-* Multi-UOM
 
 
 Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.
 
-[#h4_cp_commerce_module_applets]
+[#h4_cpcom_mod_module_applets]
 == CP Commerce Applets
 
 
-* <<h2_cp_commerce_admin_applet>>
 
 * Media Library Applet
 
@@ -161,7 +138,7 @@ Provide a summary of what this module does and doesn't do.
 
 * 
 
-[#h4_cp_commerce_features_and_functions]
+[#h4_cpcom_mod_features_and_functions]
 == Features and Functions
 
 

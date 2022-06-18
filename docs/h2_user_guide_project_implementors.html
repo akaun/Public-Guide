@@ -452,7 +452,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="h2_user_guide_project_implementors">2.2. Project Implementors</h3>
 <div class="sect3">
-<h4 id="h2_project_implementors_introduction">2.2.1. Introduction</h4>
+<h4 id="h2_user_guide_project_implementors_introduction">2.2.1. Introduction</h4>
 <div class="paragraph">
 <p>Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
 using the BigLedger platform.</p>
@@ -502,12 +502,495 @@ using the BigLedger platform.</p>
 <p>The Core Module consist of the following the main applets that are depended by all other applets. For example, in order to issue a sales invoice, we need to ensure that the Company and Branches are setup and configured, the products and services are added into the Item Maintenance applet, the employees of the company is setup so that the users can select the salesman when issuing the sales invoice.</p>
 </div>
 <div class="paragraph">
-<p>The applets in <a href="h2_core_module.html">Core Module</a> should be installed, configured in proper sequence, before you proceed to install the other applets.</p>
-</div>
-<div class="paragraph">
-<p>See <a href="h2_core_module.html">Section 4.2, &#8220;Core Module&#8221;</a> for more details.</p>
+<p>The applets in
+<a href="h2_core_module.html">Section 4.2, &#8220;Core Module&#8221;</a>
+should be installed, configured in proper sequence, before you proceed to install the other applets.</p>
 </div>
 <div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_user_guide_project_implementors_catalog_maintenance">2.2.2. Applet-Catalog Maintenance</h4>
+<div class="paragraph">
+<p>Applet-Catalog is a curated list of applets combined with a curated list of users with permissions to install these applets in the list.
+Users are able to open the Applet Store to see a list of Private Catalogs and install the applets accordingly.
+Currently, only the Platform System Administrator is allowed to create the Applet-Catalogs, and add users to the</p>
+</div>
+<div class="paragraph">
+<p>When adding an applet to a catalog, the Platform System administrators get to specify the tenant, rank, edition and addons. While the tenant and rank options do not affect the subscription pricing, the edition and addons determines the monthly subscription fee of the applets.</p>
+</div>
+<div class="paragraph">
+<p>A tenant OWNER/ADMIN who happens to also be the ADMIN/OWNER of a Applet-Catalog is able to add/remove applets from the Applet-Catalog as well as adding or removing users from the Applet-Catalog. Typically, many catalogs would be created for the users of a tenant. In the example below, we make use of some fictitious company names for elaboration purpose.</p>
+</div>
+<div class="paragraph">
+<p>Kindly refer to
+<a href="h2_user_guide_project_implementors.html#h3_user_guide_project_implementors_fictitious_companies">Section 2.2.3, &#8220;Fictitious Companies&#8221;</a>
+for elaboration of <strong>fictitious</strong> names.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Group level top management</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Organization Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Organization Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-pharmacy ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Financial Report Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Financial Report Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-pharmacy ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-group-director-01 ,
+* abc-group-director-02 ,
+* abc-group-director-03 ,
+* abc-group-director-04 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the group level, hence, they need to have access to applets linked to various tenants, and they should have the permissions to modify any settings as OWNER of the applets as well.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Consumer Electronics Division management</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Organization Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Financial Report Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-ce-retail-director-01 ,
+* abc-ce-retail-director-02 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the <strong>business division</strong> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <strong>abc-pharmacy</strong> tenant.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Pharmacy Division management</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Organization Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-pharmacy ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Financial Report Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-pharmacy+
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-pharmacy-director-01 ,
+* abc-pharmacy-director-02 ,
+* abc-pharmacy-director-03 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the <strong>business division</strong> level (for ABC Group Pharmacy businesses only), hence, they need do not have access to applets linked to <strong>abc-pharmacy</strong> tenant.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Consumer Electronics Division - Finance Managers</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Organization Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Financial Report Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Tax Configuration Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Chart of Account Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Cashbook Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Entity Maintenance Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Employee Maintenance Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Bank Reconciliation Applet</strong><br>
+<strong> Rank: OWNER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : Auto-Match</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-ce-finance-manager-01 ,
+* abc-ce-finance-manager-02 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the <strong>business division</strong> level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to <strong>abc-pharmacy</strong> tenant.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Consumer Electronics Division - Finance Executives</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Tax Configuration Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Chart of Account Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Doc Item Maintenance Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Cashbook Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Inventory Item Maintenance Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Entity Maintenance Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Employee Maintenance Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Bank Reconciliation Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : Auto-Match</p>
+<p class="tableblock">* <strong>Internal Payment Voucher Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : FPX-Integration</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-ce-finance-exec-01 ,
+* abc-ce-finance-exec-02 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the <strong>business division</strong> level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to <strong>abc-pharmacy</strong> tenant.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Consumer Electronics Division - HQ Operation Managers</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Doc Item Maintenance Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Customer Maintenance Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>POS - General Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Internal Sales Order Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Inventory Item Maintenance Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Doc Item Maintenance Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Internal Purchase Order Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Report - Daily Sales Applet</strong><br>
+<strong> Rank: ADMIN ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-ce-hq-ops-manager-01 ,
+* abc-ce-hq-ops-manager-02 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the <strong>business division</strong> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <strong>abc-pharmacy</strong> tenant.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Example Applet-Catalog for ABC Consumer Electronics Division - Branch Cashiers</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Applet List</th>
+<th class="tableblock halign-left valign-top">User List</th>
+<th class="tableblock halign-left valign-top">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>Doc Item Maintenance Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Customer Maintenance Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>POS - General Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Internal Sales Order Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Inventory Item Maintenance Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Doc Item Maintenance Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p>
+<p class="tableblock">* <strong>Report - Daily Cashier Report Applet</strong><br>
+<strong> Rank: MEMBER ,
+</strong> Tenant: abc-main ,
+<strong> Edition: Default ,
+</strong> Addons : n/a ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* abc-ce-hq-branch-cashier-01 ,
+* abc-ce-hq-branch-cashier-02 ,</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The people included in this list are holding positions at the <strong>business division</strong> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <strong>abc-pharmacy</strong> tenant.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="h3_user_guide_project_implementors_fictitious_companies">2.2.3. Fictitious Companies</h4>
+<div class="paragraph">
+<p>For the ease of elaboration, we will be using a fictitious company throughout this guide.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="title">Disclaimer : Use of fictitious names</div>
+<div class="paragraph">
+<p>The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, places, or events is intended or should be inferred.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect4">
+<h5 id="h4_user_guide_fictitious_companies">2.2.3.1. Fictitious Company Names</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Group (Nickname)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tenant</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Company Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Users</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="7"><p class="tableblock">ABC Group</p></td>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">abc-main</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC Public Listed Berhad</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lim-KH</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A large conglomerate in Malaysia, public listed.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC CE (Malaysia) Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lim-KC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The largest consumer electronic chain store in Malaysia with 120 branches</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC IT (Malaysia) Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wai-Hang</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A premium IT retailer in Malaysia with 15 branches</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC CE (Singapore) Pte Ltd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Johnny</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Retail consumer electronics chain store with 20 branches in Singapore owned by ABC Group in Malaysia</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC IT (Singapore) Pte Ltd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wong</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Retail computer chain stores with 30 branches in Singapore</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="2"><p class="tableblock">abc-pharmacy</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC Pharmacy (Malaysia) Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Michael</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Malaysia Pharmacy chain  with 50 branches owned by ABC Group</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ABC Pharmacy (Singapore) Pte Ltd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Stephen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Singapore Pharmacy retail with 30 branches owned by ABC Group</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PC-City Group</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">pccity</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PC-City Hypermarket Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The largest IT Hypermarket in Malaysia with 10 branches</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tander</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tander</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tander Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eric</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Largest computer chainstores with 60 branches</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ingrem</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ingrem</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ingrem Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Victor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">One of the largest IT distributors in Malaysia</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UncleSam</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">unclesam</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uncle Sam Sdn Bhd</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kim</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">One of the largest android handphone manufacturer in the world.</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -517,7 +1000,7 @@ using the BigLedger platform.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-06-12 19:36:14 +0800
+Last updated 2022-06-18 23:31:05 +0800
 </div>
 </div>
 </body>

@@ -1,0 +1,12 @@
+[#h3_consumer_electronics_product_types]
+= Product Types
+
+
+* Product Variants
+* Product Bundle
+* Made to Order
+* Warranty 
+* Membership
+* AddOns
+
+* Serial numbers

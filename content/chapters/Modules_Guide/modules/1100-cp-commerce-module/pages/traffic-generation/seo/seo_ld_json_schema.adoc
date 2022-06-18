@@ -1,0 +1,2 @@
+[#h5_cpcom_mod_seo_ld_json_schema]
+= LD Json Schema

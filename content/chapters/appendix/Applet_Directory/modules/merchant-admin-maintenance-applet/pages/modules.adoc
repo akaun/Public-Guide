@@ -92,7 +92,7 @@ ifdef::site-gen-antora[]
 endif::[]
 
 ifndef::site-gen-antora[]
-* xref:h2_cp_commerce_module[xrefstyle=full] 
+* xref:h2_cpcom_module[xrefstyle=full] 
 endif::[]
 ifdef::site-gen-antora[]
 * xref:handbook-modules-guide:1100-cp-commerce-module:introduction.adoc[CP-Commerce Module] 

@@ -1,0 +1,11 @@
+[#h3_cpcom_mod_product_maintenance]
+= Product Maintenance
+
+* Basic Product
+* Group Product (variants)
+* Bundle Product
+* Product Categories
+* Product Dimensions / Volumetric 
+* Product Description Pages
+* Product Images
+* Product Reviews / Ratings

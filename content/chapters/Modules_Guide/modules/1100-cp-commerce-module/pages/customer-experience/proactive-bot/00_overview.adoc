@@ -1,0 +1,12 @@
+[#h4_cpcom_mod_proactive_bot]
+= Proactive Bots
+
+Can be used for service reminders
+
+Renewal of contracts
+
+End of life, end of warranty
+
+New products
+
+End of product life (like mobile phones, every 3 years)

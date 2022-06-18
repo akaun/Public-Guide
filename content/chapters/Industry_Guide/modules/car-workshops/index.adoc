@@ -1,4 +1,4 @@
-[#h2_car_workshops_industry]
+[#h2_car_workshops_industry_index]
 = Car Workshops
 
 include::pages/overview.adoc[leveloffset=3]

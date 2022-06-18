@@ -1,3 +1,0 @@
-[#h3_cp_commerce_settlement_methods]
-= Settlement Methods
-

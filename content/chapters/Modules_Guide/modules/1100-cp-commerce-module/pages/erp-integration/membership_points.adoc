@@ -1,0 +1,4 @@
+[#h4_cpcom_mod_membership_points]
+= Membership Points
+
+This should include "REBATES" as well.

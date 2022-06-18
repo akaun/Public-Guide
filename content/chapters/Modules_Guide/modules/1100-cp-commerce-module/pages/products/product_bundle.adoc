@@ -1,0 +1,5 @@
+[#h3_cpcom_mod_product_bundle]
+= Product Bundle
+
+The CP Commerce will do automatic unbundling of the product, to ensure inventory and ecomsync are always up to date, including the child items
+
