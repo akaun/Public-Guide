@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Item Maintenance is used to create and edit item information that can be used in other transnational applets such as the POS and GRN applets. Items can be created manually or synced from EMP. This user guide will help you have a clear understanding on how to use the  Doc Item Maintenance, including, applet creation and adding additional details to the item.
