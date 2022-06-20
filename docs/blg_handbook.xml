@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-06-12</date>
+<date>2022-06-18</date>
 <author>
 <personname>
 <firstname>v1.3</firstname>
@@ -241,7 +241,7 @@ From the <emphasis role="strong">Applet Store</emphasis> , a user would be able 
 </section>
 <section xml:id="h2_user_guide_project_implementors">
 <title>Project Implementors</title>
-<section xml:id="h2_project_implementors_introduction">
+<section xml:id="h2_user_guide_project_implementors_introduction">
 <title>Introduction</title>
 <simpara>Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
 using the BigLedger platform.</simpara>
@@ -267,9 +267,440 @@ using the BigLedger platform.</simpara>
 <section xml:id="h3_project_impl_core_module">
 <title>Configuration of Core Modules</title>
 <simpara>The Core Module consist of the following the main applets that are depended by all other applets. For example, in order to issue a sales invoice, we need to ensure that the Company and Branches are setup and configured, the products and services are added into the Item Maintenance applet, the employees of the company is setup so that the users can select the salesman when issuing the sales invoice.</simpara>
-<simpara>The applets in <xref linkend="h2_core_module"/> should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
-<simpara>See <xref linkend="h2_core_module"/> for more details.</simpara>
+<simpara>The applets in
+<xref linkend="h2_core_module"/>
+should be installed, configured in proper sequence, before you proceed to install the other applets.</simpara>
 <simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
+<section xml:id="h3_user_guide_project_implementors_catalog_maintenance">
+<title>Applet-Catalog Maintenance</title>
+<simpara>Applet-Catalog is a curated list of applets combined with a curated list of users with permissions to install these applets in the list.
+Users are able to open the Applet Store to see a list of Private Catalogs and install the applets accordingly.
+Currently, only the Platform System Administrator is allowed to create the Applet-Catalogs, and add users to the</simpara>
+<simpara>When adding an applet to a catalog, the Platform System administrators get to specify the tenant, rank, edition and addons. While the tenant and rank options do not affect the subscription pricing, the edition and addons determines the monthly subscription fee of the applets.</simpara>
+<simpara>A tenant OWNER/ADMIN who happens to also be the ADMIN/OWNER of a Applet-Catalog is able to add/remove applets from the Applet-Catalog as well as adding or removing users from the Applet-Catalog. Typically, many catalogs would be created for the users of a tenant. In the example below, we make use of some fictitious company names for elaboration purpose.</simpara>
+<simpara>Kindly refer to
+<xref linkend="h3_user_guide_project_implementors_fictitious_companies"/>
+for elaboration of <emphasis role="strong">fictitious</emphasis> names.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Group level top management</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-pharmacy ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-pharmacy ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-group-director-01 ,
+* abc-group-director-02 ,
+* abc-group-director-03 ,
+* abc-group-director-04 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the group level, hence, they need to have access to applets linked to various tenants, and they should have the permissions to modify any settings as OWNER of the applets as well.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division management</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-retail-director-01 ,
+* abc-ce-retail-director-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Pharmacy Division management</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-pharmacy ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-pharmacy+
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-pharmacy-director-01 ,
+* abc-pharmacy-director-02 ,
+* abc-pharmacy-director-03 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group Pharmacy businesses only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - Finance Managers</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Organization Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Financial Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Tax Configuration Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Chart of Account Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Cashbook Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Entity Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Employee Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Bank Reconciliation Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: OWNER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : Auto-Match</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-finance-manager-01 ,
+* abc-ce-finance-manager-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - Finance Executives</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Tax Configuration Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Chart of Account Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Cashbook Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Inventory Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Entity Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Employee Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Bank Reconciliation Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : Auto-Match</simpara><simpara>* <emphasis role="strong">Internal Payment Voucher Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : FPX-Integration</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-finance-exec-01 ,
+* abc-ce-finance-exec-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group Consumer Electronics businesses only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - HQ Operation Managers</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Customer Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">POS - General Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Internal Sales Order Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Inventory Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Internal Purchase Order Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Report - Daily Sales Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: ADMIN ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-hq-ops-manager-01 ,
+* abc-ce-hq-ops-manager-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" rowsep="1" colsep="1">
+<title>Example Applet-Catalog for ABC Consumer Electronics Division - Branch Cashiers</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33.3333*"/>
+<colspec colname="col_2" colwidth="33.3333*"/>
+<colspec colname="col_3" colwidth="33.3334*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Applet List</entry>
+<entry align="left" valign="top">User List</entry>
+<entry align="left" valign="top">Remarks</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Customer Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">POS - General Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Internal Sales Order Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Inventory Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Doc Item Maintenance Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara><simpara>* <emphasis role="strong">Report - Daily Cashier Report Applet</emphasis><?asciidoc-br?>
+<emphasis role="strong"> Rank: MEMBER ,
+</emphasis> Tenant: abc-main ,
+<emphasis role="strong"> Edition: Default ,
+</emphasis> Addons : n/a ,</simpara></entry>
+<entry align="left" valign="top"><simpara>* abc-ce-hq-branch-cashier-01 ,
+* abc-ce-hq-branch-cashier-02 ,</simpara></entry>
+<entry align="left" valign="top"><simpara>The people included in this list are holding positions at the <emphasis role="strong">business division</emphasis> level (for ABC Group - consumer electronics only), hence, they need do not have access to applets linked to <emphasis role="strong">abc-pharmacy</emphasis> tenant.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section xml:id="h3_user_guide_project_implementors_fictitious_companies">
+<title>Fictitious Companies</title>
+<simpara>For the ease of elaboration, we will be using a fictitious company throughout this guide.</simpara>
+<note>
+<title>Disclaimer : Use of fictitious names</title>
+<simpara>The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, places, or events is intended or should be inferred.</simpara>
+</note>
+<section xml:id="h4_user_guide_fictitious_companies">
+<title>Fictitious Company Names</title>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="5">
+<colspec colname="col_1" colwidth="20*"/>
+<colspec colname="col_2" colwidth="20*"/>
+<colspec colname="col_3" colwidth="20*"/>
+<colspec colname="col_4" colwidth="20*"/>
+<colspec colname="col_5" colwidth="20*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Group (Nickname)</simpara></entry>
+<entry align="left" valign="top"><simpara>Tenant</simpara></entry>
+<entry align="left" valign="top"><simpara>Company Name</simpara></entry>
+<entry align="left" valign="top"><simpara>Users</simpara></entry>
+<entry align="left" valign="top"><simpara>Description</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top" morerows="6"><simpara>ABC Group</simpara></entry>
+<entry align="left" valign="top" morerows="4"><simpara>abc-main</simpara></entry>
+<entry align="left" valign="top"><simpara>ABC Public Listed Berhad</simpara></entry>
+<entry align="left" valign="top"><simpara>Lim-KH</simpara></entry>
+<entry align="left" valign="top"><simpara>A large conglomerate in Malaysia, public listed.</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC CE (Malaysia) Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Lim-KC</simpara></entry>
+<entry align="left" valign="top"><simpara>The largest consumer electronic chain store in Malaysia with 120 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC IT (Malaysia) Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Wai-Hang</simpara></entry>
+<entry align="left" valign="top"><simpara>A premium IT retailer in Malaysia with 15 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC CE (Singapore) Pte Ltd</simpara></entry>
+<entry align="left" valign="top"><simpara>Johnny</simpara></entry>
+<entry align="left" valign="top"><simpara>Retail consumer electronics chain store with 20 branches in Singapore owned by ABC Group in Malaysia</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC IT (Singapore) Pte Ltd</simpara></entry>
+<entry align="left" valign="top"><simpara>Wong</simpara></entry>
+<entry align="left" valign="top"><simpara>Retail computer chain stores with 30 branches in Singapore</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top" morerows="1"><simpara>abc-pharmacy</simpara></entry>
+<entry align="left" valign="top"><simpara>ABC Pharmacy (Malaysia) Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Michael</simpara></entry>
+<entry align="left" valign="top"><simpara>Malaysia Pharmacy chain  with 50 branches owned by ABC Group</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>ABC Pharmacy (Singapore) Pte Ltd</simpara></entry>
+<entry align="left" valign="top"><simpara>Stephen</simpara></entry>
+<entry align="left" valign="top"><simpara>Singapore Pharmacy retail with 30 branches owned by ABC Group</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>PC-City Group</simpara></entry>
+<entry align="left" valign="top"><simpara>pccity</simpara></entry>
+<entry align="left" valign="top"><simpara>PC-City Hypermarket Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Yee</simpara></entry>
+<entry align="left" valign="top"><simpara>The largest IT Hypermarket in Malaysia with 10 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Tander</simpara></entry>
+<entry align="left" valign="top"><simpara>tander</simpara></entry>
+<entry align="left" valign="top"><simpara>Tander Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Eric</simpara></entry>
+<entry align="left" valign="top"><simpara>Largest computer chainstores with 60 branches</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ingrem</simpara></entry>
+<entry align="left" valign="top"><simpara>ingrem</simpara></entry>
+<entry align="left" valign="top"><simpara>Ingrem Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Victor</simpara></entry>
+<entry align="left" valign="top"><simpara>One of the largest IT distributors in Malaysia</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>UncleSam</simpara></entry>
+<entry align="left" valign="top"><simpara>unclesam</simpara></entry>
+<entry align="left" valign="top"><simpara>Uncle Sam Sdn Bhd</simpara></entry>
+<entry align="left" valign="top"><simpara>Kim</simpara></entry>
+<entry align="left" valign="top"><simpara>One of the largest android handphone manufacturer in the world.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
 </section>
 </section>
 </section>
@@ -1171,7 +1602,7 @@ If the mobile app would like to display a list of products and services (includi
 
 </section>
 </section>
-<section xml:id="h2_car_workshops_industry">
+<section xml:id="h2_car_workshops_industry_index">
 <title>Car Workshops</title>
 <section xml:id="h3_car_workshops_overview">
 <title>Overview</title>
@@ -3293,13 +3724,13 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
 </section>
 </section>
-<section xml:id="h2_cp_commerce_module">
+<section xml:id="h2_cpcom_module">
 <title>CP Commerce Module</title>
-<section xml:id="h3_cp_commerce_introduction">
+<section xml:id="h3_cpcom_mod_introduction">
 <title>Introduction</title>
 <simpara>This section provides you the guide to implementing the <emphasis role="strong">CP Commerce</emphasis> module.
 You will get to know what is included in the CP Commerce module, how to use it, how to get started and what are the features that you can use to launch your next e-commerce project.</simpara>
-<section xml:id="h4_cp_commerce_overview">
+<section xml:id="h4_cpcom_mod_overview">
 <title>CP Commerce Overview</title>
 <simpara><emphasis role="strong">CP Commerce</emphasis> stands for "Cross Platform Commerce". Most of our customers use the CP Commerce module for the following reasons:</simpara>
 <itemizedlist>
@@ -3560,53 +3991,12 @@ The CP Commerce supports desktop web, mobile web, android and ios platforms. Wit
 </itemizedlist>
 </listitem>
 </itemizedlist>
-<simpara>The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.</simpara>
-<itemizedlist>
-<listitem>
-<simpara>Full transaction history and billing statements</simpara>
-</listitem>
-<listitem>
-<simpara>Full receipts</simpara>
-</listitem>
-<listitem>
-<simpara>Restricted access</simpara>
-</listitem>
-<listitem>
-<simpara>Multiple websites with different pricing scheme</simpara>
-</listitem>
-<listitem>
-<simpara>Credit Limit control</simpara>
-<itemizedlist>
-<listitem>
-<simpara>Checkout now pay later</simpara>
-</listitem>
-</itemizedlist>
-</listitem>
-<listitem>
-<simpara>Single Login Multiple Accounts (Entities), Each Account supports Multiple Memberships</simpara>
-</listitem>
-<listitem>
-<simpara>Single Account with multiple logins</simpara>
-</listitem>
-<listitem>
-<simpara>Online Forms</simpara>
-</listitem>
-<listitem>
-<simpara>Blocked Users and Spending Limits</simpara>
-</listitem>
-<listitem>
-<simpara>Multi-UOM</simpara>
-</listitem>
-</itemizedlist>
 <simpara>Some background of why this module was developed
 Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </section>
-<section xml:id="h4_cp_commerce_module_applets">
+<section xml:id="h4_cpcom_mod_module_applets">
 <title>CP Commerce Applets</title>
 <itemizedlist>
-<listitem>
-<simpara><xref linkend="h2_cp_commerce_admin_applet"/></simpara>
-</listitem>
 <listitem>
 <simpara>Media Library Applet</simpara>
 </listitem>
@@ -3616,7 +4006,7 @@ Provide a summary of what this module does and doesn&#8217;t do.</simpara>
 </itemizedlist>
 <simpara>*</simpara>
 </section>
-<section xml:id="h4_cp_commerce_features_and_functions">
+<section xml:id="h4_cpcom_mod_features_and_functions">
 <title>Features and Functions</title>
 
 </section>
@@ -3676,15 +4066,7 @@ Currently, Tuan (our programmer) is working on a feature where the platform sysa
 
 </section>
 </section>
-<section xml:id="h3_cp_commerce_unique_value_proposition">
-<title>CP Commerce - Unique Value Proposition</title>
-
-</section>
-<section xml:id="h3_cp_commerce_related_applets">
-<title>CP Commerce - Related Applets</title>
-
-</section>
-<section xml:id="h3_cp_commerce_project_implementation_steps">
+<section xml:id="h3_cpcom_mod_project_implementation_steps">
 <title>CP Commerce - Project Implementation Steps</title>
 <section xml:id="_scope_management_end_results_13">
 <title>Scope Management (End Results)</title>
@@ -3709,7 +4091,7 @@ Currently, Tuan (our programmer) is working on a feature where the platform sysa
 <simpara>Defining Activities</simpara>
 <itemizedlist>
 <listitem>
-<simpara>List down all the activities involved for each <xref linkend="h3_cp_commerce_work_breakdown"/></simpara>
+<simpara>List down all the activities involved for each <xref linkend="h4_cpcom_mod_work_breakdown"/></simpara>
 </listitem>
 </itemizedlist>
 </listitem>
@@ -3805,10 +4187,17 @@ Currently, Tuan (our programmer) is working on a feature where the platform sysa
 <title>Post Mortem</title>
 
 </section>
+<section xml:id="h4_cpcom_mod_ui_design">
+<title>UI Design</title>
+
 </section>
-<section xml:id="h3_cp_commerce_work_breakdown">
+<section xml:id="h4_cpcom_mod_qc_checklist">
+<title>QC Checklist</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_work_breakdown">
 <title>Work Breakdown</title>
-<section xml:id="h4_cp_commerce_wbs_url_and_domain_name">
+<section xml:id="h5_cpcom_mod_wbs_url_and_domain_name">
 <title>URL and Domain Name</title>
 <itemizedlist>
 <listitem>
@@ -3820,7 +4209,7 @@ This can be top level domain name, or sub-domain name.</simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="h4_cp_commerce_wbs_ui_design">
+<section xml:id="h5_cpcom_mod_wbs_ui_design">
 <title>UI Design</title>
 <itemizedlist>
 <listitem>
@@ -3828,7 +4217,7 @@ This can be top level domain name, or sub-domain name.</simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="h4_cp_commerce_wbs_applet_installation">
+<section xml:id="h5_cpcom_mod_wbs_applet_installation">
 <title>Applet Installations</title>
 <itemizedlist>
 <listitem>
@@ -3847,61 +4236,61 @@ This can be top level domain name, or sub-domain name.</simpara>
 <simpara><xref linkend="h4_membership_module_applets"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h4_cp_commerce_module_applets"/></simpara>
+<simpara><xref linkend="h4_cpcom_mod_module_applets"/></simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="h4_cp_commerce_wbs_products_and_pricing">
+<section xml:id="h5_cpcom_mod_wbs_products_and_pricing">
 <title>Products and Pricing</title>
 <simpara>Define a pricing scheme in the Doc Item Maintenance applet, and ensure all the product pricing is accurate.</simpara>
 <simpara>Attach the categories and set of attributes to each of the product.</simpara>
 <simpara>Upload the product images to cp-commerce</simpara>
 </section>
-<section xml:id="h4_cp_commerce_wbs_virtual_branch">
+<section xml:id="h5_cpcom_mod_wbs_virtual_branch">
 <title>CP Commerce Virtual Branch</title>
 <simpara>We need to create a virtual branch for every CP-Commerce website, refer to the Virtual Branch feature in Organization Applet accordingly.</simpara>
 </section>
-<section xml:id="h4_cp_commerce_wbs_pgw_config">
+<section xml:id="h5_cpcom_mod_wbs_pgw_config">
 <title>PGW Configurations</title>
 <simpara>Please visit <xref linkend="h2_payment_switching_module"/> for more information about the configuration of PGW Module.</simpara>
 </section>
-<section xml:id="h4_cp_commerce_wbs_digital_signature">
+<section xml:id="h5_cpcom_mod_wbs_digital_signature">
 <title>Digital Signature</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_post_registration_config">
+<section xml:id="h5_cpcom_mod_wbs_post_registration_config">
 <title>Post Registration Configuration</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_third_party_auth">
+<section xml:id="h5_cpcom_mod_wbs_third_party_auth">
 <title>Third Party Authentication and Authorization</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_google_recaptcha">
+<section xml:id="h5_cpcom_mod_wbs_google_recaptcha">
 <title>Google reCaptcha</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_google_analytics">
+<section xml:id="h5_cpcom_mod_wbs_google_analytics">
 <title>Google Analytics</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_review_settings">
+<section xml:id="h5_cpcom_mod_wbs_review_settings">
 <title>Review Settings</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_menu_list">
+<section xml:id="h5_cpcom_mod_wbs_menu_list">
 <title>Menu List</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_label_list">
+<section xml:id="h5_cpcom_mod_wbs_label_list">
 <title>Label List</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_content_category">
+<section xml:id="h5_cpcom_mod_wbs_content_category">
 <title>Content Category</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_posts">
+<section xml:id="h5_cpcom_mod_wbs_posts">
 <title>Static Posts</title>
 <itemizedlist>
 <listitem>
@@ -3918,28 +4307,303 @@ This can be top level domain name, or sub-domain name.</simpara>
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="h4_cp_commerce_wbs_restricted_access_by_entity">
+<section xml:id="h5_cpcom_mod_wbs_restricted_access_by_entity">
 <title>Restricted Access By Entity Accounts</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_layout_instance">
+<section xml:id="h5_cpcom_mod_wbs_layout_instance">
 <title>Layout Instance</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_language_region_country">
+<section xml:id="h5_cpcom_mod_wbs_language_region_country">
 <title>Configuring Language, Region and Country</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_voucher_management">
+<section xml:id="h5_cpcom_mod_wbs_voucher_management">
 <title>Voucher Management</title>
 
 </section>
-<section xml:id="h4_cp_commerce_wbs_quality_control">
+<section xml:id="h5_cpcom_mod_wbs_quality_control">
 <title>Quality Control Checklist</title>
 
 </section>
 </section>
-<section xml:id="h3_cp_commerce_product_maintenance">
+</section>
+<section xml:id="h3_cpcom_mod_cms_overview">
+<title>Content Management System</title>
+<section xml:id="h4_cpcom_mod_hostname_setup">
+<title>Hostname Setup</title>
+<simpara>For every website configured in the CP-Commerce Admin Applet, it is possible for our users to configure the multiple cloudfront distributions and each cloudfront distribution is linked to a certain hostnames that allow the web browser to visit these websites.</simpara>
+<section xml:id="h3_cpcom_mod_platform_sub_domain">
+<title>Platform Sub-Domain</title>
+<simpara>A platform sub-domain for each website is constructed with the following format:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>website-code.tenant-code.akaun.net  (for production environment)</simpara>
+</listitem>
+<listitem>
+<simpara>website-code.tenant-code.akaun.app (for staging environment)</simpara>
+</listitem>
+<listitem>
+<simpara>website-code.tenant-code.akaun.xyz (for development environment)</simpara>
+</listitem>
+</itemizedlist>
+<simpara>When you first starting a website, by default, the akaun platform would create the following hostname automatically for you using combination of tenant-code and website code. For example, if your tenant code is "mytenant" and your website code is "resellers", the CP-Commerce would create the hostname as resellers.mytenant.akaun.net.</simpara>
+<simpara>This sub-domain provided by Akaun platform would be powered up immediately, so that the users of a website could visit the website right away. As the "akaun.net" DNS is hosted by us, no domain name verification or CNAME is required on your side.</simpara>
+</section>
+<section xml:id="_technical_background">
+<title>Technical Background</title>
+<simpara>This section is only meant for technical readers that would like to dig into the AWS cloudfront technical details of how things work:</simpara>
+<simpara><link xl:href="https://drive.google.com/file/d/1Xwfs4N1QKuXoEwaql2QXuHGWWmv_Q52M/view?usp=sharing">Discussion with Tuan on Cloudfront configurations</link></simpara>
+<simpara>We make use of DNS validation as follows:
+<link xl:href="https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html">AWS Certificate Manager - DNS Validation</link></simpara>
+<simpara>You may watch the following guide to get some basic understanding of DNS:</simpara>
+
+
+
+</section>
+<section xml:id="h3_cpcom_mod_setup_custom_domain_name">
+<title>Transition and configuration of custom domain names</title>
+<simpara>Assuming your company owns "mydomain.com", and you would like to implement the cp-commerce. But during the implementation, you would like to configure a temporary custom sub-domain and use it, before you make use of the top level domain name, to point to the cp-commerce website as follows:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://newstore.mydomain.com/">https://newstore.mydomain.com/</link><?asciidoc-br?>
+This sub-domain "estore" would be used for the time being, while the current website is still life and being used (Let&#8217;s say, <link xl:href="https://mydomain.com/">https://mydomain.com/</link> and <link xl:href="https://www.mydomain.com">https://www.mydomain.com</link>). This temporary hostname could be configured in advanced.</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://mydomain.com/">https://mydomain.com/</link><?asciidoc-br?>
+After the new website implementation is completed, and when we are ready to launch the new website, we would be getting ready to retire the old website , and configure this second hostname just like the "newstore.mydomain.com" to go live.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_custom_sub_domain">
+<title>Custom Sub-domain</title>
+<simpara>At this time, the hostname can be created by the Platform SysAdmin only, using the Platform SysAdmin applet.</simpara>
+<tip>
+<simpara>In future, we may allow hostname to be created under using 2 approach:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Platform SysAdmin Applet</simpara>
+</listitem>
+<listitem>
+<simpara>CP-Commerce Admin Applet</simpara>
+</listitem>
+</itemizedlist>
+</tip>
+<simpara>The very first step of creating a sub-domain is to perform ACM validation. You will be given the following:</simpara>
+<simpara><emphasis role="strong">ACM Validation DNS Record</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Record Type: CNAME</simpara>
+</listitem>
+<listitem>
+<simpara>Record Name: <emphasis role="strong">_7760b3c88f1556jjjjjjjjjjjjj</emphasis>.mydomain.com</simpara>
+</listitem>
+<listitem>
+<simpara>Record Value: <emphasis role="strong">_80fb2b1ef05e7xxxxxxxxxxx.yyyyyyyyyyy.acm-validations.aws.</emphasis></simpara>
+</listitem>
+</itemizedlist>
+<simpara>You are required to add the above into your DNS Record.</simpara>
+<simpara>After you have completed the validation of the ACM certificate, the next step is to create and configure your custom sub-domain to point to the CloudFront Distribution.</simpara>
+<simpara><emphasis role="strong">Sub-domain CNAME forwarding</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Record Type: CNAME</simpara>
+</listitem>
+<listitem>
+<simpara>Record Name: <emphasis role="strong">sub-domain-name</emphasis>.mydomain.com</simpara>
+</listitem>
+<listitem>
+<simpara>Record Value: <emphasis role="strong">xxxxxxxxx</emphasis>.cloudfront.net</simpara>
+</listitem>
+</itemizedlist>
+<simpara>That&#8217;s it, nothing more, all you need to do next is to visit <link xl:href="https://sub-domain-name.mydomain.com">https://sub-domain-name.mydomain.com</link></simpara>
+</section>
+</section>
+<section xml:id="h4_cpcom_mod_third_party_logins">
+<title>Third Party Logins</title>
+
+</section>
+<section xml:id="h3_cpcom_mod_activities">
+<title>Activities</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_forms">
+<title>Forms</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_identity_management">
+<title>Identity Management</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_internationalization">
+<title>Internationalization</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_media_library">
+<title>Media Library</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_posts_topics">
+<title>Posts and Topics</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_power_filter">
+<title>Power Filter</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_webchat">
+<title>WebChat</title>
+<simpara>Two ways to implement this&#8230;&#8203;</simpara>
+<itemizedlist>
+<listitem>
+<simpara>UCC</simpara>
+</listitem>
+<listitem>
+<simpara>Tawk.to</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_cpcom_mod_digital_marketing">
+<title>Digital Marketing</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_mobile_apps">
+<title>Mobile Apps</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_widgets">
+<title>Widgets</title>
+<section xml:id="h5_cpcom_mod_branch_locators">
+<title>Branch Locators</title>
+<simpara>include::pages/cms/widgets/statement-of-account/00_overview.adoc[leveloffset=5]a</simpara>
+<simpara>inlucde::pages/fulfillment/00_overview.adoc[leveloffset=3]
+inlucde::pages/fulfillment/customer_shipping_fees.adoc[leveloffset=4]
+inlucde::pages/fulfillment/third_party_logistics.adoc[leveloffset=4]
+inlucde::pages/fulfillment/inhouse_delivery.adoc[leveloffset=4]
+inlucde::pages/fulfillment/partial_delivery.adoc[leveloffset=4]
+inlucde::pages/fulfillment/same_day_delivery.adoc[leveloffset=4]
+inlucde::pages/fulfillment/delivery_tracking.adoc[leveloffset=4]
+inlucde::pages/fulfillment/self_pickup.adoc[leveloffset=4]</simpara>
+</section>
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_customer_experience">
+<title>Customer Experience</title>
+<section xml:id="h4_cpcom_mod_shopping_cart">
+<title>Shopping Cart</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_cross_selling">
+<title>Cross Selling</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_favourites">
+<title>Favourites</title>
+<simpara>Can be wish list , or products add to favourite</simpara>
+</section>
+<section xml:id="h4_cpcom_mod_proactive_bot">
+<title>Proactive Bots</title>
+<simpara>Can be used for service reminders</simpara>
+<simpara>Renewal of contracts</simpara>
+<simpara>End of life, end of warranty</simpara>
+<simpara>New products</simpara>
+<simpara>End of product life (like mobile phones, every 3 years)</simpara>
+</section>
+<section xml:id="h4_cpcom_mod_spending_limits">
+<title>Spending Limits</title>
+<simpara>Protecting customer, credit card frauds etc.</simpara>
+</section>
+</section>
+<section xml:id="3_cpcom_mod_erp_integration">
+<title>ERP Integration</title>
+<section xml:id="h4_cpcom_mod_inventory">
+<title>Inventory</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_accounting">
+<title>Accounting</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_bank_reconciliation">
+<title>Bank Reconciliation</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_account_payable">
+<title>Account Payable</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_account_receivable">
+<title>Account Receivable</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_membership_points">
+<title>Membership Points</title>
+<simpara>This should include "REBATES" as well.</simpara>
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_memberships">
+<title>Memberships</title>
+<section xml:id="h4_cpcom_mod_points_redemption">
+<title>Points Redemption</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_points_reward">
+<title>Points Reward</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_rebates">
+<title>Rebates</title>
+
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_o2o">
+<title>O2O</title>
+<section xml:id="h4_cpcom_mod_contact_center">
+<title>Contact Center</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_internal_sales_order_applet">
+<title>Internal Sales Order Applet</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_offline_pos">
+<title>Offline POS</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_issue_tracker">
+<title>Issue Tracker</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_rma">
+<title>RMA</title>
+<simpara>RMA stands for Return Merchandise Authorization.</simpara>
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_payment_collection">
+<title>Payment and Collection</title>
+<section xml:id="h4_cpcom_mod_cashbooks">
+<title>Cashbooks</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_partial_settlements">
+<title>Partial Settlements</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_payment_integration">
+<title>Payment Integration</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_recurring_payment">
+<title>Recurring Payments</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_recurring_collection">
+<title>Recurring Collection</title>
+
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_product_maintenance">
 <title>Product Maintenance</title>
 <itemizedlist>
 <listitem>
@@ -3964,48 +4628,174 @@ This can be top level domain name, or sub-domain name.</simpara>
 <simpara>Product Images</simpara>
 </listitem>
 <listitem>
-<simpara>Product Reviews / Ratings
-*</simpara>
+<simpara>Product Reviews / Ratings</simpara>
 </listitem>
 </itemizedlist>
-</section>
-<section xml:id="h3_cp_commerce_shipping_fee">
-<title>Shipping Fees</title>
-<itemizedlist>
-<listitem>
-<simpara>Shipping Fee Applets</simpara>
-</listitem>
-</itemizedlist>
-</section>
-<section xml:id="h3_cp_commerce_settlement_methods">
-<title>Settlement Methods</title>
+<section xml:id="h4_cpcom_mod_addons">
+<title>AddOns</title>
 
 </section>
-<section xml:id="h3_cp_commerce_order_fulfillment">
-<title>Order Fulfillment</title>
-<itemizedlist>
-<listitem>
-<simpara>We will talk about Sales Order Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Delivery &amp; Installation Applet</simpara>
-</listitem>
-<listitem>
-<simpara>Syncing to the EMP</simpara>
-</listitem>
-<listitem>
-<simpara>Choosing the serial numbers, printing of the Consignment Notes / stickers etc.</simpara>
-</listitem>
-</itemizedlist>
-<simpara>*</simpara>
+<section xml:id="h4_cpcom_mod_attributes">
+<title>Attributes</title>
+
 </section>
-<section xml:id="h3_cp_commerce_search_engine_optimization">
+<section xml:id="h4_cpcom_mod_categories">
+<title>Categories</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_extended_warranty">
+<title>Extended Warranty</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_linking_product_to_website">
+<title>Linking Product To Website</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_made_to_order">
+<title>Made To Order (MTO)</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_pre_orders">
+<title>Pre-Orders</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_pricing_scheme">
+<title>Pricing Scheme</title>
+
+</section>
+<section xml:id="h3_cpcom_mod_product_bundle">
+<title>Product Bundle</title>
+<simpara>The CP Commerce will do automatic unbundling of the product, to ensure inventory and ecomsync are always up to date, including the child items</simpara>
+</section>
+<section xml:id="h4_cpcom_mod_product_variants">
+<title>Product Variants</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_reviews_rating">
+<title>Reviews and Rating</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_unit_of_measure">
+<title>Unit Of Measure</title>
+
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_traffic_generation">
+<title>Traffic Generation</title>
+<section xml:id="h4_cpcom_mod_affiliate_programs">
+<title>Affiliate Programs</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_google_ads_overview">
+<title>Google Ads</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_google_analytics">
+<title>Google Analytics</title>
+
+</section>
+<section xml:id="h3_cpcom_mod_meta_ads_overview">
+<title>Meta Ads</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_referral_program">
+<title>Referral Program</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_search_engine_optimization">
 <title>Search Engine Optimization</title>
 
 </section>
-<section xml:id="h3_cp_commerce_qc_checklist">
-<title>QC Checklist</title>
+<section xml:id="h4_cpcom_mod_utm_tracking">
+<title>UTM Tracking</title>
 
+</section>
+<section xml:id="h4_cpcom_mod_vouchers">
+<title>Vouchers</title>
+
+</section>
+</section>
+<section xml:id="h3_cpcom_mod_b2b2c">
+<title>B2B2C</title>
+<simpara>talk about the end to end supply chain</simpara>
+<simpara>From Retailer&#8217;s perspective
+giving microsoft ESD as example
+Machine&#8217;s Apple extended warranty integration</simpara>
+<simpara>From Product/Brand Owner&#8217;s perspective
+using Celllabs as example for "distribution" type of companies, rewarding salesman in a retail company
+using Biolife as an example.</simpara>
+<simpara>Handling of dealer / orders , with credit limits
+The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Full transaction history and billing statements</simpara>
+</listitem>
+<listitem>
+<simpara>Full receipts</simpara>
+</listitem>
+<listitem>
+<simpara>Restricted access</simpara>
+</listitem>
+<listitem>
+<simpara>Multiple websites with different pricing scheme</simpara>
+</listitem>
+<listitem>
+<simpara>Credit Limit control</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Checkout now pay later</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Single Login Multiple Accounts (Entities), Each Account supports Multiple Memberships</simpara>
+</listitem>
+<listitem>
+<simpara>Single Account with multiple logins</simpara>
+</listitem>
+<listitem>
+<simpara>Online Forms</simpara>
+</listitem>
+<listitem>
+<simpara>Blocked Users and Spending Limits</simpara>
+</listitem>
+<listitem>
+<simpara>Multi-UOM</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="h4_cpcom_mod_b2b2c_apple">
+<title>Apple - ACPP</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_microsoft_esd">
+<title>Microsoft ESD</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_retail_salesman">
+<title>Retail Salesman</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_ocr">
+<title>OCR</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_individual_vs_corporate">
+<title>Individual vs Corporate</title>
+
+</section>
+<section xml:id="h3_cpcom_mod_multi_vendors">
+<title>Multi-Vendors</title>
+
+</section>
+<section xml:id="h4_cpcom_mod_staff_purchases">
+<title>Staff Purchases</title>
+
+</section>
+</section>
+<section xml:id="h4_cpcom_mod_marketplace_connector">
+<title>Marketplace Connector</title>
+<simpara>The tricky part, orders bought from the market place may not be linked to the customer account because billing is paid by Lazada / Shoppee.
+We are abel to link to the customer account, providing a seamless experience.</simpara>
 </section>
 </section>
 <section xml:id="h2_procure_to_pay_module">
@@ -5646,7 +6436,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -5793,7 +6583,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -5930,7 +6720,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6067,7 +6857,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6204,7 +6994,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6369,7 +7159,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6506,7 +7296,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6643,7 +7433,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6780,7 +7570,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -6917,7 +7707,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -7054,7 +7844,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -7191,7 +7981,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -7328,7 +8118,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -7465,7 +8255,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -7547,6 +8337,143 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 
 </section>
 </section>
+<section xml:id="h2_pos_gp_index">
+<title>POS - GP</title>
+<section xml:id="h3_pos_gp_introduction">
+<title>Introduction</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="blank_logo.png"/>
+</imageobject>
+<textobject><phrase>blank logo</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>This is a simple description of the applet, no more than 100 words.</simpara>
+</section>
+<section xml:id="h3_applet_pos_gp_modules">
+<title>Modules</title>
+<simpara>This applet is used in the following modules:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><xref linkend="h2_core_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_accounting_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_inventory_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_pos_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_manufacturing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_membership_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_referral_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_crm_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_contact_center_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_digital_marketing_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_marketplace_connector_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_hr_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_order_to_cash_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_warehouse_management_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_customer_data_platform_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_payment_switching_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_chatbot_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_process_automation_module"/></simpara>
+</listitem>
+<listitem>
+<simpara><xref linkend="h2_datalake_module"/></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="h3_pos_gp_sales_order_listing">
+<title>Menu 01 - e.g. Sales Orders Listing</title>
+
+</section>
+<section xml:id="h3_pos_gp_line_items">
+<title>Menu 02 - e.g. Line Items</title>
+
+</section>
+<section xml:id="h3_pos_gp_permission_settings">
+<title>Permission Settings</title>
+
+</section>
+<section xml:id="h3_pos_gp_personalization">
+<title>Personalization</title>
+
+</section>
+<section xml:id="h3_pos_gp_related_applets">
+<title>Related Applets</title>
+<simpara>This applet also depends on the following applets:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 1</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 2</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The following applets depends on this applet:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Applet 3</simpara>
+</listitem>
+<listitem>
+<simpara>Applet 4</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Also see</simpara>
+</section>
+<section xml:id="h3_pos_gp_pricing">
+<title>Pricing</title>
+
+</section>
+<section xml:id="h3_pos_gp_release_note">
+<title>Release Note</title>
+
+</section>
+<section xml:id="h3_pos_gp_roadmap">
+<title>Roadmap</title>
+
+</section>
+</section>
 <section xml:id="h2_stock_take_v2_applet">
 <title>Stock Take V2 Applet</title>
 <section xml:id="h3_stock_take_v2_introduction">
@@ -7602,7 +8529,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -7967,7 +8894,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -8104,7 +9031,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -8241,7 +9168,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>
@@ -8393,7 +9320,7 @@ jamboard: <link xl:href="https://jamboard.google.com/d/125D0f5IAFhqDPBbytADRVxxf
 <simpara><xref linkend="h2_delivery_fulfillment_module"/></simpara>
 </listitem>
 <listitem>
-<simpara><xref linkend="h2_cp_commerce_module"/></simpara>
+<simpara><xref linkend="h2_cpcom_module"/></simpara>
 </listitem>
 <listitem>
 <simpara><xref linkend="h2_procure_to_pay_module"/></simpara>

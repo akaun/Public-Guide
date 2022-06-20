@@ -1,0 +1,4 @@
+[#h4_cpcom_mod_spending_limits]
+= Spending Limits
+
+Protecting customer, credit card frauds etc.

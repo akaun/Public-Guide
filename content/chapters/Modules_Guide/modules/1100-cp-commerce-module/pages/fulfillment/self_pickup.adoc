@@ -1,0 +1,2 @@
+[#h4_cpcom_mod_self_pickup]
+= Self Pick Up
