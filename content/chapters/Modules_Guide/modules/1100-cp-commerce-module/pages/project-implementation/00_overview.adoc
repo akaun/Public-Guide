@@ -1,5 +1,5 @@
 [#h3_cpcom_mod_project_implementation_steps]
-= CP Commerce - Project Implementation Steps
+= Project Implementation 
 
 
 == Scope Management (End Results)
