@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>BigLedger Handbook</title>
-<date>2022-06-15</date>
+<date>2022-06-23</date>
 <author>
 <personname>
 <firstname>v1.3</firstname>
@@ -6539,7 +6539,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="h3_doc_item_maintenance_items">
 <title>Menu 01 - Items</title>
-<simpara>1.1 Please go to Akaun.com - Doc Item Maintenance</simpara>
+<simpara><emphasis role="strong">Please go to Akaun.com - Doc Item Maintenance</emphasis></simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -6548,7 +6548,8 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>doc item logo</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.2  ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)</simpara>
+<section xml:id="_items_items_can_be_created_manually_or_synced_from_emp_if_the_user_is_currently_using_wavelet_emp">
+<title>ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -6558,24 +6559,597 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </mediaobject>
 </informalfigure>
 <simpara>The screenshot above shows the mandatory fields that the user has to fill (except description, as it is not mandatory). Once the item has been created more information can be added in the EDIT ITEM section. Only basic information is required to be filled in the CREATE section and afterwards users can continue editing items in order to add more information at any time. We exclude adding more information in the CREATE section because if there is a lot of information to be added the user might forget to click save. Adding as little information as possible in the CREATE section prevents and/or reduces data being lost.</simpara>
+<itemizedlist>
+<listitem>
 <simpara>Item Code - once Item Code is created it cannot be edited.</simpara>
+</listitem>
+<listitem>
 <simpara>Item Name - Item Name can be edited at any time</simpara>
+</listitem>
+<listitem>
 <simpara>Item type - is consist of nine types as follows:</simpara>
-<simpara>1 BASIC ITEM - this is the default type that is relevant to most items.</simpara>
-<simpara>2 GROUPED ITEM - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as item type user can add additional child items under EDIT</simpara>
-<simpara>3 BUNDLE - If the item is a package of two or more stand-alone products sold together for a single price. These units are most commonly called stand-alone products because they are fully functioning products by themselves and can be sold separately to the consumer. Examples can be Laptop Bundles that includes a keyboard and a mouse. Take note that the stock is deducted from CHILD and not PARENT.</simpara>
-<simpara>4 COUPON - is used to record the Stock In and Stock Out of the vouchers tied to this item. If the user sets the type as coupon the item will be reflected in the VOUCHER MANAGEMENT APPLET.</simpara>
-<simpara>5 SERVICE - If the item is a basic item without inventory tracking.</simpara>
-<simpara>6 WARRANTY- a written guarantee, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time. When selecting warranty as Item type then the additional tab will be shown in the EDIT section where users can input a warranty period. This information can be used in the POS applet when creating Invoices.</simpara>
-<simpara>7 DOC HEADER ADJUSTMENT - is used to group discounts. This will be used in the POS applet. As an Illustration the user will attach an Item type as “DHA” and name it as “Extra” to Group Discount in POS Applet.</simpara>
-<simpara>8 MEMBERSHIP - is used to define a member&#8217;s attributes, dues payment schedule, and expiration settings.</simpara>
-<simpara>9 MADE TO ORDER - a manufacturing process where products are assembled and configured according to customer requirements.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>BASIC ITEM - this is the default type that is rel evant to most items.</simpara>
+</listitem>
+<listitem>
+<simpara>GROUPED ITEM - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as item type user can add additional child items under EDIT</simpara>
+</listitem>
+<listitem>
+<simpara>BUNDLE - If the item is a package of two or more stand-alone products sold together for a single price. These units are most commonly called stand-alone products because they are fully functioning products by themselves and can be sold separately to the consumer. Examples can be Laptop Bundles that includes a keyboard and a mouse. Take note that the stock is deducted from CHILD and not PARENT.</simpara>
+</listitem>
+<listitem>
+<simpara>COUPON - is used to record the Stock In and Stock Out of the vouchers tied to this item. If the user sets the type as coupon the item will be reflected in the VOUCHER MANAGEMENT APPLET.</simpara>
+</listitem>
+<listitem>
+<simpara>SERVICE - If the item is a basic item without inventory tracking.</simpara>
+</listitem>
+<listitem>
+<simpara>WARRANTY- a written guarantee, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time. When selecting warranty as Item type then the additional tab will be shown in the EDIT section where users can input a warranty period. This information can be used in the POS applet when creating Invoices.</simpara>
+</listitem>
+<listitem>
+<simpara>DOC HEADER ADJUSTMENT - is used to group discounts. This will be used in the POS applet. As an Illustration the user will attach an Item type as “DHA” and name it as “Extra” to Group Discount in POS Applet.</simpara>
+</listitem>
+<listitem>
+<simpara>MEMBERSHIP - is used to define a member&#8217;s attributes, dues payment schedule, and expiration settings.</simpara>
+</listitem>
+<listitem>
+<simpara>MADE TO ORDER - a manufacturing process where products are assembled and configured according to customer requirements.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
 <simpara>Sub Item Type - There are four sub item types which are Batch Number, Serial Number, Bin Number, Digital Goods. When a user selects any of it, it will be reflected in the POS applet.</simpara>
+</listitem>
+<listitem>
 <simpara>Base UOM - Quantities of warehouse materials (quants) are counted using the base unit of measure (UoM). Quantities in alternative units of measure are always converted to the base unit of measure for calculation purposes. For Example cm, kg, ml</simpara>
+</listitem>
+<listitem>
 <simpara>Item Description - not compulsory</simpara>
+</listitem>
+<listitem>
 <simpara>Remarks - Write your comments</simpara>
+</listitem>
+<listitem>
 <simpara>Currency - Select the currency from the dropdown list</simpara>
+</listitem>
+</itemizedlist>
 <simpara>Once all required fields are filled up, user can press on CREATE, so the item will be saved into database and can be proceed to be edited</simpara>
+</section>
+<section xml:id="_items_edit">
+<title>ITEMS EDIT</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="item_edit.png"/>
+</imageobject>
+<textobject><phrase>item edit</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Once the user creates an Item, it will appear in the listing. When the user wants to update the item or add more information they can click on the Item itself, a  2nd container will pop up once clicked containing the following tabs:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Main Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Item Category Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Tax Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Dimension Details Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Multi UOM Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Branch Linking Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Company Linking Tab</simpara>
+</listitem>
+<listitem>
+<simpara>PNS Settlement Method Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Pricing Scheme Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Manage Image Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Entity Pricing Tab</simpara>
+</listitem>
+<listitem>
+<simpara>T2T Item Mapping Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Marketplace Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Stock Availability Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Attribute Set Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Pages Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Reviews Tab</simpara>
+</listitem>
+</itemizedlist>
+<simpara>The information provided can be used in transactional Applets. Please take note that additional tabs may appear if the user chooses Grouped or Bundle as Item type</simpara>
+<section xml:id="_main_tab">
+<title>MAIN TAB</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="main_details_tab.png"/>
+</imageobject>
+<textobject><phrase>main details tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>This Tab consists of general Item information such as:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Item Name - can be updated any time</simpara>
+</listitem>
+<listitem>
+<simpara>Item Code - cannot be updated</simpara>
+</listitem>
+<listitem>
+<simpara>Item Type - cannot be updated</simpara>
+</listitem>
+<listitem>
+<simpara>Sub Item Type - used when items are in a batch or has a serial number</simpara>
+</listitem>
+<listitem>
+<simpara>GL Code - The general ledger is an accounting document that provides a general overview of an organization&#8217;s financial transactions. An account, or general ledger (GL) code, is a number used to record business transactions in the general ledger</simpara>
+</listitem>
+<listitem>
+<simpara>Base UOM - an amount in which the stock of a material is managed for example ml, kg, min</simpara>
+</listitem>
+<listitem>
+<simpara>Abbreviation (Prefix) - is used in voucher applet, in order to make it easier to view a specific group of items</simpara>
+</listitem>
+<listitem>
+<simpara>EAN Code - The International Article Number  is a standard describing a barcode symbology and numbering system used in global trade to identify a specific retail product type, in a specific packaging configuration, from a specific manufacturer.</simpara>
+</listitem>
+<listitem>
+<simpara>Currency - a system of money in general used in a particular country. For example, USD ,MYR</simpara>
+</listitem>
+<listitem>
+<simpara>Status - to specify whether an item is active , inactive or obsolete</simpara>
+</listitem>
+<listitem>
+<simpara>Remarks - Write your comments</simpara>
+</listitem>
+<listitem>
+<simpara>Summary - shows who created the item or who updated the item, also shows the date modified and created</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_item_category">
+<title>ITEM CATEGORY</title>
+<simpara>Item category tab is used to link a category to the item. Categories can be created in the  “Category” module.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="item_category_tab.png"/>
+</imageobject>
+<textobject><phrase>item category tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>In order to add the category click “+”. Once clicked the 3rd container with category listings will be shown. Users can select any category that applies to the Item.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="add_category.png"/>
+</imageobject>
+<textobject><phrase>add category</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_tax_tab">
+<title>TAX TAB</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="tax_tab.png"/>
+</imageobject>
+<textobject><phrase>tax tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>If tax is applicable the user can tick the checkbox. Once ticked the the tax information will appear where the user can set the tax for:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Tax Country</simpara>
+</listitem>
+<listitem>
+<simpara>Output Tax</simpara>
+</listitem>
+<listitem>
+<simpara>Input Tax</simpara>
+</listitem>
+<listitem>
+<simpara>Withholding tax</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_dimension_details_tab">
+<title>DIMENSION DETAILS TAB</title>
+<simpara>Product dimentions to fill in</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="dimension_details_tab.png"/>
+</imageobject>
+<textobject><phrase>dimension details tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_multi_uom_tab">
+<title>MULTI UOM TAB</title>
+<simpara>This module allows to stock items with multiple units of measurement, UOM auto conversion, and multiple UOM reports that can be later used in transactional applets, sample of Multi UOM;</simpara>
+<itemizedlist>
+<listitem>
+<simpara>1 Box = 12 Packs</simpara>
+</listitem>
+<listitem>
+<simpara>1 Packs = 10 Strips</simpara>
+</listitem>
+<listitem>
+<simpara>1 Strips = 10 Tablets</simpara>
+</listitem>
+</itemizedlist>
+<simpara>In order to add Multi UOM click “+”. Once clicked it will open a 3rd container for the user to add UOM details</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="multi_uom_tab.png"/>
+</imageobject>
+<textobject><phrase>multi uom tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<itemizedlist>
+<listitem>
+<simpara>UOM - Unit of Measure. UOMs are used to quantify the inventory items and enables items to be tracked easily.</simpara>
+</listitem>
+<listitem>
+<simpara>Ratio -  used to specify how many items. For example:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>if base UOM is = “Bottle”, then ratio = 20 bottles</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Status - to specify whether the item is active or inactive</simpara>
+</listitem>
+<listitem>
+<simpara>Base UOM - unable to edit. User may edit it in the Main Details Tab</simpara>
+</listitem>
+<listitem>
+<simpara>Sort-Code - The sort code helps identify the hierarchy of the UOM from the smallest to largest starting from 001. For example pill would be 001 followed by carton which would be 002 and finally box which would be 003.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_branch_linking">
+<title>BRANCH LINKING</title>
+<simpara>Used to link specific branches. This function will be used in all transactional applets. for example if a user links branch A and B then only these respective branches will be able to see the selected item in the POS applet. Branches can be created in the Organization applet.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="branch_linking_tab.png"/>
+</imageobject>
+<textobject><phrase>branch linking tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>In Order to add a branch click “+”. Once clicked it will open a 3rd container for users to view listings of all branches where the user can select the preferred branches:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="branch_add.png"/>
+</imageobject>
+<textobject><phrase>branch add</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_company_linking">
+<title>COMPANY LINKING</title>
+<simpara>Used to link companies. Companies can be created in the Organization applet. When linking a company the item will be visible for all branches that are under the chosen Company.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="company_linking_tab.png"/>
+</imageobject>
+<textobject><phrase>company linking tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>In Order to add a company click “+”. Once clicked it will open a 3rd container for users to view listings of all companies. Here the user can select the preferred company.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="company_add.png"/>
+</imageobject>
+<textobject><phrase>company add</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Note: if the user links company A and it has been linked to 5 BRANCHES but in Branch linking TAB the user only chooses 2 branches, then the item will be visible to ALL BRANCHES THAT IS LINKED UNDER THE COMPANY. If the user wants to link only specific branches then it needs to be chosen in the BRANCH LINKING TAB ONLY and COMPANY LINKING should remain empty.</simpara>
+</section>
+<section xml:id="_pns_settlement_method_tab">
+<title>PNS SETTLEMENT METHOD TAB</title>
+<simpara>PNS Settlement Method module is used to link Product to PNS (Products and Services) Settlement Method.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>There is dropdown list, where the user selects the Setllement Type:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Payment Provider</simpara>
+</listitem>
+<listitem>
+<simpara>Membership Point Currency</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="pns_settlment_method_tab.png"/>
+</imageobject>
+<textobject><phrase>pns settlment method tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>In Order to add a Settlement Method click “+”. Once clicked it will open a 3rd container for users to choose settlement type. Here the user can select the preferred type.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="settlement_method_linking.png"/>
+</imageobject>
+<textobject><phrase>settlement method linking</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_pricing_scheme">
+<title>PRICING SCHEME</title>
+<simpara>The Pricing Scheme template is added in the PRICING SCHEME module, in this tab users can add a unit price for existing pricing scheme templates. Once added this information can be used in transactional applets.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="pricing_scheme_tab.png"/>
+</imageobject>
+<textobject><phrase>pricing scheme tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>In Order to edit the price, click the item and it will open 3rd container for users to edit Unit Price.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="Item_price_edit.png"/>
+</imageobject>
+<textobject><phrase>Item price edit</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_manage_image_tab">
+<title>MANAGE IMAGE TAB</title>
+<simpara>This tab is used to add and categorize images based on its type for example main image, promotional image or additional image. Users may update the period of the images they are going to be using as a reference, it has no functionality. Images may also be used in Ecomsync applet, CP Commerce applet and transactional applets such as POS and GRN. However, the date is only for user reference and is not meant to perform any actions.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="manage_image_tab.png"/>
+</imageobject>
+<textobject><phrase>manage image tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Image type is based on ecommerce requirements. There are three image types such as:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Main Image - the image that is supposed to be displayed in the marketplace. Setting Image type is only for user’s reference and a library. When syncing the item, the user has to manually select the image they wish to sync to the marketplace under attribute details.</simpara>
+</listitem>
+<listitem>
+<simpara>Promotional Image - when there are certain promotions, some users might need to use special images related to the promotion, it will replace the main image. Setting Image type is only for the user&#8217;s reference and the library. When syncing the item, the user has to manually select the image they wish to sync to the marketplace under attribute details.</simpara>
+</listitem>
+<listitem>
+<simpara>Additional image - images that end users can view when they view full item information.</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="strong">As an illustration:</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Item = Samsung Phone</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Main Image = the image of Samsung phone</simpara>
+</listitem>
+<listitem>
+<simpara>Promotional Image = a themed image (based on the occasion) of Samsung phone eg. Christmas sale</simpara>
+</listitem>
+<listitem>
+<simpara>Additional images = images of Samsung phone in a different angles, the box, or additional items inside the box</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="image_category_add.png"/>
+</imageobject>
+<textobject><phrase>image category add</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_entity_pricing">
+<title>ENTITY PRICING</title>
+<simpara>Entity Pricing module is used to set the price for the Product depending on the Entity. For instance: A single product&#8217;s price is individual for different Entities.</simpara>
+<simpara>In Order to add a Entity Price click “+”. It will open 3rd container for users to create the Price. Then click "Entity Code" to choose entity type.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="entity_pricing_tab.png"/>
+</imageobject>
+<textobject><phrase>entity pricing tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Select the Entity type from advanced search. There are three types of Entity to select:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Customer</simpara>
+</listitem>
+<listitem>
+<simpara>Supplier</simpara>
+</listitem>
+<listitem>
+<simpara>Employee</simpara>
+</listitem>
+</itemizedlist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="select_entity.png"/>
+</imageobject>
+<textobject><phrase>select entity</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>After selecting the Entity, click on the Item and it will automatically leads the user  to the previous page filled in with the Entity Code and Entity Name. In this page user set the price for selected Entity.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="select_entity_add.png"/>
+</imageobject>
+<textobject><phrase>select entity add</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_t2t_item_mapping_tab">
+<title>T2T ITEM MAPPING TAB</title>
+<simpara>Tenant to Tenant Item Mapping module is used to map Companies, Product Codes and Names in order to sync transactions</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="t2t_item_mapping_tab.png"/>
+</imageobject>
+<textobject><phrase>t2t item mapping tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">T2T Item Mapping tab includes three tabs as follows:</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Host Tenant</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Main tab where the Mapping of the items is processed</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Guest Tenant Item Mapping</simpara>
+<itemizedlist>
+<listitem>
+<simpara>A list of Tenants which are already Mapped</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Guest Tenant Permission Listing</simpara>
+<itemizedlist>
+<listitem>
+<simpara>A list of Tenants which permission is given for mapping. All the Permissions are given from the T2T Admin applet</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<simpara>In order to do the mapping, click "+" button, it will lead the user to the new page, where the user select the Tenant from dropdown list and add the item.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="tenant_mapping.png"/>
+</imageobject>
+<textobject><phrase>tenant mapping</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_marketplace_tab">
+<title>MARKETPLACE TAB</title>
+<simpara>Marketplace tab includes three more tabs:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Main</simpara>
+</listitem>
+<listitem>
+<simpara>Other Resellers Website</simpara>
+</listitem>
+<listitem>
+<simpara>Checking</simpara>
+</listitem>
+</itemizedlist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="marketplace_tab.png"/>
+</imageobject>
+<textobject><phrase>marketplace tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Users select and add the Stores by clicking the "+" button in the Main Tab</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="marketplace_store_add.png"/>
+</imageobject>
+<textobject><phrase>marketplace store add</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_stock_availability_tab">
+<title>STOCK AVAILABILITY TAB</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="stock_availability_tab.png"/>
+</imageobject>
+<textobject><phrase>stock availability tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_attribute_set_tab">
+<title>ATTRIBUTE SET TAB</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="attribute_set_tab.png"/>
+</imageobject>
+<textobject><phrase>attribute set tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_pages_tab">
+<title>PAGES TAB</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="pages_tab.png"/>
+</imageobject>
+<textobject><phrase>pages tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_reviews_tab">
+<title>REVIEWS TAB</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="review_tab.png"/>
+</imageobject>
+<textobject><phrase>review tab</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+</section>
 </section>
 <section xml:id="h3_doc_item_maintenance_category_groups">
 <title>Menu 02 - Category Groups</title>
@@ -7695,7 +8269,8 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 </section>
 <section xml:id="h3_stock_take_v2_stock_take_session">
 <title>Menu 01 - Stock Take Session</title>
-<simpara>1.1  Please go to Akaun.com - Stock Take Applet V2</simpara>
+<section xml:id="_please_go_to_akaun_com_stock_take_applet_v2">
+<title>Please go to Akaun.com - Stock Take Applet V2</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7704,7 +8279,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>stock take logo</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.2  Go to the Stock Take Session</simpara>
+</section>
+<section xml:id="_go_to_the_stock_take_session">
+<title>Go to the Stock Take Session</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7713,7 +8290,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>stock take session</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.3  Create a Stock Take Session Ex: STOCK - JUNE 2022</simpara>
+</section>
+<section xml:id="_create_a_stock_take_session_ex_stock_june_2022">
+<title>Create a Stock Take Session Ex: STOCK - JUNE 2022</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7722,7 +8301,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>create stock</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.4 After creating the Stock Session, go to devices tab to add PIC for handling the Stock Take</simpara>
+</section>
+<section xml:id="_after_creating_the_stock_session_go_to_devices_tab_to_add_pic_for_handling_the_stock_take">
+<title>After creating the Stock Session, go to devices tab to add PIC for handling the Stock Take</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7731,7 +8312,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>add pic</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.5 Find a PIC name to add under the created stock take Session</simpara>
+</section>
+<section xml:id="_find_a_pic_name_to_add_under_the_created_stock_take_session">
+<title>Find a PIC name to add under the created stock take Session</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7740,7 +8323,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>pic name</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.6 After selecting the PIC, go to the PIC name to start performing your Stock Take</simpara>
+</section>
+<section xml:id="_after_selecting_the_pic_go_to_the_pic_name_to_start_performing_your_stock_take">
+<title>After selecting the PIC, go to the PIC name to start performing your Stock Take</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7749,7 +8334,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>perform stocktake</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.7  Once click into devices, please go to Records Tab</simpara>
+</section>
+<section xml:id="_once_click_into_devices_please_go_to_records_tab">
+<title>Once click into devices, please go to Records Tab</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7758,7 +8345,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>records tab</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.8 You can directly scan your serial number scan button</simpara>
+</section>
+<section xml:id="_you_can_directly_scan_your_serial_number_scan_button">
+<title>You can directly scan your serial number scan button</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7767,7 +8356,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>scan code</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.9 Auto-save feature is available</simpara>
+</section>
+<section xml:id="_auto_save_feature_is_available">
+<title>Auto-save feature is available</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7776,7 +8367,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>auto save</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.10 Once complete performing stock take, please go to the report tab. Filter by Report Type and click Search</simpara>
+</section>
+<section xml:id="_once_complete_performing_stock_take_please_go_to_the_report_tab_filter_by_report_type_and_click_search">
+<title>Once complete performing stock take, please go to the report tab. Filter by Report Type and click Search</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7785,7 +8378,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>report type</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.11 Click Upload Reason</simpara>
+</section>
+<section xml:id="_click_upload_reason">
+<title>Click Upload Reason</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7794,7 +8389,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>upload reason</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.12 Select report type and export the report in excel</simpara>
+</section>
+<section xml:id="_select_report_type_and_export_the_report_in_excel">
+<title>Select report type and export the report in excel</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7803,7 +8400,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>export excel</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.13 An excel will be dowloaded</simpara>
+</section>
+<section xml:id="_an_excel_will_be_dowloaded">
+<title>An excel will be dowloaded</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7812,7 +8411,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>downloaded excel</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.14 Fill up a reason for an item that has variance</simpara>
+</section>
+<section xml:id="_fill_up_a_reason_for_an_item_that_has_variance">
+<title>Fill up a reason for an item that has variance</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7821,7 +8422,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>fill up reason</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.15 Save the file and reupload into Stock Take Applet</simpara>
+</section>
+<section xml:id="_save_the_file_and_reupload_into_stock_take_applet">
+<title>Save the file and reupload into Stock Take Applet</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7830,7 +8433,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>fill the reason button</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.16 Once uploaded, go to the details tab and change the status to closed, then click save.</simpara>
+</section>
+<section xml:id="_once_uploaded_go_to_the_details_tab_and_change_the_status_to_closed_then_click_save">
+<title>Once uploaded, go to the details tab and change the status to closed, then click save.</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7839,7 +8444,9 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>details save</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>1.17 Ammendment and Adjustment can&#8217;t be made once the stock take has Closed</simpara>
+</section>
+<section xml:id="_ammendment_and_adjustment_cant_be_made_once_the_stock_take_has_closed">
+<title>Ammendment and Adjustment can&#8217;t be made once the stock take has Closed</title>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -7848,6 +8455,7 @@ example : OCR, Lambda, RDS, NoSQL, API Gateway</simpara>
 <textobject><phrase>closed stock take</phrase></textobject>
 </mediaobject>
 </informalfigure>
+</section>
 </section>
 <section xml:id="h3_stock_take_v2_devices">
 <title>Menu 02 - Devices</title>
