@@ -1,52 +1,292 @@
 [#h3_doc_item_maintenance_items]
 = Menu 01 - Items
 
-1.1 Please go to Akaun.com - Doc Item Maintenance 
+*Please go to Akaun.com - Doc Item Maintenance* 
 
 image::doc_item_logo.png[]
 
-1.2  ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
+== ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
 
 image::items_create.png[]
 
 The screenshot above shows the mandatory fields that the user has to fill (except description, as it is not mandatory). Once the item has been created more information can be added in the EDIT ITEM section. Only basic information is required to be filled in the CREATE section and afterwards users can continue editing items in order to add more information at any time. We exclude adding more information in the CREATE section because if there is a lot of information to be added the user might forget to click save. Adding as little information as possible in the CREATE section prevents and/or reduces data being lost.
 
-Item Code - once Item Code is created it cannot be edited.
+* Item Code - once Item Code is created it cannot be edited. 
 
-Item Name - Item Name can be edited at any time
+* Item Name - Item Name can be edited at any time 
 
-Item type - is consist of nine types as follows:
+* Item type - is consist of nine types as follows:
+** BASIC ITEM - this is the default type that is rel evant to most items.
+** GROUPED ITEM - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as item type user can add additional child items under EDIT
+** BUNDLE - If the item is a package of two or more stand-alone products sold together for a single price. These units are most commonly called stand-alone products because they are fully functioning products by themselves and can be sold separately to the consumer. Examples can be Laptop Bundles that includes a keyboard and a mouse. Take note that the stock is deducted from CHILD and not PARENT.
+** COUPON - is used to record the Stock In and Stock Out of the vouchers tied to this item. If the user sets the type as coupon the item will be reflected in the VOUCHER MANAGEMENT APPLET.
+** SERVICE - If the item is a basic item without inventory tracking.
+** WARRANTY- a written guarantee, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time. When selecting warranty as Item type then the additional tab will be shown in the EDIT section where users can input a warranty period. This information can be used in the POS applet when creating Invoices.
+** DOC HEADER ADJUSTMENT - is used to group discounts. This will be used in the POS applet. As an Illustration the user will attach an Item type as “DHA” and name it as “Extra” to Group Discount in POS Applet.
+** MEMBERSHIP - is used to define a member's attributes, dues payment schedule, and expiration settings.
+** MADE TO ORDER - a manufacturing process where products are assembled and configured according to customer requirements.
 
-1 BASIC ITEM - this is the default type that is relevant to most items.
+* Sub Item Type - There are four sub item types which are Batch Number, Serial Number, Bin Number, Digital Goods. When a user selects any of it, it will be reflected in the POS applet.
 
-2 GROUPED ITEM - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as item type user can add additional child items under EDIT
+* Base UOM - Quantities of warehouse materials (quants) are counted using the base unit of measure (UoM). Quantities in alternative units of measure are always converted to the base unit of measure for calculation purposes. For Example cm, kg, ml
 
-3 BUNDLE - If the item is a package of two or more stand-alone products sold together for a single price. These units are most commonly called stand-alone products because they are fully functioning products by themselves and can be sold separately to the consumer. Examples can be Laptop Bundles that includes a keyboard and a mouse. Take note that the stock is deducted from CHILD and not PARENT.
+* Item Description - not compulsory
 
-4 COUPON - is used to record the Stock In and Stock Out of the vouchers tied to this item. If the user sets the type as coupon the item will be reflected in the VOUCHER MANAGEMENT APPLET.
+* Remarks - Write your comments
 
-5 SERVICE - If the item is a basic item without inventory tracking.
-
-6 WARRANTY- a written guarantee, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time. When selecting warranty as Item type then the additional tab will be shown in the EDIT section where users can input a warranty period. This information can be used in the POS applet when creating Invoices.
-
-7 DOC HEADER ADJUSTMENT - is used to group discounts. This will be used in the POS applet. As an Illustration the user will attach an Item type as “DHA” and name it as “Extra” to Group Discount in POS Applet.
-
-8 MEMBERSHIP - is used to define a member's attributes, dues payment schedule, and expiration settings.
-
-9 MADE TO ORDER - a manufacturing process where products are assembled and configured according to customer requirements.
-
-Sub Item Type - There are four sub item types which are Batch Number, Serial Number, Bin Number, Digital Goods. When a user selects any of it, it will be reflected in the POS applet.
-
-Base UOM - Quantities of warehouse materials (quants) are counted using the base unit of measure (UoM). Quantities in alternative units of measure are always converted to the base unit of measure for calculation purposes. For Example cm, kg, ml
-
-Item Description - not compulsory
-
-Remarks - Write your comments
-
-Currency - Select the currency from the dropdown list
+* Currency - Select the currency from the dropdown list
 
 Once all required fields are filled up, user can press on CREATE, so the item will be saved into database and can be proceed to be edited
 
+== ITEMS EDIT
+
+image::item_edit.png[]
+
+Once the user creates an Item, it will appear in the listing. When the user wants to update the item or add more information they can click on the Item itself, a  2nd container will pop up once clicked containing the following tabs:
+
+* Main Tab
+* Item Category Tab
+* Tax Tab
+* Dimension Details Tab
+* Multi UOM Tab
+* Branch Linking Tab
+* Company Linking Tab
+* PNS Settlement Method Tab
+* Pricing Scheme Tab
+* Manage Image Tab
+* Entity Pricing Tab
+* T2T Item Mapping Tab
+* Marketplace Tab
+* Stock Availability Tab
+* Attribute Set Tab
+* Pages Tab
+* Reviews Tab
+
+The information provided can be used in transactional Applets. Please take note that additional tabs may appear if the user chooses Grouped or Bundle as Item type
+
+=== MAIN TAB
+
+image::main_details_tab.png[]
+
+This Tab consists of general Item information such as:
+
+** Item Name - can be updated any time
+
+** Item Code - cannot be updated
+
+** Item Type - cannot be updated
+
+** Sub Item Type - used when items are in a batch or has a serial number
+
+** GL Code - The general ledger is an accounting document that provides a general overview of an organization's financial transactions. An account, or general ledger (GL) code, is a number used to record business transactions in the general ledger
+
+** Base UOM - an amount in which the stock of a material is managed for example ml, kg, min
+
+** Abbreviation (Prefix) - is used in voucher applet, in order to make it easier to view a specific group of items
+
+** EAN Code - The International Article Number  is a standard describing a barcode symbology and numbering system used in global trade to identify a specific retail product type, in a specific packaging configuration, from a specific manufacturer.
+
+** Currency - a system of money in general used in a particular country. For example, USD ,MYR
+
+** Status - to specify whether an item is active , inactive or obsolete
+
+** Remarks - Write your comments
+
+** Summary - shows who created the item or who updated the item, also shows the date modified and created
+
+=== ITEM CATEGORY
+
+Item category tab is used to link a category to the item. Categories can be created in the  “Category” module.
+
+image::item_category_tab.png[]
+
+In order to add the category click “+”. Once clicked the 3rd container with category listings will be shown. Users can select any category that applies to the Item.
+
+image::add_category.png[]
+
+=== TAX TAB
+
+image::tax_tab.png[]
+
+If tax is applicable the user can tick the checkbox. Once ticked the the tax information will appear where the user can set the tax for:
+
+* Tax Country
+* Output Tax
+* Input Tax
+* Withholding tax
+
+=== DIMENSION DETAILS TAB
+
+Product dimentions to fill in
+
+image::dimension_details_tab.png[]
+
+=== MULTI UOM TAB
+
+This module allows to stock items with multiple units of measurement, UOM auto conversion, and multiple UOM reports that can be later used in transactional applets, sample of Multi UOM;
+
+** 1 Box = 12 Packs
+
+** 1 Packs = 10 Strips
+
+** 1 Strips = 10 Tablets
+
+In order to add Multi UOM click “+”. Once clicked it will open a 3rd container for the user to add UOM details
+
+image::multi_uom_tab.png[]
+
+* UOM - Unit of Measure. UOMs are used to quantify the inventory items and enables items to be tracked easily.
+
+* Ratio -  used to specify how many items. For example:
+** if base UOM is = “Bottle”, then ratio = 20 bottles
+
+* Status - to specify whether the item is active or inactive
+
+* Base UOM - unable to edit. User may edit it in the Main Details Tab
+
+* Sort-Code - The sort code helps identify the hierarchy of the UOM from the smallest to largest starting from 001. For example pill would be 001 followed by carton which would be 002 and finally box which would be 003.
+
+=== BRANCH LINKING
+
+Used to link specific branches. This function will be used in all transactional applets. for example if a user links branch A and B then only these respective branches will be able to see the selected item in the POS applet. Branches can be created in the Organization applet.
+
+image::branch_linking_tab.png[]
+
+In Order to add a branch click “+”. Once clicked it will open a 3rd container for users to view listings of all branches where the user can select the preferred branches:
+
+image::branch_add.png[]
+
+=== COMPANY LINKING
+
+Used to link companies. Companies can be created in the Organization applet. When linking a company the item will be visible for all branches that are under the chosen Company.
+
+image::company_linking_tab.png[]
+
+In Order to add a company click “+”. Once clicked it will open a 3rd container for users to view listings of all companies. Here the user can select the preferred company.
+
+image::company_add.png[]
+
+Note: if the user links company A and it has been linked to 5 BRANCHES but in Branch linking TAB the user only chooses 2 branches, then the item will be visible to ALL BRANCHES THAT IS LINKED UNDER THE COMPANY. If the user wants to link only specific branches then it needs to be chosen in the BRANCH LINKING TAB ONLY and COMPANY LINKING should remain empty.
+
+=== PNS SETTLEMENT METHOD TAB
+
+PNS Settlement Method module is used to link Product to PNS (Products and Services) Settlement Method.
+
+* There is dropdown list, where the user selects the Setllement Type:
+** Payment Provider
+** Membership Point Currency
+
+image::pns_settlment_method_tab.png[]
+
+In Order to add a Settlement Method click “+”. Once clicked it will open a 3rd container for users to choose settlement type. Here the user can select the preferred type.
+
+image::settlement_method_linking.png[]
+
+=== PRICING SCHEME
+
+The Pricing Scheme template is added in the PRICING SCHEME module, in this tab users can add a unit price for existing pricing scheme templates. Once added this information can be used in transactional applets.
+
+image::pricing_scheme_tab.png[]
+
+In Order to edit the price, click the item and it will open 3rd container for users to edit Unit Price.
+
+image::Item_price_edit.png[]
+
+=== MANAGE IMAGE TAB
+
+This tab is used to add and categorize images based on its type for example main image, promotional image or additional image. Users may update the period of the images they are going to be using as a reference, it has no functionality. Images may also be used in Ecomsync applet, CP Commerce applet and transactional applets such as POS and GRN. However, the date is only for user reference and is not meant to perform any actions.
+
+image::manage_image_tab.png[]
+
+Image type is based on ecommerce requirements. There are three image types such as:
+
+* Main Image - the image that is supposed to be displayed in the marketplace. Setting Image type is only for user’s reference and a library. When syncing the item, the user has to manually select the image they wish to sync to the marketplace under attribute details.
+* Promotional Image - when there are certain promotions, some users might need to use special images related to the promotion, it will replace the main image. Setting Image type is only for the user's reference and the library. When syncing the item, the user has to manually select the image they wish to sync to the marketplace under attribute details.
+* Additional image - images that end users can view when they view full item information.
+
+*As an illustration:*
+
+* Item = Samsung Phone
+** Main Image = the image of Samsung phone
+** Promotional Image = a themed image (based on the occasion) of Samsung phone eg. Christmas sale
+** Additional images = images of Samsung phone in a different angles, the box, or additional items inside the box
+
+image::image_category_add.png[]
+
+=== ENTITY PRICING
+
+Entity Pricing module is used to set the price for the Product depending on the Entity. For instance: A single product's price is individual for different Entities.
+
+In Order to add a Entity Price click “+”. It will open 3rd container for users to create the Price. Then click "Entity Code" to choose entity type.
+
+image::entity_pricing_tab.png[]
+
+Select the Entity type from advanced search. There are three types of Entity to select:
+
+* Customer
+
+* Supplier
+
+* Employee
+
+image::select_entity.png[]
+
+After selecting the Entity, click on the Item and it will automatically leads the user  to the previous page filled in with the Entity Code and Entity Name. In this page user set the price for selected Entity.
+
+image::select_entity_add.png[]
+
+
+=== T2T ITEM MAPPING TAB
+
+Tenant to Tenant Item Mapping module is used to map Companies, Product Codes and Names in order to sync transactions
+
+image::t2t_item_mapping_tab.png[]
+
+*T2T Item Mapping tab includes three tabs as follows:*
+
+* Host Tenant
+** Main tab where the Mapping of the items is processed
+
+* Guest Tenant Item Mapping
+** A list of Tenants which are already Mapped
+
+* Guest Tenant Permission Listing
+** A list of Tenants which permission is given for mapping. All the Permissions are given from the T2T Admin applet
+
+In order to do the mapping, click "+" button, it will lead the user to the new page, where the user select the Tenant from dropdown list and add the item. 
+
+image::tenant_mapping.png[]
+
+
+=== MARKETPLACE TAB
+
+Marketplace tab includes three more tabs:
+
+* Main
+* Other Resellers Website
+* Checking
+
+image::marketplace_tab.png[]
+
+Users select and add the Stores by clicking the "+" button in the Main Tab
+
+image::marketplace_store_add.png[]
+
+=== STOCK AVAILABILITY TAB
+
+image::stock_availability_tab.png[]
+
+=== ATTRIBUTE SET TAB
+
+image::attribute_set_tab.png[]
+
+=== PAGES TAB
+
+image::pages_tab.png[]
+
+=== REVIEWS TAB
+
+image::review_tab.png[]
 
 
 

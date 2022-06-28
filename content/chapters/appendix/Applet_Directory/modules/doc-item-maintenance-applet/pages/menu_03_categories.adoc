@@ -1,3 +1,98 @@
 [#h3_doc_item_maintenance_categories]
 = Menu 03 - Categories
 
+== Category module is used to create categories, as well as nest category that can be linked to an Item in Item maintenance Module.
+When user land in Category Listing, they will see the AG-Grid listing of all categories that has been created
+
+image::categories_listing.png[]
+
+The screenshot above shows the listing of all categories. User may customize the the columns by removing it or relocating it. User may search category through fuzzy search in the listing itself or may search through general search bar. In addition they may search by status and modified date in advanced search as shown in the picture bellow:
+
+image::category_search.png[]
+
+Pagination Row can be customized based on user’s preference as shown in screenshot bellow:
+
+image::pagination_row.png[]
+
+== Create Category
+
+When user wants to create new category for an item they can go to “Category Module”. then user must click on “+” it will redirect to the 2nd container where user must fill up required filed. Category will make it easier for user to search specific group of items either in Doc Item Maintenance or in transactional applets.
+
+image::category_create.png[]
+
+There are two mandatory fields in when creating category which are:
+
+* Category Name
+
+* Category Code
+
+* Description - is not compulsory
+
+* Nesting category - it is when a single category can be associated with multiple categories. for example:
+
+** Main category = Smartphones
+
+** Nested Category = Iphone
+
+== Edit Category
+
+When user wants to edit existing category they may click on any of specific category in the listing. Once clicked it will open second container with Category details. There are two tabs when editing Category which are:
+
+=== Main Tab
+
+This tab shows basic information on the category that was filled up when creating the category.
+
+image::cat_edit_main.png[]
+
+These are the fields in the main tab:
+
+* Category Name - can be adjusted, compulsory to fill up
+
+* Category Code - can be adjusted, compulsory to fill up
+
+* Description - can be adjusted, not compulsory
+
+* Status - to specify whether the category is Active or Inactive
+
+* Nesting the category - it is when a single category can be associated with multiple categories. Can be adjusted. Example of nested category:
+
+** Main category = Smartphones
+
+** Nested Category = Iphone
+
+* Summary - cannot be adjusted, as it is used as reference for the user to show details such as:
+
+** Created by who
+
+** Modified by who
+
+** Creation date
+
+** Modified Date
+
+=== Manage Image Tab
+
+CP Commerce displays product categories for easy referral for customers. Users can use the Manage Image Tab in the Doc Item Maintenance applet to upload relevant category images. Upon clicking on categories, the user will be shown all relevant products under said categories. 
+
+image::cat_edit_image.png[]
+
+When users want to add image, they  click on “+” button, once clicked the second container will appear, where user can select the image and specify the image name as shown bellow.
+
+These are the fields in the main tab:
+
+image::manage_add_image.png[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
