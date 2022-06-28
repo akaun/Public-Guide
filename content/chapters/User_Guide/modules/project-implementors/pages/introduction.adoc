@@ -1,4 +1,4 @@
-[#h2_project_implementors_introduction]
+[#h2_user_guide_project_implementors_introduction]
 = Introduction
 
 Understanding of the Akaun Platform is a prerequisite for successful implementation of any projects
@@ -43,11 +43,15 @@ When the users install applets from the "Applet Store" the RANK/TENANT tags will
 
 The Core Module consist of the following the main applets that are depended by all other applets. For example, in order to issue a sales invoice, we need to ensure that the Company and Branches are setup and configured, the products and services are added into the Item Maintenance applet, the employees of the company is setup so that the users can select the salesman when issuing the sales invoice.
 
-The applets in <<h2_core_module>> should be installed, configured in proper sequence, before you proceed to install the other applets.
+The applets in 
+ifndef::site-gen-antora[]
+xref:h2_core_module[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-modules-guide:0100-core-module:introduction.adoc[Core Module] 
+endif::[]
+should be installed, configured in proper sequence, before you proceed to install the other applets.
 
-See xref:h2_core_module[xrefstyle=full] for more details.
 
-
-// This is the page break
 
 <<<<<<<<<<<

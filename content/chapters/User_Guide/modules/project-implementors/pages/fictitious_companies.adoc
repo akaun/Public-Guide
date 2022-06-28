@@ -1,0 +1,36 @@
+[#h3_user_guide_project_implementors_fictitious_companies]
+= Fictitious Companies
+
+For the ease of elaboration, we will be using a fictitious company throughout this guide.
+
+[NOTE]
+.Disclaimer : Use of fictitious names
+====
+The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, places, or events is intended or should be inferred.
+====
+
+[#h4_user_guide_fictitious_companies]
+== Fictitious Company Names
+
+
+|===
+
+| Group (Nickname) | Tenant | Company Name | Users | Description
+
+.7+| ABC Group 
+.5+| abc-main
+| ABC Public Listed Berhad | Lim-KH | A large conglomerate in Malaysia, public listed.
+| ABC CE (Malaysia) Sdn Bhd | Lim-KC | The largest consumer electronic chain store in Malaysia with 120 branches
+| ABC IT (Malaysia) Sdn Bhd | Wai-Hang | A premium IT retailer in Malaysia with 15 branches
+| ABC CE (Singapore) Pte Ltd | Johnny | Retail consumer electronics chain store with 20 branches in Singapore owned by ABC Group in Malaysia
+| ABC IT (Singapore) Pte Ltd | Wong | Retail computer chain stores with 30 branches in Singapore 
+.2+| abc-pharmacy
+| ABC Pharmacy (Malaysia) Sdn Bhd | Michael | Malaysia Pharmacy chain  with 50 branches owned by ABC Group
+| ABC Pharmacy (Singapore) Pte Ltd | Stephen | Singapore Pharmacy retail with 30 branches owned by ABC Group
+
+| PC-City Group | pccity | PC-City Hypermarket Sdn Bhd | Yee | The largest IT Hypermarket in Malaysia with 10 branches
+| Tander | tander| Tander Sdn Bhd | Eric | Largest computer chainstores with 60 branches
+| Ingrem | ingrem | Ingrem Sdn Bhd | Victor | One of the largest IT distributors in Malaysia
+| UncleSam | unclesam | Uncle Sam Sdn Bhd | Kim | One of the largest android handphone manufacturer in the world.
+|===
+

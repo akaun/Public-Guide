@@ -1,0 +1,4 @@
+[#h3_marketplace_connector_product_bundle]
+= Product Bundle
+
+* automatic unwrap the bundle

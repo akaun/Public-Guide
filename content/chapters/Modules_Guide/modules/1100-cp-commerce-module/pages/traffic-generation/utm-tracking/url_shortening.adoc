@@ -1,0 +1,2 @@
+[#h3_cpcom_mod_url_shortening]
+= URL Shortening

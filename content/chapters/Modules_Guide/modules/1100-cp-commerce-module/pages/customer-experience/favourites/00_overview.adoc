@@ -1,0 +1,4 @@
+[#h4_cpcom_mod_favourites]
+= Favourites
+
+Can be wish list , or products add to favourite

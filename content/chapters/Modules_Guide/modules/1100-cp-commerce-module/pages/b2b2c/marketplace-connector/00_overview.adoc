@@ -1,0 +1,7 @@
+[#h4_cpcom_mod_marketplace_connector]
+= Marketplace Connector
+
+
+The tricky part, orders bought from the market place may not be linked to the customer account because billing is paid by Lazada / Shoppee. 
+We are abel to link to the customer account, providing a seamless experience.
+

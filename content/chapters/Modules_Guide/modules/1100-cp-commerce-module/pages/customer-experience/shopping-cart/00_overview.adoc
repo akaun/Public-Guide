@@ -1,0 +1,3 @@
+[#h4_cpcom_mod_shopping_cart]
+= Shopping Cart
+

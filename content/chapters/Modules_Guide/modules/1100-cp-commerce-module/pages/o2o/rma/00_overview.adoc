@@ -1,0 +1,4 @@
+[#h4_cpcom_mod_rma]
+= RMA 
+
+RMA stands for Return Merchandise Authorization.

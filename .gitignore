@@ -3,4 +3,6 @@
 /content/assets
 .DS_Store
 /tmp
+/.idea
+/content/chapters/BigLedger_Overview/modules/intro/attachments/blg_handbook.*
 

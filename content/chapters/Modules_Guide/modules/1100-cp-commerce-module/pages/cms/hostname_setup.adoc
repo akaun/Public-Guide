@@ -1,0 +1,96 @@
+[#h4_cpcom_mod_hostname_setup]
+= Hostname Setup
+
+For every website configured in the CP-Commerce Admin Applet, it is possible for our users to configure the multiple cloudfront distributions and each cloudfront distribution is linked to a certain hostnames that allow the web browser to visit these websites.
+
+[#h3_cpcom_mod_platform_sub_domain]
+== Platform Sub-Domain
+
+A platform sub-domain for each website is constructed with the following format:
+
+* website-code.tenant-code.akaun.net  (for production environment)
+
+* website-code.tenant-code.akaun.app (for staging environment)
+
+* website-code.tenant-code.akaun.xyz (for development environment)
+
+When you first starting a website, by default, the akaun platform would create the following hostname automatically for you using combination of tenant-code and website code. For example, if your tenant code is "mytenant" and your website code is "resellers", the CP-Commerce would create the hostname as resellers.mytenant.akaun.net.
+
+This sub-domain provided by Akaun platform would be powered up immediately, so that the users of a website could visit the website right away. As the "akaun.net" DNS is hosted by us, no domain name verification or CNAME is required on your side.
+
+== Technical Background
+
+This section is only meant for technical readers that would like to dig into the AWS cloudfront technical details of how things work:
+
+https://drive.google.com/file/d/1Xwfs4N1QKuXoEwaql2QXuHGWWmv_Q52M/view?usp=sharing[Discussion with Tuan on Cloudfront configurations]
+
+We make use of DNS validation as follows:
+https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html[AWS Certificate Manager - DNS Validation] 
+
+You may watch the following guide to get some basic understanding of DNS:
+
+ifdef::ebook-format-epub3[]
+* https://www.youtube.com/watch?v=YV5tkQYcvfg[DNS Records for Newbies - How To Manage Website Records] 
+* https://www.youtube.com/watch?v=cQ0anQfsSOw[DNS Records]
+* https://www.youtube.com/watch?v=WqhgGpv4cKY[CNAME vs A Record] 
+endif::ebook-format-epub3[]
+ifndef::ebook-format-epub3[]
+video::YV5tkQYcvfg[youtube,title="DNS Records for Newbies - How To Manage Website Records"]
+
+video::cQ0anQfsSOw[youtube,title="DNS Records"]
+
+video::WqhgGpv4cKY[youtube,title="CNAME vs A Record"]
+endif::ebook-format-epub3[]
+
+
+[#h3_cpcom_mod_setup_custom_domain_name]
+== Transition and configuration of custom domain names
+
+Assuming your company owns "mydomain.com", and you would like to implement the cp-commerce. But during the implementation, you would like to configure a temporary custom sub-domain and use it, before you make use of the top level domain name, to point to the cp-commerce website as follows: 
+
+* https://newstore.mydomain.com/ +
+    This sub-domain "estore" would be used for the time being, while the current website is still life and being used (Let's say, https://mydomain.com/ and https://www.mydomain.com). This temporary hostname could be configured in advanced. 
+
+* https://mydomain.com/ +
+    After the new website implementation is completed, and when we are ready to launch the new website, we would be getting ready to retire the old website , and configure this second hostname just like the "newstore.mydomain.com" to go live.
+
+
+== Custom Sub-domain 
+
+At this time, the hostname can be created by the Platform SysAdmin only, using the Platform SysAdmin applet.
+
+[TIP]
+====
+In future, we may allow hostname to be created under using 2 approach:
+
+* Platform SysAdmin Applet
+
+* CP-Commerce Admin Applet
+
+====
+
+The very first step of creating a sub-domain is to perform ACM validation. You will be given the following:
+
+*ACM Validation DNS Record*
+
+* Record Type: CNAME
+
+* Record Name: *_7760b3c88f1556jjjjjjjjjjjjj*.mydomain.com
+
+* Record Value: *_80fb2b1ef05e7xxxxxxxxxxx.yyyyyyyyyyy.acm-validations.aws.*
+
+You are required to add the above into your DNS Record. 
+
+After you have completed the validation of the ACM certificate, the next step is to create and configure your custom sub-domain to point to the CloudFront Distribution.
+
+*Sub-domain CNAME forwarding*
+
+* Record Type: CNAME
+
+* Record Name: *sub-domain-name*.mydomain.com
+
+* Record Value: *xxxxxxxxx*.cloudfront.net
+
+That's it, nothing more, all you need to do next is to visit https://sub-domain-name.mydomain.com
+
+

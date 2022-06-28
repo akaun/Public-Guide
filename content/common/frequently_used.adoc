@@ -1,0 +1,11 @@
+
+// the following is used for cross reference
+
+ifndef::site-gen-antora[]
+xref:h2_core_module[xrefstyle=full] 
+endif::[]
+ifdef::site-gen-antora[]
+* xref:handbook-modules-guide:0100-core-module:introduction.adoc[Core Module] 
+endif::[]
+
+

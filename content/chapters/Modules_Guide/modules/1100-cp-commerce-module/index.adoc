@@ -1,25 +1,132 @@
-[#h2_cp_commerce_module]
+[#h2_cpcom_module]
 = CP Commerce Module
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/unique_value_proposition.adoc[leveloffset=3]
+// ------
+include::pages/project-implementation/00_overview.adoc[leveloffset=3]
+include::pages/project-implementation/ui_design.adoc[leveloffset=4]
+include::pages/project-implementation/qc_checklist.adoc[leveloffset=4]
+include::pages/project-implementation/work_breakdown_list.adoc[leveloffset=4]
 
-include::pages/related_applets.adoc[leveloffset=3]
+// ------
+include::pages/cms/00_overview.adoc[leveloffset=3]
+include::pages/cms/hostname_setup.adoc[leveloffset=4]
+include::pages/cms/third_party_logins.adoc[leveloffset=4]
 
-include::pages/project_implementation_steps.adoc[leveloffset=3]
+include::pages/cms/activities/00_overview.adoc[leveloffset=4]
+include::pages/cms/forms/00_overview.adoc[leveloffset=4]
+include::pages/cms/identity-management/00_overview.adoc[leveloffset=4]
+include::pages/cms/internationalization/00_overview.adoc[leveloffset=4]
+include::pages/cms/media-library/00_overview.adoc[leveloffset=4]
+include::pages/cms/posts-topics/00_overview.adoc[leveloffset=4]
+include::pages/cms/power-filter/00_overview.adoc[leveloffset=4]
+include::pages/cms/webchat/00_overview.adoc[leveloffset=4]
+include::pages/cms/digital-signature/00_overview.adoc[leveloffset=4]
+include::pages/cms/mobile-apps/00_overview.adoc[leveloffset=4]
 
-include::pages/work_breakdown_list.adoc[leveloffset=3]
+include::pages/cms/widgets/00_overview.adoc[leveloffset=4]
+include::pages/cms/widgets/branch-locators/00_overview.adoc[leveloffset=5]
+include::pages/cms/widgets/statement-of-account/00_overview.adoc[leveloffset=5]a
 
-include::pages/product_maintenance.adoc[leveloffset=3]
+// ------
+inlucde::pages/fulfillment/00_overview.adoc[leveloffset=3]
+inlucde::pages/fulfillment/customer_shipping_fees.adoc[leveloffset=4]
+inlucde::pages/fulfillment/third_party_logistics.adoc[leveloffset=4]
+inlucde::pages/fulfillment/inhouse_delivery.adoc[leveloffset=4]
+inlucde::pages/fulfillment/partial_delivery.adoc[leveloffset=4]
+inlucde::pages/fulfillment/same_day_delivery.adoc[leveloffset=4]
+inlucde::pages/fulfillment/delivery_tracking.adoc[leveloffset=4]
+inlucde::pages/fulfillment/self_pickup.adoc[leveloffset=4]
 
-include::pages/shipping_fee.adoc[leveloffset=3]
+// ------
+include::pages/customer-experience/00_overview.adoc[leveloffset=3]
+include::pages/customer-experience/shopping-cart/00_overview.adoc[leveloffset=4]
+include::pages/customer-experience/cross-selling/00_overview.adoc[leveloffset=4]
+include::pages/customer-experience/favourites/00_overview.adoc[leveloffset=4]
+include::pages/customer-experience/proactive-bot/00_overview.adoc[leveloffset=4]
+include::pages/customer-experience/spending-limits/00_overview.adoc[leveloffset=4]
 
-include::pages/settlement_methods.adoc[leveloffset=3]
+// ------
 
-include::pages/order_fulfillment.adoc[leveloffset=3]
+// -----
+include::pages/erp-integration/00_overview.adoc[leveloffset=3]
+include::pages/erp-integration/inventory.adoc[leveloffset=4]
+include::pages/erp-integration/accounting.adoc[leveloffset=4]
+include::pages/erp-integration/bank_reconciliation.adoc[leveloffset=4]
+include::pages/erp-integration/account_payable.adoc[leveloffset=4]
+include::pages/erp-integration/account_receivable.adoc[leveloffset=4]
+include::pages/erp-integration/membership_points.adoc[leveloffset=4]
 
-include::pages/search_engine_optimization.adoc[leveloffset=3]
+// -----
+include::pages/memberships/00_overview.adoc[leveloffset=3]
+include::pages/memberships/points_redemption.adoc[leveloffset=4]
+include::pages/memberships/points_reward.adoc[leveloffset=4]
+include::pages/memberships/rebates.adoc[leveloffset=4]
 
-include::pages/qc_checklist.adoc[leveloffset=3]
+// -----
+
+
+// -----
+include::pages/o2o/00_overview.adoc[leveloffset=3]
+include::pages/o2o/contact-center/00_overview.adoc[leveloffset=4]
+include::pages/o2o/internal-sales-order-applet/00_overview.adoc[leveloffset=4]
+include::pages/o2o/offline-pos/00_overview.adoc[leveloffset=4]
+include::pages/o2o/issue-tracker/00_overview.adoc[leveloffset=4]
+include::pages/o2o/rma/00_overview.adoc[leveloffset=4]
+
+// -----
+
+include::pages/payment-collection/00_overview.adoc[leveloffset=3]
+include::pages/payment-collection/cashbooks/00_overview.adoc[leveloffset=4]
+include::pages/payment-collection/partial-payments/00_overview.adoc[leveloffset=4]
+include::pages/payment-collection/payment-integration/00_overview.adoc[leveloffset=4]
+include::pages/payment-collection/recurring-payment/00_overview.adoc[leveloffset=4]
+include::pages/payment-collection/recurring-collection/00_overview.adoc[leveloffset=4]
+
+
+// -----
+include::pages/products/00_overview.adoc[leveloffset=3]
+include::pages/products/addons.adoc[leveloffset=4]
+include::pages/products/attributes.adoc[leveloffset=4]
+include::pages/products/categories.adoc[leveloffset=4]
+include::pages/products/extended_warranty.adoc[leveloffset=4]
+include::pages/products/linking_products_to_a_website.adoc[leveloffset=4]
+include::pages/products/made_to_order.adoc[leveloffset=4]
+include::pages/products/pre_orders.adoc[leveloffset=4]
+include::pages/products/pricing_scheme.adoc[leveloffset=4]
+include::pages/products/product_bundle.adoc[leveloffset=4]
+include::pages/products/product_variants.adoc[leveloffset=4]
+include::pages/products/reviews_rating.adoc[leveloffset=4]
+include::pages/products/unit_of_measure.adoc[leveloffset=4]
+
+
+
+// -----
+
+// ------
+include::pages/traffic-generation/00_overview.adoc[leveloffset=3]
+include::pages/traffic-generation/affiliate-programs/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/google-ads/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/google-analytics/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/meta-ads/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/referral-programs/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/seo/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/utm-tracking/00_overview.adoc[leveloffset=4]
+include::pages/traffic-generation/vouchers/00_overview.adoc[leveloffset=4]
+
+
+// ------
+include::pages/b2b2c/00_overview.adoc[leveloffset=3]
+include::pages/b2b2c/apple/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/microsoft/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/retail-salesman/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/ocr/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/individual-vs-corporate/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/multi-vendors/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/staff-purchases/00_overview.adoc[leveloffset=4]
+include::pages/b2b2c/marketplace-connector/00_overview.adoc[leveloffset=3]
+
+// ------
+
 

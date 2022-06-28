@@ -1,196 +1,40 @@
-[#h3_cp_commerce_introduction]
+[#h3_cpcom_mod_introduction]
 = Introduction
 
-This section provides you the guide to implementing the *CP Commerce* module.
-You will get to know what is included in the CP Commerce module, how to use it, how to get started and what are the features that you can use to launch your next e-commerce project.
+This guide covers the following topics:
 
-[#h4_cp_commerce_overview]
-== CP Commerce Overview
+* Project Implementation +
+    The implementation guide provides you the necessary steps to implementing a brand new cp-commerce project. This include the preparation needed before the implementation, the workflow and knowledge that you will need, what to do first, and what to do next etc.
 
-*CP Commerce* stands for "Cross Platform Commerce". Most of our customers use the CP Commerce module for the following reasons:
+* Content Management System +
+    This chapter provides all the features and functions of the Content Management System for CP-Commerce module to guide you with various configurations and settings
 
-* Cross Platform
-    The CP Commerce supports desktop web, mobile web, android and ios platforms. With hybrid technologies, 
+* Order Fulfillment +
+    We discuss about the shipping fees, various scenarios in order fulfillment, integration with third party logistics, and applets required for in-house delivery fleet, self pickup etc.
 
-* Flexible
-** Powerful layout engine to allow for any layouts and any widgets to be configured for different pages in the website.
+* Customer Experience +
+    This chapter covers the topics of how cp-commerce operators could optimize the user journey and experience by discussing about the lifecycle of a shopping cart, how to do cross selling, the use of proactive bots and spending limits to provide a better overall experience.
 
-* Cost Effective
-* There's no need to power up another server because the e-commerce website is running on serverless and cloud native technologies
+* ERP Integration +
+    The CP-Commerce is not just a shopping cart, its backboned is built with a solid ERP foundation, this chapter provide insights into the possibilities of using CP-Commerce to achieve much more by leveraging on the ERP data out of the box.
 
-* Integrated
-** Out of the box integration with inventory module, accounting module, market places, point of sales and conversation commerce, no more painful integration and no more duplicated data entry.
+* Memberships +
+    In order to promote greater loyalty among the customers, CP-Commerce is embedded with Membership program. The mechanism and features of membership points reward and redemption are covered in this chapter.
 
-* SEO Optimized
-** Support LD-JSON format
-// TODO: lsdkjflsdkjdlkj alksdjflskjdld 
+* o2o +
+    Being much more than just a shopping cart, the cp-commerce when used together with the Contact Center module, Sales Order Applet, Point of Sales, Issue Tracker, RMA applets and so on, businesses can implement o2o seamlessly without integrations!
 
+* Payment and Collection
+    In this chapter, we talk about the cashbooks and settlement methods, partial settlements, payment integrations, recurring payment and collection.
 
-* Multi-Lingual and Multi-Country
-** Payment Gateway integration across 33 countries when using it with our PGW Module
-** Different products for different countries is supported, auto switching of payment gateway based on country
-** Same products sold in different currencies is also supported
-** Support for multiple timezones 
+* Product Maintenance
+    Most of the product configurations are done in the "Doc Item Maintenance Applet". We discuss about how the settings in Doc Item Maintenance applet relates to cp-commerce. This would include, add-ons, attributes, categories, extended warranty, made-to-orders, pre-orders, pricing scheme, product bundle and variants, reviews and rating, unit of measure etc.
 
+* Traffic Generation
+    Having a shopping cart is not good enough, there is much more that we could do to drive traffic to the website. In this chapter, we talk about affiliate programs, google ads, google analytics, meta ads, referral program, SEO, UTM tracking and vouchers.
 
-* Scalable
-** Backend is using serverless and cloud native technologies 
-** Performing as usual during peak seasons
+* B2B2C
+    With various other integrations, for example Apple - ACPP, Microsoft ESD, Product QR Code, OCR, Multi-Vendor functionality, T2T and marketplace connector module, the CP-Commerce has all the necessary ingredients for businesses to use it for B2B2C. This chapter elaborate how businesses could implement B2B2C.
 
-* Powerful search
 
-* Improved User Experience (PWA)
-** No page reload like those applications built with PHP websites
-** Responsive to screen size, seamless experience on mobile devices
-** Automatic caching of images for faster speed
-
-* Re-targetting 
-** Facebook pixel
-** LinkedIn
-
-* Add-ons
-
-* Shipping Fees
-
-* Inventory Stock
-** Able to display stock balance across multiple warehouses and stores
-** Advanced formula to calculate the stock availability by deducting "open sales order" from the "inventory stock balance" to avoid out of stock situation
-
-* Marketplace Integration
-** With the integrated *Marketplace Connector* , users can import images, product name, pricing and other information from Lazada and Shopee, saving valuable time to get started
-
-* Rich API
-** Excellent for integration with other ERP / Accounting systems 
-
-* Vouchers
-
-* Membership Program
-
-* Various Product Types
-** Single product
-** Variants (Grouped Product)
-** Bundle
-** Extended Warranty
-** Purchase With Purchase
-
-* RMA (Service Note)
-
-* Pricing Scheme
-
-* Promotions
-
-* Content Management
-
-* Unlimited Categories
-
-* Mailing lists and Topic subscriptions
-
-* Using rebate during checkout
-
-* Branch locators
-
-* Unified Contact Centre
-** WebChat
-
-* Multiple Login Methods
-** Despite multiple login methods, they are all consolidated as a single login-id. 
-** Users can login with email/password, phone/sms, Google Login, Facebook Login, Apple Login
-
-* Delivery and Fulfillment
-** Printing , Picking , Packing
-** Trips Planning and Drivers allocation
-
-* Analytics
-** Analysis of abandoned shopping cart
-** Linking to Google Analytics
-** Review and ratings of products
-** Products clicks and page views
-** Abandoned shopping carts
-** Favourites and visitor profiles
-
-* Abandoned shopping cart
-** Automation to create outbound notifications and automatically create sales leads for agents to follow up and assist customer to 
-** Customers are able to view their previously abandoned shopping cart
-** Contact center agents are able to assist the customer to complete their shopping cart, and request for payments within messaging applications (conversational commerce)
-
-* Favourite lists
-** Understanding the customer's preferences and subsequently send targetted email / whatsapp messages on promotions
-
-* Product Reviews and Ratings
-** Able to set multiple reviews per product, so that customers are able to feedback on multiple perspectives of the product, not just how many stars. For example: (1) Satisfaction the product (2) Delivery Speed (3) After sales support etc..
-
-The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.
-
-* Full transaction history and billing statements
-
-* Full receipts 
-
-* Restricted access
-
-* Multiple websites with different pricing scheme
-
-* Credit Limit control
-** Checkout now pay later
-
-* Single Login Multiple Accounts (Entities), Each Account supports Multiple Memberships
-
-* Single Account with multiple logins
-
-* Online Forms
-
-* Blocked Users and Spending Limits
-
-* Multi-UOM
-
-
-Some background of why this module was developed
-Provide a summary of what this module does and doesn't do.
-
-[#h4_cp_commerce_module_applets]
-== CP Commerce Applets
-
-
-* <<h2_cp_commerce_admin_applet>>
-
-* Media Library Applet
-
-* Platform SysAdmin Applet
-
-
-
-
-* 
-
-[#h4_cp_commerce_features_and_functions]
-== Features and Functions
-
-
-
-== What's New
-
-
-
-== Getting Started
-
-* Please ensure that you have setup the pricing scheme in "Doc Item Maintenace applet", you are going to need to use the pricing scheme when configuring the Virtual Branch
-
-* Create a virtual branch for CP Commerce
-    - Goto the "Organization Applet" to create a virtual branch 
-
-
-* Create a CP Commerce Website
-    - Goto the CP Commerce Admin Applet, and then click "+" to create a website.
-    - You may refer to the CP Commerce Admin Applet user guide for more details.
-    - When
-* Setting up Hostname
-    - For configuration of hostname. 
-    - MIS Department can help you to configure the hostname
-        Currently, Tuan (our programmer) is working on a feature where the platform sysadmin applet, will provide the feature for users to just click and power up the hostname.
-    - What is a hostname??  Every website has a hostname... for example:
-        https://www.wavelet.net    
-        https://www.wavelet.net/contact-us (this is a URL, the hostname part is only www.wavelet.net, the https:// is the protocol, and the "contact-us" is the "url path")
-
-
-== Module Dependencies
-
-
+    

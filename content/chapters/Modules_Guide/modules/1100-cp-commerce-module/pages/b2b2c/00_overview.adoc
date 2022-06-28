@@ -1,0 +1,36 @@
+[#h3_cpcom_mod_b2b2c]
+= B2B2C
+
+talk about the end to end supply chain
+
+From Retailer's perspective
+giving microsoft ESD as example
+Machine's Apple extended warranty integration
+
+From Product/Brand Owner's perspective
+using Celllabs as example for "distribution" type of companies, rewarding salesman in a retail company
+using Biolife as an example.
+
+Handling of dealer / orders , with credit limits
+The CP Commerce is also being used as B2B Portal for both suppliers and resellers (dealers) for the following reasons.
+
+* Full transaction history and billing statements
+
+* Full receipts 
+
+* Restricted access
+
+* Multiple websites with different pricing scheme
+
+* Credit Limit control
+** Checkout now pay later
+
+* Single Login Multiple Accounts (Entities), Each Account supports Multiple Memberships
+
+* Single Account with multiple logins
+
+* Online Forms
+
+* Blocked Users and Spending Limits
+
+* Multi-UOM
