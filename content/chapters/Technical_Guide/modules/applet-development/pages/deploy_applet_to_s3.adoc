@@ -1,6 +1,16 @@
 [#h3_applet_dev_deploying_to_s3]
 = Deploying applet to s3
 
-* Making pull request the github vendor repository
-* Platform SysAdmin to merge the changes from vendor repository to the global applet repository, and then syncing it to various branches : production, staging , development. Subsequently, these changes to be sync to the s3 bucket in AWS
-* Submission for testing
+* Firstly, loggin to AWS for specefic environment. Here, staging environment will be shown. It's posible to have multiple loggin for diffrent environments. 
+developer need to run AWS SSO commands and allow permission from sso account logged in the browser. 
+image::aws-cmd.png[aws commands]
+image::aws.png[aws browser]
+* Get the latest code using git pull
+* Change the directory to 'micro-fe'
+* Find the deployment-script for your applet in the bin folder. For example, we are looking for 'commission-scheme-applet'
+image::bin-staging.png[find deployment-script]
+* Secify the path of the deployment script and run it. For the 'commission-scheme-applet' the script should be './bin/staging/commission_scheme_applet_publish.sh'
+* A successful deploment should look like this. It confirms the deployment of the applet's element file in the s3 directory. 
+image::success-deployment.png[successful deployment]
+* If a developer deploying an applet for the first time, he/she must get the object url to xref:publishing_applet.adoc[publish] the applet.
+image::object-url.png[object url from s3 bucket]
