@@ -1,3 +1,29 @@
 [#h3_doc_item_maintenance_import_item]
 = Menu 05 - Import Item
 
+Import Item Module is used to mass upload the products using CSV file. This function is especially useful for the user if they have a wide range of products. It could tremendously save your time and absolutely accurate.
+ 
+image::item_import.png[]
+
+In order to upload products in bulk, click "+", and it will direct you File Import page.
+First, you need to choose file type and download the upload file template by clicking the chosen file type. 
+
+image::download_doc_item_csv.png[]
+
+Open the CSV file, insert your product details into the file accordingly. 
+
+image::fill_in_csv.png[]
+
+* Once done, save the file in .csv format. 
+* Upload file by just clicking the Upload File button or by Drag and drop file in the box.
+* User will see uploded file at the bottom of the page.
+
+image::upload_csv_file.png[]
+
+User can delete the uploaded file in File Import Edit page
+
+image::item_import_edit.png[]
+
+
+
+

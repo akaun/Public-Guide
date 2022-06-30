@@ -1,3 +1,61 @@
 [#h3_doc_item_maintenance_pricing_schemes]
 = Menu 04 - Pricing Schemes
 
+Once a user clicks on the pricing scheme module it will land on the pricing scheme listing page. The module is used to create the template for pricing that can be also used in transactional applets such as POS, GRN etc. In this module you can only create the template/scheme, the price can be added later for each specific item in the “Item Maintenance” module
+
+image::pricing_scheme_listing.png[]
+
+For example, in POS applet, user can go to the settings and choose which Pricing Scheme they want to use for minimum price , maximum price or retail price as shown in the screenshot below
+
+image::pos_settings.png[]
+
+Users also may search pricing schemes in the listing itself using fuzzy search in the AG-Grid listing. Pricing scheme can be searched in general search or advanced search:
+
+image::pricing_scheme_search.png[]
+
+image::ad_search_pricing_scheme.png[]
+
+== Pricing Scheme Create
+
+In order to create Pricing Scheme, user should click on “+” button, once clicked it will open a second container where user can fill up general details on pricing scheme such as:
+
+* Pricing scheme Code - code is created by the system.
+
+* Pricing Scheme Name - compulsory to fill up
+
+* Description - not compulsory
+
+image::pricing_scheme_create.png[]
+
+== Pricing Scheme Edit
+
+If the user wishes to edit the Pricing Scheme they can click on specific pricing scheme in the listing, once clicked it will redirect to the second container where user can edit remaining information.
+
+There are three tabs included In Pricing Scheme Edit
+
+* Main
+
+* Copy
+
+* Checking 
+
+=== Main Tab
+
+* Pricing Code - cannot be edited
+
+* Pricing name - user able to edit the name
+
+* Description - user able to edit description. description is not compulsory
+
+Status - user able to specify whether the pricing scheme is active or inactive
+
+In addition users may delete the pricing scheme if they wish to. Users may click on the “Remove” button on the bottom.
+
+=== Copy Tab
+
+User selects one item from the Pricing list in the drowdown list and makes some amendments to the pricing.
+
+image::pricing_scheme_edit.png[]
+
+
+

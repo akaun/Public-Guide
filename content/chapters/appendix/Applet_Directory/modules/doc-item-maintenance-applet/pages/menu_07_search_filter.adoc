@@ -1,0 +1,10 @@
+[#h3_doc_item_maintenance_search_filter]
+= Menu 08 - Search Filter
+
+
+image::search_filter_menu.png[]
+
+image::search_filter_create.png[]
+
+image::search_filter_edit.png[]
+

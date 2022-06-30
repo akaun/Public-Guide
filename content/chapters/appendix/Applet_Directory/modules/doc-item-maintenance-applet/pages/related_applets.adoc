@@ -3,17 +3,18 @@
 
 This applet also depends on the following applets:
 
-// * xref:reference_anchor_id[xrefstyle=full] 
-* Applet 1
+* xref:h2_chart_of_account_applet[xrefstyle=full] 
 
-* Applet 2
+* xref:h2_organization_applet[xrefstyle=full] 
+
+* xref:h2_tax_configuration_applet[xrefstyle=full] 
 
 
 The following applets depends on this applet:
 
-* Applet 3
+* xref:h2_pos_gp_index[xrefstyle=full]
 
-* Applet 4
+* xref:h2_ucc_applet[xrefstyle=full]
 
 Also see
 

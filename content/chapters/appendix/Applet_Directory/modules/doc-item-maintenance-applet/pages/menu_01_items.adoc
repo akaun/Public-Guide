@@ -260,9 +260,11 @@ image::tenant_mapping.png[]
 
 === MARKETPLACE TAB
 
-Marketplace tab includes three more tabs:
+Marketplace Tab is used to list the products on multiple marketplaces. So the user can sell one product in various stores.
 
-* Main
+Marketplace tab includes three more tabs to do all the configurations:
+
+* Main 
 * Other Resellers Website
 * Checking
 
@@ -272,7 +274,15 @@ Users select and add the Stores by clicking the "+" button in the Main Tab
 
 image::marketplace_store_add.png[]
 
-=== STOCK AVAILABILITY TAB
+* Other Resellers Tab
+
+** This tab used if there are resellers who are distributing your products and selling them in other different Marketplaces. Fill in the URL of the Marketplace they use.
+ 
+image::marketplace_url.png[]
+
+* Checking Tab is for the reports shown from the Ecomsync applet. 
+
+ === STOCK AVAILABILITY TAB
 
 image::stock_availability_tab.png[]
 
