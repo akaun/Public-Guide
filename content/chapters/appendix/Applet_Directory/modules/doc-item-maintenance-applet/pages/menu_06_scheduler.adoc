@@ -1,3 +1,27 @@
 [#h3_doc_item_maintenance_scheduler]
 = Menu 06 - Scheduler
+Scheduler allows the user to schedule and track the work of the processor. Used to set the start and end date and how often the processer will run.
+
+image::scheduler_listing.png[]
+
+== In order to create Scheduler, user click "+", and will go to the second page. In the details tab - user fills in:
+
+* Scheduler Code 
+* Scheduler Name 
+* Time Interval
+* Interval 
+* Branch List
+
+image::scheduler_create_details.png[]
+
+=== Corn Expression tab
+
+It enables users to schedule tasks to run periodically at a specified date and time. 
+
+image::scheduler_create_cron.png[]
+
+To edit or remove  Scheduler, select the specific scheduler you want and it will lead you to the second page where u can implement your changes.
+
+image::scheduler_edit.png[]
+
 
