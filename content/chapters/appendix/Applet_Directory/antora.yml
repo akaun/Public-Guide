@@ -23,4 +23,6 @@ nav:
 - modules/tax-configuration-applet/nav.adoc
 - modules/ucc-applet/nav.adoc
 - modules/url-shortening-applet/nav.adoc
-
+- modules/platform-sysadmin-applet/nav.adoc
+- modules/developer-applet/nav.adoc
+- modules/platform-sysadmin-applet/nav.adoc

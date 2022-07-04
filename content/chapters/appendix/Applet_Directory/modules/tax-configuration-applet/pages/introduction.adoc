@@ -2,7 +2,7 @@
 = Introduction
 
 
-image::applet_logo.png[]
+image::tax_configuration_applet.png[150,300]
 
 include::intro_description.adoc[leveloffset=3]
 

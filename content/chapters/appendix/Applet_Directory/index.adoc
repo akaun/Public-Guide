@@ -44,3 +44,34 @@ include::modules/ucc-applet/index.adoc[leveloffset=2]
 
 include::modules/url-shortening-applet/index.adoc[leveloffset=2]
 
+include::modules/platform-sysadmin-applet/index.adoc[leveloffset=2]
+
+include::modules/developer_sysadmin_applet/index.adoc[leveloffset=2]
+
+include::modules/developer-applet/index.adoc[leveloffset=2]
+
+include::modules/financial-report-applet/index.adoc[leveloffset=2]
+
+include::modules/beauty-pos-applet/index.adoc[leveloffset=2]
+
+include::modules/process-monitoring-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-stock-transfer-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-sales-return-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-reciept-voucher-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-purchase-order-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-purchase-invoice-applet/index.adoc[leveloffset=2]
+
+include::modules/group-maintetnace-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-purchase-grn-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-payment-voucher-applet/index.adoc[leveloffset=2]
+
+
+
+

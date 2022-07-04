@@ -2,7 +2,7 @@
 = Introduction
 
 
-image::ucc_applet_logo.png[]
+image::ucc_applet_logo.png[150,300]
 
 
 include::intro_description.adoc[leveloffset=3]
