@@ -1,7 +1,7 @@
 [#h3_applet_store_introduction]
 = Introduction
 
-image::applet_store_logo.png[]
+image::applet_store_logo.png[150,300]
 
 include::intro_description.adoc[leveloffset=3]
 

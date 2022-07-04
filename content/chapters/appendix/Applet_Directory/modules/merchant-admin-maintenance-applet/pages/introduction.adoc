@@ -2,7 +2,7 @@
 = Introduction
 
 
-image::merchant_admin_maintenance.png[]
+image::merchant_admin_maintenance.png[150,300]
 
 
 include::intro_description.adoc[leveloffset=3]

@@ -1,7 +1,7 @@
 [#h3_entity_maintenance_introduction]
 = Introduction
 
-image::blank_logo.png[]
+image::entity_maintenance_applet.png[150,300]
 
 include::intro_description.adoc[leveloffset=3]
 

@@ -1,0 +1,4 @@
+
+This is the default applet that every user will get when they sign up to the Akaun Platform. Users can open this applet to install all other applets.
+
+

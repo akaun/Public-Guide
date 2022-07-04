@@ -1,0 +1,7 @@
+[#h3_financial_report_applet_introduction]
+=  Introduction
+
+image::financial_reports_applet_logo.png[150,300]
+
+include::intro_description.adoc[]
+

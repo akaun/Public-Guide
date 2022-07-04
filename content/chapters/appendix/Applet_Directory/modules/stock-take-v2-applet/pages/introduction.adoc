@@ -1,7 +1,7 @@
 [#h3_stock_take_v2_introduction]
 = Introduction
 
-image::stock_take_V2_applet_logo.png[]
+image::stock_take_V2_applet_logo.png[150,300]
 
 
 include::intro_description.adoc[leveloffset=3]

@@ -1,0 +1,3 @@
+[#h3_internal_payment_voucher_applet_permission_settings]
+=  Permission Settings
+
