@@ -1,0 +1,6 @@
+[#h3_internal-sales-return-applet_introduction]
+=  Introduction
+
+image::sales_return_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

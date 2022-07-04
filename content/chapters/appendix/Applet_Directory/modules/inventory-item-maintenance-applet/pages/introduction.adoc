@@ -1,7 +1,7 @@
 [#h3_inv_item_maintenance_introduction]
 = Introduction
 
-image::blank_logo.png[]
+image::inv_item_maintenance.png[150,300]
 
 
 include::intro_description.adoc[leveloffset=3]

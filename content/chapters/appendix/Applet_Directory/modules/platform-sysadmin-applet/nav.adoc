@@ -1,0 +1,10 @@
+* Platform SysAdmin Applet
+** xref:introduction.adoc[Introduction]
+** xref:modules.adoc[Modules]
+** xref:related_applets.adoc[Related Applets]
+** xref:roadmap.adoc[Roadmap]
+** xref:release_note.adoc[Release Note]
+** xref:pricing.adoc[Pricing]
+** xref:personalization_settings.adoc[Personalization]
+** xref:menu_01_sales_order_listing.adoc[Doc Listing]
+** xref:menu_02_line_items.adoc[Line Items]

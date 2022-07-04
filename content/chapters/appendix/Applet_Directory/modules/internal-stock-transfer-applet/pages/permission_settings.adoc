@@ -1,0 +1,3 @@
+[#h3_internal-stock-transfer-applet_permission_settings]
+=  Permission Settings
+

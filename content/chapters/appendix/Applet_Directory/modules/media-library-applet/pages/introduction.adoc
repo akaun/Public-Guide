@@ -2,7 +2,7 @@
 = Introduction
 
 
-image::blank_logo.png[]
+image::blank_logo.png[150,300]
 
 
 include::intro_description.adoc[leveloffset=3]

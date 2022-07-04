@@ -1,0 +1,6 @@
+[#h3_beauty_pos_applet_introduction]
+=  Introduction
+
+image::beauty_pos_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

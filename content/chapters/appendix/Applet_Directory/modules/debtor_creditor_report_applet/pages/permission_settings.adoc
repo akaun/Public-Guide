@@ -1,0 +1,3 @@
+[#h3_debtor_creditor_report_applet_permission_settings]
+=  Permission Settings
+
