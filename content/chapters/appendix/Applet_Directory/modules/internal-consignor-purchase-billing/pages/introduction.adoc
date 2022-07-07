@@ -1,0 +1,6 @@
+[#h3_internal-consignor-purchase-billing_introduction]
+=  Introduction
+
+image::internal_consignor_purchase_billing.png[150,300]
+
+include::intro_description.adoc[]

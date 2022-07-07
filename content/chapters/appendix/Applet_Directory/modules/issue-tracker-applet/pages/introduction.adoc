@@ -1,0 +1,6 @@
+[#h3_issue-tracker-applet_introduction]
+=  Introduction
+
+image::issue_tracker_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

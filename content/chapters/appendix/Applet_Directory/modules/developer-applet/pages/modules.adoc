@@ -1,4 +1,4 @@
-[#h3_applet_named_applet_modules]
+[#h3_applet_developer-applet_modules]
 =  Modules
 
 This applet is used in the following modules:

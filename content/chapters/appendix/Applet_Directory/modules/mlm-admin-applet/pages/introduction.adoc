@@ -1,0 +1,6 @@
+[#h3_mlm-admin-applet_introduction]
+=  Introduction
+
+image::mlm_admin_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

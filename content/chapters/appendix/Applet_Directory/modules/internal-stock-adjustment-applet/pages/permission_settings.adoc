@@ -1,0 +1,3 @@
+[#h3_internal_stock_adjustment_applet_permission_settings]
+=  Permission Settings
+

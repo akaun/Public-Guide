@@ -1,4 +1,4 @@
-[#h3_named_applet_release_note]
+[#h3_developer-applet_release_note]
 =  Release Note
 
 

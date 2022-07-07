@@ -1,0 +1,4 @@
+[#h3_internal_sales_order_applet_pricing]
+=  Pricing
+
+

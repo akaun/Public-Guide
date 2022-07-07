@@ -1,0 +1,6 @@
+[#h3_multi-po-applet_introduction]
+=  Introduction
+
+image::multi_po_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

@@ -1,0 +1,3 @@
+[#h3_daily_cashier_reports_applet_permission_settings]
+=  Permission Settings
+

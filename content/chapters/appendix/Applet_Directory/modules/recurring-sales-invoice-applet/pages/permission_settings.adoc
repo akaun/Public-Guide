@@ -1,0 +1,3 @@
+[#h3_recurring_sales_invoice_applet_permission_settings]
+=  Permission Settings
+

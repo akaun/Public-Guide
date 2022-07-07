@@ -1,0 +1,6 @@
+[#h3_internal_sales_quotation_applet_introduction]
+=  Introduction
+
+image::sales_quotation_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

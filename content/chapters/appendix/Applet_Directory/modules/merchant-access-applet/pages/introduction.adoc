@@ -1,0 +1,6 @@
+[#h3_merchant_access_applet_introduction]
+=  Introduction
+
+image::merchant_access_applet_logo.png[150,300]
+
+include::intro_description.adoc[]
