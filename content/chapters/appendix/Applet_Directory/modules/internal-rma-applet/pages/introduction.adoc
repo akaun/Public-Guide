@@ -1,0 +1,6 @@
+[#h3_internal-rma-applet_introduction]
+=  Introduction
+
+image::internal_rma_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

@@ -1,0 +1,6 @@
+[#h3_sales-force-automation-applet_introduction]
+=  Introduction
+
+image::sales_force_automation_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

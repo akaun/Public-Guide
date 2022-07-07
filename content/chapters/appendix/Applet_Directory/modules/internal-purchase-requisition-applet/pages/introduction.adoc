@@ -1,0 +1,6 @@
+[#h3_internal-purchase-requisition-applet_introduction]
+=  Introduction
+
+image::internal_purchase_requisition.png[150,300]
+
+include::intro_description.adoc[]

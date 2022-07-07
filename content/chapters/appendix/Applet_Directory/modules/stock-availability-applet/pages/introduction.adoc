@@ -1,0 +1,6 @@
+[#h3_stock-availability-applet_introduction]
+=  Introduction
+
+image::stock_availability_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

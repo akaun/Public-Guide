@@ -1,4 +1,4 @@
-[#h3_named_applet_related_applets]
+[#h3_developer-applet_related_applets]
 =  Related Applets
 
 This applet also depends on the following applets:

@@ -1,0 +1,7 @@
+[#h3_internal_stock_adjustment_applet_introduction]
+=  Introduction
+
+image::stock_adjustment_applet_logo.png
+
+
+include::intro_description.adoc[]

@@ -1,0 +1,3 @@
+[#h3_sales_commission_applet_permission_settings]
+=  Permission Settings
+
