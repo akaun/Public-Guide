@@ -5,6 +5,23 @@ understanding of permission / assignee / target type table.
 
 understanding of difference between permission set and permission template
 
-requesting for the permission template to be created for third party developer..
+requesting for the permission template to be created for third party developer.
+
+==Create Permission Templates 
+* Firstly, a developer needs to identify the webservices according to the CRUD ( Create, Read, Update, Delete ) operations in an applet. To identify the webservices for the specific CRUD operation developer may use the source code or network tab in the browser's developer tools. We will be using browser's developer tools here. 
+image::network-tab.png[Developer's tools]
+* List down all the webservices for each CRUD operation separately. For example, to view the list of Internal Purchase Return Listing, these are the webservices have been used. 
+image::webservices-listing.png[Webservice Listing]
+* Then, find the permission definitions for the listed web services. Developers use 'blg-akaun-platform-java' library to find the permission definitions. Every webservice has a controler.java file containing the permission definitions in the java library. There are permission definitions for GET, PUT, POST, DELETE operations and permissions for Admin, Owner and Users.
+image::find-permission-definitions.png[Find Permission Definitions]
+* List down the permission definitions for the listed webservices initially. 
+image::permission-definition-listing.png[Permission Definitions Listing]
+permission-definition-listing
+* Create Permission Templates in the 'Developer Admin' applet. 
+** Each operation should have one/multiple permission templates
+**Find your applet and create the tempaltes first. The naming conventions for a permission temaplate code should start with applet code and ends with '_PERM_TEMPLATE'
+image::Create-Permission-Templates.png[Create Permission Templates]
+**Insert the permission definitions into the permission templates 
+image::insert-permission-definitions.png[Insert Permission Definitions]
 
 
