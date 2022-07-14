@@ -1,0 +1,115 @@
+[#h3_ucc_settings]
+= Menu 08 - Settings
+
+A user can change the applet settings in Settings. There are several types of settings/permissions, namely:
+
+    * System Configuration
+
+        ** Field Settings
+
+        ** Lines Settings
+
+        ** Department Settings
+
+        ** Default Selection
+
+    * Client Side Permissions
+
+        ** Applet Access
+
+    * Server Side Permissions
+
+        ** Permission Set
+
+        ** User Permission
+
+        ** Team Permission
+
+        ** Role Permissions
+
+    * Integration
+
+        ** Triggers
+
+    * Developer Tools
+
+        ** Applet Log
+
+        ** Reset Applet State
+
+
+image::settings_menu.png[]
+
+== System Configuration
+=== Field Settings
+==== Lines Settings
+There are 4 settings under Lines Settings, namely: Unit Discount, SST/VAT/GST, WHT and Blanket Order.
+
+image::settings_sys_config_line_setting.png[]
+
+==== Department Settings
+There are 4 settings under Department Settings, namely: Segment, G/L Dimension, Profit Center and Project.
+
+image::settings_sys_config_dept_setting.png[]
+
+=== Default Selection
+To change Applet Default Settings, user has to key in branch code/name and location code/name.
+
+image::settings_sys_config_default_setting.png[]
+
+== Client Side Permissions
+=== Applet Access
+A user can manage their team access under this menu.
+
+image::settings_client_permission.png[]
+
+== Server Side Permissions
+=== Permission Set
+The list of permission sets will show under this menu (if any).
+
+image::settings_server_permission_set_list.png[]
+
+User can add new permission set by providing permission set name, code, template and configure permission targets and status. 
+
+image::settings_server_permission_set_edit.png[]
+
+=== User Permission
+The list of user permission will show under this menu (if any).
+
+image::settings_server_permission_user.png[]
+
+=== Team Permission
+The list of team permission will show under this menu (if any).
+
+image::settings_server_permission_team.png[]
+
+=== Role Permission
+The list of role permission will show under this menu (if any).
+
+image::settings_server_permission_role_list.png[]
+
+By clicking the + symbol, user can add new role to the list by providing name, code and status of the role.
+
+image::settings_server_permission_role_add.png[]
+
+== Integration
+=== Triggers
+User can check the triggers status and manage them under this menu.
+
+image::settings_integration_triggers_list.png[]
+
+User can also create new triggers to the list.
+
+image::settings_integration_triggers_create.png[]
+
+== Developer Tools
+
+NOTE: The functionalities are still under development.
+
+
+
+
+
+
+
+

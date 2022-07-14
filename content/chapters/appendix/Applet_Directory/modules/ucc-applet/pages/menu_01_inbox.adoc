@@ -1,7 +1,8 @@
 [#h3_ucc_inbox]
 = Menu 01 - Inbox
 
-The inbox menu consists of all kinds of conversations from multiple messaging platforms. A user can send several types of messages, inclusive of: Predefined Messages, attachments such as location, contact card, audio, documents, photos & videos. 
+The inbox menu consists of all kinds of conversations from multiple messaging platforms.
+A user can send several types of messages, inclusive of: Predefined Messages, attachments such as location, contact card, audio, documents, photos & videos. 
 
 image::inbox_messages.png[]
 
@@ -11,7 +12,8 @@ By clicking the > symbol on the top right corner of the chat box, user can view 
 image::inbox_cutomer_details.png[]
 
 
-The session is started when the end user sends a message to the business virtual contact. To end a session, user may click the 3 dots on top of the chatbox to end the session.
+The session is started when the end user sends a message to the business virtual contact. 
+To end a session, user may click the 3 dots on top of the chatbox to end the session.
 
 image::inbox_user_sessions.png[]
 

@@ -1,0 +1,155 @@
+[#h3_ucc_admin_access_setup]
+= Admin Access Setup
+
+== 1.0 Project Settings
+1.1 The admin needs to create projects in the project setting by filling in all the necessary fields. 
+
+* Project Name*
+* Project Code*
+* Description
+* Customer Details
+
+image::admin_access_project.png[]
+
+== 2.0 Virtual Contacts Settings
+2.1 Next, is to set up the virtual contact. Please fill in the below:
+
+* Virtual contact name
+* Virtual contact code
+* Tie to the project that you have created in step 1. (You can either tie it with the project here, or tie the project with the virtual contact in the project settings)
+* Click “SAVE”
+
+image::admin_access_virtual.png[]
+
+2.2 After creating the virtual contact, you should be able to view it in the listing. Click into the virtual contact that you would like to edit. Please refer to the example below. After you click into the virtual contact, you can see the related details, public profile (can upload image to this project) and endpoint tab.
+
+image::admin_access_virtual_2_2.png[]
+
+image::admin_access_virtual_2_2_1.png[]
+
+2.3 Next, you need to tie the endpoint with the selected virtual contact. In the details, please select the channel,  fill in the Endpoint ID and Endpoint Name and click “Add Endpoint” to add. 
+
+image::admin_access_virtual_2_3.png[]
+
+image::admin_access_virtual_2_3_1.png[]
+
+Telegram
+--------
+For example, if you are to add a telegram endpoint, the token as per screenshot below is the “endpoint ID” that you need to place in the Endpoint ID field during the setup.
+
+image::admin_access_virtual_telegram.png[]
+
+Whatsapp
+--------
+* If you are to add a WhatsApp channel, the endpoint ID is the WhatsApp phone number. For instance, +6011xxxxxxxx.
+
+image::admin_access_virtual_wahtsApp.png[]
+
+* The “account / access ID” and “Auth Token” is referring to the “ACCOUNT SID” and “AUTH TOKEN” respectively in the Twilio console.
+
+image::admin_access_virtual_telegram.png[]
+
+== 3.0 Team Settings
+3.1 Next is to set up the team setting. Please fill in the required fields below (*) to create teams.
+
+_Under [Details]_ Tab:
+
+* Team Name*
+* Team Code*
+* Website 
+* Description
+
+image::admin_access_team_1.png[]
+
+_Under [Address]_ Tab:
+
+* [Address Tab]
+* Address*
+* Postal Code*
+* City*
+* Country*
+* State*
+
+image::admin_access_team_2.png[]
+
+== 4.0 Agent Settings
+4.1 After creating all the teams in settings, next would be adding all the agents into the agent settings. Please fill in the required fields below (*) to proceed.
+
+* Agent Email*
+* Agent Code*
+* Agent Name*
+* Default Virtual Contact Code*
+* Default Team Code
+* Active From
+* Active To
+* Description
+
+image::admin_access_agent_4_1.png[]
+
+4.2 After the agents are added, now you may assign the agents into the projects that you’ve set up earlier in step 1. Go back to the project setting, and click into the project that you want to assign agents. Then, click the “+” button to add the agent. Please select the email of agents and assign the rank accordingly. (**This is very important because the agents would not be able to receive conversation if the agent is not added into project)
+
+image::admin_access_agent_4_2_1.png[]
+
+image::admin_access_agent_4_2_2.png[]
+
+== 5.0 Predefined Messages Settings
+5.1 If you need to pre-set the predefined messages, please go to the predefined message settings and fill in the below:
+
+* Name
+* Body
+* Message Type
+* Description (Optional)
+* Message Status (Optional)
+
+image::admin_access_predefined_msg_5_1.png[] 
+
+5.2 After creating predefined messages, you need to go back to the virtual contact settings in order to tie with the predefined messages. Please go to your selected virtual contact and click the endpoint. Under the “Predefined Messages” tab, click the “+” button to add your messages and after filling the details, please click “+ADD Template Message(s)” to add.
+
+image::admin_access_predefined_msg_5_2_1.png[]
+
+image::admin_access_predefined_msg_5_2_2.png[]
+
+image::admin_access_predefined_msg_5_2_3.png[]
+
+_5.3(a)  For Whatsapp Twilio Predefined messages:_
+
+    * [Compulsory] After approval by Twilio Whatsapp on the submitted template messages, the admin user is still required to set up the approved template message manually in the predefined message settings in UCC applet.
+
+_4.3(b) For any predefined messages in all channels:_
+
+    * [Optional] After setting up in predefined message settings, the admin user needs to tie the predefined messages to the virtual contact in virtual contact settings. Under the predefined messages tab in the virtual contact settings, the admin can tie with the automated greeting event. (screenshot 4.3)
+    * None (By default)
+    ** If none is selected, it means that the predefined message would not be sent out as an automated message by the system and can only be sent out manually by the agents. 
+    * New Session
+    ** If this option is selected, it means that the predefined message would be sent out as an automated message by the system and can also be sent out manually by the agents if the condition of “New Session” is met. _(For example, if the predefined message is an auto-reply message and the conversation is a new session opened from the end customer after which the last conversation is ended, then this new session would trigger the auto-reply predefined message which is set to be automated to be sent out in the new session.)_
+    * New Conversation
+    ** If this option is selected, it means that the predefined message would be sent out as an automated message by the system and can also be sent out manually by the agents if the condition of “New Conversation” is met. _(For example, if the predefined message is an auto-reply message and the conversation is a new conversation initiated from the end customer in the channel, then this new conversation would trigger the auto-reply predefined message which is set to be automated to be sent out in the new conversation.)_
+    * Idle Time
+    ** If this option is selected, it means that the predefined message would be sent out as an automated message by the system and can also be sent out manually by the agents if the condition of “Idle Time” and “Idle Time In Days” are met. _(For example, if the condition of the predefined message is set to be “Idle Time” and “Idle Time In Days” is 2 days in the automated greeting event setting, the initiated conversation from the end customer after idle for 2 days would trigger the predefined message to be sent out automatically by the system.)_
+
+== 6.0 QR Code Settings
+6.1 In the QR Code settings, you can create agent QR code here by filling in the fields below:
+
+* Virtual Contact
+* Squad Code
+* QR Code
+* Agent Code
+* QR Name
+* Description
+
+image::admin_access_QR_6_1.png[]
+
+6.2 After creating the QR code, the QR code with the link will appear at the right bottom as below. The user can send the link to the customer to scan.
+
+image::admin_access_QR_6_2_1.png[]
+
+image::admin_access_QR_6_2_2.png[]
+
+6.3 After generating the QR code, the agents can find his / her QR code in the QR Code Tabs as well in the profile page.
+
+image::admin_access_QR_6_3.png[]
+
+6.4 As an administrator, you can select the agents one by one or in bulk for generating the QR codes. The QR code will appear on the agent’s profile page as indicated in step 5.3 as well. 
+
+image::admin_access_QR_6_4.png[]
+

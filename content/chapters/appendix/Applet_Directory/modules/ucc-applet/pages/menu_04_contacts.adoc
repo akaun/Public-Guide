@@ -1,0 +1,10 @@
+[#h3_ucc_contacts]
+= Menu 04 - Contacts
+
+User can view the list of contacts in this menu.
+
+image:contacts_list.png[]
+
+By clicking the + symbol, user can create contacts for multiple channels, namely: SMS, Telegram, Whatsapp, FB Messenger and Email.
+
+image:contacts_list.png[]
