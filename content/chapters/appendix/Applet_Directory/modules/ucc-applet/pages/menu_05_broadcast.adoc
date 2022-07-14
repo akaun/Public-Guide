@@ -1,0 +1,7 @@
+[#h3_ucc_broadcast]
+= Menu 05 - Broadcast
+
+User can send broadcast messages to all the created contacts in the previous Contacts menu. The broadcast message can be sent to contacts either from contact list page, or from contacts uploaded in a csv file.
+
+image::broadcast_menu.png[]
+

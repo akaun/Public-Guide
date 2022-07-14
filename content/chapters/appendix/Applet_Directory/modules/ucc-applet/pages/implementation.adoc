@@ -1,0 +1,314 @@
+[#h3_ucc_implementation]
+= Implementation
+
+== High Level Features Workflow
+
+image::implementation_workflow_high_level.jpg[]
+
+== Implementation Workflow of Telegram, Facebook, Whatsapp & SMS
+
+image::implementation_workflow_FB_Telegram.jpg[]
+
+== Telegram Implementation
+=== How to create a new telegram bot and generate token?
+. Client PIC needs to follow the steps below to create a new telegram bot and pass the token to Project Manager for UCC integration.
+
+image::implementation_telegram_step1.png[]
+
+Please go to the search field and type *botfather*.
+
+image::implementation_telegram_step2.png[]
+
+Once you enter this bot, please start the bot.
+
+image::implementation_telegram_step3.png[]
+
+Please click /newbot to create a new bot.
+
+image::implementation_telegram_step4.png[]
+
+Then, you will need to create a name and a username for your bot. 
+
+image::implementation_telegram_step5.png[]
+
+And you are done. Kindly copy the token and pass it to us. Thank you.
+
+NOTE: PM to pass the token to technical team for integration. 
+
+== Facebook Implementation
+Client PIC to provide Facebook Business Manager ID of the company Facebook to PM. 
+Please create one if currently do not have the FB Business Manager ID. 
+
+=== Create a Business Manager
+
+. Go to http://business.facebook.com/overview[Meta Business Suite and Business Manager Overview] .
+. Click Create Account.
+. Enter a name for your business, your name and work email address and click Next.
+. Enter your business details and click Submit.
+
+== Whatsapp & SMS : Twilio Whatsapp Application User Guide
+
+=== Section 1.0 : Twilio Account Creation
+1.1 Project manager to request Twilio Admin User to create a new account in Twilio console for the client company. https://www.twilio.com/console/admin/managed-accounts
+
+image::implementation_twilio_section1_1.png[]
+
+1.2 Please make sure that you assign to  to be the account owner of all accounts that you have created for client project and click “Save” to proceed. 
+
+image::implementation_twilio_section1_2.png[]
+
+=== Section 2.0: Twilio - Provide administrator access to client admin user
+2.1 Project manager to provide the client user an admin access to access into the console for billing matters and WhatsApp related services. 
+
+The project manager will give admin permission to this user email in the Twilio console. This admin user will then need to login to Twilio console and set up the payment details for Twilio WhatsApp service.
+
+And also, kindly add  Lina@wavelet.net as administrator as well for the Whatsapp configuration in all the Twilio console client account.
+
+image::implementation_twilio_section2_1.png[]
+
+2.2 Alternatively, you also can add or manage the user in the menu below as well.
+
+image::implementation_twilio_section2_2.png[]
+
+Please go to the top right menu “Account” > manage account >manage users to add the user. 
+
+image::implementation_twilio_section2_2_1.png[]
+
+2.3 Once the client admin accepts the invitation, the client admin can login to the console and tie the credit card details. This step is crucial before requesting the number as the payment for the number will be auto-deducted from the credit card in the account once the number is successfully requested and allocated by Twilio.
+
+image::implementation_twilio_section2_3.png[]
+
+Once Client PIC fill up the above details and click “Continue”, it will direct them to the payment page to tie with their payment methods.
+
+image::implementation_twilio_section2_3_1.png[]
+
+The client PIC can proceed with the selected options, continue to complete the setup of payment page.
+
+=== Section 3.0: To add  the internal finance group email finance-group@wavelet.net in the console
+3.1 Please go to the Billing > Manage Billing > Preferences.
+
+image::implementation_twilio_section3_1.png[]
+
+3.2 Under the “Notification” menu, please enter the finance-group@wavelet.net as the primary billing email address. Of course, you may add more email addresses for billing purpose if required. Then, check the boxes for invoice PDF, Invoice CSV supplement, and Payment receipts. After that, click “Save” to save the billing preferences. 
+
+image::implementation_twilio_section3_2.png[]
+
+=== Section 4.0: Twilio - Regulatory Bundle Application
+4.1 Project manager to request the required business documents from client PIC to proceed with Twilio Regulatory Bundle Application. https://www.twilio.com/guidelines/my/regulatory[Malaysia: Regulatory Guidelines]
+
+*Please take note that this is a Malaysia Mobile Number Application for SMS and Whatsapp service via Twilio. 
+
+image::implementation_twilio_section4_1.png[]
+
+4.2 The project manager will proceed with the regulatory compliance bundle application as shown below in the console after the documents are submitted by the client.
+
+image::implementation_twilio_section4_2.png[]
+
+Project manager can change the “Project name” if required.
+
+image::implementation_twilio_section4_2_1.png[]
+
+Please go to the “Explore Products” > Super Network > Phone Numbers.
+
+image::implementation_twilio_section4_2_2.png[]
+
+Please go to “Phone numbers” > Regulatory Compliance > Bundles > Create a Regulatory Bundle.
+
+image::implementation_twilio_section4_2_3.png[]
+
+Please select the Phone number’s country and type of phone number.
+
+image::implementation_twilio_section4_2_4.png[]
+
+Next, please select “Business” if this is business application. 
+
+image::implementation_twilio_section4_2_5.png[]
+
+Next, please enter the business information. Friendly name and Business Name can be the same. Business Name has to be the official business name in the business registration form. First Name and Last Name is the name of the business owner / business representative for this Twilio application. Kindly take note this first name and last name should all the time matched with the business owner/business representative name that you are going to submit in the next and every steps later. 
+
+image::implementation_twilio_section4_2_6.png[]
+
+After the business information is added, please click “Next” to proceed. 
+
+image::implementation_twilio_section4_2_7.png[]
+
+Now, please add the supporting documents requested from client PIC here. 
+
+image::implementation_twilio_section4_2_8.png[]
+
+Please select the supporting document from dropdown list and click “upload”.
+
+image::implementation_twilio_section4_2_9.png[]
+
+You may rename the name of the supporting document and make sure to enter the business name based on the uploaded document.
+
+image::implementation_twilio_section4_2_10.png[]
+
+Please enter all the fields based on the business address in the uploaded business registration form and click “Save” to proceed.
+
+image::implementation_twilio_section4_2_11.png[]
+
+Next, please click the “+” button to add in the next supporting document.
+
+image::implementation_twilio_section4_2_12.png[]
+
+Please upload the Malaysian identity card document.
+
+image::implementation_twilio_section4_2_13.png[]
+
+Please fill in the details based on the uploaded identity card document.
+
+image::implementation_twilio_section4_2_14.png[]
+
+Please fill in the details based on the uploaded identity card document and click 'Save” to proceed. 
+
+image::implementation_twilio_section4_2_15.png[]
+
+Next, please click “+” to add another supporting document. 
+
+image::implementation_twilio_section4_2_16.png[]
+
+Please upload the letter of authorization. 
+*The details of the authorized person in the letter should match with the uploaded identity document.* 
+
+image::implementation_twilio_section4_2_17.png[]
+
+Please click “Save” to proceed. 
+
+image::implementation_twilio_section4_2_18.png[]
+
+Next, please click “Next” to proceed.
+
+image::implementation_twilio_section4_2_19.png[]
+
+Please give this bundle a name. 
+
+image::implementation_twilio_section4_2_20.png[]
+
+Next, please provide your email. This is the email for Twilio support to contact you during the reviewing and approval process.
+
+=== Section 5.0: Send a manual email request to Twilio for Malaysian phone number request after the section 2.0 and 3.0 is done
+5.1 After the regulatory bundle is approved, the project manager will need to send a manual email request to support@twilio.com in order to request for a number.
+
+Email example for your reference:
+
+Dear Twilio Support,
+
+We would like to request one Malaysian mobile number with SMS capabilities because this request cannot be done via the console, hence the manual request.
+
+
+Please find the information below to proceed with the request. 
+
+Account Name:  ABCDE Sdn Bhd
+Account SID: ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Address SID: ASxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Bundle SID: BUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Thank you.
+
+5.2 For the Account, Address and Bundle SID, you can find them by referring to the screenshot below. 
+
+image::implementation_twilio_section5_2.png[]
+
+You may find “Account SID” information in the Twilio console. 
+
+image::implementation_twilio_section5_2_1.png[]
+
+You may locate the “Address SID” information in the Twilio console. Please use the company address SID. (Phone Numbers> Addresses)
+
+image::implementation_twilio_section5_2_2.png[]
+
+You may find the “Bundle SID” information in the Twilio console. (Phone Number > Regulatory Compliance > Bundles)
+ 
+
+5.3 Twilio Support may send you an email and notify you on the number provision in your account. Otherwise the project manager can login to the console to check if the number has been provided. (Phone number > manage > Active Numbers)
+
+ 
+
+5.4 Project manager needs to notify Lina (UCC technical programmer) on the provided number so that Lina can proceed with the integration. 
+
+image::implementation_twilio_section5_3.png[]
+
+image::implementation_twilio_section5_3_1.png[]
+
+=== Section 6.0: Sign up to request access for Whatsapp enabled Sender in the Twilio Console
+6.1 The project manager will submit the access request on behalf of the client, to [Whatsapp enabled senders] in the Twilio Console.
+
+image::implementation_twilio_section6_1.png[]
+
+6.2 It will be redirected to the page below for the project manager to fill in the request form. 
+
+Please refer to the guide here and fill in accordingly. https://support.twilio.com/hc/en-us/articles 360039305933-Integrating-WhatsApp-with-Independent-Software-Vendors-ISV-and-System-Integrators-SI-
+
+image::implementation_twilio_section6_2.png[]
+
+image::implementation_twilio_section6_2_1.png[]
+
+image::implementation_twilio_section6_2_2.png[]
+
+6.3 Anything that is further required by the Twilio Support during the approval process, they will email you. You may refer to sample screenshot 6.3.1 and 6.3.2 below.  Some of the processes to verify the Facebook Business Manager account, you may need to involve your client PIC to verify since we do not have access to the client company Facebook account. 
+
+image::implementation_twilio_section6_3.png[]
+
+image::implementation_twilio_section6_3_1.png[]
+
+6.4 Please get client PIC to fill in the Whatsapp Client Terms below as well. 
+https://docs.google.com/forms/d/e/1FAIpQLScceCzMFF8zxlb5gfYAq2OPTCU4exRu3FXdeAWl7FW0THIVSg/viewform[WhatsApp Client Terms]
+
+image::implementation_twilio_section6_4.png[]
+
+6.5 The above processes might be taking 1-3 months depends on the submitted information. (This is referring to these stages in the standard UCC implementation workflow below.)
+
+image::implementation_twilio_section6_5.png[]
+
+https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/3443490817[UCC : Implementation Workflow (FB, Telegram, Whatsapp & SMS)]
+
+6.5 Next, in order to use the allocated number with WhatsApp, we need to register it as a WhatsApp sender. Therefore, the project manager needs to “submit a WhatsApp Sender” and fill in the information and submit a request for the business. (Messaging > Whatsapp senders) 
+
+This is the guidelines for setting display names for the business. https://www.facebook.com/business/help/338047025165344[Display Names - WhatsApp Business Platform - Documentation - Facebook for Developers] Project manager can send this guideline to client PIC to determine the “Business Display Name” before submitting such request. 
+
+image::implementation_twilio_section6_5_1.png[]
+
+6.6 PM will receive a follow-up email from Twilio for the steps guide to approve the Facebook Business Manager. PM can send this guide to client PIC to proceed with the verification. After this PM to reply Twilio support to proceed further after the verification.
+
+image::implementation_twilio_section6_6.png[]
+
+image::implementation_twilio_section6_6_1.png[]
+
+6.7 After PM reply to the email for FB verification, it will be taking some time for Facebook to review the process as stated in the email sample below.
+
+image::implementation_twilio_section6_7.png[]
+
+6.7 Once everything is approved and ready,  project manager is to guide client PIC to add or edit the sender, so that the client admin can always update the sender themselves in the future if required, from time to time.
+
+image::implementation_twilio_section6_7_1.png[]
+
+image::implementation_twilio_section6_7_2.png[]
+
+6.8 PM can login into console to check the status of the WhatsApp Enabled Senders as well. 
+
+image::implementation_twilio_section6_8.png[]
+
+=== Section 7.0: PM to guide client admin user to submit the template message in the Twilio Console
+7.1 Once the mobile number is successfully requested and integrated with UCC in https://akaun.com/[Akaun Shell] , the project manager will guide the user to submit the template message and update the Whatsapp Sender in the Twilio Console.
+
+image::implementation_twilio_section7_1.png[]
+
+Please go to Phone Number > Messaging
+
+image::implementation_twilio_section7_1_1.png[]
+
+Please go to the Messaging > Senders > Whatsapp templates > New Message template.
+
+image::implementation_twilio_section7_1_2.png[]
+
+Please fill in accordingly:
+
+. Please name the template message.
+. Please select a template category from the dropdown list. 
+. Please select a language from the dropdown selection.
+. Please fill in the message body by following the given format.
+. This is optional according to your requirement.
+. Please click “Submit message template” to submit once it is filled up.
+
+7.2 After the template message approved by Twilio Whatsapp, the client PIC needs to set up the same in the UCC > predefined message based on the approved message format and structure. (Please refer to the UCC user guide https://wavelet.atlassian.net/wiki/spaces/AKAUN/pages/edit-v2/3426123783[How to Setup UCC? (Admin access)] part 4.0 for setting up the predefined message.) 

@@ -1,0 +1,53 @@
+[#h3_ucc_inbox]
+= Menu 01 - Inbox
+
+The inbox menu consists of all kinds of conversations from multiple messaging platforms.
+A user can send several types of messages, inclusive of: Predefined Messages, attachments such as location, contact card, audio, documents, photos & videos. 
+
+image::inbox_messages.png[]
+
+
+By clicking the > symbol on the top right corner of the chat box, user can view customer details such as Information, Issue Tracker, Shopping Cart, Membership and Contact Merging.
+
+image::inbox_cutomer_details.png[]
+
+
+The session is started when the end user sends a message to the business virtual contact. 
+To end a session, user may click the 3 dots on top of the chatbox to end the session.
+
+image::inbox_user_sessions.png[]
+
+
+== All Conversations
+
+By clicking All Conversations, the user can view all conversation under this menu.
+
+image::inbox_all_conversation.png[]
+
+
+== All Active Conversations
+
+By clicking All Active Conversations, the user can view all active sessions conversation under this menu
+
+image::inbox_all_active_conversation.png[]
+
+
+== My Conversations
+
+By clicking My Conversations, the user can view his/her own conversation under this menu.
+
+image::inbox_my_conversation.png[]
+
+
+== My Active Conversations
+
+By clicking My Active Conversations, the user can view his/her own active sessions conversation under this menu.
+
+image::inbox_my_active_conversation.png[]
+
+
+== My Team Conversations
+
+By clicking My Team Conversations, the user can view the team conversations that assigned to the user under this menu.
+
+image::inbox_my_team_conversation.png[]

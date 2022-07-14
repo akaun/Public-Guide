@@ -1,0 +1,10 @@
+[#h3_ucc_my_profile]
+= Menu 03 - My Profile
+
+ِA user can view the list of contacts in this menu.
+
+image:contacts_list.png[]
+
+Profile details can be edited under ‘Settings’ tab.
+
+image:contacts_create.png[]

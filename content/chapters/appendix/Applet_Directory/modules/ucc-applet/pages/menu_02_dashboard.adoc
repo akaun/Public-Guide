@@ -1,0 +1,11 @@
+[#h3_ucc_dashboard]
+= Menu 02 - Dashboard
+
+Dashboard can be viewed after setting date duration.
+
+image:dashboard.png[]
+
+
+User can check how many new conversations were created, how many messages were sent and how many sessions were created within the time frame. Besides, a user can view several dashboards such as conversations counts grouped by channel, agents, message type, sender type, conversation status and active sessions.
+
+image:dashboard_details.png[]

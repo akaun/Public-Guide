@@ -1,0 +1,19 @@
+[#h3_ucc_general_requirement]
+= General Requirement
+
+NOTE: PM to guide client user to fill in the permission settings spreadsheet
+
+1- Kindly refer to the attached spreadsheet for permission settings. 
+Project manager to guide the client PIC to fill in the spreadsheet based on the examples given in the file. 
+Once this is ready, the permission is to be set in UCC production http://akaun.com/[Akaun Shell] accordingly. 
+
+https://docs.google.com/spreadsheets/d/1fNcMzxGs7EvW25I0Fv-GaOGkckxbzRG74lGhYjsFFdA/edit#gid=1265538255 - Connect to preview 
+
+2- Please refer to the red highlighted area for sample on how to fill up the permission spreadsheet. For example, in this case, the client might have admin team, sales agent team. The client could have more than this, for instance, branch manager team, repair & maintenance team, customer service team etc. For every team, the client need to fill in either “Yes” or “No” (as shown as the green arrow in screenshot below) to indicate whether the team should have or should not have access to the respective User Interface (UI) menu stated in the column B. [Yes = Can access, No = No access]
+
+image::general_req_spreedsheet.png[]
+
+3- PM to request from client PIC for an email listing of the admin users and agents. PM to guide them how to sign up via Akaun Shell and verify their login via email. Once this is done, PM to get Lina / tech team to provide the necessary permission for admin users to do the UCC setup in the production environment. 
+
+NOTE: once Lina completes the permission template implementation in UCC applet, then the above section 3 is not required anymore as client PIC/admin users can do the permission assignment from their side. 
+Please always follow up with Lina for the latest update on this permission part beforehand. 

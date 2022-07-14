@@ -1,0 +1,14 @@
+[#h3_ucc_task_queue]
+= Menu 06 - Task Queue
+
+The task queue is for the active tasks that are waiting in the queue to be assigned to an agent. 
+The agent can see Team task queue and my task queue. 
+
+image::task_queue_all.png[]
+
+From team task queue, the agent can choose some tasks and click “assign to me”.
+
+image::task_queue_team.png[]
+
+image::task_queue_my.png[]
+
