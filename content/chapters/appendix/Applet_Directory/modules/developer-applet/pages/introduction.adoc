@@ -4,3 +4,4 @@
 image::developer_applet.png[150,300]
 
 include::intro_description.adoc[]
+
