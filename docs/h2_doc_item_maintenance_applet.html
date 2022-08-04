@@ -455,11 +455,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h4 id="h3_doc_item_maintenance_introduction">A.8.1. Introduction</h4>
 <div class="imageblock">
 <div class="content">
-<img src="blank_logo.png" alt="blank logo">
+<img src="doc_item_maintenance_logo.png" alt="150" width="300">
 </div>
 </div>
 <div class="paragraph">
-<p>This is a simple description of the applet, no more than 100 words.</p>
+<p>Item Maintenance is used to create and edit item information that can be used in other transnational applets such as the POS and GRN applets. Items can be created manually or synced from EMP. This user guide will help you have a clear understanding on how to use the  Doc Item Maintenance, including, applet creation and adding additional details to the item.</p>
 </div>
 </div>
 <div class="sect3">
@@ -539,33 +539,1186 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="h3_doc_item_maintenance_sales_order_listing">A.8.3. Menu 01 - e.g. Sales Orders Listing</h4>
+<h4 id="h3_doc_item_maintenance_items">A.8.3. Menu 01 - Items</h4>
+<div class="paragraph">
+<p><strong>Please go to Akaun.com - Doc Item Maintenance</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="doc_item_logo.png" alt="doc item logo">
+</div>
+</div>
+<div class="sect4">
+<h5 id="_items_items_can_be_created_manually_or_synced_from_emp_if_the_user_is_currently_using_wavelet_emp">A.8.3.1. ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)</h5>
+<div class="imageblock">
+<div class="content">
+<img src="items_create.png" alt="items create">
+</div>
+</div>
+<div class="paragraph">
+<p>The screenshot above shows the mandatory fields that the user has to fill (except description, as it is not mandatory). Once the item has been created more information can be added in the EDIT ITEM section. Only basic information is required to be filled in the CREATE section and afterwards users can continue editing items in order to add more information at any time. We exclude adding more information in the CREATE section because if there is a lot of information to be added the user might forget to click save. Adding as little information as possible in the CREATE section prevents and/or reduces data being lost.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Item Code - once Item Code is created it cannot be edited.</p>
+</li>
+<li>
+<p>Item Name - Item Name can be edited at any time</p>
+</li>
+<li>
+<p>Item type - is consist of nine types as follows:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>BASIC ITEM - this is the default type that is rel evant to most items.</p>
+</li>
+<li>
+<p>GROUPED ITEM - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as item type user can add additional child items under EDIT</p>
+</li>
+<li>
+<p>BUNDLE - If the item is a package of two or more stand-alone products sold together for a single price. These units are most commonly called stand-alone products because they are fully functioning products by themselves and can be sold separately to the consumer. Examples can be Laptop Bundles that includes a keyboard and a mouse. Take note that the stock is deducted from CHILD and not PARENT.</p>
+</li>
+<li>
+<p>COUPON - is used to record the Stock In and Stock Out of the vouchers tied to this item. If the user sets the type as coupon the item will be reflected in the VOUCHER MANAGEMENT APPLET.</p>
+</li>
+<li>
+<p>SERVICE - If the item is a basic item without inventory tracking.</p>
+</li>
+<li>
+<p>WARRANTY- a written guarantee, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time. When selecting warranty as Item type then the additional tab will be shown in the EDIT section where users can input a warranty period. This information can be used in the POS applet when creating Invoices.</p>
+</li>
+<li>
+<p>DOC HEADER ADJUSTMENT - is used to group discounts. This will be used in the POS applet. As an Illustration the user will attach an Item type as “DHA” and name it as “Extra” to Group Discount in POS Applet.</p>
+</li>
+<li>
+<p>MEMBERSHIP - is used to define a member&#8217;s attributes, dues payment schedule, and expiration settings.</p>
+</li>
+<li>
+<p>MADE TO ORDER - a manufacturing process where products are assembled and configured according to customer requirements.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Sub Item Type - There are four sub item types which are Batch Number, Serial Number, Bin Number, Digital Goods. When a user selects any of it, it will be reflected in the POS applet.</p>
+</li>
+<li>
+<p>Base UOM - Quantities of warehouse materials (quants) are counted using the base unit of measure (UoM). Quantities in alternative units of measure are always converted to the base unit of measure for calculation purposes. For Example cm, kg, ml</p>
+</li>
+<li>
+<p>Item Description - not compulsory</p>
+</li>
+<li>
+<p>Remarks - Write your comments</p>
+</li>
+<li>
+<p>Currency - Select the currency from the dropdown list</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Once all required fields are filled up, user can press on CREATE, so the item will be saved into database and can be proceed to be edited</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_items_edit">A.8.3.2. ITEMS EDIT</h5>
+<div class="imageblock">
+<div class="content">
+<img src="item_edit.png" alt="item edit">
+</div>
+</div>
+<div class="paragraph">
+<p>Once the user creates an Item, it will appear in the listing. When the user wants to update the item or add more information they can click on the Item itself, a  2nd container will pop up once clicked containing the following tabs:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Main Tab</p>
+</li>
+<li>
+<p>Item Category Tab</p>
+</li>
+<li>
+<p>Tax Tab</p>
+</li>
+<li>
+<p>Dimension Details Tab</p>
+</li>
+<li>
+<p>Multi UOM Tab</p>
+</li>
+<li>
+<p>Branch Linking Tab</p>
+</li>
+<li>
+<p>Company Linking Tab</p>
+</li>
+<li>
+<p>PNS Settlement Method Tab</p>
+</li>
+<li>
+<p>Pricing Scheme Tab</p>
+</li>
+<li>
+<p>Manage Image Tab</p>
+</li>
+<li>
+<p>Entity Pricing Tab</p>
+</li>
+<li>
+<p>T2T Item Mapping Tab</p>
+</li>
+<li>
+<p>Marketplace Tab</p>
+</li>
+<li>
+<p>Stock Availability Tab</p>
+</li>
+<li>
+<p>Attribute Set Tab</p>
+</li>
+<li>
+<p>Pages Tab</p>
+</li>
+<li>
+<p>Reviews Tab</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The information provided can be used in transactional Applets. Please take note that additional tabs may appear if the user chooses Grouped or Bundle as Item type</p>
+</div>
+<div class="sect5">
+<h6 id="_main_tab">MAIN TAB</h6>
+<div class="imageblock">
+<div class="content">
+<img src="main_details_tab.png" alt="main details tab">
+</div>
+</div>
+<div class="paragraph">
+<p>This Tab consists of general Item information such as:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Item Name - can be updated any time</p>
+</li>
+<li>
+<p>Item Code - cannot be updated</p>
+</li>
+<li>
+<p>Item Type - cannot be updated</p>
+</li>
+<li>
+<p>Sub Item Type - used when items are in a batch or has a serial number</p>
+</li>
+<li>
+<p>GL Code - The general ledger is an accounting document that provides a general overview of an organization&#8217;s financial transactions. An account, or general ledger (GL) code, is a number used to record business transactions in the general ledger</p>
+</li>
+<li>
+<p>Base UOM - an amount in which the stock of a material is managed for example ml, kg, min</p>
+</li>
+<li>
+<p>Abbreviation (Prefix) - is used in voucher applet, in order to make it easier to view a specific group of items</p>
+</li>
+<li>
+<p>EAN Code - The International Article Number  is a standard describing a barcode symbology and numbering system used in global trade to identify a specific retail product type, in a specific packaging configuration, from a specific manufacturer.</p>
+</li>
+<li>
+<p>Currency - a system of money in general used in a particular country. For example, USD ,MYR</p>
+</li>
+<li>
+<p>Status - to specify whether an item is active , inactive or obsolete</p>
+</li>
+<li>
+<p>Remarks - Write your comments</p>
+</li>
+<li>
+<p>Summary - shows who created the item or who updated the item, also shows the date modified and created</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_item_category">ITEM CATEGORY</h6>
+<div class="paragraph">
+<p>Item category tab is used to link a category to the item. Categories can be created in the  “Category” module.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="item_category_tab.png" alt="item category tab">
+</div>
+</div>
+<div class="paragraph">
+<p>In order to add the category click “+”. Once clicked the 3rd container with category listings will be shown. Users can select any category that applies to the Item.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="add_category.png" alt="add category">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_tax_tab">TAX TAB</h6>
+<div class="imageblock">
+<div class="content">
+<img src="tax_tab.png" alt="tax tab">
+</div>
+</div>
+<div class="paragraph">
+<p>If tax is applicable the user can tick the checkbox. Once ticked the the tax information will appear where the user can set the tax for:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Tax Country</p>
+</li>
+<li>
+<p>Output Tax</p>
+</li>
+<li>
+<p>Input Tax</p>
+</li>
+<li>
+<p>Withholding tax</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_dimension_details_tab">DIMENSION DETAILS TAB</h6>
+<div class="paragraph">
+<p>Product dimentions to fill in</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="dimension_details_tab.png" alt="dimension details tab">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_multi_uom_tab">MULTI UOM TAB</h6>
+<div class="paragraph">
+<p>This module allows to stock items with multiple units of measurement, UOM auto conversion, and multiple UOM reports that can be later used in transactional applets, sample of Multi UOM;</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>1 Box = 12 Packs</p>
+</li>
+<li>
+<p>1 Packs = 10 Strips</p>
+</li>
+<li>
+<p>1 Strips = 10 Tablets</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In order to add Multi UOM click “+”. Once clicked it will open a 3rd container for the user to add UOM details</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="multi_uom_tab.png" alt="multi uom tab">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>UOM - Unit of Measure. UOMs are used to quantify the inventory items and enables items to be tracked easily.</p>
+</li>
+<li>
+<p>Ratio -  used to specify how many items. For example:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>if base UOM is = “Bottle”, then ratio = 20 bottles</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Status - to specify whether the item is active or inactive</p>
+</li>
+<li>
+<p>Base UOM - unable to edit. User may edit it in the Main Details Tab</p>
+</li>
+<li>
+<p>Sort-Code - The sort code helps identify the hierarchy of the UOM from the smallest to largest starting from 001. For example pill would be 001 followed by carton which would be 002 and finally box which would be 003.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_branch_linking">BRANCH LINKING</h6>
+<div class="paragraph">
+<p>Used to link specific branches. This function will be used in all transactional applets. for example if a user links branch A and B then only these respective branches will be able to see the selected item in the POS applet. Branches can be created in the Organization applet.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="branch_linking_tab.png" alt="branch linking tab">
+</div>
+</div>
+<div class="paragraph">
+<p>In Order to add a branch click “+”. Once clicked it will open a 3rd container for users to view listings of all branches where the user can select the preferred branches:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="branch_add.png" alt="branch add">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_company_linking">COMPANY LINKING</h6>
+<div class="paragraph">
+<p>Used to link companies. Companies can be created in the Organization applet. When linking a company the item will be visible for all branches that are under the chosen Company.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="company_linking_tab.png" alt="company linking tab">
+</div>
+</div>
+<div class="paragraph">
+<p>In Order to add a company click “+”. Once clicked it will open a 3rd container for users to view listings of all companies. Here the user can select the preferred company.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="company_add.png" alt="company add">
+</div>
+</div>
+<div class="paragraph">
+<p>Note: if the user links company A and it has been linked to 5 BRANCHES but in Branch linking TAB the user only chooses 2 branches, then the item will be visible to ALL BRANCHES THAT IS LINKED UNDER THE COMPANY. If the user wants to link only specific branches then it needs to be chosen in the BRANCH LINKING TAB ONLY and COMPANY LINKING should remain empty.</p>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_pns_settlement_method_tab">PNS SETTLEMENT METHOD TAB</h6>
+<div class="paragraph">
+<p>PNS Settlement Method module is used to link Product to PNS (Products and Services) Settlement Method.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>There is dropdown list, where the user selects the Setllement Type:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Payment Provider</p>
+</li>
+<li>
+<p>Membership Point Currency</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pns_settlment_method_tab.png" alt="pns settlment method tab">
+</div>
+</div>
+<div class="paragraph">
+<p>In Order to add a Settlement Method click “+”. Once clicked it will open a 3rd container for users to choose settlement type. Here the user can select the preferred type.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="settlement_method_linking.png" alt="settlement method linking">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_pricing_scheme">PRICING SCHEME</h6>
+<div class="paragraph">
+<p>The Pricing Scheme template is added in the PRICING SCHEME module, in this tab users can add a unit price for existing pricing scheme templates. Once added this information can be used in transactional applets.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pricing_scheme_tab.png" alt="pricing scheme tab">
+</div>
+</div>
+<div class="paragraph">
+<p>In Order to edit the price, click the item and it will open 3rd container for users to edit Unit Price.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="Item_price_edit.png" alt="Item price edit">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_manage_image_tab">MANAGE IMAGE TAB</h6>
+<div class="paragraph">
+<p>This tab is used to add and categorize images based on its type for example main image, promotional image or additional image. Users may update the period of the images they are going to be using as a reference, it has no functionality. Images may also be used in Ecomsync applet, CP Commerce applet and transactional applets such as POS and GRN. However, the date is only for user reference and is not meant to perform any actions.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="manage_image_tab.png" alt="manage image tab">
+</div>
+</div>
+<div class="paragraph">
+<p>Image type is based on ecommerce requirements. There are three image types such as:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Main Image - the image that is supposed to be displayed in the marketplace. Setting Image type is only for user’s reference and a library. When syncing the item, the user has to manually select the image they wish to sync to the marketplace under attribute details.</p>
+</li>
+<li>
+<p>Promotional Image - when there are certain promotions, some users might need to use special images related to the promotion, it will replace the main image. Setting Image type is only for the user&#8217;s reference and the library. When syncing the item, the user has to manually select the image they wish to sync to the marketplace under attribute details.</p>
+</li>
+<li>
+<p>Additional image - images that end users can view when they view full item information.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>As an illustration:</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Item = Samsung Phone</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Main Image = the image of Samsung phone</p>
+</li>
+<li>
+<p>Promotional Image = a themed image (based on the occasion) of Samsung phone eg. Christmas sale</p>
+</li>
+<li>
+<p>Additional images = images of Samsung phone in a different angles, the box, or additional items inside the box</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="image_category_add.png" alt="image category add">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_entity_pricing">ENTITY PRICING</h6>
+<div class="paragraph">
+<p>Entity Pricing module is used to set the price for the Product depending on the Entity. For instance: A single product&#8217;s price is individual for different Entities.</p>
+</div>
+<div class="paragraph">
+<p>In Order to add a Entity Price click “+”. It will open 3rd container for users to create the Price. Then click "Entity Code" to choose entity type.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="entity_pricing_tab.png" alt="entity pricing tab">
+</div>
+</div>
+<div class="paragraph">
+<p>Select the Entity type from advanced search. There are three types of Entity to select:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Customer</p>
+</li>
+<li>
+<p>Supplier</p>
+</li>
+<li>
+<p>Employee</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="select_entity.png" alt="select entity">
+</div>
+</div>
+<div class="paragraph">
+<p>After selecting the Entity, click on the Item and it will automatically leads the user  to the previous page filled in with the Entity Code and Entity Name. In this page user set the price for selected Entity.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="select_entity_add.png" alt="select entity add">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_t2t_item_mapping_tab">T2T ITEM MAPPING TAB</h6>
+<div class="paragraph">
+<p>Tenant to Tenant Item Mapping module is used to map Companies, Product Codes and Names in order to sync transactions</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="t2t_item_mapping_tab.png" alt="t2t item mapping tab">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>T2T Item Mapping tab includes three tabs as follows:</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Host Tenant</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Main tab where the Mapping of the items is processed</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Guest Tenant Item Mapping</p>
+<div class="ulist">
+<ul>
+<li>
+<p>A list of Tenants which are already Mapped</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Guest Tenant Permission Listing</p>
+<div class="ulist">
+<ul>
+<li>
+<p>A list of Tenants which permission is given for mapping. All the Permissions are given from the T2T Admin applet</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In order to do the mapping, click "+" button, it will lead the user to the new page, where the user select the Tenant from dropdown list and add the item.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="tenant_mapping.png" alt="tenant mapping">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_marketplace_tab">MARKETPLACE TAB</h6>
+<div class="paragraph">
+<p>Marketplace Tab is used to list the products on multiple marketplaces. So the user can sell one product in various stores.</p>
+</div>
+<div class="paragraph">
+<p>Marketplace tab includes three more tabs to do all the configurations:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Main</p>
+</li>
+<li>
+<p>Other Resellers Website</p>
+</li>
+<li>
+<p>Checking</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="marketplace_tab.png" alt="marketplace tab">
+</div>
+</div>
+<div class="paragraph">
+<p>Users select and add the Stores by clicking the "+" button in the Main Tab</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="marketplace_store_add.png" alt="marketplace store add">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Other Resellers Tab</p>
+<div class="ulist">
+<ul>
+<li>
+<p>This tab used if there are resellers who are distributing your products and selling them in other different Marketplaces. Fill in the URL of the Marketplace they use.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="marketplace_url.png" alt="marketplace url">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Checking Tab is for the reports shown from the Ecomsync applet.</p>
+<div class="literalblock">
+<div class="content">
+<pre>=== STOCK AVAILABILITY TAB</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="stock_availability_tab.png" alt="stock availability tab">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_attribute_set_tab">ATTRIBUTE SET TAB</h6>
+<div class="imageblock">
+<div class="content">
+<img src="attribute_set_tab.png" alt="attribute set tab">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_pages_tab">PAGES TAB</h6>
+<div class="imageblock">
+<div class="content">
+<img src="pages_tab.png" alt="pages tab">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_reviews_tab">REVIEWS TAB</h6>
+<div class="imageblock">
+<div class="content">
+<img src="review_tab.png" alt="review tab">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_category_groups">A.8.4. Menu 02 - Category Groups</h4>
+<div class="paragraph">
+<p>Every category is linked to the Category Group. Category Group Tab is used for organizing categories.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="category_group.png" alt="category group">
+</div>
+</div>
+<div class="sect4">
+<h5 id="_category_group_create">A.8.4.1. Category Group Create</h5>
+<div class="paragraph">
+<p>In Order to create a Category group, click “+” button. It will open 3rd container for users to create category group.</p>
+</div>
+<div class="paragraph">
+<p>These are the fields in the main tab to fill in:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Category Group Code</p>
+</li>
+<li>
+<p>Category Group Name</p>
+</li>
+<li>
+<p>Type</p>
+</li>
+<li>
+<p>Param Code</p>
+</li>
+<li>
+<p>Param Name</p>
+</li>
+<li>
+<p>Status</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="category_group_create.png" alt="category group create">
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_category_group_edit">A.8.4.2. Category Group Edit</h5>
+<div class="paragraph">
+<p>To edit existing category group users  click on any of specific category group in the listing. Once clicked it will open second container with Category Group details. There are two tabs when editing Category Group which are:</p>
+</div>
+<div class="sect5">
+<h6 id="_main_tab_2">Main Tab</h6>
+<div class="paragraph">
+<p>This tab shows the information on the category that was filled up when creating the category. Users edit or delete the Category Group in this tab.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="category_group_edit.png" alt="category group edit">
+</div>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_categories">Categories</h6>
+<div class="paragraph">
+<p>Categories Tab where the listing of linked categories is shown. Users can manage the categories in this tab.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="cat_group_categories.png" alt="cat group categories">
+</div>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_in_order_to_add_the_category_to_the_group_users_click_and_create_new_item">A.8.4.3. In order to add the category to the group users click "+" and create new item.</h5>
+<div class="imageblock">
+<div class="content">
+<img src="item_cat_create.png" alt="item cat create">
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_users_edit_or_delete_the_categories_which_linked_to_the_group_in_this_item_category_edit_tab">A.8.4.4. Users edit or delete the categories which linked to the group in this Item Category Edit tab</h5>
+<div class="imageblock">
+<div class="content">
+<img src="item_cat_edit.png" alt="item cat edit">
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_category_images_can_be_uploaded_or_editted_in_the_manage_image_tab">A.8.4.5. Category Images can be uploaded or editted in the Manage Image tab.</h5>
+<div class="imageblock">
+<div class="content">
+<img src="cat_add_image.png" alt="cat add image">
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_categories">A.8.5. Menu 03 - Categories</h4>
+<div class="sect4">
+<h5 id="_category_module_is_used_to_create_categories_as_well_as_nest_category_that_can_be_linked_to_an_item_in_item_maintenance_module">A.8.5.1. Category module is used to create categories, as well as nest category that can be linked to an Item in Item maintenance Module.</h5>
+<div class="paragraph">
+<p>When user land in Category Listing, they will see the AG-Grid listing of all categories that has been created</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="categories_listing.png" alt="categories listing">
+</div>
+</div>
+<div class="paragraph">
+<p>The screenshot above shows the listing of all categories. User may customize the the columns by removing it or relocating it. User may search category through fuzzy search in the listing itself or may search through general search bar. In addition they may search by status and modified date in advanced search as shown in the picture bellow:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="category_search.png" alt="category search">
+</div>
+</div>
+<div class="paragraph">
+<p>Pagination Row can be customized based on user’s preference as shown in screenshot bellow:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pagination_row.png" alt="pagination row">
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_create_category">A.8.5.2. Create Category</h5>
+<div class="paragraph">
+<p>When user wants to create new category for an item they can go to “Category Module”. then user must click on “+” it will redirect to the 2nd container where user must fill up required filed. Category will make it easier for user to search specific group of items either in Doc Item Maintenance or in transactional applets.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="category_create.png" alt="category create">
+</div>
+</div>
+<div class="paragraph">
+<p>There are two mandatory fields in when creating category which are:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Category Name</p>
+</li>
+<li>
+<p>Category Code</p>
+</li>
+<li>
+<p>Description - is not compulsory</p>
+</li>
+<li>
+<p>Nesting category - it is when a single category can be associated with multiple categories. for example:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Main category = Smartphones</p>
+</li>
+<li>
+<p>Nested Category = Iphone</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_edit_category">A.8.5.3. Edit Category</h5>
+<div class="paragraph">
+<p>When user wants to edit existing category they may click on any of specific category in the listing. Once clicked it will open second container with Category details. There are two tabs when editing Category which are:</p>
+</div>
+<div class="sect5">
+<h6 id="_main_tab_3">Main Tab</h6>
+<div class="paragraph">
+<p>This tab shows basic information on the category that was filled up when creating the category.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="cat_edit_main.png" alt="cat edit main">
+</div>
+</div>
+<div class="paragraph">
+<p>These are the fields in the main tab:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Category Name - can be adjusted, compulsory to fill up</p>
+</li>
+<li>
+<p>Category Code - can be adjusted, compulsory to fill up</p>
+</li>
+<li>
+<p>Description - can be adjusted, not compulsory</p>
+</li>
+<li>
+<p>Status - to specify whether the category is Active or Inactive</p>
+</li>
+<li>
+<p>Nesting the category - it is when a single category can be associated with multiple categories. Can be adjusted. Example of nested category:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Main category = Smartphones</p>
+</li>
+<li>
+<p>Nested Category = Iphone</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Summary - cannot be adjusted, as it is used as reference for the user to show details such as:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Created by who</p>
+</li>
+<li>
+<p>Modified by who</p>
+</li>
+<li>
+<p>Creation date</p>
+</li>
+<li>
+<p>Modified Date</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_manage_image_tab_2">Manage Image Tab</h6>
+<div class="paragraph">
+<p>CP Commerce displays product categories for easy referral for customers. Users can use the Manage Image Tab in the Doc Item Maintenance applet to upload relevant category images. Upon clicking on categories, the user will be shown all relevant products under said categories.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="cat_edit_image.png" alt="cat edit image">
+</div>
+</div>
+<div class="paragraph">
+<p>When users want to add image, they  click on “+” button, once clicked the second container will appear, where user can select the image and specify the image name as shown bellow.</p>
+</div>
+<div class="paragraph">
+<p>These are the fields in the main tab:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="manage_add_image.png" alt="manage add image">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_pricing_schemes">A.8.6. Menu 04 - Pricing Schemes</h4>
+<div class="paragraph">
+<p>Once a user clicks on the pricing scheme module it will land on the pricing scheme listing page. The module is used to create the template for pricing that can be also used in transactional applets such as POS, GRN etc. In this module you can only create the template/scheme, the price can be added later for each specific item in the “Item Maintenance” module</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pricing_scheme_listing.png" alt="pricing scheme listing">
+</div>
+</div>
+<div class="paragraph">
+<p>For example, in POS applet, user can go to the settings and choose which Pricing Scheme they want to use for minimum price , maximum price or retail price as shown in the screenshot below</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pos_settings.png" alt="pos settings">
+</div>
+</div>
+<div class="paragraph">
+<p>Users also may search pricing schemes in the listing itself using fuzzy search in the AG-Grid listing. Pricing scheme can be searched in general search or advanced search:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pricing_scheme_search.png" alt="pricing scheme search">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="ad_search_pricing_scheme.png" alt="ad search pricing scheme">
+</div>
+</div>
+<div class="sect4">
+<h5 id="_pricing_scheme_create">A.8.6.1. Pricing Scheme Create</h5>
+<div class="paragraph">
+<p>In order to create Pricing Scheme, user should click on “+” button, once clicked it will open a second container where user can fill up general details on pricing scheme such as:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Pricing scheme Code - code is created by the system.</p>
+</li>
+<li>
+<p>Pricing Scheme Name - compulsory to fill up</p>
+</li>
+<li>
+<p>Description - not compulsory</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pricing_scheme_create.png" alt="pricing scheme create">
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_pricing_scheme_edit">A.8.6.2. Pricing Scheme Edit</h5>
+<div class="paragraph">
+<p>If the user wishes to edit the Pricing Scheme they can click on specific pricing scheme in the listing, once clicked it will redirect to the second container where user can edit remaining information.</p>
+</div>
+<div class="paragraph">
+<p>There are three tabs included In Pricing Scheme Edit</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Main</p>
+</li>
+<li>
+<p>Copy</p>
+</li>
+<li>
+<p>Checking</p>
+</li>
+</ul>
+</div>
+<div class="sect5">
+<h6 id="_main_tab_4">Main Tab</h6>
+<div class="ulist">
+<ul>
+<li>
+<p>Pricing Code - cannot be edited</p>
+</li>
+<li>
+<p>Pricing name - user able to edit the name</p>
+</li>
+<li>
+<p>Description - user able to edit description. description is not compulsory</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Status - user able to specify whether the pricing scheme is active or inactive</p>
+</div>
+<div class="paragraph">
+<p>In addition users may delete the pricing scheme if they wish to. Users may click on the “Remove” button on the bottom.</p>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_copy_tab">Copy Tab</h6>
+<div class="paragraph">
+<p>User selects one item from the Pricing list in the drowdown list and makes some amendments to the pricing.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="pricing_scheme_edit.png" alt="pricing scheme edit">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_import_item">A.8.7. Menu 05 - Import Item</h4>
+<div class="paragraph">
+<p>Import Item Module is used to mass upload the products using CSV file. This function is especially useful for the user if they have a wide range of products. It could tremendously save your time and absolutely accurate.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="item_import.png" alt="item import">
+</div>
+</div>
+<div class="paragraph">
+<p>In order to upload products in bulk, click "+", and it will direct you File Import page.
+First, you need to choose file type and download the upload file template by clicking the chosen file type.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="download_doc_item_csv.png" alt="download doc item csv">
+</div>
+</div>
+<div class="paragraph">
+<p>Open the CSV file, insert your product details into the file accordingly.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="fill_in_csv.png" alt="fill in csv">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Once done, save the file in .csv format.</p>
+</li>
+<li>
+<p>Upload file by just clicking the Upload File button or by Drag and drop file in the box.</p>
+</li>
+<li>
+<p>User will see uploded file at the bottom of the page.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="upload_csv_file.png" alt="upload csv file">
+</div>
+</div>
+<div class="paragraph">
+<p>User can delete the uploaded file in File Import Edit page</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="item_import_edit.png" alt="item import edit">
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_scheduler">A.8.8. Menu 06 - Scheduler</h4>
+<div class="paragraph">
+<p>Scheduler allows the user to schedule and track the work of the processor. Used to set the start and end date and how often the processer will run.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="scheduler_listing.png" alt="scheduler listing">
+</div>
+</div>
+<div class="sect4">
+<h5 id="_in_order_to_create_scheduler_user_click_and_will_go_to_the_second_page_in_the_details_tab_user_fills_in">A.8.8.1. In order to create Scheduler, user click "+", and will go to the second page. In the details tab - user fills in:</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Scheduler Code</p>
+</li>
+<li>
+<p>Scheduler Name</p>
+</li>
+<li>
+<p>Time Interval</p>
+</li>
+<li>
+<p>Interval</p>
+</li>
+<li>
+<p>Branch List</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="scheduler_create_details.png" alt="scheduler create details">
+</div>
+</div>
+<div class="sect5">
+<h6 id="_corn_expression_tab">Corn Expression tab</h6>
+<div class="paragraph">
+<p>It enables users to schedule tasks to run periodically at a specified date and time.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="scheduler_create_cron.png" alt="scheduler create cron">
+</div>
+</div>
+<div class="paragraph">
+<p>To edit or remove  Scheduler, select the specific scheduler you want and it will lead you to the second page where u can implement your changes.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="scheduler_edit.png" alt="scheduler edit">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_search_filter">A.8.9. Menu 08 - Search Filter</h4>
+<div class="imageblock">
+<div class="content">
+<img src="search_filter_menu.png" alt="search filter menu">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="search_filter_create.png" alt="search filter create">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="search_filter_edit.png" alt="search filter edit">
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="h3_doc_item_maintenance_permission_settings">A.8.10. Permission Settings</h4>
 
 </div>
 <div class="sect3">
-<h4 id="h3_doc_item_maintenance_line_items">A.8.4. Menu 02 - e.g. Line Items</h4>
+<h4 id="h3_doc_item_maintenance_personalization">A.8.11. Personalization</h4>
 
 </div>
 <div class="sect3">
-<h4 id="h3_doc_item_maintenance_permission_settings">A.8.5. Permission Settings</h4>
-
-</div>
-<div class="sect3">
-<h4 id="h3_doc_item_maintenance_personalization">A.8.6. Personalization</h4>
-
-</div>
-<div class="sect3">
-<h4 id="h3_doc_item_maintenance_related_applets">A.8.7. Related Applets</h4>
+<h4 id="h3_doc_item_maintenance_related_applets">A.8.12. Related Applets</h4>
 <div class="paragraph">
 <p>This applet also depends on the following applets:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Applet 1</p>
+<p><a href="h2_chart_of_account_applet.html">Section A.5, &#8220;Chart of Account Applet&#8221;</a></p>
 </li>
 <li>
-<p>Applet 2</p>
+<p><a href="h2_organization_applet.html">Section A.14, &#8220;Organization Applet&#8221;</a></p>
+</li>
+<li>
+<p><a href="h2_tax_configuration_applet.html">Section A.19, &#8220;Tax Configuration Applet&#8221;</a></p>
 </li>
 </ul>
 </div>
@@ -575,10 +1728,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Applet 3</p>
+<p><a href="h2_pos_gp_index.html">Section A.16, &#8220;POS - GP&#8221;</a></p>
 </li>
 <li>
-<p>Applet 4</p>
+<p><a href="h2_ucc_applet.html">Section A.20, &#8220;UCC Applet&#8221;</a></p>
 </li>
 </ul>
 </div>
@@ -587,15 +1740,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="h3_doc_item_maintenance_pricing">A.8.8. Pricing</h4>
+<h4 id="h3_doc_item_maintenance_pricing">A.8.13. Pricing</h4>
 
 </div>
 <div class="sect3">
-<h4 id="h3_doc_item_maintenance_release_note">A.8.9. Release Note</h4>
+<h4 id="h3_doc_item_maintenance_release_note">A.8.14. Release Note</h4>
 
 </div>
 <div class="sect3">
-<h4 id="h3_doc_item_maintenance_roadmap">A.8.10. Roadmap</h4>
+<h4 id="h3_doc_item_maintenance_roadmap">A.8.15. Roadmap</h4>
 
 </div>
 </div>
@@ -605,7 +1758,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-06-18 23:31:05 +0800
+Last updated 2022-08-05 01:55:56 +0800
 </div>
 </div>
 </body>
