@@ -27,7 +27,7 @@ Please install the applet in the following modules:
 
 * <<h4_membership_module_applets>>
 
-* <<h4_cpcom_mod_module_applets>>
+* <<h4_cpcom_module_applets>>
 
 [#h5_cpcom_mod_wbs_products_and_pricing]
 == Products and Pricing
