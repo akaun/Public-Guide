@@ -102,3 +102,6 @@
 *** xref:b2b2c/staff-purchases/00_overview.adoc[]
 *** xref:b2b2c/marketplace-connector/00_overview.adoc[]
 
+// -----
+** xref:features-and-functions/introduction-cp-commerce.adoc[]
+
