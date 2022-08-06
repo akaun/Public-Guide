@@ -145,7 +145,7 @@ This Applet is used to create, edit or print purchase invoices, cash purchases, 
 
 == Internal Purchase Order Applet
 
-This applet is used by a business’ purchasing department when placing an order with its vendors or suppliers. It could be used to create, edit or print purchase orders. The Internal Good Received Note is used to create, edit or print good received notes.
+This applet is used by a business' purchasing department when placing an order with its vendors or suppliers. It could be used to create, edit or print purchase orders. The Internal Good Received Note is used to create, edit or print good received notes.
 
 == Internal Sales Return Applet
 
