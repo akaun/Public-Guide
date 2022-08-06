@@ -38,17 +38,4 @@ endif::[]
 == 
 
 
-== Downloads
-
-If you would like to download the *BigLedger Handbook* for offline reading or prefer to read the BigLedger Handbook using your favourite Epub reader, you may download from the links below.
-
-ifndef::site-gen-antora[]
-* link:blg_handbook.pdf[PDF Format]
-* link:blg_handbook.epub[Epub Format]
-* link:blg_handbook.html[Single File HTML]
-endif::[]
-ifdef::site-gen-antora[]
-* xref:attachment$blg_handbook.pdf[PDF Format]
-* xref:attachment$blg_handbook.epub[Epub Format]
-endif::[]
 
