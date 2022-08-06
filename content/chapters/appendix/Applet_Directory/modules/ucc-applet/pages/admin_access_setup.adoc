@@ -43,7 +43,9 @@ Whatsapp
 --------
 * If you are to add a WhatsApp channel, the endpoint ID is the WhatsApp phone number. For instance, +6011xxxxxxxx.
 
-image::admin_access_virtual_wahtsApp.png[]
+image::admin_access_virtual_whatsApp_1.png[]
+
+image::admin_access_virtual_whatsApp_2.png[]
 
 * The “account / access ID” and “Auth Token” is referring to the “ACCOUNT SID” and “AUTH TOKEN” respectively in the Twilio console.
 

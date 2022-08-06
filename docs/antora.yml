@@ -1,11 +1,6 @@
-name: handbook-user-guide
-title: User Guide
+name: handbook-bigledger-overview
+title: BigLedger Overview
 version: '1.0' 
-start_page: applet-users:introduction.adoc 
+start_page: intro:introduction.adoc 
 nav: 
-- modules/applet-users/nav.adoc
-- modules/project-implementors/nav.adoc
-- modules/applet-developers/nav.adoc
-- modules/resellers/nav.adoc
-- modules/tenant-owners/nav.adoc
-- modules/system-integrators/nav.adoc
+- modules/intro/nav.adoc

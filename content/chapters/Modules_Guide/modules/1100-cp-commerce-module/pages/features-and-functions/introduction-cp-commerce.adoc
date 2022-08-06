@@ -1,7 +1,7 @@
 [#h3_cp_commerce_introduction]
 = Introduction to CP Commerce Admin Applet
 
-image::../../images/cp-commerce-logo.png[Logo, 200, 200, align = "center"]
+image::cp-commerce-logo.png[Logo,200,200,align="center"]
 
 The main purpose of CP Commerce Admin Applet is to create one or multiple websites for a certain company. Each company is going to be its own tenant, all the information is being separated from one another to ensure there is no confusion. It could also manage the overview details of the websites that are created. Last but not least, by using this applet, tenants could create flexible designs and layouts for different purposes. 
 
