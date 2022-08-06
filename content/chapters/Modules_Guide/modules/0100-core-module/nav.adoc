@@ -3,5 +3,5 @@
 ** xref:project_implementation_steps.adoc[Implementation Steps]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:unique_value_proposition.adoc[Unique Value Proposition]
-** xref:lists_of_applets.adoc[List of Applets and its Description]
+** xref:applets.adoc[List of Applets and its Description]
 //xref:README.adoc[]
