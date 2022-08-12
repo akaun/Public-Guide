@@ -1,0 +1,83 @@
+[#h3_user-registration]
+= User and Profile Management
+
+== Register (Sign-Up) New User - Via Mobile Number
+
+Navigate to https://akaun.com/#/auth/sign-up .
+
+Enter the following information:
+
+    a. First Name
+    b. Last Name
+    c. Email
+    d. Mobile Number
+    e. Password
+    f. Confirm Password
+
+image::akaun-registration.png[Akaun Registration, 200, 200, align = "center"]
+
+Select checkbox - “I agree to the all terms”.
+
+Click “Done”.
+
+A TAC code will be sent to your mobile phone.
+
+Enter the TAC code as shown.
+
+image::confirm-full-num.png[Confirm Mobile Number, 200, 200, align = "center"]
+
+Once the TAC code is entered correctly, click “Submit”.
+
+Login normally with the following information:
+
+    a. Email
+    b. Password
+
+image::akaun-sign-in.png[Sign In Page, 200, 200, align = "center"]
+
+The following screen will display if login is successful.
+
+image::login-successful.png[Login Successful, 500, 500, align = "center"]
+
+== Registration (Sign-Up) New User - Via Email
+
+Navigate to:
+
+    a. https://akaun.com/#/auth/sign-up
+
+Enter the following information:
+
+    a. First Name
+    b. Last Name
+    c. Email
+    d. Password
+    e. Confirm Password
+
+image::user-registration.png[Akaun Registration, 200, 200, align = "center"]
+
+
+Select checkbox - “I agree to the all terms”.
+
+Click “Done”.
+
+An email will be sent to your inbox.
+
+Click on “Verify Email” on the email.
+
+image::email-confirmation.png[Email Confirmation, 200, 200, align = "center"]
+
+Login normally with the following information:
+
+    a. Email
+    b. Password
+
+image::sign-in-main-page.png[Sign In Main Page, 200, 200, align = "center"]
+
+The following screen will display if login is successful.
+
+image::login-successful.png[Login Successful, 500, 500, align = "center"]
+
+
+
+
+

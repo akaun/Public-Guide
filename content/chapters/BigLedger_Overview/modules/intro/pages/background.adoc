@@ -28,7 +28,10 @@ BigLedger started with the intention to solve one of the biggest problem faced b
 
 We are thankful to our customers that embark the BigLedger journey with us as follows:
 
+image::bigledger-clientele.jpeg[Big Ledger Clientele]
+
 Born in the cloud, the BigLedger *operational data lake* connect all parts of a business into an intelligent suite on a fully digital platform and is capable of replacing process-driven, legacy platforms. The "Akaun Platform" is also officially recognized as the winner of APICTA (Asia Pacific ICT Award) in the Business Services Category as follows:
 
 image::apicta_2021_akaun_platform.png[Apicta Award 2021]
+
 

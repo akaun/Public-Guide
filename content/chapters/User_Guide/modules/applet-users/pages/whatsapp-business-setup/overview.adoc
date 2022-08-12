@@ -1,0 +1,29 @@
+[#h3_whatsapp_business_setup-overview]
+= Whatsapp Business Set-Up Overview
+
+The following are the steps required to set up the WhatsApp Business App for new customers.
+
+    1. Ask Manager to give permission on Wavelet Facebook Business Settings
+
+    2. Go to https://developers.facebook.com/apps/?show_reminder=true and create a new app as explained here: https://developers.facebook.com/docs/whatsapp/cloud-api/get-started
+
+    3. Configure the Webhook:
+
+        a. Download https://ngrok.com/download
+
+        b. Install and run grok on the terminal => "grok http 80" (windows) or "ngrok http 5000"
+        
+        c. Copy the link next to "Forwarding". It looks something like https://3db9-121-121-122-11.ap.ngrok.io
+
+        d. Follow the documentation on https://developers.facebook.com/docs/whatsapp/cloud-api/get-started#configure-webhooks for Callback URL pass ngrok link and endpoint from the code (https://3db9-121-121-122-11.ap.ngrok.io/v1/integration/channels/whatsapp/receive)
+
+        e. If Webhook set successfully, you will; receive a message.
+
+    4. Add phone numbers:
+
+        a. Add the client's phone number here https://business.facebook.com/wa/manage/phone-numbers/?business_id=1329448660474352&waba_id=105748575486134
+
+        b. Do not sign up with customer's phone number with WhatsApp Business app. If previously signed up with customers phone
+        number follow these instructions https://developers.facebook.com/docs/whatsapp/phone-number/migrate-existing-whatsapp-number-to-api#register
+
+        c. Phone number will be approved after 6 hours and 1k free messaging limits will be granted depending on the quality rating

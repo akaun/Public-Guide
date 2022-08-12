@@ -1,2 +1,4 @@
 * Applet Users
 ** xref:introduction.adoc[Introduction]
+** xref:user-registration/user-profile-management.adoc[User Profile Management]
+** xref:whatsapp-business-setup/overview.adoc[Overview of Whatsapp Business Set-Up]
