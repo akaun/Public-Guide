@@ -1,0 +1,28 @@
+[#h3_membership_applet_pts_ccy]
+= PTS CCY Module
+
+Please click on "PTS CCY Module" from the module list and click "+"" button to create a new membership point currency.
+
+image::pts-ccy.adoc[PTS CCY Module Main Page, align = "center"]
+
+Please fill up the compulsory (*) information for creating the membership point currency. After filled up all Compulsory (*) information, please click "Create" to add a new membership point currency. 
+
+image::create-pts-ccy.adoc[Create PTS CCY, align = "center"]
+
+Compulsory information:
+
+    a. Membership point currency code
+    b. Membership point currency name
+
+After adding the membership point currency, it will be listed in the main page. Please click on the member to edit it. 
+
+You can edit the details of the membership point currency. The following information can be edited:
+
+    a. Membership point currency name
+    b. Status
+
+image::edit-pts-ccy.adoc[Edit PTS CCY, align = "center"]
+
+After changing the details of the field, please click "save".
+
+Please click "delete" to remove the membership point currency from the list.

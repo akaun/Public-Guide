@@ -1,0 +1,96 @@
+[#h3_membership_applet_member_listing]
+= Member Listing 
+
+Please click the "+" button to Create a new Member.
+
+image::member-listing-mainpage.png[Member Listing Mainpage, align = "center"]
+
+Please fill up the compulsory (*) information for creating the Member. After filled up all Compulsory (*) information, please click "Save" to add a new Member. 
+
+image::create-member.png[Create Member, align = "center"]
+
+Compulsory information:
+
+    a. Member Name
+    b. Member ID 
+    c. Email
+    d. Country Code
+    e. Mobile No.
+    f. Membership End Date
+
+After adding the member, it will be listed in the main page. Please click on the member to edit it. 
+
+== Details
+
+You can edit the details, labels and point transactions of the member. 
+
+image::edit-membership-details.png[Edit Membership, align = "center"]
+
+In details tab, the following information can be edited:
+
+    a. Member name
+    b. Gender
+    c. Date of birth
+    d. Country code
+    e. Mobile No.
+    f. IC/Passport
+    g. Email address
+    h. Member ID
+    i. Card Type
+    j. Member class-Can be added or edited from Member class module
+    k. Member status
+    l. Membership End date
+    m. Remarks 
+
+You can click the "delete" button to remove the member from the member listing.
+
+== Member Photos 
+
+In the Member Photo's tab, a user can upload an image to be used as their member photo.
+
+    a. Upon pressing the “upload Photo(s)” button, a file explorer prompt for the images will come up and the user can search for their images.
+
+    b. Upon making the selection of the image, there will be a choice to either confirm the image, upload another or cancel the current attempt. 
+
+    c. Pressing confirm will save the image used. 
+
+image::edit-membership-member-photos.png[Edit Membership Member Photos, align = "center"]
+
+== Label 
+
+In the Labels tab, you can add labels to the member. Please follow the Member label module.
+
+== Point Transaction
+
+image::edit-membership-point-transaction-1.png[Edit Point Transaction, align = "center"]
+
+In the point transaction tab, you can add point adjustment. 
+
+    a. Please click  button to add point adjustment.
+
+    b. The following fields are compulsory:
+        - Branch
+        - Point Currency
+        - Item code & name
+
+image::edit-membership-point-transaction-2.png[Edit Point Transaction, align = "center"]
+
+== Points Expiry
+
+This tab shows the expiry date of points to user.
+
+image::edit-membership-points-expiry.png[Edit Points Expiry, align = "center"]
+
+== Upload Attachments
+
+image::edit-membership-upload-attachments.png[Upload Attachments, align = "center"]
+
+User could add any files by pressing the "+" sign.
+
+== MLM
+
+image::edit-membership-MLM.png[MLM, align = "center"]
+
+In the MLM tab, the user can select the programme that the member is part of.
+
+    a. The user can click the "+" button to add up lines or downlines. Once the button is pressed, then the user will have the option to fill in the details of the upline or downline.

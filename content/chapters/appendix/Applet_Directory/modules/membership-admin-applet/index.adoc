@@ -3,6 +3,20 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/installation.adoc[leveloffset=3]
+
+include::pages/member-listing.adoc[leveloffset=3]
+
+include::pages/member-class.adoc[leveloffset=3]
+
+include::pages/member-label.adoc[leveloffset=3]
+
+include::pages/member-label-list.adoc[leveloffset=3]
+
+include::pages/pts-ccy.adoc[leveloffset=3]
+
+include::pages/pts-ccy-config-module.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]

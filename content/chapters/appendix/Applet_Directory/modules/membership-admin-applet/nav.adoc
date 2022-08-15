@@ -1,5 +1,12 @@
 * Membership Admin Applet 
 ** xref:introduction.adoc[Introduction]
+** xref:installation.adoc[Installation]
+** xref:member-listing.adoc[Member Listing]
+** xref:member-class.adoc[Member Class]
+** xref:member-label.adoc[Member Label]
+** xref:member-label-list.adoc[Member Label List]
+** xref:pts-ccy.adoc[PTS CCY Module]
+** xref:pts-ccy-config-module.adoc[PTS CCY Config Module]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]

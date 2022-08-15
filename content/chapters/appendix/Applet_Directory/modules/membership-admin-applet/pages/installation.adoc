@@ -1,0 +1,16 @@
+[#h3_membership_applet_installation]
+= Installation of Membership Admin Applet 
+
+Please go to Akaun.cloud and find the Applet store.
+
+image::akaun-mainpage.png[Akaun Main Page, align = "center"]
+
+In the Applet store, Please search for the applet that you want to install and click on it.
+
+image::private-membership-admin.png[Private Membership Admin, align = "center"]
+
+Please click the "Install" button to install the applet.
+
+image::install-membership-admin.png[Install Membership Admin, align = "center"]
+
+Please click on "akaun" to go back to the Akaun.cloud page to search for the installed applet and click on it.

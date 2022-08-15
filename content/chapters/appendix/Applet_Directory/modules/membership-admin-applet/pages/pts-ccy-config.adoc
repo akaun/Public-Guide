@@ -1,0 +1,32 @@
+[#h3_membership_applet_pts_ccy_config]
+= PTS CCY Config Module 
+
+Please click on "PTS to CCY Config Module" from the module list and click "+" button to create a New Points to Money Currency Conversion Configuration. 
+
+image::pts-ccy-config-module-mainpage.png[PTS CCY Config Module Mainpage, align = "center"]
+
+Please fill up the compulsory (*) information for creating the Points to Money Currency Conversion. After filled up all Compulsory (*) information, Please click "Submit" to Add New Points to Point Currency Conversion. 
+
+image::create-pts-ccy-config-module.png[Create PTS CCY Config Module, align = "center"]
+
+Compulsory information:
+
+    a. Point Currency: list from the PTS CCY Module
+    b. Conversion Rate
+    c. Point Currency: list from the PTS CCY Module
+    d. Point to point cross-over conversion
+    e. Status
+
+After adding the Points to Money Currency Conversion, it will be listed in the main page. Please click on the Point to Money Conversion Configuration to edit it. 
+
+image::edit-pts-ccy-config-module.png[Edit PTS CCY Config Module, align = "center"]
+
+You can edit the details of the configuration. The following information can be edited:
+
+    a. Point Currency: list from the PTS CCY Module
+    b. Conversion Rate
+    c. Point Currency: list from the PTS CCY Module
+    d. Point to point cross-over conversion
+    e. status
+
+After changing the details of the field, please click "save".

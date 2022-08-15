@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to configure and manage the Membership and the point currency, such as labeling, classifying the members and setting the different point currency with the conversion rate. There are six modules in the applet which are Member listing, member class, member label, member label list, Point currency (PTS CCY), and point to money currency configuration (PTS to CCY).

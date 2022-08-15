@@ -1,0 +1,45 @@
+[#h3_membership_applet_member_label_list]
+= Member Label List
+
+Please click on "Member label list" from the module list and click "+" button to create a new member label list.
+
+image::membership-label-list-listing-mainpage.png[Membership Label List Listing Mainpage, align = "center"]
+
+Please fill up the compulsory (*) information for creating the member label list. After filled up all Compulsory (*) information, please click "create" to add a new Member label list. 
+
+image::create-membership-label-list.png[Create Membership Label List, align = "center"]
+
+Compulsory information:
+
+    a. Label list Code
+    b. Label list name
+
+After adding the member label list, it will be listed in the main page. Please click on the member to edit it. 
+
+== Details
+
+You can edit the details and labels of the member label list.
+
+image::edit-membership-label-list-details.png[Edit Membership Label List Details, align = "center"]
+
+In details tab, the following information can be edited:
+
+    a. Label list name
+    b. Status
+
+After changing the details of the field, please click "save".
+
+Please click "delete" to remove the member label list from the list.
+
+== Labels
+
+In the labels tab, you can add labels to the label list. 
+
+Please click "+" sign button to add labels.
+
+image::edit-membership-label-list-labels-1.png[Edit Membership Label List Labels, align = "center"]
+
+Please fill up the compulsory information to add a new label. Please take note that once you create a new label in the label list, the label will be listed in the member label module. 
+
+image::edit-membership-label-list-labels-2.png[Edit Membership Label List Labels, align = "center"]
+
