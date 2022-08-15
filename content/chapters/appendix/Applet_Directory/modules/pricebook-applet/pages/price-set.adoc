@@ -1,0 +1,85 @@
+[#h3_pricebook_priceset]
+= Create Price Set
+
+Please click on "Price set" from the module list and click "+" button to create a new price set.
+
+image::priceset-listing-mainpage.png[Price Set Listing Main Page, align = "center"]
+
+Please fill up the compulsory * sign information for creating the Price set. After filled up all Compulsory (*) information, Please click "Create" to add a new Price set. 
+
+Compulsory information:
+
+    a. Price book name - Please select the relevant Pricebook to the new price set. The Pricebook name will be listed here once you've created the new Pricebook in the Pricebook Module.
+    b. Pricing set code - the code cannot be modified after creation.
+    c. Pricing set Name
+    d. Priority level
+
+image::create-priceset.png[Create Price Set, align = "center"]
+
+== Price Set: Details
+
+After adding the Price set, it will be listed in the main page. Please click on the price set to edit it. 
+
+Please edit the main details of the Price set from the "Details" tab. 
+    
+    a. You can edit the compulsory information from here. Only Price set name and priority level can be edited from the compulsory information. 
+    b. Please click "Save" after you change the details of the price set.
+    c. Please click "Delete" to remove the price set from the list.
+
+image::edit-details-priceset-1.png[Edit Price Set Details, align = "center"]
+image::edit-details-priceset-2.png[Edit Price Set Details0, align = "center"]
+
+== Price Set: Rules-Doc Hdr
+
+Please Add or edit the rules for Document HDR level of Price set from the "Rules-Doc Hdr" tab.
+
+Please select the "Rules logic" and "Negation logic" from the list and click the "+" button to add rules for the price set.
+
+image::rules-doc-hdr.png[Rules Doc Hdr, align = "center"]
+
+Please select the relevant rule type from the list.
+
+image::priceset-doc-hdr-add-rule.png[Add Doc Hdr Rule, align = "center"]
+
+If you select the "Valid Date range", Please fill up the Compulsory (*) information (Rule name)  and set the "Period" for valid date range. Please  click "Create" to add the rule for the price set.
+
+image::rule-valid-data-range.png[Rule: Valid Data Range, align = "center"]
+
+If you select the "Entity type", Please fill up the Compulsory (*) information and select the "Entity". Please click "Create" to add the rule for the price set. 
+
+image::rule-entity-type.png[Rule: Entity Type, align = "center"]
+
+If you select Member class, Member label, Company and Branch, Please fill up the Compulsory (*) information and Click the "Create" and "+" button to add Member Class, Label, Company and Branch.
+
+image::rule-membership-class.png[Rule: Membership Class, align = "center"]
+
+After you added the rules in the price set, you can click the rule from the list to remove it. 
+
+
+== Price Set: Rules-Multi Line
+
+Please Add or edit the rules for Multi line items of Price set from the "Rules-Multi Line" tab.
+
+Please select the "Rules logic" and "Negation logic" from the list and click the "+" button to add rules for the price set.
+
+image::rules-multi-line.png[Rules Multi-line, align = "center"]
+
+Please select the relevant rule type from the list.
+
+image::price-set-multi-line-add-rule.png[Rule: Multi-line, align = "center"]
+
+Please fill up the Compulsory (*) information and Click the "Create and "+" button to add Item, Item Category, Item Code Regex, Item Name Regex, Category Code Regex, and Category Name Regex.
+
+
+== Price Set: Rules-Single Line
+
+Please follow the above guide (Rules-Multi Line) for the "Rules-Single Line" tab.
+
+
+== Treatment
+
+Please click the "Treatment" tab to edit the treatment of the Price set.
+    
+    a. Please tick the relevant Treatment and select the Price source, Operator and the value.
+
+image::priceset-treatment.png[Treatment, align = "center"]

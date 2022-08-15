@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Pricebook Applet is used to set up Promotion, Purchase with Purchase (PWP) and campaign for product selling based on Segment, Customer, Entity, Period and more. In the Applet, Please click on the "Menu" icon to list down the Modules of Applet. There are two modules in the Pricebook Applet which are "Price Book" and "Price Set". 

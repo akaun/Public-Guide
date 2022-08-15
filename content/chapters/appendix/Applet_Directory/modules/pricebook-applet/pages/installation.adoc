@@ -1,0 +1,18 @@
+[#h3_pricebook_installation]
+= Installation of Pricebook Applet
+
+Please go to Akaun.cloud and find the Applet store.
+
+image::akaun-mainpage.png[Akaun Main Page, align = "center"]
+
+In the Applet store, Please search for the applet that you want to install and click on it.
+
+image::applet-store-1.png[Applet Store, align = "center"]
+
+Please click the "Install" button to install the applet.
+
+image::applet-store-2.png[Applet Store, align = "center"]
+
+Please click on "akaun" to go back to the Akaun.cloud page to search for the installed applet and click on it.
+
+image::applet-store-3.png[Applet Store, align = "center"]

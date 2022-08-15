@@ -3,6 +3,12 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/installation.adoc[leveloffset=3]
+
+include::pages/price-book-listing.adoc[leveloffset=3]
+
+include::pages/price-set.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]

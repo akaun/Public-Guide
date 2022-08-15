@@ -1,0 +1,26 @@
+[#h3_pricebook_pricebook_listing]
+= Pricebook Listing
+
+Please click the "+"" button to Create a new Pricebook.
+
+image::pricebook-listing-mainpage.png[Pricebook Listing Main Page, align = "center"]
+
+Please fill up the compulsory * sign information for creating the Pricebook. After filled up all Compulsory (*) information, Please click "Create" to add a new Pricebook. 
+
+Compulsory information:
+
+    a. Pricebook code - the code cannot be modified after creation.
+    b. Pricebook Name
+
+image::create-price-book.png[Create Price Book, align = "center"]
+
+Edit a pricebook by clicking on one of the records in the table.
+
+The following details can be edited on the pricebook: 
+
+    a. Pricebook Name
+    b. Calculation Logic
+    c. Status 
+    d. Description
+
+image::edit-price-book.png[Edit Price Book, align = "center"]
