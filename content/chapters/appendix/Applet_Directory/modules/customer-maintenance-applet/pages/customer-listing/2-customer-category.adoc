@@ -1,0 +1,10 @@
+[#h3_customer_maintenance_customer_category]
+= Customer Category
+
+image::customer-category-mainpage.png[Customer Category Main Page, align = "center"]
+
+The "Customer Category" tab is created to categorise customers into different categories that are created in Category Listing. Customers would be grouped into different categories according to the lists created. This could help a company to separate different types of customers easily by grouping them based on the lists created. 
+
+image::add-category.png[Add Category, align = "center"]
+
+There is a checkbox besides every category name. Tick the checkbox if users want to add a certain category, then complete the action by clicking the "Add" button. 

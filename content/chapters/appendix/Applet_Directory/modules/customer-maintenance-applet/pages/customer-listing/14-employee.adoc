@@ -1,0 +1,15 @@
+[#h3_customer_maintenance_employee]
+= Employee
+
+image::employee-mainpage.png[Employee Main Page, align = "center"]
+
+The "Employee" tab is created to assign account managers saved in the lists to a particular customer. Each company might have a dedicated account manager for their customers, this is when this "Employee" tab comes into place. 
+
+image::edit-account-manager.png[Edit Account Manager, align = "center"]
+
+If users want to edit the information of account managers, just click on the name of the account manager on the main page, it will then bring the users to this page. After the new information is entered, press the "Save" button to update all the new changes. To remove an account manager, press the "Delete" button to remove the name of the account manager on the main page. 
+
+image::add-employee.png[Add Employee, align = "center"]
+
+If users want to add an employee (account manager) to customers, just tick the checkbox beside the name of the account manager, then press the "Add" button on the top right corner. 
+

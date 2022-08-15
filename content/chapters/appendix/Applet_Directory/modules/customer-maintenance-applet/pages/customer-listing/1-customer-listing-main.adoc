@@ -1,0 +1,62 @@
+[#h3_customer_maintenance_customer_listing]
+= Customer Listing
+
+image::customer-listing-mainpage.png[Customer Listing Main Page, align = "center"]
+
+When logging in into the Customer Maintenance Applet, this is the first page that will be shown to the user, which is the Customer Listing page. Then, users could proceed to press the "+" button placed at the top left corner to start creating a customer profile.
+
+== Main
+
+image::create-customer.png[Create Customer, align = "center"]
+
+Users then could fill in the necessary information on each column. Please be noted that if there is a * sign on the column, users must fill in relevant information in that column as it could not be modified later. 
+
+After creating the customer profile, the customer's name will be listed in the main page. Users could click on the name of the customer to make further changes.
+
+image::edit-customer-1.png[Edit Customer, align = "center"]
+
+When clicking on the customer profile to edit it, there will be multiple columns showing in the "Main" tab which are explained below:
+
+1. Customer Name and Code
+    a. Must be filled in correctly by user
+2. Status:
+    a. Status of the customer should be set to active
+    b. Inactive
+3. Type:
+    a. Corporate:
+        - If the customer recorded is under a certain corporate/company, then the status of the customer should be under this category
+    b. Individual:
+        - If the customer recorded is just a single individual, then the status of the customer should be under this category
+4. Identity Type:
+    a. The identity types are different for both “Corporate” and “Individual”
+    b. If “Corporate” is chosen, below shows the lists of information needed to be filled in:
+        - Company registration number
+        - Date of incorporation
+        - Company tax registration number
+    c. If “Individual” is chosen, below shows the lists of information needed to be filled in:
+        - Identity type or password
+        - ID number
+        - Gender
+        - Date of birth
+5. Tax category
+6. Currency
+7. Description
+8. AR/ AP Type
+9. Basic information of the customer recorded
+    a. Phone number
+    b. Email
+    c. Nationality
+    d. Language code
+    e. Region code
+    f. Country code (Alpha 3)
+    g. Marital status
+    h. Occupation
+    i. Job title
+    j. Job industry
+    k.Job role
+
+After everything is filled in correctly, press the "Save" button to auto update the customer's profile in the system. On the other hand, if you wish to remove a customer's profile, just press on the "Remove" button at the bottom of the page to delete the customer's record in the system.
+
+image::edit-customer-2.png[Edit Customer, align = "center"]
+
+The user who creates or modifies the customer profile and date would be recorded as well for future reference. 

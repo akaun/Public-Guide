@@ -1,0 +1,28 @@
+[#h3_customer_maintenance_contact]
+= Contact
+
+image::contact-mainpage.png[Contact Main Page, align = "center"]
+
+The "Contact" tab is created to record the contact information of customers. To create a brand new contact, press on the 
+"+" sign placed at the top left of the main page. The main page will also show the list of contacts that have been added before. 
+
+image::create-contact.png[Create Contact, align = "center"]
+
+There are some basic information that are needed to be filled in which include:
+
+1. Contact Name
+2. Contact ID
+3. Designation/ Position
+4. Office Number
+5. Extension Number
+6. Mobile Number
+7. Fax Number
+8. Phone Number
+9. Email
+10. Other Number
+
+After everything is filled, press on the "Add" button to add the contact. The contact created will be shown on the main page. 
+
+image::edit-contact.png[Edit Contact, align = "center"]
+
+If users want to edit the contact details, click on any contacts shown on the main page, then it will bring them to this new page. After the information is updated, press "Add" to save the updated information. If users wish to remove the contact, click on the "Remove" button instead to delete the contact from the list. 

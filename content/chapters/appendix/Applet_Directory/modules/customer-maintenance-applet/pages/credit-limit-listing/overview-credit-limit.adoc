@@ -1,0 +1,24 @@
+[#h3_customer_maintenance_credit_limit_listing]
+= Credit Limit Listing
+
+image::credit-limit-listing-mainpage.png[Credit Limit Listing Main Page, align = "center"]
+
+The fourth icon on the left menu bar is the "Credit Limit Listing" tab which allows users to create a new credit limit and view the list of the credit limits that have been created before. Users could press the "+" button to create a brand new credit limit. 
+
+image::create-credit-limit.png[Create Credit Limit Listing, align = "center"]
+
+There are some basic information that are needed to be filled in which include:
+
+1. Credit Limit Code
+2. Credit Limit Name
+3. Status
+4. Currency
+5. Credit Limit Amount
+
+After everything is filled, press on the "Add" button to save the credit limit. The credit limit created will be shown on the main page.
+
+image::edit-credit-limit-listing.png[Edit Credit Limit Listing, align = "center"]
+
+If users want to edit the credit limit details, click on any credit limits shown on the main page, then it will bring them to this new page. After the information is updated, press "Update" to save the new information. If users wish to remove the credit limit, click on the "Remove" button instead to delete the credit limit.
+
+Please also be noted that the Credit Limit Code cannot be edited. Users could go back to Customer Listing by pressing the first icon on the left menu bar, then go to "Credit Term and Limit" to add credit limits created to customers.

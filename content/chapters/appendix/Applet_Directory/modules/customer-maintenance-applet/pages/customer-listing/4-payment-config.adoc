@@ -1,0 +1,28 @@
+[#h3_customer_maintenance_payment_config]
+= Payment Config
+
+image::payment-config-mainpage.png[Payment Config Main Page, align = "center"]
+
+The "Payment Config" tab is required for refund cases when the payment goes straight to the customer. However, this tab is created mainly because there is a link between this tab and Multi-Level Marketing Applet. This Applet works as a referral program where it allows customers to earn commissions if they succeed in referring their close family members or friends to become customers themselves. This tab also allows E-mandate. Customers" credit cards would be set with auto-detection where it would deduct some recurring payment from their credit cards every month. Users could press on the "+" sign to create a new payment config.
+
+image::create-payment-config.png[Create Payment Config, align = "center"]
+
+When creating a payment config, there will be multiple columns which need the users to fill in the relevant information which include:
+
+1. Payee Residential Status
+2. Resident
+3. Non-resident
+4. Payment Type
+5. Country
+6. Bank
+7. Bank Identifier Code
+8. Bank Account Number
+9. Bank Account Holder Name
+10. IBN Number
+11. Account Expiry Date
+
+After everything is filled correctly, press the "Add" button to add the payment config. The payment config added will be shown on the main page. 
+
+image::edit-payment-config.png[Edit Payment Config, align = "center"]
+
+If users want to make changes to a payment config, kindly press on the payment config created on the main page. Press the "Save" button to save all the changes. On the other hand, if users want to remove a payment config, press on the "Remove" button to delete a payment config created. 

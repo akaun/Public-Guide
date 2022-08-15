@@ -1,0 +1,26 @@
+[#h3_customer_maintenance_credit-term-listing]
+= Credit Term Listing
+
+image::credit-term-listing-mainpage.png[Credit Term Listing Main Page, align = "center"]
+
+The third icon on the left menu bar is the "Credit Term Listing" tab which allows users to create a new credit term. The lists shown are the credit terms that have been created before. Users could press the "+" button to create a brand new credit term. 
+
+== Main
+
+image::create-credit-term-listing-1.png[Create Credit Term Listing]
+
+There are some basic information that are needed to be filled in which include:
+
+1. Credit Term Code
+2. Credit Term Name
+3. Status
+4. Set Year, Month, Day
+5. Add Year, Month, Day
+
+After everything is filled, press on the "Add" button to save the credit term. The credit term created will be shown on the main page.
+
+image::edit-credit-term-listing.png[Edit Credit Term Listing, align = "center"]
+
+If users want to edit the credit term details, click on any credit terms shown on the main page, then it will bring them to this new page. After the information is updated, press "Update" to save the new information. If users wish to remove the credit term, click on the "Remove" button instead to delete the credit term.
+
+Please also be noted that the Credit Term Code cannot be edited. Users could go back to Customer Listing by pressing the first icon on the left menu bar, then go to "Credit Term and Limit" to add credit terms created to customers.

@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The main purpose of Customer Maintenance Applet is to record customers’ information within a company. This applet could also categorise customers into different categories created for easier reference. Last but not least, by using this applet, users could add credit terms and credit limits to the customers. 

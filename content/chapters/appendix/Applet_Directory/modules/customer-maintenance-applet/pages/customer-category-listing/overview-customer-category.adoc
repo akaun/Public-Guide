@@ -1,0 +1,23 @@
+[#h3_customer_maintenance_customer_category_listing]
+= Customer Category Listing
+
+image::customer-category-listing-mainpage.png[Customer Category Listing Main Page, align = "center"]
+
+The second icon on the left menu bar is the "Category Listing" tab which allows users to create a new category or edit an existing category. The lists shown are the categories that have been created before. Users could press the "+" button to create a brand new category. 
+
+== Main
+
+image::create-category.png[Create Category, align = "center"]
+
+There are some basic information that are needed to be filled in which include:
+
+1. Category Code
+2. Category Name
+3. Description
+4. Parent (Choose from the dropdown list)
+
+After everything is filled, press on the "Create" button to save the category. The category created will be shown on the main page.
+
+image::edit-category.png[Edit Category, align = "center"]
+
+If users want to edit the category details, click on any categories shown on the main page, then it will bring them to this new page. After the information is updated, press "Update" to save the new information. If users wish to remove the category, click on the "Remove" button instead to delete the category. 

@@ -1,0 +1,18 @@
+[#h3_customer_maintenance_branch]
+= Branch
+
+The "Branch" tab allows users to add customers into separate branches that are created to the list shown on the main page. Press on the "+" sign to add a new branch to the customers. 
+
+There are some basic information that are needed to be filled in which include:
+
+1. Branch Name
+2. Branch Code
+3. Description
+4. Fax Number
+5. Phone Number
+6. Email
+7. Status
+    a. Active
+    b. Inactive
+
+After everything is filled, press on the "Add" button to add the brancht. The branch created will be shown on the main page. 

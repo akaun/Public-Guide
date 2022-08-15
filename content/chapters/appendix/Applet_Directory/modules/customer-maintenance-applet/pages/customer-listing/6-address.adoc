@@ -1,0 +1,27 @@
+[#h3_customer_maintenance_address]
+= Address
+
+image::address-mainpage.png[Address Main Page, align = "center"]
+
+The "Address" tab is created to record the addresses of customers. It is easier for a company to record customers' addresses as they do not need to ask customers to provide them address when they have bought something from the store. Users could press on the "+" sign to add a new address. 
+
+image::create-address.png[Create Address, align = "center"]
+
+There are some basic information that are needed to be filled in which include:
+
+1. Address Name
+2. Address Type
+    a. Mail Address
+    b. Billing Address
+    c. Shipping Address
+3. Address Line 1, 2, 3, 4, 5
+4. Country
+5. State
+6. City
+7. Postcode
+
+After everything is filled correctly, press the "Add" button to add the address. The address created will be shown on the main page. 
+
+image::edit-address.png[Edit Address, align = "center"]
+
+There is a checkbox beside the "Set as Default" option. A customer might have several addresses. If they want to set a certain address as default, just tick the checkbox so the address will be updated as default. If a user wants to remove a certain address, just press on the "Remove" button to delete the address. 

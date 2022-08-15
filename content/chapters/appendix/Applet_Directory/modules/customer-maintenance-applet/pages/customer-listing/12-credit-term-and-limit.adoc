@@ -1,0 +1,71 @@
+[#h3_customer_maintenance_credit-term-and-limit]
+= Credit Term and Limit
+
+image::credit-term-and-limit-mainpage.png[Credit Term and Limit Main Page, align = "center"]
+
+There are two sections in the "Credit Term and Limit" tab, which are credit term and credit limit. 
+
+To create a new credit term, press on the "+" sign on the main page. There will be two options for users to choose, either "Existing Credit Term" or "New Credit Term".
+
+image::create-credit-term-1.png[Create Credit Term, align = "center"]
+
+If users choose the "Existing Credit Term" option, below shows the page that will be presented.
+
+image::.create-credit-term-2.png[Create Credit Term, align = "center"]
+
+Existing Credit Term:
+
+    a. Users have to select the credit terms that they created in "Credit Term Listing" (refer to 2.3 Credit Term Listing)
+    b. After the credit term is selected, press the "Add" button to save all the changes.
+
+If users choose the "New Credit Term" option, below shows the page that will be presented.
+
+image::create-credit-term-3.png[Create Credit Term, align = "center"]
+
+New Credit Term:
+
+    a. Users have to enter the relevant information to create a new credit term:
+        - Credit Term Code
+        - Credit Term Name
+    b. Status
+        - Active
+        - Inactive
+    c. Set Year, Month, Day
+    d. Add Year, Month, Day
+
+image::edit-credit-term.png[Edit Credit Term, align = "center"]
+
+After everything is filled, press the "Add" button to save the information filled.
+
+To edit a credit term created, go to the main page and click on the credit term. After the new information has been entered, press the "Update" button to update the changes made. To remove a credit term, press the "Remove" button to delete the credit term. 
+
+To create a new credit limit, press on the "+" sign on the main page. There will be two options for users to choose, either "Existing Credit Limit" or "New Credit Limit".
+
+image::create-credit-limit-1.png[Create Credit Limit, align = "center"]
+
+If users choose the "Existing Credit Term" option, below shows the page that will be presented.
+
+image::create-credit-limit-2.png[Create Credit Limit, align = "center"]
+
+Existing Credit Limit:
+
+    a. Users have to select the credit limits that they created in "Credit Limit Listing" (refer to 2.4 Credit Limit Listing)
+    b. After the credit limit is selected, press the "Add" button to save all the changes.
+
+If users choose the "New Credit Limit" option, below shows the page that will be presented.
+
+image::create-credit-limit-3.png[Create Credit Limit, align = "center"]
+
+New Credit Limit:
+
+    a. Users have to enter the relevant information to create a new credit limit:
+        - Credit Limit Code
+        - Credit Limit Name
+        - Status (either active or inactive)
+        - Currency
+        - Credit Limit Amount
+    b. After everything is filled, press the "Add" button to save the information filled.
+
+image::edit-credit-limit.png[Edit Credit Limit, align = "center"]
+
+To edit a credit limit created, go to the main page and click on the credit limit. After the new information has been entered, press the "Update" button to update the changes made. To remove a credit limit, press the "Remove" button to delete the credit limit. 

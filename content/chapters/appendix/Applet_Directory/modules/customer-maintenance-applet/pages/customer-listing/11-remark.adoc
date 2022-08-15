@@ -1,0 +1,7 @@
+[#h3_customer_maintenance_remark]
+= Remark
+
+image::remark-mainpage.png[Remark Main Page, align = "center"]
+
+The "Remark" tab is created to let users add remarks to certain customers. Users could type anything in the text box provided, then press the "Save" button after users have entered all the details. 
+

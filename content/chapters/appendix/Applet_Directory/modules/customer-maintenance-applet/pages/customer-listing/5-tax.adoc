@@ -1,0 +1,22 @@
+[#h3_customer_maintenance_tax]
+= Tax
+
+image::tax-mainpage.png[Tax Main Page, align = "center"]
+
+The "Tax" tab is created to record the tax collected for every customer. This is because there might be customers from different regions and countries. 
+
+image::create-tax.png[Create Tax, align = "center"]
+
+There are some basic information that are needed to be filled in which include:
+ 
+1. Country
+    a. Malaysia
+    b. Singapore
+    c. Thailand
+    d. Indonesia etc.
+2. Tax Type
+3. Tax Code
+4. Tax Rate (%)
+5. Tax Option
+    a. Include tax
+    b. Exclude tax

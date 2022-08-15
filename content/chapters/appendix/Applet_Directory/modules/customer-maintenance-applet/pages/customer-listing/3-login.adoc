@@ -1,0 +1,15 @@
+[#h3_customer_maintenance_login]
+= Login
+
+image::login-mainpage.png[Login Main Page, align = "center"]
+
+Users could press the "+" sign to add a new customer login. 
+
+image::create-login-1.png[Create Login, align = "center"]
+
+Users should enter a valid email address to verify it. Then set the status of the email address to be active. 
+
+image::create-login-2.png[Create Login, align = "center"]
+
+Users also need to choose the rank of the customer from the choices given which are "Admin", "Manager", "Member", "Guest" and "Visitor".
+

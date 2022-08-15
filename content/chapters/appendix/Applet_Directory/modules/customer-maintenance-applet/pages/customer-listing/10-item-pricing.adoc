@@ -1,0 +1,11 @@
+[#h3_customer_maintenance_item_pricing]
+= Item Pricing
+
+image::item-pricing-mainpage.png[Item Pricing Main Page, align = "center"]
+
+The "Item Pricing" tab is a link between the Doc Item Maintenance Applet and Customer Maintenance Applet.
+
+image::edit-item-pricing.png[Edit Item Pricing, align = "center"]
+
+If users click on the item pricing on the main page, it will bring the users to the next page. Please be noted that only the Purchase Price and Sales Price could be edited. After the new information is entered, press the "Update" button to save all the new changes made. 
+

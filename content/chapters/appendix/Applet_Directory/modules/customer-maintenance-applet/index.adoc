@@ -1,10 +1,41 @@
 [#h2_customer_maintenance_applet]
 = Customer Maintenance Applet
 
-
-
-
 include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/customer-listing/1-customer-listing-main.adoc[leveloffset=3]
+
+include::pages/customer-listing/2-customer-category.adoc[leveloffset=3]
+
+include::pages/customer-listing/3-login.adoc[leveloffset=3]
+
+include::pages/customer-listing/4-payment-config.adoc[leveloffset=3]
+
+include::pages/customer-listing/5-tax.adoc[leveloffset=3]
+
+include::pages/customer-listing/6-address.adoc[leveloffset=3]
+
+include::pages/customer-listing/7-contact.adoc[leveloffset=3]
+
+include::pages/customer-listing/8-branch.adoc[leveloffset=3]
+
+include::pages/customer-listing/9-company-linking.adoc[leveloffset=3]
+
+include::pages/customer-listing/10-item-pricing.adoc[leveloffset=3]
+
+include::pages/customer-listing/11-remark.adoc[leveloffset=3]
+
+include::pages/customer-listing/12-credit-term-and-limit.adoc[leveloffset=3]
+
+include::pages/customer-listing/13-membership.adoc[leveloffset=3]
+
+include::pages/customer-listing/14-employee.adoc[leveloffset=3]
+
+include::pages/customer-category-listing/overview-customer-category.adoc[leveloffset=3]
+
+include::pages/credit-term-listing/overview-credit-term.adoc[leveloffset=3]
+
+include::pages/credit-limit-listing/overview-credit-limit.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 

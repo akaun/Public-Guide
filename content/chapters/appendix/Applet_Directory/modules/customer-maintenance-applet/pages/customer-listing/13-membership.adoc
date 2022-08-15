@@ -1,0 +1,25 @@
+[#h3_customer_maintenance_membership]
+= Membership
+
+image::membership-mainpage.png[Membership Main Page, align = "center"]
+
+The "Membership" tab is used to create a membership package for one's own company's members. To create a new membership, press on the "+" sign.
+
+image::create-membership.png[Create Membership, align = "center"]
+
+There are some basic information that are needed to be filled in which include:
+
+1. Member Name
+2. Member ID
+3. Email
+4. Country Code
+5. Mobile Number
+6. Membership End Date
+
+After everything is filled, press on the "Save" button to add the member. The member created will be shown on the main page. 
+
+image::edit-membership-1.png[Edit Membership, align = "center"]
+
+image::edit-membership-2.png[Edit Membership, align = "center"]
+
+If users want to edit the member details, click on any members shown on the main page, then it will bring them to this new page. After the information is updated, press "Save" to update the updated information. If users wish to remove the member, click on the "Delete" button instead to remove the member from the list. 
