@@ -1,0 +1,14 @@
+[#h3_voucher_management_ticket_management]
+= Ticker
+
+All the tickets generated will be listed in the table in the “Ticket” tab.
+
+Please click on the ticket to see further details. The details that can be viewed are as follows:
+
+    a. Serial Number
+    b. Assignment Status
+    c. Validity Status
+    d. Cancellation Status
+    e. Redeemable Status
+    f. URL Key 
+    g. Activation Pin (By default the data in the field will be hidden) 

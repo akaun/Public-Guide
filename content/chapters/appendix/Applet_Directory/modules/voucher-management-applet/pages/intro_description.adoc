@@ -1,0 +1,1 @@
+This applet can help the users manage the vouchers such as creating a voucher, adding rules, images and tickets to them, as well as checking the details of the voucher and cancelling or activating it. There are three modules in the applet.

@@ -1,0 +1,211 @@
+[#h3_voucher_management_voucher]
+= Voucher
+
+Please click the "+" button on the left hand side of the Search Box to Create a new voucher.
+
+image::voucher-mainpage.png[Voucher Main Page, align = "center"]
+
+Please fill up the compulsory * information for creating the Voucher. After filled up all compulsory * information, Please click "Save" to add a new voucher. 
+
+Compulsory information:
+
+    a. Voucher code - the code cannot be modified after creation.
+    b. Voucher Name
+    c. Voucher Type - Settlement or Discount
+    d. Quantity Type - Fixed quantity or dynamic quantity
+    e. Character Length(Serial No.)
+    f. Character Length(Softpin)
+    g. Character Length(URL Key) 
+
+Note: 
+
+    a. The selection of the Voucher Type will yield 3 different types of voucher options, which will be elaborated further later on. These are, “settlement”, “discount” and “rewards” types. 
+
+image::create-voucher.png[Create Voucher, align = "center"]
+
+After adding the voucher, it will be listed on the main page. Please click on the voucher to edit it. 
+
+== Edit Voucher
+
+Please edit the main details of the voucher from the "Details" tab. We will go by each type of voucher.
+
+== Details
+
+=== Discount Voucher
+
+The following information can be edited: 
+
+    a. Voucher Name
+    b. Quantity Limit
+    c. Currency
+    d. Status
+    e. Enable Softpin [checkbox ] 
+    f. Character Length Softpin (Only if enable Softpin is ticked)
+    g. Enable Activation [Checkbox]
+    h. Character Length Activation Code (Only if enable Activation is ticked)
+    i. Enable URL Key [checkbox]
+    j. Character Length URL Key (Only if enable URL Key is ticked)
+    k. Enable Prefix [checkbox]
+    l. Prefix 
+    m. Character Length Serial Number Generation
+    n. URL Redirection
+    o. Character Length - Serial Number Generation Prefix
+    p. Description
+
+=== Settlement Voucher
+
+The following information can be edited: 
+
+    a. Voucher Name
+    b. Quantity Limit
+    c. Face Value Amount
+    d. Currency
+    e. Status
+    f. Enable Softpin [checkbox] 
+    g. Character Length Softpin (Only if enable Softpin is ticked)
+    h. Enable Activation [checkbox]
+    i. Character Length Activation Code (Only if enable Activation is ticked)
+    j. Enable URL Key [checkbox]
+    k. Character Length URL Key (Only if enable URL Key is ticked)
+    l. Enable Prefix [checkbox]
+    m. Prefix 
+    n. Character Length Serial Number Generation
+    o. URL Redirection
+    p. Character Length - Serial Number Generation Prefix
+    q. Description 
+
+=== Reward Voucher
+
+The following information can be edited: 
+
+    a. Voucher Name
+    b. Quantity Limit
+    c. Status
+    d. Enable Softpin [checkbox] 
+    e. Character Length Softpin (Only if enable Softpin is ticked)
+    f. Enable Activation [checkbox]
+    g. Character Length Activation Code (Only if enable Activation is ticked)
+    h. Enable URL Key [checkbox]
+    i. Character Length URL Key (Only if enable URL Key is ticked)
+    j. Enable Prefix [checkbox]
+    k. Prefix 
+    l. Character Length Serial Number Generation
+    m. URL Redirection
+    n. Character Length - Serial Number Generation Prefix
+    o. Description 
+
+Please click "save" after you change the details of the price set.
+
+Please click  "delete" to remove the price set from the list.
+
+image::edit-voucher-details.png[Edit Voucher Details, align = "center"]
+
+== Rules - Doc Hdr
+
+Please Add or edit the rules for Document HDR level of voucher from the "Rules-Doc Hdr" tab.
+
+image::edit-voucher-rules-doc-hdr.png[Edit Voucher Rules - Doc Hdr, align = "center"]
+
+Please select the "Rules logic" and "Negation logic" from the list and click the "+" button to add rules for the voucher.
+
+Please select the relevant rule type from the list. The following are the Rule Types that can be set, which are correct at the day of the documentation creation.
+
+    a. Event Date Range
+    b. Redemption Date Range 
+    c. Entity Type
+    d. Member Class
+    e. Member Label 
+    f. Company
+    g. Branch
+
+image::rules-doc-hdr-event-date-range.png[Event Date Range, align = "center"]
+
+If you select the "Event Date range", Please fill up the Compulsory (*) information (Rule name)  and set the Event Validity start date and End date. Please  click "create" to add the rule for the Voucher.
+
+image::rules-doc-hdr-redemption-date-range.png[Redemption Date Range, align = "center"]
+
+If you select the "Redemption Date range", Please fill up the Compulsory (*) information (Rule name)  and set the period for the redemption. Please  click "create" to add the rule for the Voucher.
+
+image::rules-doc-hdr-entity-type.png[Entity Type, align = "center"]
+
+If you select the "Entity type", Please fill up the Compulsory (*) information and select the "Entity". Please click "create" to add the rule for the voucher. 
+
+image::rules-doc-hdr-member-class.png[Member Class, align = "center"]
+
+If you select Member class, Member label, Company and Branch, Please fill up the Compulsory (*) information and Click the "Create" and "+" button to add Member Class, Label, Company and Branch.
+
+After you added the rules in the voucher, you can click the rule from the list to remove it. 
+
+== Rules - Multi Line
+
+Please select the "Rules logic" and "Negation logic" from the list and click the "+" button to add rules for the voucher.
+
+image::edit-rules-multi-line.png[Edit Rules - Multi Line, align = "center"]
+
+Please select the relevant rule type from the list. The following are the Rule Types for "Rules-Multi Line":
+
+    a. Item
+    b. Item Category
+    c. Item Code Regex
+    d. Item Name Regex
+    e. Category Code Regex
+    f. Category Name Regex
+
+image::create-rules-multi-line.png[Create Rules - Multi Line, align = "center"]
+
+Please fill up the Compulsory (*) information and Click the "Create" and "+" button to add Item, Item Category, Item Code Regex, Item Name Regex, Category Code Regex, and Category Name Regex.
+
+image::rules-multi-line-item-code-regex.png[Rules Multi Line : Item Code Regex, align = "center"]
+
+== Rules - Single Line
+
+The same logic and rules are applied for the Rules-Single Line. (refer to Rules - Multi Line)
+
+== Treatment
+
+Please tick the relevant Treatment and select the Price source, Operator and the value. 
+
+image::edit-voucher-treatment.png[Edit Treatment, align = "center"]
+
+== Image
+
+Please click the "+" button to add an image for the voucher. Following fields should be filled up.
+
+image::edit-voucher-image.png[Edit Image, align = "center"]
+
+    a. Please upload the image.
+    b. Select Image Category - Voucher Image or promotion image
+    c. Start date
+    d. End date
+
+image::edit-voucher-image-add.png[Add Image, align = "center"]
+
+After you added the images in the voucher, you can click the image from the list to edit or remove it.
+
+== Ticket Management
+
+Please click the "+" button to add a ticket for the voucher. There are two tabs which generate tickets and import tickets. 
+
+image::edit-voucher-ticket-management.png[Edit Voucher Ticket Management, align = "center"]
+
+Please use one of the tabs to add tickets to the voucher.
+
+=== Generate ticket 
+
+image::edit-voucher-ticket-management-generate.png[Ticket Management - Generate, align = "center"]
+
+Please fill up the ticket quantity and click the "generate" button to generate tickets.
+
+=== Import Ticket
+
+image::edit-ticket-management-import.png[Ticket Management - Import, align = "center"]
+
+Please upload a file here.
+
+=== Ticket Files Listing 
+
+image::edit-voucher-ticket-management-listing.png[Ticket Management - Listing, align = "center"]
+
+To view the ticket files.
+
+After you added the tickets in the voucher, you can click the ticket from the list to cancel it or activate it. Also you can check the details of the ticket - Voucher Code, Voucher Name, Serial No, Customer Name, Status, created date and modified date.
