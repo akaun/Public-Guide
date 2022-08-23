@@ -15,7 +15,7 @@ include::pages/member-label-list.adoc[leveloffset=3]
 
 include::pages/pts-ccy.adoc[leveloffset=3]
 
-include::pages/pts-ccy-config-module.adoc[leveloffset=3]
+include::pages/pts-ccy-config.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 

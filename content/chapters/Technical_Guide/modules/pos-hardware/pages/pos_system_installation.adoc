@@ -3,7 +3,7 @@
 
 Please make sure the java is uninstalled before proceeding to the next step. (Optional)
 
-=== Uninstall java:
+== Uninstall java:
 
 Go to windows setting
 
@@ -19,8 +19,8 @@ image::3.png[align = "center"]
 
 Uninstall all programs listed.
 
-=== Setup: 
-==== 1.Installing Java
+== Setup: 
+=== 1.Installing Java
 Install latest java 64-bit https://www.java.com/en/download/ or download from here https://barcode-software.s3-ap-southeast-1.amazonaws.com/jdk-8u231-windows-x64.exe
 
 Double click on the exe file downloaded.
@@ -35,7 +35,7 @@ Search for cmd in windows search bar.
 image::6.png[align = "center"]
 Type java -version. Make sure the java version 1.8 is used.
 
-==== 2.Download: 
+=== 2.Download: 
 https://drive.google.com/file/d/1FT1cU3pNe0HLhnixqYmK8OTi4JyNEQCX/view?usp=sharing 
 Extract the file and move the extracted folder to the desktop.
 
@@ -65,7 +65,7 @@ image::16.png[align = "center"]
 image::17.png[align = "center"]
 
 
-==== 3.Download: 
+=== 3.Download: 
 https://drive.google.com/file/d/1cWTtx9usEM9WhcEn9mAa2YXqgUKgBgWN/view?usp=sharing 
 
 Extract the file in the 
@@ -74,7 +74,7 @@ C:\Users\(username) example C:\Users\abc
 image::18.png[align = "center"]
 
 
-==== 4. Check if it detect the POS system:
+=== 4. Check if it detect the POS system:
 
 Restart the PC. Then, after 5 minute, in the browser, run the following address:
 
@@ -86,16 +86,16 @@ image::19.png[align = "center"]
 If it did not get the reading, it needs to check if the “run default.bat” is running or not.
 
 
-==== 5. Printer and scanner setup
+=== 5. Printer and scanner setup
 
-===== Scanner:
+=== Scanner:
 
 Need to setup for the scanner to auto enter by scan the configuration as below (the barcode that need to be scan depends on the scanner model):
 
 image::20.png[align = "center"]
 
 
-===== Printer:
+=== Printer:
 
 For the printer, need to check the model of the printer and run the setup file by search and download in the google of the setup file. 
 
