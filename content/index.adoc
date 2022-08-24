@@ -24,25 +24,25 @@ endif::[]
 
 <<<<<<<<<
 
-include::chapters/BigLedger_Overview/index.adoc[]
+include::chapters/BigLedger_Overview/index.adoc[leveloffset=1]
 
-include::chapters/User_Guide/index.adoc[]
+include::chapters/User_Guide/index.adoc[leveloffset=1]
 
-include::chapters/Industry_Guide/index.adoc[]
+include::chapters/Industry_Guide/index.adoc[leveloffset=1]
 
-include::chapters/Modules_Guide/index.adoc[]
+include::chapters/Modules_Guide/index.adoc[leveloffset=1]
 
-include::chapters/Technical_Guide/index.adoc[]
+include::chapters/Technical_Guide/index.adoc[leveloffset=1]
 
 // include::chapters/Handbook_Authoring/modules/authoring-handbook/pages/00_index.adoc[]
 
 <<<<<<<<<
 
 
-include::glossary.adoc[]
+include::glossary.adoc[leveloffset=1]
 
 <<<<<<<<<
 
-include::chapters/appendix/Applet_Directory/index.adoc[]
+include::chapters/appendix/Applet_Directory/index.adoc[leveloffset=1]
 
 //include::other/appendix.adoc[]

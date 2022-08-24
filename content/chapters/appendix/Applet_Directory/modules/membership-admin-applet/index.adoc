@@ -1,5 +1,7 @@
-[#h2_membership-admin-applet_index]
+[#h2-membership-admin-applet-index]
 = Membership Admin Applet
+
+This is the membership admin applet.
 
 include::pages/introduction.adoc[leveloffset=3]
 

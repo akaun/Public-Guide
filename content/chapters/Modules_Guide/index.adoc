@@ -1,5 +1,5 @@
 [#h1_modules_guide]
-== Guide by Modules
+= Guide by Modules
 //== ({counter2:guide_no}{guide_no}) Modules Guide
 //:doctype: book
 

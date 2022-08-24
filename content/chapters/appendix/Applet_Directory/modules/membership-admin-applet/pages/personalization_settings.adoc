@@ -1,5 +1,5 @@
 [#h3_membership-admin-applet_personalization]
-=  Personalization
+= Personalization
 
 
 

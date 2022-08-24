@@ -1,5 +1,5 @@
 [#h1_industry_guide]
-== Industry Guide
+= Industry Guide
 
 include::modules/ROOT/index.adoc[leveloffset=2]
 include::modules/consumer-electronics/index.adoc[leveloffset=2]

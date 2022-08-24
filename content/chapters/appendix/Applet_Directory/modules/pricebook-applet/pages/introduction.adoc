@@ -1,5 +1,5 @@
 [#h3_pricebook-applet_introduction]
-=  Introduction
+= Introduction
 
 image::pricebook_applet_logo.png[150,300]
 

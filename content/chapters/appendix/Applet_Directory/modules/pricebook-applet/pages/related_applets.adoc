@@ -1,5 +1,5 @@
 [#h3_pricebook-applet_related_applets]
-=  Related Applets
+= Related Applets
 
 This applet also depends on the following applets:
 

@@ -1,5 +1,5 @@
 [#h1_bigledger_overview]
-== BigLedger Overview
+= BigLedger Overview
 
 
 include::modules/intro/index.adoc[leveloffset=2]

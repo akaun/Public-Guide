@@ -1,5 +1,5 @@
 [#h3_applet_pricebook-applet_modules]
-=  Modules
+= Modules
 
 This applet is used in the following modules:
 

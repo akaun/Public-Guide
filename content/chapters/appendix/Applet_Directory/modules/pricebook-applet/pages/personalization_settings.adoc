@@ -1,5 +1,5 @@
 [#h3_pricebook-applet_personalization]
-=  Personalization
+= Personalization
 
 
 

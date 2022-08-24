@@ -1,5 +1,5 @@
 [#h1_technical_guide]
-== Technical Guide
+= Technical Guide
 
 This technical guide is used by both internal and external employees of 
 

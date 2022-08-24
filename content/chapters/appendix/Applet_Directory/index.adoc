@@ -1,6 +1,8 @@
 [appendix]
 [#h1_applet_directory]
-== Applet Directory
+= Applet Directory
+
+This is the list of applets.
 
 include::modules/applet-listing/index.adoc[leveloffset=2]
 
@@ -152,6 +154,3 @@ include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 
 include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
-include::modules/membership-admin-applet/index.adoc[leveloffset=2]
-
-include::modules/pricebook-applet/index.adoc[leveloffset=2]

@@ -1,6 +1,6 @@
 [glossary]
 [#blg_handbook_glossary]
-== Glossary
+= Glossary
 
 [glossary]
 
