@@ -1,6 +1,6 @@
 [#h3_named_applet_introduction]
 =  Introduction
 
-image::voucher-management-logo.png[]
+image::voucher-managment-logo.png[]
 
 include::intro_description.adoc[]

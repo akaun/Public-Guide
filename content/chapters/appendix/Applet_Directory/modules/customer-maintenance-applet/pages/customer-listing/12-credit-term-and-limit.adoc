@@ -11,7 +11,7 @@ image::create-credit-term-1.png[Create Credit Term, align = "center"]
 
 If users choose the "Existing Credit Term" option, below shows the page that will be presented.
 
-image::.create-credit-term-2.png[Create Credit Term, align = "center"]
+image::create-credit-term-2.png[Create Credit Term, align = "center"]
 
 Existing Credit Term:
 

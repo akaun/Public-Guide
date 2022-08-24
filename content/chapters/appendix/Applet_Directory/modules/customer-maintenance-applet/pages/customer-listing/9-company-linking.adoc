@@ -1,15 +1,15 @@
 [#h3_customer_maintenance_company_linking]
 = Company Linking
 
-image::images/company-linking-mainpage.png[Company Linking Main Page, align = "center"]
+image::company-linking-mainpage.png[Company Linking Main Page, align = "center"]
 
 The "Company Linking" tab is created for accounting configurations. If a tenant has more than one type of company, this feature is especially useful to choose the GL code based on the types of assets they purchase. Users could choose the GL code, for example, expenses or current asset and set accordingly. 
 
-image::images/select-company.png[Select Company, align = "center"]
+image::select-company.png[Select Company, align = "center"]
 
 If the user clicks on the "+" sign on the main page, it will bring them to this new page. Users could tick the checkbox beside the name of the company they wish to select, then press the "Add" button to add the company. 
 
-image::images/company-details.png[Company Details, align = "center"]
+image::company-details.png[Company Details, align = "center"]
 
 If user clicks on the company listed on the main page, it will bring them to the "Company Details" page where they can edit the information of the company which include:
 
