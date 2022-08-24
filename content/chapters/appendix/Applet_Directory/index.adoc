@@ -150,8 +150,8 @@ include::modules/daily-cashier-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 
-include::modules/voucher-maintenance-applet/index.adoc[leveloffset=2]
+include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
-include::modules/voucher-membership-admin-applet/index.adoc[leveloffset=2]
+include::modules/membership-admin-applet/index.adoc[leveloffset=2]
 
-include::modules/pricebook-applet/index/adoc[leveloffset=2]
+include::modules/pricebook-applet/index.adoc[leveloffset=2]
