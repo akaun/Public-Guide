@@ -7,7 +7,7 @@ Please click the "+" button to Create a new Member.
 
 image::cashbook-listing-mainpage.png[Cashbook Listing Mainpage, align = "center"]
 
-Please fill up the compulsory * information for creating the Cashbook. After filled up all Compulsory * information Please click "Save" to add a new Cashbook. 
+Please fill up the compulsory information for creating the Cashbook. After filled up all Compulsory information Please click "Save" to add a new Cashbook. 
 
 Compulsory information:
 

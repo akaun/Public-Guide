@@ -5,7 +5,7 @@ Please click the "+" button to Create a new Settlement Method.
 
 image::settlement-method-listing-mainpage.png[Settlement Method Listing Mainpage, align = "center"]
 
-Please fill up the compulsory *  information for creating the settlement method. After filled up all Compulsory * information. Please click "Save" to add a new Settlement method. 
+Please fill up the compulsory information for creating the settlement method. After filled up all Compulsory information. Please click "Save" to add a new Settlement method. 
 
 Compulsory information:
 
@@ -99,6 +99,6 @@ image::add-settlement-method-error-code.png[Add Settlement Method Error Code, al
 
 Please click the "Add" button to add the error or click the "Cancel" button to cancel the updating of error.
 
-image::edit-settlement-method-error.code[Edit Settlement Method Error Code, align = "center"]
+image::edit-settlement-method-error-code.png[Edit Settlement Method Error Code, align = "center"]
 
 You can click the "delete" button to remove the payment provider error codes from the settlement method.
