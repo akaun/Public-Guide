@@ -1,4 +1,4 @@
-[#h2_organization_applet]
+[#h2_organization_applet_index]
 = Organization Applet
 
 

@@ -3,68 +3,68 @@
 
 == Please go to Akaun.com - Stock Take Applet V2
 
-image::stock_take_logo.png[]
+image::stock_take_logo.png[1440 x 900]
 
 == Go to the Stock Take Session
 
-image::stock_take_session.png[]
+image::stock_take_session.png[1440 x 900]
 
 == Create a Stock Take Session Ex: STOCK - JUNE 2022
 
-image::create_stock.png[]
+image::create_stock.png[1440 x 900]
 
-== After creating the Stock Session, go to devices tab to add PIC for handling the Stock Take
+== After creating the Stock Session, go to the Stock Take Session listing and choose the session to edit. Then go to the Devices tab to add PIC for handling the Stock Take
 
-image::add_pic.png[]
+image::add_pic.png[1440 x 900]
 
 == Find a PIC name to add under the created stock take Session
 
-image::pic_name.png[]
+image::pic_name.png[1440 x 900]
 
 == After selecting the PIC, go to the PIC name to start performing your Stock Take
 
-image::perform_stocktake.png[]
+image::perform_stocktake.png[1440 x 900]
  
 ==  Once click into devices, please go to Records Tab
 
-image::records_tab.png[]
+image::records_tab.png[1440 x 900]
 
 == You can directly scan your serial number scan button
 
-image::scan_code.png[]
+image::scan_code.png[1440 x 900]
 
 == Auto-save feature is available
 
-image::auto_save.png[]
+image::auto_save.png[1440 x 900]
 
 == Once complete performing stock take, please go to the report tab. Filter by Report Type and click Search
 
-image::report_type.png[]
+image::report_type.png[1440 x 900]
 
 == Click Upload Reason
 
-image::upload_reason.png[]
+image::upload_reason.png[1440 x 900]
 
 == Select report type and export the report in excel
 
-image::export_excel.png[]
+image::export_excel.png[1440 x 900]
 
 == An excel will be dowloaded
 
-image::downloaded_excel.png[]
+image::downloaded_excel.png[1440 x 900]
 
 == Fill up a reason for an item that has variance
 
-image::fill_up_reason.png[]
+image::fill_up_reason.png[1440 x 900]
 
 == Save the file and reupload into Stock Take Applet
 
-image::fill_the_reason_button.png[]
+image::fill_the_reason_button.png[1440 x 900]
 
 == Once uploaded, go to the details tab and change the status to closed, then click save.
 
-image::details_save.png[]
+image::details_save.png[1440 x 900]
 
 == Ammendment and Adjustment can't be made once the stock take has Closed
 
-image::closed_stock_take.png[]
+image::closed_stock_take.png[1440 x 900]

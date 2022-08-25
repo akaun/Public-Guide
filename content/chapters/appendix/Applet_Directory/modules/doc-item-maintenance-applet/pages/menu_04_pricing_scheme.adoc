@@ -3,17 +3,17 @@
 
 Once a user clicks on the pricing scheme module it will land on the pricing scheme listing page. The module is used to create the template for pricing that can be also used in transactional applets such as POS, GRN etc. In this module you can only create the template/scheme, the price can be added later for each specific item in the “Item Maintenance” module
 
-image::pricing_scheme_listing.png[]
+image::pricing_scheme_listing.png[1440 x 900]
 
 For example, in POS applet, user can go to the settings and choose which Pricing Scheme they want to use for minimum price , maximum price or retail price as shown in the screenshot below
 
-image::pos_settings.png[]
+image::pos_settings.png[1440 x 900]
 
 Users also may search pricing schemes in the listing itself using fuzzy search in the AG-Grid listing. Pricing scheme can be searched in general search or advanced search:
 
-image::pricing_scheme_search.png[]
+image::pricing_scheme_search.png[1440 x 900]
 
-image::ad_search_pricing_scheme.png[]
+image::ad_search_pricing_scheme.png[1440 x 900]
 
 == Pricing Scheme Create
 
@@ -25,7 +25,7 @@ In order to create Pricing Scheme, user should click on “+” button, once cli
 
 * Description - not compulsory
 
-image::pricing_scheme_create.png[]
+image::pricing_scheme_create.png[1440 x 900]
 
 == Pricing Scheme Edit
 
@@ -55,7 +55,7 @@ In addition users may delete the pricing scheme if they wish to. Users may click
 
 User selects one item from the Pricing list in the drowdown list and makes some amendments to the pricing.
 
-image::pricing_scheme_edit.png[]
+image::pricing_scheme_edit.png[1440 x 900]
 
 
 

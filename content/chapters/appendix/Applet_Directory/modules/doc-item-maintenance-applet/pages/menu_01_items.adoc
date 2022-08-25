@@ -7,7 +7,7 @@ image::doc_item_logo.png[]
 
 == ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
 
-image::items_create.png[]
+image::items_create.png[1440 x 900]
 
 The screenshot above shows the mandatory fields that the user has to fill (except description, as it is not mandatory). Once the item has been created more information can be added in the EDIT ITEM section. Only basic information is required to be filled in the CREATE section and afterwards users can continue editing items in order to add more information at any time. We exclude adding more information in the CREATE section because if there is a lot of information to be added the user might forget to click save. Adding as little information as possible in the CREATE section prevents and/or reduces data being lost.
 
@@ -16,17 +16,20 @@ The screenshot above shows the mandatory fields that the user has to fill (excep
 * Item Name - Item Name can be edited at any time 
 
 * Item type - is consist of nine types as follows:
-** BASIC ITEM - this is the default type that is rel evant to most items.
+
+** BASIC ITEM - this is the default type that is relevant to most items.
 ** GROUPED ITEM - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as item type user can add additional child items under EDIT
 ** BUNDLE - If the item is a package of two or more stand-alone products sold together for a single price. These units are most commonly called stand-alone products because they are fully functioning products by themselves and can be sold separately to the consumer. Examples can be Laptop Bundles that includes a keyboard and a mouse. Take note that the stock is deducted from CHILD and not PARENT.
 ** COUPON - is used to record the Stock In and Stock Out of the vouchers tied to this item. If the user sets the type as coupon the item will be reflected in the VOUCHER MANAGEMENT APPLET.
 ** SERVICE - If the item is a basic item without inventory tracking.
 ** WARRANTY- a written guarantee, issued to the purchaser of an article by its manufacturer, promising to repair or replace it if necessary within a specified period of time. When selecting warranty as Item type then the additional tab will be shown in the EDIT section where users can input a warranty period. This information can be used in the POS applet when creating Invoices.
+** Gl Code - The general ledger is an accounting document that provides a general overview of an organization's financial transactions. An account, or general ledger (GL) code, is a number used to record business transactions in the general ledger
+** Assembly
 ** DOC HEADER ADJUSTMENT - is used to group discounts. This will be used in the POS applet. As an Illustration the user will attach an Item type as “DHA” and name it as “Extra” to Group Discount in POS Applet.
 ** MEMBERSHIP - is used to define a member's attributes, dues payment schedule, and expiration settings.
 ** MADE TO ORDER - a manufacturing process where products are assembled and configured according to customer requirements.
 
-* Sub Item Type - There are four sub item types which are Batch Number, Serial Number, Bin Number, Digital Goods. When a user selects any of it, it will be reflected in the POS applet.
+* Sub Item Type - There are five sub item types which are Basic Quantity, Batch Number, Serial Number, Bin Number, Digital Goods. When a user selects any of it, it will be reflected in the POS applet.
 
 * Base UOM - Quantities of warehouse materials (quants) are counted using the base unit of measure (UoM). Quantities in alternative units of measure are always converted to the base unit of measure for calculation purposes. For Example cm, kg, ml
 
@@ -40,12 +43,15 @@ Once all required fields are filled up, user can press on CREATE, so the item wi
 
 == ITEMS EDIT
 
-image::item_edit.png[]
+image::item_edit.png[1440 x 900]
 
 Once the user creates an Item, it will appear in the listing. When the user wants to update the item or add more information they can click on the Item itself, a  2nd container will pop up once clicked containing the following tabs:
 
 * Main Tab
 * Item Category Tab
+* Inv-item-linking Tab
+* Add on
+* Add on of
 * Tax Tab
 * Dimension Details Tab
 * Multi UOM Tab
@@ -62,11 +68,12 @@ Once the user creates an Item, it will appear in the listing. When the user want
 * Pages Tab
 * Reviews Tab
 
+
 The information provided can be used in transactional Applets. Please take note that additional tabs may appear if the user chooses Grouped or Bundle as Item type
 
 === MAIN TAB
 
-image::main_details_tab.png[]
+image::main_details_tab.png[1440 x 900]
 
 This Tab consists of general Item information such as:
 
@@ -98,15 +105,15 @@ This Tab consists of general Item information such as:
 
 Item category tab is used to link a category to the item. Categories can be created in the  “Category” module.
 
-image::item_category_tab.png[]
+image::item_category_tab.png[1440 x 900]
 
 In order to add the category click “+”. Once clicked the 3rd container with category listings will be shown. Users can select any category that applies to the Item.
 
-image::add_category.png[]
+image::add_category.png[1440 x 900]
 
 === TAX TAB
 
-image::tax_tab.png[]
+image::tax_tab.png[1440 x 900]
 
 If tax is applicable the user can tick the checkbox. Once ticked the the tax information will appear where the user can set the tax for:
 
@@ -119,7 +126,7 @@ If tax is applicable the user can tick the checkbox. Once ticked the the tax inf
 
 Product dimentions to fill in
 
-image::dimension_details_tab.png[]
+image::dimension_details_tab.png[1440 x 900]
 
 === MULTI UOM TAB
 
@@ -133,7 +140,7 @@ This module allows to stock items with multiple units of measurement, UOM auto c
 
 In order to add Multi UOM click “+”. Once clicked it will open a 3rd container for the user to add UOM details
 
-image::multi_uom_tab.png[]
+image::multi_uom_tab.png[1440 x 900]
 
 * UOM - Unit of Measure. UOMs are used to quantify the inventory items and enables items to be tracked easily.
 
@@ -150,21 +157,21 @@ image::multi_uom_tab.png[]
 
 Used to link specific branches. This function will be used in all transactional applets. for example if a user links branch A and B then only these respective branches will be able to see the selected item in the POS applet. Branches can be created in the Organization applet.
 
-image::branch_linking_tab.png[]
+image::branch_linking_tab.png[1440 x 900]
 
 In Order to add a branch click “+”. Once clicked it will open a 3rd container for users to view listings of all branches where the user can select the preferred branches:
 
-image::branch_add.png[]
+image::branch_add.png[1440 x 900]
 
 === COMPANY LINKING
 
 Used to link companies. Companies can be created in the Organization applet. When linking a company the item will be visible for all branches that are under the chosen Company.
 
-image::company_linking_tab.png[]
+image::company_linking_tab.png[1440 x 900]
 
 In Order to add a company click “+”. Once clicked it will open a 3rd container for users to view listings of all companies. Here the user can select the preferred company.
 
-image::company_add.png[]
+image::company_add.png[1440 x 900]
 
 Note: if the user links company A and it has been linked to 5 BRANCHES but in Branch linking TAB the user only chooses 2 branches, then the item will be visible to ALL BRANCHES THAT IS LINKED UNDER THE COMPANY. If the user wants to link only specific branches then it needs to be chosen in the BRANCH LINKING TAB ONLY and COMPANY LINKING should remain empty.
 
@@ -176,27 +183,27 @@ PNS Settlement Method module is used to link Product to PNS (Products and Servic
 ** Payment Provider
 ** Membership Point Currency
 
-image::pns_settlment_method_tab.png[]
+image::pns_settlment_method_tab.png[1440 x 900]
 
 In Order to add a Settlement Method click “+”. Once clicked it will open a 3rd container for users to choose settlement type. Here the user can select the preferred type.
 
-image::settlement_method_linking.png[]
+image::settlement_method_linking.png[1440 x 900]
 
 === PRICING SCHEME
 
 The Pricing Scheme template is added in the PRICING SCHEME module, in this tab users can add a unit price for existing pricing scheme templates. Once added this information can be used in transactional applets.
 
-image::pricing_scheme_tab.png[]
+image::pricing_scheme_tab.png[1440 x 900]
 
 In Order to edit the price, click the item and it will open 3rd container for users to edit Unit Price.
 
-image::Item_price_edit.png[]
+image::Item_price_edit.png[1440 x 900]
 
 === MANAGE IMAGE TAB
 
 This tab is used to add and categorize images based on its type for example main image, promotional image or additional image. Users may update the period of the images they are going to be using as a reference, it has no functionality. Images may also be used in Ecomsync applet, CP Commerce applet and transactional applets such as POS and GRN. However, the date is only for user reference and is not meant to perform any actions.
 
-image::manage_image_tab.png[]
+image::manage_image_tab.png[1440 x 900]
 
 Image type is based on ecommerce requirements. There are three image types such as:
 
@@ -211,7 +218,7 @@ Image type is based on ecommerce requirements. There are three image types such 
 ** Promotional Image = a themed image (based on the occasion) of Samsung phone eg. Christmas sale
 ** Additional images = images of Samsung phone in a different angles, the box, or additional items inside the box
 
-image::image_category_add.png[]
+image::image_category_add.png[1440 x 900]
 
 === ENTITY PRICING
 
@@ -219,7 +226,7 @@ Entity Pricing module is used to set the price for the Product depending on the 
 
 In Order to add a Entity Price click “+”. It will open 3rd container for users to create the Price. Then click "Entity Code" to choose entity type.
 
-image::entity_pricing_tab.png[]
+image::entity_pricing_tab.png[1440 x 900]
 
 Select the Entity type from advanced search. There are three types of Entity to select:
 
@@ -229,18 +236,18 @@ Select the Entity type from advanced search. There are three types of Entity to 
 
 * Employee
 
-image::select_entity.png[]
+image::select_entity.png[1440 x 900]
 
 After selecting the Entity, click on the Item and it will automatically leads the user  to the previous page filled in with the Entity Code and Entity Name. In this page user set the price for selected Entity.
 
-image::select_entity_add.png[]
+image::select_entity_add.png[1440 x 900]
 
 
 === T2T ITEM MAPPING TAB
 
 Tenant to Tenant Item Mapping module is used to map Companies, Product Codes and Names in order to sync transactions
 
-image::t2t_item_mapping_tab.png[]
+image::t2t_item_mapping_tab.png[1440 x 900]
 
 *T2T Item Mapping tab includes three tabs as follows:*
 
@@ -255,7 +262,7 @@ image::t2t_item_mapping_tab.png[]
 
 In order to do the mapping, click "+" button, it will lead the user to the new page, where the user select the Tenant from dropdown list and add the item. 
 
-image::tenant_mapping.png[]
+image::tenant_mapping.png[1440 x 900]
 
 
 === MARKETPLACE TAB
@@ -268,35 +275,47 @@ Marketplace tab includes three more tabs to do all the configurations:
 * Other Resellers Website
 * Checking
 
-image::marketplace_tab.png[]
+image::marketplace_tab.png[1440 x 900]
 
 Users select and add the Stores by clicking the "+" button in the Main Tab
 
-image::marketplace_store_add.png[]
+image::marketplace_store_add.png[1440 x 900]
 
 * Other Resellers Tab
 
 ** This tab used if there are resellers who are distributing your products and selling them in other different Marketplaces. Fill in the URL of the Marketplace they use.
  
-image::marketplace_url.png[]
+image::marketplace_url.png[1440 x 900]
 
 * Checking Tab is for the reports shown from the Ecomsync applet. 
 
  === STOCK AVAILABILITY TAB
 
-image::stock_availability_tab.png[]
+ Stock availability tabs allow users to check whether the products are available in-store.
+
+image::stock_availability_tab.png[1440 x 900]
 
 === ATTRIBUTE SET TAB
 
-image::attribute_set_tab.png[]
+Attribute sets can be defined as a list of attributes where all the characteristics of a product are demonstrated.
+
+image::attribute_set_tab.png[1440 x 900]
 
 === PAGES TAB
 
-image::pages_tab.png[]
+When user click on the plus button, it will create a Post with Draft status and untitled post. 
+
+image::pages_tab.png[1440 x 900]
+
+User should click the created post in order To edit the status and the name of the post.
+
+image::pages_edit_main.png[1440 x 900]
 
 === REVIEWS TAB
 
-image::review_tab.png[]
+Review tab allows User or an Admin to configure reviews, settings, and votes for an item
+
+image::review_tab.png[1440 x 900]
 
 
 

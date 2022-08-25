@@ -1,10 +1,22 @@
 [#h3_doc_item_maintenance_search_filter]
 = Menu 08 - Search Filter
+Search filter menu allows the user to construct search filter
 
+image::search_filter_menu.png[1440 x 900]
 
-image::search_filter_menu.png[]
+== In order to create Search Filter , user click "+", and will go to the second page. In the main tab - user fills in:
 
-image::search_filter_create.png[]
+image::search_filter_create.png[1440 x 900]
+*Search Filter Code
+*Search Filter Name
+*Status
 
-image::search_filter_edit.png[]
+== Each created search filter would have section, and the sections will be displayed in the Cp-Commerce.
+
+image::search_filter_section.png[1440 x 900]
+
+And these sections are linked to the attributes where we show the options
+
+image::attribute_listing.png[1440 x 900]
+
 

@@ -3,4 +3,4 @@
 
 3.1 After closing Stock Take session, you may click on to the reports menu to view stock take listing
 
-image::view_stock_take_listing.png[]
+image::view_stock_take_listing.png[1440 x 900]
