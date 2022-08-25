@@ -6,7 +6,7 @@
 ** xref:member-label.adoc[Member Label]
 ** xref:member-label-list.adoc[Member Label List]
 ** xref:pts-ccy.adoc[PTS CCY Module]
-** xref:pts-ccy-config-module.adoc[PTS CCY Config Module]
+** xref:pts-ccy-config.adoc[PTS CCY Config Module]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]

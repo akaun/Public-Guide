@@ -15,9 +15,11 @@ nav:
 - modules/entity-maintenance-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/media-library-applet/nav.adoc
+- modules/membership-admin-applet/nav.adoc
 - modules/merchant-admin-maintenance-applet/nav.adoc
 - modules/organization-applet/nav.adoc
 - modules/payment-channel-applet/nav.adoc
+- modules/pricebook-applet/nav.adoc
 - modules/stock-take-v2-applet/nav.adoc
 - modules/supplier-maintenance-applet/nav.adoc
 - modules/tax-configuration-applet/nav.adoc
