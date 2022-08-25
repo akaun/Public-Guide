@@ -228,7 +228,7 @@ Transaction in which the sales order is fully or partially settled.
 
 Click on the '+' button to Add a New Settlement
 
-image::setttlement_tab.png[1440 x 900]
+image::settlement_tab.png[1440 x 900]
 
 Select the Settlement method
 
