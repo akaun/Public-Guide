@@ -13,6 +13,7 @@ nav:
 - modules/doc-item-maintenance-applet/nav.adoc
 - modules/employee-maintenance-applet/nav.adoc
 - modules/entity-maintenance-applet/nav.adoc
+- modules/group-maintenance-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/media-library-applet/nav.adoc
 - modules/membership-admin-applet/nav.adoc

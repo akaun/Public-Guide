@@ -1,5 +1,7 @@
 * Group Maintenance Applet 
 ** xref:introduction.adoc[Introduction]
+** xref:installation.adoc[Installation]
+** xref:group-listing.adoc[Group Listing]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
