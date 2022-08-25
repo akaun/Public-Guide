@@ -5,7 +5,7 @@ Please click the "+" button to Create a new Settlement Method.
 
 image::settlement-method-listing-mainpage.png[Settlement Method Listing Mainpage, align = "center"]
 
-Please fill up the compulsory information for creating the settlement method. After filled up all Compulsory information. Please click "Save" to add a new Settlement method. 
+Please fill up the compulsory * information for creating the settlement method. After filled up all Compulsory * information. Please click "Save" to add a new Settlement method. 
 
 Compulsory information:
 

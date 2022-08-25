@@ -5,7 +5,7 @@ include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/cashbook-listing.adoc[leveloffset=3]
 
-include::pages/settlement-method-listing[leveloffset=3]
+include::pages/settlement-method-listing.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 
