@@ -1,0 +1,194 @@
+[#h3_supplier_maintenance_applet_supplier]
+= Supplier
+
+Please click the "+" button to Create a new Supplier.
+
+image::supplier-listing-mainpage.png[Supplier Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the Supplier. After filled up all Compulsory * information. Please click "Create" to add a new Supplier. 
+
+Compulsory information:
+
+    1. Supplier Name
+    2. Supplier Code
+    3. Status- Active or Inactive
+    4. Entity Type-Individual or Corporate
+    5. Individual-Need to select identity type and key in the Identity number
+    6. Corporate-Company registration number is required.
+    7. ID Number
+    8. Currency-Select it from the list
+    9. GL Code-configured in Chart of Account Applet
+
+image::create-supplier.png[Create Supplier, align = "center"]
+
+After adding the supplier, it will be listed in the main page. Please click on the supplier to edit it. 
+
+You can edit the details, login,Payment config, Tax, Address, Contact, Branch, and Remark of the supplier.
+
+== Main
+
+In the "Main" tab, the following information can be edited:
+
+    1. Supplier name
+    2. Status
+    3. Type
+    4. Identity Type-Passport or Identity card (IC)
+    5. ID Number
+    6. Currency
+    7. Description
+    8. GL Code
+    9. Email
+
+You can click the "delete" button to remove the Supplier from the supplier listing.
+
+image::edit-supplier-main.png[Edit Supplier Main, align = "center"]
+
+== Category
+
+In the "Category" tab, the supplier can be added to different category, the following information is required.
+
+Please click the "+" button to add a category.
+
+image::supplier-add-category.png[Add Category, align = "center"]
+
+Please search and select the relevant category from the list, and then click the "add" button. These categories are configured in the Category module.
+
+You can remove the category from the list by clicking on the listed category for the Customer.
+
+== Login
+
+In the "Login" tab, the supplier user email that used to login to the system will be listed, the following information is required.
+
+Please click the "+" button to add login.
+
+    1. User Email-Please key in the valid email address
+    2. Please select the Rank from the list
+        a. Owner
+        b. Admin
+        c. Manager
+        d. Member
+        e. Guest
+        f. Visitor
+        g. Anonymous
+    3. Status: Active or Inactive
+
+image::supplier-create-login.png[Create Login, align = "center"]
+
+Please click the "Add" button to create a new login.
+
+image::supplier-edit-login.png[Edit Login, align = "center"]
+
+You can edit or remove the login email from the list by clicking on the listed user email.
+
+== Payment Config
+
+In the Payment Config tab, the supplier payment methods will be listed,  the following information is compulsory.
+
+Please click the "+" button to add payment config.
+
+    1. Payee residential status- Resident or non-resident
+    2. Payment type-please select it from the dropdown list.
+
+image::supplier-create-payment-config.png[Create Payment Config, align = "center"]
+
+Please click the "Add" button to create a new payment config.
+
+You can edit or remove the payment config from the list by clicking on the listed Payment Configuration.
+
+== Tax
+
+In the "Tax" tab, the tax details will be added to the supplier, please configure the tax dropdown list in tax configuration applet, the following information is required.
+
+Please Click the "+" button to add Tax.
+
+    1. Country
+    2. Tax Type
+    3. Tax Code
+    4. Tax rate
+    5. Option-Include or Exclude
+
+image::supplier-create-tax.png[Create Tax, align = "center"]
+
+Please click the "Add" button to create a new tax.
+
+You can edit or remove the tax from the list by clicking on the listed tax.
+
+== Address
+
+In the "Address" tab, the Addresses will be added to the supplier, the following information is required.
+
+Please Click the "+" button to add an address.
+
+    1. Address Name
+    2. Address Type-Billing address or Shipping Address
+    3. Address line 1
+    4. Country
+    5. State
+    6. City
+    7. Postcode
+
+image::supplier-create-address.png[Create Address, align = "center"]
+
+Please click the "Add" button to create a new Address.
+
+You can edit or remove the Address from the list by clicking on the listed address.
+
+== Contact
+
+In the "Contact" tab, the Contact details will be added to the supplier the following information is compulsory.
+
+Please click the "+" button to add contact.
+
+    1. Contact Name
+    2. Contact ID
+    3. Designation/Position
+    4. Mobile No.
+
+Please click the "Add" button to create a new contact.
+
+image::supplier-create-contact.png[Create Contact, align = "center"]
+
+You can edit or remove the contact from the list by clicking on the listed contact.
+
+== Branch
+
+In the "Branch" tab, the branches of the supplier will be listed, the following information is compulsory.
+
+Please click the "+" button to add a branch.
+
+    1. Branch Name 
+    2. Branch Code
+
+Please click the "Add" button to create a new Branch.
+
+image::supplier-create-branch.png[Create Branch, align = "center"]
+
+You can edit or remove the branch from the list by clicking on the listed branch.
+
+== Company Linking
+
+In the Company Linking tab, the supplier can be added to different category, the following information is required.
+
+Please click the "+" button to add a company.
+
+image::supplier-company-linking.png[Company Linking, align = "center"]
+
+Please search and select the relevant category from the list, and then click the "add" button. 
+
+== Remark
+
+In the "Remark" tab, the remark can be added to the supplier.
+
+image::supplier-remark.png[Remark, align = "center"]
+
+Please click the "Save" button after you key in the details.
+
+== Employee
+
+In the Employee tab, the supplier can be added to different category, the following information is required.
+
+Please click the "+" button to add a company.
+
+image::supplier-employee.png[Employee, align = "center"]
+
+Please search and select the relevant category from the list, and then click the "add" button. 

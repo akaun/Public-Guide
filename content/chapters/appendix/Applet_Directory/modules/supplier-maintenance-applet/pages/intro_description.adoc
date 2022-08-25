@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Supplier Applet is used to add the supplier details such as login, payment configuration, tax, address and more to integrate them to other applets. The supplier also can be categorized in this applet. There are two modules in the supplier applet, which are "Supplier" and 'Category'.

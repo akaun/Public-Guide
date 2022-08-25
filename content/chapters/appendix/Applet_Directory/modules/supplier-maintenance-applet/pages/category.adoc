@@ -1,0 +1,23 @@
+[#h3_supplier_maintenance_applet_category]
+= Category
+
+Please click on "Category" from the module list and click "+" button to create a new supplier category.
+
+image::supplier-category-listing-mainpage.png[Supplier Category Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the supplier category. After filled up all Compulsory * information. Please click "Create" to add a new supplier category. 
+
+Compulsory information:
+
+    1. Category Code
+    2. Category name
+
+image::category-create-category.png[Create Category, align = "center"]
+
+You can select the parent category from the dropdown list which was already created before.
+
+image::category-edit-category.png[Edit Category, align = "center"]
+
+After adding the category, it will be listed in the main page. Please click on the category to edit or remove it.
+
+You can go to supplier -> supplier category tab to categorize the supplier. 

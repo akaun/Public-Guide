@@ -1,5 +1,7 @@
 * Supplier Maintenance Applet
 ** xref:introduction.adoc[Introduction]
+** xref:supplier.adoc[Supplier]
+** xref:category.adoc[Category]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
