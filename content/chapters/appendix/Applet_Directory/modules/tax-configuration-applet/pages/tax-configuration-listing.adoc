@@ -1,0 +1,42 @@
+[#H3_tax_configuration_applet_tax_listing]
+= Tax Configuration Listing
+
+Please click the "+" button to add a new tax configuration.
+
+image::tax-configuration-listing-mainpage.png[Tax Configuration Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the tax configuration. 
+
+Compulsory Information:
+
+    1. Country
+    2. Tax Code
+    3. Tax Name
+    4. Tax type - GST input, GST output, SST SLS input, SST SLS output, SST SVC input, SST SVC output, WITH input and WITH output
+    5. Tax Type name - will auto filled once you select the tax type
+
+image::create-tax-configuration.png[Create Tax Configuration, align = "center" ]
+
+After adding the tax configuration, it will be listed in the main page. Please click on the tax configuration to edit it. 
+
+== Details
+
+Please edit the Tax configuration general information from the "Details" tab.
+
+Only the following fields can be edited:
+
+    1. Country
+    2. Tax Code
+    3. Tax Name
+    4. Tax type 
+    5. Tax Type name - will auto filled once you select the tax type
+    6. Tax Rate
+    7. Status
+    8. Standard tax code
+    9. Major industry code / Tariff Code
+
+image::edit-tax-configuration.png[Edit Tax Configuration, align = "center"]
+
+After editing the information, Please click "Save" to update it.
+
+Please click the "Delete" button if you want to remove the tax configuration from the list.

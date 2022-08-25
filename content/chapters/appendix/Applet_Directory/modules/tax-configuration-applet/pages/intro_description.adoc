@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Tax Configuration Applet helps to create and manage the tax code, tax name and tax rate to be used by other applets which require tax details. There is only one module in the applet which is "Tax Configuration" Module.
