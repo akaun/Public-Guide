@@ -1,0 +1,108 @@
+[#h3_cashbook_applet_cashbook_listing]
+= Cashbook Listing
+
+== Cashbook
+
+Please click the "+" button to Create a new Member.
+
+image::cashbook-listing-mainpage.png[Cashbook Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the Cashbook. After filled up all Compulsory * information Please click "Save" to add a new Cashbook. 
+
+Compulsory information:
+
+    1. Cashbook Name
+    2. Cashbook Code
+    3. Search Company Code/Name - Configured in organization Applet
+    4. Search Currency Code / Name
+    5. Search GL Code/Name - Configured in Chart of Account Applet
+
+image::create-cashbook.png[Create Cashbook, align = "center"]
+
+After adding the Cashbook, it will be listed in the main page. Please click on the cashbook to edit it. 
+
+You can edit the details, triggers & limits and members of the cashbook.
+
+=== Details
+
+In details tab, the following information can be edited:
+
+    1. Cashbook Name
+    2. Cashbook Code
+    3. Description
+    4. Account Number
+    5. Search Company Code/Name - Configured in organization Applet
+    6. earch Branch - Configured in organization Applet
+    7. Bank
+    8. Search Currency Code / Name
+    9. Search GL Code/Name - Configured in Chart of Account Applet
+    10. Status
+
+image::edit-cashbook-details.png[Edit Cashbook Details, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the cashbook from the cashbook listing.
+
+=== Triggers & Limits
+
+In the triggers & limits tab, you can add triggers and limits to the cashbook. The following information can be edited:
+
+    1. Low level Trigger
+    2. High level Trigger
+    3. Facility Amount
+    4. Overdraft Limit
+
+image::edit-cashbook-trigger-limits.png[Edit Cashbook Trigger & Limits, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the Triggers & Limits from the cashbook.
+
+=== Members 
+
+In the members tab, you can add members to the cashbook. 
+
+Please click the "+" button to add a member to the cashbook.
+
+The following fields are compulsory:
+
+    1. Select Email - Registered Akaun Account
+    2. Select Rank - Only Member
+    3. Select Status - Active or not Active
+
+image::edit-cashbook-create-members.png[Create Members, align = "center"]
+
+Please click the "save" button to add the member to the cashbook.
+
+After adding the member, it will be listed in the Member tab. Please click on the member to edit it.
+
+image::edit-cashbook-edit-members.png[Edit Members, align = "center"]
+
+Only status can be edited. After updating the status, please click "save".
+
+Please click "delete" to remove the member from the cashbook.
+
+=== Weightage Configuration
+
+In the weightage configuration tab, you can add weightage configuration to the cashbook. 
+
+Please click the "+" button to add a weightage configuration to the cashbook.
+
+The following fields are compulsory:
+
+    1. Configuration Code
+    2. Configuration Name
+    3. Select Status - Active or not Active
+
+image::create-weightage-configuration.png[Create Weightage Configuration, align = "center"]
+
+Please click the "save" button to add the weightage configuration to the cashbook.
+
+After adding the weightage configuration, it will be listed in the Weightage Configuration tab. Please click on the weightage configuration to edit it.
+
+image::edit-weightage-configuration.png[Edit Weightage Configuration, align = "center"]
+
+After updating the details, please click "save".
+
+Please click "delete" to remove the weightage configuration from the cashbook.

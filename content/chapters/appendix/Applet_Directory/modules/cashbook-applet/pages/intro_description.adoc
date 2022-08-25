@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to configure and manage the Cashbook and the Settlement method. For example, add an updated settlement method to the cash book which is configured with tax, charges and payment methods. This applet also can help the users to record the error of the settlement method (payment provider error). There are two modules in the applet which are Cash book, and settlement Method. 

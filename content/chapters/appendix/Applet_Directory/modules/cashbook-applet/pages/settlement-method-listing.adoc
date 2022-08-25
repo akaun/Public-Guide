@@ -1,0 +1,104 @@
+[#h3_cashbook_applet_settlement_method_listing]
+= Settlement Method Listing
+
+Please click the "+" button to Create a new Settlement Method.
+
+image::settlement-method-listing-mainpage.png[Settlement Method Listing Mainpage, align = "center"]
+
+Please fill up the compulsory *  information for creating the settlement method. After filled up all Compulsory * information. Please click "Save" to add a new Settlement method. 
+
+Compulsory information:
+
+    1. Code
+    2. Name
+    3. Cashbook - Configured in Cashbook Module
+
+image::create-settlement-method.png[Create Settlement Method, align = "center"]
+
+After adding the Settlement method, it will be listed in the main page. Please click on the settlement method to edit it. 
+
+You can edit the details, charges, tax and payment provider error codes of the settlement method.
+
+==  Details
+
+In details tab, the following information can be edited:
+
+    1. Sort Code
+    2. Code
+    3. Name
+    4. Cashbook - Configured in Cashbook Module
+    5. Label 
+        a. Please click "+" button to add new label
+            - Code
+            - Name
+            - Nested Under - Can be Edited from the label field
+        b. Please click the "Edit" button to add or edit labels.
+            - Please click "+" button to add new label
+            - Please click on the listed label to update or remove the label
+    6. Payment Provider/Bank name
+    7. Select the settlement type
+    8. Status
+
+image::edit-settlement-method-details.png[Edit Details, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the settlement method from the settlement method  listing.
+
+== Charges 
+
+In the Charges tab, you can add any charges to the settlement method. The following information can be edited:
+
+    1. Bank Charges
+    2. Mode - Ratio or Absolute
+    3. Rate
+    4. Min Limit
+    5. Max Limit
+    6. Absolute Value
+    7. Surcharge to customer
+    8. Mode - Ratio or Absolute
+    9. Rate
+    10. Rounding Precision
+    11. Absolute Value
+    12. Item Code - Configured in Doc item Maintenance Applet
+
+image::edit-settlement-method-charges.png[Edit Charges, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the Charges from the settlement method.
+
+== Tax
+
+In the tax tab, you can add tax type and rate to the settlement method. There are two method you need to select:
+
+    1. Tax on charges 
+    2. Tax Code - Configured in Tax configuration Applet
+    3. Tax Rate
+    4. WTH on charges
+    5. Tax Code - Configured in Tax configuration Applet
+    6. Tax Rate
+
+image::create-tax.png[Create Tax, align = "center"]
+
+Please click the "save" button to update the changes.
+
+image::view-tax.png[View Tax, align = "center"]
+
+You can click the "delete" button to remove the tax from the settlement method.
+
+== Payment Provider Error Codes
+
+In the payment provider error codes tab, Please click on the "+" button to add errors to the settlement method.
+
+    1. Code
+    2. Description
+    3. Remarks
+
+image::add-settlement-method-error-code.png[Add Settlement Method Error Code, align = "center"]
+
+Please click the "Add" button to add the error or click the "Cancel" button to cancel the updating of error.
+
+image::edit-settlement-method-error.code[Edit Settlement Method Error Code, align = "center"]
+
+You can click the "delete" button to remove the payment provider error codes from the settlement method.
