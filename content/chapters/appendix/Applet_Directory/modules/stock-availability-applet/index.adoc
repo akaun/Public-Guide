@@ -1,4 +1,4 @@
-[#h2_stock-availability-applet_index]
+[#h2_stock_availability_applet_index]
 = Stock Availability Applet
 
 include::pages/introduction.adoc[leveloffset=3]

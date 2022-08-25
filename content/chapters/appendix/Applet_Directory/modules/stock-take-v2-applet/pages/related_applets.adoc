@@ -4,11 +4,11 @@
 This applet also depends on the following applets:
 
 // * xref:reference_anchor_id[xrefstyle=full] 
-* xref:h2_organization_applet[xrefstyle=full] 
+* xref:h2_organization_applet_index[xrefstyle=full] 
 
 * xref:h2_inventory_item_maintenance_applet[xrefstyle=full]
 
-* xref:h2_doc_item_maintenance_applet[xrefstyle=full]
+* xref:h2_doc_item_maintenance_applet_index[xrefstyle=full]
 
 
 The following applets depends on this applet:
@@ -17,4 +17,3 @@ The following applets depends on this applet:
 
 * Applet 4
 
-Also see

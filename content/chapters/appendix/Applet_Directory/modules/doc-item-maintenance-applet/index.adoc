@@ -1,4 +1,4 @@
-[#h2_doc_item_maintenance_applet]
+[#h2_doc_item_maintenance_applet_index]
 = Doc Item Maintenance Applet
 
 
