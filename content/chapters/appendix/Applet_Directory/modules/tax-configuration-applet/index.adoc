@@ -1,4 +1,4 @@
-[#h2_tax_configuration_applet]
+[#h2_tax_configuration_applet_index]
 = Tax Configuration Applet
 
 

@@ -1,4 +1,4 @@
-[#h2_pricebook-applet_index]
+[#h2_pricebook_applet_index]
 = Pricebook Applet
 
 include::pages/introduction.adoc[leveloffset=3]

@@ -3,10 +3,23 @@
 
 This applet also depends on the following applets:
 
-// * xref:reference_anchor_id[xrefstyle=full] 
-* Applet 1
+* xref:h2_stock_availability_applet_index[xrefstyle=full]  
 
-* Applet 2
+* xref:h2_organization_applet_index[xrefstyle=full] 
+
+* xref:h2_doc_item_maintenance_applet_index[xrefstyle=full] 
+
+* xref:h2_pricebook_applet_index[xrefstyle=full] 
+
+xref:h2_tax_configuration_applet_index[xrefstyle=full] 
+
+
+
+
+Customer Maintenance Applet
+
+Chart of Accounts Applet
+
 
 
 The following applets depends on this applet:
