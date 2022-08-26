@@ -38,7 +38,7 @@ You can click the "delete" button to remove the payment provider from the paymen
 
 In the Payment Channel Priority tab, you can view the details of payment channel priority. 
 
-image::edit-payment-channel-payment-channel-priority.png[Edit Payment Channel Priority, align = "center"]
+image::edit-payment-provider-payment-channel-priority.png[Edit Payment Channel Priority, align = "center"]
 
 Please click the "save" button to update the changes.
 
@@ -50,4 +50,4 @@ In the manage images tab, you can add images to the payment provider.
 
 Please click the "add" button to update the changes.
 
-image::edit-payment-channel-manage-images.png[Manage Images, align = "center"]
+image::edit-payment-provider-manage-images.png[Manage Images, align = "center"]

@@ -1,7 +1,7 @@
 * Payment channel Applet
 ** xref:introduction.adoc[Introduction]
 ** xref:payment-channel.adoc[Payment Channel]
-** xref:payment-provider.aodc[Payment Provider]
+** xref:payment-provider.adoc[Payment Provider]
 ** xref:contracts.adoc[Contracts]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]

@@ -17,4 +17,4 @@ image::create-employee-category.png[Create Employee Category, align = "center"]
 
 After adding the Employee Category it will be listed in the main page and Employee maintenance applet. Please click on the Employee Category to edit or remove it. 
 
-image::edit-employee-category[Edit Employee Category, align = "center"]
+image::edit-employee-category.png[Edit Employee Category, align = "center"]

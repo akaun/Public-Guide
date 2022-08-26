@@ -49,7 +49,7 @@ In the Configuration tab, you can configure the payment channel. The following i
     4. Max payment amount
     5. Fixed Transaction amount: Please click on add button to edit or delete the fixed transaction amount
 
-image::edit-payment-channel-configuration[Edit Configuration, align = "center"]
+image::edit-payment-channel-configuration.png[Edit Configuration, align = "center"]
 
 Please click the "save" button to update the changes.
 
