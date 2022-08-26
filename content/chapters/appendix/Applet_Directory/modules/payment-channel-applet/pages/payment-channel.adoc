@@ -1,0 +1,92 @@
+[#h3_payment_channel_applet_payment_channel_listing]
+= Payment Channel Listing
+
+Please click the "+" button to Create a Payment Channel.
+
+image::payment-channel-listing.png[Payment Channel Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the Payment Channel. After filled up all Compulsory * information. Please click "Save" to add a new Payment Channel. 
+
+Compulsory information:
+
+    1. Acquirer
+    2. Payment Channel Currency
+    3. Payment Channel Name
+    4. Country
+    5. Payment Channel Code
+    6. Payment Channel Status
+    7. Forwarding Rules
+
+image::create-payment-channel.png[Create Payment Channel, align = "center"]
+
+After adding the Payment Channel, it will be listed in the main page. Please click on the Payment Channel to edit it. 
+
+You can edit the details, configuration, category,  Tax & Billing, Logo and Audit of the Payment Channel.
+
+== Details
+
+In details tab, the following information can be edited:
+
+    1. Acquirer
+    2. Country
+    3. Payment Provider Code
+    4. Payment Channel Status
+    5. Description
+
+image::edit-payment-channel-details.png[Edit Details, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the Payment Channel from the Payment Channel listing.
+
+== Configuration
+
+In the Configuration tab, you can configure the payment channel. The following information can be edited:
+
+    1. Forwarding rules
+    2. Maintenance mode
+    3. Min payment amount
+    4. Max payment amount
+    5. Fixed Transaction amount: Please click on add button to edit or delete the fixed transaction amount
+
+image::edit-payment-channel-configuration[Edit Configuration, align = "center"]
+
+Please click the "save" button to update the changes.
+
+== Category
+
+In the category tab, you can categorize the payment channel. 
+
+Please click the "+" button to select the category from the list and Add to the payment channel (The Categories will be listed after the category created in the category module).
+
+image::edit-payment-channel-category.png[Edit Payment Channel Category, align = "center"]
+
+== Tax & Billing
+
+In the Tax & Billing tab, you can add tax and billing to the payment channel. 
+
+Please click the "+" button to add the tax to the payment channel (The Tax will be configured in the tax configuration applet). 
+
+image::edit-payment-channel-tax.png[Edit Tax, align = "center"]
+
+The following fields should be filled up:
+
+    1. Country
+    2. Tax Type
+    3. Tax Code
+    4. Tax Rate
+    5. Tax Option
+
+== Logo
+
+In the Logo tab, you can add a logo to the payment channel. 
+
+image::edit-payment-channel-logo.png[Edit Logo, align = "center"]
+
+Please click the box and browse the logo from the computer's payment channel.
+
+== Audit
+
+In the Audit tab, you can check the summary of actions taken to the payment channel. 
+
+image::edit-payment-channel-audit.png[Edit Audit, align = "center"]

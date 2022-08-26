@@ -1,0 +1,53 @@
+[#h3_payment_channel_applet_payment-provider]
+= Payment Provider
+
+Please click the "+" button to Create a new Payment Provider.
+
+image::payment-provider-listing-mainpage.png[Payment Provider Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the Payment Provider. After filled up all Compulsory * information, please click "Save" to add a new Payment Provider.
+
+Compulsory information:
+
+    1. Payment Provider Code
+    2. ayment Provider Name
+    3. Status
+
+image::create-payment-provider.png[Create Payment Provider, align = "center"]
+
+After adding the Payment Provider, it will be listed in the main page. Please click on the Payment Provider to edit it. 
+
+You can edit the details, payment channel priority and manage images of the payment provider.
+
+== Details
+
+In details tab, the following information can be edited:
+
+    1. Payment Provider Name
+    2. Payment Provider Category
+    3. Status
+    4. Description
+
+image::edit-payment-provider-details.png[Edit Details, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the payment provider from the payment provider  listing.
+
+== Payment Channel Priority
+
+In the Payment Channel Priority tab, you can view the details of payment channel priority. 
+
+image::edit-payment-channel-payment-channel-priority.png[Edit Payment Channel Priority, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the Charges from the payment provider.
+
+== Manage Image
+
+In the manage images tab, you can add images to the payment provider. 
+
+Please click the "add" button to update the changes.
+
+image::edit-payment-channel-manage-images.png[Manage Images, align = "center"]

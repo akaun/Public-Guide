@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to configure and manage the Payment channel, Payment Provider, Payment channel contract and Payment channel charge rate. In this applet users also can create categories and category groups for better managing the payment channels.

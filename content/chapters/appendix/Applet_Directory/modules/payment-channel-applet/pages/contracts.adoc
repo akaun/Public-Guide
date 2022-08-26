@@ -1,0 +1,51 @@
+[#h3_payment_channel_applet_contracts]
+= Contracts
+
+Please click the "+" button to Create a new Contract.
+
+image::payment-gateway-contract-listing-mainpage.png[Payment Gateway Contract Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the contract. After filled up all Compulsory * information. Please click "Save" to add a new contract. 
+
+Compulsory information:
+
+    1. Contract Company
+    2. Payment Gateway Company
+    3. Payment Channel
+    4. Contract Key
+    5. Contract Status
+
+image::create-contact.png[Create Contacts, align = "center"]
+
+After adding the contract, it will be listed in the main page. Please click on the Contract to edit it. 
+
+You can edit the details, Contract Rate and Audit rate of the contract.
+
+== Details
+
+In details tab, the following information can be edited:
+
+    1. Contract company
+    2. Payment Gateway Company
+    3. Payment Channel
+    4. Contract Key
+    5. Contract Status
+    6. Edit Contract Credentials
+
+image::edit-contract-details.png[Edit Contract Details, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the contract from the contract listing.
+
+== Contract Rate
+
+In the contract rate tab, you can update the charges for the contract.
+
+image::create-charge-rate.png[Create Charge Rate, align = "center"]
+
+Please click on the charge and update the contract rate name and rate accordingly.
+
+== Audit Rate
+
+In the audit rate tab, you can check the summary of actions taken to the contracts. 
