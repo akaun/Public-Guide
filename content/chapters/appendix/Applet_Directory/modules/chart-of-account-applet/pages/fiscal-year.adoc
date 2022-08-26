@@ -1,0 +1,13 @@
+[#h3_chart_of_account_fiscal_year]
+= Fiscal Year
+
+Please click the "+" button to Create a new fiscal year.
+
+Please fill up the compulsory * information for creating the fiscal year. After filled up all Compulsory * information. Please click "Create" to add a new fiscal year. 
+
+Required Information:
+
+    1. Company 
+    2. Name
+    3. Start Date
+    4. End date

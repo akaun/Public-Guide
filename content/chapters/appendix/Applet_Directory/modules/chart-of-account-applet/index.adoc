@@ -1,10 +1,19 @@
 [#h2_chart_of_account_applet]
 = Chart of Account Applet
 
-
-
-
 include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/chart-of-account.adoc[leveloffset=3]
+
+include::pages/gl-category.adoc[leveloffset=3]
+
+include::pages/gl-code.adoc[leveloffset=3]
+
+include::pages/companies.adoc[leveloffset=3]
+
+include::pages/set-of-books.adoc[leveloffset=3]
+
+include::pages/fiscal-year.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 

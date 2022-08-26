@@ -1,0 +1,29 @@
+[#h3_chart_of_account_gl_code]
+= GL Code Listing
+
+Please click the "+" button to Create a new GL Code.
+
+Please fill up the compulsory * information for creating the GL Code. After filled up all Compulsory * information. Please click "Save" to add a new GL Code. 
+
+Required Information:
+    1. GL Code
+    2. GL Name
+    3. Chart of account - list of Chart of account which are created in the Chart of account module.
+    4. GL Category - List of GL Categories from GL Category Module.
+    5. Description
+
+After adding the GL Code, it will be listed in the main page. Please click on the GL Code to edit it. 
+
+You can edit the details of the GL Code
+
+== Details
+
+In details tab, the following information can be edited:
+
+    1. GL Name
+    2. Chart of Account - Created in Chart of account module.
+    3. GL Category - Can move the GL Code from current GL Category to another GL Category which is already created
+    4. Description
+
+Please click the "save" button to update the changes.
+You can click the "delete" button to remove the GL Category from the GL Category listing.

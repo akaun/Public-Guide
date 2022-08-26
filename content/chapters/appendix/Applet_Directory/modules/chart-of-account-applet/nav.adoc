@@ -1,5 +1,11 @@
 * Chart Of Account Applet
 ** xref:introduction.adoc[Introduction]
+** xref:chart-of-account.adoc[Chart of Account]
+** xref:gl-category.adoc[GL Category]
+** xref:gl-code.adoc[GL Code]
+** xref:companies.adoc[Companies]
+** xref:set-of-books.adoc[Set of Books]
+** xref:fiscal-year.adoc[Fiscal Year]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]

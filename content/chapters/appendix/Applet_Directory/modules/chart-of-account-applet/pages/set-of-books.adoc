@@ -1,0 +1,34 @@
+[#h3_chart_of_account_set_of_books]
+= Set of Books
+
+Please click the "+" button to Create a new set of books.
+
+Please fill up the compulsory * information for creating the set of books. After filled up all Compulsory * information. Please click "Create" to add a new set of books. 
+
+Required Information:
+
+    1. Name
+
+After adding the set of books, it will be listed in the main page. Please click on the set of books to edit it.
+
+You can edit the details and ledgers of set of books
+
+== Details
+
+In details tab, the following information can be edited:
+
+    1. Name
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the set of books from the list.
+
+== Ledgers
+
+In the ledgers tab, you can add the Ledgers to the set of books. 
+
+Please click the "+" button to add a Ledger to the set of books.
+
+You can select the ledger that has already been created in the companies Module.
+
+You can click on the listed Ledgers in the Ledgers tab to delete it from the set of books.

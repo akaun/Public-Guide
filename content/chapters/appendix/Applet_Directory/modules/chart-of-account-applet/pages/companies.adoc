@@ -1,0 +1,36 @@
+[#h3_chart_of_account_companies]
+= Companies
+
+The Companies automatically listed in the Companies menu after the chart of accounts is selected in the organization applet.
+
+Please click on the Company to edit it. 
+
+You can edit the main, Ledgers and Fiscal Year of the GL Code.
+
+== Main
+
+In Main tab, the following information will be shown but cannot edit any of the fields:
+
+    1. Code
+    2. Name
+    3. Company Registration no
+    4. Currency
+
+== Ledgers
+
+In the ledgers tab, you can add the Ledgers to the Company. 
+
+Please click the "+" button to add a Ledger to the Company.
+
+The following fields are Required:
+
+    1. Ledger Code
+    2. Ledger Name
+    3. Ledger Type
+    4. Currency
+
+After adding the ledger, it will be listed in the Ledgers tab. Please click on the Ledger to add a sub ledger. 
+
+GL Code of the company will be listed in "Edit Sub Ledgers" page. Please click on action to create the sub ledger.
+
+In the fiscal year tab, you can see the list of fiscal year to the Company. 

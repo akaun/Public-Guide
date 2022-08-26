@@ -1,0 +1,65 @@
+[#h3_chart_of_account_gl_category]
+= GL Category Listing
+
+Please click the "+" button to Create a new GL Category.
+
+Please fill up the compulsory * information for creating the GL Category. After filled up all Compulsory * information, please click "Save" to add a new GL Category.
+
+Compulsory information:
+
+    a. GL Category Code
+    b. GL Category Name
+
+After adding the GL Category, it will be listed in the main page. Please click on the GL Category to edit it. You can edit the details, and GL Code of the GL Category.
+
+== Details
+
+In details tab, the following information can be edited:
+
+    a. GL Category Name
+    b. Chart of Account
+    c. GL Category
+    d. Description
+    e. Account No.
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the GL Category from the GL Category listing.
+
+== GL Code
+
+In the GL Code tab, you can add the GL Code to the GL Category. 
+
+Please click the "+" button to add a GL Code to the GL Category.
+
+The following fields are Required:
+
+    1. GL Code
+    2. GL Name
+    3. Chart of account - list of Chart of account which are created in the Chart of account module.
+    4. GL Category - Automatically selected
+
+Please click the "save" button to add the GL Code  to the GL Category.
+
+GL Code created in GL Category will be listed in GL Code Module.
+
+
+After adding the GL Code, it will be listed in the GL Code  tab. Please click on the GL Code to edit it. 
+
+Following fields can be edited.
+    1. GL Name
+    2. Chart of Account - Created in Chart of account module
+    3. GL Category - Can move the GL Code from current GL Category to another GL Category which is already created 
+    4. Description
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the GL Category from the GL Category listing.
+
+
+
+
+
+
+
+

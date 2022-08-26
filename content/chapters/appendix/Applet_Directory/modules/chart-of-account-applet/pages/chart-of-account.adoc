@@ -1,0 +1,98 @@
+[#h3_chart_of_account_applet]
+= Chart of Account Listing
+
+Please click the "+" button to Create a new Chart of Account.
+Please fill up the compulsory * information for creating the Chart of Account. After filled up all Compulsory * information, please click "Save" to add a new Chart of Account. 
+
+Compulsory information:
+
+    a. COA Name
+    b. COA Code - Cannot be modified after creation
+
+After adding the Chart of Account, it will be listed in the main page. Please click on the Chart of Account to edit it. 
+
+You can edit the Details,Templates, Segments, Dimensions, Profit Center, and Project of the chart of account.
+
+== Details
+
+In details tab, the following information can be edited:
+
+    a. COA Name
+    b. Description
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the chart of account from the chart of account listing.
+
+== Segments
+
+In the segments tab, you can add segments to the chart of accounts. 
+
+Please click the "+" button to add a segment to the chart of the account.
+
+The following fields are compulsory:
+
+    a. Segment code
+    b. Segment Name
+
+Please click the "save" button to add the Segment to the chart of account.
+
+After adding the segment, it will be listed in the segments tab. Please click on the segment to edit it.
+
+Only Segment Name, Description and status can be edited. After updating the status, please click "save".
+
+== Dimensions
+
+In the dimensions tab, you can add dimensions to the chart of accounts. 
+
+Please click the "+" button to add a dimension to the chart of the account.
+
+The following fields are compulsory:
+
+    a. Dimension code
+    b. Dimension Name
+
+Please click the "save" button to add the Dimension to the chart of account.
+
+After adding the Dimension, it will be listed in the dimensions tab. Please click on the dimension to edit it.
+Only dimension Name, Description and status can be edited. After updating the status, please click "save".
+
+== Profit Center
+
+In the profit center tab, you can add profit center to the chart of accounts. 
+
+Please click the "+" button to add a profit center to the chart of accounts.
+
+The following fields are compulsory:
+
+    a. Profit Center Code
+    b. Profit Center Name
+
+Please click the "save" button to add the profit center to the chart of accounts.
+
+After adding the profit center, it will be listed in the profit center tab. Please click on the profit center to edit it.
+Only profit center Name, Description and status can be edited. After updating the status, please click "save".
+
+== Project
+
+In the project tab, you can add project to the chart of accounts. 
+
+Please click the "+" button to add a project to the chart of accounts.
+
+The following fields are compulsory:
+
+    a. Project Code
+    b. Project Name
+    c. Project Description
+
+Please click the "save" button to add the project to the chart of accounts.
+
+Please click the "save" button to add the project to the chart of account.
+
+After adding the project, it will be listed in the project tab. Please click on the project to edit it.
+Only project Name, Description and status can be edited. After updating the status, please click "save".
+
+
+
+
+
