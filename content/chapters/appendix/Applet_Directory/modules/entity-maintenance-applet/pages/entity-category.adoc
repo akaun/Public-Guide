@@ -1,0 +1,23 @@
+[#h3_entity_maintenance_applet_entity_category]
+= Entity Category
+
+Please click on "Entity Category" from the module list and click "+" button to create a new Entity category.
+
+image::entity-category-listing-mainpage.png[Entity Category Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the Entity category. After filled up all Compulsory * information, please click "Create" to add a new Entity category. 
+
+Compulsory information:
+
+    1. Category Code
+    2. Category name
+
+image::create-entity-category.png[Create Entity Category, align = "center"]
+
+You can select the parent category from the dropdown list which was already created before.
+
+After adding the category, it will be listed in the main page. Please click on the category to edit or remove it.
+
+image::edit-entity-category.png[Edit Entity Category, align= "center"]
+
+You can go to the Entity listing>entity category tab to categorize the customer. 

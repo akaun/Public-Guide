@@ -1,5 +1,10 @@
 * Entity Maintenance Applet
 ** xref:introduction.adoc[Introduction]
+** xref:entity.adoc[Entity]
+** xref:entity-category.adoc[Entity Category]
+** xref:customer-category.adoc[Customer Category]
+** xref:employee-category.adoc[Employee Category]
+** xref:supplier-category.adoc[Supplier Category]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]

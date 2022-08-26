@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Entity Maintenance Applet is used to manage and summarize all types of entity, such as customer, Employee, Supplier and merchant. There are 5 modules in the Applet, which are Entity, Entity Category, Customer Category, Employee Category and Supplier category.

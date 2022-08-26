@@ -1,0 +1,20 @@
+[#h3_entity_maintenance_applet_employee_category]
+= Employee Category
+
+Please click on "Employee Category" from the module list and click the "+" button to create a new Employee Category.
+
+image::employee-category-listing-mainpage.png[Employee Category Listing Mainpage, align = "center"]
+
+Employee Categories created in the Employee maintenance applet will be listed here as well.
+
+Please fill up the compulsory * information for creating the Employee Category. After filled up all Compulsory * information, please click "Add" to add a new Employee Category. 
+
+Compulsory information:
+    1. Category Code
+    2. Category name
+
+image::create-employee-category.png[Create Employee Category, align = "center"]
+
+After adding the Employee Category it will be listed in the main page and Employee maintenance applet. Please click on the Employee Category to edit or remove it. 
+
+image::edit-employee-category[Edit Employee Category, align = "center"]

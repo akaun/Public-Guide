@@ -1,0 +1,21 @@
+[#h3_entity_maintenance_applet_customer_category]
+= Customer Category
+
+Please click on "Customer Category" from the module list and click the "+" button to create a new Customer Category.
+
+image::customer-category-listing-mainpage.png[Customer Category Listing Mainpage, align = "center"]
+
+Customer categories created in customer maintenance applet will be listed in here as well.
+
+Please fill up the compulsory * information for creating the Customer Category. After filled up all Compulsory * information, please click "Add" to add a new Customer category. 
+
+Compulsory information:
+
+    1. Category Code
+    2. Category name
+
+image::create-customer-category.png[Create Customer Category, align = "center"]
+
+After adding the Customer Category, it will be listed in the main page and Customer maintenance applet. Please click on the Customer Category to edit or remove it. 
+
+image::edit-customer-category.png[Edit Customer Category, align = "center"]

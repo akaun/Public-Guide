@@ -1,0 +1,21 @@
+[#h3_entity_maintenance_applet_supplier_category]
+= Supplier Category
+
+Please click on "Supplier Category" from the module list and click the "+"" button to create a new Supplier Category.
+Supplier categories created in Supplier maintenance applet will be listed here as well.
+
+image::supplier-category-listing-mainpage.png[Supplier Category Listing Mainpage, align = "center"]
+
+Please fill up the compulsory * information for creating the Supplier Category. After filled up all Compulsory * information, Please click "Add" to add a new Supplier Category. 
+
+Compulsory information:
+    1. Category Code
+    2. Category name
+
+image::create-supplier-category.png[Create Supplier Category, align = "center"]
+
+After adding the Supplier Category, it will be listed in the main page and Supplier maintenance applet. 
+
+Please click on the Supplier Category to edit or remove it. 
+
+image::edit-supplier-category.png[Edit Supplier Category, align = "center"]
