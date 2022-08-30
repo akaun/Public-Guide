@@ -1,3 +1,33 @@
 [#h3_cp_commerce_admin_template_forms]
 = Template Forms
 
+image::template-form-mainpage.png[Template Form Main Page, align = "center"]
+
+The “Template Forms” tab allows users to create template forms according to their own preferences. For example, users could create a reseller template or partnership template for their own company. Press the "+" button to create a new template form.
+
+image::create-template-form.png[Create Template Form, align = "center"]
+
+Users will then need to fill in the information shown on each columns which include:
+
+1. Form Name
+2. Contact
+3. Status
+    a. Activie
+    b. Inactive
+4. Email Template Title
+5. Remarks
+6. Email Template Body
+
+If users wish to edit the template form, go to the main page and click on the template form they have created.
+
+image::edit-template-form.png[Edit Template Form, align = "center"]
+
+There will be two tabs in the editing page:
+
+1. Main Details
+    a. To edit the main details of the template created
+2. Manage Images
+    a. Upload or remove images to the template form created
+
+After all the changes have been made, click the "Save" button to update all the changes. On the other hand, if they want to delete the template form, users can do the same way by clicking the template form on the main page then clicking on the "Delete" button. 
+

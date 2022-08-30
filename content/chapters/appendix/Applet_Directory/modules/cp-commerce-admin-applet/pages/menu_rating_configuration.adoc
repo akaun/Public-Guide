@@ -1,3 +1,10 @@
 [#h3_cp_commerce_admin_rating_configuration]
 = Rating Configuration
 
+image::rating-configuration-mainpage.png[Rating Configuration Listing Main Page, align = "center"]
+
+Every website could have a different rating configuration. This "Rating Configuration Listing" tab allows users to create and edit the rating configuration system. Users could set the ranging scale from poor to excellent with respective values. Users could create a new rating system by clicking on the "+" sign. 
+
+image::create-rating-configuration.png[Create Rating Configuration Listing, align = "center"]
+
+Users need to fill in all the columns to create a complete rating system. Make sure the checkbox beside the "is Active" option is ticked to be able to show the rating system on the website. After everything is filled correctly, press the "Create" button. The created rating system would be shown on the main page. Users could go to the main page and click on the rating system created to make further changes. 

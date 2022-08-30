@@ -1,3 +1,42 @@
 [#h3_cp_commerce_admin_spending_limit]
 = Spending Limit
 
+image::spending-limit-mainpage.png[Spending Limit Main Page, align = "center"]
+
+The “Spending Limit” tab is created to limit customers' spending amount. Press on the "+" button to create a new spending limit.
+
+image::create-spending-limit.png[Create Spending Limit, align = "center"]
+
+Users will then need to fill in the information shown on each columns which include:
+
+1. Name
+2. Code
+3. Spending Limit Amount
+4. Spending Limit Period (Days)
+5. Ban Period (Days)
+6. Status
+7. Active
+8. Inactive
+9. Currency
+
+After everything is filled in correctly, press on the “Save” button to update all the changes that have been made. Users could go back to the main page and edit the spending limit that is created.
+
+image::edit-spending-limit.png[Edit Spending Limit, align = "center"]
+
+Users could make changes to the following columns:
+
+1. Name
+2. Code
+3. Spending Limit Amount
+4. Spending Limit Period (Days)
+5. Ban Period (Days)
+6. Status
+7. Active
+8. Inactive
+9. Currency
+10. Member Class
+11. Spending Limit Amount New Member
+12. Email 
+13. Phone Number
+
+After all the changes have been made, click the "Save" button to update all the changes. On the other hand, if they want to delete the spending limit. Users can do the same way by clicking the spending limit on the main page then clicking on the "Delete" button. 

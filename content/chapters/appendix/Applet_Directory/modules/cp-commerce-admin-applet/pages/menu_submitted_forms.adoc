@@ -1,3 +1,10 @@
 [#h3_cp_commerce_admin_submitted_forms]
 = Submitted Forms
 
+image::submitted-form-mainpage.png[Submitted Form Main Page, align = "center"]
+
+The “Submitted Forms” tab is to allow users to receive the template forms that are being sent out. 
+
+image::view-submitted-forms.png[View Submitted Forms, align = "center"]
+
+Users are allowed to check the details as well as view the images sent in detail in the respective tabs shown above.

@@ -1,3 +1,4 @@
 [#h3_cp_commerce_admin_blocked_customers]
 = Blocked Customers
 
+The “Blocked User” tab is used to list down the blocked users.

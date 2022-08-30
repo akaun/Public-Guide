@@ -1,1 +1,4 @@
-This is a simple description of the applet, no more than 100 words.
+[#h3_cp_commerce]
+= Introduction to CP Commerce Admin Applet
+
+The main purpose of CP Commerce Admin Applet is to create one or multiple websites for a certain company. Each company is going to be its own tenant, all the information is being separated from one another to ensure there is no confusion. It could also manage the overview details of the websites that are created. Last but not least, by using this applet, tenants could create flexible designs and layouts for different purposes. 

@@ -1,3 +1,10 @@
 [#h3_cp_commerce_admin_topics]
 = Topics
 
+image::topic-listing-mainpage.png[Topic Listing Main Page, align = "center"]
+
+The "Topic Listing" tab allows users to create related topics and add multiple images accordingly. Users will also be able to see the list of subscribers and the system will auto save their information in this category. Press on the "+" sign to create a new topic listing.
+
+image::create-topic.png[Create Topic Listing, align = "center"]
+
+Users could click on the topic listing created on the main page to make changes. 

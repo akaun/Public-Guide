@@ -1,3 +1,90 @@
 [#h3_cp_commerce_admin_activities]
 = Activities
 
+== Calendars
+
+image::calendar-mainpage.png[Calendar Main Page, align = "center"]
+
+The “Calendars” tab allows users to set a calendar according to their own time zone. Press on the “+” sign to create a new calendar.
+
+image::create-calendar.png[Create Calendar, align = "center"]
+
+Users need to fill in the necessary fields which include:
+
+1. Calendar Name
+2. Time Zone
+3. Description
+
+When the calendar is created, users could go back to the main page to edit the calendar if there is a need. Click on the calendar created then it will bring the users to the edit page.
+
+image::edit-calendar-main.png[Edit Calendar (Main), align = "center"]
+
+There are two tabs in the edit page. The “Main” tab allows users to edit the information that has been filled before. After everything is corrected, press on the “Update” button to save all the changes made.
+
+image::edit-calendar-members.png[Edit Calendar (Members), align = "center"]
+
+There are two tabs in the edit page. The “Main” tab allows users to edit the information that has been filled before. After everything is corrected, press on the “Update” button to save all the changes made.
+
+== Events
+
+image::event-listing-mainpage.png[Events Listing Main Page, align = "center"]
+
+The “Events” tab allows users to create a new event. Users could press on the “+” sign to create a new event.
+
+image::create-new-event-details.png[Create New Event (Details), align = "center"]
+
+There will be six tabs that users need to fill in which include:
+
+1. Details
+2. Calendars
+3. Guests
+4. Attachments
+5. Linked Events
+6. Posts
+
+Each tab has its own relevant information that is needed to be filled in by the users. In the “Details” tab, users need to fill in the necessary fields which include:
+
+1. Title
+2. Location
+3. Start and End Date 
+4. Description
+5. Repeat
+    a. Daily
+    b. Weekly
+    c. Monthly
+    d. Yearly
+
+image::create-new-event-calendars.png[Create New Event (Calendar), align = "center"]
+
+In the “Calendars” tab, users could link the calendar created in the “Calendar” tab to the new event created (Refer to 2.8.1). Press on the “+” sign to add the relevant calendar.
+
+image::guests-mainpage.png[Guests Main Page, align = "center"]
+
+In the “Guest” tab, users could add in the relevant guests to the new event created. Press on the “+” sign to add in the guests.
+
+image::events-attachment-mainpage.png[Attachments Main Page, align = "center"]
+
+The “Attachments” tab allows users to upload relevant attachments that are linked to the event created. Press on the “+” sign to upload new attachments.
+
+image::events-create-new-attachment.png[Create New Attachments, align = "center"]
+
+After clicking on the “+” sign, it will bring users to the new page. There are two fields that are needed to fill in by users which include:
+
+1. Attachment Name
+2. Details
+3. After everything is filled, press on the “Add” to save the created attachment.
+
+image::events-linked-events.png[Linked Events Main Page, align = "center"]
+
+The “Linked Events” allows users to join two or more relevant events together for easier reference. Users will need to click on the 
+“+” sign to add linked events to the current event.
+
+image::events-posts-mainpage.png[Posts Main Page, align = "center"]
+
+The “Posts” tab allows users to upload relevant posts that are linked to the new event created. Users could add posts by just pressing on the “+” button.
+
+== Scheduler
+
+image::scheduler-mainpage.png[Scheduler Main Page, align = "center"]
+
+The “Scheduler” tab allows users to create a new trip event. The date where the new trip event is held will be saved in the calendar shown above as it serves as a reminder.
