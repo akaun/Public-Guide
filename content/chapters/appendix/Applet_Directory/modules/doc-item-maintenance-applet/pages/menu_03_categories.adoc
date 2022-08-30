@@ -82,13 +82,27 @@ These are the fields in the main tab:
 
 image::manage_add_image.png[1440 x 900]
 
+=== Manage Item Tab
 
+Users can use the Manage Item Tab in the Doc Item Maintenance applet to upload relevant category items. Upon clicking on categories, the user will be shown all relevant products under said categories. 
 
+image::category_manage_item.png[1440 x 900]
 
+When users want to add item, they  click on “+” button, once clicked the second container will appear, where user can select the item and add.
 
+image::manage_items_add.png[1440 x 900]
 
+=== Login Tab
 
+Please click the "Add" button to create a new login.
 
+Enter a valid email address and verify it. Then set the status of the email address to be active. 
+
+image::item_login_create.png[1440 x 900]
+
+User can may update mail status or delete it.
+
+image::delete_or_update_login.png[1440 x 900]
 
 
 
