@@ -1,0 +1,112 @@
+[#h3_organization_module_branch-listing]
+= Branch Listing
+
+== Create A Branch
+
+In creating a Branch, users need to click on the "+" sign to open the "Create" tab.
+
+=== Details Tab
+
+Users may fill up compulsory information such as: 
+
+    a. Branch code 
+    b. Branch Name 
+    c. Select company: When selecting a company, it will automatically fill in the: Company Registration No. and Currency
+    d. Branch commencement date (select the current date) 
+    e. Other fields are optional
+
+image::branch-listing-create-branch-details.png[Create Branch Details, align = "center"]
+
+=== Address Tab
+
+User must fill up compulsory fields :
+
+    a. Address Line 1
+    b. Postcode 
+    c. City 
+    d. Select Country 
+    e. Select State 
+    f. Other fields are optional 
+
+image::branch-listing-create-branch-address.png[Create Address Details, align = "center"]
+
+=== Marketplace Tab
+
+This section allows you to authorise your seller shop with EcomSync Applet.
+
+Users must select a marketplace, after selecting the marketplace user may proceed to SAVE the BRANCH.
+
+image::branch-listing-create-branch-marketplace.png[Create Branch Marketplace, align = "center"]
+
+It will relocate to the marketplace website in order to generate Access Token.
+
+After authorising all shops, users may proceed using ECOMSYNC APPLET.
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+== Branch Listing
+
+Upon clicking the SAVE button, the registered branch will appear in the Branch Listings as below:
+
+=== Edit Branch
+
+image::branch-listing-mainpage.png[Edit Branch, align = "center"]
+
+To edit the branch, click on the branch from the listings above.
+
+=== Details Tab
+
+This section allows the user to update the branch details.
+
+image::edit-branch-details.png[Edit Branch Details, align = "center"]
+
+The sections CANNOT be edited: 
+
+    a. Company Code
+    b. Created By
+    c. Modified By
+    d. Creation Date
+    e. Modified Date
+
+=== Address Tab
+
+This section allows the user to update the branch address.
+
+image::edit-branch-address.png[Edit Branch Address, align = "center"]
+
+=== Marketplace Tab
+
+This section allows the user to update their marketplace entity.
+
+image::edit-branch-marketplace.png[Edit Branch Marketplace, align = "center"]
+
+=== Location Tab
+
+This section allows the user to view the branch location.
+
+It also allows a branch to connect to multiple locations to manage the user's transactional movement.
+
+Select location to edit → Edit location
+
+image::edit-branch-location.png[Edit Branch Location, align = "center"]
+
+In adding a location to the Branch, users need to click on the "+" sign to open the Add tab and select the location from the drop-down list to add for the branch.
+
+=== Label Tab
+
+This section allows the user to view the company's label.
+
+To add a label, users need to click on the "+" button to open the Add tab.
+
+image::edit-label-1.png[Edit Branch Labels, align = "center"]
+
+image::edit-label-2.png[Edit Branch Labels, align = "center"]
+
+    a. Existing Label - Select from the dropdown list of existing labels
+    b. New Label - Labels can be created directly through this tab or can go to Label Module → Create Label
+    c. To edit label → Edit label
+
+
+
+
+

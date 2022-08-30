@@ -1,2 +1,27 @@
+image::organization-applet-logo.png[Organization Applet Logo, 200, 200, align = "center"]
 
-You can use this applet to create / update / delete companies, branches and locations.
+Organization Applet is an applet where the users can create, organize and manage their Company,s profile, Branch, Location, and Labels. The aim of the Organization Applet is to equip users to set up their companies to link to their branches and locations as to identify the movements of their transactions.
+ 
+With this Organization Applet, the users can easily record/document their company's profile and link the company with their branches and locations. This applet is recognized as one of the core applets for the Big Ledger Products as It will be needed across most of the applets to recognize the company, branch, and location of a transaction. Moreover, on the management side, the users have better control to manage their inventory movements and the transactions into the selected companies, branches, and locations.
+
+Seller shops can be authorized in the Organization Applet. In this applet, the seller shop is identified as BRANCH. Users can create branches based on their physical Branches, outlets, virtual branches for online marketplace for recognition of the transactions activity. Location setup and tied to branches allows the tracking of inventory movement during the business activity routine.
+
+== The Organization Applet consists of four main module: 
+
+Step 1 - User must create a company, which will allow linking with branch (refer to Company Listing)
+
+Creation of a company, with key information such as company registration number, and Chart Of Account assignation.
+
+Step 2 - After creating the company, users may proceed to create a branch (refer to Branch Listing)
+
+Branches creation, with key information of online marketplace integration enabling function (optional), location linking for inventory tracking, labelling of branches based on customised labels created.
+
+Step 3 - Once the branch is created, the location will be available according to users'  company details.  Location Menu
+Location creation, 1 location can be linked to multiple branches , multiple locations can be linked to 1 branch as well.
+
+Step 4 - (Optional) Seller shops can link many BRANCHES to 1 Location and Many Locations to 1 branch
+
+Step 4 - Label Menu
+
+Labels creation, enable the labelling of the Branches created with customised labels, such as, Region, Virtual Branch, Branding of branches, Segmentation of Branches, etc. (based on user preferences)
+

@@ -1,0 +1,88 @@
+[#h3_organization_module_branch-listing]
+= Location Listing
+
+== Create A Location
+
+In creating a Location, users need to click on the "+" sign to open the "Create" tab.
+
+=== Details tab
+
+Users may fill up compulsory information such as: 
+
+    a. Location code 
+    b. Location Name 
+    c. Select company 
+    d. When selecting a company, it will automatically fill in the Company Registration No.
+    e. Location commencement date (select the current date) 
+    f. Other fields are optional 
+
+image::location-listing-create-location-details.png[Create Location Details, align = "center"]
+
+=== Address Tab
+
+User must fill up compulsory fields :
+
+    a. Address Line 1
+    b. Postcode 
+    c. City 
+    d. Select Country 
+    e. Select State 
+    f. Other fields are optional
+
+image::location-listing-create-location-address.png[Create Location Address, align = "center"]
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+== Location Listing
+
+Upon clicking the SAVE button, the registered location will appear in the Location Listings as below:
+
+== Edit Location
+
+image::location-listing-mainpage.png[Location Listing Main Page, align = "center"]
+
+To edit the location, click on the location from the listings above.
+
+=== Details Tab
+
+This section allows the user to update the location details.
+
+image::edit-location-details.png[Edit Location Details, align = "center"]
+
+The sections CANNOT be edited:
+
+    a. Location Code
+    b. Company Registration Number
+    c. Created By
+    d. Modified By
+    e. Creation Date
+    f. Modified Date
+
+=== Address Tab
+
+This section allows the user to update the location address.
+
+image::edit-location-address.png[Edit Location Address, align = "center"]
+
+=== Branch Tab
+
+    a. This section allows the user to view the location's branch.
+
+    b. It also allows a location to connect to multiple branches to manage the user's transactional movement.
+
+    c. Select branch to edit → Edit branch
+
+    d. In adding a Branch to the Location, users need to click on the "+" sign to open the Add tab and select the branch from the drop-down list to add for the location.
+
+image::edit-location-branch.png[Edit Location Branch, align = "center"]
+
+=== Label Tab
+
+This section allows the user to view the location label.
+
+To add a label, users need to click on the "+" sign to open the Add tab.
+
+    a. Existing Label - Select from the dropdown list of existing labels
+    b. New Label - Labels can be created directly through this tab or can go to Label Module → Create Label
+    c. To edit label → Edit label
+

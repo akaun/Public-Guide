@@ -1,0 +1,36 @@
+[#h3_organization_module_label-listing]
+= Label Listing
+
+== Create A Label
+
+In creating a Label, users need to click on the "+" sign to open the "Create" tab.
+
+=== Details tab
+
+Users may fill up compulsory information such as: 
+
+    a. Label Code
+    b. Label Name
+    c. Status (Active / Inactive)
+    d. Other fields are optional 
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+== Label Listing
+
+Upon clicking the SAVE button, the registered location will appear in the Label Listings as below:
+
+== Edit Label
+
+This section allows the user to update the location details.
+
+To edit the label, click on the label from the listings above.
+
+The sections CANNOT be edited:
+
+    a. Label Code
+    b. Created By
+    c. Modified By
+    d. Creation Date
+    e. Modified Date
+

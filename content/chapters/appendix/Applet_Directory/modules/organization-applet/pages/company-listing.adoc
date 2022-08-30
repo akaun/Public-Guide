@@ -1,0 +1,94 @@
+[#h3_organization_module_company-listing]
+= Company Listing
+
+== Create A Company
+
+In creating a company, users need to click on the "+" sign to open the "Create" tab.
+
+=== Details Tab
+
+Users must fill up compulsory information such as: 
+
+    a. Company Code 
+    b. Company Name 
+    c. Company Registration No.*
+    d. Company Incorporation Date
+    e. Select Currency
+    f. Other fields are optional
+
+image::company-listing-create-company-details.png[Details, align = "center"]
+
+=== Address Tab
+
+User must fill up compulsory fields :
+    a. Address Line 
+    b. Postcode 
+    c. City 
+    d. Select Country 
+    e. Select State 
+    f. Other fields are optional 
+
+image::company-listing-create-company-address.png[Company Address, align = "center"]
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+== Company Listing
+
+Upon clicking the SAVE button, the registered company will appear in the Company's Listings as below:
+
+image::company-listing-mainpage.png[Company Listing Main Page, align = "center"]
+
+== Edit Company
+
+To edit the company, click on the company from the listings above.
+
+=== Details Tab
+
+This section allows the user to update the company's profile details.
+
+The sections CANNOT be edited:
+
+    a. Company Code
+    b. Created By
+    c. Modified By
+    d. Creation Date
+    e. Modified Date
+
+image::edit-company-details.png[Edit Company Details, align = "center"]
+
+=== Address Tab
+
+This section allows the user to update the company's address.
+
+image::edit-company-address.png[Edit Company Address, align = "center"]
+
+=== Branch Tab
+
+This section allows the user to view the company's branch.
+
+    a. To add branch → Create Branch
+    b. To edit branch → Edit Branch
+
+image::edit-company-branch.png[Edit Company Branch, align = "center"]
+
+=== Location Tab
+
+This section allows the user to view the company's location.
+
+    a. To add location → Create location
+    b. To edit location → Edit location
+
+image::edit-company-location.png[Edit Company Details, align = "center"]
+
+=== Label Tab
+
+This section allows the user to view the company's label.
+
+To add a label, users need to click on the "+" sign to create a new label.
+
+image::edit-company-labels.png[Edit Company Details, align = "center"]
+
+    a. Existing Label - Select from the dropdown list of existing labels
+    b. New Label - Labels can be created directly through this tab or can go to Label Module → Create Label
+    c. Edit Label - go to edit label tab
+
