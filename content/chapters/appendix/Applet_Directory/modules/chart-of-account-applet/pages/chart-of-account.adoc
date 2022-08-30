@@ -2,12 +2,17 @@
 = Chart of Account Listing
 
 Please click the "+" button to Create a new Chart of Account.
+
+image::chart-of-account-listing-mainpage.png[Chart of Account Mainpage, align = "center"]
+
 Please fill up the compulsory * information for creating the Chart of Account. After filled up all Compulsory * information, please click "Save" to add a new Chart of Account. 
 
 Compulsory information:
 
     a. COA Name
     b. COA Code - Cannot be modified after creation
+
+image::create-chart-of-account-listing.png[Create Chart of Account, align = "center"]
 
 After adding the Chart of Account, it will be listed in the main page. Please click on the Chart of Account to edit it. 
 
@@ -20,6 +25,8 @@ In details tab, the following information can be edited:
     a. COA Name
     b. Description
 
+image::edit-chart-details.png[Edit Chart of Account, align = "center"]
+
 Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the chart of account from the chart of account listing.
@@ -29,6 +36,8 @@ You can click the "delete" button to remove the chart of account from the chart 
 In the segments tab, you can add segments to the chart of accounts. 
 
 Please click the "+" button to add a segment to the chart of the account.
+
+image::edit-chart-create-segment.png[Create Segment, align = "center"]
 
 The following fields are compulsory:
 
@@ -47,6 +56,8 @@ In the dimensions tab, you can add dimensions to the chart of accounts.
 
 Please click the "+" button to add a dimension to the chart of the account.
 
+image::edit-chart-create-dimensions.png[Create Dimensions, align = "center"]
+
 The following fields are compulsory:
 
     a. Dimension code
@@ -63,6 +74,8 @@ In the profit center tab, you can add profit center to the chart of accounts.
 
 Please click the "+" button to add a profit center to the chart of accounts.
 
+image::edit-chart-create-profit-center.png[Edit Profit Center, align = "center"]
+
 The following fields are compulsory:
 
     a. Profit Center Code
@@ -78,6 +91,8 @@ Only profit center Name, Description and status can be edited. After updating th
 In the project tab, you can add project to the chart of accounts. 
 
 Please click the "+" button to add a project to the chart of accounts.
+
+image::edit-chart-create-project.png[Edit Project, align = "center"]
 
 The following fields are compulsory:
 

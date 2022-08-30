@@ -3,12 +3,16 @@
 
 Please click the "+" button to Create a new GL Category.
 
+image::gl-category-listing-mainpage.png[GL Category Listing Mainpage, align = "center"]
+
 Please fill up the compulsory * information for creating the GL Category. After filled up all Compulsory * information, please click "Save" to add a new GL Category.
 
 Compulsory information:
 
     a. GL Category Code
     b. GL Category Name
+
+image::create-gl-category.png[Create GL Category, align = "center"]
 
 After adding the GL Category, it will be listed in the main page. Please click on the GL Category to edit it. You can edit the details, and GL Code of the GL Category.
 
@@ -21,6 +25,8 @@ In details tab, the following information can be edited:
     c. GL Category
     d. Description
     e. Account No.
+
+image::edit-gl-category-details.png[Edit Details, align = "center"]
 
 Please click the "save" button to update the changes.
 
@@ -39,12 +45,13 @@ The following fields are Required:
     3. Chart of account - list of Chart of account which are created in the Chart of account module.
     4. GL Category - Automatically selected
 
+image::create-gl-code-1.png[Create GL Code, align = "center"]
+
 Please click the "save" button to add the GL Code  to the GL Category.
 
 GL Code created in GL Category will be listed in GL Code Module.
 
-
-After adding the GL Code, it will be listed in the GL Code  tab. Please click on the GL Code to edit it. 
+After adding the GL Code, it will be listed in the GL Code tab. Please click on the GL Code to edit it. 
 
 Following fields can be edited.
     1. GL Name

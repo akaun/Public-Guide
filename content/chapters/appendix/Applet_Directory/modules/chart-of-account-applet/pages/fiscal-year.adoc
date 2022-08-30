@@ -3,6 +3,8 @@
 
 Please click the "+" button to Create a new fiscal year.
 
+image::fiscal-year-listing-mainpage.png[Fiscal Year Listing Mainpage, align = "center"]
+
 Please fill up the compulsory * information for creating the fiscal year. After filled up all Compulsory * information. Please click "Create" to add a new fiscal year. 
 
 Required Information:
@@ -11,3 +13,37 @@ Required Information:
     2. Name
     3. Start Date
     4. End date
+
+image::create-fiscal-year.png[Create Fiscal Year, align = "center"]
+
+After adding the fiscal year, it will be listed in the main page. Please click on the fiscal year to edit it.
+
+You can edit the main and fiscal period of fiscal year.
+
+== Main
+
+In main tab, the following information can be edited:
+
+    1. Name
+
+image::fiscal-year-details-main.png[Fiscal Year Details Main, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the fiscal year from the list.
+
+== Fiscal Period
+
+In fiscal period, the following information can be edited:
+
+    1. Name
+    2. Closing Status
+    3. Start Date
+    4. End Date 
+
+image::fiscal-year-details-fiscal-period-main.png[Fiscal Year Details Main, align = "center"]
+
+Please click the "save" button to update the changes.
+
+You can click the "delete" button to remove the fiscal period from the list.
+

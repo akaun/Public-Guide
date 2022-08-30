@@ -16,11 +16,15 @@ In Main tab, the following information will be shown but cannot edit any of the 
     3. Company Registration no
     4. Currency
 
+image::company-details.png[Company Details, align = "center"]
+
 == Ledgers
 
 In the ledgers tab, you can add the Ledgers to the Company. 
 
 Please click the "+" button to add a Ledger to the Company.
+
+image::company-create-ledger.png[Create Ledger, align = "center"]
 
 The following fields are Required:
 
