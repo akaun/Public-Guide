@@ -13,11 +13,16 @@ image::search_box.png[1440 x 900]
 
 image::advanced_search.png[1440 x 900]
 
-2.4 Click "+" button to create new Device and fill in the required fields
+2.4 Click "+" button to create new Device 
 
-image::create_device.png[1440 x 900]
+image::device_create.png[1440 x 900]
 
-2.5 Click Create button and Device Listing will show the recent device created top of the listing
+
+Fill in the required fields and click "Create" button
+
+image::create_device_button.png[1440 x 900]
+
+2.5  Device Listing will show the recent device created top of the listing
 
 image::new_device.png[1440 x 900]
 
