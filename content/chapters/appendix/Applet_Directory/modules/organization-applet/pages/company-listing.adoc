@@ -1,4 +1,4 @@
-[#h3_organization_module_company-listing]
+[#h3_organization_module_company_listing]
 = Company Listing
 
 == Create A Company
@@ -6,7 +6,6 @@
 In creating a company, users need to click on the "+" sign to open the "Create" tab.
 
 === Details Tab
-
 Users must fill up compulsory information such as: 
 
     a. Company Code 
