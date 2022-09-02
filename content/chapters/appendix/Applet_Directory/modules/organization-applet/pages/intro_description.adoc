@@ -4,7 +4,8 @@ With this Organization Applet, the users can easily record/document their compan
 
 Seller shops can be authorized in the Organization Applet. In this applet, the seller shop is identified as BRANCH. Users can create branches based on their physical Branches, outlets, virtual branches for online marketplace for recognition of the transactions activity. Location setup and tied to branches allows the tracking of inventory movement during the business activity routine.
 
-== The Organization Applet consists of four main module: 
+
+The Organization Applet consists of four main module: 
 
 Step 1 - User must create a company, which will allow linking with branch (refer to Company Listing)
 
