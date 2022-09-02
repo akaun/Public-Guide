@@ -1,4 +1,4 @@
-[#h3_organization_module_branch-listing]
+[#h3_organization_module_location_listing]
 = Location Listing
 
 == Create A Location
