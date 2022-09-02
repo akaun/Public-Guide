@@ -6,7 +6,7 @@ include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/branch-listing.adoc[leveloffset=3]
 
-include::company-listing.adoc[leveloffset=3]
+include::pages/company-listing.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 
