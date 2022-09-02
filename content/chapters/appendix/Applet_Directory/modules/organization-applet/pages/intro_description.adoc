@@ -1,4 +1,7 @@
-image::organization-applet-logo.png[Organization Applet Logo, 200, 200, align = "center"]
+[#h3_organization_applet_introduction]
+= Introduction to Organization Applet
+
+image::organization_applet_logo.png[Organization Applet Logo, 200, 200, align = "center"]
 
 Organization Applet is an applet where the users can create, organize and manage their Company,s profile, Branch, Location, and Labels. The aim of the Organization Applet is to equip users to set up their companies to link to their branches and locations as to identify the movements of their transactions.
  

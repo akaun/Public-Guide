@@ -12,7 +12,7 @@ Compulsory information:
     a. COA Name
     b. COA Code - Cannot be modified after creation
 
-image::create-chart-of-account-listing.png[Create Chart of Account, align = "center"]
+image::create-chart-of-account.png[Create Chart of Account, align = "center"]
 
 After adding the Chart of Account, it will be listed in the main page. Please click on the Chart of Account to edit it. 
 
@@ -56,7 +56,7 @@ In the dimensions tab, you can add dimensions to the chart of accounts.
 
 Please click the "+" button to add a dimension to the chart of the account.
 
-image::edit-chart-create-dimensions.png[Create Dimensions, align = "center"]
+image::edit-chart-create-dimension.png[Create Dimensions, align = "center"]
 
 The following fields are compulsory:
 
