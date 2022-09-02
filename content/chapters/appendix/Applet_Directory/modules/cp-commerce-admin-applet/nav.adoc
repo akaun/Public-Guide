@@ -1,11 +1,5 @@
 * CP Commerce Admin Applet
 ** xref:introduction.adoc[Introduction]
-** xref:modules.adoc[Modules]
-** xref:related_applets.adoc[Related Applets]
-** xref:roadmap.adoc[Roadmap]
-** xref:release_note.adoc[Release Note]
-** xref:pricing.adoc[Pricing]
-** xref:personalization_settings.adoc[Personalization]
 ** xref:menu_activities.adoc[Activities]
 ** xref:menu_blocked_customers.adoc[Blocked Customers]
 ** xref:menu_forms.adoc[Forms]
@@ -15,3 +9,10 @@
 ** xref:menu_template_forms.adoc[Template Forms]
 ** xref:menu_topics.adoc[Topics]
 ** xref:menu_websites.adoc[Websites]
+** xref:modules.adoc[Modules]
+** xref:related_applets.adoc[Related Applets]
+** xref:roadmap.adoc[Roadmap]
+** xref:release_note.adoc[Release Note]
+** xref:pricing.adoc[Pricing]
+** xref:personalization_settings.adoc[Personalization]
+

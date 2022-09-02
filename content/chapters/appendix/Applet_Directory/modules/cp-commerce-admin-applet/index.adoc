@@ -6,8 +6,6 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
-
 include::pages/menu_websites.adoc[leveloffset=3]
 
 include::pages/menu_forms.adoc[leveloffset=3]
@@ -25,6 +23,8 @@ include::pages/menu_spending_limit.adoc[leveloffset=3]
 include::pages/menu_blocked_customers.adoc[leveloffset=3]
 
 include::pages/menu_activities.adoc[leveloffset=3]
+
+include::pages/modules.adoc[leveloffset=3]
 
 include::pages/permission_settings.adoc[leveloffset=3]
 
