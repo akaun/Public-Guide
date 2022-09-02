@@ -1,5 +1,9 @@
 * Organization Applet
 ** xref:introduction.adoc[Introduction]
+** xref:branch-listing.adoc[Branch Listing]
+** xref:company-listing.adoc[Company Listing]
+** xref:label-listing.adoc[Label Listing]
+** xref:location-listing.adoc[Location Listing]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]

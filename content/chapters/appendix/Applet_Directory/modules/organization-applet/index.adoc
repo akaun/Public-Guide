@@ -4,7 +4,15 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/branch-listing.adoc[leveloffset=3]
+
+include::company-listing.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
+
+include::pages/label-listing.adoc[leveloffset=3]
+
+include::pages/location-listing.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]
 
