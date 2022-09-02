@@ -31,3 +31,4 @@ There will be two tabs in the editing page:
 
 After all the changes have been made, click the "Save" button to update all the changes. On the other hand, if they want to delete the template form, users can do the same way by clicking the template form on the main page then clicking on the "Delete" button. 
 
+

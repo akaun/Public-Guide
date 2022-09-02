@@ -8,3 +8,4 @@ The “Submitted Forms” tab is to allow users to receive the template forms th
 image::view-submitted-forms.png[View Submitted Forms, align = "center"]
 
 Users are allowed to check the details as well as view the images sent in detail in the respective tabs shown above.
+

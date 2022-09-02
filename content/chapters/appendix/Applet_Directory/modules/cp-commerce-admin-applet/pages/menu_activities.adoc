@@ -88,3 +88,4 @@ The “Posts” tab allows users to upload relevant posts that are linked to the
 image::scheduler-mainpage.png[Scheduler Main Page, align = "center"]
 
 The “Scheduler” tab allows users to create a new trip event. The date where the new trip event is held will be saved in the calendar shown above as it serves as a reminder.
+

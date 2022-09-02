@@ -40,3 +40,4 @@ Users could make changes to the following columns:
 13. Phone Number
 
 After all the changes have been made, click the "Save" button to update all the changes. On the other hand, if they want to delete the spending limit. Users can do the same way by clicking the spending limit on the main page then clicking on the "Delete" button. 
+
