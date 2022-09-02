@@ -1,0 +1,207 @@
+[#h3_ucc_e-commerce_multichat]
+= E-Commerce Multichat
+
+== AiLedger E-Commerce Multichat Desktop Electron App
+
+This is an e-commerce multichat application created using electron and JavaScript and it runs on desktop OS (Windows and Mac).
+
+== App development setup
+
+Clone Repository and move into the repository folder.
+
+    1. cd repository
+
+Install the dependencies to run the application.
+
+    1. npm install
+
+Run the application.
+
+    1. npm start
+
+== Electron App Deployment Steps (For Windows)
+
+Electron Builder is used to package the app for Windows environment. Deployment steps are as follows:
+
+First, create a “build” directory on root. Save an “icon.ico” file in the build directory with the icon that will be used for the app.
+
+Install the “electron builder” package.
+
+    - npm install electron-builder-save-dev
+
+If the windows target in package.json is not “NSIS”, then set it to “NSIS”.
+
+image::windows-target.png[Windows Target, align = "center"]
+
+Run the packaging command:
+
+    - npm run dist
+
+The installed executable file will be inside the “dist” folder, in the following path:
+
+    - dist -> windows -> AiLedger E-Commerce Multichat.exe
+
+Click on “AiLedger E-Commerce Multichat.exe” to run the multichat app. 
+
+Further reading regarding electron-builder and deployment in windows can be found here:
+
+https://medium.com/how-to-electron/a-complete-guide-to-packaging-your-electron-app-1bdc717d739f
+
+== Electron App Deployment Steps (For MacOS)
+
+Electron Packager is used to package the app for Mac OS environment. Deployment steps are as follows:
+
+1. First, create a “build” directory on root. Save an “icon.icns” file in the build directory with the icon that will be used for the app.
+
+2. Install the “electron packager” package.
+
+    - npm install --save-dev electron-packager
+
+3. Run the packaging command:
+
+    - npx electron-packager . --icon=./build/icon.icns
+
+4. The installed executable file will be inside the “AiLedger E-Commerce Multichat-darwin-x64” folder, in the following path:
+
+    - AiLedger E-Commerce Multichat-darwin-x64 -> AiLedger E-Commerce Multichat.app -> Contents -> MacOS -> AiLedger E-Commerce Multichat
+
+5.  	Click on “AiLedger E-Commerce Multichat” to run the multichat app.
+
+Further reading regarding electron-packager and deployment in mac can be found here:
+
+https://electron.github.io/electron-packager/main/
+
+== Files Overview and Function Explanation
+
+image::files-overview.png[Files Overview, align = "center"]
+ 
+=== Edit-delete-pop-up-folder
+
+Edit-delete-pop-up folder: contains the code related to the pop-up (with edit and delete option) which opens up when right-clicked on any shop.
+
+image::edit-delete-modal.png[Edit Delete Modal, align = "center"]
+
+Functions inside the edit-delete JS folder:
+
+1. closePopUp: close the edit-delete pop-up
+
+2. openEdit: open the edit-delete pop-up
+
+3. deleteShop: delete the selected shop
+
+=== Modal-add-shop folder
+
+Modal-add-shop folder: contains the code related to the modal that is opened when the “Add New Shop” button is clicked.
+
+image::add-shop-modal.png[Add Shop Modal, align = "center"]
+
+Functions inside the modal-add-shop JS folder:
+
+1. updateDropdown: Updates the dropdown to change the selected shop platform (example: Shopee, Lazada, etc.)
+
+    - Input: currentValue -> the current selected shop platform
+
+2. closeModal: close the add-shop pop-up
+
+3. onSubmit: submit the details about the new shop, to store the information of the newly added shop.
+
+4. closeNameAlert: close alert for invalid shop name
+
+5. closePlatformAlert: close alert for invalid platform
+
+6. loadErrorForNameExists: open alert for using a shop name that already exists
+
+    - Input: errorExists -> Boolean, TRUE for error, FALSE otherwise
+
+7. closeNameUsedAlert: close alert for invalid shop name
+
+=== Modal-edit-shop folder
+
+Modal-edit-shop folder: contains the code related to the modal that is opened when the “Edit” button is clicked.
+
+image::edit-shop-modal.png[Edit Shop Modal, align = "center"]
+
+Functions inside the edit-shop JS file:
+
+1. closeNameAlert: close the alert for invalid name
+
+2. closeModal: close the add-shop pop-up
+
+3. onSubmit: Submit the new shop name to be stored
+
+=== Index.css file
+
+Index.css file: contains the CSS for the main rendered page.
+
+=== Index.html file
+Index.html file: contains the HTML for the main rendered page.
+
+=== Index.js file
+
+Index.js file: contains the backend code (node JS) code, which is used to create and store the electron windows. Inter-process Communication happens between index.js file (backend, for example) and the rest of the JS files (such as renderer.js, modal-edit-shop.js, etc. which are considered the frontend of the application). Functions inside are:
+
+o   createWindow: Create the main electron window, with the akaun.com login page displayed.
+
+o   openMultichat: Open the multichat app after login into akaun.com.
+
+o   createLeftSideMenu: Create the left side menu containing all the shop names.
+
+o   addBrowserView: Create a new browser view for a shop. Separate Browser Views are created for each shop and stored in a list.
+
+Input:   url -> url of the platform
+    
+    - shopName -> Name of the selected shop
+
+o   checkIfExist: Check if the selected shop exists in the list of already loaded browser views.
+
+o   createNewShop: Create the modal for adding a new shop.
+
+o   submitNewShop: Store details of new shop in local storage.
+
+Input:  shopName -> name of new shop
+
+    - platform -> e-commerce platform of the new shop
+
+o   closeNewShopCreate: close modal of the add-new-shop
+
+o   openLogin: Function used to open the akaun.com login window.
+
+o   editShop: Create the modal for editing a shop.
+
+o   editShopClose: Close the modal for editing a shop.
+
+o   submitEditShop: Store the new shop details in local storage.
+
+Input: newShopName -> Name of the new shop
+
+o   deleteShop: Delete the selected shop and remove data from local storage.
+
+o   openEditDeletePopUp: Open the modal for edit-delete window
+
+Input:  platform -> platform the selected shop to edit
+
+    - shopName -> shop name of the selected shop to edit
+
+o   closeEditDelete: Close the modal for edit delete window
+
+=== Renderer.js file
+
+Renderer.js file: contains the JavaScript code that interacts with the index.html file. Functions inside are:
+
+o   openLink: Send IPC connection to main to open the browser view of the selected shop.
+
+Input:  platform -> selected platform of the shop
+    
+    - shopName -> selected shop name
+
+o   loadSideMenu: Load the shop names in the left side menu.
+
+Input:  htmlStr -> contains the html of the left side menu which is received from main using IPC.
+
+    - totalShops -> total number of shops
+
+o   createNewShop: IPC to main to create a new shop modal.
+
+o   closeForm: close the modal for adding a new shop.
+
+o   rightClick: IPC send to main to open the modal for right-click which has the option for editing and deleting.

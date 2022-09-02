@@ -23,6 +23,8 @@ include::pages/menu_08_settings.adoc[leveloffset=3]
 
 include::pages/menu_09_personalization.adoc[leveloffset=3]
 
+include::pages/e-commerce-multichat.adoc[leveloffset=3]
+
 // include::pages/permission_settings.adoc[leveloffset=3]
 
 // include::pages/personalization_settings.adoc[leveloffset=3]

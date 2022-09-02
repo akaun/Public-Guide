@@ -10,6 +10,7 @@
 ** xref:menu_07_configuration.adoc[Configuration]
 ** xref:menu_08_settings.adoc[Settings]
 ** xref:menu_09_personalization.adoc[Personalization]
+** xref:e-commerce-multichat.adoc[E-Commerce Multichat]
 ** xref:implementation.adoc[Implementation]
 ** xref:general_requirement.adoc[General Requirement]
 ** xref:admin_access_setup.adoc[Admin Access]
