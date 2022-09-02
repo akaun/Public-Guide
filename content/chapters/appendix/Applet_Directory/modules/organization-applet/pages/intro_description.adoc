@@ -1,8 +1,3 @@
-[#h3_organization_applet_introduction]
-= Introduction to Organization Applet
-
-image::organization_applet_logo.png[Organization Applet Logo, 200, 200, align = "center"]
-
 Organization Applet is an applet where the users can create, organize and manage their Company,s profile, Branch, Location, and Labels. The aim of the Organization Applet is to equip users to set up their companies to link to their branches and locations as to identify the movements of their transactions.
  
 With this Organization Applet, the users can easily record/document their company's profile and link the company with their branches and locations. This applet is recognized as one of the core applets for the Big Ledger Products as It will be needed across most of the applets to recognize the company, branch, and location of a transaction. Moreover, on the management side, the users have better control to manage their inventory movements and the transactions into the selected companies, branches, and locations.
