@@ -1,0 +1,90 @@
+[#h3_media_library_applet_drive]
+= Drive
+
+When logging in into the Media Library Applet, this is the first page that will be shown to the user, which is the Drives Listing page. Then, users could proceed to press the "+" button placed at the top left corner to start creating a new drive.
+
+image::drive-listing-mainpage.png[Drive Listing Mainpage, align = "center"]
+
+Users will then need to fill in the information shown on each columns which include:
+
+1. Drive Code (The drive code could not be modified after creation)
+
+2. Drive Name
+
+3. Status
+    a. Active
+    b. Inactive
+
+4. Description
+
+image::create-drive.png[Create Drive, align = "center"]
+
+Press on the “Create” button after filling in every information to save the drive created. The created drive will then be listed on the main page. 
+
+== Details
+
+If users want to edit the drive created, just click on the list of drives shown on the main page. Users could edit every column except for the “Drive Code”. After everything is filled, press on the “Save” to upload all the changes.
+
+image::edit-drive-details.png[Edit Drive Details, align = "center"]
+
+If the user wants to delete a drive, just press on the “Delete Drive” button to remove the drive on the list shown on the main page. 
+
+image::edit-drive-details-2.png[Edit Drive Details, align = "center"]
+
+== Manage Files
+
+In the “Manage Files” tab, users could manage the uploaded media in their drive. Press on the “+” button to create a new file.
+
+image::edit-drive-manage-files.png[Create File, align = "center"]
+
+Users will then need to fill in the information shown on each columns which include:
+
+1. File Name
+
+2. Status
+    a. Active
+    b. Inactive
+
+3. Description
+
+4. Parent Directory
+
+5. File Type
+    a. Directory
+    b. File: Users will be given the option to drop file to attach or click to browse
+
+image::edit-drive-create-file.png[Create File, align = "center"]
+
+Press on the “Create” button after filling in every information to save the file created. The created file will then be listed on the main page. 
+
+Users could edit the file by clicking on the lists of files shown on the main page. There are few columns that users could edit which include:
+
+1. File Type
+
+2. File Name
+
+3. Status
+    a. Active
+    b. Inactive
+
+4. Description
+
+5. Parent Directory
+
+image::edit-drive-edit-file.png[Edit File, align = "center"]
+
+After everything is filled, press on the “Save” to upload all the changes.
+
+image::edit-drive-edit-file-2.png[Edit File, align = "center"]
+
+If the user wants to delete a file, just press on the “Delete” button to remove the file on the list shown on the main page. 
+
+== Manage Users
+
+In the “Manage Users” tab, users are allowed to grant the access of the drive to certain users. Users could click on the “+” button to add users to the drive. 
+
+After clicking the “+” button, it will bring the users to this page. There is a checkbox beside every user. If users want to give access to them, just tick on the check box beside their name and press the “Add” button. 
+
+image::edit-drive-manage-users.png[Edit File, align = "center"]
+
+If the user wants to remove the user access to a drive, just click the user on the main page then press the “Delete” button. The system will be updated automatically and the user will be removed from the drive. 

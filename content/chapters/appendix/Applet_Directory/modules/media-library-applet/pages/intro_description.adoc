@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This is a simple description of the applet, no more than 100 words.  The Media Library Applet is created to serve as a cloud to save all the related media including audio, images, videos or files at the same place that could be accessible by users who have been given access to. 
