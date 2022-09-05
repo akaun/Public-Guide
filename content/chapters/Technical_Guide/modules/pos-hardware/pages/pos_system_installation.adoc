@@ -94,7 +94,6 @@ Need to setup for the scanner to auto enter by scan the configuration as below (
 
 image::20.png[align = "center"]
 
-
 === Printer:
 
 For the printer, need to check the model of the printer and run the setup file by search and download in the google of the setup file. 

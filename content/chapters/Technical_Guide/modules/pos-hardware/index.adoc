@@ -4,3 +4,4 @@
 include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/pos_system_installation.adoc[leveloffset=3]
+

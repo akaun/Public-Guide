@@ -1,14 +1,12 @@
 [#h3_tech_guide_name_module]
 = Introduction
 
-Introduction about what is covered in this guide
-
+Introduction about what is covered in this guide.
 
 == Overview
 
 Some background of why this module was developed
 Provide a summary of what this module does and doesn't do.
-
 
 == Applets
 

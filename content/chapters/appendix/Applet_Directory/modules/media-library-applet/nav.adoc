@@ -1,5 +1,6 @@
 * Media Library Applet
 ** xref:introduction.adoc[Introduction]
+** xref:drive.adoc[Drive]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
