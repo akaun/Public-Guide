@@ -1,4 +1,4 @@
-[#h3_voucher_management_voucher]
+[#h3_voucher_management_applet_voucher]
 = Voucher
 
 Please click the "+" button on the left hand side of the Search Box to Create a new voucher.

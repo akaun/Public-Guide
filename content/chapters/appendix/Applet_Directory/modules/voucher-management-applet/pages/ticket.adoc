@@ -1,4 +1,4 @@
-[#h3_voucher_management_ticket_management]
+[#h3_voucher_management_applet_ticket_management]
 = Ticker
 
 All the tickets generated will be listed in the table in the “Ticket” tab.
