@@ -1,7 +1,8 @@
-[#h2_tech_guide_pos_hardware_index]
-= POS System
+[#h2_tech_guide_feature_name_index]
+= Feature Name
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/pos-system-installation.adoc[leveloffset=3]
+
+
 
