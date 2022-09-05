@@ -3,40 +3,47 @@
 
 Please make sure the java is uninstalled before proceeding to the next step. (Optional)
 
-== Uninstall java:
+== Uninstall java
 
-Go to windows setting
+Go to windows setting:
 
 image::settings.png[Settings, align = "center"]
 
-Click on the Apps
+Click on the Apps:
 
 image::find-a-setting.png[Find A Setting, align = "center"]
 
-Type in java in the search space
+Type in java in the search space:
 
 image::apps-and-features.png[Apps and Features, align = "center"]
 
 Uninstall all programs listed.
 
-== Setup: 
+== Setup
+
 === 1.Installing Java
 Install latest java 64-bit https://www.java.com/en/download/ or download from here https://barcode-software.s3-ap-southeast-1.amazonaws.com/jdk-8u231-windows-x64.exe
 
 Double click on the exe file downloaded.
 
 image::java-setup.png[Java Setup, align = "center"]
+
 Click Install. Wait until the installation is done.
-Check for the java version
+
+Check for the java version.
 
 image::command-prompt.png[Command Prompt, align = "center"]
+
 Search for cmd in windows search bar.
 
 image::command-prompt-tab.png[Command Prompt Tab, align = "center"]
+
 Type java -version. Make sure the java version 1.8 is used.
 
 === 2.Download: 
+
 https://drive.google.com/file/d/1FT1cU3pNe0HLhnixqYmK8OTi4JyNEQCX/view?usp=sharing 
+
 Extract the file and move the extracted folder to the desktop.
 
 image::specific-folder.png[Specific Folder, align = "center"]
@@ -50,11 +57,14 @@ image::send-to.png[Send To, align = "center"]
 image::run-default-shortcut.png[Run Default Shortcut, align = "center"]
 
 image::run-default.png[Run Default, align = "center"]
+
 Double click on run default. You will have a cmd window opening. **This step needs to be done every time the PC is restarted or closed. Do not close this window. IF accidentally close please run the run default again.
 
 image::spring-boot.png[Spring Boot, align = "center"]
-If want to set the system to run the file in default, need to set in task scheduler
-Task scheduler> Create task
+
+If want to set the system to run the file in default, need to set in task scheduler:
+
+Task Scheduler -> Create Task
 
 image::pos-auto-start-properties.png[POS Auto Start Properties, align = "center"]
 
@@ -65,16 +75,15 @@ image::create-task.png[Create Task, align = "center"]
 image::create-task-ok.png[Create Task OK, align = "center"]
 
 
-=== 3.Download: 
+=== 3.Download
+
 https://drive.google.com/file/d/1cWTtx9usEM9WhcEn9mAa2YXqgUKgBgWN/view?usp=sharing 
 
-Extract the file in the 
-C:\Users\(username) example C:\Users\abc
+Extract the file in the C:\Users\(username) example C:\Users\abc
 
-image::pos-printable-format.png[align = "center"]
+image::pos-printable-format.png[Pos Printable Format, align = "center"]
 
-
-=== 4. Check if it detect the POS system:
+=== 4. Check if it detects the POS system
 
 Restart the PC. Then, after 5 minute, in the browser, run the following address:
 
@@ -82,7 +91,8 @@ http://localhost:8085/getMacAddress
 
 Should be, will get some reading as following:
 
-image::automatic-enter-key-suffix.png[align = "center"]
+image::automatic-enter-key-suffix.png[Automatic Enter Key Suffix, align = "center"]
+
 If it did not get the reading, it needs to check if the “run default.bat” is running or not.
 
 
@@ -92,7 +102,7 @@ If it did not get the reading, it needs to check if the “run default.bat” is
 
 Need to setup for the scanner to auto enter by scan the configuration as below (the barcode that need to be scan depends on the scanner model):
 
-image::get-mac-address.png[align = "center"]
+image::get-mac-address.png[Get MAC Address, align = "center"]
 
 === Printer:
 
@@ -100,9 +110,9 @@ For the printer, need to check the model of the printer and run the setup file b
 
 In the Printer and Scanner in the Control Panel, set the printer as defaults. Then, in the printer preference, change the size to 80mm x 3276mm.
 
-image::set-as-default.png[align = "center"]
+image::set-as-default.png[Set As Default, align = "center"]
 
-image::quick-set-up.png[align = "center"]
+image::quick-set-up.png[Quick Set-Up, align = "center"]
 
 Can follow the link below to set cash drawer auto open after print receipt:
 
