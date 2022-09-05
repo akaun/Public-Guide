@@ -1,4 +1,4 @@
-[#h3_voucher_management_voucher]
+[#h3_pos_hardware_system_installation]
 = POS System Installation
 
 Please make sure the java is uninstalled before proceeding to the next step. (Optional)
@@ -7,15 +7,15 @@ Please make sure the java is uninstalled before proceeding to the next step. (Op
 
 Go to windows setting
 
-image::1.png[align = "center"]
+image::settings.png[Settings, align = "center"]
 
 Click on the Apps
 
-image::2.png[align = "center"]
+image::find-a-setting.png[Find A Setting, align = "center"]
 
 Type in java in the search space
 
-image::3.png[align = "center"]
+image::apps-and-features.png[Apps and Features, align = "center"]
 
 Uninstall all programs listed.
 
@@ -25,44 +25,44 @@ Install latest java 64-bit https://www.java.com/en/download/ or download from he
 
 Double click on the exe file downloaded.
 
-image::4.png[align = "center"]
+image::java-setup.png[Java Setup, align = "center"]
 Click Install. Wait until the installation is done.
 Check for the java version
 
-image::5.png[align = "center"]
+image::command-prompt.png[Command Prompt, align = "center"]
 Search for cmd in windows search bar.
 
-image::6.png[align = "center"]
+image::command-prompt-tab.png[Command Prompt Tab, align = "center"]
 Type java -version. Make sure the java version 1.8 is used.
 
 === 2.Download: 
 https://drive.google.com/file/d/1FT1cU3pNe0HLhnixqYmK8OTi4JyNEQCX/view?usp=sharing 
 Extract the file and move the extracted folder to the desktop.
 
-image::7.png[align = "center"]
+image::specific-folder.png[Specific Folder, align = "center"]
 
-image::8.png[align = "center"]
+image::dekstop.png[Dekstop, align = "center"]
 
-image::9.png[align = "center"]
+image::specific-version.png[Specific Version, align = "center"]
 
-image::10.png[align = "center"]
+image::send-to.png[Send To, align = "center"]
 
-image::11.png[align = "center"]
+image::run-default-shortcut.png[Run Default Shortcut, align = "center"]
 
-image::12.png[align = "center"]
+image::run-default.png[Run Default, align = "center"]
 Double click on run default. You will have a cmd window opening. **This step needs to be done every time the PC is restarted or closed. Do not close this window. IF accidentally close please run the run default again.
 
-image::13.png[align = "center"]
+image::spring-boot.png[Spring Boot, align = "center"]
 If want to set the system to run the file in default, need to set in task scheduler
 Task scheduler> Create task
 
-image::14.png[align = "center"]
+image::pos-auto-start-propoerties.png[POS Auto Start Properties, align = "center"]
 
-image::15.png[align = "center"]
+image::new-action.png[New Action, align = "center"]
 
-image::16.png[align = "center"]
+image::create-task.png[Create Task, align = "center"]
 
-image::17.png[align = "center"]
+image::create-task-ok.png[Create Task OK, align = "center"]
 
 
 === 3.Download: 
@@ -71,7 +71,7 @@ https://drive.google.com/file/d/1cWTtx9usEM9WhcEn9mAa2YXqgUKgBgWN/view?usp=shari
 Extract the file in the 
 C:\Users\(username) example C:\Users\abc
 
-image::18.png[align = "center"]
+image::pos-printable-format.png[align = "center"]
 
 
 === 4. Check if it detect the POS system:
@@ -82,7 +82,7 @@ http://localhost:8085/getMacAddress
 
 Should be, will get some reading as following:
 
-image::19.png[align = "center"]
+image::automatic-enter-key-suffix.png[align = "center"]
 If it did not get the reading, it needs to check if the “run default.bat” is running or not.
 
 
@@ -92,7 +92,7 @@ If it did not get the reading, it needs to check if the “run default.bat” is
 
 Need to setup for the scanner to auto enter by scan the configuration as below (the barcode that need to be scan depends on the scanner model):
 
-image::20.png[align = "center"]
+image::get-mac-address.png[align = "center"]
 
 === Printer:
 
@@ -100,9 +100,9 @@ For the printer, need to check the model of the printer and run the setup file b
 
 In the Printer and Scanner in the Control Panel, set the printer as defaults. Then, in the printer preference, change the size to 80mm x 3276mm.
 
-image::21.png[align = "center"]
+image::set-as-default.png[align = "center"]
 
-image::22.png[align = "center"]
+image::quick-set-up.png[align = "center"]
 
 Can follow the link below to set cash drawer auto open after print receipt:
 

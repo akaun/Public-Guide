@@ -1,4 +1,4 @@
-[#h3_tech_guide_name_module]
+[#h3_tech_guide_pos_hardware_introduction]
 = Introduction
 
 Introduction about what is covered in this guide.
