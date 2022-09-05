@@ -41,7 +41,7 @@ Extract the file and move the extracted folder to the desktop.
 
 image::specific-folder.png[Specific Folder, align = "center"]
 
-image::dekstop.png[Dekstop, align = "center"]
+image::desktop.png[Dekstop, align = "center"]
 
 image::specific-version.png[Specific Version, align = "center"]
 
@@ -56,7 +56,7 @@ image::spring-boot.png[Spring Boot, align = "center"]
 If want to set the system to run the file in default, need to set in task scheduler
 Task scheduler> Create task
 
-image::pos-auto-start-propoerties.png[POS Auto Start Properties, align = "center"]
+image::pos-auto-start-properties.png[POS Auto Start Properties, align = "center"]
 
 image::new-action.png[New Action, align = "center"]
 
