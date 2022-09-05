@@ -49,7 +49,7 @@ Extract the file and move the extracted folder to the desktop.
 
 image::specific-folder.png[Specific Folder, align = "center"]
 
-image::dekstop.png[Desktop, align = "center"]
+image::desktop.png[Desktop, align = "center"]
 
 image::specific-version.png[Specific Version, align = "center"]
 
@@ -57,7 +57,7 @@ image::create-shortcut.png[Create Shortcut, align = "center"]
 
 image::run-default-shortcut.png[Run Default Shortcut, align = "center"]
 
-image::run--shortcut.png[Run Shortcut, align = "center"]
+image::run-shortcut.png[Run Shortcut, align = "center"]
 
 Double click on run default. You will have a cmd window opening. This step needs to be done every time the PC is restarted or closed. Do not close this window. IF accidentally close please run the run default again.
 
