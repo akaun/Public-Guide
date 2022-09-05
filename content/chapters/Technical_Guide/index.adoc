@@ -9,7 +9,7 @@ include::modules/etl-guide/index.adoc[leveloffset=2]
 
 include::modules/cloud-native/index.adoc[leveloffset=2]
 
-include::modules/pos-hardware/index.adoc[leveloffset=2]
+include::modules/pos-hardware-system/index.adoc[leveloffset=2]
 
 
 
