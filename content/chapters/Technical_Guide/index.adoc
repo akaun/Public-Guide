@@ -1,8 +1,7 @@
 [#h1_technical_guide]
 = Technical Guide
 
-This technical guide is used by both internal and external employees of 
-
+This technical guide is used by both internal and external employees.
 
 include::modules/applet-development/index.adoc[leveloffset=2]
 
