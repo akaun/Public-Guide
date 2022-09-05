@@ -1,2 +1,2 @@
 * POS Hardware System 
-** xref:pos-system-installation.adoc[Introduction]
+** xref:pos-system-installation.adoc[POS System Installation]
