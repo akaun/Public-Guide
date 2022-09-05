@@ -1,4 +1,4 @@
-* Named-Applet 
+* Voucher Management Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:voucher.adoc[Voucher]
 ** xref:ticket.adoc[Ticket]

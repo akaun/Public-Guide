@@ -1,3 +1,3 @@
-* Feature Name
+* POS System
 ** xref:introduction.adoc[Introduction]
 ** xref:pos_system_installation.adoc[POS Installation]

@@ -1,5 +1,5 @@
 [#h2_tech_guide_feature_name_index]
-= POS System Installation
+= POS System
 
 include::pages/introduction.adoc[leveloffset=3]
 
