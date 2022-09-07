@@ -346,3 +346,12 @@ In order to change the document status to delete, users will go to the status ta
 
 image::status_delete.png[1440 x 900]
 
+=== Sales Order - Events tab
+
+This tab allows users to create a new event. Users could press on the “+” sign to create a new event.
+
+image::sales_events_tab.png[1440 x 900]
+
+
+
+
