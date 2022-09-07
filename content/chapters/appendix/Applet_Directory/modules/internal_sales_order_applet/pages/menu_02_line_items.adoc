@@ -1,2 +1,180 @@
 [#h3_internal_sales_order_line_items]
-=  Menu 01 - e.g. Sales Orders Listing
+=  Menu 01 - Line Items
+
+Line items Menu displays items, which was created in Sales Order Menu. Users is  not able to create new order in this menu, but they can edit items.
+
+image::line_items_menu.png[1440 x 900]
+
+User can edit the order by clicking the chosen item. It will direct the user where there are few tabs to edit.
+
+** Item Details Tab
+** Stock Availability Tab
+**  Costing Details Tab
+** Pricing Details Tab
+** Issue Linking Tab
+** Doc Link Tab
+** Ecomsync Tab
+
+image::line_items.png[1440 x 900]
+
+== Line Items - Item Details Tab
+
+Item Details Tab includes six separate tabs in it.
+
+* Main Details - In this Tab user can edit or add:
+  
+  image::edit_line_item.png[1440 x 900]
+
+  ** Item Code
+  ** Item Name
+  ** Membership start date 
+  ** UOM - choose from dropdown list
+  ** Pricing Scheme
+  ** Unit Price STD(exlusive of tax)
+  ** Unit Price STD(inclusive of tax)
+  ** Unit Discount
+  ** Quantity Base
+  ** Unit Price STD by UOM(exlusive of tax)
+  ** Unit Price STD by UOM((inclusive of tax)
+  ** Unit Price Transaction by UOM(exlusive of tax)
+  ** Unit Price Net(exlusive of tax)
+  ** STD amount(Unit Price and Quantity)
+  ** Discount Amoun(exlusive of tax) 
+  ** Amount Net(exlusive of tax)
+  ** SST Code - choose from dropdown list
+  ** SST/GST/VAT
+  ** Tax Amount
+  ** WHT code - choose from dropdown list
+  ** WHT 
+  ** WHT amount
+  ** Unit Price Transaction(inclusive of tax)
+  ** Txn Amount
+  ** Remarks
+   
+ * Delivery Instructions Tab
+  
+   This tab used to add:
+   ** Delivery instructions
+   ** Request Delivery Date
+   ** Delivery Message card: From->To
+
+  image::delivery_instructions_tab.png[1440 x 900]
+
+* Department Tab
+
+Users click "Copy from Hdr", it copies from Department Hdr Tab in Sales order menu
+
+ image:: sales_department_tab.png[1440 x 900]
+
+* Delivery Details tab
+
+The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
+
+Users also can require delivery or not - choose from dropdown list
+
+image:: delivery_details_tab.png[1440 x 900]
+
+* Delivery Tips tab
+
+List of Delivery trips report for the particular sales order is displayed here.   
+
+image:item_delivery_trips.png[1440 x 900]
+
+** Trip No: A unique number generated and assigned to a scheduled trip.
+** Driver Name: ”Coach man” or "vehicle operator."
+** Vehicle No: A series of letters and numbers assigned to a vehicle, at the time of registration.
+** Job Start Date: The official date on which a person begins their delivery job.
+** Job End Date: The official date on which a person finishes their delivery job.
+** Delivery Status: If the delivery item was successfully delivered to the addressee.
+** Recipient Name: The person’s name that receives.
+
+* Membership Points Tab
+
+image:membership_points.png[1440 x 900]
+
+This tab is used to manage membership Points:
+
+** Point Currency
+** Point amount
+** Valid Date from
+** Duration(days)
+** Valid Day to
+
+
+== Line Items - Stock Availability
+
+Stock availability tabs allow users to check whether the products are available in-store.
+
+User can see:
+** System Block Balance
+** Previous Sales order
+** Current Sales Order
+** Stock Availability
+
+image:line_Items_stock_availability.png[1440 x 900]
+
+== Line Items - Costing Details
+
+List of Costing Details for the particular sales order is displayed here.
+
+** Company Code
+** Location Code
+** Quantity Moving Average Unit Costing
+** FIFO Unit Cost
+** Manual Unit Cost
+** Last Purchase Unit Cost
+
+image:costing_details.png[1440 x 900]
+
+== Line Items - Pricing Details 
+
+User chooses UOM from the dropdown list and can see the pricing details from the listing below:
+
+** Pricing Scheme Code
+** Pricing Scheme Name
+** Unit Price
+** Modified date
+
+image:pricing_details_line_items.png[1440 x 900]
+
+== Line Items - Issue Link Tab
+
+image:issue_link.png[1440 x 900]
+
+This tab is used to track issue by:
+
+** Project
+** Issue Number
+** Issue Summary
+** Issue Description
+** Assignee
+** Created Date
+** Resolved Date
+** Status
+
+
+
+== Line Items - Doc Link Tab
+
+Doc Link is used to show either the selected line item have link with other Gen doc Line Item
+
+image:doc_link_item.png[1440 x 900]
+
+== Line Items - Ecomsync Tab
+
+Ecomsync Tab is used for displaying the information on line level for Ecomsync.
+
+This tab includes four more tabs in it:
+
+** Details 
+** Printables
+** Image
+** Shopping Carrier
+
+image:ecomsync_tab.png[1440 x 900]
+
+
+
+
+
+
