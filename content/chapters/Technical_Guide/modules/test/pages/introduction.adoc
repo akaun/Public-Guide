@@ -1,4 +1,4 @@
-[#h3_tech_guide_name_module]
+[#h3_test_name_module]
 = Introduction
 
 Introduction about what is covered in this guide

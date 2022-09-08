@@ -1,4 +1,4 @@
-[#h3_tech_guide_name_module]
+[#h3_test_testing_module]
 = Test
 
 Testing
