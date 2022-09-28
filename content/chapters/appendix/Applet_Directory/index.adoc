@@ -100,8 +100,6 @@ include::modules/pricebook-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-shopping-cart-applet/index.adoc[leveloffset=2]
 
-include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
-
 include::modules/stock-availability-applet/index.adoc[leveloffset=2]
 
 include::modules/stock-balance-applet/index.adoc[leveloffset=2]
