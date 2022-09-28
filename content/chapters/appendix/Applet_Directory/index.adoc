@@ -24,6 +24,8 @@ include::modules/employee-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/entity-maintenance-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
+
 include::modules/inventory-item-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/media-library-applet/index.adoc[leveloffset=2]
@@ -79,8 +81,6 @@ include::modules/internal-payment-voucher-applet/index.adoc[leveloffset=2]
 include::modules/internal-sales-invoice-applet/index.adoc[leveloffset=2]
 
 include::modules/internal_sales_order_applet/index.adoc[leveloffset=2]
-
-include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-credit-note/index.adoc[leveloffset=2]
 
