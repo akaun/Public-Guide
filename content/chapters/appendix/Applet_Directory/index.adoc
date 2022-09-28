@@ -80,6 +80,8 @@ include::modules/internal-sales-invoice-applet/index.adoc[leveloffset=2]
 
 include::modules/internal_sales_order_applet/index.adoc[leveloffset=2]
 
+include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-purchase-credit-note/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-debit-note-applet/index.adoc[leveloffset=2]
