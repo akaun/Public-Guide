@@ -1,1 +1,3 @@
-This is a simple description of the applet, no more than 100 words.
+Internal Sales Invoice Applet is used to efficiently manage your sales invoices. Sales invoice will include but not limited to list of purchased products or services and details, such as invoice number, billing adress, due date, billing address, sales taxes, and more.
+
+Integrated with other applets, it provides seamless and fast experience for your internal business operations.

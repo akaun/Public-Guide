@@ -47,9 +47,10 @@ image::sales_order_create_main_tab.png[1440 x 900]
 ** Credit Terms:  An agreement between the buyer and seller about the timings and payment to be made for the goods bought on credit.
 ** Credit Limit: Maximum amount of credit offered to the customer.** Sales Agent: The authorized and appointed professional who sold or distributed the products or services to the customer.
 ** Currency: To determined based on the pricing condition what you are maintaining.
+** Sales Agent:  choose the employee from the dropdown list.
 ** Permit No: Sellers permit number.
 ** CRM Contact: Specify the contact for whom the sales order is being created.
-** Sales Lead: The retail sales worker who is responsible for coordinating, ensuring, and ensuring the sales orders are reached to the customer.
+** Sales Lead: The retail sales worker who is responsible for coordinating, ensuring, and ensuring the sales orders are reached to the customer. From the drop down list, user choose wether the "Corporate" or "Non-Corporate". 
 ** Membercard: A card issued by your company to the customer to indicate membership of a membership scheme.
 ** Tracking ID: An ID or code is assigned to the sales order to typically print on the shipping label.
 ** Client Key: To display the client key, for EMP users
@@ -91,7 +92,8 @@ image::create_edit_mode.png[1440 x 900]
 ** Entity Name:  Customer Name, auto-filled when customer entity is selected. 
 ** Status: Active or Inactive. Auto-filled when customer entity is selected. 
 ** Entity Type: Corporate or Individual. Auto-filled when customer entity is selected.  
-** Identity Type: IC or Passport, auto-filled when customer entity is selected. ** ID Number: IC or Passport number, auto-filled when customer entity is selected. 
+** Identity Type: IC or Passport, auto-filled when customer entity is selected. 
+** ID Number: IC or Passport number, auto-filled when customer entity is selected. 
 ** Currency: To determined based on the pricing condition what you are maintaining. Auto-filled when customer entity is selected. 
 ** GL Code: A number used to record business transactions in the general ledger. Auto-filled when customer entity is selected. 
 ** Description: Additional notes. Auto-filled when customer entity is selected. 
@@ -160,25 +162,37 @@ image::select_item.png[1440 x 900]
 
 ** Pricing Scheme: In addition to the default price, a Pricing Scheme allows you to establish a range of standard prices for a product. This enables you to generate customized pricing for certain clients
 
+** Unit Price STD(exclusive of tax): standart price exclusive price
+
+** Unit Price STD(inclusive of tax): standart price inclusive price
+
+** Unit Discount: Specify discounts by the unit
+
 ** Quantity Base:  Physical quantities that cannot be defined in terms of other quantities.
 
 ** Quantity UOM: Total number of items by defined UOM
 
 ** UOM to Base Ratio: Ratio between UOM and the quantity base.
 
+** Unit Price STD by UOM(exclusive of tax): Standart Unit pricing based on different Unit of Measure exclusive price
+
+** Unit Price STD by UOM(inclusive of tax): Standart Unit pricing based on different Unit of Measure inclusive price
+
 ** Unit Price by UOM (Inclusive of tax): When a product item's pricing is based on a different unit of measure than its inventory unit of measure, you might specify pricing by the unit of measure (UOM).
 
 ** Unit Discount by UOM (inclusive of tax): Here we can specify discounts by the unit of measure (UOM).
 
-** Unit Price (Inclusive of tax): Quoted, agreed, or standard pricing for your products and services.
+** Unit Price Net by UOM (exclusive of tax): Quoted, agreed, or standard pricing for your products and services.
 
-** Unit Discount: Specifying quoted, agreed, or standard discounts for your products and services.
+** Unit Price Transaction by UOM(inclusive of tax)
+
+** Unit Price Net (exclusive of tax)
+
+** STD amount(unit price and quantity)
 
 ** Discount Amount:  Unit discount times quantity base (Auto calculated).
 
-** Standard (STD): Amount: Unit Price times quantity (Auto calculated).
-
-** Net Amount:: Standard Amount minus discount amount )Auto calculated)..
+** Amount Net:: Standard Amount minus discount amount )Auto calculated)..
 
 ** SST Code: Sales and service tax code, used to determine the tax amount
 
@@ -200,15 +214,22 @@ image::select_item.png[1440 x 900]
 
 * Note: You may Knock Off (KO) and/or Copy the item and quantity from existing docs. The KO configurations are done in the Organisation Applet > Company  > Knock Off Conf
 
-=== Delivery Instructions
-
-Delivery instructions: You can enter instructions for the delivery of an order and specify the delivery date requested by your customer.
-
-Delivery message card: You can also prepare the delivery message card for the receiver.
+* Delivery Instructions
 
 image::delivery_instruction_tab.png[1440 x 900]
 
-=== Department
+Delivery instructions:
+
+
+
+**  You can enter instructions for the delivery of an Order
+**  Specify the delivery date requested by your customer.
+
+Delivery message card: 
+
+** You can also prepare the delivery message card for the receiver.
+
+* Department
 
 Linking the line item to the following departments is optional and helps in reports
 
@@ -221,6 +242,82 @@ Profit center: Selecting profit center at the item or hdr level
 Project: Selecting project at the item or hdr level
 
 image::department_tab.png[1440 x 900]
+
+* Delivery Details Tab
+
+The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
+
+image::item_details_delivery_details.png[1440 x 900]
+
+** Require delivery: Choose from the Dropdown List
+** Delivery Status: Delivery progress
+** Delivery Region Code: In order to apply different shipping rules and costs to different geographic locations
+** Delivery Region Status
+** Delivery Logic: The mechanism of physical settlement, penalties for delivery default, and timelines for submitting delivery intents are all defined by delivery logic. 
+** Delivery ID: A unique identifier for delivery.
+** Planned Delivery Date: It's the date when you are supposed to deliver things based on the order.
+** Estimate Delivery Date: It's the date when you are expected to delivery things based on the order.
+** Actual Delivery Date:  It's the date when you are actually deiverying things based on the order.
+** Delivery PIC Name: It’s name of the delivery person in charge.
+** Delivery PIC Contact: It’s contact of the delivery person in charge.
+** Delivery Remarks: Additional notes/remarks for delivery.
+
+* Membership Points Tab
+
+This tab is used to manage membership Points:
+
+** Point Currency
+** Point amount
+** Valid Date from
+** Duration(days)
+** Valid Day to
+
+image::line_items_membership_points.png[1440 x 900]
+
+==== Stock Availability Tab
+
+Stock availability tabs allow users to check whether the products are available in-store.
+
+User can see:
+** System Block Balance
+** Previous Sales order
+** Current Sales Order
+** Stock Availability
+
+image:sales_order_stock_availability.png[1440 x 900]
+
+==== Costing Details
+
+List of Costing Details for the particular sales order is displayed here.
+
+image::sales_order_costing_det.png[1440 x 900]
+
+==== Pricing Details
+
+image::sales_order_pricing_details.png[1440 x 900]
+
+User chooses UOM from the dropdown list and can see the pricing details from the listing below:
+
+** Pricing Scheme Code
+** Pricing Scheme Name
+** Unit Price
+** Modified date
+
+====  Issue Link Tab
+
+image:sales_order_issue_link.png[1440 x 900]
+
+This tab is used to track issue by:
+
+** Project
+** Issue Number
+** Issue Summary
+** Issue Description
+** Assignee
+** Created Date
+** Resolved Date
+** Status
+
 
 === Sales Order - Settlement tab
 
@@ -271,7 +368,8 @@ image::edit_sales_order.png[1440 x 900]
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
 image::delivery_tab.png[1440 x 900]
-
+** Require delivery: Choose from the Dropdown List
+** Delivery Status: Delivery progress
 ** Delivery Region Code: In order to apply different shipping rules and costs to different geographic locations
 ** Delivery Logic: The mechanism of physical settlement, penalties for delivery default, and timelines for submitting delivery intents are all defined by delivery logic. 
 ** Delivery ID: A unique identifier for delivery.
@@ -295,6 +393,20 @@ image::delivery_trips.png[1440 x 900]
 ** Job End Date: The official date on which a person finishes their delivery job.
 ** Delivery Status: If the delivery item was successfully delivered to the addressee.
 ** Recipient Name: The person’s name that receives.
+
+=== Sales Order - Contra Tab
+
+image::sales_orde_contra.png[1440 x 900]
+
+In order to create Contra, users need to click "+" button, it will open the second page where you select the document to add Contra amount. 
+
+image::add_contra.png[1440 x 900]
+
+=== Sales Order - Doc Link Tab
+
+Doc Link is used to show either the selected line item have link with other Gen doc Line Item
+
+image:doc_link_order.png[1440 x 900]
 
 === Sales Order - Attachments tab
 

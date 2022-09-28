@@ -2,6 +2,8 @@ Internal Sales Order Applet is used to Create, Edit and Print sales orders.
 
 A sales order is a document issued by a seller in response to a purchase order from a buyer that contains information about the Product or Service, as well as Price, Quantity, and Buyer information such as shipping and billing addresses, payment methods, and terms and conditions.
 
+Who can use this Applet:
+
 *Intended Users
 **Collection agent.
 **Sales consultant.
