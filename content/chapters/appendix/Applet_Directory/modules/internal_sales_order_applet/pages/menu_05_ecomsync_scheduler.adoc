@@ -24,5 +24,11 @@ image::ecomsync_cron_expression.png[1440 x 900]
 
 To edit or remove  Scheduler, select the specific scheduler you want and it will lead you to the second page where u can implement your changes.
 
+Scheduler Code - can not be edited
+
+Scheduler Name, Time Interval, Intervals, Branch List, Event status, Status, Email - can be edited
+
 image::ecomsynch_scheduler_edit.png[1440 x 900]
+
+
 

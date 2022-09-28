@@ -1,5 +1,5 @@
 [#h3_internal_sales_order_line_items]
-=  Menu 01 - Line Items
+=  Menu 02 - Line Items
 
 Line items Menu displays items, which was created in Sales Order Menu. Users is  not able to create new order in this menu, but they can edit items.
 
@@ -53,10 +53,16 @@ Item Details Tab includes six separate tabs in it.
    
  * Delivery Instructions Tab
   
-   This tab used to add:
-   ** Delivery instructions
-   ** Request Delivery Date
-   ** Delivery Message card: From->To
+image::delivery_instruction_tab.png[1440 x 900]
+
+Delivery instructions:
+
+**  You can enter instructions for the delivery of an Order
+**  Specify the delivery date requested by your customer.
+
+Delivery message card: 
+
+** You can also prepare the delivery message card for the receiver.
 
   image::delivery_instructions_tab.png[1440 x 900]
 
@@ -151,8 +157,6 @@ This tab is used to track issue by:
 ** Created Date
 ** Resolved Date
 ** Status
-
-
 
 == Line Items - Doc Link Tab
 
