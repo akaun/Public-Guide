@@ -3,6 +3,10 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/create_stock_adjustment.adoc[leveloffset=3]
+
+include::pages/view_stock_adjustment.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]

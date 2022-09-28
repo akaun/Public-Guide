@@ -1,1 +1,14 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Stock Adjustment Applet is used to add one or many stock adjustments. Besides that, it is used to view and create stock adjustments by batch/serial. It is also used to create bulk stock adjustment via CSV. It can be used to manage the listing of the stock adjustments. There is one module in the applet, which is ‘Stock Adjustment Listing’.
+
+Stock adjustment is the increase or reduction made to the stock so that the actual quantity on hand matches the stock shown in the system.
+
+List of Features: Create Stock Adjustment, View Stock Adjustment
+
+Steps for Adding Stock Adjustment: Fill in Branch and Location > Add Line Items
+
+
+* The Internal Stock Adjustment Applet can import Lines from the following Applets:
+** Organization Applet
+** Inv Item Maintenance Applet
+** Doc Item Maintenance Applet
+** Stock Balance Applet

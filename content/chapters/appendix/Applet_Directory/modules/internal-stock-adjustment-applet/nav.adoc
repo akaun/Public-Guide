@@ -1,6 +1,8 @@
 * Internal Stock Adjustment Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:modules.adoc[Modules]
+** xref:create_stock_adjustment.adoc[Create Stock Adjustment]
+** xref:view_stock_adjustment.adoc[View Stock Adjustment]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
 ** xref:release_note.adoc[Release Note]
