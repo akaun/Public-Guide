@@ -5,13 +5,11 @@ This technical guide is used by both internal and external employees.
 
 include::modules/applet-development/index.adoc[leveloffset=2]
 
-include::modules/pos-hardware-system/index.adoc[leveloffset=2]
-
 include::modules/etl-guide/index.adoc[leveloffset=2]
 
 include::modules/cloud-native/index.adoc[leveloffset=2]
 
-include::modules/test/index.adoc[leveloffset=2]
+include::modules/pos-hardware-system/index.adoc[leveloffset=2]
 
 
 

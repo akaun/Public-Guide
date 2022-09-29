@@ -6,3 +6,4 @@ nav:
 - modules/applet-development/nav.adoc
 - modules/etl-guide/nav.adoc
 - modules/cloud-native/nav.adoc
+- modules/pos-hardware-system/nav.adoc

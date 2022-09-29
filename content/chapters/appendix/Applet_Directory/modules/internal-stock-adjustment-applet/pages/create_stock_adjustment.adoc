@@ -3,8 +3,6 @@
 
 == 1.1. Please click the ‘+’ button to add a new stock adjustment.
 
-image::AddStockAdjustment.png[align="center"]
-
 image::StockAdjustmentListing-1.png[align="center"]
 
 == 1.1.1 In the Main Tab
@@ -27,7 +25,6 @@ image::CreateStockAdjustment-Main-2.png[align="center"]
 === 1.1.2 In the Line Items Tab
 ==== 1.1.2.1 Please click the ‘+’ button to add a new line item.
 
-image::AddLine.png[align="center"]
 image::CreateStockAdjustment-LineItems-1.png[align="center"]
 
 ==== 1.1.2.2 Select Inventory Item
