@@ -10,6 +10,7 @@ Users select the order and the document type from dropdown list given:
 * Shipping Label
 * Carrier Manifest
 Then prints the order that has been chosen.
+
 image::batch_printing_type.png1440 x 900]
 
 
