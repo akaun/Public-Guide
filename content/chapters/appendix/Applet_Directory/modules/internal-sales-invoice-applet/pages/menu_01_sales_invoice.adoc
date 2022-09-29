@@ -18,7 +18,7 @@ image::sales_invoice_listing.png[1440 x 900]
 
 The advance search box below helps refine the search and allows the user to specify requirements by branch, customer, date, status, and marketplaces when searching from the list of sales orders. 
 
-image::sales_order_advanced_search.png[1440 x 900]
+// image::sales_order_advanced_search.png[1440 x 900]
 
 == Final Posting
 
@@ -81,7 +81,7 @@ image::sales_invoice_entity_id.png[1440 x 900]
 
  Seach Customers from the list. 
 
-image::search_customer_select_mode.png[1440 x 900]
+// image::search_customer_select_mode.png[1440 x 900]
 
 Upon selecting the customer, master record details will be auto-filled. As shown in the screen below
 
@@ -340,7 +340,7 @@ image::line_add_sales_invoice.png[1440 x 900]
 
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
-image::delivery_tab.png[1440 x 900]
+// image::delivery_tab.png[1440 x 900]
 ** Require Delivery : choose from dropdown list: yes or no
 ** Delivery status 
 ** Delivery Region Code: In order to apply different shipping rules and costs to different geographic locations
@@ -358,7 +358,7 @@ image::delivery_tab.png[1440 x 900]
 
 Delivery trips report for the particular sales invoice is displayed here.    
 
-image::delivery_trips.png[1440 x 900]
+// image::delivery_trips.png[1440 x 900]
 
 ** Trip No: A unique number generated and assigned to a scheduled trip.
 ** Driver Name: ”Coach man” or "vehicle operator."
