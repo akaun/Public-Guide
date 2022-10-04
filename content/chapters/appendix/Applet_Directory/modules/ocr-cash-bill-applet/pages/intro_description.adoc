@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The main purpose of OCR Cash Bill Applet is to manage scanned receipts and their text-extracted documents, companies and items. Users can also upload scanned receipts, create custom ocr companies and items, and link OCR items to financial items through the applet.

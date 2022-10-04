@@ -1,0 +1,42 @@
+[#h3_ocr_cash_bill_applet_scanned_receipt_listing]
+
+= 2.1 Scanned Receipt Listing
+
+image::Scanned_Receipt_List_Upon_Load.png[align="center"]
+
+Upon logging in into the OCR Cash Bill Applet, this is the first page shown to the user, which is the Scanned Receipt Listing page. Then, users can proceed to press the ‘+’ button placed at the top left corner to upload a scanned receipt.
+
+== 2.1.1 Scanned Receipt Create
+
+image::Scanned_Receipt_List_Create.png[align="center"]
+
+Users can then select the desired inputs, and upload the scanned receipt::
+* Status
+** Active
+** Deleted
+** Inactive
+* Execution Strategy
+** RUN_NOW
+** INSERT_TO_QUEUE
+
+Clicking on ‘CREATE’ creates the scanned receipt, along with an OCR generic document with its text-extracted data.
+
+image::Scanned_Receipt_List_After_Edit.png[align="center"]
+
+After creating the scanned receipt, the scanned receipt will be listed on the main page. Users can click on the scanned receipt to make further changes.
+
+== 2.1.2 Scanned Receipt Edit
+
+image::Scanned_Receipt_Edit.png[align="center"]
+
+When clicking on the scanned receipt to edit it, there will be a few input fields to edit.
+
+* The Scanned Date field: Can be edited if the generated date is incorrect. 
+* The Status field: Can be edited to reflect the status of the receipt.
+
+Please be noted that OCR Output is only for display purposes only.
+
+After everything is filled in correctly, press the ‘Update’ button to auto update the scanned receipt’s details in the system. 
+
+If you wish to delete the scanned receipt, simply change the status to ‘DELETED’.
+

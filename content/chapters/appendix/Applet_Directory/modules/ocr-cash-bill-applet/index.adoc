@@ -5,6 +5,16 @@ include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/modules.adoc[leveloffset=3]
 
+include::pages/ocr_company_listing.adoc[leveloffset=3]
+
+include::pages/ocr_generic_doc_line_item_listing.adoc[leveloffset=3]
+
+include::pages/ocr_generic_doc_listing.adoc[leveloffset=3]
+
+include::pages/ocr_item_listing.adoc[leveloffset=3]
+
+include::pages/scanned_receipt_listing.adoc[leveloffset=3]
+
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]
 
 include::pages/menu_02_line_items.adoc[leveloffset=3]

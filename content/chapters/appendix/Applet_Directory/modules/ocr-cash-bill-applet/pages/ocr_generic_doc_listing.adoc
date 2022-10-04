@@ -1,0 +1,65 @@
+[#h3_ocr_cash_bill_applet_ocr_generic_doc_listing]
+
+= 2.2 OCR Generic Doc Listing
+
+image::Generic_Doc_Listing.png[align="center"]
+
+The second icon on the left menu bar is the ‘OCR Generic Doc Listing’ tab which allows users to new and edit OCR generic documents automatically created from scanned receipts.
+
+== 2.2.1 OCR Generic Doc Edit
+
+=== 2.2.1.1 Edit Main
+
+image::Generic_Doc_Edit_Main.png[align="center"]
+
+Users can click on a listed OCR Generic Doc to edit it. The first tab shown will be the main details tab, where users can edit the main details of the document::
+
+* Doc No.
+* Amount
+* Created Date
+* Confidence Level
+* Company
+* Verification Status
+* Status
+** Active
+** Deleted
+** Inactive
+To delete the document, set the Status field to ‘DELETED’.
+
+=== 2.2.1.2 OCR Generic Doc Line Item Listing
+
+image::Generic_Doc_Edit_Line_Item_Listing.png[align="center"]
+
+In the Line Items tab, users can view and edit the individual items in the OCR Generic Doc. There will be a list showing the details of the text-extracted items.
+
+=== 2.2.1.3 Edit Line Item
+
+image::Generic_Doc_Edit_Line_Item_Edit.png[align="center"]
+
+Users can edit a line item by clicking on it in the line item listing, which will open the Line Item Edit page. They can then edit the item’s details.
+
+* OCR Generic Doc No.
+* Financial Item (Can be viewed only)
+* Item Code
+* Item Name
+* Description
+* Company
+* Remarks
+* Status
+** Active
+** Deleted
+** Inactive
+
+To delete the line item, change the item’s Status to ‘DELETED’.
+
+=== 2.2.1.4 Link With Financial Item
+
+image::Generic_Doc_Edit_Line_Item_Select_FI_Item.png[align="center"]
+
+Clicking on the financial item input field will open up a list of financial items that users can choose from. Clicking one of these financial items will link the OCR Gen Doc Line Item with the Financial Item. Users can then click on the UPDATE button to save their changes.
+
+=== 2.2.1.5 Save Edits
+
+image::Generic_Doc_Edit_Line_Item_Edit_Finish.png[align="center"]
+
+After editing the OCR Gen Doc, users can click on the UPDATE button to save their changes.

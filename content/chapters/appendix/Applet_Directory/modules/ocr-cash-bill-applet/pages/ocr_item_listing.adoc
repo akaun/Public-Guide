@@ -1,0 +1,39 @@
+[#h3_ocr_cash_bill_applet_ocr_item_listing]
+
+= 2.5 OCR Item Listing
+
+image::Item_Listing.png[align="center"]
+
+The fifth icon on the left menu bar is the ‘OCR Item Listing’ tab which allows users to create new OCR Items and view the list of existing OCR Items. Users can press the ‘+’ button to create a new OCR Item.
+
+== 2.5.1 OCR Item Create
+
+image::Item_Create.png[align="center"]
+
+The input fields available while creating an OCR Item are:: 
+* Item Code (must be unique)
+* Item Name
+* Description
+* Company (selected from OCR Companies)
+* Remarks
+* Status
+** Active
+** Deleted
+** Inactive
+
+After everything is filled, click the CREATE button to save the new OCR Item.
+
+image::Item_Listing_New.png[align="center"]
+
+The newly created OCR Item will be displayed on the listing page.
+
+== 2.5.2 OCR Item Edit
+
+image::Item_Edit.png[align="center"]
+
+Users can edit a particular OCR Item by clicking on the item in the listing page. This will bring up the OCR Item Edit page, where users can edit the OCR Item’s properties. 
+
+
+To delete the OCR Item, simply change the Status to ‘DELETED’.
+
+When users are done making changes, they can click on the SAVE button to save their changes.

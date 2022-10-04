@@ -1,0 +1,33 @@
+[#h3_ocr_cash_bill_applet_ocr_generic_doc_line_item_listing]
+
+= 2.3 OCR Generic Doc Line Item Listing
+
+image::Line_Item_Listing.png[align="center"]
+
+The third icon on the left menu bar is the OCR Generic Doc Line Item Listing’ tab, which allows users to view and edit individual OCR Generic Doc Line Items automatically created from scanned receipts.
+
+== 2.3.1 Edit Line Item
+
+image::Line_Item_Edit.png[align="center"]
+
+Users can edit a line item by clicking on it in the line item listing, which will open the Line Item Edit page. They can then edit the item’s details.
+
+* OCR Generic Doc No.
+* Financial Item (Can be viewed only)
+* Item Code
+* Item Name
+* Description
+* Company
+* Remarks
+* Status
+** Active
+** Deleted
+** Inactive
+
+To delete the line item, change the item’s Status to ‘DELETED’
+
+== 2.3.1 Link With Financial Item
+
+image::Line_Item_Select_FI_Item.png[align="center"]
+
+Clicking on the financial item input field will open up a list of financial items that users can choose from. Clicking one of these financial items will link the OCR Gen Doc Line Item with the Financial Item. Users can then click on the UPDATE button to save their changes.

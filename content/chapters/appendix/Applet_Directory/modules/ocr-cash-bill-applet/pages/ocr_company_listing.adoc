@@ -1,0 +1,38 @@
+[#h3_ocr_cash_bill_applet_ocr_company_listing]
+
+= 2.4 OCR Company Listing
+
+image::Company_Listing.png[align="center"]
+
+The fourth icon on the left menu bar is the ‘OCR Company Listing’ tab which allows users to create new OCR Companies and view the list of existing OCR Companies. Users can press the ‘+’ button to create a new OCR Company.
+
+== 2.4.1 OCR Company Create
+
+image::Company_Create.png[align="center"]
+
+The input fields available while creating an OCR Company are::
+* Company Code (must be unique)
+* Company Name
+* Description
+* Country
+* Status	
+** Active
+** Deleted 
+** Inactive
+
+After everything is filled, click the CREATE button to save the new OCR Company.
+
+image::Company_New_Listing.png[align="center"]
+
+The newly created OCR Company will be displayed on the listing page
+
+== 2.4.2 OCR Company Edit
+
+image::Company_Edit.png[align="center"]
+
+Users can edit a particular OCR Company by clicking on the company in the listing page. This will bring up the OCR Company Edit page, where users can edit the OCR Company’s properties. 
+
+
+To delete the OCR Company, simply change the Status to ‘DELETED’.
+
+When users are done making changes, they can click on the SAVE button to save their changes.

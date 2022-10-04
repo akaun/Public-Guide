@@ -1,5 +1,10 @@
 * OCR Cash Bill Applet 
 ** xref:introduction.adoc[Introduction]
+** xref:scanned_receipt_listing.adoc[Scanned Receipt Listing]
+** xref:ocr_generic_doc_listing.adoc[OCR Generic Doc Listing]
+** xref:ocr_generic_doc_line_item_listing.adoc[OCR Generic Doc Line Item Listing]
+** xref:ocr_company_listing.adoc[OCR Company Listing]
+** xref:ocr_item_listing.adoc[OCR Item Listing]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
