@@ -19,7 +19,7 @@ nav:
 - modules/media-library-applet/nav.adoc
 - modules/membership-admin-applet/nav.adoc
 - modules/merchant-admin-maintenance-applet/nav.adoc
-- modules/ocr-cash-bill-applet/nav/adoc
+- modules/ocr-cash-bill-applet/nav.adoc
 - modules/organization-applet/nav.adoc
 - modules/payment-channel-applet/nav.adoc
 - modules/pricebook-applet/nav.adoc
