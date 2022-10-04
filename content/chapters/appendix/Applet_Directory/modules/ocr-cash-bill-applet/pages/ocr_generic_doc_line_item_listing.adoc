@@ -26,7 +26,7 @@ Users can edit a line item by clicking on it in the line item listing, which wil
 
 To delete the line item, change the item’s Status to ‘DELETED’
 
-== 2.3.1 Link With Financial Item
+== 2.3.2 Link With Financial Item
 
 image::Line_Item_Select_FI_Item.png[align="center"]
 
