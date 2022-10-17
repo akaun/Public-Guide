@@ -2,7 +2,8 @@
 =  Menu 03 - Delivery Items
 Delivery Items menu is used to track the items that are in delivery process. The module allows a full management of the delivery planning and organising till complete delivery of the items to the customer. 
 
-Below infor,ation is provided:
+Below information is provided:
+
 * Sales order No
 * Marketplace Sales No
 * Branch
