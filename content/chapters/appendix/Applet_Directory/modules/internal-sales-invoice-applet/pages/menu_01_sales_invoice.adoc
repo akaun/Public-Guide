@@ -404,4 +404,33 @@ image::sales_invoice_department_hdr_tab.png1440 x 900]
 
 image::posting_tab_sales_invoice.png[1440 x 900]
 
+=== Contra tab
+
+In order to create Contra, users need to click "+" button, it will open the second page where you select the document to add Contra amount.
+
+image::sales_invoice_contra_tab.png[1440 x 900]
+
+=== Doc Link tab
+
+Doc Link is used to show either the selected line item have link with other Gen doc Line Item
+
+image::sales_invoice_doc_link.png[1440 x 900]
+
+=== Export tab
+
+image::sales_invoice_edit_export.png[1440 x 900]
+
+The Document can be exported to PDF files.
+
+Go to the export tab. Choose the Printable format from dropdownn lis and click on the Export PDF button.
+
+image::edit_sales_order_export_tab.png[1440 x 900]
+
+Upon exporting the documents, the system will show a success message, and users will be able to view the file that has been downloaded to their device.
+
+=== Attachments tab
+
+The “Attachments” tab allows users to upload relevant attachments that are linked to the event created. Press on the “+” sign to upload new attachments.
+
+image::sales_order_edit_attachments.png[1440 x 900]
 

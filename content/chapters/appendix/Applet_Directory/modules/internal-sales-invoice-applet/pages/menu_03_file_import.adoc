@@ -1,3 +1,22 @@
 [#h3_internal-sales-invoice-applet_file_import]
 =  Menu 03 - File Import
 
+
+Import Item Module is used to mass upload the products using CSV file. This function is especially useful for the user if they have a wide range of products. It could tremendously save time and absolutely accurate.
+ 
+image::line_items_file_import.png[1440 x 900]
+
+In order to upload products in bulk, click "+", and it will direct you File Import page.
+First, you need to choose file type and download the upload file template by clicking the chosen file type. 
+
+image::line_items_sample_format.png[1440 x 900]
+
+Open the CSV file, insert your product details into the file accordingly. 
+
+* Once done, save the file in .csv format. 
+* Upload file by just clicking the Upload File button or by Drag and drop file in the box.
+* User will see uploded file at the bottom of the page.
+
+User can delete the uploaded file in File Import Edit page
+
+image::line_items_delete_uploaded_invoice.png[1440 x 900]
