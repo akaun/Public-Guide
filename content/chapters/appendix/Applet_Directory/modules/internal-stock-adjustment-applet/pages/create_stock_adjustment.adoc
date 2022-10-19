@@ -53,8 +53,8 @@ image::InventoryItemDetails-StockAdjustment-1.png[align="center"]
 
 image::InventoryItemDetails-StockAdjustment-2.png[align="center"]
 
-* Selected Item and Quantity will show as a new row in the Line Items Tab
-* Please click on the “Create” button for creating Stock Adjustment
+* Selected Item and Quantity will show as a new row in the Line Items Tab.
+* Please click on the “Create” button for creating Stock Adjustment.
 
 image::CreateStockAdjustment-LineItems-2.png[align="center"]
 
