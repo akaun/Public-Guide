@@ -1,4 +1,4 @@
-[#h3_internal-sales-invoice-applet_salea_invoice]
+[#h3_internal_sales_invoice_applet_sales_invoice]
 =  Menu 01 - Sales Invoice
 
 All the sales invoice are listed here after they have been created. Users may click on the desired sales invoice to view the main, customer account, line items, delivery and other details to view and edit.
@@ -271,7 +271,7 @@ image::autofill_record.png[1440 x 900]
 
  User can create and edit the Customer
 
-image::edit_and_create_customer.png1440 x 900]
+image::edit_and_create_customer.png[1440 x 900]
 
 ** Entity Name:  Customer Name, auto-filled when customer entity is selected. 
 ** Status: Active or Inactive. Auto-filled when customer entity is selected. 
@@ -398,7 +398,7 @@ Profit center: Selecting profit center at the item or hdr level
 
 Project: Selecting project at the item or hdr level
 
-image::sales_invoice_department_hdr_tab.png1440 x 900]
+image::sales_invoice_department_hdr_tab.png[1440 x 900]
 
 === Posting Tab
 

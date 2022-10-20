@@ -8,4 +8,4 @@
 ** xref:personalization_settings.adoc[Personalization]
 ** xref:menu_01_sales_invoice.adoc[Doc Listing]
 ** xref:menu_02_line_items.adoc[Line Items]
-** xref:menu_03_file_import.adoc[Line Items]
+** xref:menu_03_file_import.adoc[File Import]

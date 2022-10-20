@@ -1,4 +1,5 @@
-[#h2_internal-sales-invoice-applet_index]
+[#h3_internal_sales_invoice_applet_index]
+
 = Internal Sales Invoice Applet
 
 include::pages/introduction.adoc[leveloffset=3]

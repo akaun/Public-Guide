@@ -1,4 +1,4 @@
-[#h3_internal-sales-invoice-applet_line_items]
+[#h3-internal-sales-invoice-applet-line-items]
 =  Menu 02 - Line Items
 
 Line items Menu displays Sales Invoices, which was created in Sales Invoice Menu. Users is not able to create new invoice in this menu, but they can edit them.
@@ -17,13 +17,12 @@ User can edit the invoice by clicking the chosen item. It will direct the user w
 Item Details Tab includes six separate tabs in it.
 
 * Main Details - In this Tab user can edit or add:
-  
-  image::edit_line_item.png[1440 x 900]
+
+image::edit_line_item.png[1440 x 900]
 
   ** Item Code
   ** Item Name
-  
-  ** UOM - choose from dropdown list
+  ** UOM: choose from dropdown list
   ** Pricing Scheme
   ** Unit Price STD(exlusive of tax)
   ** Unit Price STD(inclusive of tax)
@@ -67,13 +66,13 @@ Delivery message card:
 
 Users click "Copy from Hdr", it copies from Department Hdr Tab in Sales order menu
 
- image::line_items_department_tab.png[1440 x 900]
+image::line_items_department_tab.png[1440 x 900]
 
 * Related documents
 
 This tab is for the documents which are related to Sales Invoice
 
- image::line_items_related_documents.png[1440 x 900]
+image::line_items_related_documents.png[1440 x 900]
 
 * Delivery Details tab
 
@@ -81,7 +80,7 @@ The requested delivery information for the Products specified in the document, i
 
 Users also can require delivery or not - choose from dropdown list
 
-image:: line_items_delivery_details.png[1440 x 900]
+image::line_items_delivery_details.png[1440 x 900]
 
 * Delivery Tips tab
 
@@ -104,7 +103,7 @@ List of Costing Details for the particular sales order is displayed here.
 ** Location Code
 ** Qty
 
-image:line_items_costing_details.png[1440 x 900]
+image::line_items_costing_details.png[1440 x 900]
 
 == Line Items - Pricing Details 
 
@@ -115,11 +114,11 @@ User chooses UOM from the dropdown list and can see the pricing details from the
 ** Unit Price
 ** Modified date
 
-image:line_items_pricing_details.png.png[1440 x 900]
+image::line_items_pricing_details.png[1440 x 900]
 
 == Line Items - Issue Link Tab
 
-image:line_items_issue_link.png[1440 x 900]
+image::line_items_issue_link.png[1440 x 900]
 
 This tab is used to track issue by:
 
