@@ -32,3 +32,6 @@ nav:
 - modules/platform-sysadmin-applet/nav.adoc
 - modules/developer-applet/nav.adoc
 - modules/platform-sysadmin-applet/nav.adoc
+- modules/internal-sales-order-applet/nav.adoc
+- modules/internal-sales-invoice-applet/nav.adoc
+

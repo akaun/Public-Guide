@@ -1,4 +1,4 @@
-[#h3_internal-sales-invoice-applet_file_import]
+[#h3-internal-sales-invoice-applet-file-import]
 =  Menu 03 - File Import
 
 
