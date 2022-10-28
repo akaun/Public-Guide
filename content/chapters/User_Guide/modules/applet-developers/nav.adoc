@@ -1,2 +1,3 @@
 * Applet Developer
 ** xref:introduction.adoc[Introduction]
+** xref:display_branch.adoc[Display Git's branch name and commit hash]

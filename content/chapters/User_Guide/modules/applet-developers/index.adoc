@@ -2,6 +2,7 @@
 = Applet Developers
 
 include::pages/introduction.adoc[leveloffset=3]
+include::pages/display_branch.adoc[leveloffset=3]
 
 // This is the page break
 <<<<<<<<<<<

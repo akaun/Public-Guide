@@ -1,0 +1,71 @@
+[#h3_applet_developers_display_branch]
+= Display Git's branch name and commit hash
+
+The following are the steps required to display Git's branch name and commit hash in the applets and cpCommerce. You may refer to the changes done on CpCommerce https://bitbucket.org/bigledger/wavelet-cp-commerce/branch/feature/Display-branch-name-and-commit-hash[here] or refer to the https://stackoverflow.com/a/58325785[stackoverflow].
+
+1. Execute *npm install git-rev-sync --save* to install *git-rev-sync* ( this lib gives access to the git commit hash and branch name )
++
+
+image::git-rev-sync.png[Install git-rev-sync, 200, 200, align = "center"]
+
++
+2. Add file *git-version-gen.js* with the following body. This script will generate the *git-version.ts* which contains the git commit hash and branch name.
++
+--
+----
+    Sample Code:
+
+    const git = require('git-rev-sync');
+    const { writeFileSync } = require('fs');
+
+    const gitInfo = { commit: git.short(), commitLong: git.long(), branch: git.branch() };
+    const ts = 'export const gitVersion = ' + JSON.stringify(gitInfo, null, 2);
+
+    writeFileSync('src/environments/git-version.ts', ts);
+----
+
+image::git-version-gen.png[Add git-version-gen file, 200, 200, align = "center"]
+
+--
++
+3. In *package.json* in *scripts* add:
++
+--
+* "build": "node git-version-gen.js && ng build ..."
+* "serve": "node git-version-gen.js && ng serve ..."
+
+This is to run the *git-version-gen.js* script so that the *git-version.ts* will be generated before the *serve / build*.
+
+The sample below is from *wavelet-cp-commerce repo* which is slightly different from the rest of the applets as it uses ionic.
+
+image::wavelet-cp-commerce_Sample.png[Sample picture of wavelet-cp-commerce, 200, 200, align = "center"]
+--
++
+4. To display the git commit hash and branch name in the component.
++
+--
+----
+Sample Code:
+
+
+import { gitVersion } from '../../../environments/git-version';
+
+// ...
+
+commitBranch = gitVersion.branch;
+commitHash = gitVersion.commit;
+
+----
+image::footer-component-ts.png[Sample picture of footet.component.ts, 200, 200, align = "center"]
+image::footer.component.html.png[Sample picture of footet.component.html, 200, 200, align = "center"]
+--
++
+5. Add the generated *git-version.ts* to *.gitignore* as we want it to be freshly generated every time.
++
+--
+image::gitignore.png[Sample picture of gitignore, 200, 200, align = "center"]
+--
++
+6. Test out your changes locally as you would normally (e.g. *$ ng serve XXX*). *git-version.ts* should be generated. Check the values in the file if they’re correct.
+
+7. Each time the code is updated, ensure you commit the changes first before publishing to *dev*, *staging* or *production*. So that the latest commit hash is reflected.
