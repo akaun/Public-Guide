@@ -6,7 +6,7 @@ The following are the steps required to display Git's branch name and commit has
 1. Execute *npm install git-rev-sync --save* to install *git-rev-sync* ( this lib gives access to the git commit hash and branch name )
 +
 
-image::git-rev-sync.png[Install git-rev-sync, 200, 200, align = "center"]
+image::git-rev-sync.png[Install git-rev-sync, 1440, 900, align = "center"]
 
 +
 2. Add file *git-version-gen.js* with the following body. This script will generate the *git-version.ts* which contains the git commit hash and branch name.
@@ -24,7 +24,7 @@ image::git-rev-sync.png[Install git-rev-sync, 200, 200, align = "center"]
     writeFileSync('src/environments/git-version.ts', ts);
 ----
 
-image::git-version-gen.png[Add git-version-gen file, 200, 200, align = "center"]
+image::git-version-gen.png[Add git-version-gen file, 1440, 900, align = "center"]
 
 --
 +
@@ -38,7 +38,7 @@ This is to run the *git-version-gen.js* script so that the *git-version.ts* will
 
 The sample below is from *wavelet-cp-commerce repo* which is slightly different from the rest of the applets as it uses ionic.
 
-image::wavelet-cp-commerce_Sample.png[Sample picture of wavelet-cp-commerce, 200, 200, align = "center"]
+image::wavelet-cp-commerce_Sample.png[Sample picture of wavelet-cp-commerce, 1440, 900, align = "center"]
 --
 +
 4. To display the git commit hash and branch name in the component.
@@ -56,14 +56,14 @@ commitBranch = gitVersion.branch;
 commitHash = gitVersion.commit;
 
 ----
-image::footer-component-ts.png[Sample picture of footet.component.ts, 200, 200, align = "center"]
-image::footer.component.html.png[Sample picture of footet.component.html, 200, 200, align = "center"]
+image::footer-component-ts.png[Sample picture of footer.component.ts, 1440, 900, align = "center"]
+image::footer-component-html.png[Sample picture of footer.component.html, 1440, 900, align = "center"]
 --
 +
 5. Add the generated *git-version.ts* to *.gitignore* as we want it to be freshly generated every time.
 +
 --
-image::gitignore.png[Sample picture of gitignore, 200, 200, align = "center"]
+image::gitignore.png[Sample picture of gitignore, 1440, 900, align = "center"]
 --
 +
 6. Test out your changes locally as you would normally (e.g. *$ ng serve XXX*). *git-version.ts* should be generated. Check the values in the file if they’re correct.
