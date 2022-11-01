@@ -1,0 +1,162 @@
+[#h3_scheduler_applet_create_scheduler]
+= 2.1 Create Schedular
+
+.Scheduler Listing
+image::SchedulerListing.png[align="center"]
+
+Upon logging into this applet - Scheduler Applet, *scheduler* will be the first page shown to the user. On this page, a create button is displayed as *“+”* and placed at the top left corner, allowing  the user to create a new scheduler.
+
+== 2.1.1 Details
+
+.Create Scheduler: Details Tab
+image::CreateScheduler-Details.png[align="center"]
+On the *Details* tab of the Create Scheduler, users need to fill in all the necessary information to add a new scheduler. 
+
+Please be noted that if there is a “*” sign on the column, users must fill in the information as it cannot not be modified later.
+
+*Scheduler Code*: Code of the scheduler (after creating, users are not allowed to make any changes to this)
+
+*Scheduler Name*: Name of the scheduler
+
+== 2.1.2 Cron Expression
+
+.Create Scheduler: Cron Expression Tab
+image::CreateScheduler-CronExpression.png[align="center"]
+
+A *cron expression* is a string consisting of five or six subexpressions (fields) that describe individual details of the schedule. These fields, separated by white space, can contain any of the allowed values with various combinations of the allowed characters for that field.
+
+[cols="1,1,1"]
+|===
+| *Field* | *Allowed Special Characters* | *Allowed Values*
+
+|Minutes
+|* , - /
+|0 - 59 
+
+|Hours
+|* , - /
+|0 - 23
+
+|Day of Month
+|* , - /
+|1 - 31
+
+|Month
+|* , - /
+|1 - 12 or JAN - DEC
+
+|Day of Week
+|* , - /
+|0 - 6 / 
+SUN - SAT (Alternative single value)
+
+|Year
+|* , - /
+|1970 - 2022
+|===
+
+Descriptions of allowed special characters:
+
+*Asterisk* (*) indicates any value.
+
+*Comma* (,) is a value list separator to mention different values. For example, using "MON,WED,FRI '' in the 5th field (day of the week) means Mondays, Wednesdays and Fridays.
+
+*Dash* (-) defines the range of values. For example, 2000–2010 indicates every year between 2000 and 2010, inclusive.
+
+*Slash* (/) is used to specify step values. For example, */5 in the minutes field indicates every 5 minutes.
+
+=== Minutes
+
+.Create Scheduler: Cron Expression - Minutes Tab
+image::CreateScheduler-Cron Expression-Minutes.png[align="center"]
+
+In the “Minutes” tab, the minute option bar allows us to select numbers from 0 to 59. 
+
+If we select to be every 1 minute, the expression will be shown as 0/1 * 1/1 * * , in a readable text format from this website (https://crontab.guru/#0/1_*_1/1_*_*), the expression means the event will be triggered “At every minute from 0 through 59 on every day-of-month from 1 through 31.” 
+
+Please take note that the expression shown in this applet is not the standard Cron Expression, the standard expression will be */1 * * * * which is “At every minute.”.
+
+=== Hourly
+
+.Create Scheduler: Cron Expression - Hourly Tab
+image::CreateScheduler-CronExpression-Hourly.png[align="center"]
+
+In the “Hourly” tab, there are two option bars (Hours and Minutes) that allow us to select numbers from 0 to 23 and 0 to 59. 
+
+If we select to be every 10 hours and 5 minutes, the expression will be shown as 5 0/10 1/1 * * , in a readable text format from this website (https://crontab.guru/#5_0/10_1/1_*_* ), the expression means the event will be triggered “At minute 5 past every 10th hour from 0 through 23 on every day-of-month from 1 through 31”. 
+
+Please take note that the expression shown in this applet is not the standard Cron Expression, the standard expression will be 5 */10 * * * which is “At minute 5 past every 10th hour”.
+
+=== Daily
+
+.Create Scheduler: Cron Expression - Daily Tab - First Option
+image::CreateScheduler-CronExpression-Daily-1.png[align="center"]
+
+In the “Daily” tab, there are two options that can be selected and the first one has a *day* field that allows us to select numbers from 1 to 31. 
+
+If we select the event to be triggered every 2 days at 3:04, the expression will be shown as 4 3 1/2 * * , in a readable text format from this website (https://crontab.guru/#4_3_1/2_*_* ), the expression means the event will be triggered “At 03:04 on every 2nd day-of-month from 1 through 31”. 
+
+Please take note that the expression shown in this applet is not the standard Cron Expression, the standard expression will be *4 3 */2 * ** which is “At 03:04 on every 2nd day-of-month”. (https://crontab.guru/#4_3_*/2_*_* )
+
+.Create Scheduler: Cron Expression - Daily Tab - Second Option
+image::CreateScheduler-CronExpression-Daily-2.png[align="center"]
+
+On the other hand, if we select the event on week day (MON-FRI) at 3:04, the expression will be shown as *4 3 * * MON-FRI* , in a readable text format from this website (https://crontab.guru/#4_3_*_*_MON-FRI  ), the expression means the event will be triggered “At 03:04 on every day-of-week from Monday through Friday”. 
+
+Please take note that the expression shown in this applet is not the standard Cron Expression, the standard expression will be *4 3 * * 1-5* because the day can only be used as alternative single values. (https://crontab.guru/#4_3_*_*_1-5 )
+
+=== Weekly
+
+.Create Scheduler: Cron Expression - Weekly Tab
+image::CreateScheduler-CronExpression-Weekly.png[align="center"]
+
+In the “Weekly” tab, all the listed days are multiple select options.
+
+If we select the event to be triggered every Friday and Saturday at time 02:06 , the expression will be shown as *6 2 * * FRI,SAT*, in a readable text format from this website (https://crontab.guru/#6_2_*_*_FRI,SAT ), the expression means the event will be triggered “At 02:06 on Friday and Saturday”. 
+
+Please take note that the expression shown in this applet is not the standard Cron Expression, the standard expression will be *6 2 * * 5,6* which has the same meaning as the expression.
+ (https://crontab.guru/#6_2_*_*_5,6 )
+
+=== Monthly
+
+.Create Scheduler: Cron Expression - Monthly Tab - First Option
+image::Create Scheduler-Cron Expression-Monthly-1.png[align="center"]
+
+In the “Monthly” tab, there are two options that can be selected and the second one has *a week* field that allows us to select options of “First, Second, Third, Fourth, Fifth, Last”.
+
+If we select the event to be triggered on the 3rd day of every 5 months at time 10:20, the expression will be shown as *20 10 3 1/5 **, in a readable text format from this website (https://crontab.guru/#20_10_3_1/5_* ), the expression means the event will be triggered “At 10:20 on day-of-month 3 in every 5th month from January through December”. 
+
+Please take note that the expression shown in this applet is not the standard Corn Expression, the standard expression will be *20 10 3 */5 ** which is “At 10:20 on day-of-month 3 in every 5th month”. (https://crontab.guru/#20_10_3_*/5_* )
+
+.Create Scheduler: Cron Expression - Monthly Tab - Second Option
+image::CreateScheduler-CronExpression-Monthly-2.png[align="center"]
+
+If we select the event to be triggered on the third week Wednesday of every 3 months at time 15:25, the expression will be shown as *25 15 * 1/3 WED#3*, in a readable text format from this website (https://crontab.cronhub.io/ ), the expression means “At 03:25 PM, on the third Wednesday of the month, every 3 months”.
+
+=== Yearly
+
+.Create Scheduler: Cron Expression - Yearly Tab - First Option
+image::CreateScheduler-CronExpression-Yearly-1.png[align="center"]
+
+In the “Yearly” tab, there are two different options that can be selected.
+
+If we select the event to be triggered on the 31st of July at time 1:20, the expression will be shown as *20 1 31 7 **, in a readable text format from this website (https://crontab.guru/#20_1_31_7_* ), the expression means the event will be triggered “At 01:20 on day-of-month 31 in July”. 
+
+.Create Scheduler: Cron Expression - Yearly Tab - Second Option
+image::CreateScheduler-CronExpression-Yearly-2.png[align="center"]
+
+If we select the event to be triggered on the last week Wednesday of February at time 01:20, the expression will be shown as *20 1 * 2 WEDL*, in a readable text format from this website (https://crontab.cronhub.io/ ), this expression means the event will be triggered “At 01:20 AM, on the last Wednesday of the month, only in February”. 
+
+=== Advanced
+
+.Create Scheduler: Cron Expression - Advanced Tab
+image::CreateScheduler-CronExpression-Advanced.png[align="center"]
+
+In the “Advanced” tab, we can enter any valid and specific expression.
+
+If we enter the text field to be *15 10 2 * **, the expression will be shown exactly the same that we entered, in a readable text format from this website (https://crontab.guru/#15_10_2_*_* ), the expression means the event will be triggered “At 10:15 on day-of-month 2”.
+
+.Scheduler Create - Create Button
+image::CreateScheduler-CronExpression-CreateButton.png[align="center"]
+
+Upon filling in all the required fields, users can click the “CREATE” button to create a new scheduler on this page.

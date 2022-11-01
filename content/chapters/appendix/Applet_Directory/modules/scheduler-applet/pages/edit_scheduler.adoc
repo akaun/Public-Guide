@@ -1,0 +1,18 @@
+[#h3_scheduler_applet_edit_scheduler]
+= 2.2 Edit Scheduler
+
+.Edit Scheduler
+image::EditScheduler.png[align="center"]
+
+After creating the scheduler successfully, users will be redirected to the Scheduler Listing page and the latest scheduler will be on top of all the schedulers. To edit the scheduler, users can click on any of it.
+
+.Edit Scheduler - Status Field
+image::EditScheduler-StatusField.png[align="center"]
+
+Every column in the edit scheduler is the same as the create scheduler page, except there is a status column that allows the users to select the processors to be “ACTIVE” or “INACTIVE”. Please note that every column can be edited, except the scheduler code.
+
+.Edit Scheduler - Save Button
+image::EditScheduler-SaveButton.png[align="center"]
+
+Upon making all the changes, users can click on the *“SAVE”* button in the top right corner to save all the changes.
+

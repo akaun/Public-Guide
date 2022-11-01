@@ -1,0 +1,7 @@
+[#h3_scheduler_applet_introduction]
+=  Introduction
+
+image::scheduler-applet-logo.png[150,300, align="center"]
+
+include::intro_description.adoc[]
+

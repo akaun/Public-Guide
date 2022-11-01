@@ -136,6 +136,8 @@ include::modules/merchant-access-applet/index.adoc[leveloffset=2]
 
 include::modules/ocr-cash-bill-applet/index.adoc[leveloffset=2]
 
+include::modules/scheduler-applet/index.adoc[leveloffset=2]
+
 include::modules/sales-commission-applet/index.adoc[leveloffset=2]
 
 include::modules/admin-time-attendance-applet/index.adoc[leveloffset=2]
