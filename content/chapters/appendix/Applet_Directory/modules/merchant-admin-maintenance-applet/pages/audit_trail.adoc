@@ -1,0 +1,8 @@
+[#h3_merchant_admin_maintenance_audit_trail]
+= Audit Trail
+
+== Audit Trail Listing
+.Audit Trail - Audit Trail Listing
+image::AuditTrail-AuditTrailListing.png[align="center"]
+
+The Audit Trail component displays a list of audit trails in the form of a table containing the Merchant Name, Action, Event Code, User and Date. The listings show the action made by which user on a particular merchant at a certain date and time.

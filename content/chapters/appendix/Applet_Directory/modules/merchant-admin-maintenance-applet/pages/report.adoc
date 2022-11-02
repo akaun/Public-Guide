@@ -1,0 +1,33 @@
+[#h3_merchant_admin_maintenance_report]
+= Report
+
+== Report Listing
+.Report - Report Listing
+image::Report-ReportListing.png[align="center"]
+
+Please click on any report listing to view further details.
+
+.Report - Report View 1
+image::Report-ReportView1.png[align="center"]
+
+.Report - Report View 2
+image::Report-ReportView2.png[align="center"]
+
+The following information is available for viewing.
+
+* PC Charge Name 1
+* PC Charge 1 (%/$)
+* PC Charge Name 2
+* PC Charge 2 (%/$)
+* PC Charge Name 3
+* PC Charge 3 (%/$)
+* PC Charge Name 4
+* PC Charge 4 (%/$)
+* UNIPIN Charge Name 1
+* UNIPIN Charge 1
+* UNIPIN Charge Name 2
+* UNIPIN Charge 2
+* UNIPIN Charge Name 3
+* UNIPIN Charge 3
+* UNIPIN Charge Name 4
+* UNIPIN Charge 4

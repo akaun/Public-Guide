@@ -1,1 +1,3 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to configure and manage the list of merchants. There are four modules in the applet which include: Merchant, Contract, Report, Audit Trail. This applet allows users to create merchants and contracts, view reports and audit trails.
+
+Steps: Create & Edit Merchant > Create & Edit Contract > View Report > View Audit Trail
