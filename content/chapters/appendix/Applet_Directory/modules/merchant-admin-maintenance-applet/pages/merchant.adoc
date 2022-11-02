@@ -166,12 +166,12 @@ After adding the return URL to the merchant, it will be listed on the Return URL
 In the tax and billing tab, you can add tax and billings to the merchant.
 
 .Merchant - Edit Merchant - Tax & Billing - Tax & Billing Listing
-image::Merchant-EditMerchant-Tax&Billing-Tax&BillingListing.png[align="center"]
+image::Merchant-EditMerchant-Tax_Billing-Tax_BillingListing.png[align="center"]
 
 * Please click the ‘+’ button to add a tax to the merchant.
 
 .Merchant - Edit Merchant - Tax & Billing - Tax & Billing Create
-image::Merchant-EditMerchant-Tax&Billing-Tax&BillingCreate.png[align="center"]
+image::Merchant-EditMerchant-Tax_Billing-Tax_BillingCreate.png[align="center"]
 
 The following fields are compulsory:
 * Country
@@ -182,7 +182,7 @@ Please click the ‘ADD’ button to add the tax to the merchant.
 Please click the ‘SAVE’ button to save any tax that has been added to the merchant.
 
 .Merchant - Edit Merchant - Tax & Billing - Tax & Billing Edit
-image::Merchant-EditMerchant-Tax&Billing-Tax&BillingEdit.png[align="center"]
+image::Merchant-EditMerchant-Tax_Billing-Tax_BillingEdit.png[align="center"]
 
 After adding the tax to the merchant, it will be listed on the Tax & Billing tab. Please click on any listed tax & billing to edit it.
 
