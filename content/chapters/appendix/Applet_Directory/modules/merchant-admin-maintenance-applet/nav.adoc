@@ -1,9 +1,9 @@
 * Merchant Admin Maintenance Applet
 ** xref:introduction.adoc[Introduction]
-** xref:merchant.adoc[Modules]
-** xref:contract.adoc[Modules]
-** xref:report.adoc[Modules]
-** xref:audit_trail.adoc[Modules]
+** xref:merchant.adoc[Merchant]
+** xref:contract.adoc[Contract]
+** xref:report.adoc[Report]
+** xref:audit_trail.adoc[Audit Trail]
 // ** xref:modules.adoc[Modules]
 // ** xref:related_applets.adoc[Related Applets]
 // ** xref:roadmap.adoc[Roadmap]
