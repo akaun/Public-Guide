@@ -18,11 +18,7 @@ Item Details Tab includes six separate tabs in it.
 
 * Main Details - In this Tab user can edit or add:
 
-<<<<<<< Updated upstream
-// image::edit_line_item.png[1440 x 900]
-=======
 image::item_details_main_details.png[1440 x 900]
->>>>>>> Stashed changes
 
   ** Item Code
   ** Item Name
