@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to manage delivery orders from a particular *location* of a *branch*, tracking all the *items* delivered, as well as the *details* of the *customer*, *additional information* such as the information of the vehicle used for delivery and the name of the company providing the transport can be *added* and *customized* which contributes to a greater *versatility*.
