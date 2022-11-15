@@ -1,0 +1,78 @@
+[#h3_internal_sales_quotation_applet_view_internal_sales_quotation]
+= 2.2 View Internal Sales Quotation
+
+.View Internal Sales Quotation
+image::ViewInternalSalesQuotation.png[align="center"]
+
+After creating the sales quotation successfully, users will be redirected to the View Internal Sales Quotation page and the latest quotation will be on top of all the quotations. There is a *“FINAL”* button that once it is clicked, all the sales quotations will be added to the accounting system. To view or edit the sales quotation, users can click on any of it in this page.
+
+.View Internal Sales Quotation: Button
+image::ViewInternalSalesQuotation-Button.png[align="center"]
+
+Upon making all the changes, users can click on the *“SAVE”* button in the top right corner to save all the changes.
+Every column in the view internal sales quotation is the same as the create page, except there are extra tabs *(Contra, Doc Link, Attachments, Export, Convert)* that allows the users to add more information. *“DELETE”* button can be clicked to delete the current internal sales quotation that is selected by the users.
+
+== 2.2.1 Contra
+
+.View Internal Sales Quotation: Contra
+image::ViewInternalSalesQuotation-Contra.png[align="center"]
+
+A Contra account is a negative account that is netted from the balance of another account on the balance sheet. On the *“Contra”* tab, lists of contra with details of Server Doc Type, Status, Date and Amount Contra will be listed down. Users can also click on the *“+”* button to add or select a different contra.
+
+=== Select Contra
+
+.View Internal Sales Quotation: Select Contra
+image::ViewInternalSalesQuotation-Contra-SelectContra.png[align="center"]
+
+After clicking on the “+” button to add a contra, users will be redirected to a different page with lists of contra where they can select among the existing contra.
+
+=== Add Contra
+
+.View Internal Sales Quotation: Add Contra
+image::ViewInternalSalesQuotation-Contra-AddContra.png[align="center"]
+
+After clicking on any of the contra, users are required to enter the contra amount, only after that users can click on the *“ADD”* button to add the contra.
+
+== 2.2.2 Doc Link
+
+=== Copied From
+
+.View Internal Sales Quotation: Doc Link - Copied From
+image::ViewInternalSalesQuotation-DocLink-CopiedFrom.png[align="center"]
+
+On the *‘Doc Link’* tab of *“Copied From”*, there will be lists of Doc Link with information of Doc No, Branch, Server Doc Type, Status and Date that allows users to select.
+
+=== Copied To
+
+.View Internal Sales Quotation: Doc Link - Copied To
+image::ViewInternalSalesQuotation-DocLink-CopiedTo.png[align="center"]
+
+The same goes to the *“Copied To”* tab under the *“Doc Link”* tab. Users can select any of the existing Doc Link.
+
+== 2.2.3 Attachments
+
+.View Internal Sales Quotation: Attachments
+image::ViewInternalSalesQuotation-Attachments.png[align="center"]
+
+On the *“Attachment”* tab of View Internal Sales Quotation, users are allowed to add an attachment from the existing list of attachments or click on the *“+"* button to add a new attachment.
+
+=== Add Attachment
+
+.View Internal Sales Quotation: Attachments - Add Attachment
+image::ViewInternalSalesQuotation-Attachments-AddAttachment.png[align="center"]
+
+Users can select any of the attachments that they would like to add by clicking on the *“Upload File(s)”* button.
+
+== 2.2.4 Export
+
+.View Internal Sales Quotation: Export
+image::ViewInternalSalesQuotation-Export.png[align="center"]
+
+On the *“Export”* tab of View Internal Sales Quotation, users are able to export the select internal sales quotation by selecting the desired printable format and file format button *(EXPORT AS PDF, EXPORT AS CSV, EXPORT AS DOCX, EXPORT AS ZIP)*, then the quotation will be successfully exported. 
+
+== 2.2.5 Convert
+
+.View Internal Sales Quotation: Convert
+image::ViewInternalSalesQuotation-Convert.png[align="center"]
+
+On the *“Convert”* tab of View Internal Sales Quotation, users are able to convert the current internal sales quotation to *Internal Receipt Voucher* after clicking on the button. One thing to be noted is that once the convert action is completed, the current sales quotation will be canceled out from the sales quotation listing.

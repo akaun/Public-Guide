@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Sales Quotation is a document that allows a potential customer/ buyer to view the cost involved in purchasing specific services or products. Internal Sales Quotation is used to create quotations that are used by suppliers or salespeople to begin a business transaction. It contains an itemized list of products and services defining prices and terms of sale and payment.

@@ -1,0 +1,37 @@
+[#h3_internal_sales_quotation_applet_edit_line_item]
+= 2.3 Edit Line Item
+
+.Line Item Listing
+image::LineItemListing.png[align="center"]
+
+The second feature of this *Internal Sales Quotation Applet* is the line item. This feature allows users to view all the *Line Item* with the information of Sales Quotation No, Item Code, Item Name, Ordered Qty, Unit Price (Inclusive of Tax), SST/VAT/GST, Tax Amount. Users can click on any of it to edit the line item.
+
+== 2.3.1 Item Details
+
+=== Related Documents
+
+.Edit Line Item - Item Details - Related Documents
+image::EditLineItem-ItemDetails-RelatedDocuments.png[align="center"]
+
+Every column in the view list item is mentioned previously in this documentation, except there are extra tabs *(Related Documents under Item Details tab, Scan and Import under Serial Number tab)* that allows the users to add more information. On the *“Related Documents”* tab, users are able to click on any of the documents that is related to the line item.
+
+== 2.3.2 Serial Number
+
+=== Scan
+
+.Edit Line Item - Serial Number - Scan
+image::EditLineItem-SerialNumber-Scan.png[align="center"]
+
+On the *“Scan”* tab of *“Serial Number”*, users are able to enter the desired serial number or select the serial number type in the drop down list. One thing to be noted here, there is a “SCAN” button that the users are allowed to scan by using their own camera and the serial number type cannot be changed once the scanning starts. Furthermore, users are able to click on the *“REMOVE”* button to remove the serial numbers.
+
+=== Import
+
+.Edit Line Item - Serial Number - Import
+image::EditLineItem-SerialNumber-Import.png[align="center"]
+
+On the *“Import”* tab of *“Serial Number”*, users are able to import the desired serial file by clicking on the *“Upload File”* button. Not only that, users are able to click on the *“REMOVE”* button to remove the serial numbers.
+
+.Edit Line Item - Save Button
+image::EditLineItem-SaveButton.png[align="center"]
+
+Upon all changes are made, users can click on the *“Save”* button on the top right corner to save the changes made.

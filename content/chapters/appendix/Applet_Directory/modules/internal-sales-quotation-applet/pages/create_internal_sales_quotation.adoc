@@ -1,0 +1,234 @@
+[#h3_internal_sales_quotation_applet_create_internal_sales_quotation]
+= 2.1 Create Internal Sales Quotation
+
+.Internal Sales Quotation Listing
+image::InternalSalesQuotationListing.png[align="center"]
+
+Upon logging into this applet - *Internal Sales Quotation Applet*, all the sales quotation listings will be the first page shown to the user. On this page, a create button is displayed as “*+*” and placed at the top left corner, allowing the user to create a new internal sales quotation.
+
+== 2.1.1 Main Details
+
+.Create Internal Sales Quotation: Main Details Tab
+image::CreateInternalSalesQuotation-MainDetails.png[align="center"]
+
+On the *Main Details* tab of the Create Internal Sales Quotation, users need to fill in all the necessary information to add a new quotation. 
+
+Please be noted that if there is a “***” sign on the column, users must fill in the information as it cannot not be modified later.
+There are 14 components which allow the user to make changes respectively:
+
+* *Branch*
+* *Location*
+* *Reference*: Number
+* *Transaction Date*: Default to the current date
+* *Credit Terms*: This describes an agreement between a seller and buyer that lists the timing and amount of payments that the buyer will make.
+* *Credit Limit*: The maximum amount of credit that a salesperson can give, it is usually set at the Customer Maintenance Applet
+* *Sales Agent*
+* *Currency*
+* *Permit No*: A computer-assigned number used to validate and track permits
+* *CRM Contact*: Contact details for Customer Relationship Management
+* Sales Lead: Corporate or Non-Corporate
+* *Member Card*
+* *Tracking ID*
+* *Remarks*
+
+=== Member Card - Select Member
+
+.Create Internal Sales Quotation: Main Details Tab - Member Card (Select Member)
+image::CreateInternalSalesQuotation-MainDetails-MemberCard.png[align="center"]
+
+When users click on the *MemberCard* fields in the Main Details Tab, users will be redirected to another page to select a member with details of Member card ID, Member Name and Mobile Number. 
+
+== 2.1.2 Account
+
+=== Entity Details
+
+.Create Internal Sales Quotation: Account Tab - Entity Details
+image::CreateInternalSalesQuotation-Account-EntityDetails.png[align="center"]
+
+=== Bill To
+
+.Create Internal Sales Quotation: Account Tab - Bill To
+image::CreateInternalSalesQuotation-Account-BillTo.png[align="center"]
+
+=== Ship To
+
+.Create Internal Sales Quotation: Account Tab - Ship To
+image::CreateInternalSalesQuotation-Account-ShipTo.png[align="center"]
+
+There are 3 tabs under *Account* Tab:
+
+* *Entity Details*: Customer Details
+** The fields: Entity ID, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number
+
+* *Bill To*
+** Customer’s Name, Email, Phone No and Billing Address (Entity ID must be selected first)
+
+* *Ship To*
+** Customer’s Name, Email, Phone No and Shipping Address (Entity ID must be selected first)
+
+Users can click on the *Entity Id* column to select a customer from the *Customer Listing*. 
+
+== 2.1.3 Line Items
+
+.Create Internal Sales Quotation: Line Items Tab
+image::CreateInternalSalesQuotation-LineItems.png[align="center"]
+
+In the ‘*Line Items*’ tabs, a create button is displayed as “*+*” and placed at the top left corner, allowing the user to select a new line item with details of item code, item name, valid date, UOM, Unit Price(Inclusive of Tax), Qty and Txn Amount.
+
+=== Select Item
+
+.Create Internal Sales Quotation: Line Items Tab - Search Item
+image::CreateInternalSalesQuotation-LineItems-SelectItem.png[align="center"]
+
+On the *Search Item* tab, users can select the item based on the Item Code, Item Name, UOM and System Stock Balance. Other than this, users can also edit or view the details of an item by clicking any of it.
+
+=== Item Details
+
+==== Main Details
+
+.Create Internal Sales Quotation: Line Items Tab - Item Details - Main Details - 1
+image::CreateInternalSalesQuotation-LineItems-ItemDetails-MainDetails-1.png[align="center"]
+
+.Create Internal Sales Quotation: Line Items Tab - Item Details - Main Details - 2
+image::CreateInternalSalesQuotation-LineItems-ItemDetails-MainDetails-2.png[align="center"]
+
+.Create Internal Sales Quotation: Line Items Tab - Item Details - Main Details - 3
+image::CreateInternalSalesQuotation-LineItems-ItemDetails-MainDetails-3.png[align="center"]
+
+On the *Item Details* tab of the add line item page, the *Main Details* tab have several components which allow the user to make changes respectively:
+
+* *Item Code*
+* *Item Name*
+* *UOM*: Unit Of Measurement
+* *Pricing Scheme*: Special pricing for specific customers (dealer, retailer, wholesaler etc)
+* *Unit Discount*
+* *Quantity Base*
+* *Quantity by UOM*
+* *UOM to Base Ratio*
+* *Unit Price STD by UOM (Exclusive of tax)*
+* *Unit Price STD by UOM (Inclusive of tax)*
+* *Unit Discount by UOW (Exclusive of tax)*
+* *Unit Price Net by UOM (Exclusive of tax)*
+* *Unit Price Transaction by UOM (Inclusive of tax)*
+* *Unit Price Net (Exclusive of tax)*
+* *STD Amount (Unit Price x Quantity)*
+* *Discount Amount (Exclusive of tax)*
+* *Amount Net (Exclusive of tax)*
+* *SST Code*
+* *SST/GST/VAT*
+* *Tax Amount*
+* *WHT Code*
+* *WHT*: Withholding Tax
+* *WHT Amount*
+* *Unit Price Transaction (Inclusive of tax)*
+* *Txn Amount*
+* *Remarks*
+
+==== Delivery Instructions
+
+.Create Internal Sales Quotation: Line Items Tab - Item Details - Delivery Instructions
+image::CreateInternalSalesQuotation-LineItems-ItemDetails-DeliverInstructions.png[align="center"]
+
+On the *Delivery Instructions* tab, there are two categories (Delivery Instructions and Delivery Message Card) which allow the user to make changes respectively:
+
+*Delivery Instructions*:
+
+* *Instructions for the driver*
+* *Delivery Date*
+
+*Delivery Message Card*:
+
+* *Option Box*: ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ 
+* *From*: Sender
+* *To*: Receiver
+* *Message*
+
+==== Department
+
+.Create Internal Sales Quotation: Line Items Tab - Item Details - Department
+image::CreateInternalSalesQuotation-LineItems-ItemDetails-Department.png[align="center"]
+
+On the *Department* tab, this is used to generate reports by filtering the following fields, therefore, users need to select the specific fields from the options:
+
+* *Segment*: Business Segments, segments typically have discrete associated costs and operations
+* *Dimension*
+* *Profit Centre*
+* *Project*
+* *Option Box*: Copy from Hdr
+
+==== Delivery Details
+
+.Create Internal Sales Quotation: Line Items Tab - Item Details - Delivery Details
+image::CreateInternalSalesQuotation-LineItems-ItemDetails-DeliveryDetails.png[align="center"]
+
+On the *Delivery Details* tab, it lists down all the details of Trip No, Driver Name, Vehicle No, Job Start Date, Job End Date, Delivery Status, Recipient Name and Qty.
+
+=== Costing Details
+
+.Create Internal Sales Quotation: Line Items Tab - Costing Details
+image::CreateInternalSalesQuotation-LineItems-CostingDetails.png[align="center"]
+
+On the *Costing Details* tab, it shows all the details of:
+
+* *Company Code*
+* *Location Code*
+* *Qty*
+* *Moving Average Unit Cost*: The total cost of the items purchased divided by the number of items in stock
+* *FIFO Unit Cost*: The costs of the first goods purchased are the costs of the first good sold
+* *Manual Unit Cost* 
+* *Last Purchase Unit Cost*: The most recent purchase unit cost for the item
+
+=== Pricing Details
+
+.Create Internal Sales Quotation: Line Items Tab - Pricing Details
+image::CreateInternalSalesQuotation-LineItems-PricingDetails.png[align="center"]
+
+On the *Pricing Details* tab, there is a UOM options field that allows users to select, once the option is selected, all the details of Pricing Schema Code, Pricing Schema Name, Purchase Unit Price and Modified Date will be shown based on the UOM. 
+
+=== Issue Link
+
+.Create Internal Sales Quotation: Line Items Tab - Issue Link
+image::CreateInternalSalesQuotation-LineItems-IssueLink.png[align="center"]
+
+On the *Issue Link* tab, lists of issue links will be displayed for the user to select with the details of Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status. 
+Users can click on the *“ADD”* button to add the line item after the details are filled in. 
+
+== 2.1.4 Delivery Details
+
+.Create Internal Sales Quotation: Delivery Details Tab
+image::CreateInternalSalesQuotation-DeliveryDetails.png[align="center"]
+
+On the *Delivery Details* tab, it lists down all the details of Trip No, Driver Name, Vehicle No, Job Start Date, Job End Date, Delivery Status, Recipient Name and Qty.
+
+== 2.1.5 Collection
+
+.Create Internal Sales Quotation: Collection Tab
+image::CreateInternalSalesQuotation-Collection.png[align="center"]
+
+On the *‘Collection’* tab, information of Date, AMount, Details, Remarks of the transfer payment will be listed down. Users can click on the create button that is displayed as *“+”* and placed at the top left corner, allowing the user to select a different settlement method.
+
+=== Select Collection
+
+.Create Internal Sales Quotation: Collection Tab - Select Collection
+image::CreateInternalSalesQuotation-Collection-SelectCollection.png[align="center"]
+
+The Settlement Method field is the steps of transfer payment (Cash, E-wallet, Visa, Grab Payment etc). Users can click on the *“ADD”* button once the ideal method is selected.
+
+== 2.1.6 Department Hdr
+
+.Create Internal Sales Quotation: Department Hdr Tab
+image::CreateInternalSalesQuotation-DepartmentHdr.png[align="center"]
+
+On the *‘Department Hdr’* tab, users need to fill in the information of Segment, Dimension, Profit Centre and Project.
+
+== 2.1.7 KO For
+
+.Create Internal Sales Quotation: KO For Tab
+image::CreateInternalSalesQuotation-KOFor.png[align="center"]
+
+Knock off is a copy of an original that sells for a considerably lower price. On the *‘KO For’* tab, lists of items can be selected by the user to knock off by clicking on the *“KNOCK OFF”* button. 
+
+.Create Internal Sales Quotation: Reset and Create Button
+image::CreateInternalSalesQuotation-ResetAndCreateButton.png[align="center"]
+
+Upon filling in all the required fields, users can click the *“CREATE”* button to create a new internal sales quotation on this page. Users can always click the *“RESET”* button to reset all the in fields in all the tabs.
