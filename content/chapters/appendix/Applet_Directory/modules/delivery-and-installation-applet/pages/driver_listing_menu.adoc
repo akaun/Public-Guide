@@ -1,0 +1,23 @@
+[#h3_delivery_and_installation_applet_driver_listing_menu]
+=  2.7 Driver Listing
+
+.Driver: Overview
+image::DriverIntro.png[align="center"]
+
+In the driver listing, all existing drivers will be listed to the user. The user is able to *edit* the specific driver details by *clicking* on the *particular row*, or *create* a new *driver* by *clicking* on the *“+” button*.
+
+== 2.7.1 Create Driver
+
+.Driver: Create Driver
+image::DriverCreate.png[align="center"]
+
+After clicking the “+” button, the user will need to *fill* in *all* the *provided fields*. Once this has been done, the *“CREATE”* button will *turn* from *gray to blue*, indicating the data is ready to be created. The user can then *click* the *“CREATE”* button to *finish* the process, or the *back button* if the user *decides* to *exit* the *creation* process.
+
+== 2.7.2 Edit Driver Details
+
+.Driver: Edit Driver
+image::DriverEdit&Delete.png[align="center"]
+
+After clicking on a specific row, the user will be allowed to edit the selected driver details. Here the user is able to *delete* the *driver details* as well by *clicking* on the *“Delete”* button in red.
+
+By *changing any information*, the *“SAVE”* button will *turn* from *gray to blue*, and *clicking* on the *“SAVE”* button will *finish* the process. If the user decides to not change any information, the *back button* will allow the user to *exit* the *edit process without saving*.

@@ -1,0 +1,23 @@
+[#h3_delivery_and_installation_applet_vehicle_listing_menu]
+=  2.6 Vehicle Listing
+
+.Vehicle: Overview
+image::VehicleIntro.png[align="center"]
+
+In the vehicle listing, all existing vehicles will be listed to the user. The user is able to *edit* the specific vehicle by *clicking* on the *particular row*, or *create* a new *vehicle* by *clicking* on the *“+” button*.
+
+== 2.6.1 Create Vehicle
+
+.Vehicle: Create Vehicle
+image::VehicleCreate.png[align="center"]
+
+After clicking the “+” button, the user will need to *fill* in *all* the *provided fields*. Once this has been done, the *“CREATE”* button will *turn* from *gray to blue*, indicating the data is ready to be created. The user can then *click* the *“CREATE”* button to *finish* the process, or the *back button* if the user *decides* to *exit* the *creation* process.
+
+== 2.6.2 Edit & Delete Vehicle Details
+
+.Vehicle: Editing and Deleting Vehicle
+image::VehicleEdit&Delete.png[align="center"]
+
+After clicking on a specific row, the user will be allowed to edit the selected vehicle details. Here the user is able to *delete* a *vehicle* as well by *clicking* on the *“Delete”* button in red.
+
+By *changing any information*, the *“SAVE”* button will *turn* from *gray to blue*, and *clicking* on the *“SAVE”* button will *finish* the process. If the user decides to not change any information, the *back button* will allow the user to *exit* the *edit process without saving*.

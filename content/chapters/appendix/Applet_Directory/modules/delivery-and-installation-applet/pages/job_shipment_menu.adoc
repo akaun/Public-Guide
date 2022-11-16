@@ -1,0 +1,21 @@
+[#h3_delivery_and_installation_applet_job_shipment_menu]
+=  2.4 Job Shipment
+
+.Job Shipment: Overview
+image::JobShipmentIntro.png[align="center"]
+
+In the Job Shipments, all the *created jobs* from the shipment section will be shown here.
+
+== 2.4.1 Adding Trips and Canceling Job Shipments
+
+.Job Shipment: Adding, Printing and Canceling
+image::JobShipmentFeatures.png[align="center"]
+
+Users are *not allowed* to *edit* the *job shipments*, but are *given the option* to *cancel job shipments* instead as to avoid confusion in the final sum of the product shipped. 
+
+This can be done by *clicking* on the *“Add to Trip”*, a *list of features* will then be *displayed* which includes “Printing”, “Canceling Jobs”. By *selecting* the *“Canceling Jobs”*, the *blue button* will be *changed* from *“Add”* to *“Cancel”*. Finally the user will need to *tick the box* to *select* the *jobs* as shown in the red box above. *Clicking* the *“Cancel”* button to *finish* the process. The *similar concept* applies to *Adding Trip*.
+
+== 2.4.2 Printing Job Shipments
+
+.Job Shipment: Adding, Printing and Canceling
+image::JobShipmentPrint.png[align="center"]

@@ -1,0 +1,23 @@
+[#h3_delivery_and_installation_applet_delivery_region_listing_menu]
+=  2.5 Delivery Region Listing
+
+.Delivery Region: Overview
+image::DeliveryRegionIntro.png[align="center"]
+
+In the delivery region listing, all existing delivery regions will be listed to the user. The user is able to *edit* the specific delivery region by *clicking* on the *particular row*, or *create* a new *delivery region* by *clicking* on the *“+” button*.
+
+== 2.5.1 Create Region
+
+.Delivery Region: Create Region
+image::DeliveryRegionCreate.png[align="center"]
+
+After clicking the “+” button, the user will need to *fill* in *all* the *provided fields*. Once this has been done, the *“CREATE”* button will *turn* from *gray to blue*, indicating the data is ready to be created. The user can then click the *“CREATE”* button to *finish* the process, or the *back button* if the user *decides* to *exit* the *creation* process.
+
+== 2.5.2 Edit and Delete Region Details
+
+.Delivery Region: Editing and Deleting
+image::DeliveryRegionEdit&Delete.png[align="center"]
+
+After clicking on a specific row, the user will be allowed to edit the selected delivery region details. Here the user is able to *delete* a *delivery region* as well by *clicking* on the *“Delete”* button in red.
+
+By *changing any information*, the *“SAVE”* button will *turn* from *gray to blue*, and *clicking* on the *“SAVE”* button will *finish* the process. If the user decides to not change any information, the *back button* will allow the user to *exit* the *edit process without saving*.

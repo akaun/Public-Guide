@@ -1,0 +1,73 @@
+[#h3_delivery_and_installation_applet_trip_shipment_menu]
+= 2.3 Shipment
+
+.Shipment: Overview
+image::ShipmentIntro.png[align="center"]
+
+In the shipment listing, users are able to create, edit shipments or view all the shipments created. Here the user can *arrange multiple job shipments* for a *single shipment* to *decide* on the *quantity delivered* in *each job shipment*. 
+
+By clicking on the *“Import”* button, users will be able to *import shipment files* to be uploaded. *“+”* button allows the user to *create a new shipment*, while the *“Update Status”* button allows the user to *update* the *status* of any *ticked shipments*. *Clicking* on a *specific row* will allow the user to *edit* the selected *shipment*.
+
+All these features will be described in detail below.
+
+== 2.3.1 Creating Shipment
+
+.Shipment: Create Shipment Part 1
+image::ShipmentCreateP1.png[align="center"]
+
+After clicking on the *“+”* button, the user will start the creation of a shipment. In the Main tab, the user will decide which information to fill. 
+
+.Shipment: Create Shipment Part 2
+image::ShipmentCreateP2.png[align="center"]
+
+By clicking on the *first field* provided, in this case the *“Recipient ID”* field, will *direct* the user to a *recipient list* where the user will decide to *choose a recipient*. 
+
+.Shipment: Create Shipment Part 3
+image::ShipmentCreateP3.png[align="center"]
+
+To *select* a recipient, the user only needs to *click* on the *specific row once*, this will *load* all the related *information* from the recipient *to the field*. To *view more information* on the recipient, the user can *click* on the *icon* highlighted in the red box above to see the *information* in a *table format*. 
+
+After selecting the recipient, the user can *go back* to the *creation menu* by clicking on the *back button*.
+
+.Shipment: Create Shipment Part 4
+image::ShipmentCreateP4.png[align="center"]
+
+*Repeat* the *steps* for *other fields* such as *“Shipping Address”*, and the *“Sender ID”* until sufficient information has been entered. 
+
+Finally, the user can *create* a shipment using the selected details by *clicking* on the *“CREATE”* button above.
+
+== 2.3.2 Importing Shipment File
+
+.Shipment: Importing Shipment
+image::ShipmentUpload.png[align="center"]
+
+Users will need to *select* a *File Type* first, then *proceed* towards *uploading* the desired *file*. The *“Upload”* button will then *turn* from *Gray to Blue* upon successful upload. 
+
+Then the user can *finish* the *import* process by *clicking* on the *“Upload”* button.
+
+== 2.3.3 Updating Shipment Status
+
+.Shipment: Updating Shipment
+image::ShipmentStatusUpdate.png[align="center"]
+
+To *update* the *status* of a shipment, users will need to *tick* the *shipments* to be updated as *shown* in the *red box* above, then *select* an *appropriate status*. Selected Shipments will be highlighted in light blue to be spotted easily. 
+
+Users can then *finish* the update process by *clicking* on the *“Update Status”* button.
+
+== 2.3.4 Adding Shipment to Job Shipment
+
+.Shipment: Adding Job Shipment
+image::ShipmentAddJob.png[align="center"]
+
+To *create job shipments*, the user will need to *select* the *shipments* first by *ticking the box*, then in the *“Allocate”* column, the user will need to *specify the amount by clicking* on the *specific row* for that *column*. Corresponding math logic will be conducted based on the allocated amount to finalize balance.
+
+By *clicking* on the *“Create Job”* button will finish *adding* the *job shipment*.
+
+== 2.3.5 Editing Shipment Details
+
+.Shipment: Editing Shipment
+image::ShipmentEdit.png[align="center"]
+
+After *clicking* on the *specific row*, the user will be able to *edit* the *details* of the *selected shipment*, changing its information, the user will need to *click* the *“SAVE”* button to *finish* the *edit* process. 
+
+The user can also *terminate* the *edit* process by *clicking* the *back button*.

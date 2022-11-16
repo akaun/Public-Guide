@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to manage *deliveries* to customers, and *shipments* to organizations, tracking all the *item details*, as well as the *details of the recipient*. *Additional information* such as the details of *vehicle*, *driver* and *many more* can be added. The *flexibility* of the app is also what makes it *user friendly*, and with the *combination* of being able to *add many details*, deliveries and installation can be easily added and referenced. 

@@ -11,6 +11,7 @@ nav:
 - modules/cp-commerce-admin-applet/nav.adoc
 - modules/customer-maintenance-applet/nav.adoc
 - modules/doc-item-maintenance-applet/nav.adoc
+- modules/delivery-and-installation-applet/nav.adoc
 - modules/employee-maintenance-applet/nav.adoc
 - modules/entity-maintenance-applet/nav.adoc
 - modules/group-maintenance-applet/nav.adoc

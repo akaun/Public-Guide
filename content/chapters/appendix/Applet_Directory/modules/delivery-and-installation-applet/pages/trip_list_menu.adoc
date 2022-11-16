@@ -1,0 +1,48 @@
+[#h3_delivery_and_installation_applet_trip_list_menu]
+=  2.2 Trip List
+
+.Trip List: Overview
+image::TripListingIntro.png[align="center"]
+
+Clicking on the *Trips* sidebar icon will *direct* the user to the *Trip Listing*. Here, the user is able to *view* all the *Trips created* in the *list format* instead of the table format which is displayed in the Trip Calendar.
+
+Clicking on the *“+”* button will initiate the *create trip* sequence, while *clicking* on a *specific row* will initiate the *edit trip* sequence.
+
+== 2.2.1 Creating Trips from Trip List
+
+.Trip List: Create Trip
+image::TripCalenderCreateP2.png[align="center"]
+
+Users will see a back button highlighted in red box, and a “CREATE” button above. By *filling in* all the *necessary fields*, the *“CREATE” button* will turn *from gray to blue* indicating that the Clicking on the back button will exit the create sequence.
+
+== 2.2.2 Editing Trips Details from Trip List
+
+.Trip List: Edit Trip
+image::TripCalenderEditP2.png[align="center"]
+
+Here, users are able to *edit* the *trip details*. The user can also *move to* the *Jobs* or *Helpers tab* to edit any *related* Jobs or Helpers for the *selected trip*. Once the information has been edited, clicking the *“SAVE”* button will *finalize* the data. Users can also *click* the *back* button highlighted in the red box to *exit* the *edit sequence*.
+
+.Trip List: Edit Trip Part 2
+image::TripCalenderEditP4.png[align="center"]
+
+Moving on to the Jobs tab, the user can choose to add related jobs here by clicking on the “+” button, or edit any existing added jobs by clicking on the specific row
+
+.Trip List: Edit Trip Part 3
+image::TripCalenderEditP5.png[align="center"]
+
+After clicking on the “+” button, the user can choose to create a job that will be added to the trip automatically upon successful creation of the job. By filling in all the required fields, the “CREATE” button will turn blue, indicating that the job can be created and will be added to the trip.
+
+.Trip List: Edit Trip Part 4
+image::TripCalenderEditP6.png[align="center"]
+
+Users are also given the option to select existing jobs to be added directly to the selected trip. Filter can be done by selecting any of the categories above, and by ticking the box, the existing job will be added.
+
+.Trip List: Edit Trip Part 5
+image::TripCalenderEditP7.png[align="center"]
+
+In the Helpers, the user can choose to add related jobs here by clicking on the “+” button, or edit any existing added jobs by clicking on the specific row.
+
+.Trip List: Edit Trip Part 6
+image::TripCalenderEditP8.png[align="center"]
+
+By double clicking the Driver Name field, a dropdown list will appear, allowing the user to select a trip driver from the driver list. After selecting a trip driver, the corresponding driver details will be displayed as above, by clicking the “CREATE” button will finish adding the trip driver.

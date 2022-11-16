@@ -1,0 +1,63 @@
+[#h3_delivery_and_installation_applet_trip_calendar_menu]
+= 2.1 Trip Calendar
+
+.Trip Calender: Overview
+image::TripCalenderIntro.png[align="center"]
+
+Here, users are able to *observe* all the *created trips* easily. In the calendar itself, the *outer red ring* represents the *current date*, while the *inner red circle* represents the *selected date*. Users are also able to *filter* the *view* in *two ways*. By clicking on the *Vehicle option* on the *bottom left*, a *dropdown list* will appear, allowing users to filter by *Vehicle*, *Delivery Region* or *Driver* to be displayed on the RHS table. 
+
+Users can also *change* the RHS *table format* of display by clicking on the *date range* format shown on the *top right* of the picture above.
+
+== 2.1.1 Creating Trips from Trip Calendar
+
+.Trip Calendar: Create Trip Part 1
+image::TripCalenderCreateP1.png[align="center"]
+
+By *clicking* on the *“+”* icon above, users will be directed to the Trips section on the sidebar, *initiating* the *create sequence*.
+
+.Trip Calendar: Create Trip Part 2
+image::TripCalenderCreateP2.png[align="center"]
+
+Users will see a back button highlighted in red box, and a “CREATE” button above. By *filling in* all the *necessary fields*, the *“CREATE” button* will turn *from gray to blue* indicating that the Clicking on the back button will exit the create sequence.
+
+== 2.1.2 Editing Trips Details from Trip Calender
+
+.Trip Calendar: Edit Trip Part 1
+image::TripCalenderEditP1.png[align="center"]
+
+By *clicking* on *any* of the *existing trips*, users will be directed to the Trips section to *edit* the *selected trip*.
+
+.Trip Calendar: Edit Trip Part 2
+image::TripCalenderEditP2.png[align="center"]
+
+Here, users are able to *edit* the *trip details*. The user can also *move* to the *Jobs* or *Helpers tab* to edit any *related* Jobs or Helpers for the *selected trip*. Once the information has been edited, clicking the *“SAVE”* button will *finalize* the data. Users can also *click* the *back* button highlighted in the red box to *exit* the *edit sequence*.
+
+.Trip Calendar: Edit Trip Part 3
+image::TripCalendereditP3.png[align="center"]
+
+Users are allowed to either *edit* any *existing jobs* related to the selected trip by *clicking* on the *specific row*. Users are also able to *create new jobs* by clicking on the *“+”* button.
+
+.Trip Calendar: Edit Trip Part 4
+image::TripCalenderEditP4.png[align="center"]
+
+Moving on to the Jobs tab, the user can choose to add related jobs here by clicking on the “+” button, or edit any existing added jobs by clicking on the specific row
+
+.Trip Calendar: Edit Trip Part 5
+image::TripCalenderEditP5.png[align="center"]
+
+After clicking on the “+” button, the user can choose to create a job that will be added to the trip automatically upon successful creation of the job. By filling in all the required fields, the “CREATE” button will turn blue, indicating that the job can be created and will be added to the trip.
+
+.Trip Calendar: Edit Trip Part 6
+image::TripCalenderEditP6.png[align="center"]
+
+Users are also given the option to select existing jobs to be added directly to the selected trip. Filter can be done by selecting any of the categories above, and by ticking the box, the existing job will be added.
+
+.Trip Calendar: Edit Trip Part 7
+image::TripCalenderEditP7.png[align="center"]
+
+In the Helpers, the user can choose to add related jobs here by clicking on the “+” button, or edit any existing added jobs by clicking on the specific row.
+
+.Trip Calendar: Edit Trip Part 8
+image::TripCalenderEditP8.png[align="center"]
+
+By double clicking the Driver Name field, a dropdown list will appear, allowing the user to select a trip driver from the driver list. After selecting a trip driver, the corresponding driver details will be displayed as above, by clicking the “CREATE” button will finish adding the trip driver.

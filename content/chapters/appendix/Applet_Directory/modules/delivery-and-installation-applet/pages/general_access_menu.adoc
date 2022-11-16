@@ -1,0 +1,20 @@
+[#h3_delivery_and_installation_applet_general_access_menu]
+=  1.1 General Access
+
+== 1.1.1 Sidebar Access
+
+.DI Applet Sidebar
+image::SideBarAccess.png[align="center"]
+
+Users are able to open up the *sidebar* by *clicking* on the *icon highlighted* above, this will allow the user to switch to different sections of the applet easily.
+
+== 1.1.2 Search Access
+
+.DI Applet Search Bar
+image::SearchAccess.png[align="center"]
+
+Users are able to *search* the data in *two ways*. 
+
+The *first* way is done just by *typing* the *related keywords* in the *search bar*. 
+
+The *second* way involves *clicking* on the *icon highlighted* in *red box* in the picture above, then a *list* will *appear*, containing *more fields* to *narrow down* the *scope* that will enable the user to search more accurately.
