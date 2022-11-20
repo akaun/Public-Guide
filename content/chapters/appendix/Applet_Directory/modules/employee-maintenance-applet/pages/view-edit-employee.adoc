@@ -42,7 +42,7 @@ Under the Login tab, users can create logins for the employee. Users need to ent
 
 == Payment Config
 
-image::Employee_Edit-Payment-Config[Employee Edit Payment Config, align = "center"]
+image::Employee_Edit-PaymentConfig[Employee Edit Payment Config, align = "center"]
 
 Under the Payment Config tab, users can create payment configurations for the employee. 
 
@@ -96,7 +96,7 @@ Under the Remark tab, users can add in any remarks for the employee. There are a
 
 == Account Manager
 
-image::Employee_Edit-AccountManager[Employee Edit Account Manager, align = "center"]
+image::Employee_Edit-AccountManager.png[Employee Edit Account Manager, align = "center"]
 
 Under the Account Manager tab, users can select entities to be the account managers of the employee. Upon clicking the ‘+’ button, there will be a list of entities for the users to select as the account managers.
 
