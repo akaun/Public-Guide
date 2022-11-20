@@ -76,7 +76,6 @@ After loading the items, users can see the list of line items that are sold by t
 
 Users can then proceed to click on the item that they would like to purchase.
 
-image::7-LineItemsTab-ItemDetails.png[Item Details, align = "center"]
 
 After clicking on the particular item, users will be directed to the Item Details page that shows the details of the item that the users want to buy. At the Item Details page, the Item Code, Item Name and Price information are auto-filled by the applet. Users are required to input the quantity of the items that they want to purchase in the Quantity column. 
 
@@ -143,8 +142,6 @@ After creating the order, every product in the order will be assigned a unique p
 Firstly, users have to click on the particular MS ESD order record in the MS ESD Order Listing page. Then, users have to navigate to the Line Items tab. Then, users click on the product record. By doing that, the product key of the selected product will be shown. From there, they can observe the product key for that item in that order.
 
 === Fulfil The Order
-
-image::15-Actions-FulfillAnOrder.png[Fulfill An Order, align = "center"]
 
 After creating the order, users have to click on the “Opposite Arrow” icon under the Action column to fulfill the order. This action will cause the applet to sync the order details with the Wavelet EMP system. By doing that, the status of the order will be changed from “Created” to “Fulfilled”. 
 

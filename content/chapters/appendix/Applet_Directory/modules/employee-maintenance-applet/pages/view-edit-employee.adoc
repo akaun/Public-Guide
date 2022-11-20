@@ -42,7 +42,7 @@ Under the Login tab, users can create logins for the employee. Users need to ent
 
 == Payment Config
 
-image::Employee_Edit-PaymentConfig[Employee Edit Payment Config, align = "center"]
+image::Employee_Edit-PaymentConfig.png[Employee Edit Payment Config, align = "center"]
 
 Under the Payment Config tab, users can create payment configurations for the employee. 
 
