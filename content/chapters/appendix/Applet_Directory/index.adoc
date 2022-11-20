@@ -32,7 +32,7 @@ include::modules/media-library-applet/index.adoc[leveloffset=2]
 
 include::modules/merchant-admin-maintenance-applet/index.adoc[leveloffset=2]
 
-include::modules/msesd-applet/index.aodc[leveloffset=2]
+include::modules/msesd-applet/index.adoc[leveloffset=2]
 
 include::modules/organization-applet/index.adoc[leveloffset=2]
 
