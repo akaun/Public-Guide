@@ -143,9 +143,9 @@ Firstly, users have to click on the particular MS ESD order record in the MS ESD
 
 === Fulfil The Order
 
-After creating the order, users have to click on the “Opposite Arrow” icon under the Action column to fulfill the order. This action will cause the applet to sync the order details with the Wavelet EMP system. By doing that, the status of the order will be changed from “Created” to “Fulfilled”. 
+image::15-Actions-FulfillAnOrder.png[Fulfill An Order, align = "center"]
 
-image::16-GRN_No-FulFilledOrder.png[No Fulfilled Order, align = "center"]
+After creating the order, users have to click on the “Opposite Arrow” icon under the Action column to fulfill the order. This action will cause the applet to sync the order details with the Wavelet EMP system. By doing that, the status of the order will be changed from “Created” to “Fulfilled”. 
 
 When the order is fulfilled, the order will be given a GRN number. Users can click on the particular order with the “Fulfilled” status in the MS ESD Order Listing page and then navigate to the Main tab of the MS ESD Order Details page. From there, they can observe the GRN number for that order which is not computed and shown previously.
 
