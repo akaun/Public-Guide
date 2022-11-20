@@ -1,0 +1,14 @@
+[#h3_view_edit_category]
+= View and Edit Category
+
+image::Category_View.png[Category View, align = "center"]
+
+The latest created Category will be listed on top of the Category Listing.
+
+To edit the category, click into the respective category.
+
+image::Category_Edit.png[Category Edit, align = "center"]
+
+In Category Edit, users will be able to make changes to the Category Code and Category Name. Users will also be able to add in the description for the category. To deactivate this category, users can switch the Status of the category from ACTIVE to INACTIVE. Aside from that, users can still link the category to a parent when editing.
+
+The Created By, Created Date, Modified By and Modified Date will also be displayed under Category Edit however it will not be editable.

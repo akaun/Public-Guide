@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Employee Maintenance Applet is used to create employees and employee categories. This applet helps companies to manage employees. There are 2 modules in this applet which are Employee and Category.
