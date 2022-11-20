@@ -1,4 +1,4 @@
-[#h3_msesd_branch_settings]
+[#h3_im_msesd_order_applet_branch_settings]
 = Branch Settings
 
 image::25-BranchSettings-BranchListingPage.png[Branch Listing Page, align = "center"]
