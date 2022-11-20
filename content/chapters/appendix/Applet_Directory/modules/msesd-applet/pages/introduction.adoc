@@ -1,0 +1,6 @@
+[#h3_msesd_applet_introduction]
+=  Introduction
+
+image::MSESD-logo.png[Logo, align = "center"]
+
+include::intro_description.adoc[]
