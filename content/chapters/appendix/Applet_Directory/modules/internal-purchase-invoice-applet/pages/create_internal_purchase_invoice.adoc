@@ -1,0 +1,226 @@
+[#h3_internal_purchase_invoice_applet_create_purchase_invoice]
+= 1. Internal Purchase Invoice
+
+== 1.1. Please click the ‘+’ button to add a new Purchase Invoice.
+
+image::InternalPurchaseInvoiceCreate.png[align="center"]
+
+=== 1.1.1 In the Main Details Tab
+Please fill up the compulsory (*) information for creating the purchase invoice. Compulsory Information:
+
+* Branch - Add new branch in Organization Applet
+
+* Location - Add new location in Organization Applet
+
+* Purchaser- Add new purchaser in Customer Maintenance Applet
+
+* Transaction Date - Will default put current date
+
+* Currency-Depend on the selected branch
+
+* Other fields are optional:
+    ** Reference
+    ** Remarks 
+
+image::CreatePurchaseInvoice-MainDetails-1.png[align="center"]
+
+image::CreatePurchaseInvoice-MainDetails-2.png[align="center"]
+
+=== 1.1.2 In the Account Tab
+==== 1.1.2.1 Entity Details Tab
+Compulsory Information:
+
+* Entity ID-Add new Entity in Entity Maintenance Applet
+
+* Entity Name-Will auto fill once you select the entity ID
+
+* Other fields will be auto fill when have select the Entity ID
+
+image::CreatePurchaseInvoice-Account-EntityDetails.png[align="center"]
+
+After the Entity Id has been clicked, a list of suppliers will be displayed on the right side.
+You can select the supplier from the list.
+
+image::CreatePurchaseInvoice-Account-EntityDetails-SelectSupplier.png[align="center"]
+
+==== 1.1.2.2 Bill To Tab
+
+* Name, Email and Phone No will be Autofill after have select the Entity ID
+
+* List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+
+* We can create new address in the “SelectSupplier-SupplierEdit-Address-AddressCreate-Main-1”
+
+image::CreatePurchaseInvoice-Account-BillTo-SelectSupplier.png[align="center"]
+image::CreatePurchaseInvoice-Account-BillTo-SelectBillingAddress.png[align="center"]
+
+==== 1.1.2.3 Ship To Tab
+
+* Name, Email and Phone No will be Autofill after have select the Entity ID
+
+* List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+
+* We can create new address in the “SelectSupplier-SupplierEdit-Address-AddressCreate-Main-1”
+
+image::CreatePurchaseInvoice-Account-ShipTo-SelectSupplier.png[align="center"]
+image::CreatePurchaseInvoice-Account-ShipTo-SelectBillingAddress.png[align="center"]
+
+=== 1.1.3 In the Line Items Tab
+==== 1.1.3.1 Please click the ‘+’ button to add a new line item.
+
+image::CreatePurchaseInvoice-LineItems-1.png[align="center"]
+
+==== 1.1.3.2 A list of items will be displayed on the right side.
+* All items here are added in the Doc Item Maintenance Applet
+* For more details about the Item, can refer to Doc Item Maintenance Applet
+
+image::CreatePurchaseInvoice-LineItems-SelectItem.png[align="center"]
+
+==== 1.1.3.3 A list of items will be displayed on the right side.
+* The Add Item Page will be displayed on the right side with all the details of the selected item.
+
+==== 1.1.3.4 Item Details Tab
+===== 1.1.3.4.1 In the Main Details Tab of Item Details Tab
+* You can edit the item that you have selected.
+* Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-1.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-2.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-3.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-4.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-5.png[align="center"]
+
+
+===== 1.1.3.4.2 n the Delivery Instruction Tab of Item Details Tab
+* In the Delivery Instruction
+** Add Instruction and Set the Delivery Date
+
+* In the Delivery Message Card 
+** Add a message with the sender and receiver
+** Can click on the 'Copy from Entity Name' or 'Copy from Recipient Name' for getting the setting of the Sender and Receiver
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-DeliveryInstruction-1.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-DeliveryInstruction-2.png[align="center"]
+
+===== 1.1.3.4.3 In the Department Tab of Item Details Tab
+* Click on the 'Copy from Hdr' for getting the settings for Department
+* Fill in the information for the department
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-ItemDetails-Department.png[align="center"]
+
+==== 1.1.3.5 Item Details Tab
+* Showing all the costing details such as company code, location code etc about the selected item.
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-CostingDetails.png[align="center"]
+
+==== 1.1.3.6 Pricing Details Tab
+* Showing all the pricing details such as pricing scheme code, name etc.
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-PricingDetails.png[align="center"]
+
+===== 1.1.3.6.1  Edit Pricing Details Tab
+* Select the pricing scheme code and make changes on it
+* After done select the amount of each field, please click on the “Add” to change the selected pricing scheme
+
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-PricingDetails-EditPricingDetails-1.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-PricingDetails-EditPricingDetails-2.png[align="center"]
+
+==== 1.1.3.7 Issue Link Tab
+* Showing list of issue link
+* Contain project name, issue number and issue summary
+* Click on the project row will have a log time page
+* Can add log time
+
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-IssueLink.png[align="center"]
+
+===== 1.1.3.7.1  Edit Log Time
+
+image::CreatePurchaseInvoice-LineItems-SelectItem-AddItem-IssueLink-LogTime.png[align="center"]
+
+=== 1.1.4 Edit Line Items
+
+* Please click on the line item that wants to make changes.
+
+image::CreatePurchaseInvoice-LineItems-2.png[align="center"]
+
+==== 1.1.4.1 Edit Item
+
+* All the fields are the same as the steps of adding items, and are editable.
+* In the Doc Link Tab, will show the Doc No that copy from and copy to.
+* Other tabs are the same as Adding Line items. 
+* Please click on “Save” after making the changes
+
+
+image::CreatePurchaseInvoice-LineItems-EditItem-ItemDetails-MainDetails.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-ItemDetails-DocLink-CopyFrom.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-ItemDetails-DocLink-CopyTo.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-ItemDetails-DeliveryInstruction.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-ItemDetails-Department.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-CostingDetails.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-PricingDetails.png[align="center"]
+image::CreatePurchaseInvoice-LineItems-EditItem-IssueLink.png[align="center"]
+
+=== 1.1.5 Payment Tab
+
+* Can add different payment method such as Cash, Credit Card, Membership Point Currency, Voucher and Cheque
+* Can add a new settlement method in the Cashbook Applet
+
+
+image::CreatePurchaseInvoice-Payment.png[align="center"]
+image::CreatePurchaseInvoice-Payment-AddPayment.png[align="center"]
+
+==== 1.1.5.1 Cash
+
+* Please fill in the compulsory fields such as Date, Amount.
+* Click on the ‘Add’ to add the settlement
+
+image::CreatePurchaseInvoice-Payment-AddPayment(Cash).png[align="center"]
+
+==== 1.1.5.2 Voucher
+
+* Please fill in the compulsory fields such as Voucher # and Amount.
+* Click on the ‘Add’ to add the settlement
+
+
+image::CreatePurchaseInvoice-Payment-AddPayment(Voucher).png[align="center"]
+
+==== 1.1.5.3 Credit Card
+
+* Please fill in the compulsory fields such as Date, Amount, Credit Card No and Name on Card.
+* Click on the ‘Add’ to add the settlement
+
+image::CreatePurchaseInvoice-Payment-AddPayment(CreditCard).png[align="center"]
+
+==== 1.1.5.4 Membership Point Currency
+
+* Please fill in the compulsory fields such as Date, Amount, Point CCY and Point Currency for Settlement..
+* Click on the ‘Add’ to add the settlement
+
+image::CreatePurchaseInvoice-Payment-AddPayment(MembershipPointCurrency).png[align="center"]
+
+==== 1.1.5.3 Cheque
+
+* Please fill in the compulsory fields such as Date, Amount and Cheque No.
+* Click on the ‘Add’ to add the settlement.
+
+
+image::CreatePurchaseInvoice-Payment-AddPayment(Cheque).png[align="center"]
+
+=== 1.1.6 KO For Tab
+
+* Showing the item that the user can knock off.
+* Click on the item that want to knock off
+* Then Click on the ‘KNOCK OFF’
+* A knock off or knockoff is a copy of an original that sells for a considerably lower price.
+
+image::CreatePurchaseInvoice-KOFor.png[align="center"]
+
+=== 1.1.7 Department Hdr Tab
+
+* Can select Segment, G/L Dimension, Profit Centre and Project when creating Purchase Invoice
+
+image::CreatePurchaseInvoice-DepartmentHdr.png[align="center"]
+
+
