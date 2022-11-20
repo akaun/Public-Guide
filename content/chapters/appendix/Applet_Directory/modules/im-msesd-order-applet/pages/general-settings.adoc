@@ -1,4 +1,4 @@
-[#h3_im_msesd_order_applet_general_settings]
+[#h3_applet_g_settings]
 = General Settings
 
 image::20-GeneralSettings.png[General Settings, align = "center"]

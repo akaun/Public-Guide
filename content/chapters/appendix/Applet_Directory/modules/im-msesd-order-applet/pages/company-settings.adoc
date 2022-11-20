@@ -1,4 +1,4 @@
-[#h3_im_msesd_order_applet_company_settings]
+[#h3_applet_c_settings]
 = Company Settings
 
 In order for the users to purchase items from a related company and branch, the owner and admin users of the MSESD Applet must first configure the credentials of the company and branch using the Organization Applet. By doing that, the options of the particular company and branch will appear under the Main tab in the Create MS ESD Order page. Then, users can edit the configurations of the company and branch under the Applet Settings of the MSESD Applet. 

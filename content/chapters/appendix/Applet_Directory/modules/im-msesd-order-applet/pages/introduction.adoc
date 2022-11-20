@@ -1,4 +1,4 @@
-[#h3_im_msesd_order_applet_introduction]
+[#h3_applet_intro]
 = Introduction
 
 image::im_msesd_order_applet_logo.png[150,300]
