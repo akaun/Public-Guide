@@ -3,4 +3,24 @@
 
 image::purchase_invoice_applet_logo.png[150,300]
 
-include::intro_description.adoc[]
+
+The Internal Purchase Invoice Applet is used to add one or many internal purchase invoices. It is used to manage the listing of the internal purchase invoice and line items. There are two modules in the applet which are ‘Internal Purchase Invoice’, ‘Line Items’ and ‘File Import.’
+ of Features: Create Purchase Invoice > Create Supplier > View Line Items Listing > Import File
+
+The Internal Purchase Invoice Applet can import Lines from the following Applets:
+
+* Organization Applet
+* Pricebook Applet
+* Doc Item Maintenance Applet
+* Purchase Order Item
+* Customer Maintenance Applet
+* Chart of Accounts Applet
+
+The infA purchase invoice is an invoice that is used in conjunction with a purchase order. It is used to indicate how much money the buyer owes to the seller.
+Listormation in Internal Purchase Invoice Applet is used by which applets:
+
+* Purchases Return Applet
+* Purchase Debit Note
+* Purchase Credit Note
+* Debtor and Creditor Report Applet
+* Stock Availability Applet

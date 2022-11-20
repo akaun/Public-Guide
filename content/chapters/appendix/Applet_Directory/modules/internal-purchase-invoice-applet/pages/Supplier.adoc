@@ -29,14 +29,14 @@ image::SelectSupplier-CreateSupplier-Main.png[align="center"]
 * Only the Supplier Name, Status, Type, ID Number, Company Tax Registration ID, Currency, Description, AR/AP Type, Phone 
 Number and Email can be edited. After updating it, please click “Save”.
 
-*You can click on the “Remove” button to remove the Supplier from the Supplier Listing.
+* You can click on the “Remove” button to remove the Supplier from the Supplier Listing.
 
 image::SelectSupplier-SupplierEdit-Main-1.png[align="center"]
 image::SelectSupplier-SupplierEdit-Main-2.png[align="center"]
 image::SelectSupplier-SupplierEdit-Main-3.png[align="center"]
 
 == 2.3 In the Category Tab of Create Supplier
-== 2.3.1 Please click the ‘+’ button to add categories.
+=== 2.3.1 Please click the ‘+’ button to add categories.
 
 image::SelectSupplier-SupplierEdit-Category.png[align="center"]
 
@@ -50,7 +50,7 @@ image::SelectSupplier-SupplierEdit-Category-CategoryAdd.png[align="center"]
 
 * Click on the selected category to be edited.
 * After selecting the category, can edit it
-*Click Remove if want to remove the category
+* Click Remove if want to remove the category
 
 image::SelectSupplier-SupplierEdit-Category-CategoryEdit-Main.png[align="center"]
 
@@ -102,8 +102,8 @@ image::SelectSupplier-SupplierEdit-PaymentConfig-PaymentConfigCreate-Main.png[al
 ** Payee Residential Status
 ** Payment Type
 ** Country
-*After making the changes, please click on the ‘Update’
-*Click on the Remove button to remove the payment config
+* After making the changes, please click on the ‘Update’
+* Click on the Remove button to remove the payment config
 
 image::SelectSupplier-SupplierEdit-PaymentConfig-PaymentConfigEdit-Main-1.png[align="center"]
 image::SelectSupplier-SupplierEdit-PaymentConfig-PaymentConfigEdit-Main-2.png[align="center"]
@@ -214,7 +214,7 @@ image::SelectSupplier-SupplierEdit-Branch-BranchCreate-Main.png[align="center"]
 image::SelectSupplier-SupplierEdit-Branch-BranchEdit-Main.png[align="center"]
 
 == 2.10 In the Company Linking Tab of Create Supplier
-== 2.10.1 Please click the ‘+’ button to add Company Linking.
+=== 2.10.1 Please click the ‘+’ button to add Company Linking.
 
 image::SelectSupplier-SupplierEdit-CompanyLinking.png[align="center"]
 
