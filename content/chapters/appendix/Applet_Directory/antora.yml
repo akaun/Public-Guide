@@ -15,12 +15,12 @@ nav:
 - modules/employee-maintenance-applet/nav.adoc
 - modules/entity-maintenance-applet/nav.adoc
 - modules/group-maintenance-applet/nav.adoc
+- modules/im-msesd-order-applet/nav.adoc
 - modules/internal-stock-adjustment-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/media-library-applet/nav.adoc
 - modules/membership-admin-applet/nav.adoc
 - modules/merchant-admin-maintenance-applet/nav.adoc
-- modules/msesd-applet/nav.adoc
 - modules/ocr-cash-bill-applet/nav.adoc
 - modules/organization-applet/nav.adoc
 - modules/payment-channel-applet/nav.adoc

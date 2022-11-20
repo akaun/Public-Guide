@@ -1,5 +1,9 @@
 * IM MSESD Order Applet 
 ** xref:introduction.adoc[Introduction]
+** xref:msesd-order.adoc[MSESD Order]
+** xref:general-settings.adoc[General Settings]
+** xref:company-settings.adoc[Company Settings]
+** xref:branch-settings.adoc[Branch Settings]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
