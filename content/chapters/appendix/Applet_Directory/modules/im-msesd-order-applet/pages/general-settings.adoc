@@ -1,5 +1,5 @@
-[#h3_general_settings]
-=  General Settings
+[#h3_msesd_general_settings]
+= General Settings
 
 image::20-GeneralSettings.png[General Settings, align = "center"]
 
