@@ -1,0 +1,9 @@
+[#h3_internal_purchase_invoice_applet_line_item_listing]
+= 3. Line Items Listing
+
+* Show all the line items according to the purchase invoice no.
+* If you click on the line item row, it will show page same as Edit Line Item
+* Please click “Save” after the details of the item is done edited
+
+image::LineItemsListing.png[align="center"]
+image::LineItemsListing-EditLineItem.png[align="center"]
