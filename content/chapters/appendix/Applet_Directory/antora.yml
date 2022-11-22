@@ -15,7 +15,6 @@ nav:
 - modules/employee-maintenance-applet/nav.adoc
 - modules/entity-maintenance-applet/nav.adoc
 - modules/group-maintenance-applet/nav.adoc
-- modules/im-msesd-order-applet/nav.adoc
 - modules/internal-stock-adjustment-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/media-library-applet/nav.adoc
