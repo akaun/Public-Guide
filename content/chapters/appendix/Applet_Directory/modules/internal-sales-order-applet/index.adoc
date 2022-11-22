@@ -3,7 +3,7 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
+// include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order.adoc[leveloffset=3]
 
@@ -19,17 +19,17 @@ include::pages/menu_06_batch_printing.adoc[leveloffset=3]
 
 include::pages/menu_07_file_import.adoc[leveloffset=3]
 
-include::pages/permission_settings.adoc[leveloffset=3]
+// include::pages/permission_settings.adoc[leveloffset=3]
 
-include::pages/personalization_settings.adoc[leveloffset=3]
+// include::pages/personalization_settings.adoc[leveloffset=3]
 
-include::pages/related_applets.adoc[leveloffset=3]
+// include::pages/related_applets.adoc[leveloffset=3]
 
-include::pages/pricing.adoc[leveloffset=3]
+// include::pages/pricing.adoc[leveloffset=3]
 
-include::pages/release_note.adoc[leveloffset=3]
+// include::pages/release_note.adoc[leveloffset=3]
 
-include::pages/roadmap.adoc[leveloffset=3]
+// include::pages/roadmap.adoc[leveloffset=3]
 
 
 
