@@ -24,8 +24,6 @@ include::modules/employee-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/entity-maintenance-applet/index.adoc[leveloffset=2]
 
-include::modules/im-msesd-order-applet/index.adoc[leveloffset=2]
-
 include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
 
 include::modules/inventory-item-maintenance-applet/index.adoc[leveloffset=2]
