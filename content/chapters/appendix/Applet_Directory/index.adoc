@@ -150,8 +150,6 @@ include::modules/tenant-applet/index.adoc[leveloffset=2]
 
 include::modules/staff-time-attendance-applet/index.adoc[leveloffset=2]
 
-include::modules/im-msesd-order-applet/index.adoc[leveloffset=2]
-
 include::modules/recurring-sales-invoice-applet/index.adoc[leveloffset=2]
 
 include::modules/daily-cashier-applet/index.adoc[leveloffset=2]
