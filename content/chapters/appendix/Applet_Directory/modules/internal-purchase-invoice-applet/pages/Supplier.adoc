@@ -5,9 +5,8 @@
 
 image::SelectSupplier-1.png[align="center"]
 
-
 == 2.2 Create a new Supplier
-=== 2.2.1 Please click the ‘+’ button to add a new purchase invoice.
+=== 2.2.1 Please click the '+' button to add a new purchase invoice.
 
 image::SelectSupplier-2.png[align="center"]
 
