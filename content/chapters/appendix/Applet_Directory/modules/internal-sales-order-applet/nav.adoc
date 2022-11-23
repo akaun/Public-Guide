@@ -9,7 +9,7 @@
 ** xref:menu_01_sales_order.adoc[Sales Order]
 ** xref:menu_02_line_items.adoc[Line Items]
 ** xref:menu_03_delivery_items.adoc[Delivery Items]
-** xref:menu_04_ecomsync_dashboard.adoc[Ecomsynch Dashboard]
+** xref:menu_04_ecomsync_dashboard.adoc[Ecomsync Dashboard]
 ** xref:menu_05_ecomsync_scheduler.adoc[Ecomsync Scheduler]
 ** xref:menu_06_batch_printing.adoc[Batch Printing]
 ** xref:menu_07_file_import.adoc[File Import]

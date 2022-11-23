@@ -8,7 +8,7 @@ image::sales_invoice_line_items.png[1440 x 900]
 User can edit the invoice by clicking the chosen item. It will direct the user where there are few tabs to edit.
 
 ** Item Details Tab
-**  Costing Details Tab
+** Costing Details Tab
 ** Pricing Details Tab
 ** Issue Link Tab
 
@@ -16,40 +16,42 @@ User can edit the invoice by clicking the chosen item. It will direct the user w
 
 Item Details Tab includes six separate tabs in it.
 
-* Main Details - In this Tab user can edit or add:
+=== Main Details Tab
+
+In this Tab, user can edit or add:
 
 image::item_details_main_details.png[1440 x 900]
 
-  ** Item Code
-  ** Item Name
-  ** UOM: choose from dropdown list
-  ** Pricing Scheme
-  ** Unit Price STD(exlusive of tax)
-  ** Unit Price STD(inclusive of tax)
-  ** Unit Discount
-  ** Quantity Base
-  ** Quantity by UOM
-  ** UOM to Base Ratio
-  ** Unit Price STD by UOM(exlusive of tax)
-  ** Unit Price STD by UOM((inclusive of tax)
-  ** Unit Discount by UOM((exlusive of tax)
-  ** Unit Price Net by UOM((exlusive of tax)
-  ** Unit Price Transaction by UOM(inlusive of tax)
-  ** Unit Price Net(exlusive of tax)
-  ** STD amount(Unit Price and Quantity)
-  ** Discount Amoun(exlusive of tax) 
-  ** Amount Net(exlusive of tax)
-  ** SST Code - choose from dropdown list
-  ** SST/GST/VAT
-  ** Tax Amount
-  ** WHT code - choose from dropdown list
-  ** WHT 
-  ** WHT amount
-  ** Unit Price Transaction(inclusive of tax)
-  ** Txn Amount
-  ** Remarks
+** Item Code
+** Item Name
+** UOM: choose from dropdown list
+** Pricing Scheme
+** Unit Price STD(exlusive of tax)
+** Unit Price STD(inclusive of tax)
+** Unit Discount
+** Quantity Base
+** Quantity by UOM
+** UOM to Base Ratio
+** Unit Price STD by UOM(exlusive of tax)
+** Unit Price STD by UOM(inclusive of tax)
+** Unit Discount by UOM(exlusive of tax)
+** Unit Price Net by UOM(exlusive of tax)
+** Unit Price Transaction by UOM(inlusive of tax)
+** Unit Price Net(exlusive of tax)
+** STD amount(Unit Price and Quantity)
+** Discount Amoun(exlusive of tax) 
+** Amount Net(exlusive of tax)
+** SST Code - choose from dropdown list
+** SST/GST/VAT
+** Tax Amount
+** WHT code - choose from dropdown list
+** WHT 
+** WHT amount
+** Unit Price Transaction(inclusive of tax)
+** Txn Amount
+** Remarks
    
- * Delivery Instructions Tab
+=== Delivery Instructions Tab
   
 image::line_items_edit_delivery_instruction.png[1440 x 900]
 
@@ -62,19 +64,19 @@ Delivery message card:
 
 ** You can also prepare the delivery message card for the receiver.
 
-* Department Tab
+=== Department Tab
 
 Users click "Copy from Hdr", it copies from Department Hdr Tab in Sales order menu
 
 image::line_items_department_tab.png[1440 x 900]
 
-* Related documents
+=== Related Documents Tab
 
 This tab is for the documents which are related to Sales Invoice
 
 image::line_items_related_documents.png[1440 x 900]
 
-* Delivery Details tab
+=== Delivery Details Tab
 
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
@@ -82,7 +84,7 @@ Users also can require delivery or not - choose from dropdown list
 
 image::line_items_delivery_details.png[1440 x 900]
 
-* Delivery Tips tab
+=== Delivery Tips Tab
 
 List of Delivery trips report for the particular sales order is displayed here.   
 
@@ -95,7 +97,7 @@ List of Delivery trips report for the particular sales order is displayed here.
 ** Delivery Status: If the delivery item was successfully delivered to the addressee.
 ** Recipient Name: The person’s name that receives.
 
-== Line Items - Costing Details
+== Line Items - Costing Details Tab
 
 List of Costing Details for the particular sales order is displayed here.
 
@@ -105,7 +107,7 @@ List of Costing Details for the particular sales order is displayed here.
 
 image::line_items_costing_details.png[1440 x 900]
 
-== Line Items - Pricing Details 
+== Line Items - Pricing Details Tab
 
 User chooses UOM from the dropdown list and can see the pricing details from the listing below:
 

@@ -5,18 +5,18 @@ All the sales invoice are listed here after they have been created. Users may cl
 
 image::sales_invoice_listing.png[1440 x 900]
 
-**  Doc No: Invoice Number
-** Posting Status: Stus of the sales invoice: Draft or Final
+** Doc No: Invoice Number
+** Posting Status: Status of the sales invoice: Draft or Final
 ** Branch: A branch office is an outlet for a company.
-** Customer Name - name of the Customer
-** Sales Agent - sales agent name
+** Customer Name: Name of the Customer
+** Sales Agent: Sales agent name
 ** Updated date: Sales invoices updated date
 ** Transaction Date:  Sales invoices transaction date
-** Created by: person who created sales invoice
+** Created by: Person who created sales invoice
 
 == Advanced Search 
 
-The advance search box below helps refine the search and allows the user to specify requirements by branch, customer, date, status, and marketplaces when searching from the list of sales orders. 
+The advanced search box below helps refine the search and allows the user to specify requirements by branch, customer, date, status, and marketplaces when searching from the list of sales orders. 
 
 // image::sales_order_advanced_search.png[1440 x 900]
 
@@ -29,9 +29,11 @@ Users can post the document(s) to ‘FINAL’ status once the sales invoice is c
 image::sales_invoice_final_posting.png[1440 x 900]
 
 
-== Create Sales Invoice -  Main Details Tab
+== Create Sales Invoice 
 
- Go to the Sales Order menu, and click on the '+' button to Create a New Sales Order.
+=== Main Details Tab
+
+Go to the Sales Order menu, and click on the '+' button to Create a New Sales Order.
 
 image::create_sales_invoice.png[1440 x 900]
 
@@ -42,7 +44,7 @@ It is, however, advisable to use 'Knock Off from other documents' because it can
 * In order to proceed and start on Sales Order Applet, kindly make sure that you have created company, branch, Location details in Organization Applet.
 ** Branch: A branch office is an outlet for a company.
 ** Location: A place to store physical inventory for sale or distribution.
-** Sales Agent - choose the employee with clicking "Sales Agent" Field, where it will direct to the next pages
+** Sales Agent - choose the employee with clicking "Sales Agent" Field, where it will direct to the next pages.
 
 image::sales_agent_select_employee.png[1440 x 900]
 
@@ -54,12 +56,12 @@ image::sales_agent_select_employee.png[1440 x 900]
 ** Permit No: Sellers permit number.
 ** CRM Contact: Specify the contact for whom the sales order is being created.
 ** Currency: To determined based on the pricing condition what you are maintaining.
-** Sales Lead: The retail sales worker who is responsible for coordinating, ensuring, and ensuring the sales invoice are reached to the customer.
+** Sales Lead: The retail sales worker who is responsible for coordinating and ensuring the sales invoice are reached to the customer.
 ** Membercard: A card issued by your company to the customer to indicate membership of a membership scheme.
 ** Tracking ID: An ID or code is assigned to the sales order to typically print on the shipping label.
 
 
-=== Sales Invoice - Account Tab
+=== Account Tab
 
 As the user is creating a contract between  organization and a Customer for the supply of specified goods and/or services, a link is configured here between the sales order and the customer.
 
@@ -69,25 +71,25 @@ image::sales_invoice_account_tab.png[1440 x 900]
 
 Entity ID: Customer Code, auto-filled when customer entity is selected. 
 
-Entity Details
+==== Entity Details
 
 All relevant information from the Customer master record will be copied from here to the sales order. 
 
 image::sales_invoice_entity_details.png[1440 x 900]
 
- Click on the Entity ID
+Click on the Entity ID.
 
 image::sales_invoice_entity_id.png[1440 x 900]
 
- Seach Customers from the list. 
+Seach Customers from the list. 
 
 // image::search_customer_select_mode.png[1440 x 900]
 
-Upon selecting the customer, master record details will be auto-filled. As shown in the screen below
+Upon selecting the customer, master record details will be auto-filled. As shown in the screen below.
 
 image::sales_invoice_auto_fill_in.png[1440 x 900]
 
- User can create and edit the Customer
+User can create and edit the Customer.
 
 image::edit_create_mode_sales_invoice.png[1440 x 900]
 
@@ -101,7 +103,7 @@ image::edit_create_mode_sales_invoice.png[1440 x 900]
 ** Email: A central email through which customers want to communicate. Auto-filled when customer entity is selected. 
 ** Phone Number: A central phone number through which customers want to communicate. Auto-filled when customer entity is selected. 
 
-=== Bill To
+==== Bill To
 
 A bill to is the customer who pays for the sales order. It can be different than the sold-to customer. 
 
@@ -111,7 +113,7 @@ Based on the entity selected, the bill to details gets auto-filled and are edita
 
 image::sales_invoice_bill_to.png[1440 x 900]
 
-Click on the billing address
+Click on the billing address.
 
 image::invoice_billing_address.png[1440 x 900]
 
@@ -119,7 +121,7 @@ Upon selecting the address, the billing address details get auto-filled and are 
 
 image::invoice_billing_address_auto_fill_in.png[1440 x 900]
 
-=== Ship To
+==== Ship To
 
 A ship to is the customer who receives the specified goods and/or services in the sales order. It can be different than the sold-to customer. 
 
@@ -129,7 +131,7 @@ Based on the entity selected, the bill to details gets auto-filled and are edita
 
 image::invoice_ship_to.png[1440 x 900]
 
-Click on the shipping address
+Click on the shipping address.
 
 image::invoice_click_address.png[1440 x 900]
 
@@ -137,9 +139,9 @@ Upon selecting the address, the shipping address details get auto-filled and are
 
 image::sales_invoice_address.png[1440 x 900]
 
-=== Lines
+=== Lines Tab
 
-Lines tab is used to select the line to be knocked off. This is for knocking off at the line level
+Lines tab is used to select the line to be knocked off. This is for knocking off at the line level.
 
 image::line_tab_sales_invoice.png[1440 x 900]
 
@@ -158,25 +160,25 @@ image::line_add_sales_invoice.png[1440 x 900]
 
 ==== Search Item Tab
 
-Select the chosen item to fill in the details
+Select the chosen item to fill in the details.
 
 image::search_item_sales_invoice.png[1440 x 900]
 
-==== Delivery Order Item
+==== Delivery Order Item Tab
 
-Select the chosen item to fill in the details
+Select the chosen item to fill in the details.
 
 image::delivery_order_item.png[1440 x 900]
 
-=== Settlement tab
+=== Settlement Tab
 
 Transaction in which the sales order is fully or partially settled. 
 
-Click on the '+' button to Add a New Settlement
+Click on the '+' button to Add a New Settlement.
 
 image::settlement_tab_sales_invoice.png[1440 x 900]
 
-Select the Settlement method
+Select the Settlement method.
 
 image::sales_invoice_selevt_settlement_method.png[1440 x 900]
 
@@ -186,8 +188,7 @@ Click the 'Add' button to record the settlement against the sales order:
 
 Once added, a new row will be created under the Settlement tab and the Total and Outstanding amounts will be updated accordingly. User may click on the Save button to record the changes.
 
-
-=== KO For tab
+=== KO For Tab
 
 On Knocking off at the header level, we copy most of the gen doc details and line items and create a sales invoice.
 
@@ -203,15 +204,15 @@ image::knock_off_button.png[1440 x 900]
 
 Linking the sales invoice to the following departments is optional and helps in reports:
 
-Segment: Segmentation at the item or hdr level
+Segment: Segmentation at the item or hdr level.
 
-Dimension: Selecting dimension at the item or hdr level
+Dimension: Selecting dimension at the item or hdr level.
 
-Profit center: Selecting profit center at the item or hdr level
+Profit center: Selecting profit center at the item or hdr level.
 
-Project: Selecting project at the item or hdr level
+Project: Selecting project at the item or hdr level.
 
-image::sales_invoice_department_hdr_tab.png1440 x 900]
+image::sales_invoice_department_hdr_tab.png[1440 x 900]
 
 === Posting Tab
 
@@ -245,7 +246,7 @@ Main details tab is used to edit:
 
 image::sale_invoice_main_tab_edit.png[1440 x 900]
 
-=== Sales Invoice Edit - Account Tab
+=== Account Tab
 
 As the user is creating a contract between  organization and a Customer for the supply of specified goods and/or services, a link is configured here between the sales order and the customer.
 
@@ -261,15 +262,15 @@ All relevant information from the Customer master record will be copied from her
 
 image::account_entity_details_invoice.png[1440 x 900]
 
- Click on the Entity ID and  Seach Customers from the list. 
+Click on the Entity ID and Search Customers from the list. 
 
 image::entity_id_select_customer.png[1440 x 900]
 
-Upon selecting the customer, master record details will be auto-filled. As shown in the screen below
+Upon selecting the customer, master record details will be auto-filled. As shown in the screen below.
 
 image::autofill_record.png[1440 x 900]
 
- User can create and edit the Customer
+User can create and edit the Customer.
 
 image::edit_and_create_customer.png[1440 x 900]
 
@@ -293,7 +294,7 @@ Based on the entity selected, the bill to details gets auto-filled and are edita
 
 image::sales_invoice_bill_to.png[1440 x 900]
 
-Click on the billing address
+Click on the billing address.
 
 image::invoice_billing_address.png[1440 x 900]
 
@@ -311,7 +312,7 @@ Based on the entity selected, the bill to details gets auto-filled and are edita
 
 image::invoice_ship_to.png[1440 x 900]
 
-Click on the shipping address
+Click on the shipping address.
 
 image::invoice_click_address.png[1440 x 900]
 
@@ -319,9 +320,9 @@ Upon selecting the address, the shipping address details get auto-filled and are
 
 image::sales_invoice_address.png[1440 x 900]
 
-=== Sales Invoice Edit - Lines Tab
+=== Lines Tab
 
-Lines tab is used to select the line to be knocked off. This is for knocking off at the line level
+Lines tab is used to select the line to be knocked off. This is for knocking off at the line level.
 
 image::line_tab_sales_invoice.png[1440 x 900]
 
@@ -341,9 +342,9 @@ image::line_add_sales_invoice.png[1440 x 900]
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
 // image::delivery_tab.png[1440 x 900]
-** Require Delivery : choose from dropdown list: yes or no
+** Require Delivery : choose from dropdown list: yes or no.
 ** Delivery status 
-** Delivery Region Code: In order to apply different shipping rules and costs to different geographic locations
+** Delivery Region Code: In order to apply different shipping rules and costs to different geographic locations.
 ** Delivery Logic: The mechanism of physical settlement, penalties for delivery default, and timelines for submitting delivery intents are all defined by delivery logic. 
 ** Delivery ID: A unique identifier for delivery.
 ** Planned Delivery Date: It's the date when you are supposed to deliver things based on the order.
@@ -353,8 +354,7 @@ The requested delivery information for the Products specified in the document, i
 ** Delivery PIC Contact: It’s contact of the delivery person in charge.
 ** Delivery Remarks: Additional notes/remarks for delivery.
 
-
-=== Sales Invoice - Delivery Trips tab
+=== Delivery Trips Tab
 
 Delivery trips report for the particular sales invoice is displayed here.    
 
@@ -368,7 +368,7 @@ Delivery trips report for the particular sales invoice is displayed here.
 ** Delivery Status: If the delivery item was successfully delivered to the addressee.
 ** Recipient Name: The person’s name that receives.
 
-=== Sales Invoice - Settlement tab
+=== Settlement Tab
 
 Transaction in which the sales order is fully or partially settled. 
 
@@ -404,19 +404,19 @@ image::sales_invoice_department_hdr_tab.png[1440 x 900]
 
 image::posting_tab_sales_invoice.png[1440 x 900]
 
-=== Contra tab
+=== Contra Tab
 
 In order to create Contra, users need to click "+" button, it will open the second page where you select the document to add Contra amount.
 
 image::sales_invoice_contra_tab.png[1440 x 900]
 
-=== Doc Link tab
+=== Doc Link Tab
 
 Doc Link is used to show either the selected line item have link with other Gen doc Line Item
 
 image::sales_invoice_doc_link.png[1440 x 900]
 
-=== Export tab
+=== Export Tab
 
 image::sales_invoice_edit_export.png[1440 x 900]
 
@@ -428,7 +428,7 @@ image::edit_sales_order_export_tab.png[1440 x 900]
 
 Upon exporting the documents, the system will show a success message, and users will be able to view the file that has been downloaded to their device.
 
-=== Attachments tab
+=== Attachments Tab
 
 The “Attachments” tab allows users to upload relevant attachments that are linked to the event created. Press on the “+” sign to upload new attachments.
 

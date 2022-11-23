@@ -1,10 +1,9 @@
 [#h3_internal_sales_order_applet_ecomsync_dashboard]
-=  Menu 04 - Ecomsync Dashboard
-
+= Menu 04 - Ecomsync Dashboard
 
 Ecomsync Dashboard is used track of Lazada and Shopee orders. This menu has two tabs:
  
-image:ecomsync_dashboard_menu.png[1440 x 900]
+image::ecomsync_dashboard_menu.png[1440 x 900]
  
 ** Lazada Dashboard 
 ** Shopee Dashboard
@@ -12,6 +11,7 @@ image:ecomsync_dashboard_menu.png[1440 x 900]
 == Lazada Dashboard
 
 This menu has tree tabs:
+
 ** Dashboard Main
 ** Dashboard Total Orders
 ** Dashboard Total Sales
@@ -20,20 +20,21 @@ This menu has tree tabs:
 
 This tab is used to check the Total Sales, Daily Sales, Total Sales by Store, Total Orders and Total Cancel Orders.
 
-image:dashboard_main_lazada.png[1440 x 900]
+image::dashboard_main_lazada.png[1440 x 900]
 
 Users Choose filters day the want to check from dropdown list:
+
 ** Custom Date
 ** 7 days
 ** 30 Days
 
-image:filter_day.png[1440 x 900]
+image::filter_day.png[1440 x 900]
 
 === Dashboard Total Orders Tab
 
 Users are able to track the Total orders and Canceled Orders in Dashboard Total Orders Tab
 
-image:dashboard_total_orders_lazada.png[1440 x 900]
+image::dashboard_total_orders_lazada.png[1440 x 900]
 
 === Dashboard Total Sales Tab
 
@@ -43,12 +44,12 @@ Dashboard Total Sales Tab includes three tabs as follows:
 ** Daily Sales
 ** Total Sales By Store
 
-image:dashboard_total_sales_lazada.png[1440 x 900]
+image::dashboard_total_sales_lazada.png[1440 x 900]
 
 == Shopee Dashboard
 
-
 This menu has tree tabs:
+
 ** Dashboard Main
 ** Dashboard Total Orders
 ** Dashboard Total Sales
@@ -57,20 +58,21 @@ This menu has tree tabs:
 
 This tab is used to check the Total Sales, Daily Sales, Total Sales by Store, Total Orders and Total Cancel Orders all in one dashboard.
 
-image:shopee_dashboard_main.png[1440 x 900]
+image::shopee_dashboard_main.png[1440 x 900]
 
 Users Choose filters day the want to check from dropdown list:
+
 ** Custom Date
 ** 7 days
 ** 30 Days
 
-image:shopee_total_orders.png[1440 x 900]
+image::shopee_total_orders.png[1440 x 900]
 
 === Dashboard Total Orders Tab
 
 Users are able to track the Total orders and Canceled Orders in Dashboard Total Orders Tab
 
-image:total_orders_canceled_orders.png[1440 x 900]
+image::total_orders_canceled_orders.png[1440 x 900]
 
 === Dashboard Total Sales Tab
 
@@ -80,4 +82,4 @@ Dashboard Total Sales Tab includes three tabs as follows:
 ** Daily Sales
 ** Total Sales By Store
 
-image:total_sales_shopee.png[1440 x 900]
+image::total_sales_shopee.png[1440 x 900]
