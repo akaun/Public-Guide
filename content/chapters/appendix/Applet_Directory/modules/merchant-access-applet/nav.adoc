@@ -1,4 +1,4 @@
-* Named-Applet 
+* Merchant Access Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:merchant.adoc[Merchant]
 ** xref:report.adoc[Report]
