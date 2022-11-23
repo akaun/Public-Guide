@@ -37,4 +37,5 @@ nav:
 - modules/internal-sales-order-applet/nav.adoc
 - modules/internal-sales-invoice-applet/nav.adoc
 - modules/internal-sales-quotation-applet/nav.adoc
+- modules/internal-purchase-invoice-applet/nav.adoc
 - modules/scheduler-applet/nav.adoc
