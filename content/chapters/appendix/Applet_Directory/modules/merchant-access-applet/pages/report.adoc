@@ -2,12 +2,12 @@
 =  2. Report
 
 .Report - Report Listing
-image::CreateScheduler-CronExpression.png[align="center"]
+image::Report-Report_Listing.png[align="center"]
 
 Please click on any report listing to view further details.
 
-.Report - Report Listing
-image::CreateScheduler-CronExpression.png[align="center"]
+.Report - Report View
+image::Report-Report_View.png[align="center"]
 
 The following information is available for viewing:
 

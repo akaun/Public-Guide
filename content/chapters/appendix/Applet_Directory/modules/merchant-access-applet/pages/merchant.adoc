@@ -2,17 +2,17 @@
 =  1. Merchant
 
 .Merchant – Merchant Access Listing
-image::CreateScheduler-CronExpression.png[align="center"]
+image::Merchant-Merchant_Access_Listing.png[align="center"]
 
 Please click on a particular merchant available in the listing for further details.
 
 .Merchant – Payment Providers
-image::CreateScheduler-CronExpression.png[align="center"]
+image::Merchant-Payment_Providers.png[align="center"]
 
 A list of payment providers will be displayed. This includes a view on the payment provider code, payment provider name, offer and action. The offer column shows a status depending on the status of the payment gateway in the merchant’s rate card. The action column contains a toggle button, which has an active toggle state when the application status for the payment provider is activated and vice versa, an inactive toggle state when the application status is deactivated.
 
 .Merchant - Merchant E-Annex
-image::CreateScheduler-CronExpression.png[align="center"]
+image::Merchant-Merchant_E_Annex.png[align="center"]
 
 The merchant e-annex shows further details for a payment provider. This includes:
 
