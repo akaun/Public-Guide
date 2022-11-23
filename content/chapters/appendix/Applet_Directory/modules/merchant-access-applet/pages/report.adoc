@@ -1,0 +1,21 @@
+[#h3_merchant_access_applet_report]
+=  2. Report
+
+.Report - Report Listing
+image::CreateScheduler-CronExpression.png[align="center"]
+
+Please click on any report listing to view further details.
+
+.Report - Report Listing
+image::CreateScheduler-CronExpression.png[align="center"]
+
+The following information is available for viewing:
+
+* UNIPIN Charge Name 1
+* UNIPIN Charge 1
+* UNIPIN Charge Name 2
+* UNIPIN Charge 2
+* UNIPIN Charge Name 3
+* UNIPIN Charge 3
+* UNIPIN Charge Name 4
+* UNIPIN Charge 4

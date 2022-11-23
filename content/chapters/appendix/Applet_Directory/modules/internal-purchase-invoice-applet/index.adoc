@@ -3,7 +3,7 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
+// include::pages/modules.adoc[leveloffset=3]
 
 include::pages/create_internal_purchase_invoice.adoc[leveloffset=3]
 
@@ -13,19 +13,19 @@ include::pages/line_item.adoc[leveloffset=3]
 
 include::pages/file_import.adoc[leveloffset=3]
 
-include::pages/menu_02_line_items.adoc[leveloffset=3]
+// include::pages/menu_02_line_items.adoc[leveloffset=3]
 
-include::pages/permission_settings.adoc[leveloffset=3]
+// include::pages/permission_settings.adoc[leveloffset=3]
 
-include::pages/personalization_settings.adoc[leveloffset=3]
+// include::pages/personalization_settings.adoc[leveloffset=3]
 
-include::pages/related_applets.adoc[leveloffset=3]
+// include::pages/related_applets.adoc[leveloffset=3]
 
-include::pages/pricing.adoc[leveloffset=3]
+// include::pages/pricing.adoc[leveloffset=3]
 
-include::pages/release_note.adoc[leveloffset=3]
+// include::pages/release_note.adoc[leveloffset=3]
 
-include::pages/roadmap.adoc[leveloffset=3]
+// include::pages/roadmap.adoc[leveloffset=3]
 
 
 
