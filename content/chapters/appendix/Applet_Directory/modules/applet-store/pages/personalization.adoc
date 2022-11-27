@@ -1,0 +1,41 @@
+[#h3_applet_store_personalization]
+= 7.0 Personalization
+
+.Personalization Page
+image::43-PersonlizationPage.png[align="center"]
+
+Next, users can navigate to the “Personalization” tab which is located at the bottom left of every opened applet as shown in the screenshot above to customize their applet settings in order to enhance the user experience. The personalization page will show the profile picture, username and email address of the users.
+
+== 7.1 System Configuration
+
+* *Field Settings*:  Development In Progress.
+
+* *Default Selection*:
+
+.Personalization - Default Selection Tab
+image::44-Personlization-DefaultSelectionTab.png[align="center"]
+
+Under the Default Selection tab, users can set their default branch and default location information. By doing that, the applet can determine the branch and location where the users are allocated to.
+
+== 7.2 Themes and Colors
+
+* *Preset Themes*: Development In Progress.
+
+* *Sidebar*:
+
+.Personalization - Sidebar and Report a Bug features
+image::45-Personlization-SidebarAndReportBug.png[align="center"]
+
+Under the Sidebar tab, users can customize their desired background color for the logo and sidebar of that particular applet. Users can save the color settings by clicking on the *“SAVE”* button.
+
+== 7.3 Accessibility
+
+* *Color Assist*: Development In Progress.
+
+* *Easy Navigation*: Development In Progress.
+
+== 7.4 Report a Bug
+
+Most importantly, users can click on the blue *“Report a Bug”* button in order to raise an issue whenever they encounter a problem while using the applet. 
+
+*Note*: The details of the Report a Bug feature are still under development.

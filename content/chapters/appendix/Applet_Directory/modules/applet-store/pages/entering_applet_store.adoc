@@ -1,0 +1,36 @@
+[#h3_applet_store_entering_applet_store]
+= 2.0 Entering the Applet Store
+
+== 2.1 Applet Store icon in the Akaun Platform
+
+.Akaun Platform - Applet Store Icon
+image::2-AkaunPlatform-AppletStoreIcon.png[align="center"]
+
+When users first register and log in to the akaun.com website, they will be directed to a page as shown in the screenshot above. Before installing any applet in the Applet Store, there is only one icon in the platform, which is the Applet Store icon. Then, users can proceed by clicking on the Applet Store to start browsing their desired applets. 
+
+Additionally, in the Akaun Platform page, a Search bar feature is implemented to enable the users to filter and search the installed applets in the Akaun Platform page. 
+
+== 2.2 Terms of Use of the Applets in the Applet Store
+
+.Akaun Platform - Marketplace Terms of Use
+image::3-AkaunPlatform-TermsOfUse.png[align="center"]
+
+After clicking on the Applet Store icon, a page will appear, listing the terms of use of the applets in the Applet Store. Some of the essential information that are shown in this page include:
+
+* Types of applets
+* Details of placing order for applets
+* Correct use of marketplace applets
+* Data collection, Data usage and Data sharing
+* Users’ responsibilities
+* Term and termination
+* Important disclaimers and limitations of liability
+* Third party applets and third party use of the applets
+* Dispute Resolution; Governing Law
+
+Users have to patiently peruse the terms of use of the applets in the Applet Store to understand the responsibilities of every party who accesses and uses the applets.
+
+.Akaun Platform - Accept or decline the terms and conditions.
+image::4-AkaunPlatform-AcceptDeclineTerms.png[align="center"]
+
+At the end of the page, users have to tick the square box as shown above to indicate that they have read all the terms and conditions for using the marketplace applets. Then, the *“Accept”* button will turn blue and users can click on the *“Accept”* button to indicate that they agree to the terms of use of the marketplace applets. By doing that, users can successfully enter the Applet Store and start installing their desired applets.
+

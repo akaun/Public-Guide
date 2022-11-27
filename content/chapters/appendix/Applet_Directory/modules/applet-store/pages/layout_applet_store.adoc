@@ -1,0 +1,17 @@
+[#h3_applet_store_layout_applet_store]
+= 3.0 Layout in Applet Store
+
+== 3.1 Desktop Layout
+
+.Desktop Layout of Applet Store - Light Theme
+image::5-DesktopLayout-LightTheme.png[align="center"]
+
+The theme of the Applet Store in desktop layout is light theme by default.
+
+== 3.2 Mobile Layout
+
+.Mobile Layout of Applet Store - Dark Theme
+image::6-MobileLayout-DarkTheme.png[align="center"]
+
+The theme of the Applet Store in mobile layout is dark theme by default.
+
