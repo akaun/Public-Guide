@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The primary purpose of the Internal Shopping Cart applet is for the company to  manage the trading process with ease. In addition, this applet records all the transactions so that the user is able to view the details easily. 

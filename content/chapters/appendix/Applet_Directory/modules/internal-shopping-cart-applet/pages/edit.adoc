@@ -1,0 +1,105 @@
+[#h3_internal-shopping-cart-applet_edit]
+=  3.0 Edit
+
+After creation, the new shopping cart will be shown up on the main page. 
+
+Users can view and change the shopping cart details by clicking the shopping cart row on the list. 
+
+The edit page has the same four subpages as the create page.
+
+Main
+Fields:
+1. Branch
+2. Location
+3. Reference
+4. Transaction Date
+5. Credit Terms
+6. Credit Limit
+7. Sales Agent
+8. Currency
+9. Permit No
+10. CRM Contact
+11. Sales Lead
+12. MemberCard
+13. Tracking ID
+
+Account
+Entity: Personal details.
+Fields:
+1. Entity Id
+2. Entity Name
+3. Status
+4. Entity Type
+5. Identity Type
+6. ID Number
+7. Currency
+8. GL Code
+9. Description
+10. Email
+11. Phone Number
+
+Bill to: The address information of the purchaser.
+Fields:
+1. Name
+2. Email
+3. Phone No
+4. Billing Address (the field below Billing Address will automatically be filled in after the Billing Address has been selected)
+5. Address Line 1
+6. Address Line 2
+7. Address Line 3
+8. Address Line 4
+9. Address Line 5
+10. Country
+11. State
+12. City
+13. Postcode
+
+Ship to: The address information of the receiver. 
+Fields:
+1. Recipient Name
+2. Email
+3. Phone No
+4. Shipping Address (the field below Shipping Address will automatically be filled in after the Shipping Address has been selected)
+5. Address Line 1
+6. Address Line 2
+7. Address Line 3
+8. Address Line 4
+9. Address Line 5
+10. Country
+11. State
+12. City
+13. Postcode
+
+Line Items
+Fields:
+1. Item Code
+2. Item Name
+3. UOM
+4. Pricing Scheme
+5. Unit Price STD (Exclusive of tax)
+6. Unit Price STD (Inclusive of tax)
+7. Unit Discount
+8. Quantity Base
+9. Quantity by UOM
+10. UOM to Base Ratio
+11. Unit Price STD by UOM (Exclusive of tax)
+12. Unit Price STD by UOM (inclusive of tax)
+13. Unit Discount by UOM (Exclusive of tax)
+14. Unit Price Net by UOM (Exclusive of tax)
+15. Unit Price Transaction by UOM (Inclusive of tax)
+16.Unit Price Net (Exclusive of tax)
+17. STD Amount (Unit Price x Quantity)
+18. Discount Amount (Exclusive of tax)
+19. Amount Net (Exclusive of tax)
+20. SST Code
+21. SST/GST/VAT
+22. TAX Amount
+23. WHT Code
+24. WHT
+25. WHT Amount
+26. Unit Price Transaction 
+27. Tnx Amount
+28. Remarks
+
+Payment
+Fields: Based on different payment methods.

@@ -1,0 +1,4 @@
+[#h3_internal-shopping-cart-applet_final]
+=  4.0 Final
+
+After completing all purchase steps, the user needs to click the “Final” button. It will trigger the checking progress, and all the items and values will be checked. If all is correct, the user then can place the order. If there has an error, it will lead the user to the error place and highlight it. 
