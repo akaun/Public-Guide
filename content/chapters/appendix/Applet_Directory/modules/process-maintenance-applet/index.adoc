@@ -3,6 +3,12 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/process-template.adoc[leveloffset=3]
+
+include::pages/process-type.adoc[leveloffset=3]
+
+include::pages/machines.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]

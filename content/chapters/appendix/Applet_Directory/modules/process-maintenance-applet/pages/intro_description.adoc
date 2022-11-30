@@ -1,1 +1,2 @@
-This is a simple description of the applet, no more than 100 words.
+Process Maintenance Applet allows users to define and manage processes with defined input and output items and required machines. Then the system can use these processes to generate a job template required for producing a specified output.
+

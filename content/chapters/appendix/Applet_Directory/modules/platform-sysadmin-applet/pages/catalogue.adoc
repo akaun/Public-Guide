@@ -1,0 +1,120 @@
+[#h3_platform_sysadmin_applet_catalogue]
+= Catalogue
+
+Click on ‘+’ button to Create New Catalogue
+
+== Create New Catalogue
+
+Fill in catalogue’s details
+
+a. Catalogue Code: Allowed characters: Alphanumeric, hyphen (-) and underscore (_) 
+b. Catalogue Name: Mandatory
+c. Catalogue Type: Mandatory. Public catalogues can be accessed by anyone; Private catalogues can only be accessed by users d. who are added into the catalogue
+d. Applet Store: Mandatory. Which store to appear in. Currently there is only 1 store, the ‘Default Store’
+e. Description: Description of the catalogue
+f. Status: Mandatory.
+g. Subscription Name: Under development
+h. Subscription Type: Under development
+
+When all mandatory fields are filled with no errors, the ‘Create’ button will be enabled
+Click on it to ‘Create New Catalogue’
+
+== Edit Catalogue
+
+1. Click on row from Catalogue Main Menu to edit selected catalogue
+
+    a. The selected catalogue details will be displayed
+
+2. Edit catalogue’s details according to criteria
+
+    a. When fields are valid and changed, ‘Save’ button will be enabled
+
+3. Click on it to save catalogue details.
+
+    a. To delete a catalogue, click the ‘Delete’ button at the bottom of the page. 
+
+
+4. Click on ‘+’ button to Add Applet
+
+5. All available Applets will be listed for selection
+
+6. Click on a row to select an Applet
+
+7. Fill in applet’s details
+
+    a. Rank: Mandatory. Users who install this Applet will inherit this Rank. E.g, if Applet A has Rank Admin, all users who install this Applet will have the Admin rank when using this Applet
+
+    b. Tenant: Mandatory. 
+
+8. When all required fields are filled, ‘ADD’ button will be enabled
+
+    a. Click on it to ‘Add Applet To Catalogue’ with the desired Rank and Tenant. 
+
+9. Click on row from Edit Catalogue (Applet Tab) to edit selected applet.
+
+    a. The selected applet’s details will be displayed	
+
+10. Edit applet’s details according to criteria
+
+11. When fields are valid and changed, ‘Save’ button will be enabled
+
+    a. Click on it to save applet’s details 
+
+12. To remove the selected applet from the catalogue, click on the ‘Delete’ button on the bottom of the page. 
+
+13. Click on ‘+’ button to add plugins to the applet.
+
+14. Select plugins from the list
+
+15. When selection is done, ‘Add’ button should be enabled. Click on it to add the plugin to the applet.
+
+16. All Approved permissions for the selected applet in the catalogue will be displayed here. 
+
+17. All Requested permissions for the selected applet in the catalogue will be displayed here.
+
+18. To request a new permission, click on the ‘+’ button.
+
+19. Fill in Permission Template Request’s details
+
+a. Permission Code: Mandatory.
+
+b. Permission Name: Name of the Permission template request hdr
+
+c. Permission Type: In discussion with Vincent Lee
+
+d. Status: Status will automatically be set to ‘DRAFT’. Programmers will use the Developer SysAdmin Applet to approve the template requests.
+
+e. Description: Description of the permission request hdr.
+
+20. All users who have installed the applet will be displayed here.
+
+21. The table has multi-select enabled, multiple users can be chosen to have the selected applet uninstalled for them. 
+
+22. Once users have been selected, click on the ‘Uninstall’ at the bottom of the page to uninstall the selected Applet for them.
+
+23. Click on ‘+’ from Edit Applet (Installed By User) to install the selected applet for users.
+
+a. All users who are in the catalogue will be displayed
+
+24. Multi-select has been enabled, multiple users can be selected to install the applets for them
+
+25. When done, click on the ‘Add’ button to install the applet for the users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

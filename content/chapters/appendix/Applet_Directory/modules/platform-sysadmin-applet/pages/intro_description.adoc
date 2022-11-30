@@ -1,4 +1,6 @@
 
-This is the default applet that every user will get when they sign up to the Akaun Platform. Users can open this applet to install all other applets.
+The Platform SysAdmin Applet is used by Wavelet staff only. Only those with the ‘SysAdmin Permissions’ are allowed to make any changes in this applet.
+
+
 
 
