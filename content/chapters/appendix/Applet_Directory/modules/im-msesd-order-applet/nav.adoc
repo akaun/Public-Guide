@@ -1,4 +1,4 @@
-* Named-Applet 
+* IM MSESD Order Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:msesd-order.adoc[MSESD Order]
 ** xref:general-settings.adoc[General Settings]
