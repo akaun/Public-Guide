@@ -3,11 +3,15 @@
 
 == 2.1 Main Page
 
+image::main-listing-page.png[Main Listing Page, align = "center"]
+
 When we open the Internal Shopping cart list, the first page is shown to the user, which displays all shopping carts according to the shopping cart number.
 
 The user can click the “+” button to start creating a new shopping cart.
 
 == 2.1.1 Main Details
+
+image::main-details.png[Main Details, align = "center"]
 
 The user needs to fill in all columns with the “*” sign under both Main Details and Account to create a new internal shopping cart. All the values can be edited later. 
 
@@ -29,7 +33,9 @@ Fields:
 15. Tracking ID
 16. Remarks
 
-== 2.1.1 Account
+== 2.1.2 Account
+
+image::account.png[Account, align = "center"]
 
 There are three subpages under the Account. The user needs to fill up those three subpages to create a new shopping cart. All the values can be edited later. 
 
@@ -83,9 +89,15 @@ Fields:
 
 The Line Items page allows the user to connect the product to the shopping cart.
 
+image::line-items.png[Line Items, align = "center"]
+
 The user needs to click the “+” button to open the item selection page. 
 
+image::search-items.png[Search Items, align = "center"]
+
 All the items are displayed on the left listing page, and the user can open the detail page by clicking the listing row.
+
+image::item-details.png[Item Details, align = "center"]
 
 The user can view and change the product details on the detail page. After changing, please click the “ADD” button to link the current item to the shopping cart.   
 
@@ -123,7 +135,11 @@ Fields:
 
 The payment page provides a lot of payment methods to allow users to choose from. 
 
+image::payment.png[Payment, align = "center"]
+
 The user can click the “+” button to open a new Select Payment Method page.
+
+image::payment-methods.png[Payment Methods, align = "center"]
 
 After selecting the suitable payment method, please click the “ADD” button to save the change.  
 

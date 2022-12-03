@@ -1,6 +1,8 @@
 [#h3_internal-shopping-cart-applet_edit]
 =  3.0 Edit
 
+image::main-listing-page.png[Main Listing Page, align = "center"]
+
 After creation, the new shopping cart will be shown up on the main page. 
 
 Users can view and change the shopping cart details by clicking the shopping cart row on the list. 
