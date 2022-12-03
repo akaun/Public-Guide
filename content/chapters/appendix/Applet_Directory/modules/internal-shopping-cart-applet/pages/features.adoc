@@ -93,7 +93,7 @@ image::line-items.png[Line Items, align = "center"]
 
 The user needs to click the “+” button to open the item selection page. 
 
-image::search-items.png[Search Items, align = "center"]
+image::search-item.png[Search Items, align = "center"]
 
 All the items are displayed on the left listing page, and the user can open the detail page by clicking the listing row.
 
