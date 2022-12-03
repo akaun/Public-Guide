@@ -1,4 +1,4 @@
-[#h3_internal-shopping-cart-applet_edit_doc]
+[#h3_internal_shopping_cart_applet_edit_doc]
 =  3.0 Edit
 
 image::main-listing-page.png[Main Listing Page, align = "center"]

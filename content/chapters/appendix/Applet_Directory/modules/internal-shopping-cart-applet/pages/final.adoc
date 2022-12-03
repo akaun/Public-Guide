@@ -1,4 +1,4 @@
-[#h3_internal-shopping-cart-applet_final_doc]
+[#h3_internal_shopping_cart_applet_final_doc]
 =  4.0 Final
 
 image::final.png[Final, align = "center"]

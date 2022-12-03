@@ -1,4 +1,4 @@
-[#h2_internal-shopping-cart-applet_index]
+[#h2_internal_shopping_cart_applet_index]
 = Internal Shopping Cart Applet
 
 include::pages/introduction.adoc[leveloffset=3]
