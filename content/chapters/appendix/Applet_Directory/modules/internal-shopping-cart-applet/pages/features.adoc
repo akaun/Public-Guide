@@ -1,5 +1,5 @@
-[#h3_internal_shopping_cart_applet_features_1]
-=  2.0 Features
+[#h3_internal_shopping_cart_applet_features_]
+= 2.0 Features
 
 == 2.1 Main Page
 
