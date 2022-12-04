@@ -1,4 +1,4 @@
-[#h3_internal_shopping_cart_applet_introduction]
+[#h3_internal-shopping-cart-applet_introduction]
 = Introduction
 
 image::internal_shopping_cart_applet_logo.png[150,300]
