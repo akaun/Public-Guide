@@ -1,4 +1,4 @@
-[#h3_internal-shopping-cart-applet_final]
+[#h3_shopping-cart-applet_final]
 = Final
 
 image::final.png[Final, align = "center"]

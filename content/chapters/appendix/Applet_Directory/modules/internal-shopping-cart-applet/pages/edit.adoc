@@ -1,4 +1,4 @@
-[#h3_internal-shopping-cart-applet_edit]
+[#h3_shopping-cart-applet_edit]
 = Edit
 
 image::main-listing-page.png[Main Listing Page, align = "center"]

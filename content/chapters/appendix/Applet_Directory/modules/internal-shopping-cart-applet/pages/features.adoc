@@ -1,4 +1,4 @@
-[#h3_internal-shopping-cart-applet_features]
+[#h3_shopping-cart-applet_features]
 = Features
 
 == 2.1 Main Page
