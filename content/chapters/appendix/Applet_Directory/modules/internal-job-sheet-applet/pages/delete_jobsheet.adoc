@@ -1,0 +1,7 @@
+[#h3_internal-job-sheet-applet_delete]
+==  2.6 Deleting JobSheet/Line Items
+=== 2.6.1 Deleting Jobsheet
+
+image::InternalJobSheet-Delete-Final.png[Delete item, align = "center"]
+
+To delete a job/line item, the entry from the listing needs to be selected. Then a clicking on the “DELETE” button will prompt a second click to confirm the deletion as shown below. The selected item will be deleted upon the second click.

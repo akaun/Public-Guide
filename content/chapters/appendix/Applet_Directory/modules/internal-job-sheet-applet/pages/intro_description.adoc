@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Job Sheet Applet allows businesses to manage the work and sales assigned to them by a customer. Businesses can create, update and delete these jobs as they see fit. Furthermore, there is also the option to set a job as “Draft” if the agreement with the customer is not finalized and set to “Final” if an agreement is reached.

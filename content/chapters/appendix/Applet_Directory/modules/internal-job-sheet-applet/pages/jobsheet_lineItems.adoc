@@ -1,0 +1,6 @@
+[#h3_internal-job-sheet-applet_line_item_listing]
+==  2.4 Jobsheet Line Items
+
+=== 2.4.1 Line Item Listing
+image::InternalJobSheet-LineItems.png[Jobsheet Line Items, align = "center"]
+Users can view the listing of the jobsheet line items.
