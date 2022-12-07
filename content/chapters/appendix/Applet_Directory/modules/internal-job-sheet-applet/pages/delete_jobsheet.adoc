@@ -1,4 +1,4 @@
-[#h3_internal-job-sheet-applet_line_items]
+[#h3_internal-job-sheet-applet_delete]
 ==  2.6 Deleting JobSheet/Line Items
 === 2.6.1 Deleting Jobsheet
 
