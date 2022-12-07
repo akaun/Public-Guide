@@ -1,5 +1,11 @@
 * Internal Job Sheet Applet 
 ** xref:introduction.adoc[Introduction]
+** xref:jobsheet_listing.adoc[Jobsheet Listing]
+** xref:create_jobsheet.adoc[Creating Jobsheet]
+** xref:edit_jobsheet.adoc[Editing Jobsheet]
+** xref:jobsheet_lineitems.adoc[Jobsheet Line Items]
+** xref:edit_jobsheet_line_items.adoc[Edit Jobsheet Line Items]
+** xref:delete_jobsheet.adoc[Deleting Jobsheet and Line Items]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]
