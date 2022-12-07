@@ -1,2 +1,14 @@
 [#h3_internal-job-sheet-applet_line_items]
-=  Jobsheet Listing
+==  2.0 Features
+==  2.1 Jobsheet Listing
+
+The job sheet listing page outlines the details regarding the jobs received from the customer. The listing includes:
+
+* Job Sheet No
+* Posting Status which can be set to “Draft” if the job from the customer is not confirmed or “Final” if it is confirmed.
+* Transaction Date which is the date the job was initiated.
+* Branch of the customer
+* Customer Name
+* Updated Date
+* Created Date and
+* Created By representing the user of the business who has created the job.
