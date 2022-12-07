@@ -7,6 +7,8 @@ include::pages/jobsheet_listing.adoc[leveloffset=3]
 
 include::pages/create_jobsheet.adoc[leveloffset=3]
 
+include::pages/edit_jobsheet.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]
