@@ -1,10 +1,10 @@
 [#h3_internal-job-sheet-applet_line_items]
-==  2.2 Creating a Job Sheet
+==  2.2 Creating a Jobsheet
 
 === 2.2.1 The Add Button
 
 image::InternalJobSheetAddBtn.png[Create Button, align = "center"]
-First click on the "+" button to create a job sheet.
+First click on the "+" button to create a Jobsheet.
 
 
 === 2.2.2 Main Details Tab
@@ -96,7 +96,7 @@ Items with the “Item Details” and “Bin Number” are for items that exist 
 
 image::InternalJobSheet-Create-CreateBtn.png[Enabled Create Button, align = "center"]
 
-After the addition of the line item, the “CREATE” button should be enabled in the “Create Job Sheet” page.
+After the addition of the line item, the “CREATE” button should be enabled in the “Create Jobsheet” page.
 
 
 === 2.2.12 Updated Listing

@@ -1,14 +1,14 @@
 [#h3_internal-job-sheet-applet_line_items]
-==  2.3 Editing a Job Sheet
+==  2.3 Editing a Jobsheet
 
 === 2.3.1 Editing Draft Jobs
 image::InternalJobSheet-Edit-Draft.png[Editing drafts, align = "center"]
-Users can edit a job sheet as they see fit and click on the “SAVE” button once they are satisfied with the changes. For jobs in “DRAFT” status, the Location and Branch of the company can still be edited along with the other fields. The “Server Doc 1,2 and 3” fields are for the technical side and can be ignored.
+Users can edit a jobsheet as they see fit and click on the “SAVE” button once they are satisfied with the changes. For jobs in “DRAFT” status, the Location and Branch of the company can still be edited along with the other fields. The “Server Doc 1,2 and 3” fields are for the technical side and can be ignored.
 
 
 === 2.3.2 Editing Final Jobs
 image::InternalJobSheet-Edit-Final.png[Editing finalized jobs, align = "center"]
-Click on an existing job in the job sheet listing. For jobs in “FINAL” status, the Location and Branch of the company can no longer be edited. This is because the job has been finalized.
+Click on an existing job in the jobsheet listing. For jobs in “FINAL” status, the Location and Branch of the company can no longer be edited. This is because the job has been finalized.
 
 
 === 2.3.3 Reset Draft Job
