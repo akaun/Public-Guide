@@ -60,7 +60,7 @@ Items with the “Item Details” tab only have a custom unit of measurement suc
 
 === 2.2.6 Jobsheet Line Item Details
 
-image::InternalJobSheet-LineItem-ItemDetails.png[Jobsheet Item Details, align = "center"]
+image::InternalJobSheet-LineItems-ItemDetails.png[Jobsheet Item Details, align = "center"]
 
 Details of the jobsheet item are shownn under the "Item Details" tab.
 

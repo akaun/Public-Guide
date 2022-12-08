@@ -9,7 +9,7 @@ include::pages/create_jobsheet.adoc[leveloffset=3]
 
 include::pages/edit_jobsheet.adoc[leveloffset=3]
 
-include::pages/jobsheet_lineitems.adoc[leveloffset=3]
+include::pages/jobsheet_lineItems.adoc[leveloffset=3]
 
 include::pages/edit_jobsheet_line_items.adoc[leveloffset=3]
 
