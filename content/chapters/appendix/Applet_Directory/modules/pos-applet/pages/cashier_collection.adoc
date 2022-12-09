@@ -1,0 +1,6 @@
+[#h3_pos_applet_cashier_collection]
+= 2 Cashier Collection
+
+image::Cashier_Collection_Report.png[align="center"]
+
+The second feature of this POS applet is the Cashier Collection. This feature allows users to view the Cashier Collection Report by searching the code and name of the branch.

@@ -1,0 +1,59 @@
+[#h3_pos_applet_zreport]
+= 3 Z Report
+
+image::Z_Report.png[align="center"]
+
+The third feature of this POS applet is the Z Report. Users can select the Branch, Date and Device to search for the Z Report. Users can also Export the Z Report to PDF.
+
+image::Sample_Z_Report.png[align="center"]
+
+In the Z Report, users will be able to view the amount of Total, Gross Sales, Discount, Rounding, Total Net Sales, Total including TAX, TAX and Total excluding TAX. Aside from that, the total No.of Transactions, No. of Transactions (Discounted), Items Sold and Items Sold (Discounted) will be displayed.
+
+== 3.1 Settings
+=== 3.1.1 Settlement Settings
+====  3.1.1.1 Add New Settlement Method
+
+image::Settlement_Settings.png[align="center"]
+
+
+First, click on the Settings button on the bottom left. Next, click on the “Settlement Settings”. Upon clicking the “Settlement Settings”, there will be a list of branches displayed. Users can then select the Branch to add in a new Settlement method.
+
+image::Create_New_Settlement.png[align="center"]
+
+Upon selecting a branch, the “Edit Settlement Method” tab will appear and the current settlement methods will be displayed. To create a new Settlement method, users can click on the “Create” button.
+
+Process Flow For POS Applet
+
+*Step 1 - Chart of Account Applet* 
+-Create Chart of Account
+-Create GL Category
+-Create GL Code
+
+*Step 2  - Organization* 
+- Create Company
+- Create Location
+- Create Branch
+
+*Step 3 - Cashbook Applet* 
+- Create Cashbook
+- Create Settlement Method and add it into the cash book
+
+*Step 4 - Employee Maintenance Applet* 
+- Create Employee
+
+*Step 5  - Doc Item Maintenance Applet* 
+- Create Item
+- Create Item Group
+- Create Item Category
+- Create Pricing Scheme
+- Assign pricing scheme and item category to the item
+
+*Step 6  - Customer Maintenance Applet* 
+- Create Customer ( A standard customer code for walk in customer)
+
+*Step 7 - Team Maintenance Applet* 
+- To give permission to employee to access
+
+*Step 8 - POS Applet* 
+- To add settle method and branch in settings
+- To add hardware device (If Any)
