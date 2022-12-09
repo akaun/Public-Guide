@@ -35,11 +35,11 @@ image::CreateInternalReceiptVoucher-Account-EntityDetails.png[Entity Details, al
 
 === Address
 
-image::CreateInternalReceiptVoucher-Address.png[Address, align = "center"]
+image::CreateInternalReceiptVoucher-Account-Address.png[Address, align = "center"]
 
 === Contact Person
 
-image::CreateInternalReceiptVoucher-ContactPerson.png[Contact Person, align = "center"]
+image::CreateInternalReceiptVoucher-Account-ContactPerson.png[Contact Person, align = "center"]
 
 There are 3 tabs under Account Tab:
 
