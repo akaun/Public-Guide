@@ -1,5 +1,5 @@
 [#h3_pos_applet_cashbill]
-= 1. Cash Bill
+= 1 Cash Bill
 
 image::Cash_Bill_Listing.png[align="center"]
 

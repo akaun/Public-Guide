@@ -1,5 +1,5 @@
 [#h3_pos_applet_zreport]
-= 3. Z Report
+= 3 Z Report
 
 image::Z_Report.png[align="center"]
 

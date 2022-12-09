@@ -1,5 +1,5 @@
 [#h3_pos_applet_cashier_collection]
-= 2. Cashier Collection
+= 2 Cashier Collection
 
 image::Cashier_Collection_Report.png[align="center"]
 
