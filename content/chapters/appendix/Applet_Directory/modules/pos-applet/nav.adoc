@@ -1,4 +1,4 @@
-* POS
+* POS Applet
 ** xref:introduction.adoc[Introduction]
 ** xref:cashbill.adoc[Cash Bill]
 ** xref:cashier_collection.adoc[Cashier Collection]
