@@ -1,0 +1,92 @@
+[#h3_internal-job-sheet-applet_edit]
+==  2.3 Editing a Jobsheet
+
+=== 2.3.1 Editing Draft Jobs
+image::InternalJobSheet-Edit-Draft.png[Editing drafts, align = "center"]
+Users can edit a jobsheet as they see fit and click on the “SAVE” button once they are satisfied with the changes. For jobs in “DRAFT” status, the Location and Branch of the company can still be edited along with the other fields. The “Server Doc 1,2 and 3” fields are for the technical side and can be ignored.
+
+
+=== 2.3.2 Editing Final Jobs
+image::InternalJobSheet-Edit-Final.png[Editing finalized jobs, align = "center"]
+Click on an existing job in the jobsheet listing. For jobs in “FINAL” status, the Location and Branch of the company can no longer be edited. This is because the job has been finalized.
+
+
+=== 2.3.3 Reset Draft Job
+image::InternalJobSheet-Edit-Draft-Reset.png[Reset drafts, align = "center"]
+Clicking on the “RESET” button will remove all the data for the selected job that is in “DRAFT” status.
+
+
+=== 2.3.4 Reset Finalized Job
+image::InternalJobSheet-Edit-Final-Reset.png[Resetting finalized jobs, align = "center"]
+Clicking on the “RESET” button will NOT work on the selected job that is in “FINAL” status. This is because the job is already finalized.
+
+
+=== 2.3.5 Job Delivery Details
+image::InternalJobSheet-Edit-Draft-DeliveryDetails.png[Delivery details, align = "center"]
+Users can view the “Delivery Details” of the job while editing.
+
+
+=== 2.3.6 Contract Addition
+image::InternalJobSheet-Edit-Draft-Contra-1.png[Adding contracts, align = "center"]
+Users can add a “Contract” to the job while editing. To do this, the “+” button must be clicked.
+
+
+=== 2.3.7 Add Job Contract
+image::InternalJobSheet-Edit-Draft-Contra-2.png[Contract forms, align = "center"]
+Select a contract from the list and fill in the “Contra Amount” field. This will enable the “ADD” button in the top right corner.
+
+
+
+=== 2.3.8 Finalize Job
+
+* Click on “FINAL” to finalize the job. Subsequently users can click on “SAVE” to save the edited job as a draft.
+
+image::InternalJobSheet-Edit-FinalAndSaveBtn.png[Finalizing jobs, align = "center"]
+
+* Finalized jobs will have the “FINAL” posting status.
+
+image::InternalJobSheet-Edit-Finalised.png[Finalized job listing, align = "center"]
+
+
+=== 2.3.9 Finalize Job from Listing
+
+Users can use the listing page to finalize a job as well: 
+
+* First select a job from the listing. The selected job will be marked with a tick mark.
+
+* Next click on the “FINAL” button. This will finalize the job.
+
+image::InternalJobSheetListing-Finalised.png[Finalized job from the listing, align = "center"]
+
+* The changes will be reflected in the listing as shown below. 
+
+image::InternalJobSheetListing-Finalised-2.png[Finalized job shown in listing, align = "center"]
+
+
+=== 2.3.10 Linked Job Documents
+
+* During edit, users can select the “Doc Link” tab and view the “Copied From” documents.
+
+image::InternalJobSheet-Edit-DocLink-From.png[Copied From listing, align = "center"]
+
+* During edit, users can select the “Doc Link” tab and view the “Copied To” documents.
+
+image::InternalJobSheet-Edit-DocLink-To.png[Copied To listing, align = "center"]
+
+
+=== 2.3.11 Documents Attachments
+image::InternalJobSheet-Edit-UploadFiles.png[Documents attachment, align = "center"]
+Users can attach multiple documents while editing a job. The “ADD” button will be enabled when a document is attached. The “bin” icon in the attached documents is used to remove attached documents.
+
+
+=== 2.3.12 Export Invoice as PDF
+image::InternalJobSheet-Edit-DownloadPDF.png[Downloadable file, align = "center"]
+Users can use the “Export” tab to download the selected job as an invoice in pdf format.
+
+
+=== 2.3.13 Conversion to Internal Receipt Voucher
+image::InternalJobSheet-Edit-Convert.png[Conversion to internal receipt voucher, align = "center"]
+
+Lastly, editing also allows users to convert the selected job into an internal receipt voucher. After conversion, users need to click on the “SAVE” button.
+
+

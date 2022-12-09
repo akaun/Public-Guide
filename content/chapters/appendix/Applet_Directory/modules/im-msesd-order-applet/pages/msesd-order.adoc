@@ -1,0 +1,171 @@
+[#h3_im_msesd_order_applet_order]
+= IM MSESD Order 
+
+== MSESD Order Listing
+
+image::2-MSESD-Order-Listing-1.png[MSESD Order Listing, align = "center"]
+
+image::3-MSESD-Order-Listing-2.png[MSESD Order Listing, align = "center"]
+
+When the users enter the IM MSESD Applet, they will see the MS ESD Order Listing page as shown in the screenshots above. This page records the information of all the Microsoft Electronic Software Delivery orders. The information includes:
+
+1. Branch: The branch of a company which sells Microsoft products.
+
+2. Supplier: The distributor that is authorized by Microsoft to sell the Microsoft products.
+
+3. MS ESD Order No: The order number of the MS ESD order
+
+4. Reference No: The reference number of the MS ESD order
+
+5. Recipient Email: The email of the recipient. This column can be enabled or disabled in the Applet Settings of IM MSESD Applet.
+
+6. Contact No: The contact number of the recipient. This column can be enabled or disabled in the Applet Settings of IM MSESD Applet.
+
+7. Created Date: Date in which the order is created.
+
+8. Status: The status of the MS ESD order. The status can be “Draft”, “Created” or “Fulfilled”.
+
+9. Actions
+
+The Actions column enables users to perform certain operations on the orders. The default operations includes:
+
+1. Shopping Cart Icon: Create the MS ESD Order
+2. Opposite Arrows Icon: Link the details of the MSESD Order to EMP 
+3. Email Icon: Send an email to the relevant customers. This can be enabled or disabled in the Applet Settings.
+4. SMS (Messaging) Icon: Send a message to the relevant customers. This can be enabled or disabled in the Applet Settings.
+
+The details of these columns and actions will be explained in detail when we create the MS ESD order below.
+
+== Drafr A MSESD Order
+
+Firstly, users have to click on the “+” button in the MS ESD Order Listing page as shown in the screenshot below to begin the creation of a MS ESD order. After clicking on the “+” button, users will be directed to the Create MS ESD Order page. 
+
+image::4-CreateMSESD_Order-MainTab.png[Create MSESD Order Main Tab, align = "center"]
+
+=== Main Tab
+
+Under the Main tab, users have to provide the information of the company branch and supplier which they would like to purchase items from. The essential information of the branch and supplier are described below: 
+
+1. Branch: The branch of a company which sells or retails Microsoft products. This is a compulsory information that must be supplied by the users. The options of the Branch to be selected by users can be created and configured in the Organization Applet in the Applet Store. However, the configurations of the branch can be edited under the Applet Settings in the IM MSESD Applet.
+
+2. Supplier: The distributor that is authorized by Microsoft to sell the Microsoft products. This column will be auto-filled by the applet as “Ingram Micro” because it is the only distributor recognized by Microsoft.
+
+3. Reference No: A unique code that identifies every MSESD order. This is an optional column.
+
+4. Remarks: Special requests or comments provided by the users on the MSESD order. This is an optional column.
+
+Users can click on the “RESET” button to remove all the input information and refill the columns with new information.
+
+
+=== Line Items
+
+image::5-LineItemsTab-LoadTheItems.png[Load The Items, align = "center"]
+
+After providing the branch and supplier information in the Main tab, users can click on the Line Items tab to select the items they want to purchase from the selected branch. 
+
+Initially, no rows are shown in the Line Items tab. Users have to click on the “+” button to load the items that can be supplied by the supplier and branch selected by the users in the Main tab.
+
+image::6-LineItemsTab-ListOfLineItems.png[List of Line Items, align = "center"]
+
+After loading the items, users can see the list of line items that are sold by the particular branch. The attributes of the items are described as below: 
+
+1. Item Code: Unique code that identifies every item.
+2. Item Name: Name of the item.
+3. UOM: Unit of measurement. For instance, pieces (PCS).
+4. Unit Price: Price of a single item.
+
+Users can then proceed to click on the item that they would like to purchase.
+
+
+After clicking on the particular item, users will be directed to the Item Details page that shows the details of the item that the users want to buy. At the Item Details page, the Item Code, Item Name and Price information are auto-filled by the applet. Users are required to input the quantity of the items that they want to purchase in the Quantity column. 
+
+Optionally, users can comment on any special requirements on the selected product in the Remarks column. Then, users can click on the “ADD” button to purchase the particular product.
+
+After filling up the details, users proceed by clicking on the “SAVE” button to save all the product information. 
+
+image::8-DraftTheOrder.png[Draft The Order, align = "center"]
+
+Then, users will be directed back to the Main tab of the Create MS ESD Order page. The “DRAFT” button will turn blue.
+Users have to click on the “DRAFT” button to draft the order. 
+
+The drafted order will then appear in the MS ESD Order listing page.
+
+image::9-MSESD_OrderListingPage-DraftedOrder.png[Drafted Order, align = "center"]
+
+Then, the applet will generate a MS ESD order number for that particular order. It is a unique value which identifies the MS ESD order.
+
+The status of the order will be set as Draft.
+
+
+=== Fulfillment Details
+
+After drafting the MS ESD order, users have to provide the fulfillment details of that order. Users have to click on the particular MS ESD order record in the MS ESD Order Listing page. Then, they have to navigate to the Fulfillment Details tab of the page.
+
+image::10-FulfillmentDetailsTab1.png[Fulfillment Details Tab, align = "center"]
+
+image::11-FulfillmentDetailsTab2.png[Fulfillment Details Tab, align = "center"]
+
+Under the Fulfillment Details tab, users have to fill in the contact information and shipping details. The information that should be provided by the users are listed as below:
+
+1. Recipient General Information: Name, Email and Contact Number.
+2. Fulfillment Status: Condition if the order is fulfilled.
+3. Recipient Address Information: Address Lines (1, 2, 3), City, Postcode, States and Country.
+
+Then, users click on the “SAVE” button to save all the changes. 
+
+== Update or Delete a Drafted MSSED Order
+
+In order to update or delete a particular MS ESD order record, users have to click on that particular record shown in the MS ESD Order Listing page. By doing that, the MS ESD Order Details page will appear from the right.
+
+image::12-UpdateOrDelete-MSESD_Order.png[Update or Delete Order, align = "center"]
+
+The process flow of updating a MS ESD Order is similar to the process flow of creating the MS ESD order. Firstly, users can edit the information of the branch, reference no and remarks in the Main tab of the MS ESD Order Details page. 
+
+Then, users can proceed to update the item information in the Line Items tab of the MS ESD Order Details page. Most importantly, users have to click on the “SAVE” button to save all the updated changes.
+
+In order to delete a drafted MS ESD order, users have to click on the “DELETE” button to delete the order. Orders that are deleted will be removed from the MS ESD Order listing page.
+
+== Alter the Status of Order
+
+=== Create The Order
+
+image::13-Actions-CreateAnOrder.png[Create An Order, align = "center"]
+
+In order to create a MS ESD order, meaning changing the status of an order from “Draft” to “Created”, users have to click on the “Shopping Cart” icon under the Action column to trigger the API in order to create the order. By doing that, the applet will create and send a PO (Purchase Order) document to the relevant supplier to process the order.
+
+By doing that, the order is successfully created and the status of the order will change from “Draft” to “Created”.
+
+image::14-LineItemsTab-ProductKey.png[Product Key, align = "center"]
+
+After creating the order, every product in the order will be assigned a unique product key, also known as the serial number of the product. 
+
+Firstly, users have to click on the particular MS ESD order record in the MS ESD Order Listing page. Then, users have to navigate to the Line Items tab. Then, users click on the product record. By doing that, the product key of the selected product will be shown. From there, they can observe the product key for that item in that order.
+
+=== Fulfil The Order
+
+image::15-Actions-FulfillAnOrder.png[Fulfill An Order, align = "center"]
+
+After creating the order, users have to click on the “Opposite Arrow” icon under the Action column to fulfill the order. This action will cause the applet to sync the order details with the Wavelet EMP system. By doing that, the status of the order will be changed from “Created” to “Fulfilled”. 
+
+When the order is fulfilled, the order will be given a GRN number. Users can click on the particular order with the “Fulfilled” status in the MS ESD Order Listing page and then navigate to the Main tab of the MS ESD Order Details page. From there, they can observe the GRN number for that order which is not computed and shown previously.
+
+The order that is fulfilled cannot be deleted. 
+
+=== Send A Message
+
+image::17-Actions-SendSMS.png[Send SMS, align = "center"]
+
+Next, users can click on the SMS (Messaging) icon to send a message to the relevant customers who purchase the particular Microsoft product. The message body will be set by the senders.
+
+=== Send An Email
+
+image::18-Actions-SendEmail.png[Send Email, align = "center"]
+
+Next, users can click on the Email icon to send an email to the relevant customers who purchase the particular Microsoft product. The email body will be set by the senders.
+
+== Events Tab
+
+image::19-EventsTab.png[Events Tab, align "center"]
+
+Next, every order that is created or fulfilled will have the Events tab in the MS ESD Order Details page. This tab will log all the information and status of the order. For instance, it logs the events where an order is created, the order is sent to the distributor, the order is processed, the product key is received and many more.
+

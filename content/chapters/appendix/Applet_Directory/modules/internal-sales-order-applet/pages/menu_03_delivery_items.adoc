@@ -1,5 +1,6 @@
 [#h3_internal_sales_order_applet_delivery_items]
 =  Menu 03 - Delivery Items
+
 Delivery Items menu is used to track the items that are in delivery process. The module allows a full management of the delivery planning and organising till complete delivery of the items to the customer. 
 
 Below information is provided:
@@ -16,7 +17,7 @@ Below information is provided:
 * Order Quantity
 * Open Quantity
 * Amount Txn
-* Creatin Date
+* Creation Date
 * Requested Delivery Date
 * Delivery option
 * Marketplace Status
@@ -28,11 +29,11 @@ Below information is provided:
 * Delivery Status
 * Remarks
 
-image:delivery_items_menu.png[1440 x 900]
+image::delivery_items_menu.png[1440 x 900]
 
 
 == Edit Line Item 
 
 In order to edit delivery item, users need to click the item, which will lead to second page.
 
-image:deliver_item_edit.png[1440 x 900]
+image::deliver_item_edit.png[1440 x 900]

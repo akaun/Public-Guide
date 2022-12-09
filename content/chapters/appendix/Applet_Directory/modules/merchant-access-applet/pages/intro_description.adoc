@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet allows users to accept the available payment providers and view reports. There are two modules in the applet which includes: Merchant and Report.

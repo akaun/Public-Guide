@@ -1,0 +1,273 @@
+[#h3_internal_purchase_invoice_applet_supplier]
+= 2 Supplier
+
+== 2.1 Change Create/Edit Supplier Mode
+
+Please change to “Create/Edit Mode” to add a new supplier/edit supplier.
+
+image::SelectSupplier-1.png[align="center"]
+
+== 2.2 Create a new Supplier
+=== 2.2.1  Add Supplier
+
+Please click the '+' button to add a new supplier.
+
+image::SelectSupplier-2.png[align="center"]
+
+=== 2.2.2 Main Details Tab of Create Supplier
+
+Please fill up the compulsory (*) information for creating the supplier. After filling up the compulsory information, please click Create to add a new supplier. Compulsory Information:
+
+* Supplier Name
+* Status-Need to be Active
+* Type
+* ID Number
+* Currency
+* AR/AP Type
+
+image::SelectSupplier-CreateSupplier-Main.png[align="center"]
+
+=== 2.2.3 View Created Supplier
+
+After adding the Supplier, it will be listed in the supplier page. Please click on the Supplier to edit it.
+
+* Only the Supplier Name, Status, Type, ID Number, Company Tax Registration ID, Currency, Description, AR/AP Type, Phone Number and Email can be edited. After updating it, please click “Save”.
+
+* You can click on the “Remove” button to remove the Supplier from the Supplier Listing.
+
+image::SelectSupplier-SupplierEdit-Main-1.png[align="center"]
+image::SelectSupplier-SupplierEdit-Main-2.png[align="center"]
+image::SelectSupplier-SupplierEdit-Main-3.png[align="center"]
+
+== 2.3 Category Tab of Create Supplier
+=== 2.3.1 Add Category
+
+Please click the ‘+’ button to add categories.
+
+image::SelectSupplier-SupplierEdit-Category.png[align="center"]
+
+=== 2.3.2 Category Listing
+
+A list of categories will be displayed on the right side.
+
+* Click on the category row to be added.
+* After selecting the categories, please click on the ‘Add’ button to be added.
+
+image::SelectSupplier-SupplierEdit-Category-CategoryAdd.png[align="center"]
+
+=== 2.3.3 Edit Selected Category
+
+* Click on the selected category to be edited.
+* After selecting the category, can edit it.
+* Click Remove if want to remove the category.
+
+image::SelectSupplier-SupplierEdit-Category-CategoryEdit-Main.png[align="center"]
+
+== 2.4 Login Tab of Create Supplier
+=== 2.4.1 Add Login
+
+Please click the ‘+’ button to add login.
+
+image::SelectSupplier-SupplierEdit-Login.png[align="center"]
+
+=== 2.4.2 Create new Login
+
+* Please fill up the compulsory (*) information for creating the login. After filling up the compulsory information, please click Add to add a new login. Compulsory Information: 
+
+** User email
+** Rank
+** Status
+
+image::SelectSupplier-SupplierEdit-Login-LoginCreate-Main.png[align="center"]
+
+=== 2.4.3 Edit Login
+
+* Edit on the Rank and Status of the Login that selected from the list of Logins.
+
+* After making the changes, please click on the ‘Update’.
+
+* Click on the Remove to remove the Login.
+
+image::SelectSupplier-SupplierEdit-Login-LoginEdit-Main.png[align="center"]
+
+== 2.5 Payment Config Tab of Create Supplier
+=== 2.5.1 Add Payment Config
+
+Please click the ‘+’ button to add payment config.
+
+image::SelectSupplier-SupplierEdit-PaymentConfig.png[align="center"]
+
+=== 2.5.2 Create new Payment Config
+
+* Please fill up the compulsory (*) information for creating the payment config. After filling up the compulsory information, please click Add to add a new payment config. Compulsory Information: 
+
+** Payee Residential Status-Only have Resident or Non-Resident
+** Payment Type-Can Add Payment Type in Cashbook Applet
+** Country
+** Other fields are optional
+
+image::SelectSupplier-SupplierEdit-PaymentConfig-PaymentConfigCreate-Main.png[align="center"]
+
+=== 2.5.3 Edit Payment Config
+
+* Edit on every field of the Payment Config that was selected from the list of Payment Configs.
+* Compulsory field (Cannot be empty): 
+** Payee Residential Status
+** Payment Type
+** Country
+* After making the changes, please click on the ‘Update’.
+* Click on the Remove button to remove the payment config.
+
+image::SelectSupplier-SupplierEdit-PaymentConfig-PaymentConfigEdit-Main-1.png[align="center"]
+image::SelectSupplier-SupplierEdit-PaymentConfig-PaymentConfigEdit-Main-2.png[align="center"]
+
+== 2.6 Tax Tab of Create Supplier
+=== 2.6.1 Add Tax
+
+Please click the ‘+’ button to add tax.
+
+image::SelectSupplier-SupplierEdit-Tax.png[align="center"]
+
+=== 2.6.2 Create new Tax
+
+* Please fill up all the information for creating the tax. After filling up all the information, please click Add to add a new tax. Compulsory Information: 
+
+** Country
+** Tax Type-Show based on the Country selected.
+** Tax Code-Show based on the Tax Type selected.
+** Tax Rate-Auto show based on the Tax Code selected.
+** Tax Option-Have Include Tax and Exclude Tax Options.
+
+image::SelectSupplier-SupplierEdit-Tax-TaxCreate-Main.png[align="center"]
+
+=== 2.6.3 Edit Tax
+
+* Edit on every field of the Tax that was selected from the list of Taxes.
+* Click on the Remove button to remove the tax.
+
+image::SelectSupplier-SupplierEdit-Tax-TaxEdit-Main.png[align="center"]
+
+== 2.7 Address Tab of Create Supplier
+=== 2.7.1 Add Address
+
+Please click the ‘+’ button to add Address.
+
+image::SelectSupplier-SupplierEdit-Address.png[align="center"]
+
+=== 2.7.2 Create new Address
+
+* Please fill up the compulsory() information for creating the Address. After filling up the compulsory() information, please click Add to add a new Address. Compulsory Information: 
+
+** Address Name
+** Address Type
+** Address Line 1
+** Country
+** State
+** City
+** Postcode
+** Other Fields are optional
+
+* Tick on ‘Set as default’ for future default use.
+
+image::SelectSupplier-SupplierEdit-Address-AddressCreate-Main-1.png[align="center"]
+image::SelectSupplier-SupplierEdit-Address-AddressCreate-Main-2.png[align="center"]
+
+=== 2.7.3 Edit Address
+
+* Edit on every field of the Address that was selected from the list of Address.
+* After making the changes, please click on the ‘Update’.
+* Click on the Remove button to remove the Address.
+* Can click on “Set as default” for default address.
+
+image::SelectSupplier-SupplierEdit-Address-AddressEdit-Main-1.png[align="center"]
+image::SelectSupplier-SupplierEdit-Address-AddressEdit-Main-2.png[align="center"]
+
+== 2.8 Contact Tab of Create Supplier
+=== 2.8.1 Add Contact
+
+Please click the ‘+’ button to add Contact.
+
+image::SelectSupplier-SupplierEdit-Contact.png[align="center"]
+
+=== 2.8.2 Create new Contact
+* Please fill up the compulsory() information for creating the Contact. After filling up the compulsory() information, please click Add to add a new Contact. Compulsory Information: 
+
+** Contact Name
+** Contact ID
+** Designation/Position
+** Mobile No
+** Other Fields are optional
+
+image::SelectSupplier-SupplierEdit-Contact-ContactCreate-Main.png[align="center"]
+
+=== 2.8.3 Edit Contact
+
+* Edit on every field of the Contact that was selected from the list of Contacts.
+* After making the changes, please click on the ‘Update’.
+* Click on the Remove button to remove the Contact.
+
+image::SelectSupplier-SupplierEdit-Contact-ContactEdit-Main-1.png[align="center"]
+image::SelectSupplier-SupplierEdit-Contact-ContactEdit-Main-2.png[align="center"]
+
+== 2.9 Branch Tab of Create Supplier
+=== 2.9.1 Add Branch
+
+Please click the ‘+’ button to add Branch.
+
+image::SelectSupplier-SupplierEdit-Branch.png[align="center"]
+
+=== 2.9.2 Add new Branch
+
+* Please fill up the compulsory() information for adding the Branch. After filling up the compulsory() information, please click Add to add a new Branch. Compulsory Information: 
+
+** Branch Name
+** Branch Code
+** Other Fields are optional
+
+image::SelectSupplier-SupplierEdit-Branch-BranchCreate-Main.png[align="center"]
+
+=== 2.9.3 Edit Branch
+
+* Edit on every field of the Branch that was selected from the list of Branches.
+* After making the changes, please click on the ‘Update’.
+* Click on the Remove button to remove the Branch.
+
+image::SelectSupplier-SupplierEdit-Branch-BranchEdit-Main.png[align="center"]
+
+== 2.10 Company Linking Tab of Create Supplier
+=== 2.10.1 Add Company Linking
+
+Please click the ‘+’ button to add Company Linking.
+
+image::SelectSupplier-SupplierEdit-CompanyLinking.png[align="center"]
+
+
+=== 2.10.2 Add Company
+
+* Please tick the company row for adding the Branch. After selecting the companies, please click Add to add the Companies. 
+
+image::SelectSupplier-SupplierEdit-CompanyLinking-SelectCompany-Main.png[align="center"]
+
+=== 2.10.3 Edit Company Details
+
+* Edit on every field of the Company that was selected from the list of Companies.
+
+* After making the changes, please click on the ‘Update’.
+
+* Click on the Remove button to remove the Company.
+
+image::SelectSupplier-SupplierEdit-CompanyLinking-CompanyDetails-Main.png[align="center"]
+
+== 2.11 Item Pricing Tab of Create Supplier
+=== 2.11.1 List of Item Pricing
+
+* Show Item Code, Item Name, Supplier Item Code, Supplier Item Name.
+
+image::SelectSupplier-SupplierEdit-ItemPricing.png[align="center"]
+
+== 2.12 Remark Tab of Create Supplier
+=== 2.12.1 Remark Insert
+
+Fill in the Remark which is optional.
+
+image::SelectSupplier-SupplierEdit-Remark.png[align="center"]

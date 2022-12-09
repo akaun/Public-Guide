@@ -1,0 +1,106 @@
+[#h3_internal-job-sheet-applet_create]
+==  2.2 Creating a Jobsheet
+
+=== 2.2.1 The Add Button
+
+image::InternalJobSheetAddBtn.png[Create Button, align = "center"]
+First click on the "+" button to create a Jobsheet.
+
+
+=== 2.2.2 Main Details Tab
+Fill in the form in the “Main Details” tab. Please note that the following fields are compulsory to fill in:
+
+* Location
+* Branch
+* Sales Agent
+
+=== 2.2.3 Add Line Item
+image::InternalJobSheet-Create-AddLineItem-1.png[Add Line Item, align = "center"]
+
+Next click on the “Lines” tab and then click on the “+” button.
+
+
+=== 2.2.4 Line Item Listing
+
+* Next click on a line item from the list. Details about the item will be displayed under the “Main Details” tab under the “Item Details” tab as shown below. 
+
+image::InternalJobSheet-Create-AddLineItem-1.png[Line Item Listing, align = "center"]
+
+* The form under this tab will be filled with the details of the selected item. Users fill in the form for:
+
+** Item Name 
+** Unit of measure UOM 
+** Pricing Scheme 
+** Unit Price STD for both excluding and including tax 
+** Unit Discount 
+** Quantity Base and Quantity by UOM
+** UOM to Base Ratio  
+** Unit Price STD by UOM for both excluding and including tax 
+** Unit Discount by UOM, Unit Price Net by UOM 
+** Unit PriceTransaction by UOM  and Unit Price Net 
+** STD Amount 
+** Discount Amount 
+** Amount Net 
+** SST Code and SST/GST/VAT rate 
+** Tax Amount 
+** WHT Code, WHT and WHT Amount, 
+** Unit Price Transaction and Transaction Amount and 
+** Remarks
+
+
+* The line item can be of two types “Search Item” and “Jobsheet Item”. The line items under “Search Item” tab are searchable based on item serial number and includes items that have valid serial number. Line items under “Jobsheet Item” tab have all the items and are searchable by name.
+
+
+=== 2.2.5 Line Item Details
+
+image::InternalJobSheet-EditItem-ItemDetailsOnly.png[Item Details, align = "center"]
+
+Items with the “Item Details” tab only have a custom unit of measurement such as “pcs”, “boxes”.
+
+
+=== 2.2.6 Jobsheet Line Item Details
+
+image::InternalJobSheet-LineItems-ItemDetails.png[Jobsheet Item Details, align = "center"]
+
+Details of the jobsheet item are shownn under the "Item Details" tab.
+
+=== 2.2.7 Item Details and Serial Number Listing
+
+image::InternalJobSheet-SerialNumberListing.png[Serial Number Listing, align = "center"]
+
+Items with the “Item Details” and “Serial Number” tabs are for items each of which have a unique identifier. A list of added serial numbers can be viewed as shown below.  
+
+
+=== 2.2.8 Add Serial Number
+
+image::InternalJobSheet-SerialNumberScan.png[Add Serial Number, align = "center"]
+
+Users can fill in the form below to add a serial number to the selected item.
+
+
+=== 2.2.9 Scan Item
+
+image::InternalJobSheet-SerialNumberScanPic.png[Scan for Serial Number, align = "center"]
+
+Users can scan an item using their cameras which will be associated with the item and serial number. Clicking on the “ADD” button will add the item
+
+
+=== 2.2.10 Item Details and Bin Number
+
+image::InternalJobSheet-Create-AddLineItem-BinNumber.png[Item Details as per Bin Number, align = "center"]
+
+Items with the “Item Details” and “Bin Number” are for items that exist as part of a batch. Users can add a bin number alongside the item details. They need to click on the “Bin Number” tab, then on the “Bin Code” and select a code. Next fill in the Container Measure, Container Quantity and Quantity. Next click on the “ADD” button.
+
+
+=== 2.2.11 Enable Create Button
+
+image::InternalJobSheet-Create-CreateBtn.png[Enabled Create Button, align = "center"]
+
+After the addition of the line item, the “CREATE” button should be enabled in the “Create Jobsheet” page.
+
+
+=== 2.2.12 Updated Listing
+
+image::InternalJobSheet-NewJobSheetItem.png[New item shown in listing, align = "center"]
+
+Click the “CREATE” and the new job will be added to the listing as shown below. It is set to “DRAFT” posting status upon creation.

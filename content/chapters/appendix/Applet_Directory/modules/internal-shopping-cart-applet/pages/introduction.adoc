@@ -1,5 +1,5 @@
-[#h3_internal-shopping-cart-applet_introduction]
-=  Introduction
+[#h3_shopping-cart-applet_introduction]
+= Introduction
 
 image::internal_shopping_cart_applet_logo.png[150,300]
 

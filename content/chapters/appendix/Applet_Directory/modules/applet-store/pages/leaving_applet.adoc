@@ -1,0 +1,7 @@
+[#h3_applet_store_leaving_the_applet]
+= 8.0 Leaving the Applet Store
+
+.Leaving the Applet Store
+image::46-LeavingAppletStore.png[align="center"]
+
+Finally, users can leave the Applet Store by clicking on the *“akaun”* tab as indicated by the red square in the screenshot above. This feature performs a back function for users to leave the Applet Store from the Catalog page.

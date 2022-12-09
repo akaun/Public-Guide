@@ -1,0 +1,20 @@
+[#h3_process-maintenance-applet_process_type]
+= Process Type
+
+A Process Template consists of one Process Type. The Process Type Tab allows users to create, view, and edit these process types. The user can click on the “+” button to create a new process type.
+
+== 2.1 Main
+
+Users can fill in the main details in the Main tab. The required fields are the Process Type Name and Process Type Code.
+
+There are also 3 toggles that the user can switch on/off. Switching each of them on produces the following outcomes:
+“Active”: If toggled, users will not see this process type as a dropdown option when creating a process template.
+“Independent Process”: 
+“External Process”: 
+
+== 2.2 QC Checklist
+
+After a Process Type is created, users can add more information to the process type by editing it. The user can click on a process type row item to edit it.
+
+The QC Checklist tab allows users to upload files related to Quality Control of the process. The user can click on the “+” button to add a new QC Checklist.
+

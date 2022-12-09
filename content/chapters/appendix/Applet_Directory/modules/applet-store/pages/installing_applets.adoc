@@ -1,0 +1,57 @@
+[#h3_applet_store_installing_applets]
+= 5.0 Installing Applets
+
+== 5.1 Applet Installation Page
+
+.Applet Installation Page
+image::11-AppletInstallationPage.png[align="center"]
+
+When users click on an applet icon in the catalog page, users will be able to read the details of the applet as shown in the screenshot above. The basic information of the applet that are displayed in this page includes:
+
+* Name of the applet
+* Icon of the applet
+* Platform location where the applet is stored
+* Rank of the users in using the applet
+* Tenant Code of the applet
+* Compatibility of the applet to the users’ device
+* Average ratings of the applet
+* Number of users who rate the applet 
+
+In order to install the particular applet, users can click on the green *“Install”* button in the applet page to perform the installation.
+
+.Applet Installation Page - Applet Descriptions
+image::12-AppletInstallationPage-AppletDescriptions.png[align="center"]
+
+Apart from that, users can view the images and videos that illustrate the features and functionalities of the applet. They can also read the description of the applet from the applet page. By doing that, the users can understand the functions of the applet and the mechanism of using the applet.
+
+Additionally, they are able to know the type of the applet and the ranking of the applet in the Applet Store. For instance, the Stock Transfer applet shown in the screenshot above is labeled as the Business type applet. It is also ranked as the second top grossing applet, meaning the second top applet that generates the highest profit among all the available applets.
+
+.Applet Installation Page - Ratings and Reviews 
+image::13-AppletInstallationPage-RatingsAndReview.png[align="center"]
+
+Moreover, users are able to see the rating and reviews of each applet in the installation page of the respective applet. Firstly, the platform will calculate and generate the average user ratings of the applet besides showing the statistics of rating in the form of a horizontal bar chart. It also shows the total number of users who have given the rating.
+
+Next, users can also read the reviews of other users who comment on the applet. Additionally, users can also write their reviews under the reviews section and update their own reviews from time to time.
+
+*Notes:* The applet installation page is still under development.
+
+== 5.2 Open or Uninstall Applets
+
+.Applet Installation Page - Open or Uninstall the Applet
+image::14-AppletInstallationPage-OpenUninstallApplet.png[align="center"]
+
+After that, users can open the applet by clicking on the green *“Open”* button. 
+
+On the other hand, users can choose to uninstall the applet by clicking on the *“Uninstall”* button in the applet page.
+
+== 5.3 Access Installed Applets
+
+.My Applets Page - Installed Applets
+image::15-MyAppletsPage-InstalledApplets.png[align="center"]
+
+As mentioned previously, users can check their installed applets in the *“My Applets”* page in the Applet Store as shown in the screenshot above. This helps users to find and manage their installed applets easily. Additionally, applets that are successfully installed by the users will show a small green tick label at the bottom right of its layout as shown in the screenshot above.
+
+.Akaun Platform - Installed Applets
+image::16-AkaunPlatform-InstalledApplets.png[align="center"]
+
+Apart from that, users can directly access their installed applets when they log in to the akaun.com website as shown in the screenshot above. This helps the users to conveniently access their installed applets without entering the Applet Store.

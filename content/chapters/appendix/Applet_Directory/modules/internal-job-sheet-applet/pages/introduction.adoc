@@ -1,5 +1,5 @@
 [#h3_internal-job-sheet-applet_introduction]
-=  Introduction
+=  1.0 Introduction
 
 image::internal_job_sheet_applet_logo.png[150,300]
 

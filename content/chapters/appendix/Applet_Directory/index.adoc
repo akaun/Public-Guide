@@ -24,6 +24,10 @@ include::modules/employee-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/entity-maintenance-applet/index.adoc[leveloffset=2]
 
+include::modules/im-msesd-order-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-shopping-cart-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
 
 include::modules/inventory-item-maintenance-applet/index.adoc[leveloffset=2]
@@ -32,13 +36,13 @@ include::modules/media-library-applet/index.adoc[leveloffset=2]
 
 include::modules/merchant-admin-maintenance-applet/index.adoc[leveloffset=2]
 
-include::modules/msesd-applet/index.adoc[leveloffset=2]
-
 include::modules/organization-applet/index.adoc[leveloffset=2]
 
 include::modules/payment-channel-applet/index.adoc[leveloffset=2]
 
 include::modules/pos-gp-applet/index.adoc[leveloffset=2]
+
+include::modules/process-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/stock-take-v2-applet/index.adoc[leveloffset=2]
 
@@ -100,8 +104,6 @@ include::modules/internal-sales-proforma-invoice-applet/index.adoc[leveloffset=2
 
 include::modules/pricebook-applet/index.adoc[leveloffset=2]
 
-include::modules/internal-shopping-cart-applet/index.adoc[leveloffset=2]
-
 include::modules/stock-availability-applet/index.adoc[leveloffset=2]
 
 include::modules/stock-balance-applet/index.adoc[leveloffset=2]
@@ -149,8 +151,6 @@ include::modules/delivery-and-installation-applet/index.adoc[leveloffset=2]
 include::modules/tenant-applet/index.adoc[leveloffset=2]
 
 include::modules/staff-time-attendance-applet/index.adoc[leveloffset=2]
-
-include::modules/im-msesd-order-applet/index.adoc[leveloffset=2]
 
 include::modules/recurring-sales-invoice-applet/index.adoc[leveloffset=2]
 

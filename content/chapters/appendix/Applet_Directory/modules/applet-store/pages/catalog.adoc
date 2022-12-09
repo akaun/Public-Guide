@@ -1,0 +1,46 @@
+[#h3_applet_store_catalog]
+= 4.0 Catalog
+
+== 4.1 What is a catalog?
+
+Generally, a catalog in the Applet Store is a collection of applets that are suited for use by a tenant. Every tenant in the Akaun Platform requires different applets for their own operations. Thus, every tenant in the Akaun Platform will be given access to his own unique catalog of applets which are designed for his own use. 
+
+Next, the Applet Store consists of both public and private catalogs. The details of these catalogs are described below.
+
+== 4.2 Public Catalog
+
+.Public Catalog Page
+image::7-PublicCatalogPage.png[align="center"]
+
+When the users enter the Applet Store after accepting the terms of use of applets, they will be directed to the Public page that shows all the public catalogs with their associated applets.  Public catalogs are catalogs that can be accessed by all parties. These catalogs store applets that are commonly used by all parties to perform their operations.  
+
+For instance, the screenshot above shows that the MLM Admin applet is an applet under the Public Catalog.
+
+.Applet Information
+image::8-AppletInformation.png[align="center"]
+
+Additionally, every individual applet in the Applet Store has its own specific icon, name and average user ratings. 
+
+Next, every individual applet has its own tenant code. For example, staging_tenant. The tenant code identifies the tenant which the applet belongs to. This is because some applets are required by many different tenants. For instance, the Cashbook Applet is needed by many tenants in order to manage their cash book and settlement methods. However, every tenant needs their own version of the Cashbook Applet because they would like to store their own private data in the applet. Thus, we have Cashbook Applets with different tenant codes in which each tenant code identifies a specific tenant user. Every tenant user can only access the applet which is associated with his tenant code.
+
+Apart from that, every individual applet has its own rank. The rank type includes OWNER, ADMIN and MEMBER. This is because users with different ranks have different roles in managing and using the applets. For instance, users with the ADMIN and OWNER rank have the read and write access in assigning permissions to other users in using an applet whereas the users with MEMBER rank can only have read access to the permissions in an applet.
+
+== 4.3 Private Catalog
+
+.Private Catalog Page - Install All
+image::9-PrivateCatalogPage-InstallAll.png[align="center"]
+
+Next, when users click on the *“Private”* tab, they will be directed to the page that shows all the private catalogs as shown in the screenshot above. Private Catalogs are catalogs that can only be accessed by users who are given specific permission by the admin. 
+
+Basically, the admin of the Platform Sysadmin Applet can use this applet to assign permission for users to access their own catalog of applets in the Applet Store. As mentioned previously, different clients will gain access to their own catalogs in order to use the relevant applets to carry out their particular operations. Thus, the catalogs and applets shown in this page vary by users.
+
+Apart from that, a search bar is implemented in every catalog page for users to filter and search their desired applets easily. Users can search their desired applets by typing the name of the applets in the search bar. The search function will be executed automatically once the users start typing words on the bar. 
+
+Next, users can click on the *“Install All”* green button to install all the applets in the *“Private”* tab page at once. This can save their time from installing the applets individually.
+
+== 4.4 My Applets
+
+.My Applets Page
+image::10-MyAppletsPage.png[align="center"]
+
+Next, when users click on the *“My Applets”* tab, they will be directed to a page that shows all the applets they have installed. 

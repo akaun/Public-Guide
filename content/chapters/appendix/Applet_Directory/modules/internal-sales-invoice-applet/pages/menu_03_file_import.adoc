@@ -1,7 +1,6 @@
 [#h3-internal-sales-invoice-applet-file-import]
 =  Menu 03 - File Import
 
-
 Import Item Module is used to mass upload the products using CSV file. This function is especially useful for the user if they have a wide range of products. It could tremendously save time and absolutely accurate.
  
 image::line_items_file_import.png[1440 x 900]

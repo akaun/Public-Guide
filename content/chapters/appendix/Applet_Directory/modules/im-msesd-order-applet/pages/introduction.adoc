@@ -1,6 +1,6 @@
 [#h3_im_msesd_order_applet_introduction]
 =  Introduction
 
-image::im_msesd_order_applet_logo.png[150,300]
+image::logo.png[]
 
 include::intro_description.adoc[]

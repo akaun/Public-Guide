@@ -1,0 +1,101 @@
+[#h3_internal-job-sheet-applet_line_items_edit]
+==  2.5 Editing Jobsheet Line Items
+
+=== 2.5.1 Main Details
+image::InternalJobSheet-LineItem-Edit.png[Jobsheet Line Items, align = "center"]
+To edit a line item, select an item from the listing. Fill in the form under the “Main Details” tab of Item Details.
+
+
+=== 2.5.2 Delivery Instructions
+image::InternalJobSheet-LineItem-DeliveryInstruction.png[Jobsheet line item delivery instructions, align = "center"]
+Users can add delivery instructions along with a delivery message to a line item. Then click the “SAVE” button to save the changes.
+
+
+=== 2.5.3 Department Addition
+image::InternalJobSheet-LineItems-Department.png[Add a department, align = "center"]
+Users can add a department to the line item by filling the form under the “Department” tab. Then click the “SAVE” button to save the changes.
+
+
+
+=== 2.5.4 Linked Documentation
+
+*  Users can view Doc Links for the item, along with details as to where it was “copied from”. 
+
+image::InternalJobSheet-LineItems-DocLink.png[Linked documentation, align = "center"]
+
+
+* Users can view Doc Links for the item, along with details as to where it was “copied to”.
+
+image::InternalJobSheet-LineItems-DocLinkCopyTo.png[Linked documentation copy to, align = "center"]
+
+
+=== 2.5.5 Delivery Details
+image::InternalJobSheet-LineItems-DeliveryDetails.png[Delivery details, align = "center"]
+Users can view the details regarding the delivery of a line item under the “Delivery Details” tab.
+
+
+=== 2.5.6 Costing Details
+image::InternalJobSheet-LineItems-CostingDetails.png[Costing details, align = "center"]
+Users can view details of an item cost under the “Costing Details” tab.
+
+
+=== 2.5.7 Pricing Details Listing
+image::InternalJobSheet-LineItems-PricingDetailsListing.png[Pricing details, align = "center"]
+Users can view a list of pricing details for the selected “Line Item”. The listing can be updated based on the selected UOM.
+
+
+=== 2.5.8 Editing Pricing Details
+image::InternalJobSheet-LineItems-EditPricingBtn.png[Edit pricing details, align = "center"]
+Users can select a pricing detail and edit it. The “ADD” button needs to be clicked to save changes.
+
+
+=== 2.5.9 Item Issues
+image::InternalJobSheet-LineItems-IssueLink.png[Issues linked to jobsheet items, align = "center"]
+Users can view the list of issues associated with a line item.
+
+
+=== 2.5.10 Issue Details
+image::InternalJobSheet-LineItems-IssueLinkDetails.png[Linked issue details, align = "center"]
+Users can edit the details of the issue link by filling the form under the “Details” tab.
+
+
+=== 2.5.11 Issue Planning
+image::InternalJobSheet-LineItems-IssueLinkPlanning.png[Linked issue planning, align = "center"]
+Users can fill in the form under the “Planning” tab to plan out the issue link.
+
+
+=== 2.5.12 Issue Attachment
+image::InternalJobSheet-LineItems-IssueLinkAttachment.png[Attaching documents to issues, align = "center"]
+Users can add an attachment to the issue link.
+
+
+=== 2.5.13 Issue Comment
+image::InternalJobSheet-LineItems-IssueLinkComment.png[Commenting on issues, align = "center"]
+Users can view the comments associated with an issue link. They can click on the “+” button to add a comment to the line item.
+
+
+=== 2.5.14 Issue Subtasks
+image::InternalJobSheet-LineItems-IssueLinkSubtasks.png[Subtasks associated with issues, align = "center"]
+Users can view the subtasks associated with an issue link. They can click on the “+” button to add new subtasks to a line item.
+
+
+=== 2.5.15 Linked Issues
+image::InternalJobSheet-LineItems-IssueLinkLinkedIssues.png[External issues associated with issue, align = "center"]
+Users can view the linked issues associated with a given line item. Users can add linked issues by clicking on the “+” button.
+
+
+=== 2.5.16 Issue Worklog
+
+* Users can view the work log associated with a given line item. Users can add to their logs by clicking on the “+” button. 
+
+image::InternalJobSheet-LineItems-IssueLinkCreateWorklogs.png[Worklog on issues, align = "center"]
+
+
+* Users can fill in the form to log work. They need to select an activity type, date, duration and description. The log will be saved when they go back to the previous page by clicking on the Log Time button with the back symbol.
+
+image::InternalJobSheet-LineItems-IssueLinkWorklog.png[Key in working on issue, align = "center"]
+
+
+=== 2.5.17 Issue Activity
+image::InternalJobSheet-LineItems-IssueLinkActivity.png[Issue activity, align = "center"]
+Users can view the activity associated with a line item. When all the required edits have been made, users can click the “SAVE” button on the top right corner to save all the changes.
