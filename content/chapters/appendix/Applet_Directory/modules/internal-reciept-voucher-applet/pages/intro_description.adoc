@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+A Receipt Voucher (RV) is a proof of a monetary receipt issued by the company. It is also a form of money tracking mechanism. In some cases, it will be used as an alternative of printable receipts. 

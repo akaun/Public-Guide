@@ -1,0 +1,61 @@
+[#h3_internal_receipt_voucher_applet_view-internal-receipt-voucher]
+= View Internal Receipt Voucher
+
+image::ViewInternalReceiptVoucher.png[View, align = "center"]
+
+After creating the receipt voucher successfully, users will be redirected to view the Internal Receipt Voucher page and the latest receipt voucher will be on top of all the vouchers. There is a “FINAL” button that once it is clicked, the selected receipt vouchers will be added to the accounting system. To view or edit the receipt voucher, users can click on any of it in this page.
+
+image::ViewInternalReceiptVoucher-Buttons.png[Buttons, align = "center"]
+
+Upon making all the changes, users can click on the “SAVE” button in the top right corner to save all the changes.
+Every column in the view internal Receipt Voucher is the same as the create page, except there are extra tabs (Contra, Doc Link, Attachments, Export, Convert) that allows the users to add more information.
+
+== Contra
+
+image::ViewInternalReceiptVoucher-Contra.png[Contra, align = "center"]
+
+A Contra account is a negative account that is netted from the balance of another account on the balance sheet. On the “Contra” tab, lists of contra with details of Server Doc Type, Status, Date and Amount Contra will be listed down. Users can also click on the “+” button to add or select a different contra.
+
+=== Select Contra
+
+image::ViewInternalReceiptVoucher-Contra-SelectContra.png[Select Contra, align = "center"]
+
+After clicking on the “+” button to add a contra, users will be redirected to a different page with lists of contra where they can select among the existing contra.
+
+=== Add Contra
+
+image::ViewInternalReceiptVoucher-Contra-SelectContra-AddContra.png[Add Contra, align = "center"]
+
+After clicking on any of the contra, users are required to enter the contra amount, only after that users can click on the “ADD” button to add the contra.
+
+== Doc Link
+
+=== Copied From
+
+image::ViewInternalReceiptVoucher-DocLink-CopyFrom.png[Copy From, align = "center"]
+
+On the ‘Doc Link’ tab of “Copy From”, there will be lists of Doc Link with information of Doc No, Branch, Server Doc Type, Status and Date that allows users to select.
+
+=== Copied To
+
+image::ViewInternalReceiptVoucher-DocLink-CopyTo.png[Copy To, align = "center"]
+
+The same goes to the “Copy To” tab under the “Doc Link” tab. Users can select any of the existing Doc Link.
+
+== Export
+
+image::ViewInternalReceiptVoucher-Export.png[Export, align = "center"]
+
+On the “Export” tab of View Internal Receipt Voucher, users are able to export the selected internal receipt voucher by selecting the desired printable format. By clicking the ‘EXPORT AS PDF’ button, the receipt voucher will be successfully exported. 
+
+== Attachments
+
+image::ViewInternalReceiptVoucher-Attachments.png[Attachments, align = "center"]
+
+On the “Attachment” tab of View Internal Receipt Voucher, users are allowed to add an attachment from the existing list of attachments or click on the “+" button to add a new attachment.
+
+=== Add Attachments
+
+image::ViewInternalReceiptVoucher-Attachments-AddAttachment.png[Add Attachment, align = "center"]
+
+Users can select any of the attachments that they would like to add by clicking on the “Upload File(s)” button.
