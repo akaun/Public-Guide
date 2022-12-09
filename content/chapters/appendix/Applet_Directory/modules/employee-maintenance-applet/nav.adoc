@@ -1,5 +1,9 @@
 * Employee Maintenance Applet
 ** xref:introduction.adoc[Introduction]
+** xref:create-employee.adoc[Create Employee]
+** xref:view-edit-employee.adoc[View and Edit Employee]
+** xref:create-category.adoc[Create Category]
+** xref:view-edit-category.adoc[View and Edit Category]
 ** xref:modules.adoc[Modules]
 ** xref:related_applets.adoc[Related Applets]
 ** xref:roadmap.adoc[Roadmap]

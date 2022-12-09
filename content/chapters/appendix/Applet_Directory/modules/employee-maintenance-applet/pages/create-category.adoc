@@ -1,0 +1,30 @@
+[#h3_create_category]
+= Create Category
+
+== Category Listing
+
+image::Category_Listing.png[Category Listing, align = "center"]
+
+Next, we will look into the “Category” module. Upon clicking on the “Category” module, users will see the Category Listing showing all the categories of employees.
+
+== Create New Category
+
+To create a new Category, click on the ‘+’ button.
+
+image::Category_Create.png[Category Create, align = "center"]
+
+In Category Create, users can create different employee categories to group the employees. 
+
+When creating a Category, users will be prompted to fill up the following fields:
+
+1. Category Code (Compulsory)
+2. Category Name  (Compulsory)
+3. Description
+4. Parent category (Optional)
+
+Users can select a parent category for the current category to link it to a parent category. 
+For example, there can be a parent category called “Accountant”. Users can then create a “Senior Accountant” category and link it to the “Accountant” parent category.
+
+Each category has its own value level. This level value is based on the hierarchy of the category. If the category does not have a parent category, its level will be 1. Based on our example, the “Accountant” category will have level value of 1 whereas “Senior Accountant” will have a level value of 2.
+
+Upon filling up all the details for the category, users can click on the “Create” button to create the category.
