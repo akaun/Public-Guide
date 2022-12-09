@@ -44,3 +44,4 @@ nav:
 - modules/internal-sales-quotation-applet/nav.adoc
 - modules/internal-purchase-invoice-applet/nav.adoc
 - modules/scheduler-applet/nav.adoc
+- modules/pos-applet/nav.adoc
