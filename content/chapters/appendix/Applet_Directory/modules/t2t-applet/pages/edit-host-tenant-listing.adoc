@@ -1,0 +1,63 @@
+[#h3_t2t_applet_edit_host_tenant_listing]
+= 6.0 Edit Host Tenant Listing
+
+== 6.1 Main Details
+
+In order to edit the information of a host tenant, users have to click on the target host tenant record in the Host Tenant Listing page. 
+
+image::23-EditHostTenant-MainDetails.png[Main Details, align = "center"]
+
+By doing that, the Edit - Host Tenant page will appear from the right. Under the Main Details tab, it shows the name of the host tenant, code of the host tenant, status of the host tenant and approval of the host tenant.
+
+In the Main Details tab, users can only edit the status of the tenant host to “CONNECTED” or “DISCONNECTED”. They cannot change the name and code of the host tenant. They also cannot change the approval of the host tenant.
+
+== 6.2 Company Mapping
+
+=== 6.2.1 Company Mapping Listing
+
+image::24-EditHostTenant-CompanyMappingListing.png[Company Mapping Listing, align = "center"]
+
+The company mapping tab shows the information of the entities of the guest tenant that are mapped with the host tenant. The information includes:
+
+Guest Tenant Company Name: The name of the company of the guest tenant.
+Guest Tenant Branch Name: The name of the branch of the guest tenant.
+Entity Name: The name of the entity.
+Line Name: The subdivision of the company of the guest tenant.
+Status: The status of the entity mapping. It can be either ACTIVE or INACTIVE.
+
+=== 6.2.2 Create New Company Mapping
+
+This section is currently under maintenance.
+
+=== 6.2.3 Edit Entity Mapping
+
+image::25-EditHostTenant-EditEntityMapping.png[Edit Entity Mapping, align = "center"]
+
+In order to edit a company mapping, users have to first click on the particular company mapping record in the Company mapping tab. Then, the Edit - Entity Mapping page will appear from the right. Users can edit the name of the company and branch of the guest tenant. Then, users have to click on the “SAVE” button to save all the changes.
+
+=== 6.2.4 Remove Entity Mapping
+
+image::26-EditHostTenant-RemoveEntityMapping.png[Remove Entity Mapping, align = "center"]
+
+In order to delete an existing mapped entity, users have to select the particular mapped entity and click on the “DELETE” button to delete the entity.
+
+== 6.3 Permitted Items
+
+=== 6.3.1 Permitted Items Listing
+
+image::27-EditHostTenant-PermittedItemsListing.png[Permitted Items Listing, align = "center"]
+
+The Permitted Items tab shows the information of the items that are permitted to the host tenant. The tab shows the information of the items, which includes:
+
+1. Item Code: The code of the item.
+2. Item Name: The name of the item.
+3. Basic Type: The basic type of the item. For example, it is a basic item, group item, bundle item, coupon and others.
+4. Sub Item Type: the subtype of the item.
+
+=== 6.3.2 Edit Permitted Item
+
+image::28-EditHostTenant-RemovePermittedItem.png[Remove Permitted Item, align = "center"]
+
+Users cannot edit the information of a permitted item. 
+
+However, users can remove a permitted item from the host tenant. This is done by first clicking on the target item in the Permitted Items tab. Then, the Permitted Item Details page will appear from the right. Users can click on the “Remove” button to remove the item from the host tenant.

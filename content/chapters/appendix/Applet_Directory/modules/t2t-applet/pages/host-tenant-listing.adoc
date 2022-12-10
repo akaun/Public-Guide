@@ -1,0 +1,13 @@
+[#h3_t2t_applet_host_tenant_listing]
+= 5.0 Host Tenant Listing
+
+image::22-HostTenantListing.png[Host Tenant Listing, align = "center"]
+
+The host tenant listing page shows the information of the host tenant. The information includes:
+
+1. Host Tenant Name: The name of the host tenant.
+2. Host Tenant Code: The code of the host tenant.
+3. Mapping Date: The date in which the host tenant is mapped or connected with the guest tenant.
+4. Modified Date: The date in which the host tenant information is updated.
+5. Status: The status of the host tenant. The option is Connected or Disconnected
+

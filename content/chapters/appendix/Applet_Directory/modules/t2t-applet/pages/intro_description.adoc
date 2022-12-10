@@ -1,0 +1,3 @@
+The T2T Applet is designed to allow a tenant to sync, access or map information with another tenant. In other words, it enables the exchange of products, services and information between tenants. Typically, a T2T transaction is conducted between 2 companies such as the wholesalers and the online retailers. 
+
+In this applet, the tenant that sends the invitation is known as the host tenant whereas the tenant that accepts an invitation is known as the guest tenant. By connecting the tenants, the guest tenant can access the information of the entities in the host tenant.

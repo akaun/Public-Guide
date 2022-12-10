@@ -1,0 +1,10 @@
+* Named-Applet 
+** xref:introduction.adoc[Introduction]
+** xref:guest-tenant-listing.adoc[Guest Tenant Listing]
+** xref:create-new-guest-tenant.adoc[Create New Guest Tenant]
+** xref:edit-guest-tenants.adoc[Edit Guest Tenants]
+** xref:host-tenant-listing.adoc[Host Tenant Listing]
+** xref:edit-host-tenant-listing.adoc[Edit Host Tenant Listing]
+** xref:guest-team-listing.adoc[Guest Team Listing]
+** xref:audit-trail-listing.adoc[Audit Trail Listing]
+

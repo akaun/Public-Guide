@@ -1,0 +1,27 @@
+[#h2_t2t_applet_index]
+= T2T Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/guest-tenant-listing.adoc[leveloffset=3]
+
+include::pages/create-new-guest-tenant.adoc[leveloffset=3]
+
+include::pages/edit-guest-tenants.adoc[leveloffset=3]
+
+include::pages/host-tenant-listing.adoc[leveloffset=3]
+
+include::pages/edit-host-tenant-listing.adoc[leveloffset=3]
+
+include::pages/guest-team-listing.adoc[leveloffset=3]
+
+include::pages/audit-trail-listing.adoc[leveloffset=3]
+
+
+
+
+
+
+
+
+

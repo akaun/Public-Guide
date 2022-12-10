@@ -1,0 +1,13 @@
+[#h3_t2t_applet_guest_tenant_listing]
+= 2.0 Guest Tenant Listing
+
+image::1-GuestTenantListing.png[Guest Tenant Listing, align = "center"]
+
+When the users enter the T2T Admin Applet, they will be directed to the Guest Tenant Listing page as shown in the screenshot above. This page lists all the information of the guest tenants. The information includes:
+
+1. Guest Tenant Name: The name of the guest tenant. 
+2. Guest Tenant Code: The code of the guest tenant. This value is unique for each guest tenant.
+3. Mapping Date: The date in which the tenants are connected.
+4. Modified Date: The date in which the data of the guest tenant is modified.
+5. Status: The status of the tenants’ connection. The options include Live, Disconnected, Suspended and Deleted.
+

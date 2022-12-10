@@ -32,6 +32,7 @@ nav:
 - modules/sales-commission-applet/nav.adoc
 - modules/stock-take-v2-applet/nav.adoc
 - modules/supplier-maintenance-applet/nav.adoc
+- modules/t2t-applet/nav.adoc
 - modules/tax-configuration-applet/nav.adoc
 - modules/ucc-applet/nav.adoc
 - modules/url-shortening-applet/nav.adoc

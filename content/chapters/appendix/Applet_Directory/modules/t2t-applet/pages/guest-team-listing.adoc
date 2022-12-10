@@ -1,0 +1,10 @@
+[#h3_t2t_applet_guest_team_listing]
+= 7.0 Guest Team Listing
+
+image::29-GuestTeamsListing.png[Guest Teams Listing, align = "center"]
+
+The Guest Team Listing page shows the information of the guest teams. The information includes:
+
+1. Guest team name: The name of the team.
+2. Number of users: The number of users in the team.
+3. Status: The status of the team.

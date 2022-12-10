@@ -1,0 +1,11 @@
+[#h3_t2t_applet_audit_trail_listing]
+= 8.0 Audit Trail Listing
+
+image::30-AuditTrailListing.png[Audit Trail Listing, align = "center"]
+
+The Audit Trail Listing page records all the changes that have been made to the guest tenant . The information includes:
+
+1. Type: The typeof the tenant. It can be either GUEST or HOST.
+2. Action: The action that is done between the host and guest tenant.
+3. Created Date: The date in which the action is created.
+4. Updated By: The date in which the action is updated.
