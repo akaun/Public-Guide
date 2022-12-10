@@ -1,5 +1,5 @@
 [#h2_name_of_module_module]
-= Name of Module Module
+= Logistic Module
 
 include::pages/introduction.adoc[leveloffset=3]
 
