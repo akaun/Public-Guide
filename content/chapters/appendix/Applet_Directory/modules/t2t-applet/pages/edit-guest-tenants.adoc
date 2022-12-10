@@ -42,7 +42,7 @@ In this tab, users can only edit the status of the team by setting it to either 
 
 ==== Guest Tenant Users
 
-image::10-EditGuestTeam-GuestTenantUser.png[Guest Tenant Users, align = "center"]
+image::10-EditGuestTeam-GuestTenantUsers.png[Guest Tenant Users, align = "center"]
 
 The Guest Tenant Users tab shows the information about the guest tenant users of the target guest tenant team. It shows information:
 1. Guest Tenant User Name : The name of the user from the guest tenant.
