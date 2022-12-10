@@ -21,7 +21,7 @@ b. User Name: User’s provided name during sign up
 
 The table in the details tab shows all the login information about the user.
 
-image::EditUser(InstalledApplet).png[Installed Applet, align = "center"]
+image::EditUser(InstalledApplets).png[Installed Applet, align = "center"]
 
 The Installed Applet tab will display all the Applets that the user has installed, including applets from different catalogues and their respective ranks.
 

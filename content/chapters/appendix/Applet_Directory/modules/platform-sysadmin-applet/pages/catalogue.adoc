@@ -97,7 +97,7 @@ All Approved permissions for the selected applet in the catalogue will be displa
 
 === Requested Permissions
 
-image::EditApplet(RequestedPermissions).png[Requested Permissions, align = "center"]
+image::EditApplet(RequestPermissions).png[Requested Permissions, align = "center"]
 
 All Requested permissions for the selected applet in the catalogue will be displayed here.
 
@@ -128,7 +128,7 @@ The table has multi-select enabled, multiple users can be chosen to have the sel
 Once users have been selected, click on the ‘Uninstall’ at the bottom of the page to uninstall the selected Applet for them.
 
 === Installed For Users
-image::EditApplet(InstallForUser).png[Install For User, align = "center"]
+image::EditApplet(InstallForUsers).png[Install For User, align = "center"]
 
 Click on ‘+’ from Edit Applet (Installed By User) to install the selected applet for users.
 
@@ -184,7 +184,7 @@ To remove a user from a catalogue, click on the ‘Delete’ button.
 
 === Installed Applets
 
-image::EditUser(InstalledApplet).png[InstalledApplet, align = "center"]
+image::EditUser(InstalledApplets).png[InstalledApplet, align = "center"]
 
 Applets that has been installed by the user will be displayed here.
 
@@ -194,7 +194,7 @@ When done, click on the ‘Uninstall’ button at the bottom of the page to unin
 
 === Installed For Users
 
-image::EditUser(InstallForUser).png[Install For User, align = "center"]
+image::EditUser(InstallForUsers).png[Install For User, align = "center"]
 
 Click on ‘+’ button from Edit User (Installed Applets) to install applets for selected user.
 
