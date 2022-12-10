@@ -1,8 +1,12 @@
 [#h3_process-maintenance-applet_machines]
-= Machines
+= 4.0 Machines
 
 Machines can be assigned to a Process Template. The Machine Tab allows users to create, view, and edit these machines. The user can click on the “+” button to create a new machine.
+
+image::Machine_Listing.png[Machine Listing, align = "center"]
 
 == 4.1 Details
 
 Users can then fill in the details in each field. The required fields here are the Machine Name, Machine Code, and Machine Type and Remarks.
+
+image::Machine_Details.png[Machine Details, align = "center"]

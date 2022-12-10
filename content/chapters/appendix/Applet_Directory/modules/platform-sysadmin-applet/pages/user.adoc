@@ -1,0 +1,30 @@
+[#h3_platform_sysadmin_applet_user]
+= User
+
+== User Menu
+
+image::UserMenu.png[User Menu, align = "center"]
+
+There is no functionality to create a user for the Platform SysAdmins, the user has to sign up themselves to akaun.com on their own. The functionality to send an email invitation to the user is located in Edit Catalogue (Add User To Catalogue).
+
+Click on a row to ‘Edit User’.
+
+=== Edit User
+
+image::EditUser(Details).png[Details, align = "center"]
+
+Fields:
+
+a. User Guid: Primary Key/Unique Identifier in the database for the selected user
+
+b. User Name: User’s provided name during sign up
+
+The table in the details tab shows all the login information about the user.
+
+image::EditUser(InstalledApplet).png[Installed Applet, align = "center"]
+
+The Installed Applet tab will display all the Applets that the user has installed, including applets from different catalogues and their respective ranks.
+
+image::EditUser(Catalogue).png[Catalogue, align = "center"]
+
+All the catalogues that the user is added into will be displayed here.

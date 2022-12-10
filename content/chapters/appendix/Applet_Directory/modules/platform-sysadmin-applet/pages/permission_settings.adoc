@@ -1,3 +1,0 @@
-[#h3_platform_sysadmin_applet_permission_settings]
-= Permission Settings
-
