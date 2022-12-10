@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Fixed Asset Applet allows users to keep track of their Assets and configure the value depreciation of those assets over time.

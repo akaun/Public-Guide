@@ -1,0 +1,16 @@
+[#h3_fixed-asset-applet_asset-register]
+= 3.0 Asset Category
+
+The Asset Category tab shows all Asset Categories. The user can click on the “+” button to add a new Asset Category. 
+
+image::Asset_Category_Listing.png[Asset Category Listing, align = "center"]
+
+Users can fill in details for each field. Required fields are marked with the * icon.
+
+image::Asset_Category_Create.png[Create Asset Category, align = "center"]
+
+Main:
+1. Category Code
+2. Category Name
+3. Description
+4. Status

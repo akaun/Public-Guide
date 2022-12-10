@@ -1,0 +1,130 @@
+[#h3_fixed-asset-applet_asset-register]
+= 2.0 Asset Register
+
+The Asset Register tab shows all Assets. The user can click on the “+” button to add a new Asset. 
+
+image::Asset_Register_Listing.png[Asset Register Listing, align = "center"]
+
+== 2.1 Create Asset
+
+Users can fill in details for each field. Required fields are marked with the * icon. The Category field options are set in the Asset Category tab.
+
+image::Asset_Create.png[Asset Create, align = "center"]
+
+The fields that are required to fill in by users are:
+
+1. Asset Status
+2. Asset Code
+3. Asset Name
+4. Type
+5. Property, Plant, and Equipment
+6. Long-term investment
+7. Intangible Asset
+8. Category
+9. Company
+10. Branch
+11. Location
+12. Employee 
+13. Currency
+
+=== Department
+
+image::Asset_Create_02.png[Asset Create 02, align = "center"]
+
+1. Segment
+2. Dimension
+3. Project
+4. Profit Center
+5. Serial Number
+6. Warranty Expiry
+
+== 2.2 Edit Asset
+
+After an Asset has been created, users can click on an Asset in the Asset Listing page to view and edit it.
+
+=== 2.2.1 Details
+
+image::Asset_Edit_Details_01.png[Edit Details, align = "center"]
+
+image::Asset_Edit_Details_02.png[Edit Details, align = "center"]
+
+The users can edit the details by changing the details in the columns.
+
+=== 2.2.2 Transactions
+
+Users can view all transactions related to the asset. The user can click on the “+” button to add a new Transaction. 
+
+image::Asset_Transaction_Listing.png[Transaction Listing, align = "center"]
+
+Users can fill in details for each field. Required fields are marked with the * icon:
+
+1. Transaction Type
+2. Date
+3. GL Code
+4. Description
+
+image::Asset_Transaction_Create.png[Create Transaction, align = "center"]
+
+=== 2.2.3 Depreciation
+
+==== 2.2.3.1 Configuration
+
+Users can fill in details for each field. Required fields are marked with the * icon:
+
+1. Configuration 
+2. Depreciation Start Date
+3. Depreciation Method
+4. Residual Value
+5. Depreciation Rate (%)
+6. Useful Life (Years)
+7. GL Code
+8. Averaging Method
+
+    a. Actual Days
+    b. Full-month
+
+image::Asset_Depreciation_Config.png[Depreciaiton Config, align = "center"]
+
+==== 2.2.3.2 Schedule
+
+Users can view all Depreciation Schedules related to the asset. The user can click on the “+” button to add a new Depreciation Schedules. 
+
+image::Asset_Depreciation_Schedule.png[Depreciation Schedule, align = "center"]
+
+image::Asset_Depreciation_Schedule_Create.png[Create Depreciation Schedule, align = "center"]
+
+=== 2.2.4 Attachment
+
+Users can view all Attachments related to the asset. The user can click on the “+” button to add a new Attachment. 
+
+image::Asset_Attachment_Listing.png[Asset Attachment Listing, align = "center"]
+
+Users can click on the Upload button to open up the local file management system to choose a file to upload.
+
+image::Asset_Attachment_Create.png[Create Attachment, align = "center"]
+
+=== 2.2.5 Related Doc
+
+image::Asset_RelatedDoc_Listing.png[Related Doc Listing, align = "center"]
+
+Users are able to add Related Doc by clicking on the “+” button. 
+
+image::Asset_RelatedDoc_Create.png[Create Related Doc, align = "center"]
+
+=== 2.2.6 Other Journal
+
+Users can click the "+" to add other journal.
+
+Users need to fill in the required fields:
+
+image::add-other-journal.png[Add Other Journal, align = "center"]
+
+Details:
+1. Date
+2. Description
+3. Amount
+4. GL Code
+5. Payment Breakdown
+    a. Add new row
+
+
