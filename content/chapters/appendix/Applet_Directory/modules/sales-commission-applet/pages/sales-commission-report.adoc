@@ -39,7 +39,7 @@ To edit a Sales Commission Report, click into the respective report and an “Ed
 
 === 1.3.1 Select Cycle
 
-image::Select_Cycyle.png[Select Cycle, align = "center"]
+image::Select_Cycle.png[Select Cycle, align = "center"]
 
 When users click on the ‘Cycle’ field, the “Select Cycle” tab will appear on the right. In this tab, there will be a list of cycles for users to select. Users can also choose to add the cycle start and end dates in the ‘Cycle Start Date’ and ‘Cycle End Date’ fields.
 
