@@ -48,7 +48,7 @@ Customers will be notified through the Goods Tracking App, which will show the p
 
 === Goods Movement Scenarios
 
-image::goods-from-oversea.png[Goods From Oversea, align = "center"]
+image::goods-from-overseas.png[Goods From Oversea, align = "center"]
 
 Keys:
 GRN - Goods Received Note
@@ -64,7 +64,7 @@ a. Select the Goods Received Note that has a Posting Status of ‘DRAFT’, by c
 
 b. Click on the ‘FINAL’ button on the top to make it ‘FINAL’
 
-image::7_Goods_Received_Note_Final_2[Final, align = "center"]
+image::7_Goods_Received_Note_Final_2.png[Final, align = "center"]
 
 a. Select the Goods Received Note that has a Posting Status of ‘DRAFT’, by clicking on the row on the listing
 
