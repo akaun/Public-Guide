@@ -1,4 +1,4 @@
-[#h3_fixed-asset-applet_asset-register]
+[#h3_fixed-asset-applet_asset-category]
 = 3.0 Asset Category
 
 The Asset Category tab shows all Asset Categories. The user can click on the “+” button to add a new Asset Category. 
