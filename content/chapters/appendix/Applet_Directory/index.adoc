@@ -72,7 +72,7 @@ include::modules/internal-stock-transfer-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-return-applet/index.adoc[leveloffset=2]
 
-include::modules/internal-reciept-voucher-applet/index.adoc[leveloffset=2]
+include::modules/internal-receipt-voucher-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-order-applet/index.adoc[leveloffset=2]
 
