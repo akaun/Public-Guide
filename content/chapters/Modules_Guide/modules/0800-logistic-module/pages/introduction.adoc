@@ -1,0 +1,170 @@
+[#h3_name_of_module_introduction]
+= Introduction
+
+This module guide outlines the steps required to configure for logistics. 
+
+== Organization - Branch Location Code
+
+Based on the Packing File Naming, associate them to branches, and use the Organization Applet to set up the branches.
+
+Each Packing File Naming has its own Associated Branch/ Location Code.
+
+1. TNL xxxxx - Guang Zhou to Klang Port: WH-BKTRAJA
+2. YWTNL xxxxx - Yiwu to Klang Port: WH-BKTRAJA
+3. PG xxxxx - Guang Zhou to Penang Port: WH-BMERTAJAM
+4. YWPG xxxxx - Yiwu to Penang Port: WH-BMERTAJAM
+5. KK xxxxx - Guang Zhou to Kota Kinabalu Port: WH-KKINABALU
+6. KU xxxxx - Guang Zhou to Kuching Port: WH-KUCHING
+
+image::1_Organization_Create_Branch.png[Create Branch, align = "center"]
+
+== Goods Received Note
+
+From the packing list, create a Goods Received Note in the Internal Purchase GRN Applet.
+
+image::2_Goods_Received_Note_Create.png[Create Note, align = "center"]
+
+Make sure the branch and location matches up with the Packing List. You can put the Packing List file name in the reference input. Then, go to the Account tab, and choose a supplier.
+
+image::3_Goods_Received_Note_Create_Select_Supplier.png[Create Select Supplier, align = "center"]
+
+The Lines Tab represents the item in the packing list.
+
+image::4_Goods_Received_Note_Line_Item.png[Line Item, align = "center"]
+
+The Item Code means the Customer Marking Number. The Tracking ID is just a combination of the Customer Marking Number and the PO Number.
+
+image::5_Goods_Received_Note_Status.png[Status, align = "center"]
+
+A newly created Goods Received Note will have the status - Goods departed from port, the user can then choose from 3 other options:
+
+1. Goods have arrived at part, custom clearance in progress
+2. Custom cleared
+3. Goods have arrived at warehouse
+
+image::6_Shipment_Tracker.png[Shipment Tracker, align = "center"]
+
+Customers will be notified through the Goods Tracking App, which will show the progression of the goods.
+
+=== Goods Movement Scenarios
+
+image::goods-from-oversea.png[Goods From Oversea, align = "center"]
+
+Keys:
+GRN - Goods Received Note
+ST-GIN - Stock Transfer Goods Issue Note
+ST-GRN - Stock Transfer Goods Received Note
+DO - Delivery Order
+
+You can make a Goods Received Note ‘FINAL’ with 2 ways:
+
+image::7_Goods_Received_Note_Final_1.png[Final, align = "center"]
+
+a. Select the Goods Received Note that has a Posting Status of ‘DRAFT’, by clicking on the checkbox on the left of it
+
+b. Click on the ‘FINAL’ button on the top to make it ‘FINAL’
+
+image::7_Goods_Received_Note_Final_2[Final, align = "center"]
+
+a. Select the Goods Received Note that has a Posting Status of ‘DRAFT’, by clicking on the row on the listing
+
+b. Click on the ‘FINAL’ on the top-right corner to make the Goods Received Note ‘FINAL’
+
+‘FINAL’ means changes can no longer be made to the Goods Received Note.
+
+== Stock Transfer Applet
+
+It is used to transfer goods from warehouse to the distribution hub.
+
+image::9_Stock_Transfer_Applet.png[Transfer, align = "center"]
+
+a. Stock Transfer Out: Outgoing warehouse/distribution hub
+
+b. Stock Transfer In: Receiving warehouse/distribution hub
+
+image::10_Stock_Transfer_Create.png[Create Transfer, align = "center"]
+
+It indicates the location sending and receiving.
+
+To add lines into the Stock Transfer, go to the KO (Knockoff) Tab, GRN Tab, to select Goods Received Note to Knockoff.
+
+image::11_Stock_Transfer_Create_KO.png[Create KO, align = "center"]
+
+Click on the checkbox of the Goods Received Note to select it and click on the Knock Off button. Items should appear in the Items Tab. Once done, click the create button to finish.
+
+To finalize a Stock Transfer Out, you can perform the same way as with the Goods Received Note.
+
+image::12_Stock_Transfer_Inbound_Stock_Create.png[Create Stock Inbound, align = "center"]
+
+It indicates the location receiving and sending.
+
+Go to the KO for Tab and select the Goods Issue Note that has been created earlier to be Knocked Off.
+
+image::13_Stock_Transfer_Inbound_Stock_KO.png[Stock KO, align = "center"]
+
+Note: Only Goods Issue Note that are finalized will be shown here.
+
+Select the Goods Issue Note by clicking on the checkbox on the left of them, and click on the Knock Off button. There should be items added into the Line Tabs. Once done, click on the create button.
+
+To finalize a Stock Transfer In, you can perform the same way as with the Goods Received Note.
+
+== Customer Maintenance Applet
+
+Used to maintain the shipping address of the customer.
+
+After creating a customer, click on the customer that you want to edit, and go to the Address Tab. 
+
+image::14_Customer_Maintenance_Address.png[Address, align = "center"]
+
+Note: New customers have no addresses.
+
+image::15_Customer_Maintenance_Create_Address.png[Create Address, align = "center"]
+
+Fill in the required information to create an address. Once done, click on the Add button.
+
+== Internal Delivery Order Applet
+
+It is used to deliver goods to the customer.
+
+image::16_Internal_Delivery_Order_Applet_Create.png[Create, align = "center"]
+
+The branch and location should be the outgoing branch/location.
+
+Next, go to the Account Tab and click on the Entity Id and it will prompt you to choose a customer. 
+
+image::17_Internal_Delivery_Order_Applet_Account.png[Account, align = "center"]
+
+Next, go to Account, Ship To Tab, and click on the Shipping Address. The shipping address is the one that you have maintained in the Customer Maintenance Applet. 
+
+image::18_Internal_Delivery_Order_Applet_Account_Shipping_Address.png[Shipping Address, align = "center"]
+
+Next, go to the Line Items Tab and select from the listing.
+
+image::19_Internal_Delivery_Order_Applet_Account_Line.png[Account Line, align = "center"]
+
+Once done, click on the create button.
+
+For the status of the Delivery Order, there are 2 possible options:
+
+a. Delivery in progress
+b. Goods delivered
+
+image::20_Internal_Delivery_Order_Applet_Status.png[Status, align = "center"]
+Once done, click on the save button to save changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

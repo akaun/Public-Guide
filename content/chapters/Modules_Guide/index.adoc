@@ -27,6 +27,8 @@ include::modules/0710-contact-center-module/index.adoc[leveloffset=2]
 
 include::modules/0720-digital-marketing-module/index.adoc[leveloffset=2]
 
+include::modules/0800-logistic-module/index.adoc[leveloffset=2]
+
 include::modules/0900-marketplace-connector-module/index.adoc[leveloffset=2]
 
 include::modules/1000-delivery-module/index.adoc[leveloffset=2]

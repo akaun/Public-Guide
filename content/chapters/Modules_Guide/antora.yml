@@ -14,6 +14,7 @@ nav:
 - modules/0700-crm-module/nav.adoc
 - modules/0710-contact-center-module/nav.adoc
 - modules/0720-digital-marketing-module/nav.adoc
+- modules/0800-logistic-module/nav.adoc
 - modules/0900-marketplace-connector-module/nav.adoc
 - modules/1000-delivery-module/nav.adoc
 - modules/1100-cp-commerce-module/nav.adoc
