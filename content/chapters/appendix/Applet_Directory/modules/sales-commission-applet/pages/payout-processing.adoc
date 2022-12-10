@@ -1,0 +1,100 @@
+[#h3_sales_commission_applet_sales-commision-report]
+= 2.0 Payout Processing
+
+== 2.1 Payout Listing
+
+image::Payout_Listing.png[Payout Listing, align = "center"]
+
+Upon clicking on the “Payout Processing” module, users will see the “Payment Listing” page. Here are all the Payment Vouchers created.
+
+== 2.2 Create Internal Payment Voucher
+
+To create a new Internal Payment Voucher, click on the ‘+’ button.
+
+=== 2.2.1 Details
+
+image::Create_Internal_Payment_Voucher(Details).png[Details, align = "center"]
+
+Firstly, under the Details tab, users will have to select Branch, Location, Currency and also enter the Payment Amount and Open Amount. 
+
+=== 2.2.2 Account
+
+image::Create_Internal_Payment_Voucher(Account).png[Account, align = "center"]
+
+Next, users have to click on the “Account” tab to select an Entity. Upon clicking on the ‘Entity Id’ field, users will be able to see a list of customers which can be selected. 
+
+=== 2.2.3 Expenses
+
+image::Create_Internal_Payment_Voucher(Expenses).png[Expenses, align = "center"]
+
+The next step is to go to the “Expenses” tab. Under this tab, users can see the list of items. Users can also add new line items by clicking on the ‘+’ button.
+
+image::Select_Line_Item.png[Select Line Item, align = "center"]
+
+
+After clicking on the ‘+’ button, users can select the line item from the line item listing. Users can also utilize the Search bar to look for a specific item. After selecting an item and making changes to the price and quantity, users can click on the “ADD” button to add the item into the listing.
+
+=== 2.2.4 Payment
+
+image::Create_Internal_Payment_Voucher(Payment).png[Payment, align = "center"]
+
+
+Lastly, users can go to the “Payment” tab to add payment. There will be a Payment listing showing the Cashbook, Settlement Type, Amount and Remarks of the payments. To create a new payment, click on the ‘+’ button.
+
+image::Select_Settlement.png[Select Settlement, align = "center"]
+
+Upon clicking on the ‘+’ button, there will be a Settlement Method dropdown box to select the settlement method.
+
+image::Cash_Settlement.png[Cash Settlement, align = "center"]
+
+For example, if users select the Cash settlement method, users can select the payment date, enter the payment amount and also add in remarks for the payment. Upon filling up all these 4 tabs, users can click on the “CREATE” button to create the Payment Voucher.
+
+== 2.3 View & Edit Internal Payment Voucher
+
+== 2.3.1 Details
+
+image::View_Internal_Payment_Voucher(Details).png[Details, align = "center"]
+
+Under the “Details” tab, users can change the Branch, Location and Currency. Users can also edit the Payment Amount and Open Amount. To delete this payment voucher, users can click on the ‘DELETE’ button.
+
+== 2.3.2 Account
+
+image::View_Internal_Payment_Voucher(Account).png[Account, align = "center"]
+
+Under the “Account” tab, users can click on the Entity Id to change the entity. Users can also edit the entity’s information here. After editing, users need to click the ‘SAVE’ button on the top right corner in order to save the changes made.
+
+== 2.3.3 Payment
+
+image::View_Internal_Payment_Voucher(Payment).png[Payment, align = "center"]
+
+If users did not add the Payment when creating the Payment Voucher, users can do so when editing the payment under the “Payment” tab. 
+
+== 2.3.4 Expenses
+
+image::View_Internal_Payment_Voucher(Expenses).png[Expenses, align = "center"]
+
+Similar to the “Payment” tab, users can click on the “Expenses” tab to add line items when editing.
+
+== 2.3.5 Payout For
+
+image::View_Internal_Payment_Voucher(Payout_For).png[Payout For, align = "center"]
+
+Under the “Payout For” tab, there is a listing of all the Payouts created. Users can click on the ‘+’ button to add new Payouts.
+
+image::Select_Sales_Commission_Report.png[Select Sales Commission Report, align = "center"]
+
+Upon clicking on the ‘+’ button, the Sales Commission Report listing will pop out for users to select. Users can select one or more sales commission reports. After selecting the reports, click on the ‘ADD’ button to add the reports to the payout for listing.
+
+== 2.3.6 Contra
+
+image::View_Internal_Payment_Voucher(Contra).png[Contra, align = "center"]
+
+Under the “Contra” tab, users can add in documents to contra with this payment voucher. There will be a list of documents which contra with the payment voucher. To add a new contra, click on the ‘+’ button.
+
+image::Select_Contra.png[Select Contra, align = "center"]
+
+Upon clicking on the ‘+’ button, users can select the contra documents from a list.
+
+image::Add_Contra.png[Add Contra, align = "center"]
+
+After selecting a contra document, users will have to add in a Contra Amount. Next, users can click on the ‘ADD’ button’ to add the contra. After all changes have been made, users need to click on the ‘SAVE’ button to save the changes.

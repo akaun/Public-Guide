@@ -1,0 +1,49 @@
+[#h3_sales_commission_applet_sales-commision-report]
+= 1.0 Sales Commission Report
+
+== 1.1 Sales Commission Report Listing
+
+image::Sales_Commission_Report_Listing.png[Sales Commission Report Listing, align = "center"]
+
+Upon clicking into the Sales Commission applet, users will first see the Sales Commission Report Listing. On this page, users are able to see all the Sales Commission Reports created. 
+
+== 1.2 Create Sales Commission Report
+
+To create a new Sales Commission Report, click on the ‘+’ button.
+
+image::Create_Sales_Commission_Report.png[Create Sales Commission Report, align = "center"]
+
+Upon clicking on the ‘+’ button, a “Create Sales Commission Report” tab will pop out from the right.
+On the “Create Sales Commission Report” Details tab, users will be prompted to fill up to following details:
+
+1. Cycle - Enter the number of billing cycle
+2. Company -  Select company from a dropdown list
+3. Start Date - Select the start date of the report
+4. End Date - Select the end date of the report
+5. Payout Status - The status of the payout process
+6. Payout (MYR) - Enter the payout amount in MYR.
+7. Sales Agent Member - A member listing will pop out for selection upon clicking
+8. Sales Agent - Select a Sales Agent from the dropdown list
+9. Phone Number - Enter phone number
+10. Payment Voucher - A pop out will appear for users to input details of the Payment Voucher (In Progress)
+
+image::Payment_Voucher_Details.png[Payment Voucher Details, align = "center"]
+
+Upon filling up all the details required, users can click on the “SAVE” button to save the Sales Commission Report.
+
+== 1.3 View & Edit Sales Commission Report
+
+image::Edit_Sales_Commission_Report(Details).png[Edit Sales Commission Report, align = "center"]
+
+To edit a Sales Commission Report, click into the respective report and an “Edit Sales Commission Report” tab will appear. Under the Details tab, users are allowed to modify the Cycle, Cycle Start Date, Cycle End Date and Payment Voucher. 
+
+=== 1.3.1 Select Cycle
+
+image::Select_Cycyle.png[Select Cycle, align = "center"]
+
+When users click on the ‘Cycle’ field, the “Select Cycle” tab will appear on the right. In this tab, there will be a list of cycles for users to select. Users can also choose to add the cycle start and end dates in the ‘Cycle Start Date’ and ‘Cycle End Date’ fields.
+
+image::Edit_Sales_Commission_Report(Line_Item).png[Line Item, align = "center"]
+
+Under the “Line Item” tab, there will be the line items displayed. (In Progress)
+The information of the item which can be seen are Item Code, Item Name, UOM, Delivery, Quantity, Unit Price, SST/VAT/GST, and Txn Amount.

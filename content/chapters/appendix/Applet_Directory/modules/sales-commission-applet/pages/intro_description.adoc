@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Sales Commission Applet is used to generate Sales Commission reports and carry out Sales Commission Payout Process. This applet is closely related to the Commission Scheme Applet. The Commission Scheme serves the purpose of setting a commission scheme by allowing users to create Commission Schemes, Sales Group and Pricing Model. This Sales Commission applet on the other hand facilitates the report generation and payout processing.
