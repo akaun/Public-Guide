@@ -1,4 +1,4 @@
-* Named-Applet 
+* T2T Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:guest-tenant-listing.adoc[Guest Tenant Listing]
 ** xref:create-new-guest-tenant.adoc[Create New Guest Tenant]
