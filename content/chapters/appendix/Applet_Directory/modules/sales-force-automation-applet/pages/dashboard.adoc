@@ -11,7 +11,7 @@ image::dashboard-main-3.png[Dashboard, align = "center"]
 
 == 2.0.1 Search
 
-image::dashboard-searchbar.png[Search Bar, align = "center"]
+image::dashboard-searcbar.png[Search Bar, align = "center"]
 
 Users can view data in a specific period by selecting the time frame and entering the project name.
 
@@ -311,7 +311,7 @@ Users can upload their attachment by clicking Choose Attachment button, and afte
 
 ==== 2.3.3.6 Contact
 
-image::deals-contact-create.png[Create Contact, align = "center"]
+image::deals-contract-create.png[Create Contact, align = "center"]
 
 The Contact tab allows users to add a new contact to deals. Users can create a new contact by clicking the “+” button.
 
@@ -324,7 +324,7 @@ Fields:
 5. Email
 6. Description
 
-image::deals-contact-add.png[Add Contact, align = "center"]
+image::deals-contract-add.png[Add Contact, align = "center"]
 
 After new information is entered, press the ADD button to update all new changes. This page also allows users to edit current contact information. 
 
