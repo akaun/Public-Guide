@@ -1,0 +1,106 @@
+[#h3_sales-force-automation-applet_settings]
+= 4.0 Settings
+
+== 4.1 Project Setting
+
+=== 4.1.1 Create A New Project
+
+image::settings-create-a-new-project.png[Create A New Project, align = "center"]
+
+image::settings-create-form.png[Create Form, align = "center"]
+
+The project setting tab is used to create or change the project. The project contains a lot of aspects of the data. It will be used in other tabs. For example, in some tabs, the user only needs to provide the project name, the other information will be automation filled by the applet based on the setting. 
+
+Users can create a new Project by providing all the basic information after clicking the “+”  button.
+
+Fields:
+
+1. Project Name
+2. Project Code
+3. Project Description
+4. Project Type
+
+After creation, the project will list on the main page, the user can access it by clicking the row.
+
+=== 4.1.2 Edit The Project
+
+Tabs:
+
+1. Main
+    a. Project name
+    b. Project code
+    c. Project description
+    d. Project Type
+
+2. Type
+    a. Type name
+    b. Type code
+    c. Description
+    d. Type
+
+3. Source
+    a. Source name
+    b. Source code
+    c. Description
+
+4. Stage
+    a. Stage name
+    b. Stage code
+    c. Description
+    d. Type
+    e. Status
+
+5. Rating
+    a. Rating name
+    b. Rating code
+    c. Description
+    d. Probability
+    e. Type
+    f. Status
+
+After changing the details, please click SAVE to save the new information.
+
+=== 4.2 Qualification Set
+
+Qualification is a questionnaire that can be customized. Users can set their questions with answer lists for each customer to add more information. 
+
+=== 4.2.1 Create A New Qualification Set
+
+image::settings-create-a-new-qualification.png[Create A New Qualification, align = "center"]
+
+Users can create a new qualification set by clicking the left top “+” button. After filling in all the rows, please click the SAVE button to create the new qualification.
+
+Fields:
+
+1. Name
+2. Description
+3. Project
+
+=== 4.2.2 Edit The Qualification Set
+
+Tabs:
+
+1. Main
+    a. Name
+    b. Description
+    c. Project
+
+Qualification Criteria:
+
+1. Create
+    a. Users can create qualification criteria by providing a question title and question type after clicking the “+” button.
+ 
+    Field:
+        i. Question title
+        ii. Question type
+        iii. Required
+
+2. Edit
+    a. Users can open the edit page by clicking the row. In the edit page, the user can update or change the current qualification    criteria.    
+       
+    Field:
+        i. Question title
+        ii. Question type
+        iii. Required
+
+

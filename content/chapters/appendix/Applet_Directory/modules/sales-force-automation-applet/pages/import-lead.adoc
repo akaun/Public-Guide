@@ -1,0 +1,30 @@
+[#h3_sales-force-automation-applet_import-lead]
+= 3.0 Import Lead
+
+The Import Lead side bar allows the user to create new leads by uploading the file. It is a convenient tool that enables users to quickly and easily upload their whole customer list to the applet.
+
+image::import-lead-main.png[Main, align = "center"]
+
+image::import-lead-detail.png[Detail, align = "center"]
+
+The table shown at the main page consists of all the uploaded files. Users can check all the customer details by clicking on the corresponding row. 
+
+== 3.1 Create 
+
+image::import-lead-create.png[Create, align = "center"]
+
+image::import-lead-selection.png[Selection, align = "center"]
+
+image::import-lead-upload.png[Upload, align = "center"]
+
+Firstly, users need to click the “+” button to open the upload page. There are two tabs on the right hand side page, Details and Upload. Details tab is for the user to select the project for the input. Upload tab is used to upload the file. There is no format restriction on the files uploaded. 
+
+image::import-lead-type-select-1.png[Type Select, align = "center"]
+
+Before uploading the file, users need to select this option.
+
+image::import-lead-type-select-2.png[Type Select, align = "center"]
+
+After the first selection has been made, the user will be prompted to select the following choices in the red highlighted box shown above. In which selecting true will automatically create customer listing in the corresponding selected option.
+
+

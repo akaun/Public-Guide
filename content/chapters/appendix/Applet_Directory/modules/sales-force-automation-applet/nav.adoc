@@ -1,3 +1,5 @@
 * Sales Force Automation Applet 
 ** xref:introduction.adoc[Introduction]
-
+** xref:dashboard.adoc[Dashboard]
+** xref:import-lead.adoc[Import Lead]
+** xref:settings.adoc[Settings]

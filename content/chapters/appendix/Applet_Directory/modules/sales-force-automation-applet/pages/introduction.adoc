@@ -1,5 +1,5 @@
 [#h3_sales-force-automation-applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::sales_force_automation_applet_logo.png[150,300]
 

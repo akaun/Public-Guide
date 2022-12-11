@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Sale Force Automation is a part of the customer relationship management module. This applet allows users to record all their leads and deals’ information and provides many features for users to easily take care of all their customers. This applet also provides data analysis for users to know their company's popularity. 

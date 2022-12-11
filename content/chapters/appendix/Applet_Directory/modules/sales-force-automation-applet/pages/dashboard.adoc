@@ -1,0 +1,400 @@
+[#h3_sales-force-automation-applet_dashboard]
+= 2.0 Dashboard
+
+The Dashboard page is the first page shown to the user. It shows all the data that is relevant to the leads and deals. Also, it provides charts for users to analyze their current situation easily. 
+
+image::dashboard-main-1.png[Dashboard, align = "center"]
+
+image::dashboard-main-2.png[Dashboard, align = "center"]
+
+image::dashboard-main-3.png[Dashboard, align = "center"]
+
+== 2.0.1 Search
+
+image::dashboard-searchbar.png[Search Bar, align = "center"]
+
+Users can view data in a specific period by selecting the time frame and entering the project name.
+
+== 2.1 Leads
+
+This applet enables users to create leads to track customers who are interested in the company's products. The Sales Force Automation applet also offers certain features that make it simpler for users to manage and organize their leads.
+
+=== 2.1.1 Table
+
+image::lead-filter.png[Filter, align = "center"]
+
+The leads page shows information about all the leads. Users also can change the table format by clicking the button on the right-hand side which are Columns and Filters.
+
+=== 2.1.2 Create A New Lead
+
+image::lead-create.png[Create, align = "center"]
+
+Users can create a new lead by clicking the “+” button.
+
+image::lead-save.png[Save, align = "center"]
+
+Users must fill up all required information to create a new lead. After completing the form, clicking the leads page shows information about all the leads. Users also can change the table format by clicking the button on the right-hand side which are Columns and Filters. SAVE button and the new lead will be created. 
+
+Fields:
+
+1. Title: 
+2. Project: Project is created at the Setting part
+3. Organization: Organization is created at the Organization part
+4. Lead Type: Will be shown after the Project has been selected. It is customized at the Setting part
+5. Lead Source: Same as Lead Type
+6. Lead Stage: Same as Lead Type
+7. Contact Name
+8. Work Phone
+9. Work Email
+10. Contact Type
+11. Lead Rating: Same as Lead Type
+12. Probability: Will be shown after Lead Rating has been chosen
+13. Priority
+14. Remarks
+15. Target Start Date
+16. Target End Date
+17. Last Follow Up Date
+18. Next Follow Up Date
+
+=== 2.1.3 Edit Leads
+
+image::lead-edit.png[Edit, align = "center"]
+
+The names of the leads will be published in the table after the leads' profiles have been created. By selecting the rows shown, users may also edit the lead's details.
+
+==== 2.1.4 Details
+
+image::lead-detail.png[Details, align = "center"]
+
+Users can get a form to change or delete the leads’ details by clicking the Details button.
+
+Fields:
+
+1. Title
+2. Project: Project is created at the Setting part
+3. Organization: Organization is created at the Organization part
+4. Lead Type: Will be shown after the Project has been selected. It is customized at the Setting part
+5. Lead Source: Same as Lead Type
+6. Lead Stage: Same as Lead Type
+7. Contact Name
+8. Work Phone
+9. Work Email
+10. Contact Type
+11. Lead Rating: Same as Lead Type
+12. Probability: Will be shown after Lead Rating has been chosen.
+13. Priority
+14. Description
+15. Assignee
+16. Reporter
+
+==== 2.1.5 Planning
+
+image::lead-planning.png[Planning, align = "center"]
+
+The planning page allows users to create a plan for the leads for users to track the process. 
+
+Fields:
+
+1. Target Start Date
+2. Target End Date
+3. Last Follow Up Date
+4. Next Follow Up Date
+
+==== 2.1.6 Qualification
+
+image::lead-qualification.png[Qualification, align = "center"]
+
+On the qualification page, there are questionnaires allowing users to choose.
+
+image::lead-qualification-questionnaires.png[Questionnaires, align = "center"]
+
+The user can open the questionnaires selecting the desired question on the Criteria Listing main page. 
+
+image::lead-qualification-save.png[Save, align = "center"]
+
+Please press the SAVE button after entering the information to save it all.
+
+Note: All the questionnaires are made at the setting tab.
+
+==== 2.1.7 Contacts
+
+image::lead-contact-main.png[Main, align = "center"]
+
+The Contacts page shows all the main contacts and their details.
+
+image::lead-contact-create.png[Create, align = "center"]
+
+Users can add a new supplement contact by clicking the “+” button.
+
+image::lead-contact-add.png[Add, align = "center"]
+
+After all information has been filled, please click Add button, the supplement contact detail will be saved under the primary contact. This page also allows users to edit current contact information. 
+
+Noted: On the Lead tab, only the name of the primary contact will be shown.
+
+Fields:
+
+1. First Name
+2. Last Name
+3. ID No
+4. Phone
+5. Email
+6. Description
+
+==== 2.1.8 Attachment
+
+image::lead-attachment-create.png[Create, align = "center"]
+
+Users can add attachments for the leads on the attachments tab by clicking the "+" button.
+
+image::lead-attachment-choose.png[Choose, align = "center"]
+
+The left page is the current attachment, and users can upload new attachments by clicking the “Choose  Attachment” button.
+
+image::lead-attachment-upload.png[Upload, align = "center"]
+
+After choosing the attachment, the user needs to click the Upload button to save the attachment. 
+
+Note: There is no limitation to the attachment type.
+
+==== 2.1.9 Events
+
+image::lead-event-log.png[Event Log, align = "center"]
+
+The events tab shows all the user activities. This recording cannot be changed or deleted.
+
+==== 2.1.10 Lead-To-Deal
+
+image::lead-to-deal.png[Lead To Deal, align = "center"]
+
+Users can convert leads to deals by using the Lead-To-Deal page. After filling in the Assignee and Reporter, click the Convert Lead To Deal button to change the lead to deal.    
+
+Fields:
+
+1. Assignee: Choosing from the drop-down list.
+2. Reporter:  Choosing from the drop-down list.
+
+== 2.3 Deals
+
+The customer who has already subscribed to the service is the deal, and the applet enables the user to record the offer's details. The deal component also offers tools that consumers may utilize to keep track of and organize their deals.
+
+=== 2.3.1 Table
+
+image::deals-filter.png[Filter, align = "center"]
+
+The deals page shows information about all the deals. 
+
+=== 2.3.2 Create A New Deal
+
+image::deals-create.png[Create, align = "center"]
+
+By using the "+" icon, users can add a new deal.
+
+image::deals-save.png[Save, align = "center"]
+
+Fill up all the necessary details and click the CREATE button, then the deal will be created and shown on the main table. 
+
+Field (Details)：
+
+1. Title
+2. Project: Project is created at the Setting part
+3. Organization: Organization is created at the Organization part
+4. Deal Type: Will be shown after the Project has been selected. Customize at the Setting part
+5. Deal Source: Same as Deal Type
+6. Deal Stage: Same as Deal Type
+7. Contact Name
+8. Work Phone
+9. Work Email
+10. Contact Type
+11. Deal Rating: Same as Deal Type.
+12. Probability: Will be shown after Deal Rating has been chosen.
+13. Priority
+14. Remarks
+
+Field(Planning)：
+
+1. Target Start Date
+2. Target End Date
+3. Last Follow Up Date
+4. Next Follow Up Date
+
+=== 2.3.3 Edit Deals
+
+image::deals-edit.png[Edit, align = "center"]
+
+The deal will show up on the main table after creation. Users can edit the deals by going to the Deals Listing main page.
+
+==== 2.3.3.1 Details and Planning
+
+image::deals-details-and-planning.png[Details and Planning, align = "center"]
+
+The Details page allows users to change the deals’ details. Do not forget to click the SAVE button to save changes. If the user wants to delete the deal, just press the DELETE DEAL and all the related data will be removed. 
+
+Field(Details)：
+
+1. Title
+2. Project: Project is created at the Setting part
+3. Organization: Organization is created at the Organization part
+4. Deal Type: Will be shown after the Project has been selected. It is customized at the Setting part
+5. Deal Source: Same as Deal Type.
+6. Deal Stage: Same as Deal Type.
+7. Contact Name
+8. Work Phone
+9. Work Email
+10. Deal Rating: Same as Deal Type.
+11. Probability: Will be shown after Deal Rating has been chosen.
+12. Description
+13. Assignee
+14. Reporter
+
+==== 2.3.3.2 Qualification
+
+image::deals-qualification.png[Qualification, align = "center"]
+
+image::deals-qualification-table.png[Qualification Table, align = "center"]
+
+image::deals-qualification-question.png[Qualification Question, align = "center"]
+
+Users can change previously designed information on the Qualification page. Please click the SAVE button after completing the form to save it.
+
+==== 2.3.3.3 Account
+
+image::deals-account.png[Account, align = "center"]
+
+image::deals-account-table.png[Account Table, align = "center"]
+
+Users can link deals to their accounts on the account page. By selecting "Entity Id," users can edit their account information. By choosing "Select Customer," the user may review the details that have previously been provided. Don't forget to click UPDATE after making changes to the account information to save those changes.
+
+Fields:
+
+1. Entity Id
+2. Entity Name
+3. Status
+4. Entity Type
+5. Identity Type
+6. ID Number
+7. Currency
+8. GL Code
+9. Description
+10. Email
+11. Phone Number
+
+==== 2.3.3.4 Worklog
+
+image::deals-worklog.png[Worklog, align = "center"]
+
+To keep track of the work session, the "Worklog" tab was made. Users can create a new work log by clicking the "+" button.
+
+image::deals-worklog-add.png[Add Worklog, align = "center"]
+
+After filling in all the fields, users need to click ADD WORKLOG to save the new work log.
+
+image::deals-worklog-save.png[Save Worklog, align = "center"]
+
+Users can edit the details on the work log page. Please press the SAVE button after making changes to save the updated data. Users can also remove the work log from this page by clicking the DELETE button.
+
+Fields:
+
+1. Log Date
+2. Duration (hours)
+3. Description
+
+==== 2.3.3.5 Attachment
+
+image::deals-attachment-create.png[Create Attachments, align = "center"]
+
+Users can add new attachments by clicking the “+” button.
+
+image::deals-attachment-upload.png[Upload Attachments, align = "center"]
+
+Users can upload their attachment by clicking Choose Attachment button, and after choosing, please click Upload to save the attachment.
+
+==== 2.3.3.6 Contact
+
+image::deals-contact-create.png[Create Contact, align = "center"]
+
+The Contact tab allows users to add a new contact to deals. Users can create a new contact by clicking the “+” button.
+
+Fields:
+
+1. First Name
+2. Last Name
+3. ID No
+4. Phone
+5. Email
+6. Description
+
+image::deals-contact-add.png[Add Contact, align = "center"]
+
+After new information is entered, press the ADD button to update all new changes. This page also allows users to edit current contact information. 
+
+==== 2.3.3.7 Line Items
+
+image::deals-line-items.png[Line Items, align = "center"]
+
+The Line Items tab allows the user to add new opportunities and link them to the deal. The user can create a new opportunity by clicking the “+” button.
+
+image::deals-line-items-table.png[Line Items Table, align = "center"]
+
+After clicking the button, all the opportunities will list down on the new page. Users can link the item to the deal by clicking them.
+
+image::deals-line-items-add.png[Add Line Items, align = "center"]
+
+Please click the ADD button to link the information to the deal after entering all the necessary information.
+Note: Item Code is not allowed to change after creation.
+
+==== 2.3.3.8 Events
+
+image::deals-event.png[Event, align = "center"]
+
+The events tab displays all actions made by the user. It is not allowed to edit or remove any recordings.
+
+== 2.4 Organization
+
+=== 2.4.1 Create A New Organization
+
+image::organization-create.png[Create, align = "center"]
+
+All of the organization names and information from the list will be shown on the organization page. By clicking the "+" symbol, users can add a new organization.
+
+image::organization-add.png[Add, align = "center"]
+
+Users can create a new organization by filling in all the required information. And do not forget to press the SAVE button to save those details.
+
+Fields:
+
+1. Organization Name
+2. Customer Code
+3. Status
+4. Active
+5. Inactive
+6. Entity Type
+7. Identity Type
+8. Identity Number
+9. Tax Registration Number
+10. Currency
+11. Phone No.
+12. Email
+13. Description
+
+Note: Custom Code is not allowed to change after creation.
+
+=== 2.4.2 Change or Delete The Organization's Information
+
+image::organization-edit.png[Edit, align = "center"]
+
+image::organization-edit-save.png[Edit Save, align = "center"]
+
+Users can edit the tails by going back to the Organisation Listing Main Page and select the desired organization. Do not forget to click the SAVE button to save all that information after changing. 
+
+If a user wants to remove the selected information, just press the Delete button and the item will be removed.
+
+
+
+
+
+
+
+
+
+
