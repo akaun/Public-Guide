@@ -1,3 +1,0 @@
-[#h3_mlm-admin-applet_permission_settings]
-=  Permission Settings
-

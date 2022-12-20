@@ -1,0 +1,35 @@
+[#h3_mlm-admin-applet_entity-contact]
+= 3.0 Entity Contact
+
+Please click the ‘+’ button to Create an Entity.
+
+Please fill up the compulsory (*) information for creating the Entity. After filled up all Compulsory (*) information, Please click ‘Save’ to add a new Entity. Compulsory information:
+
+a. Name
+b. Parent Entity
+c. Email
+d. Phone
+e. Status
+
+image::CreateEntityContacts-Details.png[Create Entity Contact, align = "center"]
+
+Click Parent Entity Field to Add Parent Entity:
+
+a. Select Entity
+b. Click Add
+
+image::CreateEntityContacts-AddParentEntity.png[Add Parent Entity, align = "center"]
+
+After adding the Entity Contacts, it will be listed in the main page. Please click on the entity to edit it. You can edit the details of the Entity.
+
+In details tab, the following information can be edited:
+a. Name
+b. Parent Entity
+c. Email
+d. Phone
+e. Status
+
+image::EditEntityContacts.png[Edit Entity Contacts, align = "center"]
+
+You can click the ‘delete’ button to remove the Entity from the entity  listing.
+

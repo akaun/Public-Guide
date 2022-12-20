@@ -1,0 +1,18 @@
+[#h3_mlm-admin-applet_installation]
+= 2.0 Installation
+
+Please go to Akaun.cloud and find the Applet store.
+
+image::AkaunStore.png[Akaun Store, align = "center"]
+
+In the Applet store, Please search for the applet that you want to install and click on it.
+
+image::SearchMLM.png[Search MLM, align = "center"]
+
+Please click the ‘Install’ button to install the applet.
+
+image::InstallhMLM.png[Install MLM, align = "center"]
+
+Please click on ‘akaun’ to go back to the Akaun.cloud page to search for the installed applet and click on it.
+
+image::AkaunMLMSearch.png[Akaun MLM, align = "center"]

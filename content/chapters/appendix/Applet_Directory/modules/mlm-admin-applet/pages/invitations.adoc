@@ -1,0 +1,53 @@
+[#h3_mlm-admin-applet_invitations]
+= 4.0 Invitations
+
+Please click on ‘Invitations’ from the module list and click ‘+’ button to create a new invitation.
+
+Please fill up the compulsory (*) information for creating the member class. After filled up all Compulsory (*) information, Please click ‘Create’ to add a new Member class. Compulsory information:
+
+a. Program
+b. Lineage Type
+c. Inviter
+d. Expiry Date
+e. Status
+f. Invite Type
+g. Invite Status
+
+image::MLMCreateInvitation-Details.png[Details, align = "center"]
+
+Select Lineage Type as Entity to invite from Entity listing:
+
+a. Select Entity
+b. Click Add
+
+image::EditProgram-CreateInvitation-InviteFromEntity.png[Invite From Entity, align = "center"]
+
+Select Lineage Type as Entity Contacts  to invite from Entity Contacts listing:
+
+a. Select Entity Contacts 
+b. Click Add
+
+image::EditProgram-CreateInvitation-InviteFromEntityCotacts.png[Invite From Entity Contacts, align = "center"]
+
+Select Lineage Type as Members  to invite from Members listing:
+a. Select Members
+b. Click Add
+
+image::EditProgram-CreateInvitation-InviteFromMembers.png[Invite From Members, align = "center"]
+
+After adding the Invitation, it will be listed in the main page. Please click on the Invitation to edit it. 
+You can edit the details of the Invitation.
+
+In details tab, the following information can be edited:
+
+a. Program
+b. Lineage Type
+c. Inviter
+d. Expiry Date
+e. Status
+f. Invite Type
+g. Invite Status
+
+image::EditProgram-EditInvitation-Details.png[Edit Invitation, align = "center"]
+
+

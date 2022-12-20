@@ -1,0 +1,53 @@
+[#h3_mlm-admin-applet_programs]
+= 5.0 Programs
+
+Please click on ‘Programs’ from the module list and click the ‘+’ button to create a new Program.
+
+Please fill up the compulsory (*) information for creating the program. After filled up all Compulsory (*) information, Please click ‘Create’ to add a new Program. Compulsory information:
+
+a. Program Name
+b. Program code
+c. Start Date
+d. End Date
+e. Commission Scheme
+f. Website
+g. Status
+h. URL
+
+image::CreateProgram-Details.png[Details, align = "center"]
+
+After adding the Program, it will be listed in the main page. Please click on the Program to edit it. 
+You can edit the details,Participants,Invitations and Lineage of the Program.
+
+In details tab, the following information can be edited:
+a. Program Name
+b. Program code
+c. Start Date
+d. End Date
+e. Commission Scheme
+f. Website
+g. Status
+h. URL
+
+After changing the details of the field, please click ‘save’.
+Please click ‘delete’ to remove the Program  from the list.
+
+image::EditProgram-Details.png[Detais, align = "center"]
+
+In the Participants tab, you can add Participants to the Program. 
+
+Please click  button to add participants.
+
+image::EditProgram-CreateParticipants-Details.png[Details, align = "center"]
+
+In the Invitations tab, you can send Invitations to the Program. 
+
+Please click  button to create invitations.
+
+image::EditProgram-CreateInvitation-Details.png[Details, align = "center"]
+
+In the Lineage tab, you can add Lineage to the Program. 
+
+Please click  button to add Lineage.
+
+image::EditProgram-CreateInvitation-Details-1.png[Details, align = "center"]
