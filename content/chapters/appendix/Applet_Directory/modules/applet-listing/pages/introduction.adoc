@@ -11,17 +11,41 @@ Admin Applet is used to catalogue the Applets and also help the users to install
 
 The Accounting Module supports multiple companies in the same database, the financial statements of multiple companies could be printed in matrix format. This module consists of GL, Financial Statements AR/AP, Cash Book Discrepancy Checking Budget Income Statement by Branch, Dept, Project & other dimensions. Lastly, it also supports GST, VAT, and withholding tax.
 
+== Admin Time Attendance Applet
+
+View time attendance reports , manage time attendance for staff
+
+== Akaun Reseller Applet
+
+This applet will allow Akaun/BigLedger reseller to see their own Akaun subscriptions, catalogs, for billing purposes.
+
 == Applet Store
 
-The Applet Store is used to view catalogues and download applets to automate the business processes. The customers can choose from over 150 different applets in the store. 
+The Applet Store is used to view catalogues and download applets to automate the business processes. The customers can choose from over 150 different applets in the store. It also allows the viewing of catalogs and download applets.
+
+== Autocount Applet
+
+Meant to export and integration with AutoCount
 
 == Bank Reconcilation Applet
 
 The fundamental activity of the applet involves matching of individual transactions reported from the bank (via statement or detailed activity report) against relevant internal data (typically the GL) to ensure that all information recorded by the bank is accurate and accounted for in the business’ finance system. 
 
+== Basic Sales Invoice Report
+
+Monthly Sales Invoice analysis report by Item and Branch, to show analysis of monthly sales, sales analysis by document report, to show analysis of sales by document type, top bottom sales ranking report, to show the top/bottom ranking sales by agent, item, debtor and location, product sales qty report.
+
+== Basic Sales Order Report
+
+Monthly Sales Order analysis report by Item and Branch, to show analysis of monthly sales, sales analysis by document report, to show analysis of sales by document type, top bottom sales ranking report, to show the top/bottom ranking sales by agent, item, debtor and location, product sales qty report
+
 == Bill of Material (BOM) Applet
 
 The applet calculates raw material usage and cost accounting.
+
+== Billing Note Applet
+
+Able to combine multiple invoice into one billing note.
 
 == Blanket Purchase Order Applet
 
@@ -31,9 +55,25 @@ The Applet is used for suppliers to deliver goods or services with a set price o
 
 This applet is used to configure and manage the Cashbook and the Settlement method. For example, add an updated settlement method to the cash book which is configured with tax, charges and payment methods. This applet also can help the users to record the error of the settlement method (payment provider error). There are two modules in the applet which are Cash book, and settlement Method. 
 
+== Cash Flow Statement Applet
+
+To view and print cash flow statement.
+
+== Car Workshop Applet
+
+For consultation, pre-inspection, checklists, service or repair list Issue quotation, job sheet, purchase non-stock, invoices and receipts for consultations.
+
 == Chart of Account Applet
 
 This applet is used to Configure and manage the list of Chart of account and fiscal year of the companies. There are six modules in the applet which are Chart of account, GL Category, GL Code, Companies, Set of Books and Fiscal year.
+
+== Claim Applet
+
+Staff submitting claims - to view and print listing of claims made by sales agents, finance reviewing and approving claims - to view and print listing of expenses made by sales agents
+
+== Consignor Purchase Billing Applet
+
+An applet in which the consignee (generally the receiver) pays for shipping charges (including oversize and DIM weight) and Additional Handling Charges; the shipper pays for all other charges.
 
 == CP-Commerce Admin Applet
 
@@ -43,8 +83,16 @@ The main purpose of CP Commerce Admin Applet is to create one or multiple websit
 
 The main purpose of Customer Maintenance Applet is to record customers’ information within a company. This applet could also categorise customers into different categories created for easier reference. Last but not least, by using this applet, users could add credit terms and credit limits to the customers. 
 
+== Debtor and Creditor Report Applet
+
+Outstanding Document Report (Filtering by Gen document without Aggregation), Outstanding Aging Report (Aging wwith Aggregation by Entity), Outstanding Entity Report (With Aggregation by Entity)
+
 == Delivery and Installation Applet
 This applet is used to manage deliveries to customers, and shipments to organisations, tracking all the item details, as well as the details of the recipient. Additional information such as the details of vehicle, driver and many more can be added. The flexibility of the app is also what makes it user friendly, and with the combination of being able to add many details, deliveries and installation can be easily added and referenced.
+
+== Developer Admin Applet
+
+For the third party developers to manage their own vendor account, their own applets etc
 
 == Developer SysAdmin Applet
 
@@ -74,9 +122,21 @@ The applet allows one to have full control over recording employee information a
 
 Entity Maintenance Applet is used to manage and summarise all types of entity, such as customer, Employee, Supplier and merchant. There are 5 modules in the Applet, which are Entity, Entity Category, Customer Category, Employee Category and Supplier category.
 
+== Financial Report Applet
+
+Trial Balance (View and print), Profit and Loss (View and print), Balance Sheets (View and print)
+
 == Fixed Asset Applet
 
 This Applet is used to maintain a disposal value for assets being disposed of, so that Gain/Loss on Asset Disposal Report can be produced, to show the cost, depreciation and net book value report of fixed assets and to view the Gain/Loss on Asset Disposal report.
+
+== Foreign Currency Revaluation Applet
+
+To revaluate all outstanding transactions in foreign currency, and to find out if there is any unrealized gain/loss according to current exchange rate. Each revaluation will auto generate journal entries should there be unrealized gain/loss. The last revaluation rate will be recognised and compared with subsequent revaluation or payments.
+
+== FX applet
+
+Integration with Forex, to pull out the latest rates, and keep track of the historical rates, this is useful for cross country companies
 
 == Group Maintenance Applet
 
@@ -133,6 +193,10 @@ This Applet is used to create, edit or print purchase invoices, cash purchases, 
 
 This applet is used by a business' purchasing department when placing an order with its vendors or suppliers. It could be used to create, edit or print purchase orders. The Internal Good Received Note is used to create, edit or print good received notes.
 
+== Internal Purchase Quotation Applet
+
+This applet is to create quotation to their suppliers.
+
 == Internal Purchase Return Applet
 
 This Applet is used to create, edit or print purchase returns.
@@ -141,9 +205,29 @@ This Applet is used to create, edit or print purchase returns.
 
 This Applet is used to settle off supplier accounts with payment voucher, cash book entries , account receivable, account payable - payments, account payable - deposit entries.
 
+== Internal RMA Applet
+
+Centralised RMA system to manage RMA to Supplier and RMA from Customer
+
+== Internal Sales Credit Note
+
+Account receivable (credit note entry), to create new account receivable credit note entry, to print account receivable credit note listing, account receivable (credit note analysis report), to view analysis report of A/R credit note in columns (according to credit note type)
+
 == Internal Sales Debit Note Applet
 
 The Applet is used to create new account receivable debit note entry, to print account receivable debit note listing, Account receivable - debit note analysis report and finally to view analysis report of A/R debit Note in columns (according to debit note type).
+
+== Internal Sales Goods Issue Note Applet
+
+Stock issue, to record the issuance of stock items (that were taken out from warehouse) for any reason other than sales, to create new stock issue, to print stock issue listing, goods return, to keep the outstanding Goods Received Note updated (so that accurate invoice can later be issued), and to update the stock level as well.
+
+== Internal Sales Goods Received Note Applet
+
+Stock receive, to record the receiving of stock items (that were received into the warehouse) for any reason other than purchase, to create new stock receive, to print stock receive listing Delivery return, to keep the outstanding Delivery Order updated (so that accurate invoice can later be issued), and it will update the stock level as well, to create new delivery return, to print delivery return listing
+
+== Internal Sales Inquiry Applet
+
+This applet is for staffs to record/ create the inquiries from customers. 
 
 == Internal Sales Invoice Applet
 
@@ -152,6 +236,10 @@ This applet is used by a company to communicate to clients about the sums that a
 == Internal Sales Order Applet
 
 The applet allows the users to be able to view sales orders from multiple channels (e-commerce, online marketplaces, UCC, third-party channels), able to manage and process status, able to print Consignment Notes, allows to view customer details, and shipping carriers.
+
+== Internal Sales Proforma Invoice
+
+This applet is for staffs to create proforma invoices to their customer.
 
 == Internal Sales Return Applet
 
@@ -165,9 +253,17 @@ The applet allows full control over the quotation processing, not limited to cre
 
 The Applet shows the list of the shopping carts created and its posting status.
 
-== Internal Supplier Consignment Applet
+== Internal Stock Transfer Applet
 
-The Applet is used for managing the supplier consignment.
+To create a new stock transfer. 
+
+== Internal Supplier Consignment Out Applet
+
+For managing the supplier consignment out
+
+== Internal Supplier Consignment In Applet
+
+For managing the supplier consignment in
 
 == Inventory Item Maintenance Applet
 
@@ -177,6 +273,18 @@ The applet allows the stock control and the breakdown of item master.
 
 The Applet is the simpler version of issue tracker like Jira. Create an issue for those activities that require future follow up and assign to the respective team. Need to send a quotation after chat?
 Create an issue with details and assign it to your sales team for next action!
+
+== Job Sheet Applet
+
+This applet is used to create a document or a page that contains instructions to help an employee do his/her job.
+
+== Ledger and Journal Applet
+
+Journal entry, to create new journal entries, to print journal voucher listing, view transaction summary, to view the summary of transactions by journal type Ledger report, to view the transaction listing of each ledger account, journal of transaction report, to view the transaction listing by journal type
+
+== Manufacturing Operations Applet
+
+Performing job orders, approving and rejecting job orders
 
 == Media Library Applet
 
@@ -200,6 +308,18 @@ The MLM Admin Applet allows you to set the comprehensive multi-level referral sc
 == MSESD Applet
 
 The Applet is used to create and manage MSESD orders.
+
+== Multi PO Applet
+
+This applet allow creation of multiple Purchase Order for various branches in chain stores and franchises.
+
+== MyBilling Applet
+
+For customer to manage their invoices and payment
+
+== MY-SST Applet
+
+Tax type maintenance, to maintain GST/SST/VAT tax types at your own definition
 
 == OCR Applet
 
@@ -229,11 +349,15 @@ The Pricebook Applet is used to set up Promotion, Purchase with Purchase (PWP) a
 
 == Process Maintenance Applet
 
-The applet allows the management and control over the creation of processes and machines (machine linking and Item linking. The applet allows setting the QC specifications and  process linking. 
+The applet allows the management and control over the creation of processes and machines (machine linking and Item linking. The applet allows setting the QC specifications and  process linking.
+
+== Production Planning and Monitoring Applet
+
+Creating and issuing job orders by processes and machines
 
 == Recuring Sales Invoice Applet
 
-The Applet is used for administrators to create recurring sales invoice and set schedulers, also view the recurring invoice reports.
+The Applet is used for administrators to create recurring sales invoice and set schedulers, also view the recurring invoice reports. For administrators to create recurring sales invoice and set schedulers, also view the recurring invoice reports.
 
 == RMA Applet
 
@@ -247,12 +371,32 @@ The applet allows to configure a comprehensive sales commissions scheme. Can be 
 
 The applet allows the complete management of the leads and deals for the business, aimed at automating and organising the internal processes when it comes to customer engagement and onboarding. The users are able to enter information about next and previous follow ups, the customer details, deal probability, amount of spent time, qualification and planning criteria and have a full track of the communication process in one place. 
 
+== Samsung BOPIS GIN Applet
+
+To record stock reservation fm Samsung.
+
+== Samsung BOPIS GRN Applet
+
+To record stock replacement fm Samsung
+
+== Internal Purchase Requisition Applet
+
+To process request of purchases
+
 == Shipping Pricebook Applet
 
 The applet allows to manage and integrate a variety of shipping providers and their pricing scheme per weight or volume metric weight.
 
 == Scheduler Applet
 This applet is used to create and view active processors. CRON Expression will be used to determine the frequency with which a scheduled task triggers an event.
+
+== Setup Assistant Applet
+
+Install sample account book, to guide and help the users to start and explore various parts of BigLedger akaun platform, database guide, applets guide, checking configurations guide, setting up basic chart of accounts guide
+
+== Staff Time Attendance Applet
+
+Develop Android / iOS and make use of AWS Face Recognition to keep track of staff attendance
 
 == Stock Adjustment Applet
 
@@ -261,6 +405,18 @@ The applet allows to view and create stock adjustments by batch/serial and creat
 == Stock Availability Applet
 
 The Applet shows the item stock availability by company or location, CRUD Pricing schemes,  View serial, batch and bin numbers.
+
+== Stock Replenishment Applet
+
+Reorder advice report, to view and print reorder advice reports, setting and Configuration to do stock reordering, configuration of safety stock by location, or based on min / max, or other logic / formulas, reorder quantity, frequency, and many other parameters.
+
+== Stock Reservation Applet
+
+To reserve stock items and reflect in the stock availability
+
+== Stock Sales Report Applet
+
+To key in the value of closing stock at the end of each period. The stock value to be used in financial reports
 
 == Stock Take Applet
 
@@ -294,9 +450,17 @@ The applet allows for consolidating the incoming customer requests from multiple
 
 This applet can help the users manage the vouchers such as creating a voucher, adding rules, images and tickets to them, as well as checking the details of the voucher and cancelling or activating it. There are three types of vouchers which are settlement vouchers, discount vouchers and rewards vouchers. 
 
+== Warehouse Management Applet
+
+This applet is to manage company warehouse (inbound, outbound, space management)
+
 == Webchat (UCC)
 
 The webchat can be installed to your website, to allow the site visitors to chat with your team real-time. The chat feature has proven itself to be an essential success factor when it comes to customer loyalty and lead generation. The cht feature allows your agents to address customer product enquiries, pricing questions and after-sales service requests right on spot!
+
+== Workflow Design Applet
+
+Stock receive, to record the receiving of stock items (that were received into the warehouse), to create new stock receive To print stock receive listing Audit trail report.
 
 
 
