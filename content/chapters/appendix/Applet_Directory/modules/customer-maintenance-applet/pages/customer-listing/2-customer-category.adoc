@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_customer_category]
-= Customer Category
+= 2.2 Customer Category
 
 image::customer-category-mainpage.png[Customer Category Main Page, align = "center"]
 

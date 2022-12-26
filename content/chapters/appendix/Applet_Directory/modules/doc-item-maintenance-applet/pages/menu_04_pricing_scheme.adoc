@@ -1,5 +1,5 @@
 [#h3_doc_item_maintenance_pricing_schemes]
-= Menu 04 - Pricing Schemes
+= 5.0 Pricing Schemes
 
 Once a user clicks on the pricing scheme module it will land on the pricing scheme listing page. The module is used to create the template for pricing that can be also used in transactional applets such as POS, GRN etc. In this module you can only create the template/scheme, the price can be added later for each specific item in the “Item Maintenance” module
 
@@ -15,7 +15,7 @@ image::pricing_scheme_search.png[1440 x 900]
 
 image::ad_search_pricing_scheme.png[1440 x 900]
 
-== Pricing Scheme Create
+== 5.1 Pricing Scheme Create
 
 In order to create Pricing Scheme, user should click on “+” button, once clicked it will open a second container where user can fill up general details on pricing scheme such as:
 
@@ -27,7 +27,7 @@ In order to create Pricing Scheme, user should click on “+” button, once cli
 
 image::pricing_scheme_create.png[1440 x 900]
 
-== Pricing Scheme Edit
+== 5.2 Pricing Scheme Edit
 
 If the user wishes to edit the Pricing Scheme they can click on specific pricing scheme in the listing, once clicked it will redirect to the second container where user can edit remaining information.
 
@@ -39,7 +39,7 @@ There are three tabs included In Pricing Scheme Edit
 
 * Checking 
 
-=== Main Tab
+=== 5.2.1 Main Tab
 
 * Pricing Code - cannot be edited
 
@@ -51,7 +51,7 @@ Status - user able to specify whether the pricing scheme is active or inactive
 
 In addition users may delete the pricing scheme if they wish to. Users may click on the “Remove” button on the bottom.
 
-=== Copy Tab
+=== 5.2.2 Copy Tab
 
 User selects one item from the Pricing list in the drowdown list and makes some amendments to the pricing.
 

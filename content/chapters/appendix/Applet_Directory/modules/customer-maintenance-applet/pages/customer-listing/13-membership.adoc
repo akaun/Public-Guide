@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_membership]
-= Membership
+= 2.13 Membership
 
 image::membership-mainpage.png[Membership Main Page, align = "center"]
 

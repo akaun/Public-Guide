@@ -1,3 +1,0 @@
-[#h3_applet_store_permission_settings]
-= Permission Settings
-

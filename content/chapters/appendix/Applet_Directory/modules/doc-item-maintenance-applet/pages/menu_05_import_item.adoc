@@ -1,5 +1,5 @@
 [#h3_doc_item_maintenance_import_item]
-= Menu 05 - Import Item
+= 6.0 Import Item
 
 Import Item Module is used to mass upload the products using CSV file. This function is especially useful for the user if they have a wide range of products. It could tremendously save your time and absolutely accurate.
  

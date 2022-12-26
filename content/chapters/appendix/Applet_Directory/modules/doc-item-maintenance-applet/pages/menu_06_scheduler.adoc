@@ -1,10 +1,10 @@
 [#h3_doc_item_maintenance_scheduler]
-= Menu 06 - Scheduler
+= 7.0 Scheduler
 Scheduler allows the user to schedule and track the work of the processor. Used to set the start and end date and how often the processer will run.
 
 image::scheduler_listing.png[1440 x 900]
 
-== In order to create Scheduler, user click "+", and will go to the second page. In the details tab - user fills in:
+== 7.1 In order to create Scheduler, user click "+", and will go to the second page. In the details tab - user fills in:
 
 * Scheduler Code 
 * Scheduler Name 
@@ -14,7 +14,7 @@ image::scheduler_listing.png[1440 x 900]
 
 image::scheduler_create_details.png[1440 x 900]
 
-=== Cron Expression tab
+=== 7.1.1 Cron Expression tab
 
 It enables users to schedule tasks to run periodically at a specified date and time. 
 

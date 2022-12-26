@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_websites]
-= Websites
+= 2.0 Websites
 
 The first feature that will be discussed in detailed is the Website Listing feature.
 
@@ -7,7 +7,7 @@ image::website-listing-mainpage.jpg[Website Listing Main Page, align = "center"]
 
 When logging in into the CP Commerce Admin Applet, this is the first page that will be shown to the user, which is the Website Listing page. Then, users could proceed to press the "+" button placed at the top left corner to start creating their own website.
 
-== Details
+== 2.1 Details
 
 image::create-website-1.png[Create Website Page 1, align = "center"]
 
@@ -65,7 +65,7 @@ Restricted View/ Access by Entity
     1. End-customers are restricted from viewing the website
     2. Only allowed users can view the website
 
-== Manage Image
+== 2.2 Manage Image
 
 image::manage-image.png[Manage Image, align = "center"]
 
@@ -75,13 +75,13 @@ image::add-image.png[Add Image, align = "center"]
 
 When users want to post a new image on their website, users need to first choose the image type and choose the files they want to upload, then press add. After the images are uploaded, it will be shown on the main page of your website.
 
-== Digital Signature
+== 2.3 Digital Signature
 
 image::digital-signature.png[Digital Signature, align = "center"]
 
 The "Digital Signature" tab is created for security reasons. Users could set public and private keys. Thus, the information that end-customers or users add in the website is encrypted to protect the privacy of the end-customers or users. After everything is correctly filled, press the save button to update all the information entered. 
 
-== Post Registration Config
+== 2.4 Post Registration Config
 
 image::post-registration-config.png[Post Registration Config, align = "center"]
 
@@ -92,7 +92,7 @@ When users have signed in or create an account in the website, they could assign
 3. Create membership and customer
 4. Create membership without customer
 
-== 3rd Party AUTH CONFIG
+== 2.5 3rd Party AUTH CONFIG
 
 image::3rd-party-auth-config.png[3rd Party AUTH Config, align = "center"]
 
@@ -109,7 +109,7 @@ Google reCaptcha is a security service that protects websites from fraud and abu
 
 Google Analytics is used to help a company identify trends and patterns in how end-customers engage in their website. In this session, a measurement ID is needed.
 
-== Reviews
+== 2.6 Reviews
 
 image::reviews.png[Reviews, align = "center"]
 
@@ -141,7 +141,7 @@ Users will then need to fill in the information shown on each columns which incl
 
 After everything is filled, the rating config system that is created will be shown on the main page.
 
-== Menu List
+== 2.7 Menu List
 
 image::menu-list.png[Menu List, align = "center"]
 
@@ -161,13 +161,13 @@ image::create-menu-list.png[Create Menu List, align = "center"]
     a. Can specify what kind of user menu is shown on the website under the user profile
     b. Menu items under user profile could be varied
 
-== Label List
+== 2.8 Label List
 
 image::label-list.png[Label List, align = "center"]
 
 The "Label List" tab is created to filter the posts that are posted. This could make sure that not every post created is posted on the website. After the label list is created, it will be shown on the main page. 
 
-== Content Category
+== 2.9 Content Category
 
 image::nest-category.png[Create Nest Category, align = "center"]
 
@@ -183,13 +183,13 @@ Press the "Create" button to save all the changes that have been made.
 
 image::create-content-category.png[Create Content Category, align = "center"]
 
-== Posts
+== 2.10 Posts
 
 image::edit-post.png[Edit Post, align = "center"]
 
 Users could press on the "+" sign whenever they want to add a new post on their website. It allows users to create or update new posts of their own branch. Users could also add description and images to make their posts look more eye-catching or professional. Relevant terms and conditions could be applied to the posts as well. 
 
-== Account
+== 2.11 Account
 
 image::account-main-page.png[Account Main Page, align = "center"]
 
@@ -203,7 +203,7 @@ image::unlink-account.png[Unlink Account from Website, align = "center"]
 
 The basic information of the account linked to the website could also be edited by just pressing on the respective accounts.
 
-== Layout Instance
+== 2.12 Layout Instance
 
 image::layout-instance-mainpage.png[Layout Instance Main Page, align = "center"]
 
@@ -219,7 +219,7 @@ image::edit-layout-instance.png[Edit Layout Instance (Nodes), align = "center"]
 2. Arrange the widgets according to the way they want
 3. Could be row, column or widget
 
-== Language, Region and Country
+== 2.13 Language, Region and Country
 
 image::language.png[Language, align = "center"]
 
@@ -229,7 +229,7 @@ image::country.png[Country, align = "center"]
 
 The "Language", "Region" and "Country" tabs are created to support users using different languages, from different regions and countries.
 
-== Voucher Management
+== 2.14 Voucher Management
 
 image::voucher-management-mainpage.png[Voucher Management Main Page, align = "center"]
 

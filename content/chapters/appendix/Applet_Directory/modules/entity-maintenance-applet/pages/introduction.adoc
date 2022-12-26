@@ -1,5 +1,5 @@
 [#h3_entity_maintenance_introduction]
-= Introduction
+= 1.0 Introduction
 
 image::entity_maintenance_applet.png[150,300]
 

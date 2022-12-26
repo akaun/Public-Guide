@@ -1,5 +1,5 @@
 [#h3_im_msesd_order_applet_branch_settings]
-= Branch Settings
+= 5.0 Branch Settings
 
 image::25-BranchSettings-BranchListingPage.png[Branch Listing Page, align = "center"]
 
@@ -9,7 +9,7 @@ Based on the screenshot shown above, the Branch Settings page records the Branch
 
 Then, under the Branch Settings tab, users can read and update the settings of the branches which sell the MS ESD products.
 
-== Edit Branch Settings Page
+== 5.1 Edit Branch Settings Page
 
 image::26-BranchSettings-EditBranchSettings.png[Edit Branch Settings, align = "center"]
 

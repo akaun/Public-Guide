@@ -1,5 +1,5 @@
 [#h2_media_library_introduction]
-= Introduction
+= 1.0 Introduction
 
 
 image::media_library_applet_logo.png[150,300]

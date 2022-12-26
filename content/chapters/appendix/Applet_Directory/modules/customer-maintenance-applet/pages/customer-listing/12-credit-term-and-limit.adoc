@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_credit-term-and-limit]
-= Credit Term and Limit
+= 2.12 Credit Term and Limit
 
 image::credit-term-and-limit-mainpage.png[Credit Term and Limit Main Page, align = "center"]
 

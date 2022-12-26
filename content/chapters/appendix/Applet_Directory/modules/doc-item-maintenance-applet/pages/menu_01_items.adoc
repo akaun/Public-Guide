@@ -1,11 +1,11 @@
 [#h3_doc_item_maintenance_items]
-= Menu 01 - Items
+= 2.0 Items
 
 *Please go to Akaun.com - Doc Item Maintenance* 
 
 image::doc_item_logo.png[]
 
-== ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
+== 2.1 ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
 
 image::items_create.png[1440 x 900]
 
@@ -41,7 +41,7 @@ The screenshot above shows the mandatory fields that the user has to fill (excep
 
 Once all required fields are filled up, user can press on CREATE, so the item will be saved into database and can be proceed to be edited
 
-== ITEMS EDIT
+== 2.2 ITEMS EDIT
 
 image::item_edit.png[1440 x 900]
 
@@ -71,7 +71,7 @@ Once the user creates an Item, it will appear in the listing. When the user want
 
 The information provided can be used in transactional Applets. Please take note that additional tabs may appear if the user chooses Grouped or Bundle as Item type
 
-=== MAIN TAB
+=== 2.2.1 MAIN TAB
 
 image::main_details_tab.png[1440 x 900]
 
@@ -101,7 +101,7 @@ This Tab consists of general Item information such as:
 
 ** Summary - shows who created the item or who updated the item, also shows the date modified and created
 
-=== ITEM CATEGORY
+=== 2.2.2 ITEM CATEGORY
 
 Item category tab is used to link a category to the item. Categories can be created in the  “Category” module.
 
@@ -111,7 +111,7 @@ In order to add the category click “+”. Once clicked the 3rd container with 
 
 image::add_category.png[1440 x 900]
 
-=== TAX TAB
+=== 2.2.3 TAX TAB
 
 image::tax_tab.png[1440 x 900]
 
@@ -122,13 +122,13 @@ If tax is applicable the user can tick the checkbox. Once ticked the the tax inf
 * Input Tax
 * Withholding tax
 
-=== DIMENSION DETAILS TAB
+=== 2.2.4 DIMENSION DETAILS TAB
 
 Product dimentions to fill in
 
 image::dimension_details_tab.png[1440 x 900]
 
-=== MULTI UOM TAB
+=== 2.2.5 MULTI UOM TAB
 
 This module allows to stock items with multiple units of measurement, UOM auto conversion, and multiple UOM reports that can be later used in transactional applets, sample of Multi UOM;
 
@@ -153,7 +153,7 @@ image::multi_uom_tab.png[1440 x 900]
 
 * Sort-Code - The sort code helps identify the hierarchy of the UOM from the smallest to largest starting from 001. For example pill would be 001 followed by carton which would be 002 and finally box which would be 003.
 
-=== BRANCH LINKING
+=== 2.2.5 BRANCH LINKING
 
 Used to link specific branches. This function will be used in all transactional applets. for example if a user links branch A and B then only these respective branches will be able to see the selected item in the POS applet. Branches can be created in the Organization applet.
 
@@ -163,7 +163,7 @@ In Order to add a branch click “+”. Once clicked it will open a 3rd containe
 
 image::branch_add.png[1440 x 900]
 
-=== COMPANY LINKING
+=== 2.2.6 COMPANY LINKING
 
 Used to link companies. Companies can be created in the Organization applet. When linking a company the item will be visible for all branches that are under the chosen Company.
 
@@ -175,7 +175,7 @@ image::company_add.png[1440 x 900]
 
 Note: if the user links company A and it has been linked to 5 BRANCHES but in Branch linking TAB the user only chooses 2 branches, then the item will be visible to ALL BRANCHES THAT IS LINKED UNDER THE COMPANY. If the user wants to link only specific branches then it needs to be chosen in the BRANCH LINKING TAB ONLY and COMPANY LINKING should remain empty.
 
-=== PNS SETTLEMENT METHOD TAB
+=== 2.2.7 PNS SETTLEMENT METHOD TAB
 
 PNS Settlement Method module is used to link Product to PNS (Products and Services) Settlement Method.
 
@@ -189,7 +189,7 @@ In Order to add a Settlement Method click “+”. Once clicked it will open a 3
 
 image::settlement_method_linking.png[1440 x 900]
 
-=== PRICING SCHEME
+=== 2.2.8 PRICING SCHEME
 
 The Pricing Scheme template is added in the PRICING SCHEME module, in this tab users can add a unit price for existing pricing scheme templates. Once added this information can be used in transactional applets.
 
@@ -199,7 +199,7 @@ In Order to edit the price, click the item and it will open 3rd container for us
 
 image::Item_price_edit.png[1440 x 900]
 
-=== MANAGE IMAGE TAB
+=== 2.2.9 MANAGE IMAGE TAB
 
 This tab is used to add and categorize images based on its type for example main image, promotional image or additional image. Users may update the period of the images they are going to be using as a reference, it has no functionality. Images may also be used in Ecomsync applet, CP Commerce applet and transactional applets such as POS and GRN. However, the date is only for user reference and is not meant to perform any actions.
 
@@ -220,7 +220,7 @@ Image type is based on ecommerce requirements. There are three image types such 
 
 image::image_category_add.png[1440 x 900]
 
-=== ENTITY PRICING
+=== 2.2.10 ENTITY PRICING
 
 Entity Pricing module is used to set the price for the Product depending on the Entity. For instance: A single product's price is individual for different Entities.
 
@@ -243,7 +243,7 @@ After selecting the Entity, click on the Item and it will automatically leads th
 image::select_entity_add.png[1440 x 900]
 
 
-=== T2T ITEM MAPPING TAB
+=== 2.2.11T2T ITEM MAPPING TAB
 
 Tenant to Tenant Item Mapping module is used to map Companies, Product Codes and Names in order to sync transactions
 
@@ -265,7 +265,7 @@ In order to do the mapping, click "+" button, it will lead the user to the new p
 image::tenant_mapping.png[1440 x 900]
 
 
-=== MARKETPLACE TAB
+=== 2.2.12 MARKETPLACE TAB
 
 Marketplace Tab is used to list the products on multiple marketplaces. So the user can sell one product in various stores.
 
@@ -295,13 +295,13 @@ image::marketplace_url.png[1440 x 900]
 
 image::stock_availability_tab.png[1440 x 900]
 
-=== ATTRIBUTE SET TAB
+=== 2.2.13 ATTRIBUTE SET TAB
 
 Attribute sets can be defined as a list of attributes where all the characteristics of a product are demonstrated.
 
 image::attribute_set_tab.png[1440 x 900]
 
-=== PAGES TAB
+=== 2.2.14 PAGES TAB
 
 When user click on the plus button, it will create a Post with Draft status and untitled post. 
 
@@ -311,7 +311,7 @@ User should click the created post in order To edit the status and the name of t
 
 image::pages_edit_main.png[1440 x 900]
 
-=== REVIEWS TAB
+=== 2.2.15 REVIEWS TAB
 
 Review tab allows User or an Admin to configure reviews, settings, and votes for an item
 

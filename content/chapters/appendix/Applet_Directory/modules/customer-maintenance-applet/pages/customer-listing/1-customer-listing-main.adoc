@@ -1,11 +1,11 @@
 [#h3_customer_maintenance_customer_listing]
-= Customer Listing
+= 2.0 Customer Listing
 
 image::customer-listing-mainpage.png[Customer Listing Main Page, align = "center"]
 
 When logging in into the Customer Maintenance Applet, this is the first page that will be shown to the user, which is the Customer Listing page. Then, users could proceed to press the "+" button placed at the top left corner to start creating a customer profile.
 
-== Main
+== 2.1 Main
 
 image::create-customer.png[Create Customer, align = "center"]
 

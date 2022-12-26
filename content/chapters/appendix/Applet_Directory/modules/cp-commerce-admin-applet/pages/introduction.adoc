@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_introduction]
-= Introduction
+= 1.0 Introduction
 
 image::cp_commerce_admin_applet.png[150,300]
 

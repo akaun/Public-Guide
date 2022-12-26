@@ -1,12 +1,12 @@
 [#h3_internal_stock_adjustment_applet_view_stock_adjustment]
-= View Stock Adjustment
+= 3.0 View Stock Adjustment
 
-== 2.1. In the Stock Adjustment Listing
+== 3.1 In the Stock Adjustment Listing
 * Please click on a row of the stock adjustment.
 
 image::StockAdjustmentListing-2.png[align="center"]
 
-=== 2.1.1 In the Main Tab of View Stock Adjustment
+=== 3.1.1 In the Main Tab of View Stock Adjustment
 * Details of the selected stock adjustment will be displayed.
 ** Branch
 ** Location
@@ -18,7 +18,7 @@ image::StockAdjustmentListing-2.png[align="center"]
 
 image::ViewStockAdjustment-Main.png[align="center"]
 
-=== 2.1.2 In the Line Items Tab of View Stock Adjustment
+=== 3.1.2 In the Line Items Tab of View Stock Adjustment
 * Details of the selected line items will be displayed.
 * Quantity for line items of the  stock adjustment is displayed.
 * This is only for view purposes, all the fields are not editable.

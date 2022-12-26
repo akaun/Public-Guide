@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_item_pricing]
-= Item Pricing
+= 2.10 Item Pricing
 
 image::item-pricing-mainpage.png[Item Pricing Main Page, align = "center"]
 

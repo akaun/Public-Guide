@@ -1,5 +1,5 @@
 [#h3_internal_receipt_voucher_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::internal_receipt_voucher_applet_logo.png[150,300]
 

@@ -1,7 +1,7 @@
 [#h3_doc_item_maintenance_categories]
-= Menu 03 - Categories
+= 4.0 Categories
 
-== Category module is used to create categories, as well as nest category that can be linked to an Item in Item maintenance Module.
+== 4.1 Category module is used to create categories, as well as nest category that can be linked to an Item in Item maintenance Module.
 When user land in Category Listing, they will see the AG-Grid listing of all categories that has been created
 
 image::categories_listing.png[1440 x 900]
@@ -14,7 +14,7 @@ Pagination Row can be customized based on user’s preference as shown in screen
 
 image::pagination_row.png[1440 x 900]
 
-== Create Category
+== 4.2 Create Category
 
 When user wants to create new category for an item they can go to “Category Module”. then user must click on “+” it will redirect to the 2nd container where user must fill up required filed. Category will make it easier for user to search specific group of items either in Doc Item Maintenance or in transactional applets.
 
@@ -34,11 +34,11 @@ There are two mandatory fields in when creating category which are:
 
 ** Nested Category = Iphone
 
-== Edit Category
+== 4.3 Edit Category
 
 When user wants to edit existing category they may click on any of specific category in the listing. Once clicked it will open second container with Category details. There are two tabs when editing Category which are:
 
-=== Main Tab
+=== 4.3.1 Main Tab
 
 This tab shows basic information on the category that was filled up when creating the category.
 
@@ -70,7 +70,7 @@ These are the fields in the main tab:
 
 ** Modified Date
 
-=== Manage Image Tab
+=== 4.3.2 Manage Image Tab
 
 CP Commerce displays product categories for easy referral for customers. Users can use the Manage Image Tab in the Doc Item Maintenance applet to upload relevant category images. Upon clicking on categories, the user will be shown all relevant products under said categories. 
 
@@ -82,7 +82,7 @@ These are the fields in the main tab:
 
 image::manage_add_image.png[1440 x 900]
 
-=== Manage Item Tab
+=== 4.3.3 Manage Item Tab
 
 Users can use the Manage Item Tab in the Doc Item Maintenance applet to upload relevant category items. Upon clicking on categories, the user will be shown all relevant products under said categories. 
 
@@ -92,7 +92,7 @@ When users want to add item, they  click on “+” button, once clicked the sec
 
 image::manage_items_add.png[1440 x 900]
 
-=== Login Tab
+=== 4.3.4 Login Tab
 
 Please click the "Add" button to create a new login.
 

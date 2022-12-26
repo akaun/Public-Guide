@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_branch]
-= Branch
+= 2.8 Branch
 
 The "Branch" tab allows users to add customers into separate branches that are created to the list shown on the main page. Press on the "+" sign to add a new branch to the customers. 
 

@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_address]
-= Address
+= 2.6 Address
 
 image::address-mainpage.png[Address Main Page, align = "center"]
 

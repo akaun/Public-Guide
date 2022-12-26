@@ -1,13 +1,13 @@
 [#h3_create_category]
-= Create Category
+= 4.0 Create Category
 
-== Category Listing
+== 4.1 ategory Listing
 
 image::Category_Listing.png[Category Listing, align = "center"]
 
 Next, we will look into the “Category” module. Upon clicking on the “Category” module, users will see the Category Listing showing all the categories of employees.
 
-== Create New Category
+== 4.2 Create New Category
 
 To create a new Category, click on the ‘+’ button.
 

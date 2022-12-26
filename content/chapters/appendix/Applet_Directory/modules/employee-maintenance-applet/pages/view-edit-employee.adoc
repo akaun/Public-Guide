@@ -1,5 +1,5 @@
 [#h3_view_edit_employee]
-= View and Edit Employee
+= 3.0 View and Edit Employee
 
 image::New_Employee_Created.png[New Employee Created, align = "center"]
 
@@ -22,25 +22,25 @@ Under Employee Edit, there are 12 tabs which are:
 
 Users can edit and add in more detailed information of the employee under each tab.
 
-== Main
+== 3.1 Main
 
 image::Employee_Edit-Main.png[Employee Edit Main, align = "center"]
 
 There are some additional fields in the Main tab when editing the employee. Users can fill up the employee’s phone number and email here. There are also the Creation By, Modified By, Creation Date and Modified Date fields. If users want to delete this employee, simply click on the “Remove” button.
 
-== Category
+== 3.2 Category
 
 image::Employee_Edit-Category.png[Employee Edit Category, align = "center"]
 
 Under the Category tab, users can select a category which the employee belongs to. To add a Category for the employee, users can click on the ‘+’ button and select from a list of categories. Users can select multiple categories for an employee.
 
-== Login
+== 3.3 Login
 
 image::Employee_Edit-Login.png[Employee Edit Login, align = "center"]
 
 Under the Login tab, users can create logins for the employee. Users need to enter a valid email address and click on the “Verify Email” button for the employee to verify the email. The rank will be default to ‘MEMBER’ however users can select other ranks (OWNER, ADMIN, MANAGER, GUEST, VISITOR and ANONYMOUS). The status of the employee is default to ‘ACTIVE’ but users can switch it to ‘INACTIVE’ in future.
 
-== Payment Config
+== 3.4 Payment Config
 
 image::Employee_Edit-PaymentConfig.png[Employee Edit Payment Config, align = "center"]
 
@@ -58,49 +58,49 @@ There are 9 fields for the user to fill up:
 8. IBN Number
 9. Account Expiry
 
-== Tax
+== 3.6 Tax
 
 image::Employee_Edit-Tax.png[Employee Edit Tax, align = "center"]
 
 For employee’s tax, users can go to the Tax tab. Firstly, users will have to select the “Country” the employee is in. The “Tax Type” will follow the country selected. After selecting the country and tax type, users should select a “Tax Code” and “Tax Rate”. Lastly, at the “Tax Option” field, users have the option to select either to ‘INCLUDE TAX’ or ‘EXCLUDE TAX’.
 
-== Address
+== 3.7 Address
 
 image::Employee_Edit-Address.png[Employee Edit Address, align = "center"]
 
 To add an address for the employee, users can go to the Address tab to create a new address for the employee. After filling up all the address fields, if the user wants to set the address as default address for the employee, he/she can click on the “Set as default” checkbox at the bottom.
 
-== Contact
+== 3.8 Contact
 
 image::Employee_Edit-Contact.png[Employee Edit Contact, align = "center"]
 
 Under the Contact tab, users can fill in more contact details for the employee. Here, users can create the employee’s Contact Name, Contact ID, Designation/Position, Office No, Extension No, Mobile No, Fax No, Phone Number, Email and Other No. The fields which are compulsory are Contact Name, Contact ID, Designation/Position and Mobile No.
 
-== Branch
+== 3.9 Branch
 
 image::Employee_Edit-Branch.png[Employee Edit Branch, align = "center"]
 
 To select which branch the employee is working under, users can go to the Branch tab. There will be a list of branches displayed and users can select multiple branches for the employee if the employee is working at more than one branch. Upon selecting the branch(es), click on the “Add” button to add the branch to the employee.
 
-== Company Linking
+== 3.10 Company Linking
 
 image::Employee_Edit-CompanyLinking.png[Employee Edit Company Linking, align = "center"]
 
 Under the Company Linking tab, users can link the employee to more than one company. Users can select the companies from a list of companies and click on the “Add” button upon completion.
 
-== Remark
+== 3.11 Remark
 
 image::Employee_Edit-Remark.png[Employee Edit Remark, align = "center"]
 
 Under the Remark tab, users can add in any remarks for the employee. There are also functionalities for the user to format the text of the remarks.
 
-== Account Manager
+== 3.12 Account Manager
 
 image::Employee_Edit-AccountManager.png[Employee Edit Account Manager, align = "center"]
 
 Under the Account Manager tab, users can select entities to be the account managers of the employee. Upon clicking the ‘+’ button, there will be a list of entities for the users to select as the account managers.
 
-== Spending Limit
+== 3.13 Spending Limit
 
 image::Employee_Edit-SpendingLimit.png[Employee Edit Spending Limit, align = "center"]
 

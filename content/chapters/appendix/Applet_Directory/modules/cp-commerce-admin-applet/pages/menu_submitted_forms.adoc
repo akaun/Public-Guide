@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_submitted_forms]
-= Submitted Forms
+= 7.0 Submitted Forms
 
 image::submitted-form-mainpage.png[Submitted Form Main Page, align = "center"]
 

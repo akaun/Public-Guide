@@ -1,5 +1,5 @@
 [#h3_im_msesd_order_applet_company_settings]
-= Company Settings
+= 4.0 Company Settings
 
 In order for the users to purchase items from a related company and branch, the owner and admin users of the MSESD Applet must first configure the credentials of the company and branch using the Organization Applet. By doing that, the options of the particular company and branch will appear under the Main tab in the Create MS ESD Order page. Then, users can edit the configurations of the company and branch under the Applet Settings of the MSESD Applet. 
 
@@ -9,7 +9,7 @@ Under the Applet Settings tab, the Company Settings page shows the information o
 
 Based on the screenshot shown above, the Company Settings page records the Company Code, Company Name, Company Registration Number, Description, Status, Creation Date and Modified Date of a company.
 
-== Main Tab
+== 4.1 Main Tab
 
 image::22-CompanySettings-UpdateMainTab1.png[Update Main Tab, align = "center"]
 
@@ -32,7 +32,7 @@ Under the Main tab of the Edit Company Settings page, users can read the credent
 
 Users can update the credentials of the company by editing the company information under the Main tab and then click on the “UPDATE” button to save all the changes.
 
-== Email Template Tab
+== 4.2 Email Template Tab
 
 image::24-CompanySettings-EmailTemplateTab.png[Email Template Tab, align = "center"]
 

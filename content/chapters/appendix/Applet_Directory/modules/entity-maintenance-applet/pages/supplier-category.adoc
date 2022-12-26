@@ -1,5 +1,5 @@
 [#h3_entity_maintenance_applet_supplier_category]
-= Supplier Category
+= 5.0 Supplier Category
 
 Please click on "Supplier Category" from the module list and click the "+"" button to create a new Supplier Category.
 Supplier categories created in Supplier maintenance applet will be listed here as well.

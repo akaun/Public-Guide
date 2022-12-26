@@ -1,11 +1,11 @@
 [#h3_internal_stock_adjustment_applet_create_stock_adjustment]
-= Create Stock Adjustment
+= 2.0 Create Stock Adjustment
 
-== 1.1. Please click the ‘+’ button to add a new stock adjustment.
+== 2.1 Please click the ‘+’ button to add a new stock adjustment.
 
 image::StockAdjustmentListing-1.png[align="center"]
 
-== 1.1.1 In the Main Tab
+== 2.2 In the Main Tab
 Please fill up the compulsory (*) information for creating the stock adjustment. Compulsory Information:
 
 * Branch - Add new branch in Organization Applet
@@ -22,18 +22,18 @@ image::CreateStockAdjustment-Main-1.png[align="center"]
 
 image::CreateStockAdjustment-Main-2.png[align="center"]
 
-=== 1.1.2 In the Line Items Tab
-==== 1.1.2.1 Please click the ‘+’ button to add a new line item.
+=== 2.2.1 In the Line Items Tab
+==== 2.2.1.1 Please click the ‘+’ button to add a new line item.
 
 image::CreateStockAdjustment-LineItems-1.png[align="center"]
 
-==== 1.1.2.2 Select Inventory Item
+==== 2.2.2.2 Select Inventory Item
 * Please click on the item that you want to add.
 * All the Inventory Items are created from the Inv Item Maintenance Applet.
 
 image::SelectInventoryItem.png[align="center"]
 
-===== 1.1.2.2.1 In the Main Tab of Inventory Item Details
+===== 2.2.2.3 In the Main Tab of Inventory Item Details
 * After clicking on an item, the details of the selected Inventory Item will be displayed.
 ** Item Code
 ** Item Name
@@ -44,7 +44,7 @@ image::SelectInventoryItem.png[align="center"]
 image::InventoryItemDetails-Main.png[align="center"]
 
 
-===== 1.1.2.2.1 In the Stock Adjustment Tab of Inventory Item Details
+===== 2.2.2.4 In the Stock Adjustment Tab of Inventory Item Details
 * Users can click on the Quantity field to increase or decrease the quantity of the selected item.
 * Other Fields are not editable except for “Remarks”.
 * After you have confirmed the quantity, please click on the Add Button to add the quantity to the selected item.
@@ -58,7 +58,7 @@ image::InventoryItemDetails-StockAdjustment-2.png[align="center"]
 
 image::CreateStockAdjustment-LineItems-2.png[align="center"]
 
-===== 1.1.2.3 Change Posting Status
+===== 2.2.3.5 Change Posting Status
 * After creating the Stock Adjustment, the Posting Status will show as DRAFT.
 * You can click on the “tick” box and click on the FINAL button to make the Posting Status from DRAFT to FINAL.
 * The Posting Status has changed to FINAL.

@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_spending_limit]
-= Spending Limit
+= 8.0 Spending Limit
 
 image::spending-limit-mainpage.png[Spending Limit Main Page, align = "center"]
 

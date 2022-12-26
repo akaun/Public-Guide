@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_login]
-= Login
+= 2.3 Login
 
 image::login-mainpage.png[Login Main Page, align = "center"]
 

@@ -1,7 +1,7 @@
 [#h3_cashbook_applet_cashbook_listing]
-= Cashbook Listing
+= 2.0 Cashbook Listing
 
-== Cashbook
+== 2.1 Cashbook
 
 Please click the "+" button to Create a new Member.
 
@@ -23,7 +23,7 @@ After adding the Cashbook, it will be listed in the main page. Please click on t
 
 You can edit the details, triggers & limits and members of the cashbook.
 
-=== Details
+=== 2.1.1 Details
 
 In details tab, the following information can be edited:
 
@@ -44,7 +44,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the cashbook from the cashbook listing.
 
-=== Triggers & Limits
+=== 2.1.2 Triggers & Limits
 
 In the triggers & limits tab, you can add triggers and limits to the cashbook. The following information can be edited:
 
@@ -59,7 +59,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the Triggers & Limits from the cashbook.
 
-=== Members 
+=== 2.1.3 Members 
 
 In the members tab, you can add members to the cashbook. 
 
@@ -83,7 +83,7 @@ Only status can be edited. After updating the status, please click "save".
 
 Please click "delete" to remove the member from the cashbook.
 
-=== Weightage Configuration
+=== 2.1.4 Weightage Configuration
 
 In the weightage configuration tab, you can add weightage configuration to the cashbook. 
 

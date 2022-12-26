@@ -1,7 +1,7 @@
 [#h3_cp_commerce_admin_activities]
-= Activities
+= 10.0 Activities
 
-== Calendars
+== 10.1 Calendars
 
 image::calendar-mainpage.png[Calendar Main Page, align = "center"]
 
@@ -25,7 +25,7 @@ image::edit-calendar-members.png[Edit Calendar (Members), align = "center"]
 
 The “Members” tab allows users to add members so that the members added could have the details to the calendar created.
 
-== Events
+== 10.1 Events
 
 image::event-listing-mainpage.png[Events Listing Main Page, align = "center"]
 
@@ -83,7 +83,7 @@ image::events-posts-mainpage.png[Posts Main Page, align = "center"]
 
 The “Posts” tab allows users to upload relevant posts that are linked to the new event created. Users could add posts by just pressing on the “+” button.
 
-== Scheduler
+== 10.2 Scheduler
 
 image::scheduler-mainpage.png[Scheduler Main Page, align = "center"]
 

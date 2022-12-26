@@ -1,5 +1,5 @@
 [#h3_shopping-cart-applet_features]
-= Features
+= 2.0 Features
 
 == 2.1 Main Page
 

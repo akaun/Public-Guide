@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_rating_configuration]
-= Rating Configuration
+= 5.0 Rating Configuration
 
 image::rating-configuration-mainpage.png[Rating Configuration Listing Main Page, align = "center"]
 

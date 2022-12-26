@@ -1,5 +1,5 @@
 [#h3_entity_maintenance_applet_customer_category]
-= Customer Category
+= 4.0 Customer Category
 
 Please click on "Customer Category" from the module list and click the "+" button to create a new Customer Category.
 

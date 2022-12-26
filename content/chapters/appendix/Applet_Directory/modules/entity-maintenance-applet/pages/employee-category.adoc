@@ -1,5 +1,5 @@
 [#h3_entity_maintenance_applet_employee_category]
-= Employee Category
+= 5.0 Employee Category
 
 Please click on "Employee Category" from the module list and click the "+" button to create a new Employee Category.
 

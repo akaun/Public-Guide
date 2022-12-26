@@ -1,9 +1,6 @@
 [#h2_cp_commerce_admin_applet]
 = CP Commerce Admin Applet
 
-
-
-
 include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/menu_websites.adoc[leveloffset=3]
@@ -24,21 +21,6 @@ include::pages/menu_blocked_customers.adoc[leveloffset=3]
 
 include::pages/menu_activities.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
-
-include::pages/permission_settings.adoc[leveloffset=3]
-
-include::pages/personalization_settings.adoc[leveloffset=3]
-
-
-
-include::pages/related_applets.adoc[leveloffset=3]
-
-include::pages/pricing.adoc[leveloffset=3]
-
-include::pages/release_note.adoc[leveloffset=3]
-
-include::pages/roadmap.adoc[leveloffset=3]
 
 
 

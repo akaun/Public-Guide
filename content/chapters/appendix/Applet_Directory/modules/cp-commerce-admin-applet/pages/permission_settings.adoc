@@ -1,3 +1,0 @@
-[#h3_cp_commerce_admin_permission_settings]
-= Permission Settings
-

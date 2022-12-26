@@ -1,5 +1,5 @@
 [#h3_group_maintenance_group_listing]
-= Group Listing
+= 3.0 Group Listing
 
 Please click the "+" button to add a new group.
 

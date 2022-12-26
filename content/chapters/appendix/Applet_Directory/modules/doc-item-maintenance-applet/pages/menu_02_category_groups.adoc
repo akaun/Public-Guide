@@ -1,11 +1,11 @@
 [#h3_doc_item_maintenance_category_groups]
-= Menu 02 - Category Groups
+= 3.0 Category Groups
 
 Every category is linked to the Category Group. Category Group Tab is used for organizing categories.
 
 image::category_group.png[1440 x 900]
 
-== Category Group Create
+== 3.1 Category Group Create
 
 In Order to create a Category group, click “+” button. It will open 3rd container for users to create category group. 
 
@@ -20,31 +20,31 @@ These are the fields in the main tab to fill in:
 
 image::category_group_create.png[1440 x 900]
 
-== Category Group Edit
+== 3.2 Category Group Edit
 
 To edit existing category group users  click on any of specific category group in the listing. Once clicked it will open second container with Category Group details. There are two tabs when editing Category Group which are:
 
-=== Main Tab
+=== 3.2.1 Main Tab
 
 This tab shows the information on the category that was filled up when creating the category. Users edit or delete the Category Group in this tab.
 
 image::category_group_edit.png[1440 x 900]
 
-=== Categories 
+=== 3.2.2 Categories 
 
 Categories Tab where the listing of linked categories is shown. Users can manage the categories in this tab. 
 
 image::cat_group_categories.png[1440 x 900]
 
-== In order to add the category to the group users click "+" and create new item.
+== 3.3 In order to add the category to the group users click "+" and create new item.
 
 image::item_cat_create.png[1440 x 900]
 
-== Users edit or delete the categories which linked to the group in this Item Category Edit tab
+== 3.4 Users edit or delete the categories which linked to the group in this Item Category Edit tab
 
 image::item_cat_edit.png[1440 x 900]
 
-== Category Images can be uploaded or editted in the Manage Image tab. 
+== 3.5 Category Images can be uploaded or editted in the Manage Image tab. 
 
 image::cat_add_image.png[1440 x 900]
 

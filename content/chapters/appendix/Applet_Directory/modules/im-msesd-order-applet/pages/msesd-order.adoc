@@ -1,7 +1,7 @@
 [#h3_im_msesd_order_applet_order]
-= IM MSESD Order 
+= 2.0 IM MSESD Order 
 
-== MSESD Order Listing
+== 2.1 MSESD Order Listing
 
 image::2-MSESD-Order-Listing-1.png[MSESD Order Listing, align = "center"]
 
@@ -36,13 +36,13 @@ The Actions column enables users to perform certain operations on the orders. Th
 
 The details of these columns and actions will be explained in detail when we create the MS ESD order below.
 
-== Drafr A MSESD Order
+== 2.2 Drafr A MSESD Order
 
 Firstly, users have to click on the “+” button in the MS ESD Order Listing page as shown in the screenshot below to begin the creation of a MS ESD order. After clicking on the “+” button, users will be directed to the Create MS ESD Order page. 
 
 image::4-CreateMSESD_Order-MainTab.png[Create MSESD Order Main Tab, align = "center"]
 
-=== Main Tab
+=== 2.2.1 Main Tab
 
 Under the Main tab, users have to provide the information of the company branch and supplier which they would like to purchase items from. The essential information of the branch and supplier are described below: 
 
@@ -57,7 +57,7 @@ Under the Main tab, users have to provide the information of the company branch 
 Users can click on the “RESET” button to remove all the input information and refill the columns with new information.
 
 
-=== Line Items
+=== 2.2.2 Line Items
 
 image::5-LineItemsTab-LoadTheItems.png[Load The Items, align = "center"]
 
@@ -97,7 +97,7 @@ Then, the applet will generate a MS ESD order number for that particular order. 
 The status of the order will be set as Draft.
 
 
-=== Fulfillment Details
+=== 2.2.3 Fulfillment Details
 
 After drafting the MS ESD order, users have to provide the fulfillment details of that order. Users have to click on the particular MS ESD order record in the MS ESD Order Listing page. Then, they have to navigate to the Fulfillment Details tab of the page.
 
@@ -113,7 +113,7 @@ Under the Fulfillment Details tab, users have to fill in the contact information
 
 Then, users click on the “SAVE” button to save all the changes. 
 
-== Update or Delete a Drafted MSSED Order
+== 2.3 Update or Delete a Drafted MSSED Order
 
 In order to update or delete a particular MS ESD order record, users have to click on that particular record shown in the MS ESD Order Listing page. By doing that, the MS ESD Order Details page will appear from the right.
 
@@ -125,9 +125,9 @@ Then, users can proceed to update the item information in the Line Items tab of 
 
 In order to delete a drafted MS ESD order, users have to click on the “DELETE” button to delete the order. Orders that are deleted will be removed from the MS ESD Order listing page.
 
-== Alter the Status of Order
+== 2.4 Alter the Status of Order
 
-=== Create The Order
+=== 2.4.1 Create The Order
 
 image::13-Actions-CreateAnOrder.png[Create An Order, align = "center"]
 
@@ -141,7 +141,7 @@ After creating the order, every product in the order will be assigned a unique p
 
 Firstly, users have to click on the particular MS ESD order record in the MS ESD Order Listing page. Then, users have to navigate to the Line Items tab. Then, users click on the product record. By doing that, the product key of the selected product will be shown. From there, they can observe the product key for that item in that order.
 
-=== Fulfil The Order
+=== 2.4.2 Fulfil The Order
 
 image::15-Actions-FulfillAnOrder.png[Fulfill An Order, align = "center"]
 
@@ -151,19 +151,19 @@ When the order is fulfilled, the order will be given a GRN number. Users can cli
 
 The order that is fulfilled cannot be deleted. 
 
-=== Send A Message
+=== 2.4.3 Send A Message
 
 image::17-Actions-SendSMS.png[Send SMS, align = "center"]
 
 Next, users can click on the SMS (Messaging) icon to send a message to the relevant customers who purchase the particular Microsoft product. The message body will be set by the senders.
 
-=== Send An Email
+=== 2.4.4 Send An Email
 
 image::18-Actions-SendEmail.png[Send Email, align = "center"]
 
 Next, users can click on the Email icon to send an email to the relevant customers who purchase the particular Microsoft product. The email body will be set by the senders.
 
-== Events Tab
+== 2.5 Events Tab
 
 image::19-EventsTab.png[Events Tab, align "center"]
 

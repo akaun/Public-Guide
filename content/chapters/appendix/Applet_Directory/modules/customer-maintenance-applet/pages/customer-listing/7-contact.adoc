@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_contact]
-= Contact
+= 2.7 Contact
 
 image::contact-mainpage.png[Contact Main Page, align = "center"]
 

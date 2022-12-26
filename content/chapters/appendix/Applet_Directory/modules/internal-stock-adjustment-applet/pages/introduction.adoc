@@ -1,5 +1,5 @@
 [#h3_internal_stock_adjustment_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::stock_adjustment_applet_logo.png[align="center"]
 

@@ -1,11 +1,11 @@
 [#h3_customer_maintenance_customer_category_listing]
-= Customer Category Listing
+= 3.0 Customer Category Listing
 
 image::customer-category-listing-mainpage.png[Customer Category Listing Main Page, align = "center"]
 
 The second icon on the left menu bar is the "Category Listing" tab which allows users to create a new category or edit an existing category. The lists shown are the categories that have been created before. Users could press the "+" button to create a brand new category. 
 
-== Main
+== 3.1 Main
 
 image::create-category.png[Create Category, align = "center"]
 

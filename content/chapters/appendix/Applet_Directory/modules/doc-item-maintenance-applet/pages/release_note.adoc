@@ -1,6 +1,0 @@
-[#h3_doc_item_maintenance_release_note]
-= Release Note
-
-
-
-

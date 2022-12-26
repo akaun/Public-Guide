@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_payment_config]
-= Payment Config
+= 2.4 Payment Config
 
 image::payment-config-mainpage.png[Payment Config Main Page, align = "center"]
 

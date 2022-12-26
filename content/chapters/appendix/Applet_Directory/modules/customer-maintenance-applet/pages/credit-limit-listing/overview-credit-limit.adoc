@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_credit_limit_listing]
-= Credit Limit Listing
+= 5.0 Credit Limit Listing
 
 image::credit-limit-listing-mainpage.png[Credit Limit Listing Main Page, align = "center"]
 

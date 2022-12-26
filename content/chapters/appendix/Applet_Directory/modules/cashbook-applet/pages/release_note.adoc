@@ -1,6 +1,0 @@
-[#h3_cashbook_release_note]
-= Release Note
-
-
-
-

@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_template_forms]
-= Template Forms
+= 6.0 Template Forms
 
 image::template-form-mainpage.png[Template Form Main Page, align = "center"]
 

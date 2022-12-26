@@ -1,5 +1,5 @@
 [#h3_cashbook_applet_settlement_method_listing]
-= Settlement Method Listing
+= 3.0 Settlement Method Listing
 
 Please click the "+" button to Create a new Settlement Method.
 
@@ -19,7 +19,7 @@ After adding the Settlement method, it will be listed in the main page. Please c
 
 You can edit the details, charges, tax and payment provider error codes of the settlement method.
 
-==  Details
+== 3.1 Details
 
 In details tab, the following information can be edited:
 
@@ -45,7 +45,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the settlement method from the settlement method  listing.
 
-== Charges 
+== 3.2 Charges 
 
 In the Charges tab, you can add any charges to the settlement method. The following information can be edited:
 
@@ -68,7 +68,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the Charges from the settlement method.
 
-== Tax
+== 3.3 Tax
 
 In the tax tab, you can add tax type and rate to the settlement method. There are two method you need to select:
 
@@ -87,7 +87,7 @@ image::view-tax.png[View Tax, align = "center"]
 
 You can click the "delete" button to remove the tax from the settlement method.
 
-== Payment Provider Error Codes
+== 3.4 Payment Provider Error Codes
 
 In the payment provider error codes tab, Please click on the "+" button to add errors to the settlement method.
 

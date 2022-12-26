@@ -1,2 +1,2 @@
 [#h3_cp_commerce_admin_forms]
-= Forms
+= 3.0 Forms

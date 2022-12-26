@@ -7,23 +7,7 @@ include::pages/installation.adoc[leveloffset=3]
 
 include::pages/group-listing.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
 
-include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]
-
-include::pages/menu_02_line_items.adoc[leveloffset=3]
-
-include::pages/permission_settings.adoc[leveloffset=3]
-
-include::pages/personalization_settings.adoc[leveloffset=3]
-
-include::pages/related_applets.adoc[leveloffset=3]
-
-include::pages/pricing.adoc[leveloffset=3]
-
-include::pages/release_note.adoc[leveloffset=3]
-
-include::pages/roadmap.adoc[leveloffset=3]
 
 
 

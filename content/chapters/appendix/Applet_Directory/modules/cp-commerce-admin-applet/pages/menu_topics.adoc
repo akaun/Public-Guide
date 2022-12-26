@@ -1,5 +1,5 @@
 [#h3_cp_commerce_admin_topics]
-= Topics
+= 4.0 Topics
 
 image::topic-listing-mainpage.png[Topic Listing Main Page, align = "center"]
 

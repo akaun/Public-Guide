@@ -1,6 +1,0 @@
-[#h3_cp_commerce_admin_release_note]
-= Release Note
-
-
-
-

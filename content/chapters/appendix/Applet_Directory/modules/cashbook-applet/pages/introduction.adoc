@@ -1,5 +1,5 @@
 [#h3_cashbook_introduction]
-= Introduction
+= 1.0 Introduction
 
 image::cashbook_applet_logo.png[150,300]
 

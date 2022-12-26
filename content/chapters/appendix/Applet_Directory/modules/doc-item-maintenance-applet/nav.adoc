@@ -7,12 +7,7 @@
 ** xref:menu_05_import_item.adoc[Import Item]
 ** xref:menu_06_scheduler.adoc[Scheduler]
 ** xref:menu_07_search_filter.adoc[Search Filter]
-** xref:modules.adoc[Modules]
-** xref:related_applets.adoc[Related Applets]
-** xref:roadmap.adoc[Roadmap]
-** xref:release_note.adoc[Release Note]
-** xref:pricing.adoc[Pricing]
-** xref:personalization_settings.adoc[Personalization]
+
 
 
 

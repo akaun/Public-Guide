@@ -1,5 +1,5 @@
 [#h3_employee_maintenance_introduction]
-= Introduction
+= 1.0 Introduction
 
 image::employee_maintenance_applet.png[150,300]
 

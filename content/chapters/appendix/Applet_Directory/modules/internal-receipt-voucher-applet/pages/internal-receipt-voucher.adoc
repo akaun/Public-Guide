@@ -1,9 +1,9 @@
 [#h3_internal_receipt_voucher_applet_create-internal-receipt-voucher]
-= Create Internal Receipt Voucher
+= 2.0 Create Internal Receipt Voucher
 
 Upon logging into this applet - Internal Receipt Voucher Applet, all the receipt voucher listings will be the first page shown to the user. On this page, a create button is displayed as “+” and placed at the top left corner, allowing the user to create a new internal receipt voucher.
 
-== Main Details
+== 2.1 Main Details
 
 image::CreateInternalReceiptVoucher-MainDetails.png[Main Details, align = "center"]
 
@@ -21,23 +21,23 @@ There are 7 components which allow the user to make changes respectively:
 7. Transaction Date
 8. Remarks
 
-=== Check By and Approved By - Select Employee
+=== 2.1.1 Check By and Approved By - Select Employee
 
 image::CreateInternalReceiptVoucher-MainDetails-SelectEmployee.png[Select Employee, align = "center"]
 
 When users click on the Checked By and Approved By  fields in the Main Details Tab, users will be redirected to another page to select an employee with details of Employee ID, Employee Name and Employee Number. 
 
-== Account
+== 2.2 Account
 
-=== Entity Details
+=== 2.2.1 Entity Details
 
 image::CreateInternalReceiptVoucher-Account-EntityDetails.png[Entity Details, align = "center"]
 
-=== Address
+=== 2.2.2 Address
 
 image::CreateInternalReceiptVoucher-Account-Address.png[Address, align = "center"]
 
-=== Contact Person
+=== 2.2.3 Contact Person
 
 image::CreateInternalReceiptVoucher-Account-ContactPerson.png[Contact Person, align = "center"]
 
@@ -52,21 +52,21 @@ Billing Address, Shipping Address, Address Line 1, Address Line 2, Address Line 
 3. Contact Person
 Contact Name, Contact ID, Designation/ Position, Email, Phone Number, Mobile Number, Office Number, Extension Number, Fax Number, Other Number
 
-== Revenue
+== 2.3 Revenue
 
 image::CreateInternalReceiptVoucher-Revenue.png[Revenue, align = "center"]
 
 In the ‘Revenue’ tabs, a create button is displayed as “+” and placed at the top left corner to allow user create new item, and list of item which allows the user to select a new item with details of item code, item name, UOM, Qty, Unit Price(Inclusive of Tax), Qty and Txn Amount.
 
-=== Select Item
+=== 2.3.1 Select Item
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem.png[Select Item, align = "center"]
 
 On the Search Item tab, users can select the item based on the Item Code, Item Name, UOM and System Stock Balance. Other than this, users can also edit or view the details of an item by clicking any of it.
 
-=== Item Details
+=== 2.3.2 Item Details
 
-==== Main Details
+==== 2.3.2.1 Main Details
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem-ItemDetails-MainDetails-1.png[Item Details 1 , align = "center"]
 
@@ -105,7 +105,7 @@ On the Item Details tab of the add line item page, the Main Details tab have sev
 27. Txn Amount
 28. Remarks
 
-==== Delivery Instructions
+==== 2.3.2.2 Delivery Instructions
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem-ItemDetails-DeliveryInstructions.png[Delivery Instructions, align = "center"]
 
@@ -121,7 +121,7 @@ Delivery Message Card:
 3. To: Receiver
 4. Message
 
-==== Department
+==== 2.3.2.3 Department
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem-ItemDetails-Department.png[Department, align = "center"]
 
@@ -133,7 +133,7 @@ On the Department tab, this is used to generate reports by filtering the followi
 4. Project
 5. Option Box: Copy from Hdr
 
-=== Costing Details
+=== 2.3.3 Costing Details
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem-CostingDetails.png[Costing Details, align = "center"]
 
@@ -146,20 +146,20 @@ On the Costing Details tab, it shows all the details of:
 6. Manual Unit Cost 
 7. Last Purchase Unit Cost: The most recent purchase unit cost for the item
 
-=== Pricing Details
+=== 2.3.4 Pricing Details
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem-PricingDetails.png[Pricing Details, align = "center"]
 
 On the Pricing Details tab, there is a UOM options field that allows users to select, once the option is selected, all the details of Pricing Schema Code, Pricing Schema Name, Purchase Unit Price and Modified Date will be shown based on the UOM. 
 
-=== Issue Link
+=== 2.3.5 Issue Link
 
 image::CreateInternalReceiptVoucher-Revenue-SelectItem-IssueLink.png[Issue Link, align = "center"]
 
 On the Issue Link tab, lists of issue links will be displayed for the user to select with the details of Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status. 
 Users can click on the “ADD” button to add the line item after the details are filled in. 
 
-== Expense
+== 2.4 Expense
 
 image::CreateInternalReceiptVoucher-Expense.png[Expense, align = "center"]
 
@@ -167,17 +167,17 @@ On the ‘Revenue’ tabs, a create button is displayed as “+” and placed at
 Once users click on the create button, users will be redirected to the select item page.
 
 
-== Payment
+== 2.5 Payment
 
 image::CreateInternalReceiptVoucher-Payment.png[Payment, align = "center"]
 
 On the ‘Payment’ tab, information of Date, Amount, Details, Remarks of the transfer payment will be listed down. Users can click on the create button that is displayed as “+” and placed at the top left corner, allowing the user to select a different settlement method.
 
-=== Select Collection
+=== 2.5.1 Select Collection
 
 The Settlement Method field is the steps of transfer payment (Cash, E-wallet, Visa, Grab Payment etc). Users can click on the “ADD” button once the ideal method is selected.
 
-== Department HDR
+== 2.6 Department HDR
 
 image::CreateInternalReceiptVoucher-DepartmentHdr.png[Department HDR, align = "center"]
 

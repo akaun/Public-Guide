@@ -1,5 +1,5 @@
 [#h3_entity_maintenance_applet_entity_category]
-= Entity Category
+= 3.0 Entity Category
 
 Please click on "Entity Category" from the module list and click "+" button to create a new Entity category.
 

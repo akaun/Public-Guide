@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_tax]
-= Tax
+= 2.5 Tax
 
 image::tax-mainpage.png[Tax Main Page, align = "center"]
 

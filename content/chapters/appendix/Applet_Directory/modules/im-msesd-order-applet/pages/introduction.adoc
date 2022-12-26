@@ -1,5 +1,5 @@
 [#h3_im_msesd_order_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::logo.png[]
 

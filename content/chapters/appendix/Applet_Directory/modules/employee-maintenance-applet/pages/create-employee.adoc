@@ -1,13 +1,13 @@
 [#h3_create_employee]
-= Create Employee
+= 2.0 Create Employee
 
-== Employee Listing
+== 2.1 Employee Listing
 
 image::Employee_Listing.png[Employee Listing, align = "center"]
 
 Upon clicking into the applet, users will first see the Employee Listing. This list consists of all the employees created.
 
-== Create New Employee
+== 2.2 Create New Employee
 
 To create a new Employee, click on the ‘+’ button.
 
@@ -27,7 +27,7 @@ On the “Create Employee” Main tab, users will be prompted to fill up to foll
 6. Currency (Compulsory)
 7. Description
 
-=== Individual
+=== 2.2.1 Individual
 
 image::Individual_Employee.png[Individual Employee, align = "center"]
 
@@ -35,7 +35,7 @@ There are 2 types of Employee: Individual and Corporate. First, let’s look at 
 
 To create an Individual Employee, users have to select ‘INDIVIDUAL’ at the Type field. For Individual Employees, users are required to select the Identity Type [PASSPORT / IDENTITY CARD (IC)] and enter the employee’s ID Number. For the Currency field, users can click on the dropdown box to select the currency from a list of currencies.
 
-=== Corporate
+=== 2.2.2 Corporate
 
 image::Corporate_Employee.png[Corporate Employee, align = "center"]
 

@@ -1,5 +1,5 @@
 [#h3_customer_maintenance_company_linking]
-= Company Linking
+= 2.9 Company Linking
 
 image::company-linking-mainpage.png[Company Linking Main Page, align = "center"]
 

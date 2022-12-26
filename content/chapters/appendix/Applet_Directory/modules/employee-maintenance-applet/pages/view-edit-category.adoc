@@ -1,5 +1,5 @@
 [#h3_view_edit_category]
-= View and Edit Category
+= 5.0 View and Edit Category
 
 image::Category_View.png[Category View, align = "center"]
 

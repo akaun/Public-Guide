@@ -1,5 +1,5 @@
 [#h4_entity_maintenance_applet_entity]
-= Entity Listing
+= 2.0 Entity Listing
 
 Please click the "+" button to create a new Entity.
 
@@ -28,7 +28,7 @@ After adding the customer, it will be listed in the main page. Please click on t
 
 You can edit the main, Entity Category, login,Payment config, Tax, Address, Contact, Branch, Remark,Credit Term and Credit Details of the member.
 
-== Main
+== 2.1 Main
 
 In the "Main" tab, the following information can be edited:
 
@@ -47,7 +47,7 @@ image::edit-entity-main.png[Edit Main, align = "center"]
 
 You can click the "Remove" button to remove the Entity from the Entity listing.
 
-== Entity Category
+== 2.2 Entity Category
 
 In the "Entity Category" tab, the Entity can be added to different category, the following information is required.
 
@@ -59,7 +59,7 @@ Please search and select the relevant category from the list, and then click the
 
 You can remove the category from the list by clicking on the listed category for the Entity.
 
-== Login
+== 2.3 Login
 
 In the "Login" tab, the user email that used to login to the system will be listed, the following information is required.
 
@@ -77,7 +77,7 @@ You can edit or remove the login email from the list by clicking on the listed u
 
 image::edit-entity-login.png[Edit Login, align = "center"]
 
-== Payment Config
+== 2.4 Payment Config
 
 In the Payment Config tab, the entity payment methods will be listed, the following information is compulsory.
 
@@ -93,7 +93,7 @@ image::edit-entity-create-payment-config.png[Create Payment Config, align = "cen
 
 You can edit or remove the payment config from the list by clicking on the listed Payment Configuration.
 
-== Tax
+== 2.5 Tax
 
 In the "Tax" tab, the tax details will be added to the entity. Please configure the tax dropdown list in tax configuration applet, the following information is required.
 
@@ -111,7 +111,7 @@ image::edit-entity-create-tax.png[Create Tax, align = "center"]
 
 You can edit or remove the tax from the list by clicking on the listed tax.
 
-== Address
+== 2.6 Address
 
 In the "Address" tab, the Addresses will be added to the entity, the following information is required.
 
@@ -131,7 +131,7 @@ image::edit-entity-create-address.png[Create Address, align = "center"]
 
 You can edit or remove the Address from the list by clicking on the listed address.
 
-== Contact
+== 2.7 Contact
 
 In the "Contact" tab, the Contact details will be added to the entity, the following information is compulsory.
 
@@ -148,7 +148,7 @@ image::edit-entity-create-contact.png[Create Contact, align = "center"]
 
 You can edit or remove the contact from the list by clicking on the listed contact.
 
-== Branch
+== 2.8 Branch
 
 In the "Branch" tab, the branches for the entity will be listed, the following information is compulsory.
 
@@ -163,7 +163,7 @@ image::edit-entity-create-branch.png[Create Branch, align = "center"]
 
 You can edit or remove the branch from the list by clicking on the listed branch.
 
-== Company Linking
+== 2.9 Company Linking
 
 Please click the "Add" button to create a new company.
 
@@ -171,7 +171,7 @@ image::edit-entity-company-linking.png[Create Branch, align = "center"]
 
 You can edit or remove the company from the list by clicking on the listed company.
 
-== Remark
+== 2.10 Remark
 
 In the "Remark" tab, the remark can be added to the entity.
 
@@ -179,11 +179,11 @@ image::edit-entity-remark.png[Remark, align = "center"]
 
 Please click the "Save" button after you key in the details.
 
-== Credit Term & Limit
+== 2.11 Credit Term & Limit
 
 In the "Credit Term & Limit" tab, the credit terms & limits will be added to the entity.
 
-=== Credit Term
+=== 2.11.1 Credit Term
 
 In the "Credit Term" tab, Please click the "+" button to add a credit term.
 
@@ -203,7 +203,7 @@ After adding the credit term, it will be listed in the main page. Please click o
 
 Please take note only the Credit term code CANNOT be edited.
 
-== Credit Limit
+== 2.12 Credit Limit
 
 In the "Credit Limit" tab, Please click the "+" button to add a credit limit.
 
