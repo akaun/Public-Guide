@@ -14,8 +14,6 @@ include::pages/installing_applets.adoc[leveloffset=3]
 
 include::pages/applet_permission_settings.adoc[leveloffset=3]
 
-include::pages/personalization.adoc[leveloffset=3]
-
 include::pages/leaving_applet.adoc[leveloffset=3]
 
 
