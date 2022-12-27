@@ -1,5 +1,5 @@
 [#h3_pos_applet_zreport]
-= 3 Z Report
+= 4.0 Z Report
 
 image::Z_Report.png[align="center"]
 
@@ -9,9 +9,9 @@ image::Sample_Z_Report.png[align="center"]
 
 In the Z Report, users will be able to view the amount of Total, Gross Sales, Discount, Rounding, Total Net Sales, Total including TAX, TAX and Total excluding TAX. Aside from that, the total No.of Transactions, No. of Transactions (Discounted), Items Sold and Items Sold (Discounted) will be displayed.
 
-== 3.1 Settings
-=== 3.1.1 Settlement Settings
-====  3.1.1.1 Add New Settlement Method
+== 4.1 Settings
+=== 4.1.1 Settlement Settings
+==== 4.1.1.2 Add New Settlement Method
 
 image::Settlement_Settings.png[align="center"]
 
