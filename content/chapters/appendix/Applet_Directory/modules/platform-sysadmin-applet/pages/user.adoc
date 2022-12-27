@@ -1,7 +1,7 @@
 [#h3_platform_sysadmin_applet_user]
-= User
+= 3.0 User
 
-== User Menu
+== 3.1 User Menu
 
 image::UserMenu.png[User Menu, align = "center"]
 
@@ -9,7 +9,7 @@ There is no functionality to create a user for the Platform SysAdmins, the user 
 
 Click on a row to ‘Edit User’.
 
-=== Edit User
+=== 3.1.1 Edit User
 
 image::EditUser(Details).png[Details, align = "center"]
 

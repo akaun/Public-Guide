@@ -1,5 +1,5 @@
 [#h3_internal_sales_order_line_items]
-=  Menu 02 - Line Items
+= 3.0 Line Items
 
 Line items Menu displays items, which was created in Sales Order Menu. Users is  not able to create new order in this menu, but they can edit items.
 
@@ -17,11 +17,11 @@ User can edit the order by clicking the chosen item. It will direct the user whe
 
 image::line_items.png[1440 x 900]
 
-== Line Items - Item Details Tab
+== 3.1 Line Items - Item Details Tab
 
 Item Details Tab includes six separate tabs in it.
 
-=== Main Details Tab
+=== 3.1.1 Main Details Tab
 
 In this Tab user can edit or add:
 
@@ -53,7 +53,7 @@ image::edit_line_item.png[1440 x 900]
 ** Txn Amount
 ** Remarks
   
-=== Delivery Instructions Tab
+=== 3.1.2 Delivery Instructions Tab
   
 image::delivery_instruction_tab.png[1440 x 900]
 
@@ -68,13 +68,13 @@ Delivery message card:
 
 image::delivery_instructions_tab.png[1440 x 900]
 
-=== Department Tab
+=== 3.1.2 Department Tab
 
 Users click "Copy from Hdr", it copies from Department Hdr Tab in Sales order menu.
 
 image::sales_department_tab.png[1440 x 900]
 
-=== Delivery Details Tab
+=== 3.1.3 Delivery Details Tab
 
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
@@ -82,7 +82,7 @@ Users also can require delivery or not - choose from dropdown list.
 
 image::delivery_details_tab.png[1440 x 900]
 
-=== Delivery Trips Tab
+=== 3.1.4 Delivery Trips Tab
 
 List of Delivery trips report for the particular sales order is displayed here.   
 
@@ -96,7 +96,7 @@ image::item_delivery_trips.png[1440 x 900]
 ** Delivery Status: If the delivery item was successfully delivered to the addressee.
 ** Recipient Name: The person’s name that receives.
 
-=== Membership Points Tab
+=== 3.1.5 Membership Points Tab
 
 image::membership_points.png[1440 x 900]
 
@@ -109,7 +109,7 @@ This tab is used to manage membership Points:
 ** Valid Day to
 
 
-== Line Items - Stock Availability Tab
+== 3.2 Line Items - Stock Availability Tab
 
 Stock availability tabs allow users to check whether the products are available in-store.
 
@@ -122,7 +122,7 @@ User can see:
 
 image::line_Items_stock_availability.png[1440 x 900]
 
-== Line Items - Costing Details Tab
+== 3.3 Line Items - Costing Details Tab
 
 List of Costing Details for the particular sales order is displayed here.
 
@@ -135,7 +135,7 @@ List of Costing Details for the particular sales order is displayed here.
 
 image::costing_details.png[1440 x 900]
 
-== Line Items - Pricing Details Tab
+== 3.4 Line Items - Pricing Details Tab
 
 User chooses UOM from the dropdown list and can see the pricing details from the listing below:
 
@@ -146,7 +146,7 @@ User chooses UOM from the dropdown list and can see the pricing details from the
 
 image::pricing_details_line_items.png[1440 x 900]
 
-== Line Items - Issue Link Tab
+== 3.5 Line Items - Issue Link Tab
 
 image:issue_link.png[1440 x 900]
 
@@ -161,13 +161,13 @@ This tab is used to track issue by:
 ** Resolved Date
 ** Status
 
-== Line Items - Doc Link Tab
+== 3.6 Line Items - Doc Link Tab
 
 Doc Link Tab is used to show either the selected line item have link with other Gen Doc Line Item.
 
 image::doc_link_item.png[1440 x 900]
 
-== Line Items - Ecomsync Tab
+== 3.7 Line Items - Ecomsync Tab
 
 Ecomsync Tab is used for displaying the information on line level for Ecomsync.
 

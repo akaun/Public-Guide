@@ -1,5 +1,5 @@
 [#h3_membership_applet_pts_ccy_config]
-= PTS CCY Config Module 
+= 8.0 PTS CCY Config Module 
 
 Please click on "PTS to CCY Config Module" from the module list and click "+" button to create a New Points to Money Currency Conversion Configuration. 
 

@@ -1,14 +1,14 @@
 [#h3_merchant_admin_maintenance_contract]
-= Contract
+= 3.0 Contract
 
-== Contract Listing
+== 3.1 Contract Listing
 
 .Contract - Contract Listing
 image::Contract-ContractListing.png[align="center"]
 
 Please click the ‘+’ button to create a new Contract. 
 
-== Create Contract
+== 3.2 Create Contract
 
 .Contract - Create Contract
 image::Contract-CreateContract.png[align="center"]
@@ -21,10 +21,10 @@ Please fill up the compulsory * information for creating the Contract. After fil
 * Contract Company
 * Status
 
-== Edit Contract
+== 3.3 Edit Contract
 After adding the Contract, it will be listed on the main page. Please click on the Contract to edit it.
 
-=== Details Tab 
+=== 3.3.1 Details Tab 
 
 .Contract - Edit Contract - Details
 image::Contract-EditContract-Details.png[align="center"]
@@ -33,7 +33,7 @@ In the details tab, the following information can be edited
 * Contract Name
 * Status
 
-=== Rate Card Tab
+=== 3.3.2 Rate Card Tab
 
 .Contract - Edit Contract - Rate Card - Rate Card Listing
 image::Contract-EditContract-RateCard-RateCardListing.png[align="center"]

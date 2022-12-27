@@ -1,5 +1,5 @@
 [#h3_ucc_contacts]
-= Menu 04 - Contacts
+= 5.0 Contacts
 
 User can view the list of contacts in this menu.
 

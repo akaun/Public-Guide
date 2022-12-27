@@ -1,5 +1,5 @@
 [#h3_internal_sales_order_applet_ecomsync_dashboard]
-= Menu 04 - Ecomsync Dashboard
+= 5.0 Ecomsync Dashboard
 
 Ecomsync Dashboard is used track of Lazada and Shopee orders. This menu has two tabs:
  
@@ -8,7 +8,7 @@ image::ecomsync_dashboard_menu.png[1440 x 900]
 ** Lazada Dashboard 
 ** Shopee Dashboard
 
-== Lazada Dashboard
+== 5.1 Lazada Dashboard
 
 This menu has tree tabs:
 
@@ -16,7 +16,7 @@ This menu has tree tabs:
 ** Dashboard Total Orders
 ** Dashboard Total Sales
 
-=== Dashboard Main Tab
+=== 5.1.2 Dashboard Main Tab
 
 This tab is used to check the Total Sales, Daily Sales, Total Sales by Store, Total Orders and Total Cancel Orders.
 
@@ -30,13 +30,13 @@ Users Choose filters day the want to check from dropdown list:
 
 image::filter_day.png[1440 x 900]
 
-=== Dashboard Total Orders Tab
+=== 5.1.3 Dashboard Total Orders Tab
 
 Users are able to track the Total orders and Canceled Orders in Dashboard Total Orders Tab
 
 image::dashboard_total_orders_lazada.png[1440 x 900]
 
-=== Dashboard Total Sales Tab
+=== 5.1.4 Dashboard Total Sales Tab
 
 Dashboard Total Sales Tab includes three tabs as follows:
 
@@ -46,7 +46,7 @@ Dashboard Total Sales Tab includes three tabs as follows:
 
 image::dashboard_total_sales_lazada.png[1440 x 900]
 
-== Shopee Dashboard
+== 5.2 Shopee Dashboard
 
 This menu has tree tabs:
 
@@ -54,7 +54,7 @@ This menu has tree tabs:
 ** Dashboard Total Orders
 ** Dashboard Total Sales
 
-=== Dashboard Main Tab
+=== 5.2.1 Dashboard Main Tab
 
 This tab is used to check the Total Sales, Daily Sales, Total Sales by Store, Total Orders and Total Cancel Orders all in one dashboard.
 
@@ -68,13 +68,13 @@ Users Choose filters day the want to check from dropdown list:
 
 image::shopee_total_orders.png[1440 x 900]
 
-=== Dashboard Total Orders Tab
+=== 5.2.2 Dashboard Total Orders Tab
 
 Users are able to track the Total orders and Canceled Orders in Dashboard Total Orders Tab
 
 image::total_orders_canceled_orders.png[1440 x 900]
 
-=== Dashboard Total Sales Tab
+=== 5.2.3 Dashboard Total Sales Tab
 
 Dashboard Total Sales Tab includes three tabs as follows:
 

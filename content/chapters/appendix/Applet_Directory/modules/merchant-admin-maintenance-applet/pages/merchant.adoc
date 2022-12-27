@@ -1,11 +1,11 @@
 [#h3_merchant_admin_maintenance_merchant]
-= Merchant
+= 2.0 Merchant
 
-== Merchant Listing
+== 2.1 Merchant Listing
 .Merchant - Merchant Listing
 image::Merchant-MerchantListing.png[align="center"]
 
-== Create Merchant
+== 2.2 Create Merchant
 Please click the ‘+’ button to create a new Merchant.
 
 .Merchant - Create Merchant
@@ -22,10 +22,10 @@ Please fill up the compulsory information for creating the Merchant. After filli
 * PGW Merchant Code
 * Merchant Key
 
-== Edit Merchant
+== 2.3 Edit Merchant
 After adding the Merchant, it will be listed on the main page. Please click on the Merchant to edit it. 
 
-=== Details Tab
+=== 2.3.1 Details Tab
 .Merchant - Edit Merchant - Details
 image::Merchant-EditMerchant-Details.png[align="center"]
 
@@ -44,7 +44,7 @@ After updating any fields, please click ‘SAVE’.
 
 If you would like to remove the merchant, please click ‘REMOVE’.
 
-=== Login Tab
+=== 2.3.2 Login Tab
 In the login tab, you can add logins to the merchant.
 
 .Merchant - Edit Merchant - Login - Login Listing
@@ -72,7 +72,7 @@ After adding the login to the merchant, it will be listed on the Login tab. Plea
 * The rank and status can only be edited. After updating rank or status or both, please click ‘update’.
 * Please click ‘remove’ to remove the login from the merchant.
 
-=== Contract Tab
+=== 2.3.3 Contract Tab
 In the contract tab, you can add contracts to the merchant.
 
 .Merchant - Edit Merchant - Contract - Contract Create
@@ -131,7 +131,7 @@ image::Merchant-EditMerchant-Contract-ContractEdit-AuditTrail.png[align="center"
 
 In the Audit Trail tab, you can view a list of records containing the Action, User and Date. The listings show the action made by which users relating to a particular contract create or edit at a certain date and time.
 
-=== Return URL Tab
+=== 2.3.4 Return URL Tab
 In the return url tab, you can add return urls to the merchant.
 
 .Merchant - Edit Merchant - Return URL - Return URL Listing
@@ -162,7 +162,7 @@ After adding the return URL to the merchant, it will be listed on the Return URL
 * All fields can be updated. After updating it, please click ‘SAVE’.
 * Please click ‘remove’ to remove the return URL from the merchant.
 
-=== Tax & Billing Tab
+=== 2.3.5 Tax & Billing Tab
 In the tax and billing tab, you can add tax and billings to the merchant.
 
 .Merchant - Edit Merchant - Tax & Billing - Tax & Billing Listing
@@ -188,7 +188,7 @@ After adding the tax to the merchant, it will be listed on the Tax & Billing tab
 
 * Please click ‘remove’ to remove the tax from the merchant.
 
-=== Payment COnfig Tab
+=== 2.3.6 Payment COnfig Tab
 In the payment config tab, you can add payment configs to the merchant.
 
 .Merchant - Edit Merchant - Payment Config - Payment Config Listing
@@ -215,7 +215,7 @@ After adding the payment config to the merchant, it will be listed on the Paymen
 * All fields can be updated. After updating any fields, please click ‘UPDATE’.
 * Please click ‘remove’ to remove the payment config from the merchant.
 
-=== Address Tab
+=== 2.3.7 Address Tab
 In the address tab, you can add addresses to the merchant.
 
 .Merchant - Edit Merchant - Address - Address Listing
@@ -279,7 +279,7 @@ After adding the contact to the merchant, it will be listed on the Contact tab. 
 * All fields can be updated. After updating any fields, please click ‘UPDATE’.
 * Please click ‘remove’ to remove the contact from the merchant.
 
-=== Company Linking Tab
+=== 2.3.8 Company Linking Tab
 In the Company Linking tab, you can add companies to the merchant.
 
 .Merchant - Edit Merchant - Company Linking - Company Linking Listing
@@ -300,10 +300,10 @@ After adding the company to the merchant, it will be listed on the Company tab. 
 * The AR/AP Type is the only field that can be edited. After editing, please click ‘UPDATE’.
 * Please click DELETE to remove the company from the merchant.
 
-=== Credit Limit and Terms
+=== 2.3.9 Credit Limit and Terms
 In the credit limit and terms tab, you can add credit limit and terms to the merchant.
 
-==== For Credit Terms: 
+==== 2.3.9.1 For Credit Terms: 
 
 .Merchant - Edit Merchant - Credit Limit and Terms - Credit Term - Credit Term Listing
 image::Merchant-EditMerchant-CreditLimitandTerms-CreditTerm-CreditTermListing.png[align="center"]
@@ -328,7 +328,7 @@ If the New Credit Term option is selected, the following fields are compulsory:
 * Credit Term Code
 * Credit Term Name
 
-==== For Credit Limit: 
+==== 2.3.9.2 For Credit Limit: 
 
 .Merchant - Edit Merchant - Credit Limit and Terms - Credit Limit - Credit Limit Listing
 image::Merchant-EditMerchant-CreditLimitandTerms-CreditLimit-CreditLimitListing.png[align="center"]
@@ -355,7 +355,7 @@ If the New Credit Limit option is selected, the following fields are compulsory:
 * Status
 * Currency
 
-=== Logo Tab
+=== 2.3.10 Logo Tab
 In the logo tab, you can add a logo to the merchant.
 
 .Merchant - Edit Merchant - Logo - Logo Listing

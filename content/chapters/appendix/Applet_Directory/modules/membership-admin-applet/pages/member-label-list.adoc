@@ -1,5 +1,5 @@
 [#h3_membership_applet_member_label_list]
-= Member Label List
+= 6.0 Member Label List
 
 Please click on "Member label list" from the module list and click "+" button to create a new member label list.
 
@@ -16,7 +16,7 @@ Compulsory information:
 
 After adding the member label list, it will be listed in the main page. Please click on the member to edit it. 
 
-== Details
+== 6.1 Details
 
 You can edit the details and labels of the member label list.
 
@@ -31,7 +31,7 @@ After changing the details of the field, please click "save".
 
 Please click "delete" to remove the member label list from the list.
 
-== Labels
+== 6.2 Labels
 
 In the labels tab, you can add labels to the label list. 
 

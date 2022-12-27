@@ -1,5 +1,5 @@
 [#h3_internal-delivery-order-applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::Internal_delivery_order_applet_logo.png[150,300]
 

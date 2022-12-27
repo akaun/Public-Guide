@@ -1,4 +1,0 @@
-[#h3_payment_channel_pricing]
-= Pricing
-
-

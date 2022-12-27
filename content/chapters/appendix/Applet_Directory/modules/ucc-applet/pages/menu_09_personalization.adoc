@@ -1,5 +1,5 @@
 [#h3_ucc_personalization]
-= Menu 09 - Personalization
+= 10.0 Personalization
 
 image::personalization.png[]
 

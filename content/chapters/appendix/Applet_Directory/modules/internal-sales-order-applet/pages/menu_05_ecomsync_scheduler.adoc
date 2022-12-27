@@ -1,11 +1,11 @@
 [#h3_internal_sales_order_applet_ecomsync_scheduler]
-=  Menu 05 - Ecomsync Scheduler
+= 6.0 Ecomsync Scheduler
 
 Ecomsync Scheduler allows the user to schedule and track the work of the processor. Used to set the start and end date and how often the processer will run.
 
 image::ecomsync_scheduler.png[1440 x 900]
 
-== Create Scheduler
+== 6.1 Create Scheduler
 
 In order to create Scheduler, user click "+", and will go to the second page. In the details tab - user fills in:
 
@@ -18,13 +18,13 @@ In order to create Scheduler, user click "+", and will go to the second page. In
 
 image::ecomsync_scheduler_create.png[1440 x 900]
 
-=== Cron Expression tab
+=== 6.1.2 Cron Expression tab
 
 It enables users to schedule tasks to run periodically at a specified date and time. 
 
 image::ecomsync_cron_expression.png[1440 x 900]
 
-== Edit Scheduler
+== 6.2 Edit Scheduler
 
 To edit or remove  Scheduler, select the specific scheduler you want and it will lead you to the second page where u can implement your changes.
 

@@ -1,5 +1,5 @@
 [#h3_payment_channel_applet_payment-provider]
-= Payment Provider
+= 3.0 Payment Provider
 
 Please click the "+" button to Create a new Payment Provider.
 
@@ -19,7 +19,7 @@ After adding the Payment Provider, it will be listed in the main page. Please cl
 
 You can edit the details, payment channel priority and manage images of the payment provider.
 
-== Details
+== 3.1 Details
 
 In details tab, the following information can be edited:
 
@@ -34,7 +34,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the payment provider from the payment provider  listing.
 
-== Payment Channel Priority
+== 3.2 Payment Channel Priority
 
 In the Payment Channel Priority tab, you can view the details of payment channel priority. 
 
@@ -44,7 +44,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the Charges from the payment provider.
 
-== Manage Image
+== 3.3 Manage Image
 
 In the manage images tab, you can add images to the payment provider. 
 

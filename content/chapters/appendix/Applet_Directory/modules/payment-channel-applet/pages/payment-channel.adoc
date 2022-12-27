@@ -1,5 +1,5 @@
 [#h3_payment_channel_applet_payment_channel_listing]
-= Payment Channel Listing
+= 2.0 Payment Channel Listing
 
 Please click the "+" button to Create a Payment Channel.
 
@@ -23,7 +23,7 @@ After adding the Payment Channel, it will be listed in the main page. Please cli
 
 You can edit the details, configuration, category,  Tax & Billing, Logo and Audit of the Payment Channel.
 
-== Details
+== 2.1 Details
 
 In details tab, the following information can be edited:
 
@@ -39,7 +39,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the Payment Channel from the Payment Channel listing.
 
-== Configuration
+== 2.2 Configuration
 
 In the Configuration tab, you can configure the payment channel. The following information can be edited:
 
@@ -53,7 +53,7 @@ image::edit-payment-channel-configuration.png[Edit Configuration, align = "cente
 
 Please click the "save" button to update the changes.
 
-== Category
+== 2.3 Category
 
 In the category tab, you can categorize the payment channel. 
 
@@ -61,7 +61,7 @@ Please click the "+" button to select the category from the list and Add to the 
 
 image::edit-payment-channel-category.png[Edit Payment Channel Category, align = "center"]
 
-== Tax & Billing
+== 2.4 Tax & Billing
 
 In the Tax & Billing tab, you can add tax and billing to the payment channel. 
 
@@ -77,7 +77,7 @@ The following fields should be filled up:
     4. Tax Rate
     5. Tax Option
 
-== Logo
+== 2.5 Logo
 
 In the Logo tab, you can add a logo to the payment channel. 
 
@@ -85,7 +85,7 @@ image::edit-payment-channel-logo.png[Edit Logo, align = "center"]
 
 Please click the box and browse the logo from the computer's payment channel.
 
-== Audit
+== 2.6 Audit
 
 In the Audit tab, you can check the summary of actions taken to the payment channel. 
 

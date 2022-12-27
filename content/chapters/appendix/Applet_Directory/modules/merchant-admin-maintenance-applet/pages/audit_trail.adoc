@@ -1,7 +1,7 @@
 [#h3_merchant_admin_maintenance_audit_trail]
-= Audit Trail
+= 5.0 Audit Trail
 
-== Audit Trail Listing
+== 5.1 Audit Trail Listing
 .Audit Trail - Audit Trail Listing
 image::AuditTrail-AuditTrailListing.png[align="center"]
 

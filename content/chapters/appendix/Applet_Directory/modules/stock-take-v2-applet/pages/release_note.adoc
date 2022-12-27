@@ -1,6 +1,0 @@
-[#h3_stock_take_v2_release_note]
-= Release Note
-
-
-
-

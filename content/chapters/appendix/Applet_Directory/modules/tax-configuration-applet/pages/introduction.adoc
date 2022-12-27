@@ -1,5 +1,5 @@
 [#h3_tax_configuration_introduction]
-= Introduction
+= 1.0 Introduction
 
 
 image::tax_configuration_applet.png[150,300]

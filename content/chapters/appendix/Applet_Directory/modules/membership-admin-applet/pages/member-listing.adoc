@@ -1,5 +1,5 @@
 [#h3_membership_applet_member_listing]
-= Member Listing 
+= 3.0 Member Listing 
 
 Please click the "+" button to Create a new Member.
 
@@ -20,7 +20,7 @@ Compulsory information:
 
 After adding the member, it will be listed in the main page. Please click on the member to edit it. 
 
-== Details
+== 3.1 Details
 
 You can edit the details, labels and point transactions of the member. 
 
@@ -44,7 +44,7 @@ In details tab, the following information can be edited:
 
 You can click the "delete" button to remove the member from the member listing.
 
-== Member Photos 
+== 3.2 Member Photos 
 
 In the Member Photo's tab, a user can upload an image to be used as their member photo.
 
@@ -56,11 +56,11 @@ In the Member Photo's tab, a user can upload an image to be used as their member
 
 image::edit-membership-member-photos.png[Edit Membership Member Photos, align = "center"]
 
-== Label 
+== 3.3 Label 
 
 In the Labels tab, you can add labels to the member. Please follow the Member label module.
 
-== Point Transaction
+== 3.4 Point Transaction
 
 image::edit-membership-point-transaction-1.png[Edit Point Transaction, align = "center"]
 
@@ -75,19 +75,19 @@ In the point transaction tab, you can add point adjustment.
 
 image::edit-membership-point-transaction-2.png[Edit Point Transaction, align = "center"]
 
-== Points Expiry
+== 3.5 Points Expiry
 
 This tab shows the expiry date of points to user.
 
 image::edit-membership-points-expiry.png[Edit Points Expiry, align = "center"]
 
-== Upload Attachments
+== 3.6 Upload Attachments
 
 image::edit-membership-upload-attachments.png[Upload Attachments, align = "center"]
 
 User could add any files by pressing the "+" sign.
 
-== MLM
+== 3.7 MLM
 
 image::edit-membership-MLM.png[MLM, align = "center"]
 

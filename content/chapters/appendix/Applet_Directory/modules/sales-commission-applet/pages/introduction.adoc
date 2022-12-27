@@ -1,5 +1,5 @@
 [#h3_sales_commission_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::sales_commission_applet_logo.png[150,300]
 

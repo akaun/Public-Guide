@@ -1,3 +1,0 @@
-[#h3_pricebook-applet_permission_settings]
-= Permission Settings
-

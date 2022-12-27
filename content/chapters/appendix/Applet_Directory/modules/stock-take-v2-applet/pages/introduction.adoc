@@ -1,5 +1,5 @@
 [#h3_stock_take_v2_introduction]
-= Introduction
+= 1.0 Introduction
 
 image::stock_take_V2_applet_logo.png[150,300]
 

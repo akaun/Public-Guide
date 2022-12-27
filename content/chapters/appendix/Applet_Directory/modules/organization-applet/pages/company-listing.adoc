@@ -1,11 +1,11 @@
 [#h3_organization_module_company_listing]
-= Company Listing
+= 3.0 Company Listing
 
-== Create A Company
+== 3.1 Create A Company
 
 In creating a company, users need to click on the "+" sign to open the "Create" tab.
 
-=== Details Tab
+=== 3.1.1 Details Tab
 
 Users must fill up compulsory information such as: 
 
@@ -18,7 +18,7 @@ Users must fill up compulsory information such as:
 
 image::company-listing-create-company-details.png[Details, align = "center"]
 
-=== Address Tab
+=== 3.1.2 Address Tab
 
 User must fill up compulsory fields :
     a. Address Line 
@@ -32,17 +32,17 @@ image::company-listing-create-company-address.png[Company Address, align = "cent
 
 If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
 
-== Company Listing
+== 3.2 Company Listing
 
 Upon clicking the SAVE button, the registered company will appear in the Company's Listings as below:
 
 image::company-listing-mainpage.png[Company Listing Main Page, align = "center"]
 
-== Edit Company
+== 3.3 Edit Company
 
 To edit the company, click on the company from the listings above.
 
-=== Details Tab
+=== 3.3.1 Details Tab
 
 This section allows the user to update the company's profile details.
 
@@ -56,13 +56,13 @@ The sections CANNOT be edited:
 
 image::edit-company-details.png[Edit Company Details, align = "center"]
 
-=== Address Tab
+=== 3.3.2 Address Tab
 
 This section allows the user to update the company's address.
 
 image::edit-company-address.png[Edit Company Address, align = "center"]
 
-=== Branch Tab
+=== 3.3.3 Branch Tab
 
 This section allows the user to view the company's branch.
 
@@ -71,7 +71,7 @@ This section allows the user to view the company's branch.
 
 image::edit-company-branch.png[Edit Company Branch, align = "center"]
 
-=== Location Tab
+=== 3.3.4 Location Tab
 
 This section allows the user to view the company's location.
 
@@ -80,7 +80,7 @@ This section allows the user to view the company's location.
 
 image::edit-company-location.png[Edit Company Details, align = "center"]
 
-=== Label Tab
+=== 3.3.5 Label Tab
 
 This section allows the user to view the company's label.
 

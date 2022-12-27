@@ -1,5 +1,5 @@
 [#h3_platform_sysadmin_applet_applet_store_menu]
-= Applet Store Menu
+= 4.0 Applet Store Menu
 
 image::AppletStoreMenu.png[Applet Store Menu, align = "center"]
 
@@ -7,7 +7,7 @@ All of the Applet Stores will be listed here.
 
 Click on the ‘+’ button to create new store.
 
-== Create Applet Store
+== 4.1 Create Applet Store
 
 image::CreateAppletStore.png[Create Applet Store, align = "center"]
 
@@ -23,7 +23,7 @@ d. Status: Mandatory
 
 When mandatory fields are filled, the ‘create’ button will be enabled. Click on it to create a new catalogue.
 
-== Edit Applet Store
+== 4.2 Edit Applet Store
 
 image::EditAppletStore(Details).png[Details, align = "center"]
 

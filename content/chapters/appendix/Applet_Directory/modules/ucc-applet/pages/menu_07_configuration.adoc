@@ -1,12 +1,12 @@
 [#h3_ucc_configuration]
-= Menu 07 - Configuration
+= 8.0 Configuration
 
 The below workflow shows the progress of how to create projects, virtual contacts, predefined messages and link them all together under Settings.
 The workflow can be viewed under https://app.moqups.com/OgjlMloRB3/edit/page/ad873cae5[Moqups^].
 
 image::config_workflow.png[]
 
-== Projects
+== 8.1 Projects
 The list of projects will show under this menu (if any). 
 
 image::config_projects_create.png[]
@@ -21,7 +21,7 @@ NOTE: You can have a project with multiple virtual contacts
 
 image::config_projects_edit.png[]
 
-== Virtual Contacts
+== 8.2 Virtual Contacts
 The list of virtual contacts will show under this menu (if any).
 
 image::config_virtual_contract_list.png[]
@@ -38,7 +38,7 @@ image::config_virtual_contract_edit.png[]
 
 image::config_virtual_contract_edit1.png[]
 
-== Teams 
+== 8.3 Teams 
 The list of teams will show under this menu (if any). 
 
 image::config_teams_list.png[]
@@ -47,7 +47,7 @@ To create a team, click on the + symbol. User has to provide Team Name, Team Cod
 
 image::config_teams_create.png[]
 
-== Agents
+== 8.4 Agents
 The list of agents will show under this menu (if any).
 
 image::config_agents_list.png[]
@@ -56,7 +56,7 @@ User can add agents by clicking + symbol and provide the required details as bel
 
 image::config_agents_add.png[]
 
-== Predefined Messages
+== 8.5 Predefined Messages
 The list of agents will show under this menu (if any). 
 
 image::config_predefined_msg_list.png[]
@@ -66,7 +66,7 @@ User can add predefined messages into virtual contacts under Virtual Contacts > 
 
 image::config_predefined_msg_create.png[]
 
-== QR Codes
+== 8.6 QR Codes
 The list of QR codes will show under this menu (if any). 
 
 image::config_QR_code_list.png[]
@@ -75,7 +75,7 @@ By clicking the + symbol, user can create QR code to the specific virtual contac
 
 image::config_QR_code_create.png[]
 
-== Tasks
+== 8.7 Tasks
 The list of task will show under this menu (if any).
 
 image::config_tasks_list.png[]
@@ -84,7 +84,7 @@ By clicking the + symbol, user can create new task. Task code, name, priority co
 
 image::config_tasks_create.png[]
 
-== Automation Rule
+== 8.8 Automation Rule
 The list of automation rule will show under this menu (if any).
 
 image::config_automation_list.png[]
@@ -93,7 +93,7 @@ By clicking the + symbol, a user can create new automation rule.
 
 image::config_automation_create.png[]
 
-== Rule
+== 8.9 Rule
 The list of rule will show under this menu (if any). 
 
 image::config_rule_list.png[]

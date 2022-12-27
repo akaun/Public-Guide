@@ -1,5 +1,5 @@
 [#h3_merchant_access_applet_merchant]
-=  1. Merchant
+= 2.0 Merchant
 
 .Merchant – Merchant Access Listing
 image::Merchant-Merchant_Access_Listing.png[align="center"]

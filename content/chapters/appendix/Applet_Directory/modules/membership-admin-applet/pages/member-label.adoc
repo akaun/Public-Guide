@@ -1,5 +1,5 @@
 [#h3_membership_applet_member_label]
-= Member Label
+= 5.0 Member Label
 
 Please click on "Member Label" from the module list and click the "+" button to create a new member label.
 
@@ -15,7 +15,7 @@ Compulsory information:
     b. Label name
     c. Label code
 
-== Details
+== 5.1 Details
 
 After adding the member Label, it will be listed in the main page. Please click on the label to edit it. 
 
@@ -33,7 +33,7 @@ After changing the details of the field, please click "save".
 
 Please click "delete" to remove the member label from the list.
 
-== Members
+== 5.2 Members
 
 In the Members tab, you can add members to the label. 
 

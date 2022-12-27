@@ -1,11 +1,11 @@
 [#h3_organization_module_location_listing]
-= Location Listing
+= 5.0 Location Listing
 
-== Create A Location
+== 5.1 Create A Location
 
 In creating a Location, users need to click on the "+" sign to open the "Create" tab.
 
-=== Details tab
+=== 5.1.1 Details tab
 
 Users may fill up compulsory information such as: 
 
@@ -18,7 +18,7 @@ Users may fill up compulsory information such as:
 
 image::location-listing-create-location-details.png[Create Location Details, align = "center"]
 
-=== Address Tab
+=== 5.1.2 Address Tab
 
 User must fill up compulsory fields :
 
@@ -33,17 +33,17 @@ image::location-listing-create-location-address.png[Create Location Address, ali
 
 If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
 
-== Location Listing
+== 5.2 Location Listing
 
 Upon clicking the SAVE button, the registered location will appear in the Location Listings as below:
 
-== Edit Location
+== 5.3 Edit Location
 
 image::location-listing-mainpage.png[Location Listing Main Page, align = "center"]
 
 To edit the location, click on the location from the listings above.
 
-=== Details Tab
+=== 5.3.1 Details Tab
 
 This section allows the user to update the location details.
 
@@ -58,13 +58,13 @@ The sections CANNOT be edited:
     e. Creation Date
     f. Modified Date
 
-=== Address Tab
+=== 5.3.2 Address Tab
 
 This section allows the user to update the location address.
 
 image::edit-location-address.png[Edit Location Address, align = "center"]
 
-=== Branch Tab
+=== 5.3.3 Branch Tab
 
     a. This section allows the user to view the location's branch.
 
@@ -76,7 +76,7 @@ image::edit-location-address.png[Edit Location Address, align = "center"]
 
 image::edit-location-branch.png[Edit Location Branch, align = "center"]
 
-=== Label Tab
+=== 5.3.4 Label Tab
 
 This section allows the user to view the location label.
 

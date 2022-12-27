@@ -1,4 +1,0 @@
-[#h3_stock_take_v2_pricing]
-= Pricing
-
-

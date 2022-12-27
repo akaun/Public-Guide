@@ -1,5 +1,5 @@
 [#h3_voucher_management_applet_voucher]
-= Voucher
+= 2.0 Voucher
 
 Please click the "+" button on the left hand side of the Search Box to Create a new voucher.
 
@@ -25,13 +25,13 @@ image::create-voucher.png[Create Voucher, align = "center"]
 
 After adding the voucher, it will be listed on the main page. Please click on the voucher to edit it. 
 
-== Edit Voucher
+== 2.1 Edit Voucher
 
 Please edit the main details of the voucher from the "Details" tab. We will go by each type of voucher.
 
-== Details
+== 2.2 Details
 
-=== Discount Voucher
+=== 2.2.1 Discount Voucher
 
 The following information can be edited: 
 
@@ -52,7 +52,7 @@ The following information can be edited:
     o. Character Length - Serial Number Generation Prefix
     p. Description
 
-=== Settlement Voucher
+=== 2.2.2 Settlement Voucher
 
 The following information can be edited: 
 
@@ -74,7 +74,7 @@ The following information can be edited:
     p. Character Length - Serial Number Generation Prefix
     q. Description 
 
-=== Reward Voucher
+=== 2.2.3 Reward Voucher
 
 The following information can be edited: 
 
@@ -100,7 +100,7 @@ Please click  "delete" to remove the price set from the list.
 
 image::edit-voucher-details.png[Edit Voucher Details, align = "center"]
 
-== Rules - Doc Hdr
+== 2.4 Rules - Doc Hdr
 
 Please Add or edit the rules for Document HDR level of voucher from the "Rules-Doc Hdr" tab.
 
@@ -136,7 +136,7 @@ If you select Member class, Member label, Company and Branch, Please fill up the
 
 After you added the rules in the voucher, you can click the rule from the list to remove it. 
 
-== Rules - Multi Line
+== 2.5 Rules - Multi Line
 
 Please select the "Rules logic" and "Negation logic" from the list and click the "+" button to add rules for the voucher.
 
@@ -157,17 +157,17 @@ Please fill up the Compulsory (*) information and Click the "Create" and "+" but
 
 image::rules-multi-line-item-code-regex.png[Rules Multi Line : Item Code Regex, align = "center"]
 
-== Rules - Single Line
+== 2.6 Rules - Single Line
 
 The same logic and rules are applied for the Rules-Single Line. (refer to Rules - Multi Line)
 
-== Treatment
+== 2.7 Treatment
 
 Please tick the relevant Treatment and select the Price source, Operator and the value. 
 
 image::edit-voucher-treatment.png[Edit Treatment, align = "center"]
 
-== Image
+== 2.8 Image
 
 Please click the "+" button to add an image for the voucher. Following fields should be filled up.
 
@@ -182,7 +182,7 @@ image::edit-voucher-image-add.png[Add Image, align = "center"]
 
 After you added the images in the voucher, you can click the image from the list to edit or remove it.
 
-== Ticket Management
+== 2.9 Ticket Management
 
 Please click the "+" button to add a ticket for the voucher. There are two tabs which generate tickets and import tickets. 
 
@@ -190,19 +190,19 @@ image::edit-voucher-ticket-management.png[Edit Voucher Ticket Management, align 
 
 Please use one of the tabs to add tickets to the voucher.
 
-=== Generate ticket 
+=== 2.9.1 Generate ticket 
 
 image::edit-voucher-ticket-management-generate.png[Ticket Management - Generate, align = "center"]
 
 Please fill up the ticket quantity and click the "generate" button to generate tickets.
 
-=== Import Ticket
+=== 2.9.2 Import Ticket
 
 image::edit-ticket-management-import.png[Ticket Management - Import, align = "center"]
 
 Please upload a file here.
 
-=== Ticket Files Listing 
+=== 2.9.3 Ticket Files Listing 
 
 image::edit-voucher-ticket-management-listing.png[Ticket Management - Listing, align = "center"]
 

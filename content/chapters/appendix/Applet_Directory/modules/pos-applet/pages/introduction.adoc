@@ -1,5 +1,5 @@
 [#h3_pos_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::POS_logo.png[150,300, align="center"]
 

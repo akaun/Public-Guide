@@ -1,5 +1,5 @@
 [#h3_membership_applet_member_class]
-= Member Class
+= 4.0 Member Class
 
 Please click on "Member Class" from the module list and click "+" button to create a new member class.
 

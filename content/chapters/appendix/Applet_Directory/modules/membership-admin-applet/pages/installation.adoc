@@ -1,5 +1,5 @@
 [#h3_membership_applet_installation]
-= Installation of Membership Admin Applet 
+= 2.0 Installation of Membership Admin Applet 
 
 Please go to Akaun.cloud and find the Applet store.
 

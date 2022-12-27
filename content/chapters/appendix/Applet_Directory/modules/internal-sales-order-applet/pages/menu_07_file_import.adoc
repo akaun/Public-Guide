@@ -1,5 +1,5 @@
 [#h3_internal_sales_order_applet_file_import]
-=  Menu 07 - File Import
+= 8.0 File Import
 
 Import Item Module is used to mass upload the products using CSV file. This function is especially useful for the user if they have a wide range of products. It could tremendously save time and absolutely accurate.
  

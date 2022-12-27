@@ -1,5 +1,5 @@
 [#h3_stock_take_v2_stock_take_session]
-= Menu 01 - Stock Take Session
+= 2.0 Stock Take Session
 
 Please go to Akaun.com - Stock Take Applet V2
 

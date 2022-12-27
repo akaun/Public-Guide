@@ -1,5 +1,5 @@
 [#H3_tax_configuration_applet_tax_listing]
-= Tax Configuration Listing
+= 2.0 Tax Configuration Listing
 
 Please click the "+" button to add a new tax configuration.
 
@@ -19,7 +19,7 @@ image::create-tax-configuration.png[Create Tax Configuration, align = "center" ]
 
 After adding the tax configuration, it will be listed in the main page. Please click on the tax configuration to edit it. 
 
-== Details
+== 2.1 Details
 
 Please edit the Tax configuration general information from the "Details" tab.
 

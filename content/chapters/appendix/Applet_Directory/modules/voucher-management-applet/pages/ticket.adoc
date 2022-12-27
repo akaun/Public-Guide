@@ -1,5 +1,5 @@
 [#h3_voucher_management_applet_ticket_management]
-= Ticket
+= 3.0 Ticket
 
 All the tickets generated will be listed in the table in the “Ticket” tab.
 

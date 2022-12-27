@@ -1,6 +1,0 @@
-[#h3_tax_configuration_release_note]
-= Release Note
-
-
-
-

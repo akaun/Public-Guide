@@ -1,11 +1,11 @@
 [#h3_ucc_e-commerce_multichat]
-= E-Commerce Multichat
+= 10.0 E-Commerce Multichat
 
-== AiLedger E-Commerce Multichat Desktop Electron App
+== 10.1 AiLedger E-Commerce Multichat Desktop Electron App
 
 This is an e-commerce multichat application created using electron and JavaScript and it runs on desktop OS (Windows and Mac).
 
-== App development setup
+== 10.2 App development setup
 
 Clone Repository and move into the repository folder.
 
@@ -19,7 +19,7 @@ Run the application.
 
     1. npm start
 
-== Electron App Deployment Steps (For Windows)
+== 10.3 Electron App Deployment Steps (For Windows)
 
 Electron Builder is used to package the app for Windows environment. Deployment steps are as follows:
 
@@ -47,7 +47,7 @@ Further reading regarding electron-builder and deployment in windows can be foun
 
 https://medium.com/how-to-electron/a-complete-guide-to-packaging-your-electron-app-1bdc717d739f
 
-== Electron App Deployment Steps (For MacOS)
+== 10.4 Electron App Deployment Steps (For MacOS)
 
 Electron Packager is used to package the app for Mac OS environment. Deployment steps are as follows:
 
@@ -71,11 +71,11 @@ Further reading regarding electron-packager and deployment in mac can be found h
 
 https://electron.github.io/electron-packager/main/
 
-== Files Overview and Function Explanation
+== 10.5 Files Overview and Function Explanation
 
 image::files-overview.png[Files Overview, align = "center"]
  
-=== Edit-delete-pop-up-folder
+=== 10.5.1 Edit-delete-pop-up-folder
 
 Edit-delete-pop-up folder: contains the code related to the pop-up (with edit and delete option) which opens up when right-clicked on any shop.
 
@@ -89,7 +89,7 @@ Functions inside the edit-delete JS folder:
 
 3. deleteShop: delete the selected shop
 
-=== Modal-add-shop folder
+=== 10.5.2 Modal-add-shop folder
 
 Modal-add-shop folder: contains the code related to the modal that is opened when the “Add New Shop” button is clicked.
 
@@ -115,7 +115,7 @@ Functions inside the modal-add-shop JS folder:
 
 7. closeNameUsedAlert: close alert for invalid shop name
 
-=== Modal-edit-shop folder
+=== 10.5.3 Modal-edit-shop folder
 
 Modal-edit-shop folder: contains the code related to the modal that is opened when the “Edit” button is clicked.
 
@@ -129,14 +129,14 @@ Functions inside the edit-shop JS file:
 
 3. onSubmit: Submit the new shop name to be stored
 
-=== Index.css file
+=== 10.5.4 Index.css file
 
 Index.css file: contains the CSS for the main rendered page.
 
-=== Index.html file
+=== 10.5.5 Index.html file
 Index.html file: contains the HTML for the main rendered page.
 
-=== Index.js file
+=== 10.5.6 Index.js file
 
 Index.js file: contains the backend code (node JS) code, which is used to create and store the electron windows. Inter-process Communication happens between index.js file (backend, for example) and the rest of the JS files (such as renderer.js, modal-edit-shop.js, etc. which are considered the frontend of the application). Functions inside are:
 
@@ -184,7 +184,7 @@ Input:  platform -> platform the selected shop to edit
 
 o   closeEditDelete: Close the modal for edit delete window
 
-=== Renderer.js file
+=== 10.5.6 Renderer.js file
 
 Renderer.js file: contains the JavaScript code that interacts with the index.html file. Functions inside are:
 

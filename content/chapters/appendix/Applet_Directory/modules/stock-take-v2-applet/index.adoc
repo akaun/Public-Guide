@@ -12,19 +12,6 @@ include::pages/menu_02_devices.adoc[leveloffset=3]
 
 include::pages/menu_03_reports.adoc[leveloffset=3]
 
-include::pages/permission_settings.adoc[leveloffset=3]
-
-include::pages/personalization_settings.adoc[leveloffset=3]
-
-include::pages/related_applets.adoc[leveloffset=3]
-
-include::pages/pricing.adoc[leveloffset=3]
-
-include::pages/release_note.adoc[leveloffset=3]
-
-include::pages/roadmap.adoc[leveloffset=3]
-
-
 
 
 

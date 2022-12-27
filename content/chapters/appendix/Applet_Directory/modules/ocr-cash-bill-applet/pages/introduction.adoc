@@ -1,5 +1,5 @@
 [#h3_ocr_cash_bill_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::ocr_cash_bill_applet_logo.png[150,300]
 

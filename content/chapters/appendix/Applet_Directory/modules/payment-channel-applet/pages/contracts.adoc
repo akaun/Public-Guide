@@ -1,5 +1,5 @@
 [#h3_payment_channel_applet_contracts]
-= Contracts
+= 4.0 Contracts
 
 Please click the "+" button to Create a new Contract.
 
@@ -21,7 +21,7 @@ After adding the contract, it will be listed in the main page. Please click on t
 
 You can edit the details, Contract Rate and Audit rate of the contract.
 
-== Details
+== 4.1 Details
 
 In details tab, the following information can be edited:
 
@@ -38,7 +38,7 @@ Please click the "save" button to update the changes.
 
 You can click the "delete" button to remove the contract from the contract listing.
 
-== Contract Rate
+== 4.2 Contract Rate
 
 In the contract rate tab, you can update the charges for the contract.
 
@@ -46,6 +46,6 @@ image::create-charge-rate.png[Create Charge Rate, align = "center"]
 
 Please click on the charge and update the contract rate name and rate accordingly.
 
-== Audit Rate
+== 4.3 Audit Rate
 
 In the audit rate tab, you can check the summary of actions taken to the contracts. 

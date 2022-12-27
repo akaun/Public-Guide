@@ -1,11 +1,11 @@
 [#h3_internal_sales_order_sales_order]
-= Menu 01 - Sales Orders Listing
+= 2.0 Sales Orders Listing
 
 Upon creation, all the sales orders are listed here. Users may click on the desired sales order to view the main, customer account, line items, delivery, attachments, and other details to view and edit.
 
 image::sales_order_listing.png[1440 x 900]
 
-== Advanced Search
+== 2.1 Advanced Search
 
 The advanced search box below helps refine the search and allows the user to specify requirements by branch, customer, date, status, and marketplaces when searching from the list of sales orders. 
 
@@ -17,7 +17,7 @@ image::sales_order_advanced_search.png[1440 x 900]
 ** Status: Current status of the sales order (Active / Inactive).
 ** Marketplace Status: Current marketplace status of the sales order (Pending / Delivered / Cancelled / To Ship / Shipped / Failed and others).
 
-== Final Posting
+== 2.2 Final Posting
 
 Upon creation, the posting status of the sales order document is ‘DRAFT'. 
 
@@ -25,13 +25,13 @@ Users can post the document(s) to ‘FINAL’ status once the sales order is con
 
 image::final_posting.png[1440 x 900]
 
-==  Create New Sales Order
+== 2.3 Create New Sales Order
 
 Go to the Sales Order menu, and click on the '+' button to Create a New Sales Order.
 
 image::sales_order_create.png[1440 x 900]
 
-=== Sales Order - Main Details Tab
+=== 2.3.1 Sales Order - Main Details Tab
 
 Users may key in the main details of the new document OR copy/Knock Off from other documents.
 
@@ -57,7 +57,7 @@ image::sales_order_create_main_tab.png[1440 x 900]
 ** Client Value: To display the client value, for EMP users.
 ** Remarks: Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
 
-=== Sales Order - Account Tab
+=== 2.3.2 Sales Order - Account Tab
 
 As the user is creating a contract between  organization and a Customer for the supply of specified goods and/or services, a link is configured here between the sales order and the customer.
 
@@ -67,7 +67,7 @@ image::account_tab_entity_details.png[1440 x 900]
 
 Entity ID: Customer Code, auto-filled when customer entity is selected. 
 
-==== Entity Details
+==== 2.3.2.1 Entity Details
 
 All relevant information from the Customer master record will be copied from here to the sales order. 
 
@@ -100,7 +100,7 @@ image::create_edit_mode.png[1440 x 900]
 ** Email: A central email through which customers want to communicate. Auto-filled when customer entity is selected. 
 ** Phone Number: A central phone number through which customers want to communicate. Auto-filled when customer entity is selected. 
 
-==== Bill To
+==== 2.3.2.2 Bill To
 
 A bill to is the customer who pays for the sales order. It can be different than the sold-to customer. 
 
@@ -118,7 +118,7 @@ Upon selecting the address, the billing address details get auto-filled and are 
 
 image::selecting_address.png[1440 x 900]
 
-==== Ship To
+==== 2.3.2.3 Ship To
 
 A ship to is the customer who receives the specified goods and/or services in the sales order. It can be different than the sold-to customer. 
 
@@ -136,7 +136,7 @@ Upon selecting the address, the shipping address details get auto-filled and are
 
 image::shipping_address_generated.png[1440 x 900]
 
-=== Sales Order - Line Items tab
+=== 2.3.3 Sales Order - Line Items tab
 
 An individual transaction stated on a sales order is referred to as a line item. One case of product X and two cases of product Y, for example, would count as two line items on the same sales order.
 
@@ -150,9 +150,9 @@ Search Item from the list.
 
 image::search_item.png[1440 x 900]
 
-==== Item Details
+==== 2.3.4 Item Details
 
-===== Main Details Tab
+===== 2.3.4.1 Main Details Tab
 
 Select the item and upon selecting, key in the main details of the item.
 
@@ -218,7 +218,7 @@ image::select_item.png[1440 x 900]
 
 Note: You may Knock Off (KO) and/or Copy the item and quantity from existing docs. The KO configurations are done in the Organisation Applet > Company  > Knock Off Conf.
 
-===== Delivery Instructions Tab
+===== 2.3.4.2 Delivery Instructions Tab
 
 image::delivery_instruction_tab.png[1440 x 900]
 
@@ -231,7 +231,7 @@ Delivery message card:
 
 * You can also prepare the delivery message card for the receiver.
 
-===== Department Tab
+===== 2.3.4.3 Department Tab
 
 Linking the line item to the following departments is optional and helps in reports.
 
@@ -245,7 +245,7 @@ Project: Selecting project at the item or hdr level.
 
 image::department_tab.png[1440 x 900]
 
-===== Delivery Details Tab
+===== 2.3.4.4 Delivery Details Tab
 
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
@@ -264,7 +264,7 @@ image::item_details_delivery_details.png[1440 x 900]
 ** Delivery PIC Contact: It’s contact of the delivery person in charge.
 ** Delivery Remarks: Additional notes/remarks for delivery.
 
-===== Membership Points Tab
+===== 2.3.4.5 Membership Points Tab
 
 This tab is used to manage membership Points:
 
@@ -276,7 +276,7 @@ This tab is used to manage membership Points:
 
 image::line_items_membership_points.png[1440 x 900]
 
-==== Stock Availability Tab
+==== 2.3.5 Stock Availability Tab
 
 Stock availability tabs allow users to check whether the products are available in-store.
 
@@ -288,13 +288,13 @@ User can see:
 
 image::sales_order_stock_availability.png[1440 x 900]
 
-==== Costing Details Tab
+==== 2.3.5.1 Costing Details Tab
 
 List of Costing Details for the particular sales order is displayed here.
 
 image::sales_order_costing_det.png[1440 x 900]
 
-==== Pricing Details Tab
+==== 2.3.5.2 Pricing Details Tab
 
 image::sales_order_pricing_details.png[1440 x 900]
 
@@ -305,7 +305,7 @@ User chooses UOM from the dropdown list and can see the pricing details from the
 ** Unit Price
 ** Modified date
 
-==== Issue Link Tab
+==== 2.3.5.3 Issue Link Tab
 
 image::sales_order_issue_link.png[1440 x 900]
 
@@ -320,7 +320,7 @@ This tab is used to track issue by:
 ** Resolved Date
 ** Status
 
-=== Sales Order - Settlement tab
+=== 2.3.6 Sales Order - Settlement tab
 
 Transaction in which the sales order is fully or partially settled. 
 
@@ -344,7 +344,7 @@ Once added, a new row will be created under the Settlement tab and the Total and
 
 image::total_outstanding.png[1440 x 900]
 
-=== Sales Order - Department Hdr Tab
+=== 2.3.7 Sales Order - Department Hdr Tab
 
 Linking the sales order to the following departments is optional and helps in reports:
 
@@ -358,13 +358,13 @@ Project: Selecting project at the item or hdr level.
 
 image::department_hdr_tab.png[1440 x 900]
 
-== Edit Existing Sales Order
+== 2.4 Edit Existing Sales Order
 
 Go to the Sales Order menu, and click on the exiting sales order to Edit an existing Sales Order.
 
 image::edit_sales_order.png[1440 x 900]
 
-=== Sales Order - Delivery Details tab
+=== 2.4.1 Sales Order - Delivery Details tab
 
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
@@ -381,7 +381,7 @@ image::delivery_tab.png[1440 x 900]
 ** Delivery PIC Contact: It’s contact of the delivery person in charge.
 ** Delivery Remarks: Additional notes/remarks for delivery.
 
-=== Sales Order - Delivery Trips tab
+=== 2.4.2 Sales Order - Delivery Trips tab
 
 Delivery trips report for the particular sales order is displayed here.    
 
@@ -395,7 +395,7 @@ image::delivery_trips.png[1440 x 900]
 ** Delivery Status: If the delivery item was successfully delivered to the addressee.
 ** Recipient Name: The person’s name that receives.
 
-=== Sales Order - Contra Tab
+=== 2.4.3 Sales Order - Contra Tab
 
 image::sales_orde_contra.png[1440 x 900]
 
@@ -403,13 +403,13 @@ In order to create Contra, users need to click "+" button, it will open the seco
 
 image::add_contra.png[1440 x 900]
 
-=== Sales Order - Doc Link Tab
+=== 2.4.4 Sales Order - Doc Link Tab
 
 Doc Link is used to show either the selected line item have link with other Gen Doc Line Item.
 
 image::doc_link_order.png[1440 x 900]
 
-=== Sales Order - Attachments tab
+=== 2.4.5 Sales Order - Attachments tab
 
 Any Sales order can have one or more files attached to it for future records and references. For example Sales quotations, Screenshots, etc.
 
@@ -425,7 +425,7 @@ A confirmation message will be displayed and a new attachment will be listed und
 
 image::attachment_confirmation.png[1440 x 900]
 
-=== Sales Order - Export tab
+=== 2.4.6 Sales Order - Export tab
 
 The Document can be exported to PDF, CSV, DOCX, and ZIP files.
 
@@ -437,29 +437,29 @@ Upon exporting the documents, the system will show a success message, and users 
 
 image::success_message.png[1440 x 900]
 
-=== Sales Order - Ecomsync tab
+=== 2.4.7Sales Order - Ecomsync tab
 
 To Manage Market place status, view document details, and get or view the document printables from different marketplaces.
 
-==== Marketplace status tab - Change the status of the order for marketplace.
+==== 2.4.7.1 Marketplace status tab - Change the status of the order for marketplace.
 
 image::marketplace_status.png[1440 x 900]
 
-==== Detail tab - View the details of the marketplace order
+==== 2.4.7.2 Detail tab - View the details of the marketplace order
 
 image::detail_tab.png[1440 x 900]
 
-==== Printable tab - Get or view all marketplace related document printables by clicking “Get Document(s)“ 
+==== 2.4.7.3 Printable tab - Get or view all marketplace related document printables by clicking “Get Document(s)“ 
 
 image::printable_tab_get_documents.png[1440 x 900]
 
-=== Sales Order - Status tab
+=== 2.4.8 Sales Order - Status tab
 
 In order to change the document status to delete, users will go to the status tab and click on the “Delete“ button.
 
 image::status_delete.png[1440 x 900]
 
-=== Sales Order - Events tab
+=== 2.4.9 Sales Order - Events tab
 
 This tab allows users to create a new event. Users could press on the “+” sign to create a new event.
 

@@ -1,5 +1,5 @@
 [#h3_ucc_dashboard]
-= Menu 02 - Dashboard
+= 3.0 Dashboard
 
 Dashboard can be viewed after setting date duration.
 

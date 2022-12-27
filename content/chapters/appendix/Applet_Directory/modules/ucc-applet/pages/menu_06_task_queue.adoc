@@ -1,5 +1,5 @@
 [#h3_ucc_task_queue]
-= Menu 06 - Task Queue
+= 7.0 Task Queue
 
 The task queue is for the active tasks that are waiting in the queue to be assigned to an agent. 
 The agent can see Team task queue and my task queue. 

@@ -1,16 +1,16 @@
 [#h3_ucc_implementation]
-= Implementation
+= 11.0 Implementation
 
-== High Level Features Workflow
+== 11.1 High Level Features Workflow
 
 image::implementation_workflow_high_level.jpg[]
 
-== Implementation Workflow of Telegram, Facebook, Whatsapp & SMS
+== 11.2 Implementation Workflow of Telegram, Facebook, Whatsapp & SMS
 
 image::implementation_workflow_FB_Telegram.jpg[]
 
-== Telegram Implementation
-=== How to create a new telegram bot and generate token?
+== 11.3 Telegram Implementation
+=== 11.3.1 How to create a new telegram bot and generate token?
 . Client PIC needs to follow the steps below to create a new telegram bot and pass the token to Project Manager for UCC integration.
 
 image::implementation_telegram_step1.png[]
@@ -35,20 +35,20 @@ And you are done. Kindly copy the token and pass it to us. Thank you.
 
 NOTE: PM to pass the token to technical team for integration. 
 
-== Facebook Implementation
+== 11.4 Facebook Implementation
 Client PIC to provide Facebook Business Manager ID of the company Facebook to PM. 
 Please create one if currently do not have the FB Business Manager ID. 
 
-=== Create a Business Manager
+=== 11.4.1 Create a Business Manager
 
 . Go to http://business.facebook.com/overview[Meta Business Suite and Business Manager Overview] .
 . Click Create Account.
 . Enter a name for your business, your name and work email address and click Next.
 . Enter your business details and click Submit.
 
-== Whatsapp & SMS : Twilio Whatsapp Application User Guide
+== 11.5 Whatsapp & SMS : Twilio Whatsapp Application User Guide
 
-=== Section 1.0 : Twilio Account Creation
+=== 11.5.1 Twilio Account Creation
 1.1 Project manager to request Twilio Admin User to create a new account in Twilio console for the client company. https://www.twilio.com/console/admin/managed-accounts
 
 image::implementation_twilio_section1_1.png[]
@@ -57,7 +57,7 @@ image::implementation_twilio_section1_1.png[]
 
 image::implementation_twilio_section1_2.png[]
 
-=== Section 2.0: Twilio - Provide administrator access to client admin user
+=== 11.5.2 Provide administrator access to client admin user
 2.1 Project manager to provide the client user an admin access to access into the console for billing matters and WhatsApp related services. 
 
 The project manager will give admin permission to this user email in the Twilio console. This admin user will then need to login to Twilio console and set up the payment details for Twilio WhatsApp service.
@@ -84,7 +84,7 @@ image::implementation_twilio_section2_3_1.png[]
 
 The client PIC can proceed with the selected options, continue to complete the setup of payment page.
 
-=== Section 3.0: To add  the internal finance group email finance-group@wavelet.net in the console
+=== 11.5.3 To add  the internal finance group email finance-group@wavelet.net in the console
 3.1 Please go to the Billing > Manage Billing > Preferences.
 
 image::implementation_twilio_section3_1.png[]
@@ -93,7 +93,7 @@ image::implementation_twilio_section3_1.png[]
 
 image::implementation_twilio_section3_2.png[]
 
-=== Section 4.0: Twilio - Regulatory Bundle Application
+=== 11.5.4 Twilio - Regulatory Bundle Application
 4.1 Project manager to request the required business documents from client PIC to proceed with Twilio Regulatory Bundle Application. https://www.twilio.com/guidelines/my/regulatory[Malaysia: Regulatory Guidelines]
 
 *Please take note that this is a Malaysia Mobile Number Application for SMS and Whatsapp service via Twilio. 
@@ -187,7 +187,7 @@ image::implementation_twilio_section4_2_20.png[]
 
 Next, please provide your email. This is the email for Twilio support to contact you during the reviewing and approval process.
 
-=== Section 5.0: Send a manual email request to Twilio for Malaysian phone number request after the section 2.0 and 3.0 is done
+=== 11.5.5 Send a manual email request to Twilio for Malaysian phone number request after the section 2.0 and 3.0 is done
 5.1 After the regulatory bundle is approved, the project manager will need to send a manual email request to support@twilio.com in order to request for a number.
 
 Email example for your reference:
@@ -231,7 +231,7 @@ image::implementation_twilio_section5_3.png[]
 
 image::implementation_twilio_section5_3_1.png[]
 
-=== Section 6.0: Sign up to request access for Whatsapp enabled Sender in the Twilio Console
+=== 11.5.6 Sign up to request access for Whatsapp enabled Sender in the Twilio Console
 6.1 The project manager will submit the access request on behalf of the client, to [Whatsapp enabled senders] in the Twilio Console.
 
 image::implementation_twilio_section6_1.png[]
@@ -289,7 +289,7 @@ image::implementation_twilio_section6_7_2.png[]
 
 image::implementation_twilio_section6_8.png[]
 
-=== Section 7.0: PM to guide client admin user to submit the template message in the Twilio Console
+=== 11.5.7 PM to guide client admin user to submit the template message in the Twilio Console
 7.1 Once the mobile number is successfully requested and integrated with UCC in https://akaun.com/[Akaun Shell] , the project manager will guide the user to submit the template message and update the Whatsapp Sender in the Twilio Console.
 
 image::implementation_twilio_section7_1.png[]

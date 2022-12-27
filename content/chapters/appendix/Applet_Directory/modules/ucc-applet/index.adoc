@@ -3,8 +3,6 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
-
 include::pages/menu_01_inbox.adoc[leveloffset=3]
 
 include::pages/menu_02_dashboard.adoc[leveloffset=3]
@@ -25,20 +23,8 @@ include::pages/menu_09_personalization.adoc[leveloffset=3]
 
 include::pages/e-commerce-multichat.adoc[leveloffset=3]
 
-// include::pages/permission_settings.adoc[leveloffset=3]
-
-// include::pages/personalization_settings.adoc[leveloffset=3]
-
 include::pages/implementation.adoc[leveloffset=3]
 
 include::pages/general_requirement.adoc[leveloffset=3]
 
 include::pages/admin_access_setup.adoc[leveloffset=3]
-
-include::pages/related_applets.adoc[leveloffset=3]
-
-include::pages/pricing.adoc[leveloffset=3]
-
-include::pages/release_note.adoc[leveloffset=3]
-
-include::pages/roadmap.adoc[leveloffset=3]

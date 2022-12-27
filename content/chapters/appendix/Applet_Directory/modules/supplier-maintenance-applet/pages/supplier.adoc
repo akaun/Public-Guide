@@ -1,5 +1,5 @@
 [#h3_supplier_maintenance_applet_supplier]
-= Supplier
+= 2.0 Supplier
 
 Please click the "+" button to Create a new Supplier.
 
@@ -25,7 +25,7 @@ After adding the supplier, it will be listed in the main page. Please click on t
 
 You can edit the details, login,Payment config, Tax, Address, Contact, Branch, and Remark of the supplier.
 
-== Main
+== 2.1 Main
 
 In the "Main" tab, the following information can be edited:
 
@@ -43,7 +43,7 @@ You can click the "delete" button to remove the Supplier from the supplier listi
 
 image::edit-supplier-main.png[Edit Supplier Main, align = "center"]
 
-== Category
+== 2.2 Category
 
 In the "Category" tab, the supplier can be added to different category, the following information is required.
 
@@ -55,7 +55,7 @@ Please search and select the relevant category from the list, and then click the
 
 You can remove the category from the list by clicking on the listed category for the Customer.
 
-== Login
+== 2.3 Login
 
 In the "Login" tab, the supplier user email that used to login to the system will be listed, the following information is required.
 
@@ -80,7 +80,7 @@ image::supplier-edit-login.png[Edit Login, align = "center"]
 
 You can edit or remove the login email from the list by clicking on the listed user email.
 
-== Payment Config
+== 2.4 Payment Config
 
 In the Payment Config tab, the supplier payment methods will be listed,  the following information is compulsory.
 
@@ -95,7 +95,7 @@ Please click the "Add" button to create a new payment config.
 
 You can edit or remove the payment config from the list by clicking on the listed Payment Configuration.
 
-== Tax
+== 2.5 Tax
 
 In the "Tax" tab, the tax details will be added to the supplier, please configure the tax dropdown list in tax configuration applet, the following information is required.
 
@@ -113,7 +113,7 @@ Please click the "Add" button to create a new tax.
 
 You can edit or remove the tax from the list by clicking on the listed tax.
 
-== Address
+== 2.6 Address
 
 In the "Address" tab, the Addresses will be added to the supplier, the following information is required.
 
@@ -133,7 +133,7 @@ Please click the "Add" button to create a new Address.
 
 You can edit or remove the Address from the list by clicking on the listed address.
 
-== Contact
+== 2.7 Contact
 
 In the "Contact" tab, the Contact details will be added to the supplier the following information is compulsory.
 
@@ -150,7 +150,7 @@ image::supplier-create-contact.png[Create Contact, align = "center"]
 
 You can edit or remove the contact from the list by clicking on the listed contact.
 
-== Branch
+== 2.8 Branch
 
 In the "Branch" tab, the branches of the supplier will be listed, the following information is compulsory.
 
@@ -165,7 +165,7 @@ image::supplier-create-branch.png[Create Branch, align = "center"]
 
 You can edit or remove the branch from the list by clicking on the listed branch.
 
-== Company Linking
+== 2.9 Company Linking
 
 In the Company Linking tab, the supplier can be added to different category, the following information is required.
 
@@ -175,7 +175,7 @@ image::supplier-company-linking.png[Company Linking, align = "center"]
 
 Please search and select the relevant category from the list, and then click the "add" button. 
 
-== Remark
+== 2.10 Remark
 
 In the "Remark" tab, the remark can be added to the supplier.
 
@@ -183,7 +183,7 @@ image::supplier-remark.png[Remark, align = "center"]
 
 Please click the "Save" button after you key in the details.
 
-== Employee
+== 2.11 Employee
 
 In the Employee tab, the supplier can be added to different category, the following information is required.
 

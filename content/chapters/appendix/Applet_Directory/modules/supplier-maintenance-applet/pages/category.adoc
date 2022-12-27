@@ -1,5 +1,5 @@
 [#h3_supplier_maintenance_applet_category]
-= Category
+= 3.0 Category
 
 Please click on "Category" from the module list and click "+" button to create a new supplier category.
 

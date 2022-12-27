@@ -1,11 +1,11 @@
 [#h3_platform_sysadmin_applet_catalogue]
-= Catalogue
+= 2.0 Catalogue
 
 image::CatalogueMenu.png[Catalogue Menu, align = "center"]
 
 Click on ‘+’ button to Create New Catalogue。
 
-== Create New Catalogue
+== 2.1 Create New Catalogue
 
 image::CreateCatalogue(Details).png[Details, align = "center"]
 
@@ -23,9 +23,9 @@ h. Subscription Type: Under development
 When all mandatory fields are filled with no errors, the ‘Create’ button will be enabled
 Click on it to ‘Create New Catalogue’
 
-== Edit Catalogue
+== 2.2 Edit Catalogue
 
-=== Details
+=== 2.2.1 Details
 
 image::EditCatalogue(Details).png[Details, align = "center"]
 
@@ -41,7 +41,7 @@ image::EditCatalogue(Details).png[Details, align = "center"]
 
     a. To delete a catalogue, click the ‘Delete’ button at the bottom of the page. 
 
-=== Applet
+=== 2.2.2 Applet
 
 image::EditCatalogue(Applet).png[Applet, align = "center"]
 
@@ -79,7 +79,7 @@ When fields are valid and changed, ‘Save’ button will be enabled
 
 To remove the selected applet from the catalogue, click on the ‘Delete’ button on the bottom of the page. 
 
-=== Plugin
+=== 2.2.3 Plugin
 
 image::EditApplet(Plugin).png[Applet Plugin, align = "center"]
 
@@ -89,13 +89,13 @@ Select plugins from the list.
 
 When selection is done, ‘Add’ button should be enabled. Click on it to add the plugin to the applet.
 
-=== Approved Permissions
+=== 2.2.4 Approved Permissions
 
 image::EditApplet(ApprovedPermissions).png[Approved Permissions, align = "center"]
 
 All Approved permissions for the selected applet in the catalogue will be displayed here. 
 
-=== Requested Permissions
+=== 2.2.5 Requested Permissions
 
 image::EditApplet(RequestPermissions).png[Requested Permissions, align = "center"]
 
@@ -117,7 +117,7 @@ d. Status: Status will automatically be set to ‘DRAFT’. Programmers will use
 
 e. Description: Description of the permission request hdr.
 
-=== Installed By Users
+=== 2.2.6 Installed By Users
 
 image::EditApplet(InstalledByUser).png[Installed By User, align = "center"]
 
@@ -127,7 +127,7 @@ The table has multi-select enabled, multiple users can be chosen to have the sel
 
 Once users have been selected, click on the ‘Uninstall’ at the bottom of the page to uninstall the selected Applet for them.
 
-=== Installed For Users
+=== 2.2.7 Installed For Users
 image::EditApplet(InstallForUsers).png[Install For User, align = "center"]
 
 Click on ‘+’ from Edit Applet (Installed By User) to install the selected applet for users.
@@ -138,13 +138,13 @@ Multi-select has been enabled, multiple users can be selected to install the app
 
 When done, click on the ‘Add’ button to install the applet for the users.
 
-== User
+== 2.3 User
 
 image::EditCatalogue(User).png[User, align = "center"]
 
 Click on ‘+’ button to add users into catalogue.
 
-=== Add Users To Catalogue
+=== 2.3.1 Add Users To Catalogue
 
 image::EditCatalogue(AddUserToCatalogue).png[Add User To Catalogue, align = "center"]
 
@@ -164,9 +164,9 @@ c. Status: Mandatory
 
 When done, click on the ‘Add’ button to add users to the catalogue.
 
-== Edit User
+== 2.4 Edit User
 
-=== Details
+=== 2.4.1 Details
 
 image::EditUser(Details).png[Details, align = "center"]
 
@@ -182,7 +182,7 @@ a. Click on it to save user details
 
 To remove a user from a catalogue, click on the ‘Delete’ button.
 
-=== Installed Applets
+=== 2.4.2 Installed Applets
 
 image::EditUser(InstalledApplets).png[InstalledApplet, align = "center"]
 
@@ -192,7 +192,7 @@ Multi-select has been enabled, multiple applets can be selected to be uninstalle
 
 When done, click on the ‘Uninstall’ button at the bottom of the page to uninstall the applets for the selected user.
 
-=== Installed For Users
+=== 2.4.2 Installed For Users
 
 image::EditUser(InstallForUsers).png[Install For User, align = "center"]
 

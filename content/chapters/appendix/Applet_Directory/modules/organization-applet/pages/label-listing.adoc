@@ -1,11 +1,11 @@
 [#h3_organization_module_label-listing]
-= Label Listing
+= 4.0 Label Listing
 
-== Create A Label
+== 4.1 Create A Label
 
 In creating a Label, users need to click on the "+" sign to open the "Create" tab.
 
-=== Details tab
+=== 4.1.1 Details tab
 
 Users may fill up compulsory information such as: 
 
@@ -16,11 +16,11 @@ Users may fill up compulsory information such as:
 
 If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
 
-== Label Listing
+== 4.2 Label Listing
 
 Upon clicking the SAVE button, the registered location will appear in the Label Listings as below:
 
-== Edit Label
+== 4.3 Edit Label
 
 This section allows the user to update the location details.
 

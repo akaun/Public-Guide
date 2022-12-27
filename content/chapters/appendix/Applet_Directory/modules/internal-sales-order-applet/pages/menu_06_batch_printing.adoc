@@ -1,5 +1,5 @@
 [#h3_internal_sales_order_applet_batch_printing]
-=  Menu 06 - Batch Printing
+= 7.0 Batch Printing
 
 This module is used to print the orders in set.
 

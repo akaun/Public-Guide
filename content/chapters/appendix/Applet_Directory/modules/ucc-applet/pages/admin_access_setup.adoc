@@ -1,7 +1,7 @@
 [#h3_ucc_admin_access_setup]
-= Admin Access Setup
+= 13.0 Admin Access Setup
 
-== 1.0 Project Settings
+== 13.1 Project Settings
 1.1 The admin needs to create projects in the project setting by filling in all the necessary fields. 
 
 * Project Name*
@@ -11,7 +11,7 @@
 
 image::admin_access_project.png[]
 
-== 2.0 Virtual Contacts Settings
+== 13.2 Virtual Contacts Settings
 2.1 Next, is to set up the virtual contact. Please fill in the below:
 
 * Virtual contact name
@@ -51,7 +51,7 @@ image::admin_access_virtual_whatsApp_2.png[]
 
 image::admin_access_virtual_telegram.png[]
 
-== 3.0 Team Settings
+== 13.3 Team Settings
 3.1 Next is to set up the team setting. Please fill in the required fields below (*) to create teams.
 
 _Under [Details]_ Tab:
@@ -74,7 +74,7 @@ _Under [Address]_ Tab:
 
 image::admin_access_team_2.png[]
 
-== 4.0 Agent Settings
+== 13.4 Agent Settings
 4.1 After creating all the teams in settings, next would be adding all the agents into the agent settings. Please fill in the required fields below (*) to proceed.
 
 * Agent Email*
@@ -94,7 +94,7 @@ image::admin_access_agent_4_2_1.png[]
 
 image::admin_access_agent_4_2_2.png[]
 
-== 5.0 Predefined Messages Settings
+== 13.5 Predefined Messages Settings
 5.1 If you need to pre-set the predefined messages, please go to the predefined message settings and fill in the below:
 
 * Name
@@ -129,7 +129,7 @@ _4.3(b) For any predefined messages in all channels:_
     * Idle Time
     ** If this option is selected, it means that the predefined message would be sent out as an automated message by the system and can also be sent out manually by the agents if the condition of “Idle Time” and “Idle Time In Days” are met. _(For example, if the condition of the predefined message is set to be “Idle Time” and “Idle Time In Days” is 2 days in the automated greeting event setting, the initiated conversation from the end customer after idle for 2 days would trigger the predefined message to be sent out automatically by the system.)_
 
-== 6.0 QR Code Settings
+== 13.6 QR Code Settings
 6.1 In the QR Code settings, you can create agent QR code here by filling in the fields below:
 
 * Virtual Contact

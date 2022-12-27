@@ -1,5 +1,5 @@
 [#h3-internal-sales-invoice-applet-line-items]
-=  Menu 02 - Line Items
+=  3.0 Line Items
 
 Line items Menu displays Sales Invoices, which was created in Sales Invoice Menu. Users is not able to create new invoice in this menu, but they can edit them.
 
@@ -12,11 +12,11 @@ User can edit the invoice by clicking the chosen item. It will direct the user w
 ** Pricing Details Tab
 ** Issue Link Tab
 
-== Line Items - Item Details Tab
+== 3.1 Line Items - Item Details Tab
 
 Item Details Tab includes six separate tabs in it.
 
-=== Main Details Tab
+=== 3.1.1 Main Details Tab
 
 In this Tab, user can edit or add:
 
@@ -51,7 +51,7 @@ image::item_details_main_details.png[1440 x 900]
 ** Txn Amount
 ** Remarks
    
-=== Delivery Instructions Tab
+=== 3.1.2 Delivery Instructions Tab
   
 image::line_items_edit_delivery_instruction.png[1440 x 900]
 
@@ -64,19 +64,19 @@ Delivery message card:
 
 ** You can also prepare the delivery message card for the receiver.
 
-=== Department Tab
+=== 3.1.3 Department Tab
 
 Users click "Copy from Hdr", it copies from Department Hdr Tab in Sales order menu
 
 image::line_items_department_tab.png[1440 x 900]
 
-=== Related Documents Tab
+=== 3.1.4 Related Documents Tab
 
 This tab is for the documents which are related to Sales Invoice
 
 image::line_items_related_documents.png[1440 x 900]
 
-=== Delivery Details Tab
+=== 3.1.5 Delivery Details Tab
 
 The requested delivery information for the Products specified in the document, including multiple delivery dates (if applicable), location, and responsible person details.
 
@@ -84,7 +84,7 @@ Users also can require delivery or not - choose from dropdown list
 
 image::line_items_delivery_details.png[1440 x 900]
 
-=== Delivery Tips Tab
+=== 3.1.6 Delivery Tips Tab
 
 List of Delivery trips report for the particular sales order is displayed here.   
 
@@ -97,7 +97,7 @@ List of Delivery trips report for the particular sales order is displayed here.
 ** Delivery Status: If the delivery item was successfully delivered to the addressee.
 ** Recipient Name: The person’s name that receives.
 
-== Line Items - Costing Details Tab
+== 3.2 Line Items - Costing Details Tab
 
 List of Costing Details for the particular sales order is displayed here.
 
@@ -107,7 +107,7 @@ List of Costing Details for the particular sales order is displayed here.
 
 image::line_items_costing_details.png[1440 x 900]
 
-== Line Items - Pricing Details Tab
+== 3.3 Line Items - Pricing Details Tab
 
 User chooses UOM from the dropdown list and can see the pricing details from the listing below:
 
@@ -118,7 +118,7 @@ User chooses UOM from the dropdown list and can see the pricing details from the
 
 image::line_items_pricing_details.png[1440 x 900]
 
-== Line Items - Issue Link Tab
+== 3.4 Line Items - Issue Link Tab
 
 image::line_items_issue_link.png[1440 x 900]
 

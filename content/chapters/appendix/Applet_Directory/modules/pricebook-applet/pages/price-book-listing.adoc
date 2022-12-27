@@ -1,5 +1,5 @@
 [#h3_pricebook_pricebook_listing]
-= Pricebook Listing
+= 3.0 Pricebook Listing
 
 Please click the "+"" button to Create a new Pricebook.
 

@@ -1,5 +1,5 @@
 [#h3_merchant_access_applet_report]
-=  2. Report
+= 3.0 Report
 
 .Report - Report Listing
 image::Report-Report_Listing.png[align="center"]

@@ -1,5 +1,5 @@
 [#h3_pricebook_priceset]
-= Create Price Set
+= 4.0 Create Price Set
 
 Please click on "Price set" from the module list and click "+" button to create a new price set.
 
@@ -16,7 +16,7 @@ Compulsory information:
 
 image::create-priceset.png[Create Price Set, align = "center"]
 
-== Price Set: Details
+== 4.1 Price Set: Details
 
 After adding the Price set, it will be listed in the main page. Please click on the price set to edit it. 
 
@@ -29,7 +29,7 @@ Please edit the main details of the Price set from the "Details" tab.
 image::edit-details-priceset-1.png[Edit Price Set Details, align = "center"]
 image::edit-details-priceset-2.png[Edit Price Set Details0, align = "center"]
 
-== Price Set: Rules-Doc Hdr
+== 4.2 Price Set: Rules-Doc Hdr
 
 Please Add or edit the rules for Document HDR level of Price set from the "Rules-Doc Hdr" tab.
 
@@ -56,7 +56,7 @@ image::rule-membership-class.png[Rule: Membership Class, align = "center"]
 After you added the rules in the price set, you can click the rule from the list to remove it. 
 
 
-== Price Set: Rules-Multi Line
+== 4.3 Price Set: Rules-Multi Line
 
 Please Add or edit the rules for Multi line items of Price set from the "Rules-Multi Line" tab.
 
@@ -71,12 +71,12 @@ image::price-set-multi-line-add-rule.png[Rule: Multi-line, align = "center"]
 Please fill up the Compulsory (*) information and Click the "Create and "+" button to add Item, Item Category, Item Code Regex, Item Name Regex, Category Code Regex, and Category Name Regex.
 
 
-== Price Set: Rules-Single Line
+== 4.4 Price Set: Rules-Single Line
 
 Please follow the above guide (Rules-Multi Line) for the "Rules-Single Line" tab.
 
 
-== Treatment
+== 4.5 Treatment
 
 Please click the "Treatment" tab to edit the treatment of the Price set.
     

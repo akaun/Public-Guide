@@ -1,37 +1,37 @@
 [#h3_internal-delivery-order-applet_edit_delivery_order]
-= Edit Feature
+= 3.0 Edit Feature
 
-== 2.2 Edit Delivery Order
+== 3.1 Edit Delivery Order
 
-=== 2.2.1 Selecting Delivery Order
+=== 3.1.1 Selecting Delivery Order
 
 .Edit Delivery Order: Selecting Item
 image::EditDeliverOrder.png[align="center"]
 
 After creating delivery orders from *2.1*, users will now be able to see the orders they have created at the *Delivery Order* section, which can be accessed by clicking on the *Delivery Order* sidebar. Users can *select* any *delivery orders* that need to be edited by *clicking* on the *specific row*.
 
-=== 2.2.2 Editing Selected Order
+=== 3.1.2 Editing Selected Order
 
 .Editing Selected Order
 image::EditSelectedOrder.png[align="center"]
 
 Similar to 2.1, the *tabs* for Main, Account, Custom Fields, Line Item, and Department Hdr can be *accessed in a similar way* to be edited.
 
-=== 2.2.3 Exporting to PDF
+=== 3.1.3 Exporting to PDF
 
 .Printing Selected Order
 image::ExportSelectedOrder.png[align="center"]
 
 Users are able to print out the selected order in edit mode by *navigating to the right*, clicking the “>” icon until the *Export* tab is found. Then a *desired printable format* is *chosen* and by clicking on the *EXPORT AS PDF* button, the delivery order will be successfully exported. In addition, admin users will be granted a unique feature that allows them to combine multiple orders to be *EXPORTED* as a single pdf.
 
-=== 2.2.4 Changing the status
+=== 3.1.4 Changing the status
 
 .Changing the Status
 image::EditSelectedStatus.png[align="center"]
 
 Users are able to alter the status of the selected order by accessing the *Status* tab, which can be found by *navigating to the right* by clicking the “>” icon. Clicking on the *New Status* will initiate a *dropdownlist* that  will change the current status of the selected order.
 
-=== 2.2.5 Finalizing the Delivery Order
+=== 3.1.5 Finalizing the Delivery Order
 
 .Finalizing the Order
 image::FinalizedSelectedOrder.png[align="center"]
