@@ -5,7 +5,6 @@
 ** xref:catalog.adoc[Catalog]
 ** xref:installing_applets.adoc[Installing Applets]
 ** xref:applet_permission_settings.adoc[Applet Permission Settings]
-** xref:personalization.adoc[Personalization]
 ** xref:leaving_applet.adoc[Leaving the Applet Store]
 // ** xref:modules.adoc[Modules]
 // ** xref:related_applets.adoc[Related Applets]
