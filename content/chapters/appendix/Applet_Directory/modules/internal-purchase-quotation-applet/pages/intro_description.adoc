@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Purchase Quotation Applet is used to add one or many internal purchase quotations. It is used to manage the listing of the internal purchase quotation and line items. There are two modules in the applet which are ‘Internal Purchase Quotation', and ‘Line Items’.
