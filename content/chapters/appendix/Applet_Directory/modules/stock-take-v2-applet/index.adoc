@@ -4,8 +4,6 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/modules.adoc[leveloffset=3]
-
 include::pages/menu_01_stock_take_session.adoc[leveloffset=3]
 
 include::pages/menu_02_devices.adoc[leveloffset=3]
