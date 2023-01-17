@@ -476,7 +476,7 @@ This applet is to manage company warehouse (inbound, outbound, space management)
 
 == Webchat (UCC)
 
-The webchat can be installed to your website, to allow the site visitors to chat with your team real-time. The chat feature has proven itself to be an essential success factor when it comes to customer loyalty and lead generation. The cht feature allows your agents to address customer product enquiries, pricing questions and after-sales service requests right on spot!
+The webchat can be installed to your website, to allow the site visitors to chat with your team real-time. The chat feature has proven itself to be an essential success factor when it comes to customer loyalty and lead generation. The cht feature allows your agents to address customer product enquiries, pricing questions and after-sales service requests right on spot.
 
 == Workflow Design Applet
 
