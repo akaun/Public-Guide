@@ -1,6 +1,36 @@
 [#h3_issue-tracker-applet_introduction]
 =  Introduction
 
-image::issue_tracker_applet_logo.png[150,300]
+== *1 Introduction* 
 
-include::intro_description.adoc[]
+image:../images/icon.png[image,width=200,height=250]
+
+The IssueTracker applet is designed for the company to make the issue
+assignment progress easier and more manageable. The user can assign many
+roles to one or more people in one issue to make the whole working
+process on track.
+
+== *2 Features*
+
+image:../images/features_ menu.png[image,width=176,height=487]
+
+_Features Menu_
+
+This applet consists of six components. Dashboard, Projects, Issues,
+Plans, and two additional components Settings, and Personalization.
+
+* Dashboard: It provides a general overview of all the data in projects
+and issues.
+
+* Projects: The project consists of many tasks to complete a big target.
+
+* Issues: The issue is a task that assigns to employees to complete the
+whole project.
+
+* Plans: To create plans related to a specific project or project.
+
+* Settings: To adjust the applet settings, system configuration, or
+permissions.
+
+* Personalization: Adjust and personalize the applet.
+

@@ -1,0 +1,311 @@
+=== *2.5 Settings*
+
+image:../images/settings.png[image,width=624,height=293]
+
+_Issues:_ Settings _Page_
+
+The settings page consists of fifteen components. Projects, Issue Types,
+Project Categories, Users, Teams, Field Settings, Default Selection,
+Applet Access, Permission Set, User Permission, Team Permission, Role
+Permission, INTEGRATION, Triggers, Applet Log, and Reset Applet State.
+
+==== *2.5.1 Projects*
+
+image:../images/settings_projects.png[image,width=624,height=293]
+
+_Settings:_ Projects
+
+The Projects page consists of the projects you have. You can search for
+a project by project name, project code, project category code, and date
+created. You can click on any project to view its information and to
+edit the project.
+
+==== *2.5.1.1 Details*
+
+image:../images/settings_projects_edit_details.png[image,width=624,height=292]
+
+_Settings:_ Projects Edit Details
+
+When you click on a project, you have two tabs details, and
+notifications, you can edit whatever you want and then click the Save
+button. In the details tab, you can edit and view Project Code, Project
+Name, Project Key, Project Status, Description, Project Category, Lead,
+Default Assgine, and Avatar attachment for the project.
+
+==== *2.5.1.2 Notifications*
+
+image:../images/settings_projects_edit_notifications.png[image,width=624,height=293]
+
+_Settings:_ Projects Edit Notifications
+
+In the Notifications tab in projects edit, you can view the project
+notifications, edit a specific notification by clicking on the
+notification row, create a new notification by clicking on the + button,
+or search for a specific notification by user name or user username.
+
+==== *2.5.1.2.1 Add*
+
+image:../images/settings_projects_edit_notifications_create.png[image,width=624,height=292]
+
+_Settings:_ Projects Edit Notifications Create
+
+You can create a new notification for the project, by choosing issue
+status, user, Current Assignee, Current Reporter, Current User, Project
+Lead, email, and team, and entering the description.
+
+==== *2.5.1.2.2 Edit*
+
+image:../images/settings_projects_edit_notifications_edit.png[image,width=624,height=290]
+
+_Settings:_ Projects Edit Notifications Edit
+
+After clicking on a specific notification, you can edit its information,
+issue status, user, Current Assignee, Current Reporter, Current User,
+Project Lead, email, team, and description.
+
+==== *2.5.2 Issue Type*
+
+image:../images/settings_issue_types.png[image,width=624,height=290]
+
+_Settings:_ Issues Types
+
+The Issues Types page consists of the issue types you have. You can
+search for an issue type by issue type name, and issue type code. You
+can click on any issue type to view its information and to edit the
+issue type. You can create new issue types by clicking on the + button.
+
+==== *2.5.2.1 Create*
+
+image:../images/settings_issue_types_create.png[image,width=624,height=292]
+
+_Settings:_ Issues Types create
+
+You can create a new issue type by entering the name, code, and
+description, then clicking on Submit button.
+
+==== *2.5.2.2 Edit*
+
+image:../images/settings_issue_types_edit.png[image,width=624,height=292]
+
+_Settings:_ Issues Types edit
+
+You can edit an issue type by clicking on the issue type row, then view
+its code, and edit its name and description, or you can delete the issue
+type by clicking on the Delete button.
+
+==== *2.5.3 Project Categories*
+
+image:../images/settings_project_categories.png[image,width=624,height=292]
+
+_Settings: Project Categories_
+
+The Project Categories page consists of the Project Categories you have.
+You can search for a project category by project category name, and
+project category code. You can click on any project category to view its
+information and to edit the project category. You can create new project
+categories by clicking on the + button.
+
+==== *2.5.3.1 Create* 
+
+image:../images/settings_project_categories_create.png[image,width=624,height=292]
+
+_Settings: Project Categories create_
+
+You can create a new project category by entering the name, code, and
+description, then clicking on Submit button.
+
+==== *2.5.3.2 Edit*
+
+image:../images/settings_project_categories_edit.png[image,width=624,height=292]
+
+_Settings: Project Categories_ edit
+
+You can edit a project category by clicking on the project category row,
+then view its code, and edit its name and description, or you can delete
+the project category by clicking on the Delete button.
+
+==== *2.5.4 Users*
+
+image:../images/settings_users.png[image,width=624,height=292]
+
+_Settings: User_
+
+The users' page consists of the users you have. You can search for a
+user by using email. You can click on any user to view the information
+and to edit the user.
+
+==== *2.5.4.1 Edit*
+
+image:../images/settings_users_edit.png[image,width=624,height=290]
+
+_Settings: users_ edit
+
+You can edit a user by clicking on the user row, then view its email,
+and edit its name and rank, or you can delete the user by clicking on
+the Delete button.
+
+==== *2.5.5 Teams*
+
+image:../images/settings_teams.png[image,width=624,height=292]
+
+_Settings: Teams_
+
+The teams' page consists of the teams you have. You can search for a
+team by team name, and team code. You can click on any team to view the
+information and edit the team. You can create a new team by clicking on
+the + button.
+
+==== *2.5.5.1 Create Details*
+
+image:../images/settings_teams_create_details.png[image,width=624,height=292]
+
+_Settings: Teams Create Details_
+
+When you click to create a team, you have two tabs Details and Address
+tab to fill in the information about the team, then you can click the
+CREATE button to create the team, or click the RESET button to reset the
+information. The details tab has Team Name, Team Code, Website, and
+Description.
+
+==== *2.5.5.2 Create Address*
+
+image:../images/settings_teams_create_address.png[image,width=624,height=293]
+
+_Settings: Teams Create Address_
+
+The address tab has the address, postal code, city, country, and state.
+
+==== *2.5.5.3 Edit Details*
+
+image:../images/settings_teams_edit_details.png[image,width=624,height=292]
+
+_Settings: Teams Edit Details_
+
+When clicking on a team row to edit it, you will have details,
+addresses, and user tabs. You can edit the team information and then
+click on the Save button to save the changes. You can delete the team by
+clicking on the Delete button. The details tab allows you to view and
+edit the team name, team code, website, and description.
+
+==== *2.5.5.4 Edit Address*
+
+image:../images/settings_teams_edit_address.png[image,width=624,height=293]
+
+_Settings: Teams Edit Address_
+
+The address tab enables you to edit/view address, address line 2, postal
+code, city, country, and state.
+
+==== *2.5.5.5 Edit Users*
+
+image:../images/settings_teams_edit_users.png[image,width=624,height=292]
+
+_Settings: Teams Edit Users_
+
+The users' tab has the users in the team. You can search for a user by
+user name or user username. You can add a new user to the team by
+clicking on the + button. You can edit/view a user by clicking on the
+user row.
+
+==== *2.5.5.5.1 Add*
+
+image:../images/settings_teams_edit_users_create.png[image,width=624,height=290]
+
+_Settings: Teams Edit Address Create_
+
+To add a new user to a team, you need to select the user and the rank
+and type a description, finally click on the + ADD USER(S) button.
+
+==== *2.5.5.5.2 Edit*
+
+image:../images/settings_teams_edit_users_edit.png[image,width=624,height=293]
+
+_Settings: Teams Edit Address Edit_
+
+When you click on a user row, you can edit and view its username, rank,
+and description.
+
+==== *2.5.6 Field Settings*
+
+image:../images/settings_field_settings.png[image,width=624,height=293]
+
+_Settings: Fields Settings_
+
+In fields settings, you can enable or disable the Unit Discount,
+SST/VAT/GST, WHT, Blanket Order, Segment, G/L Dimensional, Profit
+Center, and Project.
+
+==== *2.5.7 Default Selection*
+
+image:../images/settings_default_selection.png[image,width=624,height=293]
+
+_Settings: Default Selection_
+
+In default selection, you can choose for the applet the default branch
+and location.
+
+==== *2.5.8 Applet Access*
+
+image:../images/settings_applet_access.png[image,width=624,height=292]
+
+_Settings: Applet Access_
+
+In applet access, you can choose the teams access, and add a new team.
+Finally, click on the Save button.
+
+==== *2.5.9 Permission Set*
+
+image:../images/settings_permission_set.png[image,width=624,height=290]
+
+_Settings: Premsstion Set_
+
+In the permission set, you can see the list of permission sets, add new
+permission sets, and search for specific permission sets by created date
+and modified date.
+
+==== *2.5.10 User Permission*
+
+image:../images/settings_user_permission.png[image,width=624,height=293]
+
+_Settings: user permission_
+
+In the user permission, you can see the list of user permissions, and
+search for specific permission by rank.
+
+==== *2.5.11 Team Permission*
+
+image:../images/settings_team_permission.png[image,width=624,height=292]
+
+_Settings: team permission_
+
+In the team permission, you can see the list of team permissions, and
+search for specific permission.
+
+==== *2.5.12 Role Permission*
+
+image:../images/settings_role_permission.png[image,width=624,height=292]
+
+_Settings: role permission_
+
+In the role permission, you can see the list of role permissions, search
+for specific role permission, and add new role permission by clicking on
+the + button.
+
+==== *2.5.12.1 Add*
+
+image:../images/settings_role_permission_add.png[image,width=624,height=293]
+
+_Settings: role permission add_
+
+To add a new role, you need to add a name, code, and choose the status,
+then click on the SAVE button.
+
+==== *2.5.13 Triggers*
+
+image:../images/settings_triggers.png[image,width=624,height=292]
+
+_Settings: triggers_
+
+On the triggers page, you can view the list of the applet triggers, or
+create new applet triggers.
+

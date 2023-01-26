@@ -26,6 +26,7 @@ nav:
 - modules/internal-job-sheet-applet/nav.adoc
 - modules/merchant-access-applet/nav.adoc
 - modules/merchant-admin-maintenance-applet/nav.adoc
+- modules/issue-tracker-applet/nav.adoc
 - modules/mlm-admin-applet/nav.adoc
 - modules/ocr-cash-bill-applet/nav.adoc
 - modules/organization-applet/nav.adoc
