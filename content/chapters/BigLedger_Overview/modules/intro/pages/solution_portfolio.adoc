@@ -1,0 +1,88 @@
+[#h3_bigledger_overview_solution_portfolio]
+= Solution Portfolio 
+
+=== Our range of solutions include but not limited to:
+
+* Operational Data Lake & Integration Services
+* Point-of -Sale (POS) Applet
+* Accounting & Finance Applets
+* Inventory Management Applets
+* Bank Reconciliation Module
+* Stock Take Module
+* B2B Module
+* Delivery Management, Tracking and Logistics
+* E-commerce, Membership Program and Voucher Management, Payment Gateway Integration
+* Integration with online marketplaces (Lazada, Shopee, Shopify etc)
+* Digital Marketing & Sales Force Automation
+* Multi-Level Marketing / Referral System
+* Contact Center and Conversational Commerce (Whatsapp, Social Media, Email, SMS, Voice etc)
+* Issue Tracker
+* Business Intelligence (BI), Analytics and Forecasting
+
+image::image1_solutions.jpg[Solutions, align = "center"]
+
+== OPERATIONAL DATA LAKE & INTEGRATION SERVICES
+
+The value of our operational data lake goes beyond simple data storage. Our operational data lake offers a comprehensive API, so the businesses can choose to consume the Operational Data Lake Services within their existing legacy applications or they can develop a brand new web, mobile or desktop application without any server-based backend. In addition, we provide seamless integration with your favorite software systems. Have all your systems connected to one “Single Source of Truth” - Data Lake. 
+
+== POINT-OF-SALE (POS) APPLET
+
+The most unique part of our POS Applet is you can use it completely offline!
+We understand that some of the shop spot locations have limited access to the internet. 
+Suitable for multi-branch, multi-company businesses. 
+
+== ACCOUNTING & FINANCE APPLETS
+
+The integrated accounting and finance modules for your business. Tailored to handle multiple workflows, the module is readily customisable to meet your business needs. Create multiple cashbooks and multi-costing, manage your AR and AP, GST and tax configurations, and more. 
+
+== INVENTORY MANAGEMENT APPLETS
+
+The centralized inventory management for your in-store and online operations. Efficiently manage your stock for your online stores in your own eCommerce website, as well as marketplaces, such as Lazada, Shopee, Shopify and many more. Check the real-time stock availability and even take use of Amazon Quicksight for forecast features. Monitor the stock balance and manage the inventory across all locations and even across different regions and countries - real-time. 
+
+== BANK RECONCILIATION MODULE 
+
+We offer an AI-powered bank reconciliation module that allows the matching of individual transactions reported from the bank (via statement or detailed activity report) against relevant internal data (typically the GL) to ensure that all information recorded is accurate and accounted for in the business’ finance system. 
+
+== STOCK TAKE MODULE
+
+Have to close your shop to perform stock take? The problem is solved with our software. Perform your stock take without the need to stop your sales. The system is able to record the stock real-time without affecting your operations. Perform stock take from multiple devices at the same time. 
+
+
+== B2B MODULE
+
+An end-to-end platform for suppliers and you. Ensure full transparency and make communication easier. Allow the visibility of your stock balance to your supplier, automate your stock replenishment, consignment management, transaction matching and more. 
+
+== DELIVERY MANAGEMENT MODULE
+
+The end-to-end delivery management module allows you to efficiently manage your own drivers, trips and shipments as well as have a seamless integration with your favorite providers. Schedule trips, manage drivers and their jobs, as well as monitor the delivery process within one system. 
+
+== E-COMMERCE & MEMBERSHIP APPS, PAYMENT GATEWAY INTEGRATION 
+
+The Cross-Platform eCommerce platform for your business. Create and manage your website(s) and mobile apps within one system. Take advantage of the flexible logic for vouchers, membership class, product configurations, multo-entity login, rewards and points, and many more. We aim to make your life easier - connect your Lazada, Shopee and other stores to the same platform and manage your products, inventory, buffer, delivery and more in one platform. The system is integrated with over 40 payment gateway across 30+ countries. 
+
+== DIGITAL MARKETING & SALES FORCE AUTOMATION
+
+Digital Marketing is essential for the world to know your business. Create your campaigns, segment your audience and target your existing and new customers. Digital marketing has never been this easy. 
+
+== CONTACT CENTER & CONVERSATIONAL COMMERCE 
+
+The unified contact center for your customer engagement is available now. We go beyond simple channel integration. We allow your business to reply to customer enquiries, blast campaigns to customers, complete the shopping cart on customer behalf, offer them vouchers and more. Connect your Whatsapp, Facebook, Social Media, Email, SMS, Voice, Lazada and Shopee chats in one platform and bring it into action!
+
+== MULTI-LEVEL MARKETING (MLM) / REFERRAL SYSTEM + COMMISSIONS MODULE
+
+MLM is a great way to grow your audience. Engage your customers to bring their friends and family to your business and reward them with commissions for their effort. 
+
+== INTEGRATION WITH ONLINE MARKETPLACES 
+
+Managing multiple stores across so many platforms is always a challenge, isn’t it?
+Our customers take advantage of our platform integrated with your favorite marketplaces : Lazada, Shopee, Shopify, Magento and many more. 
+
+Manage your inventory, buffer stock, orders and even chat communication in one place.  
+
+== ISSUE TRACKER
+
+Task and  project management tool to ease your internal operations. Are there any tasks requiring a follow up from other teams? Simply create an issue and assign it to the respective team or a person. Monitor the status and have insights into the task progress, logwork of the assignee, and completion. Used across many departments, the issue tracker will save your 20% of your daily activities on repetitive activities.
+
+== BUSINESS INTELLIGENCE (BI), ANALYTICS AND FORECASTING
+
+Data Visualization is power. Empower your business with our customisable dashboards, analytics, and even trend forecast connected to any application of your choice. 

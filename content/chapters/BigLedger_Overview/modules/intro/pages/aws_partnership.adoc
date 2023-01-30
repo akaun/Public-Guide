@@ -1,0 +1,67 @@
+[#h3_bigledger_overview_aws_partnership]
+= AWS Partnership
+
+
+[.text-center]
+*AWS Partnership*
+
+image::aws_logo.png[150,300, align = "center"]
+
+== About our Partnership with AWS
+
+It has been more than 10 years since our company has embarked on an exciting journey with AWS. 
+
+We are *the one and only AWS ISV-Accelerate partner in Malaysia*. 
+
+== Foundational Technical Review (FTR)
+
+We have successfully passed the Foundational Technical Review (FTR) for our two core products:
+
+* ERP system : Enterprise Management Portal (EMP) 
+* https://playbook.akaun.com[Akaun Platform] : Cloud-native platform based on serverless architecture and offering over 150 solutions to SMEs and large enterprises. 
+
+== Events & Speaker Sessions:
+
+We have been honored to be invited by AWS to a series of exclusive events:
+
+* *Speaker session at the AWS ACE Webinar:* 
+
+image::AWS_event_1.jpeg[AWS Event 1, align = "center"]
+
+* *Speaker session at the AWS ISV Community Day:*
+
+image::AWS_event_2.jpeg[AWS Event 2, align = "center"]
+
+* *Speaker session for “Retail Tech: Unlock a Seamless Customer Centric Experience”, organized by AWS and 2C2P, in collaboration with (and hosted by) Singapore Business Federation.*
+
+image::AWS_event_3.jpeg[AWS Event 3, align = "center"]
+
+* *Speaker session at the AWS SaaSXccelerate:*
+
+image::AWS_event_4.jpeg[AWS Event 4, align = "center"]
+
+== https://aws.amazon.com[What is AWS Partner Network (APN)?]
+
+The AWS Partner Network (APN) is a global community of partners that leverages programs, expertise, and resources to build, market, and sell customer offerings.The diverse network of AWS Partner Network features around 100,000 partners from more than 150 countries from all over the world. Being an AWS Partner, businesses are uniquely positioned to help their customers to take full advantage of all that AWS has to offer and to accelerate their journey to the cloud.Partners and the AWS team can work together to provide innovative solutions, solve technical challenges, win deals, and deliver value to their mutual customers.
+
+== What are the advantages of becoming an AWS Partner?
+
+Businesses can use AWS Partner Network to increase and expand their customer reach, and grow their businesses with technical, marketing, and funding resources from AWS.
+
+=== Innovation
+
+Businesses can leverage the latest AWS technologies to experiment, build, and deliver differentiated customer offerings.
+
+=== Customer Reach
+
+Businesses can take advantage of the global reach, scalability, expertise, and robustness of AWS to expand their customer base and identify new opportunities for their businesses.
+
+=== Growth
+
+Businesses can engage with AWS to enhance the value of their unique offerings with resources, programs, and benefits that drive greater profitability to their business.
+
+== AWS ISV Accelerate Program  
+
+image::AWS_ISV_Accelerate_Program.jpg[AWS ISV Accelerate Program, align = "center"]
+
+The AWS ISV Accelerate Program is a co-sell program for businesses that deliver software solutions that run on or integrate with AWS. The program helps to drive new business and accelerate sales cycles by connecting participating independent software  sellers( ISVs) with the AWS Sales organization. The AWS ISV Accelerate Program provides the businesses withco-sell support and benefits to connect with AWS field  vendors globally, who service millions of active AWS  clients. Co-selling provides better customer outcomes and assures mutual commitment from AWS and AWS partners.
