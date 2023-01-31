@@ -1,41 +1,65 @@
 [#h3_bigledger_overview_introduction]
-= Introduction
+= Company Introduction
 
-This documentation consist of two parts:
+== Company Background
 
-* BigLedger https://dictionary.cambridge.org/dictionary/english/handbook[Handbook] +
-    For public users wanting to learn about BigLedger Akaun Platform. Click https://playbook.akaun.com/handbook/index.html[here] to access. 
+*Since 2003* and with over 19 years of experience in the market, our company helps to break down complexities of *ERP, CRM, Accounting, Warehouse, Logistics, Delivery, Customer Service, Conversational Commerce, Digital Marketing, Inventory, E-commerce*, for SMEs and large enterprises into manageable customisable business applications. 
 
-* BigLedger https://dictionary.cambridge.org/dictionary/english/blueprint[Blueprint] +
-    For BigLedger employees only. Click https://playbook.akaun.com/bigdoc/index.html[here] to access.
+BigLedger serves over 20 industries within Malaysia and other markets, such as Singapore, Thailand, Laos, Brunei. 
 
-== Getting Started
+image::company_history.png[Company History, align = "center"]
 
-Before you rush into learning how to use the Akaun Platform, we strongly recommend that you refer to the following chapters to grasp the high level overview of what the Akaun Platform can do for you as follows:
+Businesses get to mix and match various applets to form various modules and systems based on their needs without purchasing a huge and complex system. 
 
-ifndef::site-gen-antora[]
-* xref:h3_industry_guide_introduction[xrefstyle=full] +
-endif::[]
-ifdef::site-gen-antora[]
-* xref:handbook-industry-guide:ROOT:introduction.adoc[Industry Guide] +
-endif::[]
-    This guide provide you an in-depth case study of the problems faced by consumer electronics, car repair workshops, logistics, manufacturing, healthcare and retail businesses and how they might be able to solve their problems using the Akaun Platform.
+Developed in 2015, our Akaun platform is based on multi-channel cloud-native architecture, with scalability, cross platform, online and offline capability and real-time analytics. The goal is to revolutionize the productivity and efficiency of the business world by  combining the value and benefits of cloud-native application platform & AI technologies. BigLedger serves as a highly-scalable and flexible base for application development for data analytics processes.
 
-* Modules Guide
+image::data_lake.png[Data Lake, align = "center"]
 
+Our proposed Akaun Platform revolutionized the way businesses would consume software services, providing them the very much needed IT backbone at a fraction of the cost, with superior flexibility and scalability. 
 
-* User Guide
+The Akaun Data Lake serverless database allows massive data to be stored and processed centrally, functioning as the data exchange across multiple systems. Think about the time before Dropbox and Google Drive, we used to send attachments via emails when we wanted to share some files, and occasionally encountered problems when the attachments were too big and the emails were bounced and rejected. Having multiple versions of the attachments edited by different recipients, sending them back and forth with multiple edits, merging the edits becomes a nightmare. 
 
+With operational data lake, all structured (financial transactions) and unstructured (conversations, text, images) data are centrally stored and can be edited / updated on a real time basis.
 
-* Technical Guide
+== Solutions We Offer
 
+Our range of solutions include but not limited to:
 
+* Operational Data Lake & Integration Services
+* Point-of -Sale (POS) Applet
+* Accounting & Finance Applets
+* Inventory Management Applets
+* Bank Reconciliation Module
+* Stock Take Module
+* B2B Module
+* Delivery Management, Tracking and Logistics
+* E-commerce, Membership Program and Voucher Management, Payment Gateway Integration
+* Integration with online marketplaces (Lazada, Shopee, Shopify etc)
+* Digital Marketing & Sales Force Automation
+* Multi-Level Marketing / Referral System
+* Contact Center and Conversational Commerce (Whatsapp, Social Media, Email, SMS, Voice etc)
+* Issue Tracker
+* Business Intelligence (BI), Analytics and Forecasting
 
+== Our Methodology
 
-== Speak To Us
+We use agile project management methodology.
 
+image::agile_.png[Agile Project Management, align = "center"]
 
-== 
+This approach embraces change and enables teams to continually improve product or service development. It also enables them to apply a more rapid, flexible and collaborative team-based approach when working with cross-functional groups.
 
+One of the aims of an agile or iterative approach is to release benefits throughout the process rather than only at the end. At the core, agile projects should exhibit central values and behaviors of trust, flexibility, empowerment and collaboration.
 
+Agile enables tasks to be broken into smaller increments and shorter time frames (usually one week to four weeks) so that smaller cross-functional teams are able to better focus on all functions, from planning to the testing stage. As testing can be addressed within these smaller increments or sprints, it’s easier and faster to isolate and address concerns, bugs or defects, before moving on to the next phase.
 
+Agile allows these smaller teams to meet face-to-face more frequently to discuss progress, plans and issues. This makes the teams more adaptable and flexible to change.
+
+== Why to Choose Us
+
+* Years of experience in handling small- and large-scale projects
+* Proven Track record in delivering Chain Stores and Franchise solutions
+* Team’s Product Development experience in GST and ERP applications, E-commerce, CRM & Loyalty Program, Customer Data Mapping
+* Strengths and experience in native cloud architecture
+* A certified team of AI professionals and integration experts
+* Strong expertise in integration with 3rd party solutions, including e-commerce, membership applications, POS, ERP, CRM, Online Marketplaces.
