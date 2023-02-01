@@ -1,1 +1,23 @@
-This is a simple description of the applet, no more than 100 words.
+A ledger is a record of financial transactions and balances arranged in account categories, while a journal is a chronological record of financial transactions.
+Transaction records are crucial because they are proof of how your money is being exchanged, how regularly, and with whom. But where do you record the movement of money to and from your business? Also, how do you record unusual transactions like depreciation, bad debt, and the sale of assets? This is the main idea of Ledger And Journal applet and what it will manage and handle for its users’ businesses. Ledger and Journal Applet is to keep your business transaction properly and keep track that smoothly.
+
+**What are the benefits Ledger and Journal Applet Provide?**
+
+* Tracking financial performance and activity.
+* Recording and organizing financial transactions.
+* Providing a detailed picture of a company's income, expenses, and financial health.
+* Facilitating financial reporting and analysis.
+* Helping with budgeting and forecasting.
+* Enabling compliance with accounting and tax regulations.
+
+**Where Ledger and Journal Applet is used?**
+
+Both Ledger and Journal are used in accounting to record financial transactions, but Ledger is used to record transactions in accounts and Journal is used to record transactions in chronological order. All Industrial businesses need such an applet to handle their financial transactions.
+
+**Who will use Ledger and Journal Applet?**
+
+Ledger and journal are typically used by accountants, bookkeepers, and other financial professionals in a business or organization. They are also used by individuals who need to keep track of their personal finances.
+
+**How Ledger and Journal Applet used?**
+
+In summary, Ledger is used to record and track financial transactions in accounts and Journal is used to record financial transactions in chronological order, later on it is used to transfer the entries to the appropriate accounts in the Ledger. In this case business transactions will be managed and handled smoothly.
