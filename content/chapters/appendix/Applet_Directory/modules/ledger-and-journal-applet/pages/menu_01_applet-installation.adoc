@@ -1,0 +1,24 @@
+[#h3_ledger-and-journal-applet_sales_order_listing]
+=  Menu 02 - Applet Installation
+
+To be able to install the applet follow the following steps
+
+== 2.1 - Login to Akaun platform 
+
+To access the Akaun platform, you must have a user account. If you do not already have an account, you will need to create one by. Once your account is created and verified, you can then log in to the platform using your registered ID and password.
+
+
+== 2.2 - Search for the Ledger And Journal Applet 
+
+image::LedgerAndJournal-SearchForApplet.png[1440 x 900]
+
+You can search fro the applet by typing the applet name in the search bar as shwoun on the image above.
+
+
+== 2.3 Install the Applet
+
+image::ledger-and-journal-applet-installation.png[1440 x 900]
+
+Click on Install button to install the applet and start use its features. 
+
+

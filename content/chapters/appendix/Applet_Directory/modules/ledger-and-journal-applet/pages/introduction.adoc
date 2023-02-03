@@ -4,3 +4,7 @@
 image::ledger_and_journal_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+
+
+
