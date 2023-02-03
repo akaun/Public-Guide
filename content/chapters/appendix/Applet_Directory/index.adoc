@@ -159,11 +159,3 @@ include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 include::modules/t2t-applet/index.adoc[leveloffset=2]
 
 include::modules\ledger-and-journal-applet\index.adoc[leveloffset=2]
-
-
-include::modules\ledger-and-journal-applet\index.adoc[leveloffset=2]
-
-
-include::modules\internal-purchase-quotation-applet\index.adoc[leveloffset=2]
-
-
