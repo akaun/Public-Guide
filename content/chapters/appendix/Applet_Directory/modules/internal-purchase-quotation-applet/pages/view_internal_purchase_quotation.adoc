@@ -1,0 +1,61 @@
+==  2.2 View Internal Purchase Quotation
+
+image::ViewInternalPurchaseQuotation.png[View Internal Purchase Quotation, align = "center"]
+
+After creating the purchase quotation successfully, users will be redirected to the View Internal Purchase Quotation page and the latest quotation will be on top of all the quotations. 
+
+There is a “FINAL” button that once it is clicked, all the purchase quotations will be added to the accounting system. To view or edit the purchase quotation, users can click on any of it in this page.
+
+image::ViewInternalPurchaseQuotation-Button.png[View Internal Purchase Quotation - Button, align = "center"]
+
+Upon making all the changes, users can click on the “SAVE” button in the top right corner to save all the changes.
+
+Every column in the view internal purchase quotation is the same as the create page, except there are extra tabs (Contra, Doc Link, Attachments, Export) that allows the users to add more information. “DELETE” button can be clicked to delete the current internal purchase quotation that is selected by the users.
+
+=== 2.2.1 Contra
+
+image::ViewInternalPurchaseQuotation-Contra.png[View Internal Purchase Quotation - Contra, align = "center"]
+
+A Contra account is a negative account that is netted from the balance of another account on the balance sheet. On the “Contra” tab, lists of contra with details of Server Doc Type, Status, Date and Amount Contra will be listed down. Users can also click on the “+” button to add or select a different contra.
+
+==== Select Contra
+
+image::ViewInternalPurchaseQuotation-SelectContra.png[View Internal Purchase Quotation - Select Contra, align = "center"]
+
+After clicking on the “+” button to add a contra, users will be redirected to a different page with lists of contra where they can select among the existing contra.
+
+==== Add Contra
+
+image::ViewInternalPurchaseQuotation-AddContra.png[View Internal Purchase Quotation - Add Contra, align = "center"]
+
+After clicking on any of the contra, users are required to enter the contra amount, only after that users can click on the “ADD” button to add the contra.
+
+=== 2.2.2 Doc Link 
+
+==== Copied From
+
+image::ViewInternalPurchaseQuotation-DocLink-CopiedFrom.png[View Internal Purchase Quotation - Doc Link - Copied From, align = "center"]
+
+On the ‘Doc Link’ tab of “Copied From”, there will be lists of Doc Link with information of Doc No, Branch, Server Doc Type, Status and Date that allows users to select.
+
+image::ViewInternalPurchaseQuotation-DocLink-CopiedTo.png[View Internal Purchase Quotation - Doc Link - Copied To, align = "center"]
+
+The same goes to the “Copied To” tab under the “Doc Link” tab. Users can select any of the existing Doc Link.
+
+=== 2.2.3 Attachments
+
+image::ViewInternalPurchaseQuotation-Attachments.png[View Internal Purchase Quotation - Attachments, align = "center"]
+
+On the “Attachment” tab of View Internal Purchase Quotation, users are allowed to add an attachment from the existing list of attachments or click on the “+" button to add a new attachment.
+
+==== Add Attachment
+
+image::ViewInternalPurchaseQuotation-Attachments-AddAttachment.png[View Internal Purchase Quotation - Attachments - Add Attachment, align = "center"]
+
+Users can select any of the attachments that they would like to add by clicking on the “Upload File(s)” button.
+
+=== 2.2.4 Export
+
+image::ViewInternalPurchaseQuotation-Export.png[View Internal Purchase Quotation - Export, align = "center"]
+
+On the “Export” tab of View Internal Purchase Quotation, users are able to export the select internal purchase quotation by selecting the desired printable format and file format button EXPORT AS PDF then the quotation will be successfully exported.

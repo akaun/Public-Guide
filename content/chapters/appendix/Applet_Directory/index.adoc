@@ -159,7 +159,10 @@ include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 include::modules/t2t-applet/index.adoc[leveloffset=2]
 
 include::modules\ledger-and-journal-applet\index.adoc[leveloffset=2]
+<<<<<<< HEAD
 
 include::modules/financial-report-applet/index.adoc[leveloffset=2]
 
 
+=======
+>>>>>>> 559a9b04039acc07f063943a0d1febc058b5f505
