@@ -1,0 +1,53 @@
+[#h3_financial_month_end_processing_feature]
+=  Menu 04 - Month End Processing
+
+== 4.1 Month End Processing Listing 
+
+image::FinancialReport-MonthEndProcessing-Listing.png[1440 x 900]
+
+In this section, which is the first page of the second section “Month End Processing” displays the list of  Month End Processing of Financial Reports Applet. On the month end processing page there are plus “+” icon, search bar and table records. Plus “+” icon functionality is to add a new month end processing while search bar is to search for a particular month end processing. When a user clicks on any record of the table he/she is able to view month end processing. The table of the Month End Processing containing the following columns:
+
+* Set of Book
+* Start Date
+* End Date
+* Created Date
+* Updated Date
+* Created By
+* Updated By
+
+
+== 4.2 Main Tab
+
+
+image::FinancialReport-CreateMonthEndProcessing-Main.png[1440 x 900]
+
+On the create month end processing main tab page user needs to fill in all the required data which has a star “*” sign next to the text field. On this page all text fields are mandatory to fill in to be able to create month end processing. The following are the data to be filled in:  
+
+* Set Of Books
+* Year 
+* Month
+
+On the right top corner of the page there are two buttons Reset button to reset filled data and Create button to create new month end processing. 
+
+
+== 4.3 View Month End Processing Main Tab
+
+image::FinancialReport-ViewMonthEndProcessing-Main.png[1440 x 900]
+
+On the view month end processing main tab page users are able to view the month end processing they click on the month end processing listing page. There is a Delete button on the bottom of the page to delete the month end processing. Data on view month end processing are:
+
+* Set Of Books
+* Year 
+* Month
+
+== 4.4 View Month End Processing Tab
+
+image::FinancialReport-ViewMonthEndProcessing-Processor.png[1440 x 900]
+
+Processor page is the last page which will handle three (3) elements of the  month end processing which are:
+
+* Cost Of Goods Sold
+* Retained Earnings
+* General Ledger
+
+Users can process the cost of good or retained earnings or General ledger by just clicking on a button.

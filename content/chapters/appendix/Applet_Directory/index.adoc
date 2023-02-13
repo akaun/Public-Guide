@@ -160,6 +160,6 @@ include::modules/t2t-applet/index.adoc[leveloffset=2]
 
 include::modules\ledger-and-journal-applet\index.adoc[leveloffset=2]
 
-
+include::modules/financial-report-applet/index.adoc[leveloffset=2]
 
 
