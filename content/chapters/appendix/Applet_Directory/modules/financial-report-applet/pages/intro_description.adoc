@@ -1,1 +1,23 @@
-This is a simple description of the applet, no more than 100 words.
+A financial report is a document that provides a detailed summary of a company's financial performance. It is used to communicate the company's financial information to a variety of stakeholders, including shareholders, investors, and regulatory authorities. The report typically includes information on revenue, expenses, profits, assets, and liabilities, as well as other financial metrics. Financial reports used to track the financial performance of a company over time. They are also used to make strategic decisions, assess creditworthiness, and for compliance with legal and regulatory requirements.
+
+**Who are the Financial Report Applet users?**
+
+The users of financial report applets include investors, business owners, financial analysts, accountants and other financial professionals, regulators and government agencies, and the general public.
+
+
+**Where is the Financial Report Applet used?**
+
+Financial report applets are used to create and access financial statements and reports, which are used to communicate financial information to a variety of stakeholders. They are used in accounting, financial management, and business operations.
+
+**How is the Financial Report Applet used?**
+
+Financial report applets are used to analyze financial statements. They can be used to track revenues, expenses, assets, liabilities, and other financial data, and to keep track of income statements, balance sheets, and cash flow statements. They may also be used to track key performance indicators (KPIs) and month end processing for cost of goods sold, retained earnings and general ledger
+
+**What are the benefits Financial Report Applet  Provide? **
+
+* Insight into financial performance: Financial reports provide a detailed view of a company's financial performance, including revenue, expenses, profits, and assets.
+* Transparency: Financial reports provide a transparent view of a company's financial health, allowing shareholders and other stakeholders to make informed decisions.
+* Compliance: Financial reports are often required by law and are used to demonstrate compliance with regulatory requirements.
+* Planning: Financial reports can be used for decision-making.
+Month end processing 
+* Creditworthiness: Financial reports can be used by lenders and investors to assess a company's creditworthiness.
