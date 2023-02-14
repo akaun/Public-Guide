@@ -1,13 +1,14 @@
 * CP Commerce Admin Applet
 ** xref:introduction.adoc[Introduction]
-** xref:menu_activities.adoc[Activities]
-** xref:menu_blocked_customers.adoc[Blocked Customers]
-** xref:menu_forms.adoc[Forms]
-** xref:menu_rating_configuration.adoc[Rating Config]
-** xref:menu_spending_limit.adoc[Spending Limit]
-** xref:menu_submitted_forms.adoc[Submitted Forms]
-** xref:menu_template_forms.adoc[Template Forms]
-** xref:menu_topics.adoc[Topics]
 ** xref:menu_websites.adoc[Websites]
+** xref:menu_forms.adoc[Forms]
+** xref:menu_topics.adoc[Topics]
+** xref:menu_rating_configuration.adoc[Rating Config]
+** xref:menu_template_forms.adoc[Template Forms]
+** xref:menu_submitted_forms.adoc[Submitted Forms]
+** xref:menu_spending_limit.adoc[Spending Limit]
+** xref:menu_blocked_customers.adoc[Blocked Customers]
+** xref:menu_activities.adoc[Activities]
+** xref:widgets.adoc[Widgets]
 
 
