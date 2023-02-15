@@ -1,20 +1,20 @@
-==  2.3 Edit Line Item
+=  2.3 Edit Line Item
 
 image::LineItemListing.png[Line Item Listing, align = "center"]
 
 The second feature of this Internal Purchase Quotation Applet is the line item. This feature allows users to view all the Line Item with the information of Purchase Quotation No, Item Code, Item Name, Ordered Qty, Unit Price (Inclusive of Tax), SST/VAT/GST, Tax Amount. Users can click on any of it to edit the line item.
 
-=== 2.3.1 Serial Number
+== 2.3.1 Serial Number
 
 Every column in the view list item is mentioned previously in this documentation, except there are extra tabs (Scan and Import under Serial Number tab).
 
-==== Scan
+=== Scan
 
 image::EditLineItem-SerialNumber-Scan.png[Edit Line Item - Serial Number - Scan, align = "center"]
 
 On the “Scan” tab of “Serial Number”, users are able to enter the desired serial number or select the serial number type in the drop down list. One thing to be noted here, there is a “SCAN” button that the users are allowed to scan by using their own camera and the serial number type cannot be changed once the scanning starts. Furthermore, users are able to click on the “REMOVE” button to remove the serial numbers.
 
-==== Import
+=== Import
 
 image::EditLineItem-SerialNumber-Import.png[Edit Line Item - Serial Number - Import, align = "center"]
 

@@ -1,6 +1,6 @@
 === *2.5 Settings*
 
-image:../images/settings.png[image,width=624,height=293]
+image:settings.png[image,width=624,height=293]
 
 _Issues:_ Settings _Page_
 
@@ -11,7 +11,7 @@ Permission, INTEGRATION, Triggers, Applet Log, and Reset Applet State.
 
 ==== *2.5.1 Projects*
 
-image:../images/settings_projects.png[image,width=624,height=293]
+image:settings_projects.png[image,width=624,height=293]
 
 _Settings:_ Projects
 
@@ -22,7 +22,7 @@ edit the project.
 
 ==== *2.5.1.1 Details*
 
-image:../images/settings_projects_edit_details.png[image,width=624,height=292]
+image:settings_projects_edit_details.png[image,width=624,height=292]
 
 _Settings:_ Projects Edit Details
 
@@ -34,7 +34,7 @@ Default Assgine, and Avatar attachment for the project.
 
 ==== *2.5.1.2 Notifications*
 
-image:../images/settings_projects_edit_notifications.png[image,width=624,height=293]
+image:settings_projects_edit_notifications.png[image,width=624,height=293]
 
 _Settings:_ Projects Edit Notifications
 
@@ -45,7 +45,7 @@ or search for a specific notification by user name or user username.
 
 ==== *2.5.1.2.1 Add*
 
-image:../images/settings_projects_edit_notifications_create.png[image,width=624,height=292]
+image:settings_projects_edit_notifications_create.png[image,width=624,height=292]
 
 _Settings:_ Projects Edit Notifications Create
 
@@ -55,7 +55,7 @@ Lead, email, and team, and entering the description.
 
 ==== *2.5.1.2.2 Edit*
 
-image:../images/settings_projects_edit_notifications_edit.png[image,width=624,height=290]
+image:settings_projects_edit_notifications_edit.png[image,width=624,height=290]
 
 _Settings:_ Projects Edit Notifications Edit
 
@@ -65,7 +65,7 @@ Project Lead, email, team, and description.
 
 ==== *2.5.2 Issue Type*
 
-image:../images/settings_issue_types.png[image,width=624,height=290]
+image:settings_issue_types.png[image,width=624,height=290]
 
 _Settings:_ Issues Types
 
@@ -76,7 +76,7 @@ issue type. You can create new issue types by clicking on the + button.
 
 ==== *2.5.2.1 Create*
 
-image:../images/settings_issue_types_create.png[image,width=624,height=292]
+image:settings_issue_types_create.png[image,width=624,height=292]
 
 _Settings:_ Issues Types create
 
@@ -85,7 +85,7 @@ description, then clicking on Submit button.
 
 ==== *2.5.2.2 Edit*
 
-image:../images/settings_issue_types_edit.png[image,width=624,height=292]
+image:settings_issue_types_edit.png[image,width=624,height=292]
 
 _Settings:_ Issues Types edit
 
@@ -95,7 +95,7 @@ type by clicking on the Delete button.
 
 ==== *2.5.3 Project Categories*
 
-image:../images/settings_project_categories.png[image,width=624,height=292]
+image:settings_project_categories.png[image,width=624,height=292]
 
 _Settings: Project Categories_
 
@@ -107,7 +107,7 @@ categories by clicking on the + button.
 
 ==== *2.5.3.1 Create* 
 
-image:../images/settings_project_categories_create.png[image,width=624,height=292]
+image:settings_project_categories_create.png[image,width=624,height=292]
 
 _Settings: Project Categories create_
 
@@ -116,7 +116,7 @@ description, then clicking on Submit button.
 
 ==== *2.5.3.2 Edit*
 
-image:../images/settings_project_categories_edit.png[image,width=624,height=292]
+image:settings_project_categories_edit.png[image,width=624,height=292]
 
 _Settings: Project Categories_ edit
 
@@ -126,7 +126,7 @@ the project category by clicking on the Delete button.
 
 ==== *2.5.4 Users*
 
-image:../images/settings_users.png[image,width=624,height=292]
+image:settings_users.png[image,width=624,height=292]
 
 _Settings: User_
 
@@ -136,7 +136,7 @@ and to edit the user.
 
 ==== *2.5.4.1 Edit*
 
-image:../images/settings_users_edit.png[image,width=624,height=290]
+image:settings_users_edit.png[image,width=624,height=290]
 
 _Settings: users_ edit
 
@@ -146,7 +146,7 @@ the Delete button.
 
 ==== *2.5.5 Teams*
 
-image:../images/settings_teams.png[image,width=624,height=292]
+image:settings_teams.png[image,width=624,height=292]
 
 _Settings: Teams_
 
@@ -157,7 +157,7 @@ the + button.
 
 ==== *2.5.5.1 Create Details*
 
-image:../images/settings_teams_create_details.png[image,width=624,height=292]
+image:settings_teams_create_details.png[image,width=624,height=292]
 
 _Settings: Teams Create Details_
 
@@ -169,7 +169,7 @@ Description.
 
 ==== *2.5.5.2 Create Address*
 
-image:../images/settings_teams_create_address.png[image,width=624,height=293]
+image:settings_teams_create_address.png[image,width=624,height=293]
 
 _Settings: Teams Create Address_
 
@@ -177,7 +177,7 @@ The address tab has the address, postal code, city, country, and state.
 
 ==== *2.5.5.3 Edit Details*
 
-image:../images/settings_teams_edit_details.png[image,width=624,height=292]
+image:settings_teams_edit_details.png[image,width=624,height=292]
 
 _Settings: Teams Edit Details_
 
@@ -189,7 +189,7 @@ edit the team name, team code, website, and description.
 
 ==== *2.5.5.4 Edit Address*
 
-image:../images/settings_teams_edit_address.png[image,width=624,height=293]
+image:settings_teams_edit_address.png[image,width=624,height=293]
 
 _Settings: Teams Edit Address_
 
@@ -198,7 +198,7 @@ code, city, country, and state.
 
 ==== *2.5.5.5 Edit Users*
 
-image:../images/settings_teams_edit_users.png[image,width=624,height=292]
+image:settings_teams_edit_users.png[image,width=624,height=292]
 
 _Settings: Teams Edit Users_
 
@@ -209,7 +209,7 @@ user row.
 
 ==== *2.5.5.5.1 Add*
 
-image:../images/settings_teams_edit_users_create.png[image,width=624,height=290]
+image:settings_teams_edit_users_create.png[image,width=624,height=290]
 
 _Settings: Teams Edit Address Create_
 
@@ -218,7 +218,7 @@ and type a description, finally click on the + ADD USER(S) button.
 
 ==== *2.5.5.5.2 Edit*
 
-image:../images/settings_teams_edit_users_edit.png[image,width=624,height=293]
+image:settings_teams_edit_users_edit.png[image,width=624,height=293]
 
 _Settings: Teams Edit Address Edit_
 
@@ -227,7 +227,7 @@ and description.
 
 ==== *2.5.6 Field Settings*
 
-image:../images/settings_field_settings.png[image,width=624,height=293]
+image:settings_field_settings.png[image,width=624,height=293]
 
 _Settings: Fields Settings_
 
@@ -237,7 +237,7 @@ Center, and Project.
 
 ==== *2.5.7 Default Selection*
 
-image:../images/settings_default_selection.png[image,width=624,height=293]
+image:settings_default_selection.png[image,width=624,height=293]
 
 _Settings: Default Selection_
 
@@ -246,7 +246,7 @@ and location.
 
 ==== *2.5.8 Applet Access*
 
-image:../images/settings_applet_access.png[image,width=624,height=292]
+image:settings_applet_access.png[image,width=624,height=292]
 
 _Settings: Applet Access_
 
@@ -255,7 +255,7 @@ Finally, click on the Save button.
 
 ==== *2.5.9 Permission Set*
 
-image:../images/settings_permission_set.png[image,width=624,height=290]
+image:settings_permission_set.png[image,width=624,height=290]
 
 _Settings: Premsstion Set_
 
@@ -265,7 +265,7 @@ and modified date.
 
 ==== *2.5.10 User Permission*
 
-image:../images/settings_user_permission.png[image,width=624,height=293]
+image:settings_user_permission.png[image,width=624,height=293]
 
 _Settings: user permission_
 
@@ -274,7 +274,7 @@ search for specific permission by rank.
 
 ==== *2.5.11 Team Permission*
 
-image:../images/settings_team_permission.png[image,width=624,height=292]
+image:settings_team_permission.png[image,width=624,height=292]
 
 _Settings: team permission_
 
@@ -283,7 +283,7 @@ search for specific permission.
 
 ==== *2.5.12 Role Permission*
 
-image:../images/settings_role_permission.png[image,width=624,height=292]
+image:settings_role_permission.png[image,width=624,height=292]
 
 _Settings: role permission_
 
@@ -293,7 +293,7 @@ the + button.
 
 ==== *2.5.12.1 Add*
 
-image:../images/settings_role_permission_add.png[image,width=624,height=293]
+image:settings_role_permission_add.png[image,width=624,height=293]
 
 _Settings: role permission add_
 
@@ -302,7 +302,7 @@ then click on the SAVE button.
 
 ==== *2.5.13 Triggers*
 
-image:../images/settings_triggers.png[image,width=624,height=292]
+image:settings_triggers.png[image,width=624,height=292]
 
 _Settings: triggers_
 
