@@ -6,7 +6,7 @@ situation easily.
 
 === *2.2 Projects*
 
-image:../images/projects_main.png[image,width=624,height=332]
+image:projects_main.png[image,width=624,height=332]
 
 _Projects: Main_
 
@@ -16,14 +16,14 @@ projects from this page.
 
 ==== *2.2.1 Create*
 
-image:../images/projects_create.png[image,width=624,height=332]
+image:projects_create.png[image,width=624,height=332]
 
 _Projects: Create_
 
 Users can create a new project on this page. First, they need to click
 the “+” button to open a new project.
 
-image:../images/projects_create_table.png[image,width=624,height=333]
+image:projects_create_table.png[image,width=624,height=333]
 
 _Projects: Create Table_
 
@@ -42,7 +42,7 @@ After clicking the “Create” button, the project will be created and shown on
 
 ==== *2.2.2 Edit*
 
-image:../images/project_edit.png[image,width=624,height=332]
+image:project_edit.png[image,width=624,height=332]
 
 _Projects: Edit_
 
@@ -51,7 +51,7 @@ edit table by clicking the project row from the user listing.
 
 ==== *2.2.2.1 Details*
 
-image:../images/project_edit_table.png[image,width=624,height=333]
+image:project_edit_table.png[image,width=624,height=333]
 
 _Projects: Edit Details_ +
 The editing table allows the user to edit or delete the current project.
@@ -64,7 +64,7 @@ Type, Project Category, Lead Default Assignee, and Description.
 
 ==== *2.2.2.2 Projects*
 
-image:../images/project_people.png[image,width=624,height=292]
+image:project_people.png[image,width=624,height=292]
 
 _Projects: People_
 
@@ -74,13 +74,13 @@ username.
 
 ==== *2.2.2.2.1 Create*
 
-image:../images/project_people_create.png[image,width=624,height=293]
+image:project_people_create.png[image,width=624,height=293]
 
 _Projects: People Create_
 
 The create button allows you to add new user(s) to the project.
 
-image:../images/project_create_user_information.png[image,width=624,height=290]
+image:project_create_user_information.png[image,width=624,height=290]
 
 _Projects: People Create Information_
 
@@ -90,13 +90,13 @@ description. Lastly, click on + ADD USER(S) to add the user(s).
 
 ==== *2.2.2.2.2 Edit*
 
-image:../images/people_edit.png[image,width=624,height=292]
+image:people_edit.png[image,width=624,height=292]
 
 _Projects: People Edit_
 
 You can click on a user row to edit the user information.
 
-image:../images/people_edit_information.png[image,width=624,height=292]
+image:people_edit_information.png[image,width=624,height=292]
 
 _Projects: People Edit Information_
 
@@ -105,7 +105,7 @@ rank and description.
 
 ==== *2.2.2.3 Issue Types*
 
-image:../images/project_issue_types.png[image,width=624,height=293]
+image:project_issue_types.png[image,width=624,height=293]
 
 _Projects: Issues Type_
 
@@ -114,13 +114,13 @@ you may search for the issue type by typing its name or code.
 
 ==== *2.2.2.3.1 create*
 
-image:../images/project_issue_types_create.png[image,width=624,height=292]
+image:project_issue_types_create.png[image,width=624,height=292]
 
 _Projects: Issue type Create_
 
 The create button allows you to add new Issue Type(s) to the project.
 
-image:../images/project_issue_types_create_information.png[image,width=624,height=290]
+image:project_issue_types_create_information.png[image,width=624,height=290]
 
 _Projects: Issue Type(s) Create Information_
 
@@ -131,13 +131,13 @@ type(s).
 
 ==== *2.2.2.3.2 edit*
 
-image:../images/project_issue_types_edit.png[image,width=624,height=293]
+image:project_issue_types_edit.png[image,width=624,height=293]
 
 _Projects: Issue Type Edit_
 
 You can click on an issue type row to edit the issue type information.
 
-image:../images/project_issue_types_edit_information.png[image,width=624,height=290]
+image:project_issue_types_edit_information.png[image,width=624,height=290]
 
 _Projects: Issue Type Edit Information_
 
@@ -146,7 +146,7 @@ edit the description.
 
 ==== *2.2.3 Search*
 
-image:../images/project_search.png[image,width=624,height=293]
+image:project_search.png[image,width=624,height=293]
 
 _Projects: Search_
 

@@ -865,7 +865,7 @@ image::Configure-test-profile.png[Configure Test Profile, align = "center"]
 
 == 11.26 Sales Order Details
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 The image above shows the layout of the Store Locator Details.
 
@@ -1009,7 +1009,7 @@ Click on the searched widget and go to the “Nodes” tab. Select the layout in
 
 image::Configured-test-product-rating.png[Configured Test Product Rating, align = "center"]
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 == 11.31 Slider V2 (Promotion Slider)
 
@@ -1042,7 +1042,7 @@ Users could click on “Delete Node” to remove the unwanted node.
 
 Below shows an example of how the Slider V2  Widget is configured:
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 == 11.32 Reward Listing
 
@@ -1085,7 +1085,7 @@ image::layout-instance.png[Layout Instance, align = "center"]
 
 Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
@@ -1104,7 +1104,7 @@ Users could click on “Delete Node” to remove the unwanted node.
 
 Below shows an example of how the Power Search Filter Widget is configured:
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 == 11.34 Store Locator Details
 
@@ -1183,7 +1183,7 @@ image::layout-instance.png[Layout Instance, align = "center"]
 
 Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
@@ -1203,7 +1203,7 @@ Users could click on “Delete Node” to remove the unwanted node.
 
 Below shows an example of how the Category Slider is configured:
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 == 11.37 Category Filter Product List
 
@@ -1217,7 +1217,7 @@ image::layout-instance.png[Layout Instance, align = "center"]
 
 Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
@@ -1267,7 +1267,7 @@ Users could click on “Delete Node” to remove the unwanted node.
 
 Below shows an example of how the Fusion TechHeader is configured:
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 == 11.39 Monaliza Home
 
@@ -1309,7 +1309,7 @@ image::layout-instance.png[Layout Instance, align = "center"]
 
 Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::.png[, align = "center"]
+// image::.png[, align = "center"]
 
 In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 

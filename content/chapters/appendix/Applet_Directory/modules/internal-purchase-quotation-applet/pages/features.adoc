@@ -1,8 +1,8 @@
 [#h3_internal-job-sheet-applet_features]
 =  2.0 Features
 
-include::create_internal_purchase_quotation.adoc[]
+include::create_internal_purchase_quotation.adoc[leveloffset=3]
 
-include::view_internal_purchase_quotation.adoc[]
+include::view_internal_purchase_quotation.adoc[leveloffset=3]
 
-include::edit_line_item.adoc[]
+include::edit_line_item.adoc[leveloffset=3]
