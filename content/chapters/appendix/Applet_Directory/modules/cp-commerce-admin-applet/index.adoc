@@ -21,7 +21,7 @@ include::pages/menu_blocked_customers.adoc[leveloffset=3]
 
 include::pages/menu_activities.adoc[leveloffset=3]
 
-include::pages/Widgets/widgets.adoc[leveloffset=3]
+include::pages/Widgets/widgets.adoc[leveloffset=+2,dir=pages/Widgets]
 
 
 
