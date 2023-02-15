@@ -1,5 +1,5 @@
 [#h3_internal-job-sheet-applet_features]
-=  2.0 Features
+==  2.0 Features
 
 include::create_internal_purchase_quotation.adoc[leveloffset=3]
 
