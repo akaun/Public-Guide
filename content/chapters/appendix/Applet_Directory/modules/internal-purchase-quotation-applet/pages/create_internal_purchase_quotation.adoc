@@ -1,10 +1,10 @@
-==  2.1 Create Internal Purchase Quotation
+=  2.1 Create Internal Purchase Quotation
 
 image::InternalPurchaseQuotation-Listing.png[Internal Purchase Quotation Applet, align = "center"]
 
 Upon logging into this applet - Internal Purchase Quotation Applet, all the purchase quotation listings will be the first page shown to the user. On this page, a create button is displayed as “+” and placed at the top left corner, allowing the user to create a new internal purchase quotation.
 
-=== 2.1.1 Main Details
+== 2.1.1 Main Details
 
 image::InternalPurchaseQuotation-MainDetails.png[Internal Purchase Quotation - Main Details, align = "center"]
 
@@ -23,17 +23,17 @@ There are 14 components which allow the user to make changes respectively:
 * Tracking ID
 * Remarks
 
-=== 2.1.2 Account
+== 2.1.2 Account
 
-==== Entity Details
+=== Entity Details
 
 image::InternalPurchaseQuotation-AccountTab-EntityDetails.png[Internal Purchase Quotation - Account Tab - Entity Details, align = "center"]
 
-==== Bill To
+=== Bill To
 
 image::InternalPurchaseQuotation-AccountTab-ShipTo.png[Internal Purchase Quotation - Account Tab - Bill To, align = "center"]
 
-==== Ship To
+=== Ship To
 
 image::InternalPurchaseQuotation-AccountTab-EntityDetails.png[Internal Purchase Quotation - Account Tab - Ship To, align = "center"]
 
@@ -50,21 +50,21 @@ Recipient’s Name, Email, Phone No and Shipping Address (Entity ID must be sele
 
 Users can click on the Entity Id column to select a recipient from the Recipient Listing.
 
-=== 2.1.3 Line
+== 2.1.3 Line
 
 image::InternalPurchaseQuotation-LineTab.png[Internal Purchase Quotation - Line Tab, align = "center"]
 
 In the ‘Line’ tabs, a create button is displayed as “+” and placed at the top left corner, allowing the user to select a new line with details of document type, item code, item name, UOM, Qty, Unit Price(Inclusive of Tax), SST/VAT/GST and Txn Amount.
 
-==== Search Item
+=== Search Item
 
 image::InternalPurchaseQuotation-LineTab-SearchItem.png[Internal Purchase Quotation - Line Tab - Search Item, align = "center"]
 
 On the Search Item tab, users can select the item based on the Item Code, Item Name, UOM and System Stock Balance. Other than this, users can also edit or view the details of an item by clicking any of it.
 
-==== Item Details
+=== Item Details
 
-===== Main Details
+==== Main Details
 
 image::InternalPurchaseQuotation-LineTab-ItemDetails-MainDetails-1.png[Internal Purchase Quotation - Line Tab - Item Details - Main Details, align = "center"]
 
@@ -107,7 +107,7 @@ On the Item Details tab of the add line item page, the Main Details tab have sev
 * Txn Amount
 * Remarks
 
-===== Delivery Instructions
+==== Delivery Instructions
 
 image::InternalPurchaseQuotation-LineTab-ItemDetails-DeliveryInstructions.png[Internal Purchase Quotation - Line Tab - Item Details - Delivery Instructions, align = "center"]
 
@@ -123,7 +123,7 @@ On the Delivery Instructions tab, there are two categories (Delivery Instruction
 ** To: Receiver
 ** Message
 
-===== Department
+==== Department
 
 image::InternalPurchaseQuotation-LineTab-ItemDetails-Department.png[Internal Purchase Quotation - Line Tab - Item Details - Department, align = "center"]
 
@@ -135,7 +135,7 @@ On the Department tab, this is used to generate reports by filtering the followi
 * Project
 * Option Box: Copy from Hdr
 
-==== Costing Details
+=== Costing Details
 
 image::InternalPurchaseQuotation-LineTab-CostingDetails.png[Internal Purchase Quotation - Line Tab - Costing Details, align = "center"]
 
@@ -149,61 +149,61 @@ On the Costing Details tab, it shows all the details of:
 * Manual Unit Cost 
 * Last Purchase Unit Cost: The most recent purchase unit cost for the item
 
-==== Pricing Details
+=== Pricing Details
 
 image::InternalPurchaseQuotation-LineTab-PricingDetails.png[Internal Purchase Quotation - Line Tab - Pricing Details, align = "center"]
 
 On the Pricing Details tab, there is a UOM options field that allows users to select, once the option is selected, all the details of Pricing Schema Code, Pricing Schema Name, Purchase Unit Price and Modified Date will be shown based on the UOM. 
 
-==== Issue Link
+=== Issue Link
 
 image::InternalPurchaseQuotation-LineTab-IssueLink.png[Internal Purchase Quotation - Line Tab - Issue Link, align = "center"]
 
 On the Issue Link tab, lists of issue links will be displayed for the user to select with the details of Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status. Users can click on the “ADD” button to add the line item after the details are filled in. 
 
-==== Blanket Purchase Order
+=== Blanket Purchase Order
 
 image::InternalPurchaseQuotation-LineTab-BlanketPurchaseOrder.png[Internal Purchase Quotation - Line Tab - Blanket Purchase Order, align = "center"]
 
 On the Blanket Purchase Order tab, users can select the item based on the Blanket PO Number, Item Code, Item Name, Qty, UOM, Unit Price (Inclusive of Tax). On selecting the item(s), users will be directed to the Add Item page.
 
-==== Sales Quotation Item
+=== Sales Quotation Item
 
 image::InternalPurchaseQuotation-LineTab-SalesQuotationItem.png[Internal Purchase Quotation - Line Tab - Sales Quotation Item, align = "center"]
 
 On the Sales Quotation Item tab, users can select the item based on the Sales Quotation Number, Item Code, Item Name, Qty, UOM, Unit Price (Inclusive of Tax). On selecting the item(s), users will be directed to the Add Item page.
 
-==== Purchase Order Item
+=== Purchase Order Item
 
 image::InternalPurchaseQuotation-LineTab-PurchaseOrderItem.png[Internal Purchase Quotation - Line Tab - Purchase Order Item, align = "center"]
 
 On the Purchase Order Item tab, users can select the item based on the Purchase Order Number, Item Code, Item Name, Qty, UOM, Unit Price (Inclusive of Tax). On selecting the item(s), users will be directed to the Add Item page.
 
-==== Purchase Requisition Item 
+=== Purchase Requisition Item 
 
 image::InternalPurchaseQuotation-LineTab-PurchaseRequisitionItem.png[Internal Purchase Quotation - Line Tab - Purchase Requisition Item, align = "center"]
 
 On the Purchase Requisition Item tab, users can select the item based on the Purchase Requisition Number, Item Code, Item Name, Qty, UOM, Unit Price (Inclusive of Tax). On selecting the item(s), users will be directed to the Add Item page.
 
-=== 2.1.4 DELIVERY DETAILS
+== 2.1.4 DELIVERY DETAILS
 
 image::InternalPurchaseQuotation-DeliveryDetailsTab.png[Internal Purchase Quotation - Delivery Details Tab, align = "center"]
 
 On the Delivery Details tab, it lists down all the details of Trip No, Driver Name, Vehicle No, Job Start Date, Job End Date, Delivery Status, Recipient Name.
 
-=== 2.1.5 Payment
+== 2.1.5 Payment
 
 image::Internal-Purchase-Quotation-PaymentTab.png[Internal Purchase Quotation - Payment Tab, align = "center"]
 
 In the ‘Payment’ tab, a create button is displayed as “+” and placed at the top left corner, allowing the user to add a payment for the purchase quotation order. On the tab, it lists down all the details of Date, Amount, Details and Remarks.
 
-==== Add Payment
+=== Add Payment
 
 image::InternalPurchaseQuotation-AddPaymentTab.png[Internal Purchase Quotation - Add Payment Tab, align = "center"]
 
 On the Add Payment tab, Users can create payment by selecting the payment method from the dropdown list and filling all the required details, Users can click on the “ADD” button to add the payment after the details are filled in. 
 
-=== 2.1.6 Department Hdr
+== 2.1.6 Department Hdr
 
 image::InternalPurchaseQuotation-DepartmentHdrTab.png[Internal Purchase Quotation - Department Hdr Tab, align = "center"]
 
