@@ -52,3 +52,6 @@ nav:
 - modules/internal-purchase-invoice-applet/nav.adoc
 - modules/scheduler-applet/nav.adoc
 - modules/pos-applet/nav.adoc
+- modules/internal-purchase-quotation-applet/nav.adoc
+- modules/ledger-and-journal-applet/nav.adoc
+- modules/financial-report-applet/nav.adoc
