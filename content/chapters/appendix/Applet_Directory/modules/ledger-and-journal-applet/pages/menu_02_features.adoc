@@ -1,4 +1,4 @@
-[#h3_ledger-and-journal-applet_line_items]
+[#h3_ledger-and-journal-applet_features]
 =  Menu 03 - Features
 
 In this section all the applet features will be introduced accordingly.
