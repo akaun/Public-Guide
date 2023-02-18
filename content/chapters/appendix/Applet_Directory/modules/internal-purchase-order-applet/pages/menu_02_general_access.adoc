@@ -1,0 +1,16 @@
+[#h3_internal-purchase-order-applet_line_items]
+=  3.0 General Access
+
+== 3.1 Side Bar/Menu Items Access
+
+*Applet Search*
+
+image::Installation_5.png[1440 x 900]
+
+*Menu Items*
+
+image::Menu_Items.png[1440 x 900]
+
+
+Users are able to open up the sidebar by clicking on the icon highlighted in the image below, this will allow the user to switch to different sections of the applet easily. There are mainly 2 sections: Purchase Order and Line Items. Other than these 2 main sections, there are another 2 more menu items namely Settings & Personalization.
+
