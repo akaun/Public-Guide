@@ -1,4 +1,4 @@
-[#h3_internal-purchase-order-applet_line_items]
+[#h3_internal-purchase-order-applet_purchase_order]
 =  4.0 Purchase Order
 
 == 4.1 Purchase Order Listing
