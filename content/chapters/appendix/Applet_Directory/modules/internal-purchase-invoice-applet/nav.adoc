@@ -1,7 +1,7 @@
 * Internal Purchase Invoice Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:create_internal_purchase_invoice.adoc[Create Purcahse Invoice]
-** xref:supplier.adoc[Supplier]
+** xref:Supplier.adoc[Supplier]
 ** xref:line_item.adoc[Line Items Listing]
 ** xref:file_import.adoc[File Import Listing]
 // ** xref:modules.adoc[Modules]
