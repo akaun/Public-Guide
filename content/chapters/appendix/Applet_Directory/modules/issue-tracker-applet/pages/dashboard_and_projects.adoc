@@ -1,12 +1,15 @@
-=== *2.1 Dashboard*
+[#h3_issue-tracker-applet_dashboard]
+= 2.0 Dashboard
+
+== *2.1 Dashboard*
 
 The Dashboard shows all the data that is relevant to the projects and
 issues, it also provides many graphs for the user to analyze the current
 situation easily.
 
-=== *2.2 Projects*
+== *2.2 Projects*
 
-image:projects_main.png[image,width=624,height=332]
+image::projects_main.png[Projects Main, align = "center"]
 
 _Projects: Main_
 
@@ -14,16 +17,16 @@ When the user first opens the Projects page, this is the first page that
 shows up called *Project Listing Page*. Users can view all the current
 projects from this page.
 
-==== *2.2.1 Create*
+=== *2.2.1 Create*
 
-image:projects_create.png[image,width=624,height=332]
+image::projects_create.png[Create Projects, align = "center"]
 
 _Projects: Create_
 
 Users can create a new project on this page. First, they need to click
 the “+” button to open a new project.
 
-image:projects_create_table.png[image,width=624,height=333]
+image::projects_create_table.png[Create Projects Table, align = "center"]
 
 _Projects: Create Table_
 
@@ -40,9 +43,9 @@ also choose file or avatar they desire.
 
 After clicking the “Create” button, the project will be created and shown on the main listing page.
 
-==== *2.2.2 Edit*
+=== *2.2.2 Edit*
 
-image:project_edit.png[image,width=624,height=332]
+image::project_edit.png[Edit Project, align = "center"]
 
 _Projects: Edit_
 
@@ -51,7 +54,7 @@ edit table by clicking the project row from the user listing.
 
 ==== *2.2.2.1 Details*
 
-image:project_edit_table.png[image,width=624,height=333]
+image::project_edit_table.png[Edit Project Table, align = "center"]
 
 _Projects: Edit Details_ +
 The editing table allows the user to edit or delete the current project.
@@ -64,7 +67,7 @@ Type, Project Category, Lead Default Assignee, and Description.
 
 ==== *2.2.2.2 Projects*
 
-image:project_people.png[image,width=624,height=292]
+image::project_people.png[Project People, align = "center"]
 
 _Projects: People_
 
@@ -74,13 +77,13 @@ username.
 
 ==== *2.2.2.2.1 Create*
 
-image:project_people_create.png[image,width=624,height=293]
+image::project_people_create.png[Create Project People, align = "center"]
 
 _Projects: People Create_
 
 The create button allows you to add new user(s) to the project.
 
-image:project_create_user_information.png[image,width=624,height=290]
+image::project_create_user_information.png[Create User Information Project, align = "center"]
 
 _Projects: People Create Information_
 
@@ -90,13 +93,13 @@ description. Lastly, click on + ADD USER(S) to add the user(s).
 
 ==== *2.2.2.2.2 Edit*
 
-image:people_edit.png[image,width=624,height=292]
+image::people_edit.png[Edit People, align = "center"]
 
 _Projects: People Edit_
 
 You can click on a user row to edit the user information.
 
-image:people_edit_information.png[image,width=624,height=292]
+image::people_edit_information.png[Edit People Information, alig = "center"]
 
 _Projects: People Edit Information_
 
@@ -105,7 +108,7 @@ rank and description.
 
 ==== *2.2.2.3 Issue Types*
 
-image:project_issue_types.png[image,width=624,height=293]
+image::project_issue_types.png[Issues Type, align = "center"]
 
 _Projects: Issues Type_
 
@@ -114,13 +117,13 @@ you may search for the issue type by typing its name or code.
 
 ==== *2.2.2.3.1 create*
 
-image:project_issue_types_create.png[image,width=624,height=292]
+image::project_issue_types_create.png[Create Issue Types, align = "center"]
 
 _Projects: Issue type Create_
 
 The create button allows you to add new Issue Type(s) to the project.
 
-image:project_issue_types_create_information.png[image,width=624,height=290]
+image::project_issue_types_create_information.png[Create Information, align = "center"]
 
 _Projects: Issue Type(s) Create Information_
 
@@ -131,13 +134,13 @@ type(s).
 
 ==== *2.2.2.3.2 edit*
 
-image:project_issue_types_edit.png[image,width=624,height=293]
+image::project_issue_types_edit.png[Issues Type, align = "center"]
 
 _Projects: Issue Type Edit_
 
 You can click on an issue type row to edit the issue type information.
 
-image:project_issue_types_edit_information.png[image,width=624,height=290]
+image::project_issue_types_edit_information.png[Edit Information, align = "center"]
 
 _Projects: Issue Type Edit Information_
 
@@ -146,7 +149,7 @@ edit the description.
 
 ==== *2.2.3 Search*
 
-image:project_search.png[image,width=624,height=293]
+image:project_search.png[Search Project, align = "center"]
 
 _Projects: Search_
 
