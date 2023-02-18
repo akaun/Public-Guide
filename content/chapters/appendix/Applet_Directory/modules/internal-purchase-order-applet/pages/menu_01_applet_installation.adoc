@@ -1,0 +1,18 @@
+[#h3_internal-purchase-order-applet_sales_order_listing]
+=  2.0 Applet Installation
+
+== 2.1 Login to Akaun platform
+
+image::applet_installation_1.png[1440 x 900]
+
+== 2.2 Click on the "Applet Store" icon
+
+image::applet_installation_2.png[1440 x 900]
+
+== 2.3 Search for the Internal Purchase Order Applet from the Catalog
+
+image::Installation_3.png[1440 x 900]
+
+== 2.4 Click on the “Install” button to install the Applet
+
+image::Installation_4.png[1440 x 900]

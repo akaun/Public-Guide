@@ -1,1 +1,52 @@
-This is a simple description of the applet, no more than 100 words.
+A purchase order is a commercial source document that is issued by a business’ purchasing department when placing an order with its vendors or suppliers. The document indicates the details on the items that are to be purchased, such as the types of goods, quantity, and price. In simple terms, it is the contract drafted by the buyer when purchasing goods from the seller.
+
+Purchase orders protect you by giving you a legal, enforceable record of exactly what you ordered. It also guards your company against unexpected price increases. If you receive the wrong quantity or type of items, or if you're charged the wrong amount, you can go back to the purchase order to help resolve the issue.
+
+*Different Types of purchase orders*
+
+* Standard purchase order
+* Planned purchase order
+* Blanket purchase order
+* Contract purchase orders
+
+
+
+
+
+
+
+
+*Benefits & Usage of Purchase Order Applet*
+
+Purchase orders are a key aspect of maintaining accurate, complete financial records. They might seem like just an extra piece of accounting paperwork, but knowing when and how to use them has far-reaching business benefits. Whether you’re running a small business or handling purchasing for a larger organization, the right purchase order system can make a huge difference in how well the purchasing process works in your company
+
+* Purchase orders can help with budgeting. In order to generate accurate POs, it is a must to calculate order quantities before the project begins. That also helps to get a better idea of how much to budget for the project.
+
+* Careful purchasing records help to anticipate and plan for the future. They provide key insight into company performance, which gives the tools needed to examine product trends, market cycles, and company spending.
+
+* Using purchase orders can act as an early warning system for unanticipated expenses. Because everyone has to submit a PO for most purchases, there’s a record of any expense as soon as the need for it arises.
+
+* Purchase orders provide a record of exactly what need to be ordered and at what price to clearly communicate all the details of a purchase. Having documentation like this protects us from any mix-up when ordering, such as someone misinterpreting an order placed the phone.
+
+* Purchase orders act as a legal document. Having a written agreement regarding the prices and quantity of items in the order protects both buyer and the seller.
+
+* Implementing a purchase order system lets us control who is allowed to make purchases. By choosing who can access the purchasing system, company can prevent unauthorized people from placing orders without clearance.
+
+* With an automated system keeping all our purchasing information in one easy-to-search place, it’s simple to track where the money is going. In addition, the system updates in real-time so we can always see exactly what purchases have been made.
+
+* Using a purchase order system gives any business the tools needed to keep track of their vendors and suppliers. Businesses will be able to easily store and sort information about vendors, as well as set up policies about which items should be ordered from each vendor.
+
+
+
+
+*Who will use the Purchase Order Applet?*
+
+The Purchase Order Applet will be used by a buyer to place an order and will be issued before delivery. An invoice will be issued by a seller using invoicing software after an order is delivered. It defines the amount the buyer owes for the purchased goods and the date by which the buyer needs to pay.
+
+*Why & Where the Purchase Order Applet will be used?*
+
+The Purchase Order Applet will be used to control and track purchasing of goods and services from external vendors. The Purchase Order Applet can be defined as an automated way of creating bulk purchase agreements between the buyer and vendor.
+
+*How the Purchase Order Applet will be used?*
+
+In summary, the Business owner/designated members will create a purchase order laying out exactly what they need from the supplier. If the supplier has the inventory to fill the order, they’ll accept the purchase order, fulfill it, and deliver the items on the agreed due date. The supplier will then send a bill or sales invoice for the purchased items. The buyer then needs to pay for the item, and the sale is processed through the seller’s POS system. Buyers can also create special orders for especially large shipments or recurring purchases. A standing purchase order allows a buyer to purchase the same products many times over using the same PO number.
