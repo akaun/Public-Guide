@@ -1,6 +1,6 @@
 === *2.3 Issues*
 
-image:../images/issue_main.png[image,width=624,height=333]
+image:issue_main.png[image,width=624,height=333]
 
 _Issues: main_
 
@@ -9,13 +9,13 @@ shown up. All the issues will be listed down here.
 
 ==== *2.3.1 Create*
 
-image:../images/issues_create.png[image,width=624,height=333]
+image:issues_create.png[image,width=624,height=333]
 
 _Issues: Create_
 
 The user can click the “+” button to create a new issue.
 
-image:../images/issues_create_table.png[image,width=633,height=337]
+image:issues_create_table.png[image,width=633,height=337]
 
 _Issues: Create table_
 
@@ -75,7 +75,7 @@ issue.
 
 ==== *2.3.1.1 Details*
 
-image:../images/issue_edit_details_tab.png[image,width=624,height=292]
+image:issue_edit_details_tab.png[image,width=624,height=292]
 
 _Issues: Details tab_
 
@@ -86,7 +86,7 @@ center, segment, dimension, contact, description, and summary.
 
 ==== *2.3.1.1 Planning*
 
-image:../images/issue_edit_planning_tab.png[image,width=624,height=292]
+image:issue_edit_planning_tab.png[image,width=624,height=292]
 
 _Issues: Planning tab_
 
@@ -99,13 +99,13 @@ Allocation, and Manday Billing.
 
 ==== *2.3.2 Edit*
 
-image:../images/issues_edit.png[image,width=624,height=333]
+image:issues_edit.png[image,width=624,height=333]
 
 _Issues: Edit_
 
 Users can open the edit page of the specific issue by clicking on it.
 
-image:../images/issue_edit_details_tab.png[image,width=624,height=333]
+image:issue_edit_details_tab.png[image,width=624,height=333]
 
 _Issues: Edit table_
 
@@ -117,7 +117,7 @@ is on the top right corner to save the changes.
 
 ==== *2.3.2.1 Details*
 
-image:../images/issue_edit_details_tab.png[image,width=624,height=292]
+image:issue_edit_details_tab.png[image,width=624,height=292]
 
 _Issues: Edit Details Tab_
 
@@ -128,7 +128,7 @@ segment, dimension, contact, description, and summary.
 
 ==== *2.3.2.2 Planning*
 
-image:../images/issue_edit_planning_tab.png[image,width=624,height=288]
+image:issue_edit_planning_tab.png[image,width=624,height=288]
 
 _Issues: Edit Planning Tab_
 
@@ -141,7 +141,7 @@ and Manday Billing.
 
 ==== *2.3.2.3 Attachment*
 
-image:../images/issue_edit_attachment_tab.png[image,width=624,height=289]
+image:issue_edit_attachment_tab.png[image,width=624,height=289]
 
 _Issues: Edit Attachment Tab_
 
@@ -151,7 +151,7 @@ attachments by the file name.
 
 ==== *2.3.2.3.1 Add*
 
-image:../images/issue_edit_attachment_add_tab.png[image,width=624,height=290]
+image:issue_edit_attachment_add_tab.png[image,width=624,height=290]
 
 _Issues: Edit Attachment Add Tab_
 
@@ -160,7 +160,7 @@ choosing from your files, or clicking and dropping to the attachment.
 
 ==== *2.3.2.3.1 Edit*
 
-image:../images/issue_edit_attachment_edit_tab.png[image,width=624,height=292]
+image:issue_edit_attachment_edit_tab.png[image,width=624,height=292]
 
 _Issues: Edit Attachment Edit Tab_
 
@@ -169,7 +169,7 @@ attachment, and choose another file.
 
 ==== *2.3.2.4 Comment*
 
-image:../images/issue-edit-comment-tab.png[image,width=624,height=289]
+image:issue-edit-comment-tab.png[image,width=624,height=289]
 
 _Issues: Edit Comment Tab_
 
@@ -179,7 +179,7 @@ new comments by clicking on the + button.
 
 ==== *2.3.2.4.1 Add*
 
-image:../images/issue-edit-comment-add.png[image,width=624,height=290]
+image:issue-edit-comment-add.png[image,width=624,height=290]
 
 _Issues: Edit Comment Add Tab_
 
@@ -188,7 +188,7 @@ ADD COMMENT.
 
 ==== *2.3.2.4.1 Edit*
 
-image:../images/issue-edit-comment-edit.png[image,width=624,height=292]
+image:issue-edit-comment-edit.png[image,width=624,height=292]
 
 _Issues: Edit Comment Edit Tab_
 
@@ -197,7 +197,7 @@ the description and attachment, or delete the comment.
 
 ==== *2.3.2.5 Subtasks*
 
-image:../images/issue-edit-subtasks.png[image,width=624,height=290]
+image:issue-edit-subtasks.png[image,width=624,height=290]
 
 _Issues: Subtasks Tab_
 
@@ -207,7 +207,7 @@ create, or add a subtask to the issue by clicking on the + button.
 
 ==== *2.3.2.5.1 Add*
 
-image:../images/issue-edit-subtasks-add-tab.png[image,width=624,height=290]
+image:issue-edit-subtasks-add-tab.png[image,width=624,height=290]
 
 _Issues: Subtasks Add Tab_
 
@@ -216,7 +216,7 @@ Add Subtask button, or you can search for specific subtasks by subtask
 title or date created. You can add new subtasks by clicking on the +
 button.
 
-image:../images/issue_edit_subtask_add.png[image,width=624,height=293]
+image:issue_edit_subtask_add.png[image,width=624,height=293]
 
 _Issues: Subtasks Add Tab_
 
@@ -225,7 +225,7 @@ issue title, issue number, project, issue type, and description.
 
 ==== *2.3.2.6 Linked Issues*
 
-image:../images/issue_edit_linked_issues.png[image,width=624,height=290]
+image:issue_edit_linked_issues.png[image,width=624,height=290]
 
 _Issues: Linked Issues Tab_
 
@@ -236,7 +236,7 @@ clicking on the + button.
 
 ==== *2.3.2.6.1 Add*
 
-image:../images/issue_edit_linked_issues_add.png[image,width=624,height=290]
+image:issue_edit_linked_issues_add.png[image,width=624,height=290]
 
 _Issues:_ linked issues _Add Tab_
 
@@ -245,7 +245,7 @@ add a description to the linked issues.
 
 ==== *2.3.2.7 Worklog*
 
-image:../images/issue_edit_worklog.png[image,width=624,height=290]
+image:issue_edit_worklog.png[image,width=624,height=290]
 
 _Issues:_ Worklog _Tab_
 
@@ -255,7 +255,7 @@ create, or add a worklog to the issue by clicking on the + button.
 
 ==== *2.3.2.7.1 Add*
 
-image:../images/issue_edit_worklog_add.png[image,width=624,height=292]
+image:issue_edit_worklog_add.png[image,width=624,height=292]
 
 _Issues:_ Worklog _Add Tab_
 
@@ -264,7 +264,7 @@ the log date, duration, and description.
 
 ==== *2.3.2.7.2 Edit*
 
-image:../images/issue_edit_worklog_edit.png[image,width=624,height=290]
+image:issue_edit_worklog_edit.png[image,width=624,height=290]
 
 _Issues:_ Worklog _Edit Tab_
 
@@ -273,7 +273,7 @@ date, duration, and description. You can also delete a worklog.
 
 ==== *2.3.2.8 Activity*
 
-image:../images/issue_edit_activity_tab.png[image,width=624,height=292]
+image:issue_edit_activity_tab.png[image,width=624,height=292]
 
 _Issues:_ Activity__Tab__
 

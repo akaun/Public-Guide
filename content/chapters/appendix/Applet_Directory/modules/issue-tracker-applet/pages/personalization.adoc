@@ -1,6 +1,6 @@
 === *2.6 Personalization*
 
-image:../images/Personalization.png[image,width=624,height=292]
+image:Personalization.png[image,width=624,height=292]
 
 _Issues:_ Personalization _Page_
 
@@ -10,7 +10,7 @@ Color Assist, and Easy Navigation. Also, you can report a bug.
 
 *2.6.1 Default Selection*
 
-image:../images/Personalization_default_selection.png[image,width=624,height=290]
+image:Personalization_default_selection.png[image,width=624,height=290]
 
 _Issues:_ Personalization _Default Selection Page_
 
@@ -18,7 +18,7 @@ You can select the default branch and location on this page.
 
 *2.6.2 Sidebar*
 
-image:../images/Personalization_sidebar.png[image,width=624,height=292]
+image:Personalization_sidebar.png[image,width=624,height=292]
 
 _Issues:_ Personalization Sidebar _Page_
 

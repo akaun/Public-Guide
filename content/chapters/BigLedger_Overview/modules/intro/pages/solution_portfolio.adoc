@@ -1,7 +1,7 @@
 [#h3_bigledger_overview_solution_portfolio]
 = Solution Portfolio 
 
-=== Our range of solutions include but not limited to:
+== Our range of solutions include but not limited to:
 
 * Operational Data Lake & Integration Services
 * Point-of -Sale (POS) Applet
