@@ -56,3 +56,4 @@ nav:
 - modules/ledger-and-journal-applet/nav.adoc
 - modules/financial-report-applet/nav.adoc
 - modules/internal-purchase-order-applet/nav.adoc
+- modules/internal-purchase-requisition-applet/nav.adoc

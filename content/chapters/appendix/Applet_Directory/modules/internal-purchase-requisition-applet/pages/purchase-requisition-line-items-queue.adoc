@@ -1,0 +1,14 @@
+[#h3_internal-purchase-requisition-applet_requisition-line-items-queue]
+= 4.0 Purchase Requisition Line Items Queue
+
+== 4.1 Purchase Requisition Line Item Queue Listing
+
+Users can view the listing queues of the line items.
+
+image::IntenalPurchaseRequisition-LineItemQueue.png[Line Item Queue, align = "center"]
+
+=== 4.1.1 Approve Purchase Requisition Line Item Queue
+
+Users can approve the any list from the queue by clicking on the line item first and then clicking the “Approve” button.
+
+image::IntenalPurchaseRequisition-Approve-LineItemQueue.png[Approve Line Item Queue, align = "center"]

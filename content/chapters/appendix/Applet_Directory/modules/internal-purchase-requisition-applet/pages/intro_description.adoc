@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Purchase Requisition Applet allows businesses to process requests of purchases made by a customer. There are options to create, update and delete these purchase requisition listings.

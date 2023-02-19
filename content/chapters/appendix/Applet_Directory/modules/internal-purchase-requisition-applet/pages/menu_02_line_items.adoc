@@ -1,3 +1,0 @@
-[#h3_internal-purchase-requisition-applet_line_items]
-=  Menu 02 - e.g. Line Items
-
