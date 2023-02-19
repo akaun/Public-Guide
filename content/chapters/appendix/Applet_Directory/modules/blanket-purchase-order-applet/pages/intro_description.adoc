@@ -1,0 +1,1 @@
+The Blanket Purchase Order Applet allows suppliers to deliver goods or services with a set price on a recurring basis over a specified time period.

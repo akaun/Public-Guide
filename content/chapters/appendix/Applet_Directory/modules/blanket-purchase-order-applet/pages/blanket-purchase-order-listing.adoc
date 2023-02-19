@@ -1,0 +1,150 @@
+[#h3_blanket-purchase-order_listing]
+= 2.0 Blanket Purchase Order Listing
+
+image::BlanketPurchaseOrderListing.png[Blanket Purchase Order Listing, align = "center"]
+
+The Blanket Purchase Order listing page outlines the details regarding the blanket purchase orders. The listing includes:
+
+a. BPO No
+b. Posting Status which can be set to “Draft” if the order is not confirmed or “Final” if it is confirmed.
+c. Updated Date
+d. Creation Date
+e. Created By 
+f. Company
+g. Supplier Name
+h. Purchaser
+i. Amount
+j. Transaction Date
+k. Status
+
+== 2.1 Creating a Blanket Purchase Order
+
+=== 2.1.1 The Add Button 
+
+First click on the “+” button to create an order.
+
+image::BlanketPurchaseOrderAddBtn.png[Add Button, align = "center"]
+
+=== 2.1.2 Main Details Tab
+
+Fill in the form in the “Main Details” tab. Please note that the following fields are compulsory to fill in:
+
+a. Status 
+b. Start Date
+c. Purchaser
+d. Validity in Days
+e. Valid
+
+image::BlanketPurchaseOrder-Create.png[Create Order, align = "center"]
+
+=== 2.1.3 Add Line Item 
+
+Next click on the “Lines” tab and then click on the “+” button.
+
+image::BlanketPurchaseOrder-AddLineItem-1.png[Add Line Item, align = "center"]
+
+=== 2.1.4 Line Item Listing
+
+Next click on a line item from the list. Details about the item will be displayed under the “Main Details” tab as shown below. 
+
+image::BlanketPurchaseOrder-AddLineItem-2.png[Add Line Item 2, align = "center"]
+
+The form under this tab will be filled with the details of the selected item. Users fill in the form for:
+
+Item Name 
+a. UOM 
+b. Pricing Scheme 
+c. Unit Price STD for both excluding and including tax 
+d. Unit Discount 
+e. Quantity Base and Quantity by UOM
+f. UOM to Base Ratio  
+g. Unit Price STD by UOM for both excluding and including tax 
+h. Unit Discount by UOM, Unit Price Net by UOM 
+i. Unit PriceTransaction by UOM  and Unit Price Net 
+j. STD Amount 
+k. Discount Amount 
+l. Amount Net 
+m. SST Code and SST/GST/VAT rate 
+n. Tax Amount 
+o. WHT Code, WHT and WHT Amount, 
+p. Unit Price Transaction and Transaction Amount 
+q. Last Purchase Price
+r. Remarks
+
+=== 2.1.5 Blanket Purchase Order Bin Number 
+
+Items with the “Bin Number” are for items that exist as part of a batch. Users can add a bin number. They need to click on the “Bin Number” tab, then on the “Bin Code” and select a code. Next fill in the Container Measure, Container Quantity and Quantity. Next click on the “ADD” button.
+
+image::BlanketPurchaseOrder-Create-AddLineItem-BinNumber.png[Add Line Item Bin Number, align = "center"]
+
+=== 2.1.6 Enabled Create Button
+
+After the addition of the line item, the “CREATE” button should be enabled in the “Create Blanket Purchase Order” page.
+
+image::BlanketPurchaseOrder-Create-CreateBtn.png[Create Bin, align = "center"]
+
+=== 2.1.7 Updated Listing
+
+Click the“CREATE” and the new blanket purchase order will be added to the listing as shown below. It is set to “DRAFT” posting status upon creation.
+
+image::BlanketPurchaseOrder-NewItem.png[New Item, align = "center"]
+
+== 2.2 Edit A Blanket Purchase Order
+
+=== 2.2.1 Editing Draft Orders
+
+Users can edit a blanket purchase order as they see fit and click on the “SAVE” button once they are satisfied with the changes. For blanket purchase orders in “DRAFT” status, the Location and Branch of the company can still be edited along with the other fields. 
+
+image::BlanketPurchaseOrder-Edit-Draft.png[Edit Draft, align = "center"]
+
+=== 2.2.2 Editing Final Blanket Purchase Order
+
+Click on an existing order in the blanket purchase order listing. For orders in “FINAL” status, the Location and Branch of the company can no longer be edited. This is because the order has been finalized.
+
+image::BlanketPurchaseOrder-Edit-Final.png[Edit Final, align = "center"]
+
+=== 2.2.3 Reset Draft Order
+
+Clicking on the “RESET” button will remove all the data for the selected order that is in “DRAFT” status.
+
+image::BlanketPurchaseOrder-Edit-Draft-Reset.png[Edit Draft Reset, align = "center"]
+
+=== 2.2.4 Finalize Order
+
+Click on “FINAL” to finalize the order. Subsequently users can click on “SAVE” to save the edited order as a draft.
+
+image::BlanketPurchaseOrder-Edit-FinalAndSaveBtn.png[Final Save Button, align = "center"]
+
+Finalized order will have the “FINAL” posting status.
+
+image::BlanketPurchaseOrder-Edit-Finalised.png[Edit Finalised, align = "center"]
+
+=== 2.2.5 Finalize Order from Listing
+
+Users can use the listing page to finalize a order as well: 
+First select a order from the listing. The selected order will be marked with a tick mark.
+Next click on the “FINAL” button. This will finalize the order.
+
+image::BlanketPurchaseOrderListing-Finalised.png[Finalised, align = "center"]
+
+The changes will be reflected in the listing as shown below.
+
+image::BlanketPurchaseOrderListing-Finalised-2.png[Finalised 2, align = "center"]
+
+== 2.2.6 Linked Order Documents
+
+During edit, users can select the “Doc Link” tab and view the “Copied From” documents.
+
+image::BlanketPurchaseOrder-Edit-DocLink-From.png[Doc Link From, align = "center"]
+
+During edit, users can select the “Doc Link” tab and view the “Copied To” documents.
+
+image::BlanketPurchaseOrder-Edit-DocLink-To.png[Edit Doc Link To, align = "center"]
+
+=== 2.2.7 Export Invoice as PDF 
+
+Users can use the “Export” tab to download the selected order as an invoice in pdf format.
+
+image::BlanketPurchaseOrder-Edit-Downloadsnip.png[Download Snip, align = "center"]
+
+

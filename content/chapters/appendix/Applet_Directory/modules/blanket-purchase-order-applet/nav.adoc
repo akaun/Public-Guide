@@ -1,0 +1,5 @@
+* Blanket Purchase Order
+** xref:introduction.adoc[Introduction]
+** xref:blanket-purchase-order-listing.adoc[Blanket Purchase Order Listing]
+** xref:blanket-purchase-order-report-listing.adoc[Blanket Purchase Order Report Listing]
+

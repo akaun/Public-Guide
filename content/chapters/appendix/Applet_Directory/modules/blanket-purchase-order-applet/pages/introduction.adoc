@@ -1,0 +1,6 @@
+[#h3_blanket_purchase_order_introduction]
+= 1.0 Introduction
+
+image::blanket-purchase-order-applet-logo.png[]
+
+include::intro_description.adoc[]

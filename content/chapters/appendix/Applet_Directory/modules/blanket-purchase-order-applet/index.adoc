@@ -1,0 +1,16 @@
+[#h2_blanket_purchase_order_applet_index]
+= Blanket Purchase Order
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/blanket-purchase-order-listing.adoc[leveloffset=3]
+
+include::pages/blanket-purchase-order-report-listing.adoc[leveloffset=3]
+
+
+
+
+
+
+
+
