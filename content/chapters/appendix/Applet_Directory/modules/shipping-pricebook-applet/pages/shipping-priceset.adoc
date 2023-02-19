@@ -1,0 +1,58 @@
+[#h3_shipping_pricebook_listing]
+= 3.0 Shipping Priceset
+
+Generally, every shipping pricebook consists of multiple pricesets. Every priceset record corresponds to the pricing rule of a product.
+
+== 3.1 Shipping Priceset Listing
+
+image::8-ShippingPricesetListing.png[Shipping Priceset Lisitng, align = "center"]
+
+The Shipping Priceset page lists all the available shipping pricesets information. The information includes:
+
+a. Shipping Priceset Code:The code of the shipping priceset.
+b. Shipping Priceset Name: The name of the shipping priceset.
+c. Description: The description of the shipping priceset.
+d. Modified Date: The date in which the shipping priceset is modified.
+e. Created Date: The date in which the shipping priceset is created.
+f. Status: The status of the shipping priceset. It can be either “ACTIVE” or “INACTIVE”.
+
+== 3.2 Create Shipping Priceset Record
+
+image::9-ShippingPriceset-CreateShippingPriceset.png[Create Shipping Priceset, align = "center"]
+
+Users can click on the “+” button in the Shipping Priceset Listing page in order to create a new record of shipping priceset. By doing that, the Create Shipping Priceset page will appear from the right. While creating the new record, users must input values for the columns that are associate with the symbol * which means required. The information to be filled includes:
+
+a. Pricebook Name: The name of the shipping pricebook.There is a drop down feature which allows the user to pick only the Pricebook that was created previously as the value for this column.
+b. Shipping Priceset Code: The code of the shipping priceset. 
+c. Shipping Priceset Name: The name of the shipping priceset.
+d. Priority Level: The priority level of the created priceset among all pricesets under the particular pricebook.
+e. Status: The status of the shipping priceset. It can be either “ACTIVE” or “INACTIVE”.
+f. Description: The description of the shipping priceset.
+
+After inputting all the necessary information, users can click on the “CREATE” button on the top right to create the new priceset.
+
+image::10-ShippingPricesetListing-CreatedPriceset.png[Created Priceset, align = "center"]
+
+The created shipping priceset will appear as a new record shown in the Shipping Priceset Listing page.
+
+== 3.3 Edit the Priceset Record
+
+image::11-EditShippingPriceset-UpdateDetailsTab.png[Update Details Tab, align = "center"]
+
+In order to edit a created priceset record, users have to first click on the particular priceset record in the Shipping Priceset Listing page. Then, the Edit Shipping Priceset page will appear from the right.
+
+The edit shipping priceset includes further tabs which are Details, Rules-Doc Hdr, Rules-Multi Line, Rules - Single Line and Treatment
+
+Under the Details tab, users can see some information of the created shipping priceset. Users can only edit the name, priority level, status and description of the priceset.
+
+Users are not allowed to edit the name of the pricebook and code of the priceset. These 2 values are important identifiers. They are unique and immutable once the priceset is created. When the users have done updating the priceset record, they click on the “SAVE” button on top right to save the updated values.
+
+== 3.4 Delete the Priceset Record
+
+image::12-EditShippingPriceset-DeleteDetailsTab.png[Delete Details Tab, align = "center"]
+
+Similar to the update operation, in the Edit Shipping Priceset page shown as the screenshot above, users can choose to click the “Delete” button on the very bottom to delete the priceset record.
+
+
+
+

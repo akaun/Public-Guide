@@ -1,0 +1,90 @@
+[#h3_shipping_pricebook_listing]
+= 2.0 Shipping Pricebook
+
+== 2.1 Shipping Pricebook Listing
+
+image::1-ShippingPricebookListing.png[Shipping Pricebook Listing, align = "center"]
+
+When users log in to the Shipping Pricebook Applet, they will be directed to the Shipping Pricebook Listing page which shows the listing of all available shipping pricebooks. The information of the shipping pricebooks include:
+
+a. Shipping Pricebook Code: The code of the shipping pricebook.
+b. Shipping Pricebook Name: The name of the shipping pricebook.
+c. Description: The description of the shipping pricebook.
+d. Modified Date: The date in which the shipping pricebook is modified.
+e. Created Date: The date in which the shipping pricebook is created.
+f. Status: The status of the shipping pricebook. It can be either “ACTIVE” or “INACTIVE”.
+
+Users can proceed to click on the “+”  left to the search bar in order to create a new shipping pricebook. 
+
+== 2.2 Create New Record of Shipping Pricebook
+
+image::2-ShippingPricebook-CreateShippingPricebook.png[Create Shipping Pricebook, align = "center"]
+
+After clicking on the “+” button, users will be directed to the Create Shipping Pricebook page. Users are prompted to enter the information of the shipping pricebook that they want to create. The information includes:
+
+a. Shipping Pricebook Code: The code of the shipping pricebook.
+b. bShipping Pricebook Name: The name of the shipping pricebook.
+c. Status: The status of the shipping pricebook. It can be either “ACTIVE” or “INACTIVE”.
+d. Description: The description of the shipping pricebook. This is an optional column.
+
+Fields with a “ * ” signs with them are compulsory to be filled.
+
+After filling in all the information, users can click on the “CREATE” button on top right to create the new shipping pricebook. The new shipping pricebook record will then be shown in the Shipping Pricebook Listing page. 
+
+image::3-ShippingPricebookListing-CreatedPricebook.png[Create Pricebook, align = "center"]
+
+== 2.3 Edit the Pricebook Record
+
+image::4-ShippingPricebookEdit-Details.png[Edit Details, aign = "center"]
+
+In order to edit the existing record of a shipping pricebook, users can click onto the particular shipping pricebook record in the Shipping Pricebook Listing page. This will open “Shipping Pricebook Edit” page. This page includes 2 tabs “Details” and “Pricing Set”
+
+Users can edit all the information in the details tab (Name, Calculation Logic, Status and Description) of the Shipping Pricebook, except the Pricebook Code information. This is because the Pricebook Code is an important identifier and its value is unique and immutable. 
+
+Next, the calculation logic column is very important because it determines the logic in which the Shipping Pricebook applet selects the pricesets under a pricebook to be used. For example, if the calculation logic selected is “SEQUENTIAL MATCH”, the applet will choose the pricesets under the particular pricebook based on ascending order of the priority level of its pricesets. 
+
+Then, users click on the “SAVE” button on top right to save all the changes.
+
+== 2.4 Delete the Pricebook Record
+
+image::5-ShippingPricebookEdi-DeletePricebook.png[Delete Pricebook, align = "center"]
+
+Next, users can delete a particular shipping pricebook record by clicking on the “Delete” button at the very button on the shipping pricebook edit page as shown in the page above.
+
+== 2.5 Create New Priceset under Pricebook Tab
+
+Generally, a pricebook consists of one or multiple pricing sets. A pricing set determines a specific pricing logic. Customers can configure if they want to set a special price for any item or if they want to give a discount to certain types of customers (e.g. VIP customers), or not charge shipping fee for any products or to a certain location or any other reason to have a difference in pricing fee. All this can be managed in the “pricing set” tab.
+
+There are 2 ways to create a priceset for a particular pricebook. Users can create a priceset for a selected pricebook in the Shipping Pricebook tab as shown below or create a priceset for a pricebook in the Shipping Priceset tab which will be explained later.
+ 
+image::6-ShippingPricebookEdit-PricingSet.png[Edit Pricing Set, align = "center"]
+
+Next, under the Pricing Set tab of the Shipping Pricebook Edit page, the tab shows all the pricing sets under the particular shipping pricebook. The information includes the shipping pricebook code, shipping pricebook  name and description of the priceset. Users can create a new priceset under the particular pricebook by clicking on the “+” button in the Shipping Pricebook Edit page.
+
+image::7-ShippingPricebookEdit-CreateShippingPriceset.png[Create Shipping Priceset, align = "center"]
+
+By doing that, the Create Shipping Priceset page will appear from the right. Then, users have to fill up the information of the priceset to be created, which includes:
+
+a. Shipping Pricebook Name: The name of the shipping pricebook.
+b. Shipping Priceset Code:The code of the shipping priceset.
+c. Shipping Priceset Name: The name of the shipping priceset.
+d. Priority Level: The priority level of the created priceset among all pricesets under the particular pricebook.
+e. Status: The status of the shipping priceset. It can be either “ACTIVE” or “INACTIVE”.
+f. Description: The description of the shipping priceset.
+
+Fields with “ * ” signs with them are compulsory to be filled.
+
+After filling all the information, users can click on the “create” button on top right to finish creating the price set.The created priceset will then appear as a new row under the Pricing Set tab in the Shipping Pricebook Edit page.
+
+
+
+
+
+
+
+
+
+
+
+
+
