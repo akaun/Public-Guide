@@ -1,4 +1,4 @@
-* Healthcare, Pharmaceutical & Beautycare Industry
+* Government 
 ** xref:overview.adoc[Overview]
 //** xref:solutions.adoc[Solutions]
 //** xref:stories.adoc[Stories]

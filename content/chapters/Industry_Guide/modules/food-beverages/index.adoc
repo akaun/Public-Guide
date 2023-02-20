@@ -1,5 +1,5 @@
-[#h2_retail_chainstores_industry]
-= Retail & Wholesale Industry
+[#h2_logistics_industry]
+= Food & Beverage (F&B) Industry 
 
 include::pages/overview.adoc[leveloffset=3]
 

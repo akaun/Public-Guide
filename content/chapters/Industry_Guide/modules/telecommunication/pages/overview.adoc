@@ -1,0 +1,7 @@
+[#h3_telecommunication_overview]
+= Overview
+
+One of the well-known Malaysian telecommunications enterprises has been using the Wavelet software for over 5 years, with the purpose of automating their accounting, inventory management (including real-time stock take module) across multiple branches within Malaysia. In addition, flexible reporting options have allowed them to access information real-time for informed decision-making anytime and anywhere. 
+
+One of the additional systems that have been implemented for the telecommunications company is Supplier RMA Module, allowing for easy and fast data exchange between the supplier and the retailer. Supplier RMA is a solution that provides 2 parties, the retailer as well as the supplier, access to 1 platform to manage the return items/ warranty items. The retailer will raise the RMA document, and after being approved by the management, the Supplier will be able to view the incoming return items in the platform. The Supplier then will process the return items by accepting it. All these processes are done seamlessly, to allow smooth transitioning of return items from the retailer to the supplier with proper document records and status update along the way.
+

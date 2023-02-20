@@ -1,2 +1,17 @@
 [#h3_retail_chainstores_overview]
 = Overview
+
+Retail and wholesale have always remained one of the key targeted markets for Wavelet, with 60% of their current customers being retailers. In addition to the all-in-one set of ERP modules for effective accounting and inventory management, the team has assisted to automate the exchange of data with their suppliers for procurement purposes, as well as provided an effective means of communication and data exchange with their customers. 
+
+Conversational commerce has become a new reality of the businesses in the times of pandemic. The communication with customers and customer service across Whatsapp, Facebook, Telegram and multiple other channels has been one of the biggest problems for the Wavelet’s clients over past years, with pandemic posing as an additional challenge. Unified Contact Center (also known as UCC) introduced earlier this year has changed the market : 
+
+Going beyond consolidation of channels and easing the process of addressing customer requests, UCC allows the agents to have a 360-degree view of the client, be it purchase history, member data, order and delivery information, frequency of contacting the support service. With the data being pulled from ERP, E-commerce, Lazada, Shopee, Delivery app and other applications, the agent is able to provide the personalised service and assistance. A “shopping cart” module brings the service to the next level by allowing the agent to place the order on behalf of the customer real-time. As the foundation of conversational commerce, Wavelet is also aimed to link the Payment Aggregation Switching module to allow end consumers to pay the businesses from within their whatsapp or other messenger apps. With operational data lake as the backbone, the data of any type can be exchanged between business and customer with ease and convenience of both. 
+
+image::ucc.png[UCC, align = "center"]
+
+With the power of Artificial Intelligence for Natural Language Processing, the future roadmap of the solutions involve bringing the platform closer to the vision of implementing software agents in the business environment. 
+
+The ability to transform a set of disintegrated software systems into one unified data ecosystem remains one of the key selling propositions for Wavelet. In addition, leveraging on the concept of O2O (Offline-to-Online), the team ensures that the data exchange (sales, loyalty points, vouchers, discounts, promotions, order and delivery and others) is integrated seamlessly among the multiple physical stores, as well as the several online platforms used by the business. 
+
+For the case of large consumer electronics retailers with a large pool of suppliers, Wavelet has successfully implemented the B2B platform to embark over 100 of their suppliers onboard to transfer and organize data and to facilitate transactions for both the retailer (buyer) and the supplier within the same system. A B2B portal is intended to become a single source of all the data, saving suppliers and retailers from endless phone calls and emails. Besides, retailers are able to implement their document standards in the system for all suppliers to comply with the processes and unified standards when using the system. The benefits include but are not limited to ensuring information transparency, providing reliable real-time information and reducing the possibility of human errors.
+

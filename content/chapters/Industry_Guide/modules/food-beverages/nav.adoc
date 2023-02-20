@@ -1,4 +1,4 @@
-* Healthcare, Pharmaceutical & Beautycare Industry
+* Food & Beverage (F&B) Industry 
 ** xref:overview.adoc[Overview]
 //** xref:solutions.adoc[Solutions]
 //** xref:stories.adoc[Stories]
