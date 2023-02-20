@@ -1,5 +1,5 @@
 * General
-** xref:introduction.adoc[Company Introduction]
-** xref:aws_partnership.adoc[AWS Partnership]
-** xref:solution_portfolio.adoc[Solution Portfolio]
+//** xref:introduction.adoc[Company Introduction]
+//** xref:aws_partnership.adoc[AWS Partnership]
+//** xref:solution_portfolio.adoc[Solution Portfolio]
 // ** xref:background.adoc[Background]
