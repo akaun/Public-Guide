@@ -5,9 +5,9 @@ include::pages/introduction.adoc[leveloffset=3]
 
 include::pages/credit-note.adoc[leveloffset=3]
 
-include::/pages/line-items.adoc[leveloffset=3]
+include::pages/line-items.adoc[leveloffset=3]
 
-include::/pages/customer.adoc[leveloffset=3]
+include::pages/customer.adoc[leveloffset=3]
 
 
 

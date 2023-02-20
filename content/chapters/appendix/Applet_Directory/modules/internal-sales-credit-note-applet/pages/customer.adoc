@@ -201,7 +201,7 @@ A list of credit terms can be viewed in this tab.
 
 Credit Term Create page will be opened on the right side once the ‘+’ button is clicked.
 
-image::CustomerEdit-CreditTerm.png[Credit Term, align = "center"]
+image::CustomerEdit-CreditTermAndLimit-CreditTerm.png[Credit Term, align = "center"]
 
 ===== 4.2.11.1.1 New Credit Term
 
@@ -220,13 +220,13 @@ g. Add Year
 h. Add Month
 i. Add Day
 
-image::CustomerEdit-CreditTerm-CreditTermCreate-NewCreditTerm.png[New Credit Term, align = "center"]
+image::CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-NewCreditTerm.png[New Credit Term, align = "center"]
 
 ===== 4.2.11.1.2 Existing Credit Term
 
 Users are only needed to select the existing credit term.
 
-image::CustomerEdit-CreditTerm-CreditTermCreate-ExistingCreditTerm.png[Existing Credit Term, align = "center"]
+image::CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-ExistingCreditTerm.png[Existing Credit Term, align = "center"]
 
 ==== 4.2.11.2 Credit Limit Tab
 
@@ -234,7 +234,7 @@ A list of credit limits can be viewed in this tab.
 
 Credit Limit Create page will be opened on the right side once the ‘+’ button is clicked.
 
-image::CustomerEdit-CreditLimit.png[Credit Limit, align = "center"]
+image::CustomerEdit-CreditTermAndLimit-CreditLimit.png[Credit Limit, align = "center"]
 
 ===== 4.2.11.2.1 New Credit Limit
 
@@ -248,13 +248,13 @@ c. Status
 d. Currency
 e. Credit Limit Amount
 
-image::CustomerEdit-CreditLimit-CreditLimitCreate-NewCreditLimit.png[New Credit Limit, align = "center"]
+image::CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-NewCreditLimit.png[New Credit Limit, align = "center"]
 
 ===== 4.2.11.2.2 Existing Credit Limit
 
 Users are only needed to select the existing credit limit.
 
-image::CustomerEdit-CreditLimit-CreditLimitCreate-ExistingCreditLimit.png[Existing Credit Limit, align = "center"]
+image::CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-ExistingCreditLimit.png[Existing Credit Limit, align = "center"]
 
 
 
