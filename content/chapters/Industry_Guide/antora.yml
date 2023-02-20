@@ -1,7 +1,7 @@
 name: handbook-industry-guide
 title: Industry Guide
 version: '1.0' 
-start_page: consumer-electronics:overview.adoc 
+start_page: retail-chainstores:overview.adoc 
 nav: 
 - modules/ROOT/nav.adoc
 - modules/retail-chainstores/nav.adoc
