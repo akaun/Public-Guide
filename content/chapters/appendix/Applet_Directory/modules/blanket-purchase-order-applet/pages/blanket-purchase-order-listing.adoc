@@ -145,6 +145,6 @@ image::BlanketPurchaseOrder-Edit-DocLink-To.png[Edit Doc Link To, align = "cente
 
 Users can use the “Export” tab to download the selected order as an invoice in pdf format.
 
-image::BlanketPurchaseOrder-Edit-Downloadsnip.png[Download Snip, align = "center"]
+image::BlanketPurchaseOrder-Edit-Download.png[Download Snip, align = "center"]
 
 

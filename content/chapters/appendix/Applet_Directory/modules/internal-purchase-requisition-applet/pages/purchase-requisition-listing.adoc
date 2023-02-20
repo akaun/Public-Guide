@@ -22,7 +22,7 @@ j. Transaction Date
 
 First click on the “+” button to create a purchase requisition.
 
-image::IntenalPurchaseListingAddBtn.png[Internal Purchase Listing Add Btn, align = "center"]
+image::IntenalPurchaseListingAddBtn.jpg[Internal Purchase Listing Add Btn, align = "center"]
 
 === 2.1.2 Main Details Tab
 
@@ -32,19 +32,19 @@ a. Location
 b. Branch
 c. Currency
 
-image::IntenalPurchaseListing-Create.png[Internal Purchase Listing, align = "center"]
+image::IntenalPurchaseListing-Create.jpg[Internal Purchase Listing, align = "center"]
 
 === 2.1.3 Add Line Items
 
 Next click on the “Lines” tab and then click on the “+” button.
 
-image::IntenalPurchaseListing-AddLineItem-1.png[Add Line Item, align = "center"]
+image::IntenalPurchaseListing-AddLineItem-1.jpg[Add Line Item, align = "center"]
 
 === 2.1.4 Line Item Listing
 
 Next click on a line item from the list. Details about the item will be displayed under the “Main Details” tab under the “Item Details” tab as shown below. 
 
-image::IntenalPurchaseListing-Create-AddLineItem-2.png[Add Line Item 1, align = "center"]
+image::IntenalPurchaseListing-Create-AddLineItem-2.jpg[Add Line Item 1, align = "center"]
 
 The form under this tab will be filled with the details of the selected item. Users fill in the form for:
 
@@ -72,25 +72,25 @@ s. Remarks
 
 Items with the “Item Details” tab only have a custom unit of measurement such as “pcs”, “boxes”.
 
-image::IntenalPurchaseRequisitionListing-EditItem-ItemDetailsOnly.png[Item Details Only, align = "center"]
+image::IntenalPurchaseRequisitionListing-EditItem-ItemDetailsOnly.jpg[Item Details Only, align = "center"]
 
 === 2.1.6 Serial Numbers Addition
 
 Users can fill in the form below to add a serial number to the selected item.
 
-image::IntenalPurchaseRequisitionListing-SerialNumberScan.png[Serial Number Scan, align = "center"]
+image::IntenalPurchaseRequisitionListing-SerialNumberScan.jpg[Serial Number Scan, align = "center"]
 
 === 2.1.7 Item Scan
 
 Users can scan an item using their cameras which will be associated with the item and serial number. Clicking on the “ADD” button will add the item.
 
-image::IntenalPurchaseRequisitionListing-SerialNumberScanPic.png[Serial Number Scan Pic, align = "center"]
+image::IntenalPurchaseRequisitionListing-SerialNumberScanPic.jpg[Serial Number Scan Pic, align = "center"]
 
 === 2.1.8 Enable Create Button
 
 After the addition of the line item, the “CREATE” button should be enabled in the “Create Purchase Requisition” page.
 
-image::IntenalPurchaseRequisitionListing-Create-CreateBtn.png[Create Btn, align = "center"]
+image::IntenalPurchaseRequisitionListing-Create-CreateBtn.jpg[Create Btn, align = "center"]
 
 == 2.2 Editing A Purchase Requisition
 
@@ -98,47 +98,47 @@ image::IntenalPurchaseRequisitionListing-Create-CreateBtn.png[Create Btn, align 
 
 Users can edit a purchase requisition as they see fit and click on the “SAVE” button once they are satisfied with the changes. For purchase requisition in “DRAFT” status, the Location and Branch of the company can still be edited along with the other fields. 
 
-image::IntenalPurchaseRequisitionListing-Edit-Draft.png[Edit Draft, align = "center"]
+image::IntenalPurchaseRequisitionListing-Edit-Draft.jpg[Edit Draft, align = "center"]
 
 === 2.2.2 Editing Final Requisitions
 
 Click on an existing purchase requisition item from the purchase requisition listing. For purchase requisitions in “FINAL” the Location and Branch of the company can no longer be edited. This is because the requisition has been finalized.
 
-image::IntenalPurchaseRequisition-Edit-Final.png[Edit Final, align = "center"]
+image::IntenalPurchaseRequisition-Edit-Final.jpg[Edit Final, align = "center"]
 
 === 2.2.3 Reset Draft Requisitions
 
 Clicking on the “RESET” button will remove all the data for the selected requisition that is in “DRAFT” status.
 
-image::IntenalPurchaseRequisition-Edit-Draft-Reset.png[Edit Draft Reset, align = "center"]
+image::IntenalPurchaseRequisition-Edit-Draft-Reset.jpg[Edit Draft Reset, align = "center"]
 
 === 2.2.4 Reset Finalized Requisitions
 
 Clicking on the “RESET” button will NOT work on the selected requisition that is in “FINAL” status. This is because the requisition is already finalized.
 
-image::IntenalPurchaseRequisition-Edit-Final-Reset.png[Edit Final Reset, align = "center"]
+image::IntenalPurchaseRequisition-Edit-Final-Reset.jpg[Edit Final Reset, align = "center"]
 
 === 2.2.5 Contract Addition
 
 Users can add a “Contract” to the requisition while editing. To do this, the “+” button must be clicked.
 
-image::IntenalPurchaseRequisition-Edit-Draft-Contra-1.png[Edit Draft Contra-1, align = "center"]
+image::IntenalPurchaseRequisition-Edit-Draft-Contra-1.jpg[Edit Draft Contra-1, align = "center"]
 
 === 2.2.6 Add Requisitions Contract
 
 Select a contract from the list and fill in the “Contra Amount” field. This will enable the “ADD” button in the top right  corner.
 
-image::IntenalPurchaseRequisition-Edit-Draft-Contra-2.png[Edit Draft Contra-2, align = "center"]
+image::IntenalPurchaseRequisition-Edit-Draft-Contra-2.jpg[Edit Draft Contra-2, align = "center"]
 
 === 2.2.7 Finalize Requistions
 
 Click on “FINAL” to finalize the requisition. Subsequently users can click on “SAVE” to save the edited requisition as a draft.
 
-image::IntenalPurchaseRequisition-Edit-FinalAndSaveBtn.png[Edit Final And Save, align = "center"]
+image::IntenalPurchaseRequisition-Edit-FinalAndSaveBtn.jpg[Edit Final And Save, align = "center"]
 
 Finalized requisitions will have the “FINAL” posting status.
 
-image::IntenalPurchaseRequisition-Edit-Finalised.png[Edit Finalised, align = "center"]
+image::IntenalPurchaseRequisition-Edit-Finalised.jpg[Edit Finalised, align = "center"]
 
 === 2.2.8 Finalize Requisitions from Listing
 
@@ -146,27 +146,27 @@ Users can use the listing page to finalize a requisition as well:
 First select a requisition from the listing. The selected requisition will be marked with a tick mark.
 Next click on the “FINAL” button. This will finalize the requisition.
 
-image::IntenalPurchaseRequisitionListing-Finalised.png[Finalised, align = "center"]
+image::IntenalPurchaseRequisitionListing-Finalised.jpg[Finalised, align = "center"]
 
 The changes will be reflected in the listing as shown below.
 
-image::IntenalPurchaseRequisitionListing-Finalised-2.png[Finalised-2, align = "center"]
+image::IntenalPurchaseRequisitionListing-Finalised-2.jpg[Finalised-2, align = "center"]
 
 === 2.2.9 Linked Requisitions Documents
 
 During edit, users can select the “Doc Link” tab and view the “Copied From” documents.
 
-image::IntenalPurchaseRequisition-Edit-DocLink-From.png[Edit Doc Link From, align = "center"]
+image::IntenalPurchaseRequisition-Edit-DocLink-From.jpg[Edit Doc Link From, align = "center"]
 
 === 2.2.10 Documents Attachments 
 
 Users can attach multiple documents while editing a requisition. The “ADD” button will be enabled when a document is attached. The “bin” icon in the attached documents is used to remove attached documents.
 
-image::IntenalPurchaseRequisition-Edit-UploadFiles.png[Edit Upload Files, align = "center"]
+image::IntenalPurchaseRequisition-Edit-UploadFiles.jpg[Edit Upload Files, align = "center"]
 
 === 2.2.11 Export Invoice as PDF 
 
 Users can use the “Export” tab to download the selected purchase requisition as an invoice in pdf format.
 
-image::IntenalPurchaseRequisition-Edit-DownloadPDF.png[Edit Download PDF, align = "center"]
+image::IntenalPurchaseRequisition-Edit-DownloadPDF.jpg[Edit Download PDF, align = "center"]
 
