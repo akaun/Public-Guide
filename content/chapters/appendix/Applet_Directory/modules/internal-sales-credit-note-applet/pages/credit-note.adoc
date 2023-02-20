@@ -1,0 +1,370 @@
+[#h3_internal-sales-credit-note-applet_credit_note]
+= 2.0 Credit Note
+
+There is a listing of sales credit notes with the information like Sales CreditNote No, Posting Status, Branch, Customer Name, Sales Agent, Updated Date, Created Date, Transaction Date, Created by and Updated by.
+
+Users can set the posting status of sales credit notes to FINAL by selecting one or more credit notes in the listing and then click on the ‘FINAL’ button.
+
+image::InternalSalesCreditNote-Intro.png[Intro, align = "center"]
+
+== 2.1 Add a New Credit Note
+
+Create Internal Sales Credit-note page will be invoked and displayed on the right side which has further tabs such as Main Details, Account, Lines, Settlement, Department Hdr, KO For, and Contra when the ‘+’ button is clicked. 
+
+=== 2.1.1 Main Details Tab
+
+Please fill up the compulsory (*) information for creating the credit note. Compulsory Information:
+
+a. Branch (can be added in Organization Applet)
+b. Location (can be added in Organization Applet)
+c. Sales Agent (can bed added Entity Maintenance Applet) 
+d. Currency (depend on the selected branch) 
+e. Other fields are optional
+
+image::CreateIntenalSalesCreditNote-MainDetails-1.png[Main Details, align = "center"]
+
+image::CreateIntenalSalesCreditNote-MainDetails-2.png[Main Details, align = "center"]
+
+When the field of the Member card is clicked, a list of members will be displayed on the right side which allows you to select a member from it. 
+
+image::CreateIntenalSalesCreditNote-MainDetails-SelectMember.png[Select Member, align = "center"]
+
+=== 2.1.2 Account Tab
+
+==== 2.1.2.1 Entity Details Tab
+
+Compulsory Information:
+
+a. Entity ID (can be added in Entity Maintenance Applet)
+b. Entity Name (will be filled automatically once you select the Entity ID)
+c. Other fields will be filled automatically once Entity ID is selected
+
+image::CreateIntenalSalesCreditNote-Account-EntityDetails.png[Entity Details, align = "center"]
+
+After the Entity Id has been clicked, a list of customers will be displayed on the right side. You can select the supplier from the list.
+
+Users can also change the mode to Create/Edit Mode by switching on the Select Mode toggle button. Further detail of this mode can be found at 4.1 Create Customer.
+
+image::CreateIntenalSalesCreditNote-Account-EntityDetails-SelectCustomer.png[Select Customer, align = "center"]
+
+image::CreateIntenalSalesCreditNote-Account-EntityDetails-SelectCustomer-CreateEditMode.png[Create Edit Mode, align = "center"]
+
+==== 2.1.2.2 Bill To Tab
+
+Name, Email and Phone No will be auto filled after Entity ID is selected as well as the detail of the default billing address.
+
+List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+
+The list of Billing Addresses displayed depends on the Customer Maintenance Applet.
+
+image::CreateIntenalSalesCreditNote-Account-BillTo.png[Bill To, align = "center"]
+
+==== 2.1.2.3 Ship To Tab
+
+Name, Email and Phone No will be auto filled after Entity ID is selected as well as the detail of the default shipping address.
+
+List of Shipping Addresses will be displayed on the right side for selection after clicking on the Shipping Address.
+
+The list of Shipping Addresses displayed depends on the Customer Maintenance Applet.
+
+image::CreateIntenalSalesCreditNote-Account-ShipTo.png[Ship To, align = "center"]
+
+=== 2.1.3 Lines Tab
+
+In this tab, a list of items will be displayed as shown in figure below. The information of the item listing displayed is as follow:
+
+a. Item Code
+b. Item Name
+c. UOM
+d. Qty
+e. Unit Price (Inclusive of Tax)
+f. SST/VAT/GST
+g. Tax Amount
+
+When ‘+’ button is clicked, the Select Item page will be displayed on the right side
+
+image::CreateIntenalSalesCreditNote-Lines.png[Lines, align = "center"]
+
+Add Item page will be displayed on the right side when one of the items in both Search Item and Copy Quotation Item tabs is clicked.
+
+In the Copy Quotation Item tab, users are allowed to select multiple items by selecting the checkboxes and then add the selected items into the line listing by clicking on the ‘COPY’ button.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem.png[Search Item, align = "center"]
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-CopyQuotationItem.png[Copy Quotation Item, align = "center"]
+
+==== 2.1.3.1 Add Item - Item Details Tab
+
+===== 2.1.3.1.1 Main Details Tab
+
+Users can edit the detail of the selected item.
+
+Number fields like Unit Price, Quantity Base etc. are editable and it will affect other fields automatically.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+===== 2.1.3.1.2 Delivery Instruction Tab
+
+In the Delivery Instruction, users can input instructions and set the delivery date.
+
+In the Delivery Message Card, users can:
+
+a. Add a message with the sender and receiver 
+b. Click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the sender and receiver
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-ItemDetails-DeliveryInstruction-1.png[Delivert Instruction, align = "center"]
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-ItemDetails-DeliveryInstruction-2.png[Delivert Instruction, align = "center"]
+
+===== 2.1.3.1.3 Department Tab
+
+a. Can select Segment, G/L Dimension, Profit Centre and Project 
+
+b. Can select ‘Copy from Hdr’ checkbox to get the setting of department from hdr
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+==== 2.1.3.2 Add Item - Costing Details Tab
+
+Show a list of costing details about the selected item with the information like:
+
+a. Company Code
+b. Location Code
+c. Quantity
+d. Moving Average Unit Cost
+e. FIFO Unit Cost
+f. Last Purchase Unit Cost
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-CostingDetails.png[Costing Details, align = "center"]
+
+==== 2.1.3.3 Add Item - Pricing Details Tab
+
+Show a list of pricing details about the selected item with the information like:
+
+a. Pricing Scheme Code
+b. Pricing Schema Name
+c. Purchase Unit Price
+d. Modified Date
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-PricingDetails.png[Pricing Details, align = "center"]
+
+==== 2.1.3.4 Add Item - Issue Link Tab
+
+a. Show a list of issue links with the information like project name, issue number and issue summary
+
+b. Edit Issue page will be displayed on the right side when one of the issue link is clicked
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink.png[Issue Link, align = "center"]
+
+===== 2.1.3.4.1 Edit Issue Tab
+
+In this tab, users can fill in fields of Issue Number and Summary.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue.png[Edit Issue, align = "center"]
+
+====== 2.1.3.4.1.1 Details Tab
+
+Drop down field like Project. Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date are selectable 
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Details.png[Edit Issue Details, align = "center"]
+
+===== 2.1.3.4.1.2 Planning Tab
+
+The fields such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Allocated and Manday Billing can be filled
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Planning.png[Planning, align = "center"]
+
+===== 2.1.3.4.1.3 Attachment Tab
+
+Users can upload file from local device by dragging and dropping your file on the field or clicking the ‘Upload File’ button.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+===== 2.1.3.4.1.4 Comment Tab
+
+A list of comments can be viewed at this tab.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+===== 2.1.3.4.1.5 Subtasks Tab
+
+A list of subtasks can be viewed at this tab.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Subtasks.png[Subtasks, align = "center"]
+
+===== 2.1.3.4.1.6 Linked Issues Tab
+
+A list of linked issues can be viewed at this tab.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issue, align = "center"]
+
+===== 2.1.3.4.1.7 Worklogs Tab
+
+A list of worklogs can be viewed in this tab.
+
+Log Time page will be displayed on the right side when the ‘+’ button is clicked.
+
+There are fields such as Activity Type, Date, Duration and Description to be filled.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklogs, align = "center"]
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Worklogs-LogTime.png[Log Time, align = "center"]
+
+===== 2.1.3.4.1.8 Activity Tab
+
+A list of activities can be viewed in this tab.
+
+image::CreateIntenalSalesCreditNote-Lines-SelectItem-SearchItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+=== 2.1.4 Settlement Tab
+
+a. A listing of settlement can be viewed in this tab as well as the total and outstanding amount.
+b. New settlement can only be added provided that the settlement does not exceed the outstanding amount.
+c. Users can add different payment method such as Cash, Credit Card, Membership Point Currency, Voucher and Cheque.
+d. Users can add a new settlement method in the Cashbook Applet.
+e. By clicking the ‘+’ button, Add Settlement page will be opened on the right side with the dropdown field called Settlement Method for users to select the settlement method.
+
+image::CreateIntenalSalesCreditNote-Settlement.png[Settlement, align = "center"]
+
+image::CreateIntenalSalesCreditNote-Settlement-AddSettlement.png[Add Settlement, align = "center"]
+
+==== 2.1.4.1 Cash
+
+a. Please fill in the compulsory fields such as Date, Amount.
+b. Click on the ‘Add’ to add the settlement.
+
+image::CreateIntenalSalesCreditNote-Settlement-AddSettlement-Cash.png[Cash, align = "center"]
+
+==== 2.1.4.2 Voucher 
+
+a. Please fill in the compulsory fields such as Voucher # and Amount.
+b. Click on the ‘Add’ to add the settlement
+
+image::CreateIntenalSalesCreditNote-Settlement-AddSettlement-Voucher.png[Voucher, align = "center"]
+
+==== 2.1.4.3 Credit Card
+
+a. Please fill in the compulsory fields such as Date, Amount, Credit Card No and Name on Card.
+b. Click on the ‘Add’ to add the settlement
+
+image::CreateIntenalSalesCreditNote-Settlement-AddSettlement-CreditCard.png[Credit Card, align = "center"]
+
+==== 2.1.4.4 Membership Point
+
+Please fill in the compulsory fields such as Date, Amount, Point CCY and Point Currency for Settlement.
+
+Click on the ‘Add’ to add the settlement
+
+image::CreateIntenalSalesCreditNote-Settlement-AddSettlement-PointCurrency.png[Point Currency, align = "center"]
+
+==== 2.1.4.5 Cheque  
+
+Please fill in the compulsory fields such as Date, Amount and Cheque No.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateIntenalSalesCreditNote-Settlement-AddSettlement-Cheque.png[Cheque, align = "center"]
+
+==== 2.1.4.6 Department Hdr Tab
+
+Users can select Segment, G/L Dimension, Profit Centre and Project.
+
+New department hdr can be added in the Chart of Account applet.
+
+image::CreateIntenalSalesCreditNote-DepartmentHdr.png[Department Hdr, align = "center"]
+
+=== 2.1.6 KO For Tab
+
+In this tab, a list of items that can be knocked off by users will be listed down.
+
+Users can choose the item that they want to knock off and then knock off the selected item by clicking on the ‘KNOCK OFF’ button.
+
+image::CreateIntenalSalesCreditNote-KOFor.png[KO For, align = "center"]
+
+==== 2.1.6.1 Delivery Order
+
+A list of delivery orders available for knocking off is displayed in this tab with the information like Doc No, DocType, Ref No, Txn Date and Branch Code.
+
+Users can knock off one or more delivery orders by selecting the delivery orders displayed in the list and then clicking on the ‘KNOCK OFF’ button.
+
+image::CreateIntenalSalesCreditNote-KOFor-DeliveryOrder.png[Delivery Order, align = "center"]
+
+==== 2.1.6.2 Job Sheet
+
+A list of job sheets available for knocking off is displayed in this tab with the information like Doc No, DocType, Ref No, Txn Date and Branch Code.
+
+Users can knock off one or more job sheets by selecting the job sheets displayed in the list and then clicking on the ‘KNOCK OFF’ button.
+
+image::CreateIntenalSalesCreditNote-KOFor-JobSheet.png[Job Sheet, align = "center"]
+
+==== 2.1.6.3 Sales Order
+
+A list of sales orders available for knocking off is displayed in this tab with the information like Doc No, DocType, Ref No, Txn Date and Branch Code.
+
+Users can knock off one or more sales orders by selecting the sales orders displayed in the list and then clicking on the ‘KNOCK OFF’ button.  
+
+image::CreateIntenalSalesCreditNote-KOFor-SalesOrder.png[Sales Order, align = "center"]
+
+=== 2.1.7 Contra Tab
+
+A Contra account is a negative account that is netted from the balance of another account on the balance sheet.
+
+In this tab, a list of contra with details of Server Doc Type, Status, Date and Amount Contra will be listed down.
+
+A list of contra will be displayed on the right side for the user to select a contra after clicking the ‘+’ button.
+
+Add Contra page will be displayed on the right side once users click on a document.
+
+image::CreateIntenalSalesCreditNote-Contra.png[Contra, align = "center"]
+
+image::CreateIntenalSalesCreditNote-Contra-SelectDocument.png[Document, align = "center"]
+
+==== 2.1.7.1 Add Contra
+
+Information of the selected document like Doc No, Branch, Server Doc Type, Due Date, Transaction Date and Contra Amount will be displayed in this page.
+
+Only fields of Due Date, Transaction Date and Contra Amount are editable and Contra Amount must be filled.
+
+Users can save the changes by clicking on the ‘ADD’ button.
+
+image::CreateIntenalSalesCreditNote-Contra-SelectDocument-AddContra.png[Add Contra, align = "center"]
+
+== 2.2 Edit Internal Sales Credit Note
+
+Edit Internal Sales Credit Note page will be displayed on the right side when one of the credit note in the listing is clicked.
+
+Most of the tabs in this page are similar to the tabs in the Create Sales Credit-note page. However, there are extra tabs like Attachment, and Export tabs in this page.
+
+There are several buttons in this page: 
+
+a. DELETE - To delete the selected credit note
+b. RESET - To reset value for all fields of the selected credit note to empty
+c. FINAL - To reset the posting value of the selected credit note to FINAL
+d. SAVE - To save the changes
+
+image::EditInternalSalesCreditNote.png[Credit Note, align = "center"]
+
+image::EditInternalSalesCreditNote-Buttons.png[Buttons, align = "center"]
+
+=== 2.2.1 Attachment Tab
+
+In this tab, users can add an attachment by clicking on the ‘+’ button which will be redirected to the new page - Add Attachment page.
+
+Users can select any attachments they want by clicking on the ‘Upload File(s)’ button.
+
+image::EditInternalSalesCreditNote-Attachments.png[Attachment, align = "center"]
+
+image::EditInternalSalesCreditNote-Attachments-AddAttachment.png[Add Attachement, align = "center"]
+
+=== 2.2.2 Export Tab 
+
+In this tab, users can export the selected sales credit note by selecting the desired printable format. 
+
+The sales credit note will be exported by clicking the ‘EXPORT AS PDF’ button.
+
+image::EditInternalSalesCreditNote-Export.png[Export, align = "center"]
+
+
+
+
+

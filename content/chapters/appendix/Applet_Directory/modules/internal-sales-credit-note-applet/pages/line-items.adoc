@@ -1,0 +1,87 @@
+[#h3_internal-sales-credit-note-applet_line_items]
+= 3.0 Line Items
+
+== 3.1 View Line Items Listing
+
+A list of line items with the details of Sales CreditNote No, Item Code, Item Name, Qty, and Unit Price etc. can be viewed in this table.
+
+image::LineItemsListing.png[Line Items Listing, align = "center"]
+
+== 3.2 Edit Line Item
+
+This page will be invoked and displayed on the right side when users select one of the line items to make changes in the listing page.
+
+Users can click the ‘SAVE’ button to save the changes.
+
+Users can delete the line item by clicking on the ‘DELETE’ button for the selected line item.
+
+=== 3.2.1 Item Details Tab
+
+==== 3.2.1.1 Main Details Tab
+
+This tab is similar to 2.1.3.1.1 Main Details Tab.
+
+image::EditLineItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+==== 3.2.1.2 Delivery Instruction Tab
+
+This tab is similar to 2.1.3.1.2 Delivery Instruction Tab
+
+image::EditLineItem-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+==== 3.2.1.3 Department Tab
+
+This tab is similar to 2.1.3.1.3 Department Tab
+
+image::EditLineItem-ItemDetails-Department.png[Department, align = "center"]
+
+==== 3.2.1.4 Doc Link Tab
+
+A list doc links with the information like Doc No, Branch, Server Doc Type, Status, and Date can be viewed in this tab.
+
+image::EditLineItem-ItemDetails-DocLink-From.png[Doc Link From, align = "center"]
+
+image::EditLineItem-ItemDetails-DocLink-To.png[Doc Link To, align = "center"]
+
+==== 3.2.1.5 Delivery Details Tab
+
+A list of delivery details for the selected line item with the information like Trip No, Driver Name, Vehicle No, Job Start Date and Job End Date etc. can be viewed in this tab. 
+
+image::EditLineItem-ItemDetails-DeliveryDetails.png[Delivery Details, align = "center"]
+
+=== 3.2.2 Serial Number Tab
+
+==== 3.2.2.1 Scan Tab
+
+Users can click on the ‘SCAN’ button to start scanning the serial number through the camera and then click the ‘ADD’ button to add the serial number into the list.
+
+Users can remove one or more serial numbers from the listing by selecting the serial numbers in the list and then clicking on the ‘REMOVE’ button.
+
+image::EditLineItem-SerialNumber-Scan.png[Scan, align = "center"]
+
+==== 3.2.2.2 Import Tab
+
+Users can click on the ‘Upload File’ button to import serial numbers.
+
+Users can remove one or more serial numbers from the listing by selecting the serial numbers in the list and then clicking on the ‘REMOVE’ button.
+
+image::EditLineItem-SerialNumber-Import.png[Import, align = "center"]
+
+=== 3.2.3 Costing Details Tab
+
+This tab is similar to 2.1.3.2 Add Item - Costing Details Tab
+
+image::EditLineItem-CostingDetails.png[Costing Details, align = "center"]
+
+=== 3.2.4 Pricing Details Tab
+
+This tab is similar to 2.1.3.3 Add Item - Pricing Details Tab
+
+image::EditLineItem-PricingDetails.png[Pricing Details, align = "center"]
+
+=== 3.2.5 Issue Link Tab
+
+This tab is similar to 2.1.3.4 Add Item - Issue Link Tab
+
+image::EditLineItem-IssueLink.png[Issue Link, align = "center"]
+

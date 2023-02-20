@@ -59,3 +59,4 @@ nav:
 - modules/internal-purchase-order-applet/nav.adoc
 - modules/internal-purchase-requisition-applet/nav.adoc
 - modules/shipping-pricebook-applet/nav.adoc
+- modules/internal-sales-credit-note-applet/nav.adoc
