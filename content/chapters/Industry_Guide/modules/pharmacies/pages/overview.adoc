@@ -1,5 +1,5 @@
 [#h3_pharmacies_overview]
-= Overview
+= Success Story 5 : Healthcare, Pharmaceutical & Beautycare Industry
 
 Wavelet serves one of the leaders in the Malaysian healthcare industry, with over 20 years of experience, possessing strengths in diagnostic, laboratory, medical technologies, and other specialised healthcare & pharmaceutical products and services for Medical Practitioners, Hospitals and Corporate Clients. Back in 2013, the customer decided to replace their legacy windows-based software to a web-based ERP system to fit their high pace of growth. Their main objective was to increase the efficiency of their business activities; to obtain a real-time & comprehensive view of their subsidiaries, as well as to strengthen the centralized process flow within the group. Upon the analysis of the customer use case and faced challenges, one of the main objectives of the project has been the automation of the data exchange and transfer between ERP system and Patient Record Management system to capture patient's information and the prescribed medicine (quantity, frequency and usage instruction of medicine). In addition, the Implementation of EMP solution for the supply chain management has been essential to cater for cross-company/branch transactions, including sales, inventory, accounting, reporting.
 

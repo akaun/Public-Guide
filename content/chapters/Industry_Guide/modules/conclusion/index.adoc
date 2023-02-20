@@ -1,4 +1,8 @@
-[#h2_industry_guide_conclusion]
-= Overview
+[#h2_conclusion_index]
+= Conclusion
 
 include::pages/conclusion.adoc[leveloffset=3]
+
+
+
+

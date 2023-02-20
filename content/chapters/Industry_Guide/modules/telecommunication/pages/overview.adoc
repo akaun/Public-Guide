@@ -1,5 +1,5 @@
 [#h3_telecommunication_overview]
-= Overview
+= Success Story 4 : Telecommunication Industry
 
 One of the well-known Malaysian telecommunications enterprises has been using the Wavelet software for over 5 years, with the purpose of automating their accounting, inventory management (including real-time stock take module) across multiple branches within Malaysia. In addition, flexible reporting options have allowed them to access information real-time for informed decision-making anytime and anywhere. 
 

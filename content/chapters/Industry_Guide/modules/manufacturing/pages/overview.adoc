@@ -1,5 +1,5 @@
 [#h3_manufacturing_overview]
-= Overview
+= Success Story 7 : Manufacturing
 
 Given the fast growth of the business and the business size, our manufacturing customers have recognised the need for the scalable software infrastructure for their business operations, including both internal process automation and customer engagement. The ‘manual’ way was no longer an option. Automation has been required in all areas of the business : accounting and finance, inventory management, sales, customer service, delivery management, warehouse and production. The goal is to ensure all modules are connected seamlessly, allowing for the real-time update with no issue of double entry or duplicated data. 
 
