@@ -5,7 +5,7 @@ Given the fast growth of the business and the business size, our manufacturing c
 
 The problem statement highlighted by the customers has been a perfect match to the solution portfolio offered by Wavelet. In contrast to other vendors, Wavelet does not focus on one product, but rather offers an end-to-end solution for the business, connecting each application into a single scalable ecosystem, powered by an operational data lake as a backbone. 
 
-image::operational_date_lake.png[Operational Data Lake, align = "center"]
+image::operational_data_lake.png[Operational Data Lake, align = "center"]
 
 The solution offered to our manufacturing customers has aimed to address the key pain points faced by the customer before, as well as to optimize the daily operations beyond. As of now we have implemented an ERP system for accounting, sales, inventory management, as well as a customer engagement module connecting multiple communication channels used by the customers to chat with their customers. 
 

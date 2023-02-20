@@ -1,4 +1,4 @@
-[#h2_logistics_industry]
+[#h2_food_beverages_industry]
 = Food & Beverage (F&B) Industry 
 
 include::pages/overview.adoc[leveloffset=3]
