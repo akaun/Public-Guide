@@ -1,4 +1,4 @@
-[#h2_industry_guide]
+[#h2_industry_guide_conclusion]
 = Overview
 
 include::pages/conclusion.adoc[leveloffset=3]
