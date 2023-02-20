@@ -1,4 +1,4 @@
-[#h3_shipping_pricebook_listing]
+[#h3_shipping_priceset_listing]
 = 3.0 Shipping Priceset
 
 Generally, every shipping pricebook consists of multiple pricesets. Every priceset record corresponds to the pricing rule of a product.
