@@ -18,7 +18,7 @@ f. Status: The status of the shipping priceset. It can be either “ACTIVE” or
 
 == 3.2 Create Shipping Priceset Record
 
-image::9-ShippingPriceset-CreateShippingPriceset.png[Create Shipping Priceset, align = "center"]
+image::9-ShippingPriceset-CreatePriceset.png[Create Shipping Priceset, align = "center"]
 
 Users can click on the “+” button in the Shipping Priceset Listing page in order to create a new record of shipping priceset. By doing that, the Create Shipping Priceset page will appear from the right. While creating the new record, users must input values for the columns that are associate with the symbol * which means required. The information to be filled includes:
 
@@ -31,7 +31,7 @@ f. Description: The description of the shipping priceset.
 
 After inputting all the necessary information, users can click on the “CREATE” button on the top right to create the new priceset.
 
-image::10-ShippingPricesetListing-CreatedPriceset.png[Created Priceset, align = "center"]
+image::10-ShippingPriceset-CreatedPriceset.png[Created Priceset, align = "center"]
 
 The created shipping priceset will appear as a new record shown in the Shipping Priceset Listing page.
 

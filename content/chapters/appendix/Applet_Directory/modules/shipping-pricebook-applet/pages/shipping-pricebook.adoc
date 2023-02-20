@@ -47,7 +47,7 @@ Then, users click on the “SAVE” button on top right to save all the changes.
 
 == 2.4 Delete the Pricebook Record
 
-image::5-ShippingPricebookEdi-DeletePricebook.png[Delete Pricebook, align = "center"]
+image::5-ShippingPricebookEdit-DeletePricebook.png[Delete Pricebook, align = "center"]
 
 Next, users can delete a particular shipping pricebook record by clicking on the “Delete” button at the very button on the shipping pricebook edit page as shown in the page above.
 

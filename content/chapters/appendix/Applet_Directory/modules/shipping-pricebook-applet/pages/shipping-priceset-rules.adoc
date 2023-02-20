@@ -16,7 +16,7 @@ b. Negation Logic: The condition if the rules are negated. The options include �
 
 In order to create a new role for the priceset, users have to click on the “+” button in the Rules - Doc Hdr page. By doing that, the Add Rule page will appear from the right.
 
-image::14-RulesDocHdr-AddRule.png[Add Rules, align = "center" ]
+image::14-RulesDocHdr-AddRule-ValidDateRange.png[Add Rules, align = "center" ]
 
 In the Add - Rule page, users have to fill up the rule information for the rule they want to create for a particular priceset. The information includes:
 
@@ -30,13 +30,13 @@ f. Absolute Period To: The date in which the rule ends.
 
 After filling up all the information, users have to click on the “Create” button to create the rule.
 
-image::15-Rules-DocHdr-AddedRule.png[Added Rule, align = "center"]
+image::15-RulesDocHdr-AddedRule.png[Added Rule, align = "center"]
 
 The created rule will appear as a new row in the Rules - Doc Hdr page. Users then click on the “SAVE” button on top right to save all the changes.
 
 === 4.1.2 Update or Delete the Rules Hdr
 
-image::16-RulesDocHdr-EditDeleteRule.png[Edit Delete Rule, align = "center"]
+image::16-RulesDocHdr-EditRule.png[Edit Delete Rule, align = "center"]
 
 In order to edit a rule for shipping priceset, users have to first click on the particular rule record in the Edit Shipping Priceset page. By doing that, the Edit Rule page will appear from the right. Users can edit all the rule information (rule name, negotiation logic) except the rule type. After editing the information, users can click on the “Save” button to save all the changes.
 
@@ -46,7 +46,7 @@ On the other hand, users can click on the “Delete” button to delete the part
 
 Rules - Multi  lines  are the rules that apply to multiple lines, this can be used when there are multiple items that have the same pricing or same shipping fee.
 
-image::17-RulesMultiLine-ListingPage.png[Listing Page, align = "center"]
+image::17-RulesMultiLine-RuleListing.png[Listing Page, align = "center"]
 
 Under the Rules - Multi Line tab, users can set the rules at multi-line level (based on item) for a particular shipping priceset. In other words, the rule logic will include multiple items in a generic document. The information that should be provided by the users includes:
 
@@ -77,7 +77,7 @@ image::19-RulesMultiLine-AddCategory.png[Add Category, align = "center"]
 
 By doing that, the Add Category page will appear from the right. The Add Category page shows a list of available category codes and names that can be added to the created rule. Users can tick one or more categories to be added to the rule in the Add Category page. Then, users click on the “Add” button to save all the changes.
 
-image::20-RulesMultiLine-CreatedCategory.png[Created Category, align = "center"]
+image::20-RulesMultiLine-CreatedItemCategories.png[Created Category, align = "center"]
 
 After that, the created item categories will be listed in the table under the Edit Rule page.
 
@@ -140,7 +140,7 @@ After that, users click on the “Create” button to create the rule line recor
 
 ==== B. Delete Item Category
 
-image::26-SingleRuleLine-DeleteCategory.png[Delete Category, align = "center"]
+image::26-RulesSingleLine-DeleteItemCategory.png[Delete Category, align = "center"]
 
 In order to delete an item category, users have to click on the particular item category in the Edit Rule page. By doing that, the View Category page will appear from the right. This page shows the name and code of the item category. Users are not allowed to edit the information of the category. However, users can click on the “Delete” button on the very bottom to delete the category.
 

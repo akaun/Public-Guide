@@ -10,7 +10,7 @@ include::modules/applet-store/index.adoc[leveloffset=2]
 
 include::modules/bank-reconciliation-applet/index.adoc[leveloffset=2]
 
-include::modules/blanket-purchase-order-applet/index.adoc
+include::modules/blanket-purchase-order-applet/index.adoc[leveloffset=2]
 
 include::modules/cashbook-applet/index.adoc[leveloffset=2]
 
