@@ -1,0 +1,27 @@
+[#h3_inv_item_maintenance_introduction]
+= 2.3 Categories 
+
+image::InvItemsCategoriesOverview.png[Categories Overview, align = "center"]
+
+By clicking on the categories sidebar, users will land on the Categories listing page, users are able to create a new category by clicking on the “+” button, or edit an existing category by clicking on the specific row.
+
+== 2.3.1 Creating Categories
+
+image::InvItemsCategoriesCreate.png[Categories Create, align = "center"]
+
+To create a category, the user must select the corresponding category group that is available, as well as its parent category from the drop down list shown in the picture.
+
+After filling in all the other details, the user can click the “CREATE” button to finish the creation process
+
+== 2.3.2 Editing Categories
+
+image::InvItemsCategoriesEdit.png[Categories Edit, align = "center"]
+
+After selecting the desired category, the user can choose to alter the data by changing the values in the field which are not grayed out. Users can then click the “UPDATE” button to finish the process.
+
+In addition,  the user can also choose to delete the selected category by clicking the “Remove” button.
+
+
+
+
+
