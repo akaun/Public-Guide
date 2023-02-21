@@ -7,7 +7,7 @@ Akaun platform is based on multi-channel cloud-native architecture, with scalabi
 
 Our Akaun Platform revolutionized the way businesses would consume software services, providing them the very much needed IT backbone at a fraction of the cost, with superior flexibility and scalability.
 
-image::
+image::akaun-platform.png[Akaun Platform, align = "center"]
 
 === 1.1 Multi-tenant architecture and AWS Microservices
 
@@ -76,7 +76,7 @@ e. Furniture chain stores
 
 == 3.0 Solutions Portfolio
 
-image::
+image::solution.png[Solution, align = "center"]
 
 Our range of solutions include but not limited to : 
 a. Operational Data Lake & Integration Services
