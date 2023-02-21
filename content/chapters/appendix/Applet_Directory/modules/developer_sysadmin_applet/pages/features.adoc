@@ -1,0 +1,13 @@
+[#h3_developer_sysadmin_applet_features]
+= 2.0 Features
+
+image::features_menu.png[Features Menu, align = "center"]
+
+On the left side of the applet, there is the features menu containing four tabs, Vendor, Applet, Settings, and Personalization.
+
+a. Vendor: can be used to add vendors and then add applets with login accounts to the vendors.
+b. Applets: can be used to add applets and edit their details, Pricing, Images, Catalog, and Password Policy.
+c. Settings: To adjust the applet settings, system configuration, or permissions.
+d. Personalization: Adjust and personalize the applet.
+
+

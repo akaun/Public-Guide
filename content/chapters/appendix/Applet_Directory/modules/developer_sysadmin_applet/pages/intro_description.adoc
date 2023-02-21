@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Developer Admin Applet allows the user to add vendors and add applets with login accounts to the vendors. Also, you can add applets through the applets tab.
