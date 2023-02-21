@@ -1,0 +1,27 @@
+[#h3_bigledger_overview_multitenant]
+= 1.1 Multi-tenant architecture and AWS Microservices
+
+Each tenant would be using a different database. S3 storage in different folders within the same s3 bucket. Our eventual goal here is to automate the entire lifecycle of tenant management as well as to provide the API, SDK and interface to allow peer to peer interactions , integrations and data mapping among the tenants. 
+
+All components of the BigLedger are to be developed using cloud native components. Description of each component as follows:
+
+Amazon Cloudfront : offers the most advanced security capabilities, to protect against multiple types of attacks including network and application layer DDoS attacks.
+
+Amazon S3 : Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface. 
+
+Application Load Balancer :  automatically distributes your incoming traffic across multiple targets, It monitors the health of its registered targets, and routes traffic only to the healthy targets. It can automatically scale to the vast majority of workloads.
+
+Elastic Beanstalk : automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring.
+
+AWS Cognito : Single Sign-On - a cloud-based single sign-on (SSO) service that makes it easy to centrally manage SSO access to all of your AWS accounts and cloud applications. 
+
+Pacemaker : serves as a scheduler for the particular activity. 
+
+AWS Opswork : to automate how servers are configured, deployed, and managed across your Amazon instances. 
+
+AWS Identity & Access Management : enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.
+
+RDS and Aurora : It is a highly stable database management system. 
+
+Event Processor : the process of enriching the event with additional data.
+

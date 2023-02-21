@@ -1,5 +1,7 @@
 * General
-** xref:introduction.adoc[Akaun Platform]
-//** xref:aws_partnership.adoc[AWS Partnership]
-//** xref:solution_portfolio.adoc[Solution Portfolio]
-// ** xref:background.adoc[Background]
+** xref:introduction.adoc[Introduction]
+** xref:multi-tenant.adoc[Multi-tenant Architecture]
+** xref:composable-enterprise.adoc[Composable Enterprise]
+** xref:industries.adoc[Industries We Use]
+** xref:solution_portfolio.adoc[Solution Portfolio]
+
