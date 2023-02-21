@@ -4,4 +4,4 @@
 ** xref:composable-enterprise.adoc[Composable Enterprise]
 ** xref:industries.adoc[Industries We Use]
 ** xref:solution_portfolio.adoc[Solution Portfolio]
-
+** xref:applets.adoc[Applets]
