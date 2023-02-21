@@ -1,4 +1,4 @@
-[#h3_inv_item_maintenance_introduction]
+[#h3_inv_item_maintenance_category_groups]
 = 2.2 Category Groups
 
 image::InvItemsCatGroupOverview.png[Overview, align = "center"]

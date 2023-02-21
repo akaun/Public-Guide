@@ -39,17 +39,17 @@ image::InvItemsItemCatEdit.png[Cat Edit, align = "center"]
 
 Here, users are able to view the details of the Category selected. Users are able to update the details by clicking the“Update” button after making any changes, or remove the added category by clicking the “Remove” button
 
-image::InvItemsEditMultiUOMOverview.png[Multi UOM Overview, align = "center"]
+image::InvItemsEditMultiUomOverview.png[Multi UOM Overview, align = "center"]
 
 Certain tabs in this applet such as “Multi Uom” and “Manage Image” can have multiple data. In the “Multi Uom” Tab, the user can add uom by clicking on the “+” button, or edit an existing uom by clicking on the specific row.
 
-image::InvItemsEditMultiUOMCreate.png[Multi UOM Create, align = "center"]
+image::InvItemsEditMultiUomCreate.png[Multi UOM Create, align = "center"]
 
 Users will need to fill in the required fields, then clicking on the “Add” button to finish the addition of the uom.
 
 All the required fields are marked with “*”, indicating that it must be filled in to complete the item creation process.
 
-image::InvItemsEditMultiUOMEdit.png[Multi UOM Edit, align = "center"]
+image::InvItemsEditMultiUomEdit.png[Multi UOM Edit, align = "center"]
 
 User will be able to update the values of any existing uom by clicking on the “Update” button after making any changes, or remove an existing uom by clicking on the “Remove” button
 
