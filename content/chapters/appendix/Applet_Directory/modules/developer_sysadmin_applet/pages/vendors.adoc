@@ -37,19 +37,19 @@ After clicking on an applet row, a side window will appear that has five tabs, t
 
 === 3.3.3 Edit Vendor Applets Client Side permission
 
-image::edit_vendor_applets_edit_client_side_permission.png[Side Permission, align = "center"]
+image::edit_vendor_applets_edit_client_side_pprmission.png[Side Permission, align = "center"]
 
 After clicking on an applet row, a side window will appear that has five tabs, the second tab is the Client Side permission tab. The Client Side permission tab allows you to view and edit the Client Side permissions of an applet. To create a new client-side permission, you can click on the + button. To edit client-side permission, you can click on the row. Also, you can search for specific client-side permission.
 
 ==== 3.3.3.1 Edit Vendor Applets Client Side permission Create
 
-image::edit_vendor_applets_edit_client_side_permission_create.png[Create Side Permission, align = "center"]
+image::edit_vendor_applets_edit_client_side_premission_create.png[Create Side Permission, align = "center"]
 
 After clicking on the + button, a side window will appear to create a new client-side permission by entering a code, name, permission type, status, and description, finally, you can click on the Save button to create the new client-side permission.
 
 ==== 3.3.3.2 Edit Vendor Applets Client Side permission edit
 
-image::edit_vendor_applets_edit_client_side_permission_edit.png[Edit Side Permission, align = "center"]
+image::edit_vendor_applets_edit_client_side_premission_edit.png[Edit Side Permission, align = "center"]
 
 After clicking on a client side permission to edit it, a side window will appear to view the code, permission type, and statute. To edit the Name and the description, then you can click on the Save button to save the change. Also, you can delete a client side permission by clicking on the delete button.
 
@@ -74,54 +74,54 @@ After clicking on a permission template to edit it, a side window will appear to
 
 ===== 3.3.4.2.2 Edit Vendor Applets Client Permission Templates Edit Permission Definitions 
 
-image::image::edit_vendor_applets_edit_permission_templates_edit_permission_definitions.png[Edit Details Permission Definitions, align = "center"]
+image::edit_vendor_applets_edit_permission_templates_edit_permission_definitions.png[Edit Details Permission Definitions, align = "center"]
 
 In the permission definitions, you can see all the permission definitions that have already been added to the permission template. You can delete any permission definitions by clicking on the delete button. You can add new permission definitions by clicking on the + button.
 
 ====== 3.3.4.2.2.1 Edit Vendor Applets Client Permission Templates Edit Permission Definitions Add
 
-image::image::edit_vendor_applets_edit_permission_templates_edit_permission_definitions_add.png[Edit Details Permission Definitions Add, align = "center"]
+image::edit_vendor_applets_edit_permission_templates_edit_permission_definitions_add.png[Edit Details Permission Definitions Add, align = "center"]
 
 After clicking on the permission definitions add button, you can view all the permission definitions to choose from and then click the save button to add.
 
 === 3.3.5 Edit Vendor Applets Pricing
 
-image::image::edit_vendor_applets_edit_pricing.png[Edit Pricing, align = "center"]
+image::edit_vendor_applets_edit_pricing.png[Edit Pricing, align = "center"]
 
 After clicking on an applet row, a side window will appear that has five tabs, the fourth tab is the pricing. The pricing tab allows you to view and edit the pricing of an applet. To create a new pricing, you can click on the + button. To edit pricing, you can click on the row. Also, you can search for specific pricing.
 
 ==== 3.3.5.1 Edit Vendor Applets Pricing Create
 
-image::image::edit_vendor_applets_edit_pricing_create.png[Edit Pricing, align = "center"]
+image::edit_vendor_applets_edit_pricing_create.png[Edit Pricing, align = "center"]
 
 After clicking on the + button to create new pricing, a window will appear on the right side, to enter a name, item code, type, status, template, and store, then clicking on the save button to create new pricing.
 
 ==== 3.3.5.2 Edit Vendor Applets Pricing Edit
 
-image::image::image::edit_vendor_applets_edit_pricing_edit.png[Edit Pricing, align = "center"]
+image::edit_vendor_applets_edit_pricing_edit.png[Edit Pricing, align = "center"]
 
 After clicking on a specific pricing row, you can edit the name, item code, type, status, template, and store, then click on the save button to update the information.
 
 === 3.3.6 Edit Vendor Applets Additional Details
 
-image::image::image::edit_vendor_applets_edit_additional_details.png[Additional Details, align = "center"]
+image::edit_vendor_applets_edit_additional_details.png[Additional Details, align = "center"]
 
 After clicking on an applet row, a side window will appear that has five tabs, the fifth tab is the Additional Details. The Additional Details tab allows you to view the Additional Details of an applet. 
 
 == 3.4 Edit Vendor Login
 
-image::image::image::edit_vendor_login.png[Edit Vendor Login, align = "center"]
+image::edit_vendor_login.png[Edit Vendor Login, align = "center"]
 
 After clicking on an existing vendor, a side window will appear, the third tab in the window is the login tab. In the login tab, you can view the existing login in the list, you can search for a login, and can add a new login by clicking on the + button.
 
 === 3.4.1 Edit Vendor Login Create
 
-image::image::image::image::edit_vendor_login_create.png[Edit Vendor Login Create, align = "center"]
+image::edit_vendor_login_create.png[Edit Vendor Login Create, align = "center"]
 
 After clicking on the + button, you window on the right will appear to create a new login by entering the User email, rank, and status, then click save to create the new login.
 
 === 3.4.2 Edit Vendor Login Edit
 
-image::image::image::image::edit_vendor_login_edit.png[Edit Vendor Login Edit, align = "center"]
+image::edit_vendor_login_edit.png[Edit Vendor Login Edit, align = "center"]
 
 After clicking on the login row, a new window will appear on the right, it will view the user email, and allow you to edit the rank and status, then click the save button to save the changes. Also, you can remove the login from the vendor by clicking on the remove button.

@@ -1,6 +1,6 @@
 * Developer SysAdmin Applet 
 ** xref:introduction.adoc[Introduction]
-** xref:features.aodc[Features]
+** xref:features.adoc[Features]
 ** xref:vendors.adoc[Vendors]
 ** xref:applets.adoc[Applets]
 ** xref:settings.adoc[Settings]

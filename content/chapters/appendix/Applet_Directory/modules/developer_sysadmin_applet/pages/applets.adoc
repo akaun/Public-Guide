@@ -13,7 +13,7 @@ After clicking on the + button, a window will open on the right side of two tabs
 
 == 4.1.1 Applet Create Password Policy
 
-image::applet_create_password_policy.png[Create Applet Password Policy, align = "center"]
+image::applet_create_passpord_policy.png[Create Applet Password Policy, align = "center"]
 
 After clicking on the + button, a window will open on the right side of two tabs, the second tab is the password policy tab, which will allow you to enable a policy with an expiration date.
 
@@ -43,7 +43,7 @@ After clicking on a pricing row, a side window will appear on the right side, to
 
 === 4.2.4 Applet Edit Images
 
-image::applet_edit_image.png[Edit Image, align = "center"]
+image::applet_edit_image_.png[Edit Image, align = "center"]
 
 After clicking on an applet to edit it or view its information, the third tab will open will be the images tab, which will show you the list of the applet images, you can click on image to edit the image, or you can click on the + button to create a new image.
 
@@ -61,7 +61,7 @@ After clicking on an image to edit it, you can either change the image and choos
 
 === 4.2.7 Applet Edit Catalog
 
-image::applet_edit_catalog.png[Edit Catalog, align = "center"]
+image::applet_edit_catalog_.png[Edit Catalog, align = "center"]
 
 In the previous to the last tab, you will find all the catalogs related to the applet and you can search for any specific catalog. 
 
