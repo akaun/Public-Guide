@@ -37,7 +37,7 @@ After clicking on an applet row, a side window will appear that has five tabs, t
 
 === 3.3.3 Edit Vendor Applets Client Side permission
 
-image::edit_vendor_applets_edit_client_side_pprmission.png[Side Permission, align = "center"]
+image::edit_vendor_applets_edit_client_side_premission.png[Side Permission, align = "center"]
 
 After clicking on an applet row, a side window will appear that has five tabs, the second tab is the Client Side permission tab. The Client Side permission tab allows you to view and edit the Client Side permissions of an applet. To create a new client-side permission, you can click on the + button. To edit client-side permission, you can click on the row. Also, you can search for specific client-side permission.
 
