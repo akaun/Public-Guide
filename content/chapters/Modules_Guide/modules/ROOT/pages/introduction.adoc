@@ -1,4 +1,107 @@
 [#h3_module_guide_introduction]
-= Introduction
+= Module Introduction
 
-this is the introduction to module guide.
+== Akaun Platform
+
+Akaun is an operational datalake platform serving as a centralized data hub for all types of business applications. This platform can be used by any industry whether it be Retail, Telecommunication, Hospitality, Beauty and Healthcare, Automotive and Car Workshops, F&B and others. The innovative solution and power of integration makes this platform unique and incomparable. 
+
+Don't use your datalake for BI and reporting only, turn them into a brain that will orchestrate your business for you. A single source of truth, operate your business like an orchestra with power and efficiency.
+
+The Akaun Platform works Online, offline, cross browsers and cross devices. 
+
+A Data Lake Module is a component of a data management system that stores and manages large amounts of unstructured and structured data in its raw, original format. A Data Lake is a centralized repository that allows organizations to store and analyze all types of data, including structured, semi-structured, and unstructured data. 
+
+BigLedger's operational Data Lake is powered on world-class cloud platforms, fully Restful API, Serverless Architecture, Online & Offline Capable, Scalable and Reliable, Extensible and Customizable, ERP, Business Automation, Mobile Application & PWA, E-Commerce, Omnichannel, Big Data, Loyalty Program, BI & Analytics,  and even AI Embedded. 
+
+Our solution portfolio covers over 100 modules (applets), including but not limited to : 
+
+=== Accounting Module
+
+Accounting Module is designed to manage financial data and perform accounting tasks. 
+An accounting module includes several features, such as General Ledger, Accounts Payable and Receivable, Billing and invoicing, Inventory management, Financial reporting and more. These modules are designed to be flexible, customizable, and scalable, so that businesses can tailor them to their specific needs. They help businesses manage their finances efficiently, accurately, and in compliance with relevant regulations and standards.
+
+=== Inventory Module
+
+An Inventory Module helps businesses to manage their inventory levels and control the flow of goods and products. The inventory module typically includes several features, such as Inventory tracking, Stock management, Product information, Warehouse management, Barcode scanning, Reporting and analytics. It helps businesses manage their inventory in a way that maximizes profitability while minimizing the risk of stockouts and overstocking.
+
+=== POS Module
+
+A POS (point of sale) module is a software component that is designed to facilitate the process of conducting transactions between a business and its customers. The POS module is typically used in retail environments, such as stores and restaurants, to process sales transactions and manage inventory. A POS module helps businesses streamline their sales and inventory management processes, reducing the amount of time and effort required to conduct transactions and manage inventory. It also helps businesses track customer behavior and preferences, allowing them to offer targeted promotions and improve customer engagement.
+
+=== Manufacturing Module
+
+A Manufacturing module is designed to help businesses manage their manufacturing processes. The manufacturing module is typically included in enterprise resource planning (ERP) systems or other business management software. A manufacturing module is essential for businesses that produce goods, as it helps them optimize their manufacturing processes, reduce waste, and improve efficiency. It allows businesses to manage their production processes in a way that maximizes profitability while minimizing the risk of overproduction or underproduction.
+
+=== Membership Module
+
+A Membership Module is designed to help organizations manage their membership programs. The membership module is typically included in association management software, club management software, or other business management software. A membership module is essential for organizations that offer membership programs, as it helps them manage their membership programs in a way that maximizes member engagement and retention. It allows organizations to manage their membership programs efficiently, automate administrative tasks, and provide better services to their members.
+
+=== Referral Module
+
+A Referral Module is a software designed to help businesses manage and track their referral programs. Referral programs are marketing programs in which businesses incentivize customers, employees, or partners to refer new customers to the business. A referral module is essential for businesses that rely on word-of-mouth marketing to acquire new customers. It allows businesses to incentivize their customers, employees, or partners to refer new customers, while providing them with a streamlined and easy-to-use platform for managing and tracking referrals. This can help businesses increase their customer acquisition rates, improve customer loyalty, and drive revenue growth.
+
+=== CRM Module
+
+A CRM (customer relationship management) module is designed to help businesses manage their customer interactions and relationships. A CRM module is essential for businesses that want to improve their customer interactions and relationships. It allows businesses to centralize customer data, automate sales and marketing processes, and provide better customer service and support. By using a CRM module, businesses can improve customer satisfaction, increase customer retention, and drive revenue growth.  The CRM system at BigLedger includes Customer Maintenance Applet , Sales Force Automation Applet, Media Library Applet,  Issue Tracker Applet, Unified Contact Center and more..
+
+=== Contact Center Module
+
+A Contact Centre Module is designed to help businesses manage and improve their customer interactions through various communication channels, such as phone, email, chat, and social media. BigLedger Contact Centre Module s a Unified Contact Centre that can easily connect to your ERP,CRM, E-Commerce, and Delivery Apps. UCC also serves as a Conversational Commerce solution given its shopping cart feature. UCC also allows broadcast & Digital Marketing as you can create campaigns and group contacts into multiple dynamic segments. UCC is also integrated with Issue Tracker to track the issues, Media Library to send and receive all sorts of media (text, document, image, audio , video) and CP Commerce.
+By using a contact center module, businesses can improve customer satisfaction, increase customer retention, and drive revenue growth. 
+
+=== Digital Marketing Module
+
+Digital Marketing Module lets you create your campaigns, segment your audience and target your existing and new customers. A digital marketing solution can be tailored to meet the specific needs of a business, and can include a range of tactics and tools designed to achieve specific marketing objectives, such as increasing brand awareness, generating leads, boosting website traffic, increasing sales, and improving customer retention. 
+
+=== Logistic Module
+
+A Logistics module is used to manage the logistics and supply chain operations of a business, integrating various business functions into a single platform. Logistics modules can be customized to meet the specific needs of a business and can integrate with other software solutions to streamline supply chain operations and improve overall efficiency.
+
+=== Marketplace Connector Module
+
+A Marketplace Connector Module is a software module that enables businesses to connect their e-commerce platform with one or more online marketplaces, such as Lazada, Shopee, Zalora and others. It provides an automated and seamless integration between the business's e-commerce platform and the marketplace(s), allowing them to synchronize product information, inventory levels, and orders in real-time. A Marketplace Connector module can help businesses to streamline their e-commerce operations, reduce manual work, and improve their online sales and customer experience.
+
+=== Delivery Module
+
+The Delivery & Installation module is not only able to manage its own drivers but is also able to connect to third-party logistics providers. Users are able to observe all the
+created trips in one centralized trip calendar, which helps keep track of upcoming deliveries and shipments. The system is able to support the logistics industry workflow to move goods from one place to another that can be catered to the users needs.
+
+=== CP-Commerce Module
+
+CP-Commerce Module is a cross platform ecommerce solution that offers products and services online and helps the businesses to establish a strong online presence in order to grow their businesses. BigLedger has a scalable cross platform CP-Commerce module which has a centralized data management system. Users can set up powerful ecommerce websites which can be integrated with the other businesses systems they use. The module is integrated with the Voucher Management system to reward the customers, Membership Solution, POS Solutions, Inventory Management System, MLM system and others. 
+
+=== Procure To Pay Module
+
+Procure-to-pay (P2P) is a business process that covers the purchasing of goods and services from suppliers, and the subsequent payment for those goods and services. A P2P solution is a software application that automates and streamlines the end-to-end procurement process, from the creation of purchase orders and requisitions, to the approval and fulfillment of those orders, to the invoicing and payment of suppliers.
+P2P solutions typically integrate with an organization's enterprise resource planning (ERP) system and other financial systems to ensure accurate tracking of spending and financial data. The solution typically includes modules for catalog management, supplier management, requisitioning, purchase order creation and management, invoice processing and approval, and payment processing.
+
+=== HR Module
+
+An HR module is a component of an HR management system (HRMS) or human resources information system (HRIS) that focuses on managing and automating HR-related tasks and processes. The HR module includes features such as employee management, time and attendance tracking, benefits administration, payroll management, and performance management.
+
+=== Order To Cash Module
+
+Order to cash (O2C) is a business process that involves the steps required to receive and fulfill customer orders and receive payment for those orders. The Order to Cash module is a software application that automates and streamlines this end-to-end process, from the creation of customer orders, to the delivery and invoicing of goods or services, to the receipt of payment. The O2C module includes modules for order management, inventory management, shipping and logistics management, invoicing, and payment processing. It may also include features such as pricing management, credit management, and returns management. The O2C module helps organizations to streamline and automate the process of fulfilling customer orders, improve customer satisfaction by ensuring accurate and timely delivery of goods or services, and improve financial performance by reducing payment processing time and improving cash flow.
+
+=== Warehouse Management Module
+
+A Warehouse Management Module is a component of a warehouse management system (WMS) that is designed to optimize the management of a warehouse's operations and inventory. The module typically provides real-time information about inventory levels, stock locations, and inbound and outbound movements of goods.The Warehouse Management Module includes features such as inventory management, order fulfillment, receiving and putaway, picking and packing, and shipping. It may also include features such as barcode scanning, automated data capture, and wireless communications to improve accuracy and efficiency in the warehouse.
+
+=== Customer Data Platform Module
+
+A Customer Data Platform (CDP) is a type of software that collects and integrates customer data from various sources to create a unified and persistent view of the customer. A CDP module is a component of a CDP that focuses on managing and analyzing customer data. The Customer Data Platform Module includes features such as data integration, data cleansing and enrichment, data segmentation and analysis, and data visualization. It may also include features such as data privacy and security, and customer engagement management.
+
+=== Payment Switch Module
+
+A Payment Switch Module is a component of a payment processing system that facilitates the routing of electronic payments between different parties. It acts as a bridge between the merchant, the customer, and the bank to ensure that payments are processed securely and efficiently. The Payment Switch Module typically includes features such as transaction routing, fraud detection, authorization and settlement, and reconciliation. It may also include features such as reporting and analytics, compliance and regulation, and payment gateway integration.
+
+=== Chatbot Module
+
+A Chatbot Module is a component of a chatbot platform that enables the creation and management of chatbots for businesses to engage with customers and automate certain tasks. Chatbots are computer programs that use artificial intelligence and natural language processing to simulate human conversation with users. The Chatbot Module typically includes features such as dialog flow management, natural language processing, intent recognition, and context management. It may also include features such as integration with messaging platforms, analytics and reporting, and machine learning capabilities.
+
+
+
+
+
+
+

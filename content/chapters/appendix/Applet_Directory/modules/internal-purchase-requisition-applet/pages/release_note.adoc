@@ -1,6 +1,0 @@
-[#h3_internal-purchase-requisition-applet_release_note]
-=  Release Note
-
-
-
-

@@ -1,0 +1,28 @@
+[#h3_inv_item_maintenance_category_groups]
+= 2.2 Category Groups
+
+image::InvItemsCatGroupOverview.png[Overview, align = "center"]
+
+By clicking on the category groups icon from the sidebar users will land on the Category Groups Listing page, users are able to create a new category group by clicking on the “+” button, or edit an existing item by clicking on the specific row.
+
+== 2.2.1 Creating Category Groups
+
+image::InvItemsCatGroupCreate.png[Cat Group Create, align = "center"]
+
+After clicking on the “+” button, the user will need to fill in the details under the Main tab, and by clicking on the “CREATE” button will finish the creation process.
+
+The created category groups will automatically group the inventory items based on the category type set in categories.
+
+== 2.2.2 Editing Category Groups
+
+image::InvItemsCatGroupEditMain.png[Cat Group Edit Main, align = "center"]
+
+After clicking on the desired item row, the user will initiate the edit sequence. Here, different details of the category groups are displayed according to the tabs. Users by default will land on the “Main” tab. 
+
+Here, the user can either edit the fields and click “Update” to save the changes, or remove the category selected category group by clicking on the “Remove” button.
+
+image::InvItemsCatGroupEditCategories.png[Cat Group Edit Categories, align = "center"]
+
+In the Categories tab, the categories that belong to the same category group selected will be displayed. However, no modification on the categories will be allowed, as this could be made by going to the categories section.
+
+This is to ensure the integrity of the data.

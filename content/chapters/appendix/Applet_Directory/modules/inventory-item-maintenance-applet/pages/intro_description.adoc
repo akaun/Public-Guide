@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+This applet is used to manage inventory items, users are able to create categories, and group the items according to the category and as well as the category groups. This will decrease the time needed for maintenance, improving the efficiency.

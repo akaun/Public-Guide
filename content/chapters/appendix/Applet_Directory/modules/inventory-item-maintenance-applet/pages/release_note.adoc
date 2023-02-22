@@ -1,6 +1,0 @@
-[#h3_inv_item_maintenance_release_note]
-= Release Note
-
-
-
-

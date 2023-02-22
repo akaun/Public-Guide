@@ -1,0 +1,261 @@
+[#h3_internal-sales-credit-note-applet_customer]
+= 4.0 Customer
+
+== 4.1 Create Customer
+
+Users are required to fill in all the compulsory fields such as:
+
+a. Customer Name
+b. Customer Code
+c. Status
+d. Entity Type (INDIVIDUAL or CORPORATE)
+e. Currency 
+f. GL Code
+
+The optional fields for the entity type of:
+
+a. INDIVIDUAL - Identity Type, ID Number, Gender, Tax Registration Number, and Description
+b. CORPORATE - Company Registration Number, Company Tax Registration Number, and Description
+
+New customer can be created once all the compulsory fields are filled and the ‘CREATE’ button is clicked.
+
+image::CreateCustomer.png[Create Customer, align = "center"]
+
+== 4.2 Customer Edit
+
+=== 4.2.1 Main Tab
+
+Please fill up the compulsory (*) information for creating the customer. After filling up the compulsory information, please click Create to add a new customer. There are 9 components which allow the user to make changes respectively:
+
+a. Customer Name
+b. Customer Code
+c. Status
+d. Entity Type
+e. ID Number
+f. Tax Registration Number
+g. Currency
+h. Description
+i. GL Code
+
+Users can remove the selected customer by clicking on the ‘REMOVE’ button.
+
+image::CustomerEdit-Main-1.png[Main, align = "center"]
+
+image::CustomerEdit-Main-2.png[Main 2, align = "center"]
+
+=== 4.2.2 Customer Category Tab
+
+A list of customer category assigned to the selected customer can be viewed in this tab along with the information like:
+
+a. Category Code
+b. Category Name
+c. Level Value
+d. Status
+
+Users can add a new category by clicking on the ‘+’ button which will open Category Add page on the right side.
+
+After that, users can add one or more categories by selecting the categories from the listing and then clicking on the ‘ADD’ button.
+
+image::CustomerEdit-CustomerCategory.png[Customer Category, align = "center"]
+
+image::CustomerEdit-CustomerCategory-CategoryAdd.png[Add Category, align = "center"]
+
+=== 4.2.3 Login Tab
+
+A list of logins can be viewed in this tab and Login Create page will be opened on the right side when the ‘+’ button is clicked.
+
+In the Login Create page, all fields are compulsory to be filled and a verification email will be sent to the email address filled in the User email field after clicking on the ‘Verify Email’ button.
+
+image::CustomerEdit-Login.png[Login, align = "center"]
+
+image::CustomerEdit-Login-LoginCreate.png[Create Login, align = "center"]
+
+=== 4.2.4 Payment Config Tab
+
+A list of payment config can be viewed in this tab with the information like:
+
+a. Country
+b. Payee Resident Status
+c. Payment Type
+d. Bank
+e. Bank Identifier Code
+f. Bank Acc. No.
+g. Bank Acc. Holder Name
+h. IBN No.
+
+Payment Config Create page will be opened on the right side once the ‘+’ button is clicked.
+
+Users are required to fill in all the compulsory fields to complete the creation process. After filling up the compulsory information, please click the ‘Add’ button to add a new payment config.
+
+Compulsory Information:
+
+a. Payee Residential Status (Only have Resident or Non-Resident)
+b. Payment Type (Can add new Payment Type in Cashbook Applet)
+c. Country
+d. Other fields are optional
+
+image::CustomerEdit-PaymentConfig.png[Payment Config, align = "center"]
+
+image::CustomerEdit-PaymentConfig-PaymentConfigCreate.png[Create Payment Config, align = "center"]
+
+=== 4.2.5 Tax Tab
+
+A list of tax can be viewed in this tab.
+
+Tax Create page will be opened on the right side once the ‘+’ button is clicked.
+
+Users are required to fill in all the compulsory fields to complete the creation process. After filling up the compulsory information, please click the ‘Add’ button to add a new tax.
+
+Compulsory Information:
+
+a. Country
+b. Tax Type-Show based on the Country selected
+c. Tax Code-Show based on the Tax Type selected
+d. Tax Rate-Auto show based on the Tax Code selected
+e. Tax Option-Have Include Tax and Exclude Tax Options
+
+image::CustomerEdit-Tax.png[Edit Tax, align = "center"]
+
+image::CustomerEdit-Tax-TaxCreate.png[Create Tax, align = "center"]
+
+=== 4.2.6 Address Tab
+
+A list of addresses can be viewed in this tab.
+
+Address Create page will be opened on the right side once the ‘+’ button is clicked.
+
+Users are required to fill in all the compulsory fields to complete the creation process. After filling up the compulsory information, please click the ‘Add’ button to add a new address.
+
+Compulsory Information:
+a. Address Name
+b. Address Type
+c. Address Line 1
+d. Address Line 2
+e. Address Line 3
+f. Address Line 4
+g. Address Line 5
+h. Country
+i. State
+j. City
+k. Postcode
+
+Users can tick on ‘Set as default’ for future default use.
+
+image::CustomerEdit-Address.png[Address, align = "center"]
+
+image::CustomerEdit-Address-AddressCreate.png[Create Address, align = "center"]
+
+=== 4.2.7 Contact Tab
+
+A list of contact can be viewed in this tab.
+
+Contact Create page will be opened on the right side once the ‘+’ button is clicked.
+
+Users are required to fill in all the compulsory fields to complete the creation process. After filling up the compulsory information, please click the ‘Add’ button to add a new contact.
+
+Compulsory Information:
+a. Contact Name
+b. Contact ID
+c. Designation/Position
+d. Office No
+e. Extension No
+f. Mobile No
+g. Fax No
+h. Phone Number
+i. Email
+j. Other No
+
+image::CustomerEdit-Contact.png[Contact, align = "center"]
+
+image::CustomerEdit-Contact-ContactCreate.png[Create Contact, align = "center"]
+
+=== 4.2.8 Branch Tab
+
+A list of branches can be viewed in this tab.
+
+Select Branch page will be opened on the right side once the ‘+’ button is clicked.
+
+Users can select the branch and then click the ‘Add’ button to add the branch.
+
+image::CustomerEdit-Branch.png[Branch, align = "center"]
+
+image::CustomerEdit-Branch-SelectBranch.png[Select Branch, align = "center"]
+
+=== 4.2.9 Item Pricing Tab
+
+A list of item pricing can be viewed in this page.
+
+image::CustomerEdit-ItemPricing.png[Item Pricing, align = "center"]
+
+=== 4.2.10 Remark Tab
+
+Users can type in their remark and then click the ‘Save’ button to save the changes.
+
+image::CustomerEdit-Remark.png[Remark, align = "center"]
+
+=== 4.2.11 Credit Term and Limit Tab
+
+==== 4.2.11.1 Credit Term Tab
+
+A list of credit terms can be viewed in this tab.
+
+Credit Term Create page will be opened on the right side once the ‘+’ button is clicked.
+
+image::CustomerEdit-CreditTermAndLimit-CreditTerm.png[Credit Term, align = "center"]
+
+===== 4.2.11.1.1 New Credit Term
+
+
+Users are required to fill in all the compulsory fields to complete the creation process. After filling up the compulsory information, please click the ‘Add’ button to add a new contact.
+
+Compulsory Information:
+
+a. Credit Term Code
+b. Credit Term Name
+c. Status
+d. Set Year
+e. Set Month
+f. Set Day
+g. Add Year
+h. Add Month
+i. Add Day
+
+image::CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-NewCreditTerm.png[New Credit Term, align = "center"]
+
+===== 4.2.11.1.2 Existing Credit Term
+
+Users are only needed to select the existing credit term.
+
+image::CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-ExistingCreditTerm.png[Existing Credit Term, align = "center"]
+
+==== 4.2.11.2 Credit Limit Tab
+
+A list of credit limits can be viewed in this tab.
+
+Credit Limit Create page will be opened on the right side once the ‘+’ button is clicked.
+
+image::CustomerEdit-CreditTermAndLimit-CreditLimit.png[Credit Limit, align = "center"]
+
+===== 4.2.11.2.1 New Credit Limit
+
+Users are required to fill in all the compulsory fields to complete the creation process. After filling up the compulsory information, please click the ‘Add’ button to add a new contact.
+
+Compulsory Information:
+
+a. Credit Term Code
+b. Credit Term Name
+c. Status
+d. Currency
+e. Credit Limit Amount
+
+image::CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-NewCreditLimit.png[New Credit Limit, align = "center"]
+
+===== 4.2.11.2.2 Existing Credit Limit
+
+Users are only needed to select the existing credit limit.
+
+image::CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-ExistingCreditLimit.png[Existing Credit Limit, align = "center"]
+
+
+
+

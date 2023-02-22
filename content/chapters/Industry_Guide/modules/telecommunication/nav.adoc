@@ -1,0 +1,5 @@
+* Telecommunication Industry
+** xref:overview.adoc[Overview]
+//** xref:solutions.adoc[Solutions]
+//** xref:stories.adoc[Stories]
+//** xref:faqs.adoc[FAQs]

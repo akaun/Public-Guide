@@ -6,6 +6,7 @@ nav:
 - modules/applet-listing/nav.adoc
 - modules/applet-store/nav.adoc
 - modules/bank-reconciliation-applet/nav.adoc
+- modules/blanket-purchase-order-applet/nav.adoc
 - modules/cashbook-applet/nav.adoc
 - modules/chart-of-account-applet/nav.adoc
 - modules/cp-commerce-admin-applet/nav.adoc
@@ -56,3 +57,7 @@ nav:
 - modules/ledger-and-journal-applet/nav.adoc
 - modules/financial-report-applet/nav.adoc
 - modules/internal-purchase-order-applet/nav.adoc
+- modules/internal-purchase-requisition-applet/nav.adoc
+- modules/shipping-pricebook-applet/nav.adoc
+- modules/internal-sales-credit-note-applet/nav.adoc
+- modules/developer_sysadmin_applet/nav.adoc

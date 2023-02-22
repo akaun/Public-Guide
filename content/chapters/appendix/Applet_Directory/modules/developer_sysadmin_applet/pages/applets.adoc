@@ -1,0 +1,72 @@
+[#h3_developer_sysadmin_applet_applets]
+= 4.0 Applets
+
+image::applet.png[Applet, align = "center"]
+
+If you click on the Applet tab in the left menu, you can view all the applets, add a new applet by clicking on the + button, edit an existing applet by clicking on the applet you want to edit, and you can search for an applet using the type, status, vendor, creation date, modified date.
+
+== 4.1. Applet Create Details
+
+image::applet_create.png[Create Applet, align = "center"]
+
+After clicking on the + button, a window will open on the right side of two tabs, the first tab is the details tab, which will allow you to create an applet by entering the applet name, applet code (must be unique), vendor, store, type, status, router link, applet URL, custom element tag, and to check if only members of the applet will be able to add this applet to a catalog, and then click on the save button.
+
+== 4.1.1 Applet Create Password Policy
+
+image::applet_create_passpord_policy.png[Create Applet Password Policy, align = "center"]
+
+After clicking on the + button, a window will open on the right side of two tabs, the second tab is the password policy tab, which will allow you to enable a policy with an expiration date.
+
+== 4.2 Applet Edit Details
+
+image::applet_edit_details.png[Edit Applet Details, align = "center"]
+
+After clicking on an applet to edit it or view its information, the first tab will open will be the details tab, which allow you to view/edit the Applet Name, Applet Code, Vendor, Store, Type, Status, Router Link, Applet URL, Custom Element Tag, and to check if only members of the applet will be able to add this applet to a catalog, and to view the created by, updated by, created date, and updated date, then if you would like to save any chagnes you can click on the Save button. Also, you can delete the applet by clicking on the Delete button.
+
+=== 4.2.1 Applet Edit Pricing
+
+image::applet_edit_pricing.png[Edit Applet Pricing, align = "center"]
+
+After clicking on an applet to edit it or view its information, the second tab will open will be the pricing tab, which will show you the list of the applet pricings. You can click on pricing to edit the pricing, or you can click on the + button to create new pricing.
+
+=== 4.2.2 Applet Edit Pricing Create
+
+image::applet_edit_pricing_create.png[Edit Applet Pricing Create, align = "center"]
+
+After clicking on the + button to create new pricing for the applet, a sided window on the right will appear, to choose the country, currency, and edit the pricing table (pricing schema, one-time fee, the price for the month, price per year, and status), then click on the Save button.
+
+=== 4.2.3 Applet Edit Pricing Edit
+
+image::applet_edit_pricing_edit.png[Edit Applet Pricing Edit, align = "center"]
+
+After clicking on a pricing row, a side window will appear on the right side, to edit the country, currency, and edit the pricing table (pricing schema, one-time fee, the price for the month, price per year, and status), then click on the Save button to save the changes.
+
+=== 4.2.4 Applet Edit Images
+
+image::applet_edit_image_.png[Edit Image, align = "center"]
+
+After clicking on an applet to edit it or view its information, the third tab will open will be the images tab, which will show you the list of the applet images, you can click on image to edit the image, or you can click on the + button to create a new image.
+
+=== 4.2.5 Applet Edit Images Create
+
+image::applet_edit_image_create.png[Edit Image Create, align = "center"]
+
+After clicking on the + button a side window will appear to add a new image by uploading the image and choosing the image type, then clicking the Add button.
+
+=== 4.2.6 Applet Edit Images Edit
+
+image::applet_edit_image_edit.png[Edit Image Edit, align = "center"]
+
+After clicking on an image to edit it, you can either change the image and choose another image by clicking on the image, then click save to save the changes, or you can delete the image by clicking on the delete button.
+
+=== 4.2.7 Applet Edit Catalog
+
+image::applet_edit_catalog_.png[Edit Catalog, align = "center"]
+
+In the previous to the last tab, you will find all the catalogs related to the applet and you can search for any specific catalog. 
+
+=== Applet Edit Password Policy
+
+image::applet_edit_password_policy.png[Edit Password Policy, align = "center"]
+
+In the last tab in the applet edit, you will find the password policy, you can either enable the password policy and set the expiration days, or disable the password policy.

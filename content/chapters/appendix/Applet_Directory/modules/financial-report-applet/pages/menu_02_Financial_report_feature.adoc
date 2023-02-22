@@ -1,4 +1,4 @@
-[#h3_financial_report_applet_feature]
+[#h3_financial_report_applet_financial_report]
 =  Menu 03 - Financial Report Features
 
 

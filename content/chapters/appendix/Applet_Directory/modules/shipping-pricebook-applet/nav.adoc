@@ -1,0 +1,5 @@
+* Shipping Pricebook Applet
+** xref:introduction.adoc[Introduction]
+** xref:shipping-pricebook.adoc[Shipping Pricebook]
+** xref:shipping-priceset.adoc[Shipping Priceset]
+** xref:shipping-priceset-rules.adoc[Shipping Priceset Rules]

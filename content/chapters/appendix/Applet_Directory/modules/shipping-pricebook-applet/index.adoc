@@ -1,0 +1,18 @@
+[#h2_shipping_pricebook_index]
+= Shipping Pricebook Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/shipping-pricebook.adoc[leveloffset=3]
+
+include::pages/shipping-priceset.adoc[leveloffset=3]
+
+include::pages/shipping-priceset-rules.adoc[leveloffset=3]
+
+
+
+
+
+
+
+

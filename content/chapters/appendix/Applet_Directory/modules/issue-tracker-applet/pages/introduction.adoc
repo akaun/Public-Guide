@@ -3,7 +3,7 @@
 
 == *1 Introduction* 
 
-image:icon.png[image,width=200,height=250]
+image::icon.png[Icon, align = "center"]
 
 The IssueTracker applet is designed for the company to make the issue
 assignment progress easier and more manageable. The user can assign many
@@ -12,7 +12,7 @@ process on track.
 
 == *2 Features*
 
-image:features_ menu.png[image,width=176,height=487]
+image::features_ menu.png[Features Menu, align = "center"]
 
 _Features Menu_
 

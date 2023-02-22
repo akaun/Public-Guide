@@ -1,0 +1,16 @@
+[#h3_blanket-purchase-order_report_listing]
+= 3.0 Blanket Purchase Order Report Listing
+
+image::BlanketPurchaseOrderReportListing.png[Blanket Purchase Order Report Listing, align = "center"]
+
+The Blanket Purchase Order Report listing page outlines the details regarding the blanket purchase order reports. The listing includes:
+
+a. BPO No
+b. Created Date
+c. Created By 
+d. Company
+e. Supplier Name
+f. Amount
+g. Status
+
+

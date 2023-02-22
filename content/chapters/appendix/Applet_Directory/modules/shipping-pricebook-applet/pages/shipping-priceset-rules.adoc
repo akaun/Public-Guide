@@ -1,0 +1,168 @@
+[#h3_shipping_pricebook_priceset_rules]
+= 4.0 Shipping Priceset Rules
+
+== 4.1 Rules - Doc Hdr
+
+Doc-Hdr Rules are the rules that you apply on the Header. When you put items in the shopping cart, you have a Header which means that you are buying on a certain month on a certain date, and you also have many lines which are products (product A, 1st line , product B 2nd  line and so on)
+
+image::13-EditShippingPriceset-RulesDocHdr.png[Rules Doc Hdr, align = "center"]
+
+Next, under the Rules - Doc Hdr tab, users can set the rule at document level for the particular priceset that is created. Under this tab, users need to fill up information for the rules, which include:
+
+a. Rules Logic: The logic of combining the rules condition. The options include “And” or “Or”.
+b. Negation Logic: The condition if the rules are negated. The options include “Able” or “Disable”.
+
+=== 4.1.1 Create Rules - Doc Hdr
+
+In order to create a new role for the priceset, users have to click on the “+” button in the Rules - Doc Hdr page. By doing that, the Add Rule page will appear from the right.
+
+image::14-RulesDocHdr-AddRule-ValidDateRange.png[Add Rules, align = "center" ]
+
+In the Add - Rule page, users have to fill up the rule information for the rule they want to create for a particular priceset. The information includes:
+
+a. Rule Type: The type of the rule. The options from the drop down feature include Valid Date Range, Entity Type, Member Class, etc.
+b. Rule Name: The name of the rule.
+c. Negation Logic: The condition if the rule is negated.
+For instance, if the selected Rule Type is “Valid Date Range”, users have to proceed to fill up more information for this rule type. The information includes:
+d. Types of period: The options include Relative Period and Absolute Period.
+e. Absolute Period From: The date in which the rule starts.
+f. Absolute Period To: The date in which the rule ends.
+
+After filling up all the information, users have to click on the “Create” button to create the rule.
+
+image::15-RulesDocHdr-AddedRule.png[Added Rule, align = "center"]
+
+The created rule will appear as a new row in the Rules - Doc Hdr page. Users then click on the “SAVE” button on top right to save all the changes.
+
+=== 4.1.2 Update or Delete the Rules Hdr
+
+image::16-RulesDocHdr-EditRule.png[Edit Delete Rule, align = "center"]
+
+In order to edit a rule for shipping priceset, users have to first click on the particular rule record in the Edit Shipping Priceset page. By doing that, the Edit Rule page will appear from the right. Users can edit all the rule information (rule name, negotiation logic) except the rule type. After editing the information, users can click on the “Save” button to save all the changes.
+
+On the other hand, users can click on the “Delete” button to delete the particular rule record for the priceset.
+
+== 4.2  Rules - Multi Line
+
+Rules - Multi  lines  are the rules that apply to multiple lines, this can be used when there are multiple items that have the same pricing or same shipping fee.
+
+image::17-RulesMultiLine-RuleListing.png[Listing Page, align = "center"]
+
+Under the Rules - Multi Line tab, users can set the rules at multi-line level (based on item) for a particular shipping priceset. In other words, the rule logic will include multiple items in a generic document. The information that should be provided by the users includes:
+
+a. Rules Logic: The logic of the rule. The options from the drop down feature include “And” or “Or”. This specifies if all the rules must be met (And) or any one of the rules has to be met (Or).
+b. Negation Logic: The condition if the rule is negated. The options from the drop down feature include “Able” or “Disabled”.
+
+=== 4.2.1 Create Rules - Multi Line
+
+image::18-RulesMultiLine-AddRule.png[Add Rule, align = "center"]
+
+In order to create a new multi line rule for the particular priceset, users have to click on the “+” button under the Rules - Multi Line tab in the Edit Shipping Priceset page. By doing that, the Add Rule page will appear from the right.
+
+In the Add Rule page, users have to provide information for the rule to be created. The information to be filled up by the users includes:
+
+a. Rule Type: The type of the rule at line level (relates to item), such as “Item Category”, 
+b. Rule Name: The name of the rule.
+c. Negation Logic: The logic of the negation. The options can be “Able” or “Disabled”.
+d. Min Quantity: Minimum quantity of items.
+e. Min Amount: Minimum purchase monetary amount.
+f. Weight (KG): Weight range.
+g. Volumetric Weight: Weight range in terms of volume.
+
+==== A. Create Item Category
+
+Users then click on the “+” button to select the item category to be applied for this priceset. 
+
+image::19-RulesMultiLine-AddCategory.png[Add Category, align = "center"]
+
+By doing that, the Add Category page will appear from the right. The Add Category page shows a list of available category codes and names that can be added to the created rule. Users can tick one or more categories to be added to the rule in the Add Category page. Then, users click on the “Add” button to save all the changes.
+
+image::20-RulesMultiLine-CreatedItemCategories.png[Created Category, align = "center"]
+
+After that, the created item categories will be listed in the table under the Edit Rule page.
+
+==== B. Delete Item Category
+
+image::21-RulesMultiLine-DeleteItemCategory.png[Delete Item Category, align = "center"]
+
+In order to delete an item category, users have to click on the particular item category in the Edit Rule page. By doing that, the View Category page will appear from the right. This page shows the name and code of the item category. Users are not allowed to edit the information of the category. However, users can click on the “Delete” button to delete the category.
+
+After filling up all the rule information, users click on the “Create” button to create the rule line record. The new multi line rule record will be shown at the table under the Rules - Multi Line tab in the Edit Shipping Priceset page.
+
+=== 4.2.2 Update or Delete the Multi Line record
+
+image::22-RulesMultiLine-EditDeleteRule.png[Edit Delete Rule, align = "center"]
+
+In order to edit the multi line rule for shipping priceset, users have to first click on the particular rule record under the Rules - Multi Line tab in the Edit Shipping Priceset page. By doing that, the Edit Rule page will appear from the right. Users can edit all the rule information (rule type, rule name, negotiation logic, min quantity, min amount, weight, volumetric weight, divisor) except the rule type. After editing the information, users can click on the “Save” button to save all the changes.
+
+On the other hand, users can click on the “Delete” button to delete the particular rule record for the priceset.
+
+== 4.3 Rules - Single Line
+
+Rules - Single Line are the rules which are applied on each line separately and independently. The reason behind applying this rule separately is that certain items can have a shipping fee but certain items might not have any shipping fee.
+
+=== 4.3.1 Create Rules - Single Line
+
+image::23-RulesSingleLine-ListingPage.png[Listing Page, align = "center"]
+
+Under the Rules - Single Line tab, users can set the rules at single-line level (based on item) for a particular shipping priceset.  In other words, the rule logic will include only a single item in the generic document. For instance, the rule that is based on item code. The information that should be provided by the users includes:
+
+a. Rules Logic: The logic of the rule. The options from the drop down feature include “And” or “Or”. This specifies if all the rules must be met (And) or any rule has to be met (Or). 
+b. Negation Logic: The condition if the rule is negated. The options from the drop down feature include “Able” or “Disabled”.
+
+image::24-RulesSingleLine-AddRule.png[Add Rule, align = "center"]
+
+
+In order to create a new multi line rule for the particular priceset priceset, users have to click on the “+” button under the Rules - Single Line tab in the Edit Shipping Priceset page. By doing that, the Add Rule page will appear from the right.
+
+In the Add Rule page, users have to provide information for the rule to be created. The information to be filled up by the users includes:
+
+a. Rule Type: The type of the rule at line level (relates to item), such as “Item Category”, 
+b. Rule Name: The name of the rule.
+c. Negation Logic: The logic of the negation. The options can be “Able” or “Disabled”.
+d. Min Quantity: Minimum quantity of items.
+e. Min Amount: Minimum purchase monetary amount.
+f. Weight (KG): Weight range.
+g. Volumetric Weight: Weight range in terms of volume.
+
+Fields with “ * “ signs are compulsory to be filled. 
+
+Users then click on the “+” button to select the item category to be applied for this priceset. 
+
+==== A. Add Item Category
+
+image::25-RulesSingleLine-AddItemCategory.png[Add Item Category, align = "center"]
+
+By clicking on the “ + “ sign, the Add Category page will appear from the right. The Add Category page shows a list of available category codes and names that can be added to the created rule. Users can tick one or more categories to be added to the rule in the Add Category page. Then, users click on the “Add” button to save all the changes. 
+After that, the created item categories will be listed in the table under the Edit Rule page.
+
+After that, users click on the “Create” button to create the rule line record. The multi line rule record will be shown at the table under the Rules - Single Line tab in the Edit Shipping Priceset page.
+
+==== B. Delete Item Category
+
+image::26-RulesSingleLine-DeleteItemCategory.png[Delete Category, align = "center"]
+
+In order to delete an item category, users have to click on the particular item category in the Edit Rule page. By doing that, the View Category page will appear from the right. This page shows the name and code of the item category. Users are not allowed to edit the information of the category. However, users can click on the “Delete” button on the very bottom to delete the category.
+
+=== 4.3.2 Update or Delete the Single Line record
+
+image::27-RulesSingleLine-EditRule.png[Edit Rule, align = "center"]
+
+In order to edit the single line rule for shipping priceset, users have to first click on the particular rule record under the Rules - Single Line tab in the Edit Shipping Priceset page. By doing that, the Edit Rule page will appear from the right. Users can edit all the rule information except the rule type. After editing the information, users can click on the “Save” button to save all the changes.
+
+On the other hand, users can click on the “Delete” button to delete the particular rule record for the priceset.
+
+== 4.4 Treatment
+
+image::28-Treatment-CreateTreatment.png[Create Treatment, align = "center"]
+
+Next, under the Treatment tab, users can specify the handling of standard shipping fees, handling fees and fuel surcharge on the products. Each of these fees is calculated by applying the operator on the price source with a specified value.
+
+Firstly, users can tick on the type of fees to be applied onto the priceset. Then, users have to specify the information of the fees as below:
+
+a. Price Source: The source of the price in which the fee is applied to. The options can be”Base Quantity”, “Standard Amount”, “Price Unit Cost”, “Net Amount” and “Transaction Amount”.
+b. Operator: The logic of the calculation. The options can be “Multiply”, “Absolute”, “Subtract” and “Add”. 
+Value: The value to be applied on the price source.
+
+Users can then click on the “save” button on top right to save the changes. 
+

@@ -1,0 +1,127 @@
+[#h3_developer_sysadmin_applet_vendors]
+= 3.0 Vendors
+
+image::vendor.png[Vendor, align = "center"]
+
+If you click on the Vendor tab in the left menu, you can view all the vendors, add a new vendor by clicking on the + button, edit an existing vendor by clicking on the vendor you want to edit, and you can search for a vendor using the creation or modification date. 
+
+== 3.1 Vendors Create
+
+image::create_vendor.png[Create Vendor, align = "center"]
+
+After clicking on the + button on the Vendor tab, a side tab will appear to create a new vendor, you must enter Vendor Account Code and Vendor Name, and it is optional to enter a description. As mentioned in the applet, The vendor code cannot be changed in the future and it must be unique.
+
+== 3.2 Edit Vendor Details
+
+image::edit_vendor_details.png[Edit Vendor Details, align = "center"]
+
+After clicking on an existing vendor, a side window will appear, the first tab in the window is the Details tab. In the details tab, you can edit the Vendor Name and the Description, and then click the save button to save the changes. You can upload a logo, and you can view the Vendor Account Code, Created By whom, Created Date, and Modified Date. 
+
+== 3.3 Edit Vendor Applets
+
+image::edit_vendor_applets.png[Edit Vendor Applets, align = "center"]
+
+After clicking on an existing vendor, a side window will appear, the second tab in the window is the Applets tab. In the applets tab, you can view the existing applets in the list, you can search for an applet by the type, status, router link, and applet URL, and you can add a new applet by clicking on the + button.
+
+=== 3.3.1 Edit Vendor Applets Create
+
+image::edit_vendor_applets_create.png[Edit Vendor Applets Create, aign = "center"]
+
+After clicking on the + button on the Edit Vendor Applets tab, another window will appear to create a new applet by entering the Applet Name, Applet Code (must be unique), choosing the store, the type, and the status, entering the Router Link, Applet URL, and the Custom Element Tag, lastly you can check the checkbox if you would like to only members of the applet will be able to add this applet to a catalog.
+
+=== 3.3.2 Edit Vendor Applets Edit Details
+
+image::edit_vendor_applets_edit_details.png[Edit Details, align = "center"]
+
+After clicking on an applet row, a side window will appear that has five tabs, the first tab is the details tab. The details tab allows you to view and edit the details of an applet, such as the applet name, applet code, store, type, status, router link, applet URL, custom element tag, create date, update date, created by, updated by, lastly to check If only members of the applet will be able to add this applet to a catalog. After editing, you can click the Save button to save all the changes.
+
+=== 3.3.3 Edit Vendor Applets Client Side permission
+
+image::edit_vendor_applets_edit_client_side_premission.png[Side Permission, align = "center"]
+
+After clicking on an applet row, a side window will appear that has five tabs, the second tab is the Client Side permission tab. The Client Side permission tab allows you to view and edit the Client Side permissions of an applet. To create a new client-side permission, you can click on the + button. To edit client-side permission, you can click on the row. Also, you can search for specific client-side permission.
+
+==== 3.3.3.1 Edit Vendor Applets Client Side permission Create
+
+image::edit_vendor_applets_edit_client_side_premission_create.png[Create Side Permission, align = "center"]
+
+After clicking on the + button, a side window will appear to create a new client-side permission by entering a code, name, permission type, status, and description, finally, you can click on the Save button to create the new client-side permission.
+
+==== 3.3.3.2 Edit Vendor Applets Client Side permission edit
+
+image::edit_vendor_applets_edit_client_side_premission_edit.png[Edit Side Permission, align = "center"]
+
+After clicking on a client side permission to edit it, a side window will appear to view the code, permission type, and statute. To edit the Name and the description, then you can click on the Save button to save the change. Also, you can delete a client side permission by clicking on the delete button.
+
+=== 3.3.4 Edit Vendor Applets Client Permission Templates
+
+image::edit_vendor_applets_edit_permission_templates.png[Edit Permission Templates, align = "center"]
+
+After clicking on an applet row, a side window will appear that has five tabs, the third tab is the permission template tab. The permission template tab allows you to view and edit the permission templates of an applet. To create a new permission template, you can click on the + button. To edit a permission template, you can click on the row. Also, you can search for specific client-side permission.
+    
+==== 3.3.4.1 Edit Vendor Applets Client Permission Templates Create
+
+image::edit_vendor_applets_edit_permission_templates_create.png[Create Permission Templates, align = "center"]
+
+After clicking on the + button, a side window will appear to create a new permission template by entering a code, name, type, status, and description, finally, you can click on the Save button to create the new permission template.
+
+===== 3.3.4.2.1 Edit Vendor Applets Client Permission Templates Edit Details
+
+image::edit_vendor_applets_edit_permission_templates_edit_details.png[Edit Details Permission Templates, align = "center"]
+
+
+After clicking on a permission template to edit it, a side window will appear to view the name, code, and created by, created date, and modified date. To edit the status, description, and type, then you can click on the Save button to save the change. Also, you can delete a permission template by clicking on the delete button.
+
+===== 3.3.4.2.2 Edit Vendor Applets Client Permission Templates Edit Permission Definitions 
+
+image::edit_vendor_applets_edit_permission_templates_edit_permission_definitions.png[Edit Details Permission Definitions, align = "center"]
+
+In the permission definitions, you can see all the permission definitions that have already been added to the permission template. You can delete any permission definitions by clicking on the delete button. You can add new permission definitions by clicking on the + button.
+
+====== 3.3.4.2.2.1 Edit Vendor Applets Client Permission Templates Edit Permission Definitions Add
+
+image::edit_vendor_applets_edit_permission_templates_edit_permission_definitions_add.png[Edit Details Permission Definitions Add, align = "center"]
+
+After clicking on the permission definitions add button, you can view all the permission definitions to choose from and then click the save button to add.
+
+=== 3.3.5 Edit Vendor Applets Pricing
+
+image::edit_vendor_applets_edit_pricing.png[Edit Pricing, align = "center"]
+
+After clicking on an applet row, a side window will appear that has five tabs, the fourth tab is the pricing. The pricing tab allows you to view and edit the pricing of an applet. To create a new pricing, you can click on the + button. To edit pricing, you can click on the row. Also, you can search for specific pricing.
+
+==== 3.3.5.1 Edit Vendor Applets Pricing Create
+
+image::edit_vendor_applets_edit_pricing_create.png[Edit Pricing, align = "center"]
+
+After clicking on the + button to create new pricing, a window will appear on the right side, to enter a name, item code, type, status, template, and store, then clicking on the save button to create new pricing.
+
+==== 3.3.5.2 Edit Vendor Applets Pricing Edit
+
+image::edit_vendor_applets_edit_pricing_edit.png[Edit Pricing, align = "center"]
+
+After clicking on a specific pricing row, you can edit the name, item code, type, status, template, and store, then click on the save button to update the information.
+
+=== 3.3.6 Edit Vendor Applets Additional Details
+
+image::edit_vendor_applets_edit_additional_details.png[Additional Details, align = "center"]
+
+After clicking on an applet row, a side window will appear that has five tabs, the fifth tab is the Additional Details. The Additional Details tab allows you to view the Additional Details of an applet. 
+
+== 3.4 Edit Vendor Login
+
+image::edit_vendor_login.png[Edit Vendor Login, align = "center"]
+
+After clicking on an existing vendor, a side window will appear, the third tab in the window is the login tab. In the login tab, you can view the existing login in the list, you can search for a login, and can add a new login by clicking on the + button.
+
+=== 3.4.1 Edit Vendor Login Create
+
+image::edit_vendor_login_create.png[Edit Vendor Login Create, align = "center"]
+
+After clicking on the + button, you window on the right will appear to create a new login by entering the User email, rank, and status, then click save to create the new login.
+
+=== 3.4.2 Edit Vendor Login Edit
+
+image::edit_vendor_login_edit.png[Edit Vendor Login Edit, align = "center"]
+
+After clicking on the login row, a new window will appear on the right, it will view the user email, and allow you to edit the rank and status, then click the save button to save the changes. Also, you can remove the login from the vendor by clicking on the remove button.

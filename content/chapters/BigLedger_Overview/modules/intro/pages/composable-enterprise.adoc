@@ -1,0 +1,17 @@
+[#h3_bigledger_overview_enterprise]
+= 1.2 Composable Enterprise
+
+The Akaun Platform includes the following:
+
+== Applets Driven:
+
+We tear down the complexities of the ERP system, CRM, Point of Sales, Financial Accounting, Warehouse Management, Logistics and Delivery, Contact Centre, Digital Marketing, Inventory Management, Membership Program and various other business applications, and then mash up into manageable customizable tiny applications (we call them “applets”). With this, businesses will be able to consolidate all their data scattered across multiple systems , and manage them all in one place.
+Businesses will also get to mix and match various applets to form various modules and systems based on their needs without purchasing a huge and complex system. 
+With Micro front end architecture, we are able to turn a web browser into an android operating system-like shell, for various applets to be loaded and installed into the web browser on demand dynamically.
+
+== Applet Store:
+
+The “Applet Store” copied the ideas from Google Play Store and Apple App Store. Third party developers are allowed to publish their applets and let them be installed by various users into various tenants.
+With this open concept, the Akaun platform will be even more successful, when there’s a rich ecosystem of developers, specializing in different applications.
+
+Composable enterprises leverage the API economy and involve businesses putting their contributions together in a modular way. Here the components are broken into smaller services called packaged business capabilities (PBCs). Breaking away from single, large applications to business procedure modules that can be made into workflows for targeted business purposes and integration are made across a company’s tech stack. Composable Enterprise makes your business solutions flexible and agile.

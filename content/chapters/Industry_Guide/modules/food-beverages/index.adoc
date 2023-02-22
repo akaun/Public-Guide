@@ -1,0 +1,14 @@
+[#h2_food_beverages_industry]
+= Food & Beverage (F&B) Industry 
+
+include::pages/overview.adoc[leveloffset=3]
+
+//include::pages/solutions.adoc[leveloffset=3]
+
+//include::pages/stories.adoc[leveloffset=3]
+
+//include::pages/faqs.adoc[leveloffset=3]
+
+
+
+

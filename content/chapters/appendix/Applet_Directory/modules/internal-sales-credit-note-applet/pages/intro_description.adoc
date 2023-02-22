@@ -1,1 +1,11 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Sales Credit Note Applet is used to add one or many internal sales credit notes. It is used to manage the listing of the internal sales credit notes, providing an ease of correcting any errors made on previous invoices and recording the correction for both sellers and buyers as well as maintaining a history of sales credit notes for your business. This applet can be used by businesses of any size that engage in sale transactions and need to issue refunds or adjustments to their customers such as Small and medium-sized businesses (SMEs), E-commerce businesses, retailers and service providers etc. By using this applet, the business of users will be benefited in several ways, including：
+
+a. Streamlined process: Can help businesses streamline the process of issuing refunds or adjustments, reducing the time and effort required to manage these transactions.
+
+b. Improved accuracy: Can help businesses ensure that they are accurately recording their sales transactions and refunds, reducing the risk of errors and improving their financial reporting.
+
+c. Faster refunds: Can help businesses issue refunds to customers more quickly, improving customer satisfaction and helping to maintain positive relationships with customers.
+
+d. Better record-keeping: Can help businesses keep track of their sales transactions and refunds more effectively, making it easier to manage their finances and comply with accounting and tax regulations.
+
+e. Enhanced reporting: Can provide businesses with valuable data and insights about their sales transactions, refunds, and customer behaviour, which can help them make better decisions and improve their overall performance.

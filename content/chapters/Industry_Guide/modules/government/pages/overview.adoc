@@ -1,0 +1,6 @@
+[#h3_government_overview]
+= Success Story 6 : Government
+
+In addition to serving private businesses, Wavelet has been providing Point-of-Sale, accounting and inventory management solutions for one of the largest government agencies in Malaysia for many years. Facing the need for the consolidated business data and its exchange across multiple branches, the customer aimed to replace the legacy desktop-based system with the all-in-one software solution suitable for multi-entity, multi-branch businesses. 
+
+Wavelet ERP system has resolved one of the biggest challenges faced by the government agency - data inconsistency and scattered, non-synchronized data making it difficult to get timely and accurate information real-time. The implemented solution has allowed multiple branches to perform transactions simultaneously, with the real-time data exchange and update on a real-time basis, including sales, purchase, interbranch and intercompany stock transfer, with the stock, sales and financial data available at any point of time, at any branch.

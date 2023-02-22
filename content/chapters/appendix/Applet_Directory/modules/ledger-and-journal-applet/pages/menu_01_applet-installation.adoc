@@ -1,4 +1,4 @@
-[#h3_ledger-and-journal-applet_sales_order_listing]
+[#h3_ledger-and-journal-applet_sales_order_applet]
 =  Menu 02 - Applet Installation
 
 To be able to install the applet follow the following steps

@@ -1,0 +1,116 @@
+[#h3_internal-purchase-requisition-applet_requisition-line-items]
+= 3.0 Purchase Requisition Line Items
+
+== 3.1 Line Item Listing
+
+Users can view the listing of the requisition line items.
+
+image::IntenalPurchaseRequisition-LineItems.jpg[Line Items, align = "center"]
+
+== 3.2 Editing Purchase Requisition Line Items
+
+=== 3.2.1 Main Details
+
+To edit a line item, select an item from the listing. Fill in the form under the “Main Details” tab of Item Details.
+
+image::IntenalPurchaseRequisition-LineItem-Edit.jpg[Line Item Edit, align = "center"]
+
+=== 3.2.2 Delivery Instructions
+
+Users can add delivery instructions along with a delivery message to a line item. Then click the “SAVE” button to save the changes.
+
+image::IntenalPurchaseRequisition-LineItem-DeliveryInstruction.jpg[Delivery Instruction, align = "center"]
+
+=== 3.2.3 Department Addition 
+
+Users can add a department to the line item by filling the form under the “Department” tab. Then click the “SAVE” button to save the changes.
+
+image::IntenalPurchaseRequisition-LineItems-Department.jpg[Department, align = "center"]
+
+=== 3.2.4 Linked Documentation 
+
+Users can view Doc Links for the item, along with details as to where it was “copied from”. 
+
+image::IntenalPurchaseRequisition-LineItems-DocLink.jpg[Doc Link, align = "center"]
+
+Users can view Doc Links for the item, along with details as to where it was “copied to”.
+
+image::IntenalPurchaseRequisition-LineItems-DocLinkCopyTo.jpg[Doc Link Copy To, align = "center"]
+
+=== 3.2.5 Delivery Details
+
+Users can view the details regarding the delivery of a line item under the “Delivery Details” tab.
+
+image::IntenalPurchaseRequisition-LineItems-DeliveryDetails.jpg[Delivery Details, align = "center"]
+
+=== 3.2.6 Costing Details
+
+Users can view details of an item cost under the “Costing Details” tab.
+
+image::IntenalPurchaseRequisition-LineItems-CostingDetails.jpg[Costing Details, align = "center"]
+
+=== 3.2.7 Pricing Details Listing
+
+Users can view a list of pricing details for the selected “Line Item”. The listing can be updated based on the selected UOM.
+
+image::IntenalPurchaseRequisition-LineItems-PricingDetailsListing.jpg[Pricing Details Listing, align = "center"]
+
+=== 3.2.8 Item Issues
+
+Users can view the list of issues associated with a line item.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLink.jpg[Issues Link, align = "center"]
+
+=== 3.2.9 Issue Details
+
+Users can edit the details of the issue link by filling the form under the “Details” tab.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkDetails.jpg[Issue Link Details, align = "center"]
+
+=== 3.2.10 Issue Planning
+
+Users can fill in the form under the “Planning” tab to plan out the issue link.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkPlanning.jpg[Issue Link Planning, align = "center"]
+
+=== 3.2.11 Issue Attachment
+
+Users can add an attachment to the issue link.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkAttachment.jpg[Issue Link Attachment, align = "center"]
+
+=== 3.2.12 Issue Comment
+
+Users can view the comments associated with an issue link. They can click on the “+” button to add a comment to the line item.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkComment.jpg[Issue Link Comment, align = "center"]
+
+=== 3.2.13 Issue Subtasks
+
+Users can view the subtasks associated with an issue link. They can click on the “+” button to add new subtasks to a line item.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkSubtasks.jpg[Issue Link Subtasks, align = "center"]
+
+=== 3.2.14 Linked Issues
+
+Users can view the linked issues associated with a given line item. Users can add linked issues by clicking on the “+” button.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkLinkedIssues.jpg[Issue Link Linked Issues, align = "center"]
+
+=== 3.2.15 Issue Worklog
+
+Users can view the work log associated with a given line item. Users can add to their logs by clicking on the “+” button.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkCreateWorklogs.jpg[Issue Link Create Worklog, align = "center"]
+
+Users can fill in the form to log work. They need to select an activity type, date, duration and description. The log will be saved when they go back to the previous page by clicking on the Log Time button with the back symbol.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkWorklog.jpg[Issue Link Worklog, align = "center"]
+
+=== 3.2.16 Issue Activity
+
+Users can view the activity associated with a line item. When all the required edits have been made, users can click the “SAVE” button on the top right corner to save all the changes.
+
+image::IntenalPurchaseRequisition-LineItems-IssueLinkActivity.jpg[Issue Link Activity, align = "center"]
+
+

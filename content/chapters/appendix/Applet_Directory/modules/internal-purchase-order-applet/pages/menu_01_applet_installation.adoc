@@ -1,4 +1,4 @@
-[#h3_internal-purchase-order-applet_sales_order_listing]
+[#h3_internal-purchase-order-applet_sales_order_installation]
 =  2.0 Applet Installation
 
 == 2.1 Login to Akaun platform

@@ -1,4 +1,4 @@
-[#h3_financial_report_applet_sales_order_listing]
+[#h3_financial_report_applet_sales_order_applet_installation]
 =  Menu 02 - Applet Installation
 
 

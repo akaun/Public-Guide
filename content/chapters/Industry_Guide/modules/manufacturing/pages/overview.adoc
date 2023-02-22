@@ -1,2 +1,16 @@
 [#h3_manufacturing_overview]
-= Overview
+= Success Story 7 : Manufacturing
+
+Given the fast growth of the business and the business size, our manufacturing customers have recognised the need for the scalable software infrastructure for their business operations, including both internal process automation and customer engagement. The ‘manual’ way was no longer an option. Automation has been required in all areas of the business : accounting and finance, inventory management, sales, customer service, delivery management, warehouse and production. The goal is to ensure all modules are connected seamlessly, allowing for the real-time update with no issue of double entry or duplicated data. 
+
+The problem statement highlighted by the customers has been a perfect match to the solution portfolio offered by Wavelet. In contrast to other vendors, Wavelet does not focus on one product, but rather offers an end-to-end solution for the business, connecting each application into a single scalable ecosystem, powered by an operational data lake as a backbone. 
+
+image::operational_data_lake.png[Operational Data Lake, align = "center"]
+
+The solution offered to our manufacturing customers has aimed to address the key pain points faced by the customer before, as well as to optimize the daily operations beyond. As of now we have implemented an ERP system for accounting, sales, inventory management, as well as a customer engagement module connecting multiple communication channels used by the customers to chat with their customers. 
+
+image::comparison_table.png[Comparison Table, align = "center"]
+
+The ongoing / upcoming modules include the delivery management module, WMS (warehouse management system), production automation, as well as the centralized BI and reporting solution for all modules. 
+
+Wavelet aims not only to implement the requested modules, but to ensure they function in harmony and aim to save the team’s time : for example, the customer engagement module will be connected to the future implemented delivery module for the scenarios when : the delivery of the item is complete by the driver, the contact center module will automatically send a message to the customer to rate a service. 

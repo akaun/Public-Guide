@@ -1,6 +1,6 @@
 [#h3_doc_item_maintenance_introduction]
 = 1.0 Introduction
-image::doc_item_maintenance_logo.png[150,300]
+image::doc_item_maitenance_logo.png[150,300]
 
 include::intro_description.adoc[leveloffset=3]
 

@@ -1,4 +1,4 @@
-[#h3_internal-purchase-order-applet_line_items]
+[#h3_internal-purchase-order-applet_purchase_order]
 =  4.0 Purchase Order
 
 == 4.1 Purchase Order Listing
@@ -75,7 +75,7 @@ image::Create-Purchase-Order-Account-Tab_3.png[1440 x 900]
 
 image::Create-Purchase-Order-Account_2.png[1440 x 900]
 
-image::Create-Purchase-Order-Account_3.png.png[1440 x 900]
+image::Create-Purchase-Order-Account_3.png[1440 x 900]
 
 
 The Account Tab is basically where a user can link the Purchase Order with a Supplier. The Accounts tab has the following Sub Tabs
