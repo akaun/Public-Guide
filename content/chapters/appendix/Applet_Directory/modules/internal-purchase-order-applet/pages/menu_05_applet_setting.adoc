@@ -1,0 +1,51 @@
+[#h3_internal-purchase-order-applet_line_items]
+=  6.0 Applet Settings
+
+
+== 6.1 System Configuration
+
+
+The system configuration allows the user to adjust various view settings as below
+
+* Application Settings
+* Default Selection
+* Printable Format Settings
+
+Under the Application Settings, the users can adjust some certain fields/information that they wanna view 
+
+image::Applet-Settings-Application-Settings.png[1440 x 900]
+
+
+The Default Selection allows to set some default values for the default branch, location, validity and pricing scheme
+
+image::Applet-Settings-Default-Selection.png[1440 x 900]
+
+
+The Printable Format displays the available and previously created printable formats for the Purchase Orders in a  tabular format. It also allows the users to create a new printable format as per their requirements.
+
+image::Applet-Settings-Printable-Format-1.png[1440 x 900]
+
+image::Applet-Settings-Printable-Format-2.png[1440 x 900]
+
+
+== 6.2 Server Side Permissions
+
+* Permission set
+* User Permission
+* Team Permission
+* Role Permission
+
+image::Permission-Set_1.png[1440 x 900]
+
+image::Permission-Set_2.png[1440 x 900]
+
+
+== 6.3 Integration
+
+* Triggers
+
+image::Trigger_1.png[1440 x 900]
+
+image::Trigger_2.png[1440 x 900]
+
+

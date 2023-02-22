@@ -1,0 +1,13 @@
+[#h3_internal-purchase-order-applet_line_items]
+=  8.0 Connected Applets
+
+
+1. Supplier Mainteance Applet - In the Account Tab, the Supplier information are pulled from the Supplier Maintenance Applet
+
+2. Doc Item Maintenance Applet - In the Lines Tab, the items that a purchaser would like to order are coming from the Doc Item Maintenance Applet
+
+3. Delivery Installation Applet - In the Delivery Details Tab, the delivery information is coming from the Delivery Installation Applet if the purchase order is linked with certain Trip No
+
+4. Organization Applet - In the Main Details Tab, the Branch and Location information is coming from the Organization Applet settings
+
+5. Cashbook Applet - In the Payment Tab, the available settlement methods are coming from the Cashbook Applet.

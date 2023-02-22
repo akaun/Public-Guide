@@ -1,0 +1,13 @@
+[#h3_internal-purchase-order-applet_line_items]
+=  7.0 Applet Personalization
+
+
+== 7.1 Default Selection
+
+image::Personalization-Default-Settings_1.png[1440 x 900]
+
+image::Personalization-Default-Selection_2.png[1440 x 900]
+
+From the default selection, the users can change the default Branch and Location that will override the Master settings. This is useful when one user got access to multiple branches. By selecting the default branch, the user can prioritize which branch to view first.
+
+

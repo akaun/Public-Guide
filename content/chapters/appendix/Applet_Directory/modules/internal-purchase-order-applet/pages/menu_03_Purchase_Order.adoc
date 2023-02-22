@@ -67,13 +67,15 @@ Once the users choose the Branch, the Location will be followed by the Branch se
 
 image::Create-Purchase-Order-Account_1.png[1440 x 900]
 
+image::Create-Purchase-Order-Account-Tab_1.png[1440 x 900]
+
+image::Create-Purchase-Order-Account-Tab_2.png[1440 x 900]
+
+image::Create-Purchase-Order-Account-Tab_3.png[1440 x 900]
+
 image::Create-Purchase-Order-Account_2.png[1440 x 900]
 
 image::Create-Purchase-Order-Account_3.png.png[1440 x 900]
-
-image::Create-Purchase-Order-Account_1.png[1440 x 900]
-
-image::Create-Purchase-Order-Account_1.png[1440 x 900]
 
 
 The Account Tab is basically where a user can link the Purchase Order with a Supplier. The Accounts tab has the following Sub Tabs
@@ -146,15 +148,16 @@ image::Purchase-Order-Lines-Tab_2.png[1440 x 900]
 From the Lines Tab, the users can select the items that they wanna order under a particular Purchase Order. The users need to click on the “+” icon to see the items. These items are coming from the Doc Item Maintenance Applet. There are 2 main sub tabs under the Lines Tab.
 
 * Search Item
-In the Search Item Sub Tab, once the users click on any particular item, the users will be able to see the following tabs under the Search Item Tab
+** Item details
+** Costing Details
+** Pricing Details
+** Issue Link
 
-* Item details
-* Costing Details
-* Pricing Details
-* Issue Link
 * KO For Blanket Purchase Order
 
-The users are also able to Knock Off for a blanket Purchase Order. More details regarding the “Lines Tab” will be discussed in the next section of this document [4.2 Line Items]
+In the Search Item Sub Tab, once the users click on any particular item, the users will be able to see the following tabs under the Search Item Tab.
+
+The users are also able to Knock Off for a blanket Purchase Order. More details regarding the “Lines Tab” will be discussed in the next section of this document.
 
 
 === 4.2.4 Create Purchase Order - Delivery Details Tab
@@ -164,13 +167,14 @@ image::Create-Purchase-Order-Delivery-Details-Tab.png[1440 x 900]
 
 The Delivery Details Tab basically represents the delivery information with the following details and any Delivery created under the Delivery Installation Applet for this particular purchase order will be dsiaplyed as below
 
-Trip No
-Driver Name
-Vehicle No
-Jon Start Date
-Job End Date
-Delivery Status
-Recipient Name
+* Trip No
+* Driver Name
+* Vehicle No
+* Jon Start Date
+* Job End Date
+* Delivery Status
+* Recipient Name
+
 The above information can be configured using the Delivery Installation Applet
 
 
@@ -242,16 +246,24 @@ image::Edit-Purchase-Order-Lines-Tab.png[1440 x 900]
 
 image::Edit-Purchase-Order-Lines-Tab_2.png[1440 x 900]
 
+Under the Lines Tab, users can update the Pricing Scheme, Quantity Base and continue adding more items. The total value will be adjusted automatically based on the items quantity and price.
 
-Under the Lines Tab, users can update the Pricing Scheme, Quantity Base and continue adding more items. The total value will be adjusted automatically based on the items quantity and price
+
+=== 4.3.4 Edit Purchase Order - Payment Tab
+
+image::Edit-Purchase-Order-Payment-Tab.png[1440 x 900]
+
+inmage::Edit-Purchase-Order-Payment-Tab_1.png[1440 x 900]
+
+The users will be able to make the payments and it’s not required to make a full payment at this point. The users can pay any amount they want and total will be updated accordingly.
 
 
-=== 4.3.6 Edit Purchase Order - Department Hdr Tab
+=== 4.3.5 Edit Purchase Order - Department Hdr Tab
 
 image::Edit-Purchase-Order-Department-Hdr.png[1440 x 900]
 
 
-=== 4.3.7 Edit Purchase Order - Contra Tab
+=== 4.3.6 Edit Purchase Order - Contra Tab
 
 image::Edit-PO-Contra.png[1440 x 900]
 
@@ -261,9 +273,9 @@ image::Edit-PO-Contra_1.png[1440 x 900]
 From the Contra Tab, the users will be able to Contra the selected Purchase order with any other document. The users just need to key in the Contra Amount and click save
 
 
-=== 4.3.8 Edit Purchase Order - Doc Link Tab
+=== 4.3.7 Edit Purchase Order - Doc Link Tab
 
-images::Edit-Purchase-Order-Doc-Link-Tab.png[1440 x 900]
+image::Edit-Purchase-Order-Doc-Link-Tab.png[1440 x 900]
 
 The Doc Link Tab displays more information related to the Knock Off. It displays from where this Purchase Order document has been Copied From for example: Purchase Requisition, Purchase Quotation etc. and where this Purchase Order has been used after creation for example: Purchase Invoice. Basically the Doc Link Tab visualize the Purchase Order Document flow to other systems
 
@@ -271,7 +283,7 @@ The Doc Link Tab displays more information related to the Knock Off. It displays
 * Copied To
 
 
-=== 4.3.9 Edit Purchase Order - Attachments Tab
+=== 4.3.8 Edit Purchase Order - Attachments Tab
 
 image::Edit-PO-Attachement-Tab.png[1440 x 900]
 
@@ -279,7 +291,7 @@ image::Edit-PO-Attachement-Tab.png[1440 x 900]
 The users will be able to attach any relevant documents or images related to the Purchase order using the Attachements Tab. The users can either drag and drop the files or upload files from local or cloud
 
 
-=== 4.3.10 Edit Purchase Order - Export Tab
+=== 4.3.9 Edit Purchase Order - Export Tab
 
 
 image::Edit-PO-Export.png[1440 x 900]
@@ -301,5 +313,4 @@ image::Pagination-PO_1.png[1440 x 900]
 
 image::Pagination-PO_2.png[1440 x 900]
 
-
- The pagination allows the users to determine the number of entries that they would like to see in each of the pages.
+The pagination allows the users to determine the number of entries that they would like to see in each of the pages.

@@ -1,8 +1,8 @@
 [#h3_internal-purchase-order-applet_line_items]
-=  1.1 Line Item
+=  5.0 Line Items
 
 
-== 1.1 Line Items Listing & Edit
+== 5.1 Line Items Listing & Edit
 
 image::Line-Items-Listing.png[1440 x 900]
 
@@ -10,7 +10,7 @@ image::Line-Items-Listing.png[1440 x 900]
 From the Line Items Listing, the users can see all the items for all the created Purchase orders. From the Purchase Order Tab users get a visualization from the Hdr level and from the Line Items Tab, the users get a visualization from the Line level. By searching with the Purchase Order No, users can see the number of items that have been ordered under any particular Purchase order. Basically it works like a report for all the created Purchase orders
 
 
-=== 1.2.1 Line Items Listing - Item Details Tab
+=== 5.2.1 Line Items Listing - Item Details Tab
 
 image::Line-Items-Details.png[1440 x 900]
 
@@ -27,10 +27,12 @@ image::Line-Items-Item-Details-Doc-Link.png[1440 x 900]
 image::Line-Items-Item-Details-Delivery-Details.png[1440 x 900]
 
 
-Main Details
+*Main Details*
+
 Users can edit the item that they have selected. Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
 
-Delivery Instruction
+*Delivery Instruction*
+
 In the Delivery Instruction, add Instruction and Set the Delivery Date. In the Delivery Message Card , add a message with the sender and receiver
 
 * Department
@@ -40,7 +42,7 @@ In the Delivery Instruction, add Instruction and Set the Delivery Date. In the D
 * Delivery Details
 
 
-=== 1.2.2 Line Items Listing - Costing Details Tab
+=== 5.2.2 Line Items Listing - Costing Details Tab
 
 image::Line-Items-Costing-Details.png[1440 x 900]
 
@@ -55,7 +57,8 @@ The Costing Details Tab is showing all the costing details about the selected it
 * Last Purchase Unit Cost
 
 
-=== 1.2.3 Line Items Listing - Pricing Details Tab
+=== 5.2.3 Line Items Listing - Pricing Details Tab
+
 
 image::Line-Items-Pricing-Details.png[1440 x 900]
 
@@ -71,7 +74,7 @@ The Pricing Details Tab is showing all the pricing details:
 A new column of Edit Pricing Details will be displayed on the right side when one of the pricing details is clicked and the changes can be saved by clicking on the Add button
 
 
-=== 1.2.4 Line Items Listing - Issue Link Tab
+=== 5.2.4 Line Items Listing - Issue Link Tab
 
 
 The Issue Link Tab is showing the list of linked issues which contain project name, issue number and issue summary. A new Edit Issue column will be displayed on the right side when one of the issue link is clicked
@@ -83,7 +86,7 @@ image::Line-Items-Issue-Link-Tab.png[1440 x 900]
 Drop down field like Project. Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date are selectable
 
 
-*Planning Tab* 
+*Planning* 
 
 image::Line-Items-Planning-Tab.png[1440 x 900]
 
@@ -108,26 +111,23 @@ A list of comments can be viewed at this tab
 
 image::Line-Items-Subtasks-Tab.png[1440 x 900]
 
- A list of subtasks can be viewed at this tab
+A list of subtasks can be viewed at this tab
 
+*Linked Issues*
 
- *Linked Issues* 
- 
 image::Line-Items-Linked-Issues-Tab.png[1440 x 900]
 
- A list of linked issues can be viewed at this tab
+A list of linked issues can be viewed at this tab
 
+*Worklogs*
 
- *Worklogs* 
- 
 image::Line-Items-Worklogs-Tab_1.png[1440 x 900]
 
 image::Line-Items-Worklogs-Tab_2.png[1440 x 900]
 
- A list of worklogs can be viewed in this tab. Log Time tab will be displayed on the right side when the ‘+’ button is clicked. There are fields such as Activity Type, Date, Duration and Description to be filled.
+A list of worklogs can be viewed in this tab. Log Time tab will be displayed on the right side when the ‘+’ button is clicked. There are fields such as Activity Type, Date, Duration and Description to be filled.
 
-
-*Activity* 
+*Activity*
 
 image::Line-Items-Activity-Tab.png[1440 x 900]
 
@@ -136,7 +136,7 @@ A list of activities can be viewed in this tab
 In order to edit Line Items, users need to click on the line item that they want to make changes. For editing any particular Item, all the fields are the same as the steps of adding items, and are editable. In the Doc Link Tab, it will show the Doc No that copy from and copy to. The other tabs are the same as Adding Line items. The users need to click on “Save” after making the changes
 
 
-== 1.2 Search Bar
+== 5.2 Search Bar
 
 image::Line-Items-Search-Bar.png[1440 x 900]
 
@@ -145,85 +145,8 @@ image::Lines-Item-Search-Bar.png[1440 x 900]
 The users are able to search for any particular Purchase Order using the search bar and typing the key data that they would like to search for. The users would also be able to search using Item Code, Item Name and Transaction Amount.
 
 
-== 1.3 Pagination 
+== 5.3 Pagination 
 
 image::Line-Items-Pagination.png[1440 x 900]
 
 The pagination allows the users to determine the number of entries that they would like to see in each of the pages.
-
-
-
-== 1.4 Settings
-
-*System Configuration*
-
-The system configuration allows the user to adjust various view settings as below
-
-* Application Settings
-* Default Selection
-* Printable Format Settings
-
-Under the Application Settings, the users can adjust some certain fields/information that they wanna view 
-
-image::Applet-Settings-Application-Settings.png[1440 x 900]
-
-
-The Default Selection allows to set some default values for the default branch, location, validity and pricing scheme
-
-image::Applet-Settings-Default-Selection.png[1440 x 900]
-
-
-The Printable Format displays the available and previously created printable formats for the Purchase Orders in a  tabular format. It also allows the users to create a new printable format as per their requirements.
-
-image::Applet-Settings-Printable-Format-1.png[1440 x 900]
-
-image::Applet-Settings-Printable-Format-2.png[1440 x 900]
-
-
-*Server Side Permissions*
-
-* Permission set
-* User Permission
-* Team Permission
-* Role Permission
-
-image::Permission-Set_1.png[1440 x 900]
-
-image::Permission-Set_2.png[1440 x 900]
-
-
-*Integration*
-
-* Triggers
-
-image::Trigger_1.png[1440 x 900]
-
-image::Trigger_2.png[1440 x 900]
-
-
-== 1.5 Personalization
-
-*Default Selection*
-
-image::Personalization-Default-Settings_1.png[1440 x 900]
-
-image::Personalization-Default-Selection_2.png[1440 x 900]
-
-From the default selection, the users can change the default Branch and Location that will override the Master settings. This is useful when one user got access to multiple branches. By selecting the default branch, the user can prioritize which branch to view first.
-
-
-
-== 1.6 Connected Applets
-
-1. Supplier Mainteance Applet - In the Account Tab, the Supplier information are pulled from the Supplier Maintenance Applet
-
-2. Doc Item Maintenance Applet - In the Lines Tab, the items that a purchaser would like to order are coming from the Doc Item Maintenance Applet
-
-3. Delivery Installation Applet - In the Delivery Details Tab, the delivery information is coming from the Delivery Installation Applet if the purchase order is linked with certain Trip No
-
-4. Organization Applet - In the Main Details Tab, the Branch and Location information is coming from the Organization Applet settings
-
-5. Cashbook Applet - In the Payment Tab, the available settlement methods are coming from the Cashbook Applet.
-
-
-
