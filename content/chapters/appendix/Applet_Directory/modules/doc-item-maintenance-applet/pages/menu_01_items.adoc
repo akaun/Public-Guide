@@ -157,9 +157,9 @@ image::multi_uom_tab.png[1440 x 900]
 * Sort-Code - The sort code helps identify the hierarchy of the UOM from the smallest to largest starting from 001. For example pill would be 001 followed by carton which would be 002 and finally box which would be 003.
 
 For example:
-** pill = 001
-** carton = 002
-** box = 003
+a. pill = 001
+b. carton = 002
+c. box = 003
 
 === 2.2.5 BRANCH LINKING
 
