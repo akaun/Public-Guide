@@ -3,7 +3,7 @@
 
 *Please go to Akaun.com - Doc Item Maintenance* 
 
-image::doc_item_logo.png[]
+image::doc_item_maitenance_logo.png[]
 
 == 2.1 ITEMS - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
 
