@@ -138,6 +138,8 @@ This module allows to stock items with multiple units of measurement, UOM auto c
 
 ** 1 Strips = 10 Tablets
 
+The above UOM specifics the conversion of one type UOM to another UOM, with the speicific ratio.
+
 In order to add Multi UOM click “+”. Once clicked it will open a 3rd container for the user to add UOM details
 
 image::multi_uom_tab.png[1440 x 900]
@@ -146,12 +148,18 @@ image::multi_uom_tab.png[1440 x 900]
 
 * Ratio -  used to specify how many items. For example:
 ** if base UOM is = “Bottle”, then ratio = 20 bottles
+** The number 20 specificies the number of the items
 
 * Status - to specify whether the item is active or inactive
 
 * Base UOM - unable to edit. User may edit it in the Main Details Tab
 
 * Sort-Code - The sort code helps identify the hierarchy of the UOM from the smallest to largest starting from 001. For example pill would be 001 followed by carton which would be 002 and finally box which would be 003.
+
+For example:
+** pill = 001
+** carton = 002
+** box = 003
 
 === 2.2.5 BRANCH LINKING
 
