@@ -1,4 +1,4 @@
-[#h3_internal-purchase-order-applet_line_items]
+[#h3_internal-purchase-order-applet_settings]
 =  6.0 Applet Settings
 
 
