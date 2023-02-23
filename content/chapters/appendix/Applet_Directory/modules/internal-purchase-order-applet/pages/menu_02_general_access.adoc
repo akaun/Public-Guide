@@ -1,4 +1,4 @@
-[#h3_internal-purchase-order-applet_line_items]
+[#h3_internal-purchase-order-applet_applet_access]
 =  3.0 Applet Access
 
 == 3.1 Side Bar/Menu Items Access
