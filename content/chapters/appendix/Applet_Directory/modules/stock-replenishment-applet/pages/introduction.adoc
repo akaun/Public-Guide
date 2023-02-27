@@ -1,4 +1,4 @@
-[#h3_named_applet_introduction]
+[#h3_stock_replenishment_applet_introduction]
 = 1.0 Introduction
 
 image::blank_logo.png[]
