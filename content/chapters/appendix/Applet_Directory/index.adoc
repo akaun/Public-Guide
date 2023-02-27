@@ -162,4 +162,4 @@ include::modules/t2t-applet/index.adoc[leveloffset=2]
 
 include::modules/shipping-pricebook-applet/index.adoc[leveloffset=2]
 
-
+include::modules/stock-replenishment-applet/index.adoc[leveloffset=2]

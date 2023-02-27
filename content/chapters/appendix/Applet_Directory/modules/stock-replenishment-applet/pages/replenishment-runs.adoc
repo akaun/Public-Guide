@@ -1,0 +1,47 @@
+[#h3_named_applet_replenishment_runs]
+= 2.0 Replenishment Runs
+
+The user can click on the “+” button to add a new Replenishment Runs.
+
+image::ReplenishmentRuns-Listing.png[Listing, align = center"]
+
+== 2.1 Details
+
+The user must first choose a replenishment template by clicking on the text field under the label. After a template has been selected, some fields will be auto-populated based on the template, this includes company, sales duration, previous run start and end date, and previous run code. Previous run refers to the latest run created using the template. Gray fields are read only whereas the remaining fields will need to be entered manually.
+
+image::ReplenishmentRuns-Details.png[Details, align = "center"]
+
+== 2.2 Location
+
+The Locations listing page will be auto-populated with locations that are included in the selected replenishment template. The user can click on the “+” button to go to the Add Locations page. Users can search and filter for locations using the search bar. To select locations, users can click on one or many of the checkboxes and click Add. 
+
+image::ReplenishmentRuns-Locations.png[Location, align = "center"]
+
+image::ReplenishmentRuns-Locations-AddLocations.png[Add Location, align = "center"]
+
+== 2.3 Items
+
+The Items listing page will be auto-populated with items that are included in the selected replenishment template. The user can click on the ‘+’ button to add items/lines by redirecting the page to the Add Lines page. In the Add Lines page, the user can select one or multiple items/lines by clicking the checkboxes and then click the Add button to add items/lines into the list.
+
+image::ReplenishmentRuns-Items.png[Items, align = "center"]
+
+image::ReplenishmentRuns-Items-AddLines.png[Add Lines, align = "center"]
+
+== 2.4 Order Qty
+
+In the Order Qty tab, users are firstly needed to click on the Generate button to generate a list of order quantities grouped by item code using aggregate grid features as highlighted in the diagram using the red box. Reorder Qty Final field in the listing is editable for users to fill in the final qty for creating the draft Purchase Order (PO). After that, users can click on the Create draft PO button to create draft PO and emails for POl will be sent automatically to the supplier. 
+
+image::ReplenishmentRuns-OrderQty.png[Order Qty, align = "center"]
+
+== 2.5 Export
+
+The Export tab allows users to download the replenishment run. The formats available are pdf, csv, docx or zip. 
+
+image::ReplenishmentRuns-Export.png[Export, align = "center"]
+
+== 2.6 Purchase Orders
+
+The Purchase Orders tab shows a list of all purchase order lines that have been created from the replenishment run. 
+
+image::ReplenishmentRuns-PurchaseOrders.png[Purchase Orders, align = "center"]
+

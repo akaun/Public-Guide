@@ -1,0 +1,5 @@
+Stock Replenishment Applet allows users to configure replenishment runs to replenish stock for multiple branches.The features of this applet are as follows:
+
+a. Replenishment Runs
+b. Replenishment Template
+c. Order Qty Reports

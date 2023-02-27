@@ -1,0 +1,5 @@
+* Stock Replenishment Applet
+** xref:introduction.adoc[Introduction]
+** xref:replenishment-runs.adoc[Replenishment Runs]
+** xref:replenishment-template.adoc[Replenishment Template]
+** xref:order-qty-reports.adoc[Order Qty Reports]
