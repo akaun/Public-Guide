@@ -1,0 +1,30 @@
+[#h3_sales_contract_introduction]
+= 1.0 Introduction
+
+image::blank_logo.png[]
+
+include::intro_description.adoc[]
+
+== Who will use the Sales Contract Applet?
+
+The sales contract applet can be used by the legal teams of any sort of companies, Sales teams of the companies, HR teams, Finance and ops teams and Template Editors. 
+
+== Where will the Sales Contract Applet be used?
+
+The sales contract applet will be used where there will be an agreement between a buyer and seller. When a buyer agrees to purchase goods or services from the seller in exchange for payment, they will need t
+
+== How is the Sales Contract Applet used?
+
+The sales contract applet is used to create templates that consist of sales invoice. The templates created by the sales contract applet contains all the information that is required to create a sales contract folder. Such kinds of contracts are used by all sorts of companies that deal with sales of goods and services.
+
+== What are the benefits of Sales Contract Applet?
+
+a. A sales contract applet helps in defining the terms of the sale: A sales contract should help the buyers and sellers in  terms of the transaction, including what is being sold, how much it will cost the buyer, when the delivery will take place, and any other important details. This helps to  avoid misunderstandings later on.
+
+b. A sales contract helps in making sure both parties are held accountable: In case there is a problem with the product or service that is provided by the contract, you can hold the other party accountable. This is because they have agreed to provide what was promised in the contract.
+
+c. A sales contract allows the buyer to cancel the contract in case the seller breaches any of the terms.
+
+d. A sales contract helps you in providing a clear record of the terms of the sales. Once both parties sign the contract, they cannot disobey the contract. 
+
+e. A sales contract applet is an important tool that can help to protect you in a transaction. By defining the terms and conditions of the sale and by making sure both parties are held accountable, a sales contract can give you peace of mind when buying or selling a product or service.

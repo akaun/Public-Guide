@@ -1,0 +1,9 @@
+[#h3_sales_contract_general_access]
+= 2.0 General Access
+
+== 2.1 Slide Bar Access
+
+Users are able to open up the sidebar by clicking on the icon highlighted in the image below, this will allow a user to switch to different sections of the applet easily. There are three sections which are Sales Contract Folder, SC Template and Agreement Templates.
+
+image::SalesContract-SlideBarAccess.png[Slide Bar Access, align = "center"]
+
