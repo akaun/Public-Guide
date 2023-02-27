@@ -9,7 +9,7 @@ image::bank-recon-listing.png[Bank Recon Listing, align = "center"]
 
 Users then could fill in the necessary information on each column. Please be noted that if there is a * sign on the column, users must fill in relevant information in that column as it could not be modified later. 
 
-image::bank-recon.png[Bank Recon, align = "center"]
+image::create-bank-recon.png[Bank Recon, align = "center"]
 
 The fields that are needed to be filled in are:
 
@@ -25,7 +25,7 @@ i. Cash Statement Opening Balance
 j. Cash Statement Closing Balance
 k. Status: Processing
 
-image::bank-recon-1.png[Bank Recon, align = "center"]
+image::create-bank-recon-1.png[Bank Recon, align = "center"]
 
 After creating the bank recon, the created bank recon will be listed in the main page. Users could click on the name of the company to make further changes.
 
