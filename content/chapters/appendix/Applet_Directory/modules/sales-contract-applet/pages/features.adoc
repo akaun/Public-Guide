@@ -76,7 +76,7 @@ By clicking on any of  the Template Listing, users will be directed to “Edit S
 
 The Main Details page contains fields such as Contract Template Name, Contract Template Code, Status, Contract Duration, Unit (to select Days or Months) and Remarks. 
 
-image::SalesContract-SalesContractListing-EditSalesContractTemplate-RecurringSalesInvoice-MainDetails.png[Main Details, align = "center"]
+image::SalesContract-SalesContractListing-EditSalesContractTemplate-MainDetails.png[Main Details, align = "center"]
 
 The Recurring Sales Invoice tab has further 3 tabs which are Main Details, Line Item and Department Hdr. The user can choose the recurring sales invoice template and key in the recurring  schedule.
 
