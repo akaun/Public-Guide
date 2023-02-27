@@ -3,46 +3,44 @@
 
 Before Replenishment Runs can be created, Replenishment Templates must be created first. The user can click on the “+” button to add a new Replenishment Template.
 
-image::ReplenishmentTemplate-Listing.png[Listing, align = "center"]
+image::Replenishment_Template_Listing.png[Listing, align = "center"]
 
 == 3.1 Details
 
 Users can fill in the fields. Required fields are marked with asterisk ‘*’ sign. 
 
-image::ReplenishmentTemplate-Details.png[Details, align = "center"]
+image::Replenishment_Template_Details.png[Details, align = "center"]
 
 == 3.2 Locations Filter
 
 Here users can search for and add locations to the Replenishment Template. Only locations related to the company selected in the previous details tab will be shown here. Multiple locations can be selected using the checkboxes and then added to the Replenishment Template by clicking on the Add button.
 
-image::ReplenishmentTemplate-Locationsfilter.png[Filter, align = "center"]
+image::Replenishment_Template_Location_Filter.png[Filter, align = "center"]
 
-image::ReplenishmentTemplate-Locationfilter-AddLocations.png[Add Locations, align = "center"]
+image::Replenishment_Template_Add_Locations.png[Add Locations, align = "center"]
 
 == 3.3 Category Filter
 
 In the Category Filter tab, users can search and add categories for the Replenishment Template. Only categories related to the company selected in the previous details tab will be shown here. Multiple categories can be selected using the checkboxes and then added to the Replenishment Template by clicking on the Add button.
 
-image::ReplenishmentTemplate-Categoryfilter.png[Filter, align = "center"]
+image::Replenishment_Template_Category_Filters.png[Filter, align = "center"]
 
-image::ReplenishmentTemplate-Categoryfilter-AddCategories.png[Add Categories, align = "center"]
+image::Replenishment_Template_Add_Category_Filters.png[Add Categories, align = "center"]
 
 == 3.4 Item Filter
 
 In the Item Filter tab, users can search and add items for the Replenishment Template. Only items related to the company selected in the previous details tab will be shown here. Users are allowed to filter the list of items displayed based on certain criteria such as item code, name, category, aggregated sales qty, suppliers and attributes. Multiple items can be selected using the checkboxes and then added to the Replenishment Template by clicking on the Add button.
 
-image::ReplenishmentTemplate-Itemfilter.png[Item Filter, align = "center"]
-
-image::ReplenishmentTemplate-Itemfilter-AddLines.png[Add Lines, align = "center"]
+image::Replenishment_Template-Item_Filter.png[Item Filter, align = "center"]
 
 == 3.5 Item List
 
 In the Item List tab, users can view a list of fi items based on the filters of location, category, and item added in the previously Location filter, Category filter and Item filter tabs. This can help in displaying the specific items and reducing the number of items displayed in this tab.
 
-image::ReplenishmentTemplate-ItemList.png[Item List, align = "center"]
+image::Replenishment_Template_Item_List.png[Item List, align = "center"]
 
 == 3.6 Runs
 
 The Runs tab shows a listing of all stock replenishment runs that were created using this template.
 
-image::ReplenishmentTemplate-Runs.png[Runs, align = "center"]
+image::Replenishment_Template_Runs.png[Runs, align = "center"]

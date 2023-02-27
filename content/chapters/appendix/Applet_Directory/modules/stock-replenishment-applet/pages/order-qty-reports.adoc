@@ -3,4 +3,4 @@
 
 The Order Qty Reports page allows the user to view replenishment run line items and to generate and download reports. Users can filter the listing for example to show only a certain item code or showing only ones that have been set to approved. Multiple line items are selected by clicking on the checkboxes. 
 
-image::OrderQtyReports.png[Reports, align = "center"]
+image::Order_Qty_Reports.png[Reports, align = "center"]
