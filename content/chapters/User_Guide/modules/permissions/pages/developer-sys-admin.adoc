@@ -23,7 +23,7 @@ An “Add Client Side Permission” tab will appear and users are required to fi
 
 === Create & Edit Permission Templates
 
-image::Permission_Templates.png[Permission Templates, align = "center"]
+image::Permission_Templates_Listing.png[Permission Templates, align = "center"]
 
 To create Permission Templates for the applet, users have to navigate to the “Permission Templates” tab. Under this tab, there will be a list of permission templates. To create a new permission template, users can click on the ‘+’ button.
 
