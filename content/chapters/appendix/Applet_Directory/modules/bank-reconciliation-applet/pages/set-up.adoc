@@ -1,0 +1,184 @@
+[#h3_bank_reconciliation_set_up]
+= 2.0 Set Up in Organisation Applet and Cashbook Applet
+
+== 2.1 ORGANISATION APPLET
+
+When logging in into the Organisation Applet, this is the first page that will be shown to the user, which is the Company Listing page. Then, users could proceed to press the ‘+’ button placed at the top left corner to start creating a company.
+
+image::company-listing.png[Company Listing, align = "center"]
+
+=== 2.1.1 DETAILS
+
+Users then could fill in the necessary information on each column. Please be noted that if there is a * sign on the column, users must fill in relevant information in that column as it could not be modified later. 
+
+image::company-details.png[Company Details, align = "center"]
+
+The fields that are needed to be filled in are:
+
+a. Company Code
+b. Company Name
+c. Company Registration No.
+d. Company Incorporation Date
+e. Tax ID #
+f. SST ID #
+g. Phone Number
+h. Fax Number
+i. Currency: Different currencies can be chosen from the drop down list
+j. Website
+k. Email
+l. Description
+m. Abbreviation
+n. Chart of Account
+
+Users can also choose whether they want to upload their company logo now, or upload it later.
+
+=== 2.1.2 ADDRESS
+
+Users are required to fill in their address when creating the company. 
+
+image::company-address.png[Company Address, align = "center"]
+
+The fields that are needed to be filled in are:
+
+a. Address Line 1
+b. Address Line 2
+c. Address Line 3
+d. Address Line 4
+e. Address Line 5
+f. Postal Code
+g. City
+h. Country: Different countries can be chosen from the drop down list
+i. State: Different states can be chosen from the drop down list
+
+After checking all the information filed, the user can click on the “save” button to save the details. 
+
+=== 2.1.3 BRANCH
+
+==== 2.1.3.1 CREATE BRANCH FROM COMPANY LISTING TAB
+
+Users can either choose to create their branch here in the Company Listing edit tab, or to move to the second icon at the left side bar, to create the branch. 
+
+If users choose to create a branch in the Company Listing Page for the selected company, users can click on the “+” sign to start creating the branch. 
+
+image::branch-details.png[Branch Details, align = "center"]
+
+The fields that are needed to be filled in the Details tab are:
+
+a. Branch Code
+b. Branch Name
+c. Company Name: The company name will be displayed as the selected company name by user
+d. Company Registration No.: The company registration no. will be displayed as number filled in by user for the selected company 
+e. Branch Commencement Date
+f. Branch Mobile Number
+g. Branch Phone Number
+h. Branch Fax Number
+i. Branch Email
+j. Currency: Different currencies can be chosen from the drop down list
+k. Description
+l. Abbreviation
+m. Tax Registration Number
+
+image::branch-address.png[Branch Address, align = "center"]
+
+The fields that are needed to be filled in the Address tab are:
+
+a. Address Line 1
+b. Address Line 2
+c. Address Line 3
+d. Address Line 4
+e. Address Line 5
+f. Postal Code
+g. City
+h. Country
+i. Different countries can be chosen from the drop down list
+j. State
+k. Different states can be chosen from the drop down list
+
+After checking all the information filed, the user can click on the “save” button to save the details of the branch. 
+
+==== 2.1.3.2 CREATE BRANCH FROM BRANCH TAB
+
+The second icon on the left menu bar is the ‘Branch’ tab which allows users to create a new branch for a certain company. Users could press the ‘+’ button to create a brand new branch. 
+
+image::company-branch-add.png[Company Branch Add, align = "center"]
+
+When going into the Details tab, users can choose to create their branch with “Create Default Location” or “Choose From Existing Location”.
+
+When creating the branch, users have to first select the company that they wish to create a branch for from the drop down list. Users can choose the company they have created in the Company Listing page. After selecting the company, the Company Name and Company Registration No. will automatically be shown in the column. 
+
+image::company-branch-details.png[Details, align = "center"]
+
+
+If users have chosen “Create Default Location”, the fields that are needed to be filled in the Details tab are:
+
+a. Branch Code
+b. Branch Name
+c. Company Name: The company name will be displayed as the selected company name by user
+d. Company Registration No.: The company registration no. will be displayed as number filled in by user for the selected company 
+e. Branch Commencement Date
+f. Branch Mobile Number
+g. Branch Phone Number
+h. Branch Fax Number
+i. Branch Email
+j. Currency: Different currencies can be chosen from the drop down list
+k. Description
+l. Abbreviation
+m. Tax Registration Number
+
+If users have chosen “Choose from Existing Location”, the fields that are needed to be filled in the Details tab are:
+
+a. Branch Code
+b. Branch Name
+c. Company Name: The company name will be displayed as the selected company name by user
+d. Company Registration No.: The company registration no. will be displayed as number filled in by user for the selected company 
+e. Location Code
+f. Default Location
+g. Branch Commencement Date
+h. Branch Mobile Number
+i. Branch Phone Number
+j. Branch Fax Number
+k. Branch Email
+l. Currency: Different currencies can be chosen from the drop down list
+m. Description
+n. Abbreviation
+o. Tax Registration Number
+
+== 2.2 CASHBOOK APPLET
+
+=== 2.2.1 DETAILS
+
+When logging in into the Cashbook Applet, this is the first page that will be shown to the user, which is the Cashbook Listing page. Then, users could proceed to press the ‘+’ button placed at the top left corner to start creating a cashbook. 
+
+image::cashbook-listing.png[Listing, align = "center"]
+
+Users then could fill in the necessary information on each column. Please be noted that if there is a * sign on the column, users must fill in relevant information in that column as it could not be modified later. 
+
+The fields that are needed to be filled in are:
+
+a. Cashbook Code
+b. Cashbook Name
+c. Account Number
+d. Company Code/ Name (Key in at least 3 characters to start searching from the drop down list)
+e. Currency Code/ Name
+f. GL Code
+
+After checking all the information filed, the user can click on the “save” button to save all the details.
+
+=== 2.2.2 TRIGGERS AND LIMITS
+
+When going into the Triggers and Limits tab, users can fill in the limits and triggers for their created cashbook by typing in their desired amount. 
+
+image::trigger-limit.png[Trigger and Limit, align = "center"]
+
+The are four types of triggers and limits, which are:
+
+a. Low Level Trigger
+b. High Level Trigger
+c. Facility Amount
+d. Overdraft Limit
+
+=== 2.2.3 MEMBERS
+
+When going into the Members tab, users can add in members to the cashbook so that they can have access to the cashbook. This can be done by entering their email in the column.
+
+image::add-user.png[Add User, align = "center"]

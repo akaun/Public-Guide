@@ -1,5 +1,5 @@
 [#h3_bank_reconciliation_introduction]
-= Introduction
+= 1.0 Introduction
 image::bank_reconciliation_applet_logo.png[150,300]
 
 include::intro_description.adoc[leveloffset=3]

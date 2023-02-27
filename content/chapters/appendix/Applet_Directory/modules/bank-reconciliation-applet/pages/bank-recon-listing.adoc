@@ -1,0 +1,62 @@
+[#h3_bank_reconciliation_listing]
+= 3.0 Bank Recon Listing
+
+When logging in into the Bank Reconciliation Applet, this is the first page that will be shown to the user, which is the Bank Recon Listing page. Then, users could proceed to press the ‘+’ button placed at the top left corner to start creating a bank recon. 
+
+image::bank-recon-listing.png[Bank Recon Listing, align = "center"]
+
+== 3.1 Details
+
+Users then could fill in the necessary information on each column. Please be noted that if there is a * sign on the column, users must fill in relevant information in that column as it could not be modified later. 
+
+image::bank-recon.png[Bank Recon, align = "center"]
+
+The fields that are needed to be filled in are:
+
+a. Cashbook: Users can choose the cashbook they have created in Cashbook Applet
+b. Opening Date
+c. Closing Date
+d. Company: Users can choose the company they have created in Organisation Applet
+e. Branch: Users can choose the branch they have created in Organisation Applet
+f. Name
+g. Cash Book Transaction Opening Balance
+h. Cash Book Transaction Closing Balance
+i. Cash Statement Opening Balance
+j. Cash Statement Closing Balance
+k. Status: Processing
+
+image::bank-recon-1.png[Bank Recon, align = "center"]
+
+After creating the bank recon, the created bank recon will be listed in the main page. Users could click on the name of the company to make further changes.
+
+== 3.2 Upload Statement
+
+In the Upload Statement tab, users can upload the bank statements that they wish to do bank recon for. Users just need to go to the “+” button, to start uploading the bank statement. Before uploading, users have to choose the type of bank from the drop down list, and enter the Bank Statement Name. Please be reminded that the file has to be in csv.format. After uploading the statements, users can click the “upload” button to save the details.
+
+image::upload-file.png[Upload File, align = "center"]
+
+== 3.3 Manual Matching
+
+=== 3.3.1 Cashbook Transaction Lines
+
+If the users use our ERP system, the system will automatically help the users to sync all the casebook transaction lines and users will be able to view here.
+
+image::manual-transaction.png[Transaction, align = "center"]
+
+=== 3.3.2 Cashbook Statement Lines
+
+At this tab, users are able to see the list of statement lines they have uploaded here. 
+
+image::manual-statement.png[Transaction, align = "center"]
+
+== 3.4 Auto Matching
+
+Users can choose to go into “Cashbook Transaction Lines” or “Cash Statement Lines”. In both tabs, users can click to view “Match Txn Lines” or “Unmatched Txn Lines”. The automatching button allows users to match all the transaction lines.
+
+image::automatching.png[Auto Matching, align = "center"]
+
+== 3.5 Report
+
+The users are able to generate reports for the bank statement uploaded by clicking on the button “generate report”. Users are able to see a summary of the bank recon.
+
+images::report.png[Report, align = "center"]

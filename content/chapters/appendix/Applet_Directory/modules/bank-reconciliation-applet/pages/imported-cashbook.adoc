@@ -1,0 +1,20 @@
+[#h3_bank_reconciliation_imported_cashbook]
+= 4.0 Imported Cashbook
+
+When logging in into the Imported Cashbook tab, users could proceed to press the ‘+’ button placed at the top left corner to start uploading imported cashbook. This section is mostly in use for users who do not use our ERP systems. 
+
+image::imported-cashbook.png[Imported Cashbook, align = "center"]
+
+image::upload-cashbook.png[Upload Cashbook, align = "center]
+
+== 4.1 Details
+
+image::details.png[Cashbook Details]
+
+After clicking the “+” sign, users are required to choose the cashbook. Users have to click on the cashbook column to select the cashbook created in the Cashbook Applet. Then, users have to upload the file to the below section. Please be reminded that the file uploaded has to be in csv.format. Then, users can proceed to press the “upload” button to upload the file. 
+
+== 4.2 Cashbook Txn Lines
+
+This section is to let users view Cashbook Txn Lines.
+
+image::cashbook-txn-lines.png[Cashbook Txn Lines, align = "center"]

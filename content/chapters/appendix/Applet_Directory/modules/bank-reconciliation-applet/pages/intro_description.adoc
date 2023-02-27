@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+  The main purpose of Bank Reconciliation Applet is to manage the fundamental activities of the applet involving in the matching of individual transactions reported from the bank (via statement or detailed activity report) against relevant internal data to ensure that all the information recorded by the bank is accurate and accounted for in the business’ finance system. 

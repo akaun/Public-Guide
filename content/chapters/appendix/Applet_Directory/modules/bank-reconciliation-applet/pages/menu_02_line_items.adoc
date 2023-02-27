@@ -1,3 +1,0 @@
-[#h3_bank_reconciliation_line_items]
-= Menu 02 - e.g. Line Items
-
