@@ -1,3 +1,0 @@
-[#h3_customer_maintenance_permission_settings]
-= Permission Settings
-
