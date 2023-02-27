@@ -15,7 +15,7 @@ image::Replenishment_Template_Details.png[Details, align = "center"]
 
 Here users can search for and add locations to the Replenishment Template. Only locations related to the company selected in the previous details tab will be shown here. Multiple locations can be selected using the checkboxes and then added to the Replenishment Template by clicking on the Add button.
 
-image::Replenishment_Template_Location_Filter.png[Filter, align = "center"]
+image::Replenishment_Template_Location_Filters.png[Filter, align = "center"]
 
 image::Replenishment_Template_Add_Locations.png[Add Locations, align = "center"]
 
@@ -31,7 +31,7 @@ image::Replenishment_Template_Add_Category_Filters.png[Add Categories, align = "
 
 In the Item Filter tab, users can search and add items for the Replenishment Template. Only items related to the company selected in the previous details tab will be shown here. Users are allowed to filter the list of items displayed based on certain criteria such as item code, name, category, aggregated sales qty, suppliers and attributes. Multiple items can be selected using the checkboxes and then added to the Replenishment Template by clicking on the Add button.
 
-image::Replenishment_Template-Item_Filter.png[Item Filter, align = "center"]
+image::Replenishment_Template_Item_Filter.png[Item Filter, align = "center"]
 
 == 3.5 Item List
 

@@ -17,7 +17,7 @@ The Locations listing page will be auto-populated with locations that are includ
 
 image::Replenishment_Run_Locations.png[Location, align = "center"]
 
-image::Replenishment_Run_Location_Add_Locations.png[Add Location, align = "center"]
+image::Replenishment_Run_Add_Locations.png[Add Location, align = "center"]
 
 == 2.3 Items
 
