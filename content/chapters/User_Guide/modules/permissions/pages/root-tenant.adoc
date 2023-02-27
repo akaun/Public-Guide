@@ -1,0 +1,159 @@
+[#h3_user_guide_permissions_root_tenant]
+= 3.0 Root,Tenant and Applet Role Functionalities
+
+== 3.1 Root Level Roles
+
+=== Permission -> Assignee -> Target
+
+a. High level permission
+b. API Level
+c. Angular Level
+d. Group itself possess a role as well: Owner, Admin, Member
+e. Members inside group possess roles as well
+
+Assignee:- User, Group, Role (description)
+Target:- Branch, Company, Entity
+
+=== Developer : BLG 
+
+a. an manage hostname
+b. Can manage launchpad panel
+c. Can manage catalog
+d. Can manage  group
+e. Can manage team
+f. Can manage workspace in launchpad
+g. Can configure permission for user, self created group and self created tenant
+h. Can install applets from global applet store 
+i. Can assign admin to a tenant, group, team
+j. Can create a new custom role
+k. Can remove or add admin
+l. Can add members into tenant, group, team
+m. Can create workspace
+n. Can invite new users to become members
+o. Can revoke new users’ invitation request
+
+=== Admin : Other IT companies onboard BLG platform
+
+a. Can CRUD hostname
+b. Can CRUD launchpad panel
+c. Can CRUD catalog
+d. Can CRUD group
+e. Can CRUD team
+f. Can CRUD workspace in launchpad
+g. Can configure permission for user, self created group and self created tenant
+h. Can install applets from global applet store 
+i. Can assign admin to a tenant, group, team
+j. Can create a new custom role
+k. Can remove or add admin
+l. Can add members into tenant, group, team
+m. Can create workspace
+n. Cannot remove owner or another admin
+o. Can invite new users to become members
+
+=== Member = End users
+
+a. Can create workspace
+b. Can install applets from global applet store 
+c. Can update own profile
+d. Can invite new users to become members
+e. Can CRUD hostname
+f. Can CRUD group
+g. Can CRUD launchpad
+h. Can CRUD catalog
+i. Can RU applet store
+j. Can R tenant
+
+=== Guest (demo account)
+
+a. Can view launchpad panel but not workspace
+b. Can view all public catalog and applets in global applet store
+c. Can view all root level applets functions
+
+== 3,2 Tenant Level Roles
+
+=== Permission -> Assignee -> Target
+
+a. API Level
+b. Angular Level
+c. Team type: Department, Designation etc etc
+
+Assignee:- User, Group, Role
+Target:- Branch, Company, Entity
+
+=== Owner
+
+a. Can create (applet name)
+b. Can read (applet name)
+c. Can update (applet name)
+d. Can delete (applet name)
+
+=== Admin
+
+a. Can create 
+b. Can read
+c. Can update
+
+=== Member = members that are added into this tenant
+
+a. Can create 
+b. Can read
+
+=== Guest (demo account)
+
+a. Can read only
+
+== 3.3 Applet Level Roles
+
+=== Permission -> Assignee -> Target
+
+a. API Level
+b. Angular Level
+
+Assignee:- User, Group, Role
+Target:- Branch, Company, Entity
+
+=== Owner
+
+a. Can create (applet name)
+b. Can read (applet name)
+c. Can update (applet name)
+d. Can delete (applet name)
+
+=== Admin
+
+a. Can create (applet name)
+b. Can read (applet name)
+c. Can update (applet name)
+
+=== Member = Staff
+
+a. Can create (applet name)
+b. Can read (applet name)
+
+=== Guest (demo account)
+
+a. Can read only (applet name)
+
+=== Group 
+
+==== The owner role
+
+By default, the owner role has the highest level of permissions. Owners can:
+
+a. Add or remove other owners.
+b. Create roles.
+c. Delete the group.
+d. Export group memberships and messages.Members with the owner role have the greatest control over the group, so we recommend e. Keeping the number of owners low. 
+
+==== The manager role
+
+The manager role has these default permissions:
+a. Manage members and moderate content
+b. Add or remove managers
+
+==== The member role
+
+Everyone in a group has the member role by default. Features of the member role include:
+a. Permission to moderate metadata, such as tags, and assign topics in collaboration groups
+b. Permissions set for the member role are automatically given to all other roles
+c. Permissions set for the member role are grayed out in the other roles because they're already applied

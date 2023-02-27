@@ -1,0 +1,11 @@
+[#h2_permissions]
+= Permissions
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/developer-sys-admin.adoc[leveloffset=3]
+
+include::pages/root-tenant.adoc[leveloffset=3]
+
+// This is the page break
+<<<<<<<<<<<

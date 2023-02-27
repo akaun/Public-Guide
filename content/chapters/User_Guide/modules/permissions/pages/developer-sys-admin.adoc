@@ -1,0 +1,49 @@
+[#h3_user_guide_permissions_developer_admin]
+= 2.0 Developer SysAdmin
+
+== 2.1 Select Vendor
+
+image::Vendor_Listing.png[Vendor Listing, align = "center"]
+
+Upon logging into the Developer SysAdmin applet, users will see a list of vendors. Users need to select the vendor which the applet is located in.
+
+=== Select Applet
+
+image::Applets_Listing.png[Listing, align = "center"]
+
+Upon clicking into the Vendor, users will see an “Edit Vendor” tab. Users have to navigate to the “Applets” tab to see the list of applets available in the Vendor. Users can click into the applets to add in Client Side Permissions and Permission Templates for the respective applet.
+
+image::Client_Side_Permission_Listing.png[Listing, align = "center"]
+
+After selecting the applet, users can navigate to the “Client Side Permission” tab. There will be a list of Client Side Permissions shown. To create a new Client Side Permission, users can click on the ‘+’ button.
+
+image::Add_Client_Side_Permission.png[Side Permission, align = "center"]
+
+An “Add Client Side Permission” tab will appear and users are required to fill up the Code, Name and Status of the Client Side Permission. Upon filling up all the necessary information, users need to click on the “SAVE” button. To edit the permission, users can just click into the row of the permission. Users are NOT ALLOWED to edit the permission code.
+
+=== Create & Edit Permission Templates
+
+image::Permission_Templates.png[Permission Templates, align = "center"]
+
+To create Permission Templates for the applet, users have to navigate to the “Permission Templates” tab. Under this tab, there will be a list of permission templates. To create a new permission template, users can click on the ‘+’ button.
+
+image::Create_Permission_Template.png[Permission Template, align = "center"]
+
+To create a permission template, users need to set a Code, Name, Type and Status for it. Upon filling up all the information, users can click on the “SAVE” button to save the permission template.
+
+image::Edit_Permission_Template(Details).png[Edit Permission Details, align = "center"]
+
+To edit the permission template, users can click into the permission template. On the “Details” tab, users can edit the Name, Type, Description and Status of the Permission Template.
+
+image::Edit_Permission_Template(Permission_Definitions).png[Definitions, align = "center"]
+
+Users can add Permission Definitions for each Permission Template on the “Permission Definitions” tab. On the tab, there is a list of Permission Definitions shown. Users can click on the ‘+’ button to add in the permission definitions.
+
+image::Permission_Definitions_Listing.png[Listing, align = "center"]
+
+Upon clicking on the ‘+’ button, users will be able to select multiple permission definitions from the permission definitions listing. After selecting all the required permission definitions, users need to click on the “ADD” button.
+
+image::Delete_Permission_Definitions.png[Permission Definitions, align = "center"]
+
+To delete the permission definition from the permission template, users can select the permission definitions and click on the “DELETE” button at the bottom.
+

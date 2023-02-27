@@ -6,6 +6,8 @@ This repository contains all the source code for publishing the Akaun Platform P
 
 include::modules/applet-users/index.adoc[leveloffset=2]
 
+include::modules/permissions/index.adoc[leveloffset=2]
+
 
 include::modules/project-implementors/index.adoc[leveloffset=2]
 

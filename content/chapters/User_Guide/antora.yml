@@ -4,6 +4,7 @@ version: '1.0'
 start_page: applet-users:introduction.adoc 
 nav: 
 - modules/applet-users/nav.adoc
+- modules/permissions/nav.adoc
 - modules/project-implementors/nav.adoc
 - modules/applet-developers/nav.adoc
 - modules/resellers/nav.adoc
