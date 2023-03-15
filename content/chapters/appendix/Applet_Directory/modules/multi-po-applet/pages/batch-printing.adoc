@@ -1,4 +1,4 @@
-[#h3_multi-po-applet_create_purchase_order]
+[#h3_multi-po-applet_batch-printing]
 = 4.0 Batch Painting
 
 image::MultiPOApplet-BatchPrinting-MultiPOListing.png[Multi PO Listing, align = "center"]
