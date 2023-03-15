@@ -1,0 +1,32 @@
+[#h3_multi-po-applet_multi-branch]
+= 2.0 Multi Branch Purchase Order
+
+image::MultiPOApplet-MultiBranchPO-PurchaseOrderApplet.png[Purchase Order Applet, align = "center"]
+
+
+The Multi Branch PO section has a Multi Branch Purchase Order page. On this page, there is a Search Bar and a Plus “+” sign Button to create a new purchase order. There is also a listing table of purchase orders with columns such as Purchase Order ID, Posting Status, Purchase Order creation date, Branch, Supplier, Status, Created By, Synced Date. There is also a Final Button on top of the listing which can be clicked when the user needs to finalize the order. The orders will not be updated/saved if the final button is not clicked.
+
+In order to get to the Edit Purchase Order page, the user needs to click on any of the listings on the Multi-Branch Purchase Order Page.
+
+== 2.1 Purchase Order Edit
+
+The Purchase Order Edit Page has 3 tabs which are Details, Item & Order Quantity and Export.
+
+=== 2.1.1 Details
+
+image::MultiPOApplet-MultiBranchPO-PurchaseOrderApplet-ViewMultiBranchPurchaseOrder-MainDetails.png[Main Details, align = "center"]
+
+The Details page  of Purchase Order Edit has fields which include PO Date, Branch, Supplier, Reference Document, Remarks. The fields with “*” with them are mandatory to be filled. There is also a Discard button on bottom to discard the details added. 
+There is also a Final Button on top right which can be clicked when the user needs to finalize the order details. The order details will not be updated/saved if the final button is not clicked.
+
+=== 2.1.2 Item & Order Quantity
+
+image::MultiPOApplet-MultiBranchPO-PurchaseOrderApplet-ViewMultiBranchPurchaseOrder-ItemandOrdrQuantity.png[Item and Order Quantity, align = "center"]
+
+The Item & Order Quantity page of Purchase Order Edit tab has a table with columns that are Item Code, Item Name, Unit Cost, Order Quantity, Total Amount and Remarks.
+
+=== 2.1.3 Export
+
+image::MultiPOApplet-MultiBranchPO-PurchaseOrderApplet-ViewMultiBranchPurchaseOrder-Export.png[Export, align = "center"]
+
+The Export page of the Purchase Order Edit page has a Printing Format dropdown where users can select the format of printing and Export as PDF button to export the purchase order.

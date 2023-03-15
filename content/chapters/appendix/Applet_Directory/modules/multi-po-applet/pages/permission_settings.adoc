@@ -1,3 +1,0 @@
-[#h3_multi-po-applet_permission_settings]
-=  Permission Settings
-

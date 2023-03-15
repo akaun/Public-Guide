@@ -1,0 +1,6 @@
+[#h3_multi-po-applet_create_purchase_order]
+= 3.0 Create Multi Branch Purchase Order
+
+image::MultiPOApplet-MultiBranchPO-CreateMultiBranchPurchaseOrder.png[Create Multi Branch Purchase Order, align = "center"]
+
+The user can get to Create Multi-Branch Purchase by clicking on the Plus Button on the Multi Branch Purchase Order page. This page has fields that include Branch, Supplier Code & Name, Reference Document, Remarks. There is also a “Sold item within date range” box to select “From” and “To” date and “show consignment Stock Balance” box where users can select Reset, Delete Items, Reset form, Confirm and Submit. 

@@ -1,6 +1,22 @@
 [#h3_multi-po-applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::multi_po_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+== Who will use the Multi PO Applet?
+
+Multi PO Applet can be used by SMEs (Small and medium-sized businesses), Procurement and purchasing departments, Retailers and wholesalers, Manufacturing companies and Nonprofit organizations. 
+
+== Where will the Multi PO Applet be used?
+
+Multi Purchase Order software is typically used by businesses that need to manage procurement and purchasing activities.
+
+== What are the Benefits of Multi PO Applet?
+
+a. Increased efficiency: By automating the purchase order process, multi PO software can help reduce the time and effort needed to manage procurement. This can free up staff time to focus on more strategic activities.
+
+b. Improved accuracy: Multi PO software can reduce the risk of errors by eliminating manual data entry, reducing the likelihood of incorrect information being entered into the system.
+
+c. Better tracking: Multi PO software allows businesses to track orders more easily, providing real-time visibility into inventory levels and order status. This can help with planning and decision-making.
