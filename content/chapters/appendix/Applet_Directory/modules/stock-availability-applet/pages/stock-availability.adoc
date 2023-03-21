@@ -1,0 +1,15 @@
+[#h3_stock-availability-applet_features]
+= 2.0 Stock Availability 
+
+image::StockAvailability-StockAvailabiltyListing.png
+
+The Stock Availability Listing Page has a Search Bar to search to search for the stock listing in the Table below. The table of the listing has columns that are:
+
+a. Item Code
+b. Item Name
+c. Location
+d. Sum (Stock Balance)
+e. Sum (Adj Qty)
+f. Sum (Available Qty)
+
+Users can also filter the Table according to their needs.

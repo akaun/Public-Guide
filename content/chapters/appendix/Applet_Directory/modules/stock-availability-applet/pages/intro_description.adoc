@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Stock Availability Applet helps businesses manage their inventory and track the availability of stock. It provides real-time information about the status of inventory levels, which helps businesses make informed decisions about restocking, purchasing, and sales.

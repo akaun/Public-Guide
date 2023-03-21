@@ -1,3 +1,0 @@
-[#h3_stock-availability-applet_permission_settings]
-=  Permission Settings
-

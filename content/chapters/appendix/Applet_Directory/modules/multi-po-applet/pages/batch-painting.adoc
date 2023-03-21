@@ -1,0 +1,6 @@
+[#h3_multi-po-applet_create_purchase_order]
+= 4.0 Batch Painting
+
+image::MultiPOApplet-BatchPrinting-MultiPOListing.png[Multi PO Listing, align = "center"]
+
+The second section of the Multi PO Applet is Batch Printing. This first page of this section has MultiPO Listing. There is a Print Button that can be clicked to print the purchase order from the listing below. There is a Search Bar to search the purchase order from the Listing below. The table of the listing has columns that have Purchase Order No. Marketplace Order No, Branch, Supplier, Status, Created By and Creation Date.
