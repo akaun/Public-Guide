@@ -65,3 +65,4 @@ nav:
 - modules/sales-contract-applet/nav.adoc
 - modules/multi-po-applet/nav.adoc
 - modules/stock-availability-applet/nav.adoc
+- modules/internal-purchase-credit-note/nav.adoc

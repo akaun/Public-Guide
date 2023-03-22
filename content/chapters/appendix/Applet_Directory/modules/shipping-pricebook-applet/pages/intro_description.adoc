@@ -1,3 +1,4 @@
 Shipping Pricebook Applet helps the users to manage the cost of shipping and to create different pricesets for items that are being shipped.
 
-Generally, a price book is a catalog that contains multiple pricesets. Every priceset consists of rules and treatments to be applied on a generic document. The rules can be described as conditions whereas the treatments can be described as the actual fees applied to a generic document.
+Generally, a price book is a catalog that contains multiple pricesets. Every priceset consists of rules and treatments to be applied on a Financial Transaction Document. The rules can be described as conditions whereas the treatments can be described as the formula to calculate a certain discount or adjustment in pricing to be made and membership rewards.
+

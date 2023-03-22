@@ -11,21 +11,25 @@ Sometimes, when a person makes an order on any e-commerce site,  the items order
 
 == 1.2 Why should You Use A Shipping Pricebook Applet?
 
-According to an article by BigCommerce, 54% of customers will cancel an order if the shipping costs are too high because  customers these days have high expectations regarding shipping. This shows that using a shipping software doesn’t just benefit the businesses, it also helps your customers.
+Shipping pricebook Applet can provide significant benefits for businesses that ship products, helping to optimize shipping fees, reduce costs, and improve the customer experience.
 
-When you use a shipping software, you’ll have access to up-to-date shipping information from the most popular carriers. This eliminates the guesswork on your end and ensures your pricing information is accurate. Your software will present you with shipping options from a variety of carriers. This allows you to compare your options and choose the one that’s the best fit for your customer.Businesses may be hesitant to invest in shipping software because of the added cost to their  business but if you ship more than a few packages a week, you may actually end up saving money on postage. Using a shipping price software will also save your valuable time. Since you can print labels and packing slips from your computer, you can skip the weekly trip to the post office. It will also ensure that you have adequate inventory to fulfill your shipping orders. 
+Shipping Pricebook Applet allows the user to specify the formulas of shipping fee calculations. This makes it possible for the e-commerce retailers to provide more attractive shipping fees calculations, promotions, free shipping options, which makes it more compelling to the end customers. This allows you to compare your options and choose the one that’s the best fit for your customer. 
 
 == 1.3 What are The Benefits of Shipping Pricebook Applet?
 
-a. It makes it easy for the business to control and monitor the users
+a. It makes it easy for the business to control the shipping fee/Rates.
 
-b. Users can monitor and control shipping details (no of items, address, payment, volume of the order, )
+b. Users can offer the best shipping rate  or prices to their customers.
 
-c. You can have integration between order-taking software, customer relationship management (CRM) software, inventory management software, or anything else that requires access to shipping data. 
+c. Businesses can build trust and customer loyalty by giving best shipping rates and drive more sales
+Transparency about your shipping costs is also great for building brand loyalty.
 
-d. It has a customer support system to cater unhappy customers
+d. Offering multiple shipping options at different price points is another way to lower cart abandonment rates.
 
-e. It gives you access to APIs that allow you to remain in sync with incoming orders while processing current ones.
+e. Having fixed shipping rates will make your business more attractive to your customers and also give you competitive advantage.
 
-f. It gives you comprehensive reporting and analytics system with real-time information like the time taken for parcels to deliver, the number of undelivered orders, and sync orders to help you analyze your shipping operations
+f. It gives your business access to APIs that allow you to remain in sync with incoming orders while processing current ones.
+
+g. Businesses can have integration between order-taking software, customer relationship management (CRM) software, inventory management software, or anything else that requires access to shipping data.
+
 

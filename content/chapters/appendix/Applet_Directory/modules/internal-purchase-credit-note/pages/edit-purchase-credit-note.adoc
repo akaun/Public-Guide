@@ -1,0 +1,223 @@
+[#h3_internal-purchase-credit-note_edit]
+= 3.0 Edit Purchase Credit Note 
+
+== 3.1 Main Details
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-MainDetails.png[Main Details, align = "center"]
+
+The Main Details page of Edit Purchase Credit Note has fields to be filled which are Document Type, Document No (Tenant), Document No (Company), Document No (Branch), Branch, Location, Purchaser, Transaction Date, Credit Terms, Reference, Remarks Currency. The fields with “*” sign with it is mandatory to be filled.
+
+== 3.2 Account
+
+The Account tab of the Edit Purchase Credit Note tab has 3 further pages that are Entity Detail, Bill To and Ship To. 
+
+There is a Reset, Final and Save Button on top right to reset the changes made and Final Button that is to be clicked in order to finalize the changes made after filling in the details in all the pages. The save Button is to save the changes made.
+
+=== 3.2.1 Entity Details
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-MainDetails-EntityDetails.png[Entity Details, align = "center"]
+
+The Entity Details page of the Account tab has fields to be filled that are Entity ID, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number.
+
+=== 3.2.2 Bill To
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-MainDetails-BillTo.png[Bill To, align = "center"]
+
+The Bill to Page of Account tab has fields that are Name, Email, Phone No, Shipping Address, Country, State, City and Postcode.
+
+=== 3.2.3 Ship To
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-MainDetails-ShipTo.png[Ship To, align = "center"]
+
+The Ship to Page of Account tab has fields that are Recipient Name, Email, Phone No, Shipping Address, Country, State, City and Postcode.
+
+== 3.3 Line Items
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-EditIssue-LineItems.png[Line Items, align = "center"]
+
+The Line Items tab has a Table that has information about the items that are Item Code, Item Name, UOM, Qty, Unit Price (inclusive Tax), SST/VAT/GST, Txn Amount. 
+
+The page also has a Plus Button that can be clicked to get to the Select Item Page.
+
+=== 3.3.1 Select Item
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem.png[Select Item, align = "center"]
+
+The Select Item Page has a Search Bar to search for items in the Table Below. The user can click on any item from the table and it will take him to the Add Item Page.
+
+=== 3.3.1.1 Add Item
+
+The Add Item Page has further pages that include Item Details, Costing Details, Pricing Details and Issue Link.
+
+==== 3.3.1.1.1 Item Details
+
+The Item Details page has further tabs that are Main Details, Delivery Instructions and Department。
+
+===== 3.3.1.1.1 Main Details
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+The Main Details Page has all the fields with details of the the item that includes Item Code, Item Name, UOM, Pricing Scheme, Unit Price STD (Inclusive of tax), Unit Price STD (Exclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Inclusive of tax) , Unit Price by STD by UOM (Exclusive of tax), Unit Discount by UOM (Exclusive of Tax), Unit Price Net by UOM  (Exclusive of tax), Unit Price Transaction by UOM  (Inclusive of tax), Unit Price Net  (Exclusive of tax), STD Amount (Unit Price *Quantity), Discount Amount (Exclusive of Tax), Amount Net (Exclusive of Tax), SST Code, SST/GST/VAT, Tax Amount, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of Tax), Last Purchase Price, Txn Amount, and Remarks.
+
+===== 3.3.1.1.2 Delivery Instructions
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-ItemDetails-DeliveryInstruction.png[Delivery Instructions, align = "center"]
+
+The Delivery Instruction page of Item Details has 2 parts, 1st part has delivery instruction with Instructions and Delivery Note and 2nd is Delivery Message Card which has 2 checkboxes that are Copy From Entity Name and Copy from Recipient Name. The 2nd part also has From, To and Message fields.
+
+===== 3.3.1.1.3 Department
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+The Department page of item Details page has Segment, G/L Dimension, Profit Centre and Project.
+
+===== 3.3.1.1.4 Costing Details
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-CastingDetails.png[Costing Details, align = "center"]
+
+The Costing Details page has a table with columns of Company Name, Location Code, Qty, Moving Average Unit Cost, Weighted Average Unit Cost, FIFO Unit Cost, Manual Unit Cost, Last Purchase Unit Cost.
+
+===== 3.3.1.1.5 Pricing Details
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-PricingDetails.png[Pricing Details, align = "center"]
+
+The Pricing Details page has a UOM and table with columns of Pricing Schema Code, Pricing Schema Name, Unit Price and Modified Date.
+
+===== 3.3.1.1.6 Issue Link
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-IssueLink.png[Issue Link, align = "center"]
+
+The Issue link page of Add Item has a Search tab and Table with Project Name, Issue Number Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+====== 3.3.1.1.6.1 Edit Issue
+
+The Edit Issue Page has Project and Issue Number, Further tabs that include Details, Planning, Attachment, Comment, Subtasks, Linked Issues, Worklog and Activity.
+
+====== 3.3.1.1.6.1.1 Details
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Details.png[Details, align = "center"]
+
+The Details page has fields with dropdowns that are Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date.
+
+====== 3.3.1.1.6.1.2 Planning
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Planning.png[Planning, align = "center"]
+
+The Planning Page of Edit issue tab has dropdown fields that are Target Started Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculate End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Story Point, Manday Target, Manday Actual, Manday Allocated, Manday Billing.
+
+====== 3.3.1.1.6.1.3 Attachment
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+The Attachment page of the Edit Issue page has an Upload file button or Drag and Drop file Anywhere option.
+
+====== 3.3.1.1.6.1.4 Comment
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+The Comment Page of Edit issue page has a Search Bar to search for comments in the table below and a plus button to create new comments.
+
+The table has columns which have Date, User and Comment.
+
+====== 3.3.1.1.6.1.5 Subtask
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-SubTask.png[Sub Task, align = "center"]
+
+The Subtask page  of Edit issue page has a Search Bar to search for issues in the table below and Plus Sign Button to create issue under subtasks.
+
+The table has columns that are Issue Type, Issue Number and Summary.
+
+====== 3.3.1.1.6.1.6 Linked Issues
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issues, align = "center"]
+
+The Linked Issue page has a Search Bar to search for projects or  issues in the table below and Plus Sign Button to create linked issues.
+
+The table has columns that are Project, Issue Type, Issue Number, Summary, Description, Assignee, Due Date and Status.
+
+====== 3.3.1.1.6.1.7 Worklog
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklog, align = "center"]
+
+The Worklog page has a Search Bar to search for worklogs in the table below and Plus Sign Button to Create /Log Work. 
+
+====== 3.3.1.1.6.1.8 Log Time
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Worklogs-LogWork.png[Log Work, align = "center"]
+
+The user will get to the Log Work page by clicking on the Plus Sign Button on the worklog page. This page has fields that are Activity Type, Duration and Description.
+
+====== 3.3.1.1.6.1.9 Activity
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+The Activity page of the Edit Issue tab has Project, Issue Number and a Search Bar to search for Activity in the table below.
+The Table below has columns that are Date, User and Activities.
+
+== 3.4 Payment
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Payment.png[Payment, align = "center"]
+
+The Payment tab of Edit Purchase Credit Note has a Plus button to get to the Add Payment page and table below that has Payment Method, Date, Paid Amount and Remarks.
+
+=== 3.4.1 Add Payment
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Payment-AddPayment.png[Add Payment, align = "center"]
+
+The Add Payment page has Settlement Method dropdown with Add Button on top right that should be clicked after selecting the Method.
+
+== 3.5 Department HDR
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-DepartmentHdr.png[Department HDR, align = "center"]
+
+The Department Hdr tab of edit Purchase Credit Note has Segment, G/L Dimension. Profit Centre and Project dropdowns.
+
+== 3.6 Contra
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Contra.png[Contra, align = "center"]
+
+The Contra tab of Edit  Purchase Credit Note has table that has columns with Server Doc Type, Status, Date and Amount Contra.
+
+There is a Plus sign button to get to select document page.
+
+=== 3.6.1 Select Document
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Contra-SelectDocument.png[Select Document, align = "center"]
+
+The Select Document page has a search bar and table with columns of Doc No, Branch, Server Doc Type and Status.
+
+== 3.7 Doc Link
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-ItemDetails-DocLink-CopyFrom.png[Copied From, align = "center"]
+
+The Doc Link page has 2 tabs that are Copied From and Copied To.
+
+=== 3.7.1 Copied From
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-ItemDetails-DocLink-CopyTo.png[Copied To, align = "center"]
+
+The Copied From page of Doc Link has a table with Doc No, Branch, Server Doc Type and Status.
+
+=== 3.7.2 Copied To
+
+The Copied To page of Doc Link has a table with Doc No, Branch, Server Doc Type and Status.
+
+== 3.8 Attachment
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Attachment.png[Attachment, align = "center"]
+
+The attachment page has  a table with columns that are File Name, Size, Updated Date and Updated By.
+
+There is also a plus sign Button to get to Add Payment Page.
+
+=== 3.8.1 Add Attachment
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Attachment-AddAttachment.png[Add Attachment, align = "center"]
+
+The Add Attachment page has Upload File Button and Add button on top right to add the file after the upload.
+
+== 3.9 Export
+
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Export.png[Export, align = "center"]
+
+The Export page of Edit Purchase Credit Note has a dropdown of Printable Format and Export as PDF button.

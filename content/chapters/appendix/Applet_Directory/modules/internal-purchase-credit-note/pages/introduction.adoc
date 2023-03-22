@@ -1,6 +1,23 @@
 [#h3_internal-purchase-credit-note_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::internal_purchase_credit_note_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+== Where and who will the Internal Purchase Credit Note Applet be used?
+
+Internal purchase credit note Applet can be used by any company or organization that needs to track and manage their internal purchases and credit notes. It can be used by the finance or accounting department to issue credit notes to vendors or suppliers for returned goods or services not provided as per agreement. It can also be used to track credits and refunds for internal purchases made by employees, such as office supplies, software licenses, or travel expenses. The usage of Internal Purchase Credit Note Applet would depend on the needs of the organization and how they manage their internal purchases and accounting processes.
+
+== How will Internal Purchase Credit Note Applet benefit businesses?
+
+Improved accuracy and efficiency: TheInternal Purchase Credit Note Applet automates the process of creating credit notes for internal purchases, reducing the chances of errors and making the process more efficient. This can save time for the accounting or finance department and reduce the workload for employees.
+
+Better tracking and reporting: The Internal Purchase Credit Note Applet can provide a centralized system to track internal purchases, credit notes, and refunds, making it easier to identify trends and analyze data. This can help businesses make better decisions regarding their purchases and vendor relationships.
+
+Cost savings: By reducing errors and streamlining the credit note process, the Internal Purchase Credit Note Appletcan help businesses save money on administrative costs associated with managing internal purchases and credit notes.
+
+Improved vendor relationships: The Internal Purchase Credit Note Appletcan help businesses manage their vendor relationships better by providing a clear and transparent process for issuing credit notes. This can help businesses build trust with their vendors and ensure that they receive accurate and timely credit for returned goods or services not provided as per agreement.
+Compliance: The Internal Purchase Credit Note Appletcan help businesses comply with accounting and tax regulations by providing a centralized and auditable system for managing internal purchases and credit notes.
+
+Overall, Internal Purchase Credit NoteInternal Purchase Credit Note Applet can help businesses save time, reduce errors, improve financial reporting, and build stronger vendor relationships, all of which can contribute to their bottom line.

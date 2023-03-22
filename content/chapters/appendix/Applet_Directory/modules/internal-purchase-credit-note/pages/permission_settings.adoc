@@ -1,3 +1,0 @@
-[#h3_internal-purchase-credit-note_permission_settings]
-=  Permission Settings
-

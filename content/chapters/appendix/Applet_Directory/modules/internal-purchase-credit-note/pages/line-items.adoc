@@ -1,0 +1,10 @@
+[#h3_internal-purchase-credit-note_line_items]
+= 4.0 Line Items
+
+The Line Item Section has line item listing.
+
+== 4.1 Line Items Listing
+
+image::InternalPurchaseCreditNoteApplet-LineItem-LineItemListing.png[Line Item Listing, align = "center"]
+
+The Line Item Listing page has a Search Bar  to search for line items listed below in the table and the table with columns which are Internal Purchae Credit Note No., Item Code, Item Name, Qty, Unit Price (Inclusive of Tax), SST/VAT/GST and Txn Amount.
