@@ -1,71 +1,95 @@
 [#h3_accounting_project_implementation_steps]
-= Module Name - Project Implementation Steps
+= 2.0 Accounting Module- Project Implementation Steps
+
+== List Up EMP Configurations
+
+=== 1. Set Up Company 
+
+a. Organization Applet 
+    - Create Company -> Create Branch -> Create Location
+        -> Branch cannot be created without creating a company beforehand
+        -> Branches within a company cannot be linked with another company
+        -> Each locations can be linked to different branches within a company
+
+b. Chart of Account Applet
+    - Company Listing in Chart of Account applet are the companies that are created in Organization Applet
+    - Users would not be able to create a company in Chart of Account Applet
+    - Chart of Account Applet is used for accounting related purposes: Ledgers, Fiscal Year etc.
+
+c. Changes in Organization Applet will automatically be shown in Chart of Account Applet as well
 
 
-== Scope Management (End Results)
+=== 2. Cashbook Configuration
 
-_Begin with the end in mind_ 
+a. Cashbook Applet
+    - Create a cashbook
+        -> Cashbook can be created for different branches
+        -> Selected member can be added into a certain cashbook to keep the details confidential by going to Member tab -> Insert the member’s emails
+        ->Trigger and Limit : Alert users when the amount of money is running low or is too high
 
-* This is where we define the end results and priorities
+b. Bank Reconciliation Applet
+    - Upload bank statement
+    - Run auto-matching
 
-* We decide what to do in phase 1, phase 2, phase 3 etc.
+=== 3. Location Configuration
 
-* This is where we create the WBS (Work Break Down) as well.
+=== 4. Branch Configuration
 
-== Project Gantt Chart
+=== 5.GST Configuration
 
-* Defining Activities
-** List down all the activities involved for each work breakdown
+=== 6. Tax Configuration Applet
 
-* Sequence Activities
-** Which one first, which one next 
+=== 7. Configuring tax according to different countries’ rate
 
-* Estimated Resource Requirements for each activity
-** Estimate how long it will take, what skills may be required to do this
+=== 8. Creating users and passwords
 
-* Schedule
-** Identify the activities dependency, and based on resource availability , developing a schedule
+a. Sales Order Applet - go to Settings
+    - Go to Permission Wizard, Permission Set, User Permission, Team Permission, Role Permission - assign respective tasks to each employee
 
-* Identify Critical Path
+b. Employee Applet
+    - Add virtual employees
 
-== Project Kickstart Meeting
+=== 9. Adding Chart of Account
 
+a. Go to Organization Applet
+    - Select Chart of Account for selected company
+    - One Chart of Account can be linked to multiple companies
+        -> Chart of Account will display by companies if one Chart of Account is used for multiple companies
 
-== Weekly Meeting
+=== 10. Configure Inventory Category
 
-== Agile Method
+=== 11. Setting Up Financial Year and Financial Period
 
-== Cashflow Projection
+a. Go to Chart of Account Applet
+    - Go to Fiscal Year
+        -> Choose Company and Name
+        -> Select the Start Date and End Date
+    - Fiscal Period will automatically appear after creating Fiscal Year
 
+=== 12. Configure Permissions
 
-== Human Resource Management
+a. Every Applet has different permissions settings
 
-* Milestones and Rewards
+=== 13. Card Payment Configurations
 
-== Communication Management
+=== 14. Recommended EMP Configurations
 
+=== 15. Logo Configuration
 
-== Risk Management
+=== 16. Printable Configuration
 
-* Identify third party dependency
+== Set of Books
 
-* Identify backup plans
+a. Every company has a primary ledger
 
-* Identify contingency plans
+b. Secondary ledger is optional
 
-== UAT (User Acceptance Test)
+c. Each branch is considered as primary ledger
 
-
-== Requirement Analysis
-
-
-== Project Goes Live
-
-== Post Mortem
-
-
-
-
+d. If two branches are combined to create a consolidated ledger, it is a secondary ledger 
+    - Set of Book 1 = Branch 1 only (Primary Ledger)
+    - Set of Book 2 = Branch 2 only (Primary Ledger)
+    - Set of Book 3 = Branch 1 and Branch 2 (Branch 1 Primary Ledger, Branch 2 Primary Ledger, and Branch 1 and 2 Consolidated/ Secondary Ledger)
 
 
 
