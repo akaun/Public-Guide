@@ -1,0 +1,43 @@
+[#h3_debtor_creditor_report_applet_outstanding_entity]
+= 4.0 Outstanding Entity Report Listing
+
+== 4.1 Landing Page of Outstanding Entity Report Listing
+
+This page shows the supplier code, Customer Code, Entity Name, Company name, Currency, PNS Amount, Settlement amount, Docs Open, Contra and Balance.
+
+We can search by Supplier code, Customer Code and Entity name.
+
+image::OutstandingEntityReportListing-MainDetails.png[Main Details, align = "center"]
+
+== 4.2 Entity Report Transactions of Outstanding Entity Report Listing
+
+After Clicking on any row we can see the Entity Report Transactions.
+
+The Entity Report Transactions has three tabs which are Entity Details, Subledger Report and Transaction Docs.
+
+=== 4.2.1 Entity details of Entity Report Transactions
+
+This page shows Entity ID, Entity Name, Entity Type, Status, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number.
+
+We can click Statement and Statement (Aging) to download statements.
+
+image::OutstandingEntityReportListing-EntityReportTransactions-EntityDetails-1.png[Entity Details, align = "center"]
+
+image::OutstandingEntityReportListing-EntityReportTransactions-EntityDetails-2.png[Entity Details, align = "center"]
+
+=== 4.2.2 Subledger Report of Entity Report Transactions
+
+This page shows Doc Number, Txn Type and Description.
+
+We can click Export to export the report.
+
+image::OutstandingEntityReportListing-EntityReportTransactions-SubledgerReport.png[Subledger Report, align = "center"]
+
+=== 4.2.3 Transaction Docs of Entity Report Transactions
+
+This page shows Doc Number, Txn Type and Description.
+
+We can click Export to export the report.
+
+image::OutstandingEntityReportListing-EntityReportTransactions-TransactionDocs.png[Transaction Docs, align = "center"]
+

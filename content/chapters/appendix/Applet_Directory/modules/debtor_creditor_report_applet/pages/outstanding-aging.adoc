@@ -1,0 +1,89 @@
+[#h3_debtor_creditor_report_applet_outstanding_aging]
+= 3.0 Outstanding Aging Report Listing
+
+== 3.1 Landing Page of Outstanding Aging Report Listing
+
+Entity Code, Entity Name, Currency, last 6 months, 6 months+ (Total History before 6 months) and lastly ARAP Doc Open And ARAP Balance. 
+
+The negative data shows the Amount Payable and the Positive data shows the Amount Receivable.
+
+We can search by the Entities and Companies.
+
+image::OutstandingAgingReportListing-MainDetails-1.png[Main Details, align = "center"]
+
+image::OutstandingAgingReportListing-MainDetails-2.png[Main Details, align = "center"]
+
+== 3.2 Aging Report Transactions
+
+Aging Report Transactions has 2 tabs which are Main and Outstanding Docs.
+
+=== 3.2.1 Main Page of Aging Report Transaction
+
+After clicking on any row from the dashboard we can see the Aging Report Transactions page.
+
+This Page shows the Entity ID, Entity Name, Status, Entity Type, Identity Type, Id Number, Currency, GL Code, Description, Email and Phone Number
+
+image::AgingReportTransactions-main-1.png[Main, align = "center"]
+
+image::AgingReportTransactions-main-2.png[Main, align = "center"]
+
+=== 3.2.2 Outstanding Docs Page of Aging Report Transaction
+
+This Page shows the Txn Date, Doc No, Doc Type, Description, Doc Open and Contra.
+
+image::AgingReportTransactions-OutstandingDocs.png[Oustanding Docs, align = "center"]
+
+==== 3.2.2.1 Main Page of Outstanding Docs Page of Aging Report Transaction
+
+After Clicking on any row from the Outstanding Docs we can see the main page of Outstanding Docs Page.
+
+This Page shows the Company, Branch, Doc Type, Doc No, Transaction Date, Due Date, Age, Currency, ARAP Doc Open, ARAP Doc Contra, ARAP Balance, Created By, Update By, Created Date and Updated Date.
+
+image::AgingReportTransactions-OutstandingDocs-Main-1.png[Main, align = "center"]
+
+image::AgingReportTransactions-OutstandingDocs-Main-2.png[Main, align = "center"]
+
+==== 3.2.2.2 Line Items of Outstanding Docs Page of Aging Report Transaction
+
+This page shows the Item Code, Item Name, Description, Tax Code, UOM, Qty, Standard Price, Discount, Unit Price (Exclude GST) and Total Amount (Excl. GST).
+
+image::AgingReportTransactions-OutstandingDocs-LineItems.png[Line Items, align = "center"]
+
+==== 3.2.2.3 Journal Txn of Outstanding Docs Page of Aging Report Transaction
+
+This page shows the GL Code, Entity, Description, Debit and Credit.
+
+image::AgingReportTransactions-OutstandingDocs-JournalTxn.png[Journal Txn, align = "center"]
+
+==== 3.2.2.4 Contra of Outstanding Docs Page of Aging Report Transaction
+
+This page shows the Doc Type, Status and Description.
+
+image::AgingReportTransactions-OutstandingDocs-Contra.png[Contra, align = "center"]
+
+===== 3.2.2.4.1 Copied From of Doc Link of Outstanding Docs Page of Aging Report Transaction
+
+This page shows the Doc No, Branch, Server Doc Type and Status.
+
+image::AgingReportTransactions-OutstandingDocs-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+===== 3.2.2.4.2 Copied To of Doc Link of Outstanding Docs Page of Aging Report Transaction
+
+This page shows the Doc No, Branch, Server Doc Type and Status.
+
+image::AgingReportTransactions-OutstandingDocs-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+==== 3.2.2.5 CashBook of Outstanding Docs Page of Aging Report Transaction
+
+This page shows the Doc No, Txn Date, Remarks, Bank Recon, Cash ACC Info and Amount.
+
+image::AgingReportTransactions-OutstandingDocs-CashBook.png[Cashbook, align = "center"]
+
+
+
+
+
+
+
+
+

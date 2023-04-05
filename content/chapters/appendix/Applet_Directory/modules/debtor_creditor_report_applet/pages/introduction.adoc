@@ -1,5 +1,5 @@
 [#h3_debtor_creditor_report_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::debtor_credit_report_applet_logo.png[150,300]
 

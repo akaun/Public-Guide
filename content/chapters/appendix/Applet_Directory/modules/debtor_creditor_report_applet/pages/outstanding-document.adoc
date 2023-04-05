@@ -1,0 +1,127 @@
+[#h3_debtor_creditor_report_applet_outstanding]
+= 2.0 Outstanding Document Report Listing
+
+== 2.1 Landing Page of Outstanding Document Report Listing
+
+Entity Code, Entity Name, Doc No, Txn Date, Doc Type, Company, Age, Currency, ARAP Doc Open, ARAP Contra and ARAP Balance. We can also search for them.
+
+image::OutstandingDocumentReportListing-MainDetails.png.[Listing, align = "center"]
+
+== 2.2 View Outstanding Document
+
+image::ViewOutstandingDocument-Details-1.png[Details, align = "center"]
+
+image::ViewOutstandingDocument-Details-2.png[Details, align = "center"]
+
+After clicking on any row we can view View Outstanding Document page.
+
+There are Details tab, account tab, Line Items tab, Delivery Details tab, Settlement tab, Department tab, Contra tab and doc link tab in the View Outstanding Document page.
+
+=== 2.2.1 Details Page of View Outstanding Document
+
+The Details Page Shows Company, Branch, Doc Type, Doc No, Transaction Date, Due Date, Age (Days), Currency, ARAP Doc Open,  ARAP Contra and ARAP Balance with the Created By, Last Modified By, Creation Date and last Modified Date. 
+Click Print to print the Details.
+
+=== 2.2.2 Account Page of View Outstanding Document
+
+Account page has 3 tabs which are Entity Details, Bill to and ship to.
+
+==== 2.2.2.1 Entity Details of Account
+
+This Page shows the Entity Details which consist of Entity Id, Entity Name, Status, Entity Type, Identity Type, Id Number, Currency, GL Code, Description, Email and Phone number.
+
+The mandatory fields has (*) sign.
+
+image::ViewOutstandingDocument-Account-EntityDetails.png[View Details, align = "center"]
+
+==== 2.2.2.2 Bill To of Account
+
+This Page shows the Address of Bill to, which consist of Name, Email, Phone Number, Billing Address, City, Postcode, State, and Country.
+
+image::ViewOutstandingDocument-Account-BillTo.png[Bill To, align = "center"]
+
+==== 2.2.2.3 Ship To of Account
+
+This Page shows the Address of Ship to, which consist of Receipt Name, Email, Phone Number, Shipping Address, City, Postcode, State, and Country.
+
+image::ViewOutstandingDocument-Account-ShipTo.png[Ship To, align = "center"]
+
+=== 2.2.3 Line Items of View Outstanding Document
+
+This Page shows the Item Code, Item Name, UOM, Unit Price, SST/VAT/GST and Txn Amount
+
+image::ViewOutstandingDocument-LineItems.png[Line Items, align = "center"]
+
+==== 2.2.3.1 Item Details of Line Items
+
+Double click on any row to see the item list.
+
+===== 2.2.3.1.1 Main Details of Item Details
+
+This Page shows the Item Code, Item Name, UOM, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price by UOM, Unit Discount by UOM, Unit Price, Unit Discount, Discount Amount, STD Amount (Unit Price x Quantity), Net Amount (STD Amount - Discount Amount), Tax Code, SST/GST/VAT, Tax Amount, Net Amount (SST/GST/VAT x Net Amount), WHT Code, WHT, WHT Amount, Txn Amount and Remarks.
+
+image::ViewOutstandingDocument-ItemDetails-MainDetails-1.png[Main Details, align = "center"]
+
+image::ViewOutstandingDocument-ItemDetails-MainDetails-2.png[Main Details, align = "center"]
+
+image::ViewOutstandingDocument-ItemDetails-MainDetails-3.png[Main Details, align = "center"]
+
+image::ViewOutstandingDocument-ItemDetails-MainDetails-4.png[Main Details, align = "center"]
+
+===== 2.2.3.1.2 Delivery Instruction of Item Details
+
+This Page shows the Delivery Instruction and Delivery Date along with the Delivery Message Card which contains the From, To and Message.
+
+image::ViewOutstandingDocument-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+===== 2.2.3.1.3 Department of Item Details
+
+This Page shows the Segment, G/L Dimension, Profit Centre and Project.
+
+image::ViewOutstandingDocument-ItemDetails-Department.png[Department, align = "center"]
+
+=== 2.2.4 Delivery Details of View Outstanding Document
+
+This Page shows the Trip No, Driver Name, Vehicle No, Job Start Date, Job End Date, Delivery Status and Recipient Name.
+
+image::ViewOutstandingDocument-DeliveryDetails.png[Delivery Details, align = "center"]
+
+=== 2.2.5 Settlement of View Outstanding Document
+
+This Page shows the payment method, Date, Paid amount, Remarks.
+
+image::ViewOutstandingDocument-Settlement.png[Settlement, align = "center"]
+
+=== 2.2.6 Department of View Outstanding Document
+
+This Page shows the Segment, G/L Dimension, Profit Centre, Project.
+
+image::ViewOutstandingDocument-Department.png[Department, align = "center"]
+
+=== 2.2.7 Contra of View Outstanding Document
+
+This Page shows the Doc Type, Status and Description.
+
+image::ViewOutstandingDocument-Contra.png[Contra, align = "center"]
+
+=== 2.2.8 Copied From of Doc Link of View Outstanding Document
+
+This Page shows the Doc No, Branch, Server Doc Type and Status.
+
+image::ViewOutstandingDocument-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+=== 2.2.9 Copied To of Doc Link of View Outstanding Document
+
+This Page shows the Doc No, Branch, Server Doc Type and Status.
+
+image::ViewOutstandingDocument-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+
+
+
+
+
+
+
+
+
