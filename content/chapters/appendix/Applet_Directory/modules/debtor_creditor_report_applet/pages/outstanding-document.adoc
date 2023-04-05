@@ -5,7 +5,7 @@
 
 Entity Code, Entity Name, Doc No, Txn Date, Doc Type, Company, Age, Currency, ARAP Doc Open, ARAP Contra and ARAP Balance. We can also search for them.
 
-image::OutstandingDocumentReportListing-MainDetails.png.[Listing, align = "center"]
+image::OutstandingDocumentReportListing-MainDetails.png[Listing, align = "center"]
 
 == 2.2 View Outstanding Document
 

@@ -39,5 +39,5 @@ This page shows Doc Number, Txn Type and Description.
 
 We can click Export to export the report.
 
-image::OutstandingEntityReportListing-EntityReportTransactions-TransactionDocs.png[Transaction Docs, align = "center"]
+image::OutstandingEntityReportListing-EntityReportTransactions-TransactionReport.png[Transaction Docs, align = "center"]
 
