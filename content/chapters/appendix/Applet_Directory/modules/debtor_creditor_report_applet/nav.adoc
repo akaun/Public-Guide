@@ -1,5 +1,5 @@
 * Debtor And Creditor Report Applet 
 ** xref:introduction.adoc[Introduction]
-** xref:oustanding-document.adoc[Outstanding Document Report Listing]
-** xref:oustanding-aging.adoc[Outstanding Aging Report Listing]
-** xref:oustanding-entity.adoc[Outstanding Entity Report Listing]
+** xref:outstanding-document.adoc[Oustanding Document Report Listing]
+** xref:outstanding-aging.adoc[Oustanding Aging Report Listing]
+** xref:outstanding-entity.adoc[Oustanding Entity Report Listing]
