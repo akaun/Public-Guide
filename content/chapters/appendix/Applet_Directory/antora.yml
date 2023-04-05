@@ -66,3 +66,4 @@ nav:
 - modules/multi-po-applet/nav.adoc
 - modules/stock-availability-applet/nav.adoc
 - modules/internal-purchase-credit-note/nav.adoc
+- modules/debtor_creditor_report_applet/nav.adoc
