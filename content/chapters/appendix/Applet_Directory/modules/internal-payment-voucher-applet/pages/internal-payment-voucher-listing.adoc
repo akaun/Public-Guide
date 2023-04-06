@@ -42,7 +42,7 @@ a. Name, Email and Phone No will be Autofill after Entity ID is selected.
 b. List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
 c. The list of Billing Addresses displayed depends on the Supplier Maintenance Applet.
 
-image::CreatePaymentVoucher-Account-Payee-SelectBillingAddress.pnh[Billing Address, align = "center"]
+image::CreatePaymentVoucher-Account-Payee-SelectBillingAddress.png[Billing Address, align = "center"]
 
 == 2.3 Expenses Tab
 
@@ -55,7 +55,7 @@ b. A tab of Add Item will be displayed on the right side when one of the items i
 
 image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem.png[Select Item, align = "center"]
 
-image::CreatePaymentVoucher-Expenses-AddExpenses-AddItem.png[Add Item, align = "center"]
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem.png[Add Item, align = "center"]
 
 === 2.3.1 Item Details Tab
 
