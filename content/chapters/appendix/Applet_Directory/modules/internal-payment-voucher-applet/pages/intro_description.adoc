@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Payment Voucher Applet is used to add one or many internal payment vouchers. It is used to manage the listing of the internal payment vouchers, providing an ease of recording payments made to suppliers and maintaining a history of payments for your business.

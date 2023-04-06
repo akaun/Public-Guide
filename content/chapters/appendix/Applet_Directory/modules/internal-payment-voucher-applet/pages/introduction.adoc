@@ -1,5 +1,5 @@
 [#h3_internal_payment_voucher_applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::internal_payment_voucher_applet_logo.png[150,300]
 

@@ -1,0 +1,249 @@
+[#h3_internal_payment_voucher_applet_voucher_listing]
+= 2.0 Internal Payment Voucher Listing
+
+Please Click The ‘+’ Button To Add a New Payment Voucher.
+
+== 2.1 Main Details Tab
+
+Please fill up the compulsory (*) information for creating the payment voucher. Compulsory Information:
+
+a. Branch-Add new branch in Organization Applet
+b. Location-Add new location in Organization Applet
+c. Currency-Depend on the selected branch
+d. Other fields are optional
+
+image::CreatePaymentVoucher-MainDetails.png[Main Details, align = "center"]
+
+When the field of Checked By or Approved By is clicked, a list of employees will be displayed on the right side which allows you to select an employee from it. 
+
+image::CreatePaymentVoucher-MainDetails-SelectEmployee.png[Select Employee, align = "center"]
+
+== 2.2 Account Tab
+
+=== 2.2.1 Entity Details Tab
+
+Compulsory Information:
+
+a. Entity ID-Add new Entity in Entity Maintenance Applet
+b. Entity Name-Will auto fill once you select the entity ID
+c. Other fields will be filled automatically once Entity ID is selected
+
+image::CreatePaymentVoucher-Account-EntityDetails.png[Entity Details, align = "center"]
+
+After the Entity Id has been clicked, a list of suppliers will be displayed on the right side.
+
+You can select the supplier from the list.
+
+image::CreatePaymentVoucher-Account-EntityDetails-SelectSupplier.png[Select Supplier, align = "center"]
+
+=== 2.2.2 Payee Tab
+
+a. Name, Email and Phone No will be Autofill after Entity ID is selected.
+b. List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+c. The list of Billing Addresses displayed depends on the Supplier Maintenance Applet.
+
+image::CreatePaymentVoucher-Account-Payee-SelectBillingAddress.pnh[Billing Address, align = "center"]
+
+== 2.3 Expenses Tab
+
+In the Expenses Tab, users are allowed to add new expenses, for instance electricity bill, water bill and other expenses by choosing items created in the Inv Item Maintenance Applet. This tab can help users to track all the expenses for a particular payment voucher. Total amount and tax of all the expenses can be viewed in this tab.
+
+Please click the ‘+’ button to add new expenses.
+
+a. List of items will be displayed on the right side for selection.
+b. A tab of Add Item will be displayed on the right side when one of the items is clicked and the changes can be saved by clicking on the Add button.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem.png[Select Item, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-AddItem.png[Add Item, align = "center"]
+
+=== 2.3.1 Item Details Tab
+
+==== 2.3.1.1 Main Details Tab
+
+You can edit the item that you have selected.
+
+Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-MainDetails-1.png[Main Details, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-MainDetails-2.png[Main Details, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-MainDetails-3.png[Main Details, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-MainDetails-4.png[Main Details, align = "center"]
+
+==== 2.3.1.2 Delivery Instruction Tab
+
+In the Delivery Instruction:
+
+a. Add Instruction and Set the Delivery Date
+b. When the calendar icon at the Delivery Date field is clicked, a calendar will be pop up for date selection
+
+In the Delivery Message Card:
+a. Add a message with the sender and receiver
+b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-DeliveryInstruction-1.png[Delivery Instruction, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-DeliveryInstruction-2.png[Delivery Instruction, align = "center"]
+
+==== 2.3.1.3 Department Tab
+
+Click on the ‘Copy from Hdr’ for getting the settings for Department.
+
+Fill in the information for the department.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+=== 2.3.2 Costing Details Tab
+
+Showing all the costing details such as company code, location code etc about the selected item.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-CostingDetails.png[Costing Details, align = "center"]
+
+=== 2.3.3 Pricing Details Tab
+
+Showing all the pricing details such as pricing scheme code, name etc.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-PricingDetails.png[Pricing Details, align = "center"]
+
+==== 2.3.3.1 Edit Pricing Details Tab
+
+Select the pricing scheme code and make changes on it.
+
+After done select the amount of each field, please click on the “Add” to change the selected pricing scheme.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-PricingDetails-EditPricingDetails-1.png[Edit Pricing Details, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-PricingDetails-EditPricingDetails-2.png[Edit Pricing Details, align = "center"]
+
+=== 2.3.4 Issue Link Tab
+
+a. Showing list of issue link
+b. Contain project name, issue number, issue summary and etc
+c. An Edit Issue tab will be displayed on the right side when one of the issue link is clicked
+d. In the Edit Issue tab, users can fill in fields of Issue Number and Summary
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink.png[Issue Link, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue.png[Edit Issue, align = "center"]
+
+==== 2.3.4.1 Edit Issue - Details Tab
+
+Drop down fields like Project. Issue Type, Assignee, Reporter, Summary, Description, and Parent as well as Created Date are selectable.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Details-1.png[Details, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Details-2.png[Details, align = "center"]
+
+==== 2.3.4.2 Edit Issue - Planning Tab
+
+Can fill in fields such as Target Start Date, Target End Date, Actual Start Date and so on.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Planning-1.png[Planning, align = "center"]
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Planning-2.png[Planning, align = "center"]
+
+==== 2.3.4.3 Edit Issue - Attachment Tab
+
+Can upload file from local device by dragging and dropping your file on the field or clicking the Upload File button.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+==== 2.3.4.4 Edit Issue - Comment Tab
+
+A list of comments can be viewed at this tab.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+==== 2.3.4.5 Edit Issue - Subtasks Tab
+
+A list of subtasks can be viewed at this tab.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Subtasks.png[Subtasls, align = "center"]
+
+==== 2.3.4.6 Edit Issue - Linked Issues Tab
+
+A list of linked issues can be viewed at this tab.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issues, align = "center"]
+
+==== 2.3.4.7 Edit Issue - Worklogs - Log Time Tab
+
+Log Time tab will be displayed on the right side when the ‘+’ button is clicked.
+
+There are fields such as Activity Type, Date, Duration and Description to be filled.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Worklogs-LogTime.png[Log Time, align = "center"]
+
+==== 2.3.4.8 Edit Issue - Activity Tab
+
+A list of activities can be viewed in this tab.
+
+image::CreatePaymentVoucher-Expenses-AddExpenses-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+== 2.3 Payment Tab
+
+a. Can add different payment method such as Cash, Credit Card, Membership Point Currency, Voucher and Cheque
+b. Can add a new settlement method in the Cashbook Applet
+
+=== 2.3.1 Cash
+
+Please fill in the compulsory fields such as Date, Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePaymentVoucher-Payment-Cash.png[Cash, align = "center"]
+
+=== 2.3.2 Voucher
+
+Please fill in the compulsory fields such as Voucher # and Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePaymentVoucher-Payment-Voucher.png[Voucher, align = "center"]
+
+=== 2.3.3 Credit Card
+
+Please fill in the compulsory fields such as Date, Amount, Credit Card No and Name on Card.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePaymentVoucher-Payment-CreditCard.png[Credit Card, align = "center"]
+
+=== 2.3.4 Membership Point Currency
+
+Please fill in the compulsory fields such as Date, Amount, Credit Card No and Name on Card.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePaymentVoucher-Payment-MembershipPointCurrency.png[Currency, align = "center"]
+
+=== 2.3.5 Cheque
+
+Please fill in the compulsory fields such as Date, Amount and Cheque No.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePaymentVoucher-Payment-Cheque.png[Cheque, align = "center"]
+
+== 2.4 Department Hdr Tab
+
+Can select Segment, G/L Dimension, Profit Centre and Project when creating Purchase Invoice.
+
+image::CreatePaymentVoucher-DepartmentHdr.png[Department Hdr, align = "center"]
+
+== 2.5 Doc Link Tab
+
+A list of Doc Link which contains information such as Doc No, Branch, Server Doc Type,etc. can be viewed in both Copied From and Copied To sub tabs.
+
+image::CreatePaymentVoucher-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+image::CreatePaymentVoucher-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+== 2.6 View Internal Payment Voucher Listing
+
+A list of internal payment vouchers can be viewed in the first screen of this applet.
+
+image::ViewInternalPaymentVoucherListing.png[Listing, align = "center"]

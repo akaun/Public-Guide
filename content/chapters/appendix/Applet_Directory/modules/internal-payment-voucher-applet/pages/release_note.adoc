@@ -1,6 +1,0 @@
-[#h3_internal_payment_voucher_applet_release_note]
-=  Release Note
-
-
-
-
