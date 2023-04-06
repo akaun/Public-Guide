@@ -1,0 +1,44 @@
+[#h3_my-sst_tax_filling]
+= 2.0 Tax Filling Listing
+
+How to set up an SST Applet?
+
+a. Create Tax Year
+
+    - Company -> Fill in Organization Applet - Company
+    - Fiscal Year -> Fill in Chart of Account Name -> A short description on the company and SST Filing period
+    - Filing Cycle Duration -> SST Filing Period
+
+b. Create Tax Filing 
+
+    - Create the tax filing and fill in all the details accordingly.
+
+image::Image-1.png[Image, align = "center"]
+
+    - In Doc Item Maintenance Applet -> make sure that all the items and pricing scheme are correct. 
+    - In Internal Sales Invoice Applet -> make sure that all the invoice is correct, with the correct SST.
+    - Make sure that the invoice we want to file is finalize in Internal Sales Invoice Applet (click “FINAL”)
+
+image::Image-2.png[Image, align = "center"]
+
+    - Go to SST Applet ->Check whether the SST code is for service or sales and select accordingly ->  Click on unfile txn -> click on the filter -> choose the branch and date accordingly -> search
+
+image::Image-3.png[Image, align = "center"]
+
+image::Image-4.png[Image, align = "center"]
+
+image::Image-5.png[Image, align = "center"]
+
+    - The sales invoice we generate with SST code should come out and we need to file all the related documents. 
+
+image::Image-6.png[Image, align = "center"]
+
+    - Go to filed transaction -> filter button (still discussing with Ida whether to set the report as default) -> search and the filed items will filter out accordingly. 
+
+image::Image-7.png[Image, align = "center"]
+
+    - To generate SST - 02 report, click on “SST-02” -> click “search”
+
+image::Image-8.png[Image, align = "center"]
+
+

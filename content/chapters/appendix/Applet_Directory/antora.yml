@@ -68,3 +68,4 @@ nav:
 - modules/internal-purchase-credit-note/nav.adoc
 - modules/debtor_creditor_report_applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
+- modules/my-sst-applet/nav.adoc

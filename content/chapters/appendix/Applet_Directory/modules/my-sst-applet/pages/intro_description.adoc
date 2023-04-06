@@ -1,0 +1,2 @@
+Tax type maintenance, to maintain GST/SST/VAT tax types at your own definition.
+
