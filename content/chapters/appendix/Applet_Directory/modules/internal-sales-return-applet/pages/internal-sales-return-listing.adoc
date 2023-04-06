@@ -48,7 +48,7 @@ image::CreatePurchaseReturn-MainDetails-2.png[Main Details, align = "center"]
 
 We can see the Entity Details, Bill to and ship to tabs.
 
-image::CreatePurchaseReturn-Account-Tabs.png[Tabs, align = "center"]
+image::CreatePurchaseReturn-AddNewPurchaseReturn-tabs.png[Tabs, align = "center"]
 
 ==== 2.2.2.1 Entity Details Tab
 
@@ -183,7 +183,7 @@ After that we can input the Serial Number using From and to.
 
 Select Serial Number Type and click Scan.
 
-image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-scan.png[Scan, align = "center"]
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-Scan.png[Scan, align = "center"]
 
 ===== 2.2.3.4.3 Import tab of Serial Number Tab
 
@@ -191,7 +191,7 @@ Click Upload File to upload file.
 
 We can click remove button to remove.
 
-image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-import.png[Import, align = "center']
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-Import.png[Import, align = "center']
 
 ==== 2.2.3.5 Costing Details Tab
 
@@ -263,7 +263,7 @@ image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Com
 
 Showing all the list of Subtask with Issue Type, Issue Number, Summary, Description, Assignee, Priority, Due date and Status.
 
-image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Subtask.png[Subtask, align = "center"]
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Subtasks.png[Subtask, align = "center"]
 
 ====== 2.2.3.7.1.6 Linked Issues tab of Edit Issue
 
