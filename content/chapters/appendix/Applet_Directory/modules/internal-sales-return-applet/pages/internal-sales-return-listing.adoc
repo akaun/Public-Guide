@@ -1,0 +1,392 @@
+[#h3_internal-sales-return-applet_listing]
+= 2.0 Internal Purchase Return Listing Page
+
+This Page shows the Listing of Internal Purchase Return.
+
+Every line consists of Doc No, Posting Status, Branch, Supplier Name, Purchaser, Created Date, Transaction Date, Created By and Updated Date.
+
+image::CreatePurchaseReturn-ListingPage.png[Listing Page, align = "center"]
+
+== 2.1 Edit Purchase return of Internal Purchase Return Listing Page
+
+To edit or see the data we can click on any lines from the listing.
+
+It will show the Main Details, Account, Lines, Settlement, Department Hdr, Contra, Doc Link, Export and Attachment.
+
+image::CreatePurchaseReturn-ListingPage-EditPurchaseReturn.png[Edit Purchase Return, align = "center"]
+
+Please click the ‘+’ button to add a new purchase Return.
+
+It will show Main Details, Account, Lines, Settlement, KO For and Department Hdr tabs.
+
+image::CreatePurchaseReturn-AddNewPurchaseReturn.png[Add New, align = "center"]
+
+== 2.2 Tabs to add a new purchase Return.
+
+It will show Main Details, Account, Lines, Settlement, KO For and Department Hdr tabs.
+
+image::CreatePurchaseReturn-AddNewPurchaseReturn-tabs.png[Tabs, align = "center"]
+
+=== 2.2.1 In the Main Details Tab
+
+Please fill up the compulsory (*) information for creating the purchase Return. 
+
+Compulsory Information:
+
+a. Branch-Select branch from Organization Applet
+b. Location-Select location from Organization Applet
+c. Purchaser- Select purchaser from Customer Maintenance Applet
+d. Transaction Date-Will default put current date
+e. Currency-Depend on the selected branch / Select the currency
+f. Other fields are optional
+
+image::CreatePurchaseReturn-MainDetails-1.png[Main Details, align = "center"]
+
+image::CreatePurchaseReturn-MainDetails-2.png[Main Details, align = "center"]
+
+=== 2.2.2 In the Account Tab
+
+We can see the Entity Details, Bill to and ship to tabs.
+
+image::CreatePurchaseReturn-Account-Tabs.png[Tabs, align = "center"]
+
+==== 2.2.2.1 Entity Details Tab
+
+Compulsory Information:
+
+a. Entity ID-Add new Entity in Entity Maintenance Applet
+b. Entity Name-Will auto fill once you select the entity ID
+c. Other fields will be auto fill when have select the Entity ID
+
+image::CreatePurchaseReturn-Account-EntityDetails.png[Entity Details, align = "center"]
+
+After the Entity Id has been clicked, a list of suppliers will be displayed on the right side.
+
+The mode should be Select Mode to select the supplier from the list.
+
+image::CreatePurchaseReturn-Account-EntityDetails-SelectSupplier.png[Select Supplier, align = "center"]
+
+==== 2.2.2.2 Bill To Tab
+
+Name, Email and Phone No will be Autofill after have select the Entity ID.
+
+List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+
+We can create new address in the “SelectSupplier-SupplierEdit-Address-AddressCreate-Main-1”
+
+image::CreatePurchaseReturn-Account-BillTo-SelectSupplier.png[Select Supplier, align = "center"]
+
+We can Select the Billing Address from the List.
+
+The fields are Address, City, Postal Code, State and country in the Billing Address.
+
+image::CreatePurchaseReturn-Account-BillTo-SelectBillingAddress.png[Select Billing Address, align = "center"]
+
+==== 2.2.2.3 Ship To Tab
+
+Name, Email and Phone No will be Autofill after have select the Entity ID.
+
+List of Shipping Addresses will be displayed on the right side for selection after clicking on the Shipping Address.
+
+We can create new address in the “SelectSupplier-SupplierEdit-Address-AddressCreate-Main-1”.
+
+image::CreatePurchaseReturn-Account-ShipTo-SelectSupplier.png[Select Supplier, align = "center"]
+
+We can Select the Shipping Address from the List.
+
+The fields are Address, City, Postal Code, State and country in the Shipping Address.
+
+image::CreatePurchaseReturn-Account-ShipTo-SelectShippingAddress.png[Select Shipping Address, align = "center"]
+
+=== 2.2.3 In the Line Items Tab
+
+Please click the ‘+’ button to add new line items.
+
+image::CreatePurchaseReturn-LineItems-1.png[Line Items, align = "center']
+
+==== 2.2.3.1 A list of items will be displayed on the right side.
+
+All items here are added in the Doc Item Maintenance Applet.
+
+For more details about the Item, can refer to Doc Item Maintenance Applet.
+
+image::CreatePurchaseReturn-LineItems-SelectItem.png[Select Item, align = "center"]
+
+==== 2.2.3.2 Click on the item that you want to add
+
+The Add Item Page will be displayed on the right side with all the details of the selected item.
+
+Add Item Page will show the Item Details, Serial Number, costing Details, Pricing scheme and Issue Link tabs.
+
+==== 2.2.3.3 Item Details Tab
+
+It shows Main Details, Delivery Instruction and Department .
+
+===== 2.2.3.3.1 In the Main Details Tab of Item Details Tab
+
+You can edit the item that you have selected.
+
+Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-1.png[Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-2.png[Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-3.png[Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-4.png[Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-MainDetails-5.png[Details, align = "center"]
+
+===== 2.2.3.3.2 In the Delivery Instruction Tab of Item Details Tab
+
+a. In the Delivery Instruction
+    - Add Instruction and Set the Delivery Date
+b. In the Delivery Message Card 
+    - Add a message with the sender and receiver
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-DeliveryInstruction-1.png[Delivery Instruction, align = "center"]
+
+We Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-DeliveryInstruction-2.png[Delivery Instruction, align = "center"]
+
+===== 2.2.3.3.3 In the Department Tab of Item Details Tab
+
+Click on the ‘Copy from Hdr’ for getting the settings for Department.
+
+Fill in the information for the department, The fields are Segment, G/L Dimension, Profit Centre and project.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+==== 2.2.3.4 Serial Number Tab
+
+===== 2.2.3.4.1 Listing tab of Serial Number Tab
+
+This tab only appears when we serialise the products while adding.
+
+After clicking the Serial Number, The list will appear. We can Select and add them by clicking on the add button.
+
+We can select the serial number and click the remove button to remove.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-Listing-1.png[Listing, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-Listing-2.png[Listing, align = "center"]
+
+===== 2.2.3.4.2 Scan tab of Serial Number Tab
+
+We need to select the Delimiter.
+
+Then need to Input the Serial Number and can click the add button to add.
+
+After that we can input the Serial Number using From and to.
+
+Select Serial Number Type and click Scan.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-scan.png[Scan, align = "center"]
+
+===== 2.2.3.4.3 Import tab of Serial Number Tab
+
+Click Upload File to upload file. 
+
+We can click remove button to remove.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-SerialNumber-import.png[Import, align = "center']
+
+==== 2.2.3.5 Costing Details Tab
+
+Showing all the costing details such as company code, location code etc about the selected item.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-CostingDetails.png[Costing Details, align = "center"]
+
+==== 2.2.3.6 Pricing Details Tab
+
+Select UOM.
+
+Select Rows to see the list.
+
+Showing all the pricing details such as pricing schema code, name, Unit Price and modified date.
+
+We can search by pricing schema code, name, Unit Price and modified date.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-PricingDetails.png[Details, align = "center"]
+
+==== 2.2.3.7 Issue Link Tab
+
+Showing list of issue link.
+
+Contain project name, issue number and issue summary.
+
+Click on the project row to Edit Issue.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink.png[Issue Link, align = "center']
+
+===== 2.2.3.7.1 Edit Issue
+
+Input the Issue Number and Summary.
+
+====== 2.2.3.7.1.1 Details tab of Edit Issue
+
+Select the Project,  Issue Type, Assignee, Reporter, Summary, Parent.
+
+Input Description and created date.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Details-1.png[Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Details-2.png[Details, align = "center"]
+
+====== 2.2.3.7.1.2 Planning tab of Edit Issue
+
+Select the Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculate Start Date, Calculate End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount.
+
+Input Story Point, Manday Target, Manday Actual, Manday Allocated and Manday Billing.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Planning-1.png[Planning, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Planning-2.png[Planning, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Planning-3.png[Planning, align = "center"]
+
+====== 2.2.3.7.1.3 Attachment tab of Edit Issue
+
+Click “Upload File” to Attach the file.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+====== 2.2.3.7.1.4 Comment tab of Edit Issue
+
+Showing all the list of comment with date and user.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+====== 2.2.3.7.1.5 Subtask tab of Edit Issue
+
+Showing all the list of Subtask with Issue Type, Issue Number, Summary, Description, Assignee, Priority, Due date and Status.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Subtask.png[Subtask, align = "center"]
+
+====== 2.2.3.7.1.6 Linked Issues tab of Edit Issue
+
+Showing all the list of Linked Issues with Issue Type, Issue Number and Summary.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issues, align = "center"]
+
+====== 2.2.3.7.1.7 Worklogs tab of Edit Issue
+
+Showing all the list of Worklogs  with Date, Name and Time Spent.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklog, align = "center"]
+
+====== 2.2.3.7.1.8 Activity tab of Edit Issue
+
+Showing all the list of Activity with Date, User and Activities.
+
+Click Add to add the Issue.
+
+image::CreatePurchaseReturn-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+== 2.3 Edit Lines
+
+Please click on the lines that want to make changes.
+
+It will show the Item Details, Serial Number, costing Details, Pricing scheme and Issue Link tabs.
+
+image::CreatePurchaseReturn-LineItems-1.png[Line Items, align = "center"]
+
+=== 2.3.1 Edit Item
+
+All the fields are the same as the steps of adding items, and are editable.
+
+In the Doc Link Tab, will show the Doc No that copy from and copy to.
+
+Other tabs are the same as Adding Line items. 
+
+Please click on “Save” after making the changes.
+
+image::CreatePurchaseReturn-LineItems-EditItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-ItemDetails-Department.png[Department, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-ItemDetails-DocLink-CopyFrom.png[Copy From, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-ItemDetails-DocLink-CopyTo.png[Copy To, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-CostingDetails.png[Costing Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-PricingDetails.png[Pricing Details, align = "center"]
+
+image::CreatePurchaseReturn-LineItems-EditItem-IssueLink.png[Issue Link, align = "center"]
+
+== 2.4 Settlement Tab
+
+Can add a new settlement method in the Cashbook Applet.
+
+Clicking “+” will appear add settlement Page.
+
+image::CreatePurchaseReturn-Settlement.png[Settlement, align = "center"]
+
+Can add different payment method such as Cash, Credit Card, Membership Point Currency, Voucher and Cheque.
+
+image::CreatePurchaseReturn-Settlement-AddPayment.png[Add Payment, align = "center"]
+
+=== 2.4.1 Cash
+
+Please fill in the compulsory fields such as Date, Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePurchaseReturn-Settlement-AddPayment(Cash).png[Cash, align = "center"]
+
+=== 2.4.2 Voucher
+
+Please fill in the compulsory fields such as Voucher # and Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePurchaseReturn-Settlement-AddPayment(Voucher).png[Voucher, align = "center"]
+
+=== 2.4.3 Credit Card
+
+Please fill in the compulsory fields such as Date, Amount, Credit Card No, Name on Card, Card Issuer, Card Type, Card Expiry and CVV.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePurchaseReturn-Settlement-AddPayment(CreditCard)-1.png[Credit Card, align = "center"]
+
+image::CreatePurchaseReturn-Settlement-AddPayment(CreditCard)-2.png[Credit Card, align = "center"]
+
+=== 2.4.4 Membership Point Currency
+
+Please fill in the compulsory fields such as Date, Amount, Point CCY and Point Currency for Settlement.
+
+Click on the ‘Add’ to add the settlement
+
+image::CreatePurchaseReturn-Settlement-AddPayment(MembershipPointCurrency).png[Currency, align = "center"]
+
+=== 2.4.5 Cheque
+
+Please fill in the compulsory fields such as Date, Amount and Cheque No.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreatePurchaseReturn-Settlement-AddPayment(Cheque).png[Cheque, align = "center"]
+
+== 2.6 KO For Tab
+
+Showing the item that the user can knock off.
+
+Click on the item that want to knock off.
+
+Then Click on the ‘KNOCK OFF’.
+
+A knock off or knockoff is a copy of an original that sells for a considerably lower price.
+
+image::CreatePurchaseReturn-KOFor.png[KO For, align = "center"]
+
+== 2.7 Department Hdr Tab
+
+Can select Segment, G/L Dimension, Profit Centre and Project when creating Purchase Return
+
+image::CreatePurchaseReturn-DepartmentHdr.png[Department Hdr, align = "center"]

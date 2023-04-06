@@ -1,0 +1,15 @@
+[#h3_internal-sales-return-applet_line-items-listing]
+= 4.0 Line Items Listing
+
+The page shows line Items with the fields of Purchase Return No, Item Code, Item Name, Ordered Qty, Unit Price (Inclusive of tax), SST/VAT/GST, Tax Amount, Creation date and Requested Delivery date.
+
+Show all the line items according to the purchase Return no.
+
+If you click on the line item row, it will show page same as Edit Line Item.
+
+Please click “Save” after the details of the item is done edited.
+
+image::LineItemsListing.png[Line Items Listing, align = "center"]
+
+image::LineItemsListing-EditLineItem.png[Edit Line Items, align = "center"]
+
