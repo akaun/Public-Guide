@@ -168,4 +168,4 @@ include::modules/debtor_creditor_report_applet/index.adoc[leveloffset=2]
 
 include::modules/my-sst-applet/index.adoc[leveloffset=2]
 
-include::modules/internal-purchase-return-applet.adoc/index.adoc[leveloffset=2]
+include::modules/internal-purchase-return-applet/index.adoc[leveloffset=2]
