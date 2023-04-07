@@ -69,5 +69,5 @@ nav:
 - modules/debtor_creditor_report_applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
 - modules/my-sst-applet/nav.adoc
-- modules/internal-sales-return-applet/nav.adoc
+- modules/internal-purchase-sales-return-applet/nav.adoc
 - modules/internal-rma-applet/nav.adoc
