@@ -4,3 +4,22 @@
 image::internal_purchase_return_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+The Internal Purchase Return Applet can import Lines from the following Applets:
+
+a. Organization Applet
+b. Pricebook Applet
+c. Doc Item Maintenance Applet
+d. Purchase Order Item
+e. Customer Maintenance Applet
+f. Chart of Accounts Applet
+
+The Internal purchase Return is a Return that is used in conjunction with a purchase order. It is used to indicate how much money the seller owes to the buyer.
+
+Listormation in Internal Purchase Return Applet is used by which applets:
+
+a. Purchases Invoice Applet
+b. Purchase Debit Note
+c. Purchase Credit Note
+d. Debtor and Creditor Report Applet
+e. Stock Availability Applet
