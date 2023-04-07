@@ -1,0 +1,103 @@
+[#h3_internal-rma-applet_customer_rma_listing]
+= 3.0 Customer RMA Listing
+
+image::CustomerRMAListing.png[Customer RMA Listing, align = "center"]
+
+By Clicking on the Customer RMA section, the user will get to the Customer RMA Listing page. The table contains columns such as Customer RMA no, Branch Name, Customer Name, Created Date.
+
+== 3.1 Edit Customer RMA
+
+image::CustomerRMAListing-EditCustomerRMA.png[Edit Customer RMA, align = "center"]
+
+By clicking on any listing on the Customer RMA page , the user will get to Edit Customer RMA page. The Edit page has tabs that includes Main Details, Account, Lines, Attachments, Export and Event.
+
+=== 3.1.1 Main Details
+
+image::EditCustomerRMA-MainDetails.png[Main Details, align = "center"]
+
+The Main Details tab has fields such as Customer RMA No, Branch, Location, Status, Remarks and Tracking ID. 
+There is a Delete button on bottom to delete the RMA and Save button on top right which can be clicked to save the edits after filling in all the information.
+
+=== 3.1.2 Account
+
+The second tab under Edit Customer RMA is Account which has further 3 pages which are Entity Details, Sending Branch and Receiving Branch.
+
+==== 3.1.3.1 Entity Details 
+
+image::EditCustomerRMA-Account-EntityDetails.png[Entity Details, align = "center"]
+
+The Entity Details page has all the information fields about the entity that includes Entity ID, Entity Name, Status, Entity Type, ID Number, Currency, Email, Description and Phone Number. The fields with “*” signs with them are mandatory to be filled.
+
+==== 3.1.3.2 Sending Branch
+
+image::EditCustomerRMA-Account-SendingBranch.png[Sending Branch, align = "center"]
+
+The Sending Branch page of the Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Sending Branch. 
+
+==== 3.1.3.3 Receiving Branch
+
+image::EditCustomerRMA-Account-ReceivingBranch.png[Receiving Branch, align = "center"]
+
+The Receiving Branch page of Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Receiving Branch. 
+
+=== 3.1.3 Lines
+
+image::EditCustomerRMA-Lines.png[Lines, align = "center"]
+
+The Lines tab of the Edit Customer RMA tab has a search bar to search for service notes from the table below and a plus sign which can be clicked to open the Add Item Page.
+
+image::EditCustomerRMA-Lines-AddItem.png[Add Item, align = "center"]
+
+The Add item page has a search bar to search for the service note number from the table below. Users can click on any service note from the table to get to another page that has Details, Attachments, Extended Warranty, Repair History and Trace Serial Number. There is also an Add button on top right to Add the note after filling in all the information as shown below.
+
+image::EditCustomerRMA-Lines-AddItem2.png[Add Item, align = "center"]
+
+=== 3.1.4 Attachments
+
+image::EditCustomerRMA-Attachments.png[Attachment, align = "center"]
+
+The Attachment tab of the Edit Customer RMA page has a plus sign to add new attachment and a table that contains columns with details such as File Name, Size, Updated Date and Uploaded By. 
+
+=== 3.1.5 Export
+
+image::EditCustomerRMA-Export.png[Export, align = "center"]
+
+The Export tab of Edit Customer RMA Page is used to export the file. The user will get options to export as PDF, CSV, DOCS AND ZIP. There is also a Delete to delete the file. 
+
+=== 3.1.6 Events
+
+image::EditCustomerRMA-Events.png[Events, align = "center"]
+
+The Events tab of Edit Customer RMA Page has a search bar to search for Events from the listing below. The table below has columns that contain Event Code, Date Transaction, Date Completed, User ID, Device ID and Description.
+
+== 3.2 Add New Customer RMA
+
+Upon clicking on the Plus sign button on Customer RMA Listing, user will get to Add New Customer RMA Page that has further 2 tabs which are Main Details and Account.
+
+=== 3.2.1 Main Details
+
+image::AddNewCustomerRMA-MainDetails.png[Main Details, align = "center"]
+
+The Main Details tab has fields such as Customer RMA No, Branch, Location, Status, Remarks and Tracking ID. There is a Create Button on Top right which can be clicked after filling in the details in order to create the new customer RMA.
+
+=== 3.2.2 Account
+
+The second tab under Create New Customer RMA is Account which has further 3 pages which are Entity Details, Sending Branch and Receiving Branch.
+
+==== 3.2.2.1 Entity Details
+
+image::AddNewCustomerRMA-Account-EntityDetails.png[Entity Details, align = "center"]
+
+The Entity Details page has all the information fields about the entity that includes Entity ID, Entity Name, Status, Entity Type, ID Number, Currency, Email, Description and Phone Number. The fields with “*” signs with them are mandatory to be filled.
+
+==== 3.2.2.2 Sending Branch
+
+image::AddNewCustomerRMA-Account-SendingBranch.png[Sending Branch, align = "center"]
+
+The Sending Branch page of the Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Sending Branch. 
+
+==== 3.2.2.3 Receiving Branch
+
+image::AddNewCustomerRMA-Account-ReceivingBranch.png[ReceivingBranch, align = "center"]
+
+The Receiving Branch page of Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Receiving Branch. 

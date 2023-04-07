@@ -1,0 +1,50 @@
+[#h3_internal-rma-applet_line_item_listing]
+= 4.0 Customer RMA Line Item Listing
+
+image::CustomerRMALineItemsListing.png[Line Items Listing, align = "center"]
+
+In the Customer RMA Line Listing page there is a Search Bar to search for customer RMA from the listing below. The table below has the listing with columns that contains: 
+
+a. Customer RMA No.
+b. Service Note No
+c. Branch Name 
+d. Supplier Name
+e. Item Name
+f. Serial Number
+g. Reason
+h. Request Action
+i. Created Date
+j. Modified Date
+
+== 4.1 Edit Line Item
+
+The Edit Line Item Page has a further tab that is Item Details. 
+
+=== 4.1.1 Item Details
+
+The Item Details tab has 2 more pages that are Main Details and Doc Link.
+
+==== 4.1.1.1 Main Details
+
+image::ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+The Main details page of the Edit line item contains fields such as Item Code, Item Name, Serial Number, Reason of Repair, other reason, type of scotch , Supplier Name, Location, Status, Resolution.
+
+The very bottom of the page has a Delete Button to delete the line item details.
+
+==== 4.1.1.2 Doc Link
+
+The Doc Link Page further 2 tabs that are copied to and copied from.
+
+===== 4.1.1.1.2.1 Copied From
+
+image::ItemDetails-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+The Copied from tab has a table with columns that has Doc No, Branch, Server Doc Type, Status and Date.
+
+===== 4.1.1.1.2.2 Copied To
+
+image::ItemDetails-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+The Copied to tab has a similar table with columns that has Doc No, Branch, Server Doc Type, Status and Date.
+There is a Save Button on Top Right to save all the information after being filled.

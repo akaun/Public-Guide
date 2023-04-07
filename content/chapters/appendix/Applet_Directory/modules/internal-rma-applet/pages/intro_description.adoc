@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Internal RMA (Return Merchandise Authorization) Applet is  used by businesses to manage customer returns and product repairs or replacements. This applet is to streamline the process of managing customer returns and product repairs, which can improve customer satisfaction and reduce operational costs for a company.

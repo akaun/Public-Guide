@@ -1,0 +1,47 @@
+[#h3_internal-rma-applet_supplier_listing]
+= 6.0 Supplier RTV Line Listing
+
+The Supplier Line Item Listing page has a listing of line items. There is a search bar to search for line items in the table below.
+
+The Table Below has columns which contains:
+
+a. Supplier RTV NO
+b. Service Note No.
+c. Branch Name
+d. Supplier Name
+e. Item Name
+f. Serial Number
+g. Reason
+h. Request Action
+i. Created Date
+j. Modified Date
+
+== 6.1 Edit Line Item
+
+Users will get to the Edit Line Item Page upon clicking on any Line Item from the listing. This page has 1 tab which is Item details.
+
+=== 6.1.1 Item Details
+
+The Item Details page has 2 tabs which are Main Details and Doc Link.
+
+==== 6.1.1.1 Main Details
+
+image::EditLineItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+The Main Details page has all the fields of line items with fields that includes Item Code, Item Name, Serial No, Reason of Repair, Other Reason, Type of Stock, Location and aDelete button at the very bottom to delete the details.
+
+==== 6.1.1.2 Doc Link
+
+The Doc Link tab has 2 more pages which are Copied To and Copied From.
+
+===== 6.1.1.2.1 Copied From
+
+image::EditLineItem-ItemDetails-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+The Copied From page has a table which contains columns that are Doc No, Branch, Server Doc Type, Status and Date.
+
+===== 6.1.1.2.2 Copied To
+
+image::EditLineItem-ItemDetails-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+The Copied To page has a table that contains columns with details such as Doc No, Branch, Server Doc Type, Status and Date.

@@ -1,0 +1,87 @@
+[#h3_internal-rma-applet_supplier_listing]
+= 5.0 Supplier RTV Listing
+
+image::SupplierRTVListing.png[Supplier RTV Listing, align = "center"]
+
+The Supplier RTV Listing has a search bar to search for any supplier RTV from the listing below. The plus button on the side is to add a new supplier RTV listing. The table has a column which has Supplier RTV no, Branch Name, Supplier Name, Created Date and Status.
+
+== 5.1 Edit Supplier RTV
+
+If the user clicks on any of the listings they will get to the Edit Supplier RTV page which has 2 tabs that are Main Details and Account.
+
+=== 5.1.1 Main Details
+
+image::EditSupplierRTV-MainDetails.png[Details, align = "center"]
+
+The Main Details Page has fields which are Supplier RTV No, Branch, Location, Status, Remarks and Tracking ID and a Save button on top right to save all the information edited. 
+
+=== 5.1.2 Account
+
+The Account tab of Edit Supplier RTV has 3 more tabs that are Entity Details, Sending Branch and Receiving Branch. 
+
+==== 5.1.2.1 Entity Details
+
+image::EditSupplierRTV-Account-EntityDetails.png[Entity Details, align = "center"]
+
+The Entity Details page has all the information fields about the entity that includes Entity ID, Entity Name, Status, Entity Type, ID Number, Currency, Email, Description and Phone Number. The fields with “*” signs with them are mandatory to be filled.
+
+==== 5.1.2.2 Sending Branch
+
+image::EditSupplierRTV-Account-SendingBranch.png[Sending Branch, align = "center"]
+
+The Sending Branch page of the Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Sending Branch. 
+
+==== 5.1.2.3 Receiving Branch
+
+image::EditSupplierRTV-Account-ReceivingBranch.png[Receiving Branch, align = "center"]
+
+The Receiving Branch page of Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Receiving Branch. 
+There is a Delete button at the very bottom to delete the details of Entity , Receiving Branch and  sending branch.
+
+=== 5.1.3 Lines
+
+image::EditSupplierRTV-Lines.png[Lines, align = "center"]
+
+The Lines tab of Edit Supplier tab has a search bar to search for service note no. The plus sign button is to be clicked when the user wants to select an item from the listing below from the table. 
+
+==== 5.1.3.1 Select Item
+
+image::EditSupplierRTV-Lines-SelectItem.png[Select Item, align = "center"]
+
+==== 5.1.3.2 Add Item
+
+image::EditSupplierRTV-Lines-SelectItem-AddItem.png[Add Item, align = "center"]
+
+The Add item tab has pages with Item Details, Attachments, Extended Warranty, Repair History and Trace Serial Number. There is an Add button on top right that should be clicked in order to save all the details after being filled.
+
+=== 5.1.4 Add New Supplier RTV
+
+Upon clicking on the Plus button in the Supplier RTV Listing, the user will get to Add New Supplier RTV Page. This Page has 2 tabs which are Main Details and Account.
+
+==== 5.1.4.1 Main Details
+
+image::AddNewSuppplierRTV-MainDetails.png[Main Details, align = "center"]
+
+The Main Details Page has fields which are Supplier RTV No, Branch, Location, Status, Remarks and Tracking ID and a Create button on top right to create a new supplier RTV.
+
+==== 5.1.4.2 Account
+
+The Account tab of Create New Supplier RTV has 3 more tabs that are Entity Details, Sending Branch and Receiving Branch. 
+
+==== 5.1.4.3 Entity Details
+
+image::AddNewSuppplierRTV-Account-EntityDetails.png[Entity Details, align = "center"]
+
+The Entity Details page has all the information fields about the entity that includes Entity ID, Entity Name, Status, Entity Type, ID Number, Currency, Email, Description and Phone Number. The fields with “*” signs with them are mandatory to be filled.
+
+==== 5.1.4.4 Sending Branch 
+
+image::AddNewSuppplierRTV-Account-SendingBranch.png[Sending Branch, align = "center"]
+
+The Sending Branch page of the Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Sending Branch.
+
+==== 5.1.4.5 Receiving Branch
+
+image::AddNewSuppplierRTV-Account-ReceivingBranch.png[Receiving Branch, align = "center"]
+
+The Receiving Branch page of Account tab contains information such as Name, Email, Phone No, Billing Address, Country, State, City and Postcode of the Receiving Branch. 

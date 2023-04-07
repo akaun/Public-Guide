@@ -1,0 +1,168 @@
+[#h3_internal-rma-applet_service_note_listing]
+= 2.0 Service Note Listing
+
+image::ServiceNoteListing.png.[Service Note Listing, align = "center"]
+
+The first section in the slide bar is Service Note which has the Service Note Listing in a table. The Service Note Listing page has a plus “+” sign on top to add a service note and a search bar along with it to search for any service note from the list. Clicking on any service note from the table will open the Edit Service Note page from the right. The table of Service Note Listing contains following columns:
+
+a. Service Note No
+b. Branch Name
+c. Customer Name
+d. Item Name
+e. Created Date
+f. Reason
+
+== 2.1 Edit Service Note 
+
+image::EditServiceNote-Main.png[Main, align = "center"]
+
+By clicking on any row from the Service Note Listing Page, the user will get to the Edit Service Note page. This page has many tabs which are Main Details, Account, Gen Doc, Attachments, Export and Events. 
+
+The save button on top right can be clicked after keying in all the information to save. And Delete Button at the very bottom can be used to remove the service note from the listing.
+
+=== 2.1.1 Main Details
+
+The Main Details tab has all the entails about the service note which includes: 
+
+a. Item Code
+b. Itam Name
+c. UOM
+d. Serial No.
+e. Service Note No. 
+f. CRM Contact
+g. Member Card
+h. Tracking ID
+i. Expiry Date 
+j. Extended  Expiry
+k. Branch Location
+l. Reason
+m. Request Action
+n. Remarks
+o. Status
+p. Workflow Status
+q. Workflow Resolution
+
+=== 2.1.2 Account
+
+The Account tab has further 3 tabs which are Entity details, Sending Branch and Receiving Branch.
+
+image::EditServiceNote-Account-EntityDetails.png[Entity Details, align = "center"]
+
+==== 2.1.2.1 Entity Details
+
+The Entity Details page has all the details regarding the Entity personal information which includes Entity ID, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, Email, Description and Phone Number.
+The fields with “*” sign with it is mandatory to be filled.
+
+==== 2.1.2.2 Sending Branch
+
+image::EditServiceNote-Account-SendingBranch.png[Sending Branch, align = "center"]
+
+The sending Branch Page has fields including Name, Email, Phone Number, Billing Address, Entity ID, Country State, City and Postcode. 
+
+The Entity ID should be selected first in order to get other information about the Entity.
+
+==== 2.1.2.3 Receiving Branch
+
+image::EditServiceNote-Account-ReceivingBranch.png[Receiving Branch, align = "center"]
+
+The Receiving Branch Page consists of all the fields about the receiving branch such as Recipient Name, Email, Phone Number, Shipping Address, Entity ID, Country, State, City and Postcode.
+
+The Entity ID should be selected first in order to get other information about the Entity.
+
+=== 2.1.3 Gen Doc
+
+The Gen Doc page has 4 tabs which are Job Sheet, Invoice, Receipt Voucher and Payment Voucher.
+
+==== 2.1.3.1 Job Sheet
+
+image::GenDoc-JobSheet.png[Job Sheet, align = "center"]
+
+The Gen Doc page has a search Bar on top to search for any job sheet from the list below. The plus “+” sign is used to add in a new job sheet. The table has columns which are Job Sheet No. Item Code, Item Name and Quantity.
+
+image::GenDoc-JobSheet-JobSheetLinkAdd.png[Link Add, align = "center"]
+
+By clicking on the plus sign user will get to the Job Sheet Link Add page with a search bar to search for the Job sheet no in the list below and an Add button on top right to add the link. 
+
+==== 2.1.3.2 Invoice
+
+image::GenDoc-Invoice.png[Invoice, align = "center"]
+
+The Invoice tab has a search bar to search for the invoices in the table down below. The table down below has columns which contain Sales Invoice No, Item Code, Item Name and Quantity. There is also a delete button which can be used to delete any invoice from the listing. 
+
+image::GenDoc-Invoice-InvoiceLinkAdd.png[Linked Add, align = "center"]
+
+By clicking on the plus sign button the user will get to the Invoice Link  Add page.The invoice Link add page has a search bar on top. An Add button on top right to add a new link in the listing.
+
+==== 2.1.3.3 Receipt Voucher
+
+image::GenDoc-ReceiptVoucher.png[Receipt Voucher, align = "center"]
+
+The Receipt Voucher tab has a search bar to search for the receipt vouchers in the table down below. The table down below has columns which contain Receipt Vouchers No, Item Code, Item Name and Quantity. There is also a delete button which can be used to delete any Receipt Voucher from the listing. 
+
+image::GenDoc-ReceiptVoucher-ReceiptVoucherLinkAdd.png[Link Add, align = "center"]
+
+By clicking on the plus sign button the user will get to the Receipt VoucherAdd Link page.The invoice Link add page has a search bar on top. An Add button on top right to add a new link in the listing below.The Receipt Voucher Add Link page has a search bar on top. An Add button on top right to add a new link in the listing.
+
+==== 2.1.3.4 Payment Voucher
+
+image::GenDoc-PaymentVoucher.png[Payment Voucher, align = "center"]
+
+The Payment Voucher tab has a search bar to search for the Payment Vouchers in the table down below. The table down below has columns which contain Payment Voucher No, Item Code, Item Name and Quantity. There is also a delete button which can be used to delete any Payment Vouchers from the listing. 
+
+image::GenDoc-PaymentVoucher-PaymentVoucherLinkAdd.png[Link Add, align = "center"]
+
+By clicking on the plus sign button the user will get to the Payment Voucher Add Link page.The Payment Voucher add link page has a search bar on top. An Add button on top right to add a new link in the listing below.The Payment Voucher Add Link page has a search bar on top. An Add button on top right to add a new link in the listing.
+
+==== 2.1.4 Attachment
+
+image::EditServiceNote-Attachments.png[Attachment, align = "center"]
+
+The Attachment tab has a plus button to add the attachment. The table below has columns which are File Name, Size and Uploaded Date.
+
+The Add button will take the user to the Add Attachment Page where the user can upload the attachment file as shown below.
+
+image::EditServiceNote-Attachments-AddAttachment.png[Add Attachment, align = "center"]
+
+=== 2.1.5 Export
+
+image::EditServiceNote-Export.png[Export]
+
+The Export tab is used to export the file. The user will get options to export as PDF, CSV, DOCS AND ZIP. There is also a Delete to delete the file. 
+
+=== 2.1.6 Events
+
+image::EditServiceNote-Events.png[Events, align = "center"]
+
+The Events tab has a search bar to search for Events from the listing below. The table below has columns that contain Event Code, Date Transaction, Date Completed, User ID, Device ID and Description.
+
+== 2.2 Create Service Note
+
+By clicking on the Plus sign on the Service Note Listing Page, the user will get to Create Service Note Page. This page has two tabs which are Main Details and Account. 
+
+image::CreateServiceNote-MainDetails.png[Main Details, align = "center"]
+
+The Main Details tab has fields which are Item Code, Item Name, UOM, Serial No, CRM Contact, Member Card, Tracking ID, Expiry Date, Extended Expiry Date, Branch, Location, Reason, Request Action and Remarks.
+
+=== 2.2.1 Account
+
+The Account tab has 3 further tabs which are Entity Details, Sending Branch, Receiving Branch.
+
+==== 2.2.1.1 Entity Details
+
+image::CreateServiceNote-Account-EntityDetails.png[Entity Details, align = "center"]
+
+The Entity Details page of the Account tab has fields which includes Entity ID, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, Email, Description and Phone Number. The “*” sign with a field means that its mandatory to be filled. 
+
+==== 2.2.1.2 Sending Branch
+
+image::CreateServiceNote-Account-SendingBranch.png[Sending Branch, align = "center"]
+
+The Sending Branch page of the Account tab has fields which are Name, Email, Phone No. , Billing Address, Country, State, City and Postcode.
+
+==== 2.2.1.3 Receiving Branch
+
+image::CreateServiceNote-Account-ReceivingBranch.png[Receiving Branch, align = "center"]
+
+The Receiving Branch has fields that contain Recipient Name, Email, Phone No, Shipping Address, Country, State, City and Postcode.
+
+The Create button on top right can be clicked to create the account after keying in all the details.
