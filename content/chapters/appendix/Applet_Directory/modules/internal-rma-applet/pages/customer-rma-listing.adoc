@@ -1,4 +1,4 @@
-[#h3_internal-rma-applet_customer_rma_listing]
+[#h3_internal-rma-applet_rma_listing]
 = 3.0 Customer RMA Listing
 
 image::CustomerRMAListing.png[Customer RMA Listing, align = "center"]

@@ -2,6 +2,6 @@
 ** xref:introduction.adoc[Introduction]
 ** xref:service-note-listing.adoc[Service Note Listing]
 ** xref:customer-rma-listing.adoc[Customer RMA Listing]
-** xref:customer-rma-line-listing.adoc[Customer RMA Line Listing]
+** xref:customer-rma-line-item-listing.adoc[Customer RMA Line Listing]
 ** xref:supplier-rtv-listing.adoc[Supplier RTV Listing]
 ** xref:supplier-rtv-line-listing.adoc[Supplier RTV Line Listing]

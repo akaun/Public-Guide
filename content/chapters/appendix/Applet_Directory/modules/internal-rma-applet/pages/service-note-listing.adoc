@@ -1,7 +1,7 @@
 [#h3_internal-rma-applet_service_note_listing]
 = 2.0 Service Note Listing
 
-image::ServiceNoteListing.png.[Service Note Listing, align = "center"]
+image::ServiceNoteListing.png[Service Note Listing, align = "center"]
 
 The first section in the slide bar is Service Note which has the Service Note Listing in a table. The Service Note Listing page has a plus “+” sign on top to add a service note and a search bar along with it to search for any service note from the list. Clicking on any service note from the table will open the Edit Service Note page from the right. The table of Service Note Listing contains following columns:
 
