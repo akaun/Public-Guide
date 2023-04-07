@@ -3,11 +3,7 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/internal-sales-return-listing.adoc[leveloffset=3]
 
-include::pages/supplier.adoc[leveloffset=3]
-
-include::pages/line-items-listing.adoc[leveloffset=3]
 
 
 
