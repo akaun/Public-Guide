@@ -45,3 +45,4 @@ The Copied From page has a table which contains columns that are Doc No, Branch,
 image::EditLineItem-ItemDetails-DocLink-CopiedTo.png[Copied To, align = "center"]
 
 The Copied To page has a table that contains columns with details such as Doc No, Branch, Server Doc Type, Status and Date.
+
