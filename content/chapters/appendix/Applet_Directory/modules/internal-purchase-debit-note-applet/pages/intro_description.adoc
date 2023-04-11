@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+A purchase debit note is a commercial document used by a buyer to inform a seller of a debit to their account. It indicates that the buyer is claiming a credit for a certain amount due to an overcharge, incorrect billing or a return of goods. The Purchase Debit Note Applet allows businesses to maintain accurate financial records and ensure that payments are made correctly. It helps to avoid payment disputes and strengthen the relationship between buyers and sellers

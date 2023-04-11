@@ -1,0 +1,19 @@
+[#h3_internal-purchase-debit-note-applet_listing]
+==  2.0 Features
+==  2.1 Purchase Debit Note Listing
+
+image::InternalPurchaseDebitNoteListing.png[Internal Purchase Debit Note Listing, align = "center"]
+
+The listing page outlines the details regarding the debit notes issued. The listing includes:
+
+* Purchase Debit Note No.
+* Posting Status which can be set to “Draft” if the job from the customer is not confirmed or “Final” if it is confirmed.
+* Branch
+* Supplier Name
+* Purchaser
+* Created By representing the user of the business who has created the entry.
+* Amount Transaction
+* Status
+* Updated Date
+* Created Date and
+* Transaction Date.

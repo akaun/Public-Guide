@@ -1,0 +1,8 @@
+[#h3_internal-purchase-debit-note-applet_line_item_listing]
+==  2.4 Internal Purchase Debit Note Line Items
+
+=== 2.4.1 Line Item Listing
+
+image::InternalPurchaseDebitNote-LineItems.png[Line Item Listing, align = "center"]
+
+Users can view the listing of the line items.

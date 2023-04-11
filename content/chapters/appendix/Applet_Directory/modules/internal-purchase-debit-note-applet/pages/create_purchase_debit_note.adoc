@@ -1,0 +1,195 @@
+[#h3_internal-purchase-debit-note-applet_create]
+==  2.2 Creating a Purchase Debit Note
+
+===  2.2.1 The Add Button
+
+image::InternalPurchaseDebitNoteAddBtn.png[Create Button, align = "center"]
+
+First click on the “+” button to create a purchase debit note.
+
+
+===  2.2.2 Main Details Tab
+image::InternalPurchaseDebitNote-Create.png[Creating Purchase Debit Note, align = "center"]
+
+Fill in the form in the “Main Details” tab. Please note that the following fields are compulsory to fill in:
+
+* Location 
+* Branch
+* Purchaser
+
+===  2.2.3 Entity Details
+image::InternalPurchaseDebitNote-Create-AddEntity-1.png[Entity Addition, align = "center"]
+
+* Next click on the “Account” tab and then click on the “Entity Id” field and choose an entity. 
+
+
+image::InternalPurchaseDebitNote-Create-AddEntity-2.png[Entity Details, align = "center"]
+
+* Upon selection from the listing the “Entity Details”, “Bill To” and “Ship To” will be populated 
+
+
+image::InternalPurchaseDebitNote-Create-AddEntity-3.png[Entity Bill To, align = "center"]
+
+image::InternalPurchaseDebitNote-Create-AddEntity-4.png[Entity Ship To, align = "center"]
+
+
+
+===  2.2.4 Add Line Item
+image::InternalPurchaseDebitNote-Create-AddLineItem-1.png[Add Line Item, align = "center"]
+
+Next click on the “Lines Items” tab and then click on the “+” button. 
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-2.png[Different Categories of Line Item Listing, align = "center"]
+
+Different categories of line item listings are shown:
+
+* The Search Item tab will allow users to search for items.
+* The Knock Off Purchase GRN,  Knock Off Purchase Order,  Knock Off For Supplier Delivery Order will show the KO listings.
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-6.png[Line Item Knock Off, align = "center"]
+
+* The line items under “Search Item” tab are searchable based on item serial number and includes items that have valid serial number. Advanced search can be used for line items under KnockOff tabs.
+
+
+===  2.2.5 Line Item Listing
+image::InternalPurchaseDebitNote-Create-AddLineItem-3.png[Line Item Listing, align = "center"]
+
+* Next click on a line item from the list. Details about the item will be displayed under the “Main Details” tab under the “Item Details” tab as shown above. 
+
+
+===  2.2.6 Line Item Details
+The form under the “Item Details” tab will be filled with the details of the selected item. Users fill in the form for:
+* Item Name 
+* Item Code
+* UOM 
+* Pricing Scheme 
+* Unit Price STD for both excluding and including tax 
+* Unit Discount 
+* Quantity Base and Quantity by UOM
+* UOM to Base Ratio  
+* Unit Price STD by UOM for both excluding and including tax 
+* Unit Discount by UOM, Unit Price Net by UOM 
+* Unit PriceTransaction by UOM  and Unit Price Net 
+* STD Amount 
+* Discount Amount 
+* Amount Net 
+* SST Code and SST/GST/VAT rate 
+* Tax Amount 
+* WHT Code, WHT and WHT Amount, 
+* Unit Price Transaction and Transaction Amount and 
+* Remarks
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-4.png[Line Item Delivery, align = "center"]
+
+* Users can specify the “Delivery Instructions” under the Item Details tab. 
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-5.png[Line Item Department, align = "center"]
+
+* Users can specify the “Department” under the Item Details tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-CostingDetails.png[Line Item Costing Details, align = "center"]
+
+* Costing Details can be viewed under the “Costing Details” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-PricingDetails.png[Line Item Pricing Details, align = "center"]
+
+* Pricing details can be viewed under the “Pricing  Details” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Details.png[Line Item Issue Link Details, align = "center"]
+
+* Under the “Issue Link” tab, users can select a link and edit the issue. They can add issue details using the “Details” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Planning.png[Line Item Issue Link Planning, align = "center"]
+
+* They can plan the issue details using the “Planning” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Attachment.png[Line Item Issue Link Attachment, align = "center"]
+
+* They can add attachments to the issue details using the “Attachment” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Comment.png[Line Item Issue Link Comment, align = "center"]
+
+* They can add comments to the issue details using the “Comment” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Subtasks.png[Line Item Issue Link Subtasks, align = "center"]
+
+* They can add and view “Subtasks” to the issue details using the “Subtasks” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-LinkedIssues.png[Line Item Issue Link Linked Issues, align = "center"]
+
+* They can add and view “Linked Issues” to the issue details using the “Linked Issues” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Worklog.png[Line Item Issue Link Worklog, align = "center"]
+
+* They can add and view their worklogs for the issue details using the “Worklogs” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Worklog.png[Line Item Issue Link Worklog, align = "center"]
+
+* They can add and view their worklogs for the issue details using the “Worklogs” tab.
+
+
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Activity.png[Line Item Issue Link Activity, align = "center"]
+
+* They can and view the activity for an issue using the “Activity” tab.
+
+
+* Lastly the “ADD” button on “Add Item” screen can be clicked to add the item to the transaction.
+
+
+
+===  2.2.7 Payment
+
+image::InternalPurchaseDebitNote-Create-Payment.png[Payment, align = "center"]
+
+* Users can make a payment for outstanding fees/amount.
+
+
+image::InternalPurchaseDebitNote-Create-Payment-Drop-Down.png[Payment Drop Down, align = "center"]
+
+* They can select a payment method from the dropdown.
+
+
+image::InternalPurchaseDebitNote-Create-Payment-Details.png[Payment Details, align = "center"]
+
+* The payment details will be shown based on the payment methods.
+
+* Clicking the “ADD” button will add a payment for the exceeding amount.
+
+
+===  2.2.8 Department Hdr
+
+image::InternalPurchaseDebitNote-Create-DepartmentHdr.png[DepartmentHdr, align = "center"]
+
+* Users can set the “Department Hdr” by selecting Segment, G/L DImension, Profit Centre and Project from the given dropdowns. 
+
+
+===  2.2.9 KnockOff For
+
+image::InternalPurchaseDebitNote-Create-KO.png[KnockOff, align = "center"]
+
+* Users can select an entry from the listing and perform a KNOCK OFF. 
+
+
+===  2.2.10 Finalize Purchase Debit Note
+
+image::InternalPurchaseDebitNote-Create-CreateBtn.png[Finalize Purchase Debit Note, align = "center"]
+
+image::InternalPurchaseDebitNote-Create-Success.png[Finalize Purchase Debit Note Success, align = "center"]
+
+* Lastly users can click on “CREATE” button to create a purchase debit note. The created debit note will appear in the main listing.
+
+image::InternalPurchaseDebitNote-Create-Final.png[Finalize Purchase Debit Note Final, align = "center"]
+
+* The new Purchase Debit note entry will appear in the listing as a Draft. Users can select the entry and click on “FINAL” button to finalize the entry.

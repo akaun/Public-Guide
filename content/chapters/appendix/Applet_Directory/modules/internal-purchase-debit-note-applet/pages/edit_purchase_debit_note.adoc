@@ -1,0 +1,22 @@
+[#h3_internal-purchase-debit-note-applet_edit]
+==  2.3 Editing a Purchase Debit Note
+
+=== 2.3.1 Editing Draft/Final Entry
+
+image::InternalPurchaseDebitNote-Edit-Draft.png[Edit Purchase Debit Note, align = "center"]
+
+Users can edit a purchase debit note as they see fit and click on the “SAVE” button once they are satisfied with the changes. For entries in “DRAFT” status, the Location and Branch of the company can still be edited along with the other fields. The “Server Doc 1,2 and 3” fields are for the technical side and can be ignored.
+
+
+=== 2.3.2 Reset DRAFT Entry
+
+image::InternalPurchaseDebitNote-Reset.png[Reset Draft, align = "center"]
+
+Clicking on the “RESET” button will remove all the data for the selected entry that is in DRAFT status.
+
+
+=== 2.3.3 Reset Finalized Job
+
+image::InternalPurchaseDebitNote-Reset-Final.png[Reset Finalized Purchase Debit Note, align = "center"]
+
+Clicking on the “RESET” button will NOT work on the selected entry that is in “FINAL” status. This is because the entry is already finalized.

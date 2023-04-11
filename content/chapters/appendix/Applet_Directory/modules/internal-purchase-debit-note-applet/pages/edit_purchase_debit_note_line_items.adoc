@@ -1,0 +1,132 @@
+[#h3_internal-purchase-debit-note-applet_line_item_listing_edit]
+==  2.5 Editing Purchase Debit Note Line Items
+
+=== 2.5.1 Main Details
+
+image::InternalPurchaseDebitNote-LineItem-Edit.png[Line Item Edit, align = "center"]
+
+To edit a line item, select an item from the listing. Fill in the form under the “Main Details” tab of Item Details.
+
+=== 2.5.2 Delivery Instructions
+
+image::InternalPurchaseDebitNote-LineItem-DeliveryInstruction.png[Line Item Delivery Instruction, align = "center"]
+
+Users can add delivery instructions along with a delivery message to a line item. Then click the “SAVE” button to save the changes.
+
+
+=== 2.5.3 Department Addition
+
+image::InternalPurchaseDebitNote-LineItems-Department.png[Line Item Department, align = "center"]
+
+Users can add a department to the line item by filling the form under the “Department” tab. Then click the “SAVE” button to save the changes
+
+
+=== 2.5.4 Linked Documentation
+
+image::InternalPurchaseDebitNote-LineItems-DocLink.png[Line Item Copied From, align = "center"]
+
+* Users can view Doc Links for the item, along with details as to where it was “copied from”. 
+
+
+image::InternalPurchaseDebitNote-LineItems-DocLinkCopyTo.png[Line Item Copied To, align = "center"]
+
+* Users can view Doc Links for the item, along with details as to where it was “copied to”. 
+
+
+
+
+=== 2.5.5 Delivery Details
+
+image::InternalPurchaseDebitNote-LineItems-DeliveryDetails.png[Line Item Delivery Details, align = "center"]
+
+Users can view the details regarding the delivery of a line item under the “Delivery Details” tab.”. 
+
+
+=== 2.5.6 Costing Details
+
+image::InternalPurchaseDebitNote-LineItems-CostingDetails.png[Line Item Costing Details, align = "center"]
+
+Users can view details of an item cost under the “Costing Details” tab.
+
+
+=== 2.5.7 Pricing Details Listing
+
+image::InternalPurchaseDebitNote-LineItems-PricingDetailsListing.png[Line Item Pricing Details Listing, align = "center"]
+
+Users can view a list of pricing details for the selected “Line Item”. The listing can be updated based on the selected UOM.
+
+
+=== 2.5.8 Editing Pricing Details
+
+image::InternalPurchaseDebitNote-LineItems-EditPricingBtn.png[Line Item Edit Pricing, align = "center"]
+
+Users can select a pricing detail and edit it. The “ADD” button needs to be clicked to save changes.
+
+
+=== 2.5.9 Item Issues
+
+image::InternalPurchaseDebitNote-LineItems-IssueLink.png[Line Item IssueLink, align = "center"]
+
+Users can view the list of issues associated with a line item.
+
+
+=== 2.5.10 Issue Details
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkDetails.png[Line Item Issue Link Details, align = "center"]
+
+Users can edit the details of the issue link by filling the form under the “Details” tab.
+
+
+=== 2.5.11 Issue Planning
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkPlanning.png[Line Item Issue Link Planning, align = "center"]
+
+Users can fill in the form under the “Planning” tab to plan out the issue link.
+
+
+=== 2.5.12 Issue Attachment
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkAttachment.png[Line Item Issue Link Attachment, align = "center"]
+
+Users can add an attachment to the issue link.
+
+
+=== 2.5.13 Issue Comment
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkComment.png[Line Item Issue Link Comment, align = "center"]
+
+Users can view the comments associated with an issue link. They can click on the “+” button to add a comment to the line item.
+
+
+=== 2.5.14 Issue Subtasks
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkSubtasks.png[Line Item Issue Link Subtasks, align = "center"]
+
+Users can view the subtasks associated with an issue link. They can click on the “+” button to add new subtasks to a line item.
+
+
+=== 2.5.15 Linked Issues
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkLinkedIssues.png[Line Item Linked Issues, align = "center"]
+
+Users can view the linked issues associated with a given line item. Users can add linked issues by clicking on the “+” button.
+
+
+
+=== 2.5.16 Issue Worklog
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkCreateWorklogs.png[Line Item Worklog, align = "center"]
+
+* Users can view the work log associated with a given line item. Users can add to their logs by clicking on the “+” button.
+
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkWorklog.png[Line Item Worklog, align = "center"]
+
+* Users can fill in the form to log work. They need to select an activity type, date, duration and description. The log will be saved when they go back to the previous page by clicking on the Log Time button with the back symbol.
+
+
+=== 2.5.17 Issue Activity
+
+image::InternalPurchaseDebitNote-LineItems-IssueLinkActivity.png[Line Item Activity, align = "center"]
+
+Users can view the activity associated with a line item. When all the required edits have been made, users can click the “SAVE” button on the top right corner to save all the changes.
