@@ -1,0 +1,12 @@
+[#h3_internal-packing-order-applet_personalization]
+= 4.0 Personalization 
+
+image::personalization.png[Personalization, align = "center"]
+
+The Personalization Page has multiple pages, Field Settings, Default Selection THEMES AND COLORS, Preset Themes, Sidebar, ACCESSIBILITY, Color Assist, and Easy Navigation. Also, you can report a bug.
+
+== 4.1 Sidebar
+
+image::personalization_sidebar.png[Sidebar, align = "center"]
+
+You can select Logo Background Color and Sidebar Background Color on this page.

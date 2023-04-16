@@ -1,0 +1,62 @@
+[#h3_internal-packing-order-applet_packing_order]
+= 3.0 Settings
+
+image::settings.png[Settings, align = "center"]
+
+The settings page consists of fifteen components. Field Settings, Default Selection, Applet Access, Permission Wizard, Permission Set, User Permission, Team Permission, Role Permission, Triggers, Audit Trails, Applet Log, and Reset Applet State.
+
+== 3.1 Field Settings
+
+image::settings_field_settins.png[Settings, align = "center"]
+
+In field settings, you can enable or disable the Unit Discount, SST/VAT/GST, WHT, Blanket Order, Segment, G/L Dimensional, Profit Center, and Project.
+
+== 3.2 Default Selection
+
+image::settings_default_selection.png[Default, align = "center"]
+
+In default selection, you can choose for the applet the default branch and location.
+
+== 3.3 Permission Set
+
+image::settings_permission_set.png[set, align = "center"]
+
+In the permission set, you can see the list of permission sets, add new permission sets, and search for specific permission sets by created date and modified date.
+
+=== 3.3.1 Permission Set Add
+
+image::settings_permission_set_add.png[add, align = "center"]
+
+After clicking on the + button, you can add a new permission set by entering perm set name, perm set code, perm template, configure permission targets, description, and status, then click the Save button.
+
+== 3.4  User Permission
+
+image::settings_user_permission.png[User, align = "center" ]
+
+In the user permission, you can see the list of user permissions, and search for specific permission by rank.
+
+== 3.5 Team Permission
+
+image::settings_team_permission.png[Team, align = "center"]
+
+In the team permission, you can see the list of team permissions, and search for specific permission.
+
+== 3.6 Role Permission
+
+image::settings_role_permission.png[Role, align = "center"]
+
+In the role permission, you can see the list of role permissions, search for specific role permission, and add new role permission by clicking on the + button.
+
+=== 3.6.1 Role Permission Add
+
+image::settings_role_permission_add.png[Role, align = "center"]
+
+To add a new role, you need to add a name, code, and choose the status, then click on the SAVE button.
+
+== 3.7 Triggers
+
+image::settings_triggers.png[Triggers, align = "center"]
+
+On the triggers page, you can view the applet triggers list or create new applet triggers.
+
+
