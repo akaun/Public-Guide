@@ -184,7 +184,7 @@ There are fields such as Activity Type, Date, Duration and Description to be fil
 
 image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklogs, align = "center"]
 
-image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-LogTime.png[Log Time, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs-LogTime.png[Log Time, align = "center"]
 
 ==== 3.5.1.8 Activity tab
 
