@@ -1,0 +1,1 @@
+The Internal Purchase GIN Applet is used to add one or many internal purchase good issue notes. It is used to manage the listing of the internal purchase GIN and line items. There are two modules in the applet which are ‘Internal purchase GIN’ and ‘Line Items’. 

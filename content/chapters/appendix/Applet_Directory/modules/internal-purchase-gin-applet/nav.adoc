@@ -1,0 +1,4 @@
+* Internal Purchase GIN Applet
+** xref:introduction.adoc[Introduction]
+** xref:internal-purchase-gin-listing.adoc[Internal Purchase GIN Listing]
+** xref:line-items-listing.adoc[Line Items Listing]

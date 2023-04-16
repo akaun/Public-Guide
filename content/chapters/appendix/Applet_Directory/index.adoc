@@ -62,6 +62,8 @@ include::modules/internal-purchase-credit-note/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-debit-note-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-purchase-gin-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-purchase-grn-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-invoice-applet/index.adoc[leveloffset=2]

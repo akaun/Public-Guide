@@ -1,0 +1,340 @@
+[#h3_internal_purchase_gin_applet_introduction]
+= 2.0 Internal Purchase GIN Applet
+
+The Internal Purchase GIN Listing page has a search bar to search for Purchase GIN in the listing below. The table has columns that are: 
+
+a. Purchase GIN No
+b. Posting Status
+c. Branch
+d. Supplier Name
+e. Purchase
+f. Upload Date
+g. Created Date
+h. Transaction Date
+i. Created By
+
+== 2.1 In the Main Details Tab
+
+Please click the ‘+’ button to add a new GIN.
+
+=== 2.1.1 In the Main Details Tab
+
+Please fill up the compulsory (*) information for creating the purchase GIN. 
+
+There are 10 components which allow the user to make changes respectively:
+
+a. Branch - Will populate default branch according to the branch selected in the setting
+b. Location - Will populate default location if branch according to the branch selected in the setting
+c. Purchaser- Add new purchaser in Customer Maintenance Applet
+d. Transaction Date - Default to the current date
+e. Credit Terms - Entity ID must be selected first
+f. Reference
+g. Remarks
+h. Permit No
+i. Currency
+j. Tracking ID
+
+image::CreateInternalPurchaseGIN-MainDetail-1.png[Main Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-MainDetail-2.png[Main Details, align = "center"]
+
+== 2.2 In the Account Tab
+
+=== 2.2.1 Entity Details Tab
+
+Compulsory Information:
+
+a. Entity ID: Supplier Code, auto-filled when a Supplier entity is selected.
+b. Entity Name: Supplier Name, auto-filled when a Supplier entity is selected.
+c. Status: Active or Inactive. Auto-filled when a Supplier entity is selected.
+d. Entity Type: Corporate or Individual. Auto-filled when a Supplier entity is selected.
+e. Identity Type: IC or Passport, auto-filled when Supplier entity is selected.
+f. ID Number: IC or Passport number, auto-filled when a Supplier entity is selected.
+g. Currency: To determine based on the pricing condition what you are maintaining. Auto-filled when a Supplier entity is selected.
+h. GL Code: A number used to record business transactions in the general ledger. Auto-filled when a Supplier entity is selected.
+i. Description: Additional notes. Auto-filled when a Supplier entity is selected.
+j. Email: A central email through which the Supplier wants to communicate. Auto-filled when a Supplier entity is selected.
+k. Phone Number: A central phone number through which Supplier wants to communicate. Auto-filled when a Supplier entity is selected.
+
+image::CreateInternalPurchaseGIN-Account-EntityDetails.png[Entity Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Account-EntityDetails-SelectSupplier.png[Select Supplier, align = "center"]
+
+=== 2.2.2 Bill To Tab
+
+Name, Email and Phone No will be Autofill after have select the Entity ID.
+
+If only 1 Billing Address exists in that Entity ID, the Billing Address will auto-populate after selecting the Entity ID.
+
+List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+
+image::CreateInternalPurchaseGIN-Account-BillTo-SelectSupplier.png[Select Supplier, align = "center"]
+
+image::CreateInternalPurchaseGIN-Account-BillTo-SelectBillingAddress.png[Address, align = "center"]
+
+=== 2.2.3 Ship To Tab
+
+Name, Email and Phone No will be Autofill after have select the Entity ID.
+
+If only 1 Shipping Address exists in that Entity ID, the Shipping Address will auto-populate after selecting the Entity ID.
+
+List of Shipping Addresses will be displayed on the right side for selection after clicking on the Shipping Address.
+
+image::CreateInternalPurchaseGIN-Account-ShipTo-SelectSupplier.png[Supplier, align = "center"]
+
+image::CreateInternalPurchaseGIN-Account-ShipTo-SelectShippingAddress.png[Address, align = "center"]
+
+== 2.3 In the Line Items Tab
+
+Please click the ‘+’ button to add new line items.
+
+A list of items will be displayed on the right side based on its purchased item type.
+
+The purchased item types are Purchase Order Item, Purchase Requisition Item, Purchase Quotation Item, Purchase Invoice Item and Purchase Return Item.
+
+A new column of Add Items will be displayed on the right side when one of the items is clicked and the changes can be saved by clicking on the Add button.
+
+image::CreateInternalPurchaseGIN-Lines-1.png[Lines, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem.png[Select Item, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem.png[Add Item, align = "center"]
+
+=== 2.3.1 Item Details Tab
+
+==== 2.3.1.1 Main Details Tab
+
+You can edit the item that you have selected.
+
+Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-MainDetails-1.png[Main Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-MainDetails-2.png[Main Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-MainDetails-3.png[Main Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-MainDetails-4.png[Main Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-MainDetails-5.png[Main Details, align = "center"]
+
+==== 2.3.1.2 Delivery Instruction Tab
+
+In the Delivery Instruction:
+
+a. Add Instruction and Set the Delivery Date
+
+In the Delivery Message Card 
+
+a. Add a message with the sender and receiver
+b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-DeliveryInstruction-1.png[Instruction, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-DeliveryInstruction-2.png[Instruction, align = "center"]
+
+==== 2.3.1.3 Department Tab
+
+Click on the ‘Copy from Hdr’ for getting the settings for Department.
+
+Fill in the information for the department.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+=== 2.3.2 Costing Details Tab
+
+Showing all the costing details about the selected item:
+
+a. Company Code
+b. Location Code
+c. Quantity
+d. Moving Average Unit Cost
+e. FIFO Unit Cost
+f. Manual Unit Cost
+g. Last Purchase Unit Cost
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-CostingDetails.png[Details, align = "center"]
+
+=== 2.3.3 Pricing Details Tab
+
+Showing all the pricing details: 
+
+a. Pricing Scheme Code
+b. Pricing Schema Name
+c. Purchase Unit Price
+d. Modified Date
+
+A new column of Edit Pricing Details will be displayed on the right side when one of the pricing details is clicked and the changes can be saved by clicking on the Add button.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-PricingDetails.png[Pricing Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-PricingDetails-EditPricingDetails.png[Pricing Details, align = "center"]
+
+=== 2.3.4 Issue Link Tab
+
+Showing list of issue link.
+
+Contain project name, issue number and issue summary.
+
+A new Edit Issue column will be displayed on the right side when one of the issue link is clicked.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink.png[Issue Link, align = "center"]
+
+==== 2.3.4.1 Edit Issue
+
+In the Edit Issue, users can fill in fields of Issue Number and Summary.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue.png[Edit Issue, align = "center"]
+
+===== 2.3.4.1.1 Details tab
+
+Drop down field like Project. Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date are selectable.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details-1.png[Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details-2.png[Details, align = "center"]
+
+===== 2.3.4.1.2 Planning tab
+
+The fields such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Allocated and Manday Billing can be filled.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-1.png[Planning, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-2.png[Planning, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-3.png[Planning, align = "center"]
+
+===== 2.3.4.1.3 Attachment tab
+
+Upload file from local device by dragging and dropping your file on the field or clicking the Upload File button.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+===== 2.3.4.1.4 Comment tab
+
+A list of comments can be viewed at this tab.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+===== 2.3.4.1.5 Subtasks tab
+
+A list of subtasks can be viewed at this tab.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Subtasks.png[Substaks, align = "center"]
+
+===== 2.3.4.1.6 Linked Issues tab
+
+A list of linked issues can be viewed at this tab.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issues, align = "center"]
+
+===== 2.3.4.1.7 Worklogs tab
+
+A list of worklogs can be viewed in this tab.
+
+The Log Time tab will be displayed on the right side when the ‘+’ button is clicked.
+
+There are fields such as Activity Type, Date, Duration and Description to be filled.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklog, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs-LogTime.png[Log Time, align = "center"]
+
+===== 2.3.4.1.8 Activity tab
+
+A list of activities can be viewed in this tab.
+
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+== 2.4 Edit Item
+
+Please click on the line item that wants to make changes.
+
+image::CreateInternalPurchaseGIN-Lines-2.png[Lines, align = "center"]
+
+All the fields are the same as the steps of adding items, and are editable.
+
+In the Doc Link Tab, will show the Doc No that copy from and copy to.
+
+Other tabs are the same as Adding Line items. 
+
+Please click on “Save” after making the changes.
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-ItemDetails-DeliveryInstruction.png[DeliveryInstruction, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-ItemDetails-Department.png[Department, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-ItemDetails-DocLink.png[Doc Link, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-ItemDetails-DeliveryDetails.png[Delivery Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-CostingDetails.png[Costing Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-PricingDetails.png[Pricing Details, align = "center"]
+
+image::CreateInternalPurchaseGIN-Lines-EditItem-IssueLink.png[Issue Link, align = "center"]
+
+== 2.5 Payment Tab
+
+Please click the ‘+’ button to add a new payment.
+
+Can add different payment method such as Cash, Credit Card, Membership Point Currency, Voucher and Cheque.
+
+Can add a new settlement method in the Cashbook Applet.
+
+image::CreateInternalPurchaseGIN-Payment.png[Payment, align = "center"]
+
+image::CreateInternalPurchaseGIN-Payment-AddPayment.png[Add Payment, align = "center"]
+
+=== 2.5.1 Cash
+
+Please fill in the compulsory fields such as Date, Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalPurchaseGIN-Payment-AddPayment-Cash.png[Cash, align = "center"]
+
+=== 2.5.2 Voucher
+
+Please fill in the compulsory fields such as Voucher # and Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalPurchaseGIN-Payment-AddPayment-Voucher.png[Voucher, align = "center"]
+
+=== 2.5.3 Credit Card
+
+Please fill in the compulsory fields such as Date, Amount, Credit Card No and Name on Card.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalPurchaseGIN-Payment-AddPayment-CreditCard.png[Credit Card, align = "center"]
+
+=== 2.5.4 Membership Point Currency
+
+Please fill in the compulsory fields such as Date, Amount, Point CCY and Point Currency for Settlement.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalPurchaseGIN-Payment-AddPayment-MembershipPointCurrency.png[Currency, align = "center"]
+
+=== 2.5.5 Cheque
+
+Please fill in the compulsory fields such as Date, Amount and Cheque No.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalPurchaseGIN-Payment-AddPayment-Cheque.png[Cheque, align = "center"]
+
+== 2.6 Department Hdr Tab
+
+Can select Segment, G/L Dimension, Profit Centre and Project when creating Purchase GIN.
+
+image::CreateInternalPurchaseGIN-DepartmentHdr.png[Department HDR, align = "center"]
+
+
+
+
+
