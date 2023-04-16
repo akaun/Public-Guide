@@ -7,6 +7,6 @@ If you click on the line item row, it will show page same as Edit Line Item.
 
 Please click “Save” after the details of the item is done edited.
 
-image::LineItemsListing.png[Line Items, align = "center"]
+image::LineItemListing.png[Line Items, align = "center"]
 
 image::LineItemListing-EditLineItem.png[Line Items, align = "center"]

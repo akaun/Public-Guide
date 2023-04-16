@@ -1,5 +1,5 @@
 * Internal Sales Return Applet 
 ** xref:introduction.adoc[Introduction]
-** xref:internal-sales-listing.adoc[Internal Sales Listing]
+** xref:iinternal-sales-listing.adoc[Internal Sales Listing]
 ** xref:customer.adoc[Customer]
 ** xref:line-items.adoc[Line Items Listing]
