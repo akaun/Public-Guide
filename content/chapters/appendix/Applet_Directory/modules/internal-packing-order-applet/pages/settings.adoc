@@ -1,4 +1,4 @@
-[#h3_internal-packing-order-applet_packing_order]
+[#h3_internal-packing-order-applet_settings]
 = 3.0 Settings
 
 image::settings.png[Settings, align = "center"]
@@ -7,7 +7,7 @@ The settings page consists of fifteen components. Field Settings, Default Select
 
 == 3.1 Field Settings
 
-image::settings_field_settins.png[Settings, align = "center"]
+image::settings_field_settings.png[Settings, align = "center"]
 
 In field settings, you can enable or disable the Unit Discount, SST/VAT/GST, WHT, Blanket Order, Segment, G/L Dimensional, Profit Center, and Project.
 
