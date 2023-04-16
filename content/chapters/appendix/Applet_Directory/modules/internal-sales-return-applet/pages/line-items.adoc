@@ -1,0 +1,12 @@
+[#h3_internal-sales-return-applet_line_items_listing]
+= 4.0 Line Items Listing
+
+Show all the line items according to the Sales Return No
+
+If you click on the line item row, it will show page same as Edit Line Item.
+
+Please click “Save” after the details of the item is done edited.
+
+image::LineItemsListing.png[Line Items, align = "center"]
+
+image::LineItemsListing-EditLineItem.png[Line Items, align = "center"]

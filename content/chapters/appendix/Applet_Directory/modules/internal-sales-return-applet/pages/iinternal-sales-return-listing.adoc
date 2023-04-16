@@ -1,0 +1,471 @@
+[#h3_internal-sales-return-applet_internal_sales_return_listing]
+= 2.0 Internal Sales Return Listing
+
+== 2.1 In The Search Tab
+
+If the system successfully adds an invoice line item to the Sales Returns applet, it will display a "Line Item Added" message in the lower left corner
+
+image::CreateInternalSalesReturn-Search-LineItemAdded.png[Line Item Added, align = "center"]
+
+=== 2.1.1 Search By Customer Tab
+
+By clicking one of the customer, it will display the listing of invoice owned by the customer
+
+image::CreateInternalSalesReturn-Search-SearchByCustomer-1.png[Customer, align = "center"]
+
+By clicking on one of the invoices, it will display a list of invoice lines owned by that invoice.
+
+image::CreateInternalSalesReturn-Search-SearchByCustomer-2.png[Customer, align = "center"]
+
+In the Invoice Line Listing, you can:
+
+- Click on the “tick” box to select one or more invoice line items. Then you can click “Add Selected to Sales Return” button to add the selected invoice line item to the Lines tab
+
+image::CreateInternalSalesReturn-Search-SearchByCustomer-3.png[Customer, align = "center"]
+
+image::CreateInternalSalesReturn-Search-SearchByCustomer-4.png[Customer, align = "center"]
+
+- Click the "Add All to Sales Returns" button to add all invoice line items shown in the list to the Lines tab
+
+image::CreateInternalSalesReturn-Search-SearchByCustomer-5.png[Customer, align = "center"]
+
+image::CreateInternalSalesReturn-Search-SearchByCustomer-6.png[Customer, align = "center"]
+
+=== 2.1.2 Search By Invoice Tab
+
+By clicking on one of the invoices, it will display a list of invoice lines owned by that invoice.
+
+image::CreateInternalSalesReturn-Search-SearchByInvoice-1.png[Invoice, align = "center"]
+
+In the Invoice Line Listing, you can:
+
+- Click on the “tick” box to select one or more invoice line items. Then you can click “Add Selected to Sales Return” button to add the selected invoice line item to the Lines tab
+
+image::CreateInternalSalesReturn-Search-SearchByInvoice-2.png[Invoice, align = "center"]
+
+image::CreateInternalSalesReturn-Search-SearchByInvoice-3.png[Invoice, align = "center"]
+
+- Click the "Add All to Sales Returns" button to add all invoice line items shown in the list to the Lines tab
+
+image::CreateInternalSalesReturn-Search-SearchByInvoice-4.png[Invoice, align = "center"]
+
+image::CreateInternalSalesReturn-Search-SearchByInvoice-5.png[Invoice, align = "center"]
+
+=== 2.1.3 Search By Serial Number Tab
+
+You can click on the “tick” box to select one or more invoice line items. Then you can click the “Add to Sales Return” button to add the selected invoice line item to the Lines tab.
+
+image::CreateInternalSalesReturn-Search-SearchBySerialNumber-1.png[Serial Number, align = "center"]
+
+image::CreateInternalSalesReturn-Search-SearchBySerialNumber-2.png[Serial Number, align = "center"]
+
+If serial number in Search By Serial Number Tab is:
+
+a. Blank		: the quantity in Lines tab will be null
+b. Selected	: the quantity in Lines tab will be 1
+c. Deselected	: the quantity in Lines tab will be 0
+
+image::CreateInternalSalesReturn-Search-SearchBySerialNumber-3.png[Serial Number, align = "center"]
+
+image::CreateInternalSalesReturn-Search-SearchBySerialNumber-4.png[Serial Number, align = "center"]
+
+== 2.2 In the Main Details Tab
+
+Please fill up the compulsory (*) information for creating the sales return. 
+
+There are 14 components which allow the user to make changes respectively:
+
+a. Branch - Will populate default branch according to the branch selected in the setting
+b. Location - Will populate default location if branch according to the branch selected in the setting
+c. Sales Agent
+d. Member Card
+e. Transaction Date - Default to the current date
+f. Credit Terms - Entity ID must be selected first
+g. Due Date
+h. Reference
+i. Remarks
+j. Currency
+k. Customer
+
+image::CreateInternalSalesReturn-MainDetails-1.png[Main Details, align = "center"]
+
+image::CreateInternalSalesReturn-MainDetails-2.png[Main Details, align = "center"]
+
+== 2.3 In the Account Tab
+
+=== 2.3.1 Entity Details Tab
+
+Compulsory Information:
+
+a. Entity ID: Customer Code, auto-filled when a customer entity is selected.
+b. Entity Name: Customer Name, auto-filled when a customer entity is selected.
+c. Status: Active or Inactive. Auto-filled when a customer entity is selected.
+d. Entity Type: Corporate or Individual. Auto-filled when a customer entity is selected.
+e. Identity Type: IC or Passport, auto-filled when customer entity is selected. ** ID Number: IC or Passport number, f. auto-filled when a customer entity is selected.
+f. Currency: To determine based on the pricing condition what you are maintaining. Auto-filled when a customer entity is selected.
+g. GL Code: A number used to record business transactions in the general ledger. Auto-filled when a customer entity is selected.
+h. Description: Additional notes. Auto-filled when a customer entity is selected.
+i. Email: A central email through which customers want to communicate. Auto-filled when a customer entity is selected.
+j. Phone Number: A central phone number through which customers want to communicate. Auto-filled when a customer entity is selected.
+
+image::CreateInternalSalesReturn-Account-EntityDetails.png[Entity Details, align = "center"]
+
+After the Entity Id has been clicked, a list of customers will be displayed on the right side.
+You can select the customers from the list.
+
+image::CreateInternalSalesReturn-Account-EntityDetails-SelectCustomer.png[Select Customer, align = "center"]
+
+=== 2.3.2 Bill To Tab
+
+Name, Email and Phone No will be Autofill after have select the Entity ID.
+
+If only 1 Billing Address exists in that Entity ID, the Billing Address will auto-populate after selecting the Entity ID.
+
+List of Billing Addresses will be displayed on the right side for selection after clicking on the Billing Address.
+
+image::CreateInternalSalesReturn-Account-BillTo-SelectCustomer.png[Select Customer, align = "center"]
+
+image::CreateInternalSalesReturn-Account-BillTo-SelectBillingAddress-1.png[Select Billing Address, align = "center"]
+
+image::CreateInternalSalesReturn-Account-BillTo-SelectBillingAddress-2.png[Select Billing Address, align = "center"]
+
+=== 2.3.3 Ship To Tab
+
+Name, Email and Phone No will be Autofill after have select the Entity ID.
+
+If only 1 Shipping Address exists in that Entity ID, the Shipping Address will auto-populate after selecting the Entity ID.
+
+List of Shipping Addresses will be displayed on the right side for selection after clicking on the Shipping Address.
+
+image::CreateInternalSalesReturn-Account-ShipTo-SelectCustomer.png[Select Customer, align = "center"]
+
+image::CreateInternalSalesReturn-Account-ShipTo-SelectShippingAddress-1.png[Shipping Address, align = "center"]
+
+image::CreateInternalSalesReturn-Account-ShipTo-SelectShippingAddress-2.png[Shipping Address, align = "center"]
+
+== 2.4 In the Line Items Tab
+
+Please click the ‘+’ button to add new line items.
+
+A list of items will be displayed on the right side.
+
+A new column of Add Item will be displayed on the right side when one of the items is clicked and the changes can be saved by clicking on the Add button.
+
+image::CreateInternalSalesReturn-Lines-1.png[Lines, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem.png[Select Item, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem.png[Add Item, align = "center"]
+
+=== 2.4.1 Item Details Tab
+
+==== 2.4.1.1 Main Details Tab
+
+You can edit the item that you have selected.
+
+Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-MainDetails-1.png[Main Details, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-MainDetails-2.png[Main Details, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-MainDetails-3.png[Main Details, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-MainDetails-4.png[Main Details, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-MainDetails-5.png[Main Details, align = "center"]
+
+==== 2.4.1.2 Delivery Instruction Tab
+
+In the Delivery Instruction:
+
+a. Add Instruction and Set the Delivery Date
+
+In the Delivery Message Card 
+
+a. Add a message with the sender and receiver:
+b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-DeliveryInstruction-1.png[Instruction, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-DeliveryInstruction-2.png[Instruction, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+=== 2.4.2 Batch Number Tab
+
+The Batch Number Tab will displayed when the batch item is selected.
+
+After the Batch Number, Quantity, Issue Date and Expiry Date are filled, click the “ADD” button will increase the quantity.
+
+Click the checkbox to select the Batch Number that needs to be removed.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BatchNumber-1.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BatchNumber-2.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BatchNumber-3.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BatchNumber-4.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BatchNumber-5.png[Batch Number, align = "center"]
+
+=== 2.4.3 Bin Number Tab
+
+The Bin Number Tab will displayed when the bin item is selected.
+
+After the Bin Number, Container Measure, Container Quantity and Quantity are filled, click the “ADD” button will increase the quantity.
+
+Click the checkbox to select the Bin Number that needs to be removed.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BinNumber-1.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BinNumber-2.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BinNumber-3.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BinNumber-4.png[Batch Number, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-BinNumber-5.png[Batch Number, align = "center"]
+
+=== 2.4.4 Serial Number Tab
+
+The Serial Number Tab will displayed when the serial item is selected.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-SerialNumber.png[Serial Number, align = "center"]
+
+==== 2.4.4.1 Scan Tab
+
+After entering the number or the range of the numbers, click the “ADD” button will increase the quantity.
+
+Click the “SCAN” button to scan the Serial Number.
+
+Click the checkbox to select the Serial Number that needs to be removed.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-SerialNumber-Scan.png[Scan, align = "center"]
+
+==== 2.4.4.2 Import Tab
+
+Upload file from local device by dragging and dropping your file on the field or clicking the Upload File button.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-SerialNumber-Import.png[Import, align = "center"]
+
+=== 2.4.5 Costing Details Tab
+
+Showing all the costing details about the selected item:
+
+a. Company Code
+b. Location Code
+c. Quantity
+d. Moving Average Unit Cost
+e. FIFO Unit Cost
+f. Manual Unit Cost
+g. Last Purchase Unit Cost
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-CostingDetails.png[Costing Details, align = "center"]
+
+=== 2.4.6 Pricing Details Tab
+
+Showing all the pricing details: 
+
+a. Pricing Scheme Code
+b. Name
+c. Unit Price
+d. Modified Date
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-PricingDetails.png[Pricing Details, align = "center"]
+
+=== 2.4.7 Issue Link Tab
+
+a. Showing list of issue link
+b. Contain project name, issue number and issue summary
+c. A new Edit Issue column will be displayed on the right side when one of the issue link is clicked
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink.png[Issue Link, align = "center"]
+
+==== 2.4.7.1 Edit Issue
+
+In the Edit Issue, users can fill in fields of Issue Number and Summary
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue.png[Edit Issue, align = "center"]
+
+===== 2.4.7.1.1 Details tab
+
+Drop down field like Project. Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date are selectable
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details-1.png[Details, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details-2.png[Details, align = "center"]
+
+===== 2.4.7.1.2 Planning tab
+
+The fields such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Allocated and Manday Billing can be filled.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-1.png[Planning, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-2.png[Planning, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-3.png[Planning, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-4.png[Planning, align = "center"]
+
+====== 2.4.7.1.3 Attachment tab
+
+Upload file from local device by dragging and dropping your file on the field or clicking the Upload File button.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+===== 2.4.7.1.4 Comment tab
+
+A list of comments can be viewed at this tab.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+===== 2.4.7.1.5 Subtasks tab
+
+A list of subtasks can be viewed at this tab.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Subtasks.png[Subtasks, align = "center"]
+
+===== 2.4.7.1.6 Linked Issues tab
+
+A list of linked issues can be viewed at this tab.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issue, align = "center"]
+
+===== 2.4.7.1.7 Worklogs tab
+
+A list of worklogs can be viewed in this tab.
+
+The Log Time tab will be displayed on the right side when the ‘+’ button is clicked.
+
+There are fields such as Activity Type, Date, Duration and Description to be filled.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklog, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs-LogTime.png[Log Time, align = "center"]
+
+===== 2.4.7.1.8 Activity tab
+
+A list of activities can be viewed in this tab.
+
+image::CreateInternalSalesReturn-Lines-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+== 2.5 Edit Line Items
+
+Please click on the line item that wants to make changes.
+
+image::CreateInternalSalesReturn-Lines-2.png[Lines, align = "center"]
+
+=== 2.5.1 Edit Item
+
+All the fields are the same as the steps of adding items, and are editable.
+
+In the Doc Link Tab, will show the Doc No that copy from and copy to.
+
+Other tabs are the same as Adding Line items. 
+
+Please click on “Save” after making the changes.
+
+image::CreateInternalSalesReturn-Lines-EditItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-ItemDetails-DeliveryInstruction.png[Instruction, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-ItemDetails-Department.png[Department, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-ItemDetails-DocLink-From.png[From, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-ItemDetails-DocLink-To.png[To, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-CostingDetails.png[Costing, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-PricingDetails.png[Pricing, align = "center"]
+
+image::CreateInternalSalesReturn-Lines-EditItem-IssueLink.png[Issue Link, align = "center"]
+
+== 2.6 Payment Tab
+
+Please click the ‘+’ button to add a new payment.
+
+a. Can add different payment method such as Cash, Credit Card, Membership Point Currency, Voucher and Cheque
+b. Can add a new settlement method in the Cashbook Applet
+
+image::CreateInternalSalesReturn-Payment.png[Payment, align = "center"]
+
+image::CreateInternalSalesReturn-Payment-AddPayment.png[Add Payment, align = "center"]
+
+=== 2.6.1 Cash
+
+Please fill in the compulsory fields such as Date, Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalSalesReturn-Payment-AddPayment-Cash.png[Cash, align = "center"]
+
+=== 2.6.2 Voucher
+
+Please fill in the compulsory fields such as Voucher # and Amount.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalSalesReturn-Payment-AddPayment-Voucher.png[Voucher, align = "center"]
+
+=== 2.6.3 Credit Card
+
+Please fill in the compulsory fields such as Date, Amount, Credit Card No and Name on Card.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalSalesReturn-Payment-AddPayment-CreditCard.png[Credit Card, align = "center"]
+
+=== 2.6.4 Membership Point Currency
+
+Please fill in the compulsory fields such as Date, Amount, Point CCY and Point Currency for Settlement.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalSalesReturn-Payment-AddPayment-MembershipPointCurrency.png[Currency, align = "center"]
+
+=== 2.6.5 Cheque
+
+Please fill in the compulsory fields such as Date, Amount and Cheque No.
+
+Click on the ‘Add’ to add the settlement.
+
+image::CreateInternalSalesReturn-Payment-AddPayment-Cheque.png[Cheque, align = "center"]
+
+== 2.7 Department Hdr Tab
+
+Can select Segment, G/L Dimension, Profit Centre and Project when creating Sales Return
+
+image::CreateInternalSalesReturn-DepartmentHdr.png[Hdr, align = "center"]
+
+== 2.8 KO For Tab
+
+Showing the item that the user can knock off.
+
+Can choose to knock off for Delivery Order, Job Sheet, Sales Invoice and Sales Order.
+
+Click on the tick box to select item that want to knock off.
+
+Then Click on the ‘KNOCK OFF’.
+
+A knock off is a copy of an original that sells for a considerably lower price.
+
+image::CreateInternalSalesReturn-KOFor.png[KO For, align = "center"]
+
+image::CreateInternalSalesReturn-KOFor-DeliveryOrder[Delivery Order, align = "center"]
+
+image::CreateInternalSalesReturn-KOFor-JobSheet[Job Sheet, align = "center"]
+
+image::CreateInternalSalesReturn-KOFor-SalesInvoice[Sales Invoice, align = "center"]
+
+image::CreateInternalSalesReturn-KOFor-SalesOrder[Sales Order, align = "center"]
+
+
+
+
+
+
+
+
