@@ -454,13 +454,13 @@ A knock off is a copy of an original that sells for a considerably lower price.
 
 image::CreateInternalSalesReturn-KOFor.png[KO For, align = "center"]
 
-image::CreateInternalSalesReturn-KOFor-DeliveryOrder[Delivery Order, align = "center"]
+image::CreateInternalSalesReturn-KOFor-DeliveryOrder.png[Delivery Order, align = "center"]
 
-image::CreateInternalSalesReturn-KOFor-JobSheet[Job Sheet, align = "center"]
+image::CreateInternalSalesReturn-KOFor-JobSheet.png[Job Sheet, align = "center"]
 
-image::CreateInternalSalesReturn-KOFor-SalesInvoice[Sales Invoice, align = "center"]
+image::CreateInternalSalesReturn-KOFor-SalesInvoice.png[Sales Invoice, align = "center"]
 
-image::CreateInternalSalesReturn-KOFor-SalesOrder[Sales Order, align = "center"]
+image::CreateInternalSalesReturn-KOFor-SalesOrder.png[Sales Order, align = "center"]
 
 
 

@@ -108,7 +108,7 @@ b. Payment Type-Can Add Payment Type in Cashbook Applet
 c. Country
 d. Other fields are optional
 
-image::SelectCustomer-CustomerEdit-PaymentConfig-PaymentConfigCreate-Main.png[Main, align = "center"]
+image::SelectCustomer-CustomerEdit-PaymentConfig-PaymentConfigCreate.png[Main, align = "center"]
 
 === 3.4.2 Edit Payment Config
 

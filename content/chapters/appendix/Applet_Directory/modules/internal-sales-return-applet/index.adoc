@@ -1,13 +1,13 @@
-[#h2_internal-sales-return-applet_index]
+[#h2_internal_return-applet_index]
 = Internal Sales Return Applet
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::internal-sales-return-listing.adoc[leveloffset=3]
+include::pages/internal-sales-return-listing.adoc[leveloffset=3]
 
-include::customer.adoc[leveloffset=3]
+include::pages/customer.adoc[leveloffset=3]
 
-include::line-items.adoc[leveloffset=3]
+include::pages/line-items.adoc[leveloffset=3]
 
 
 

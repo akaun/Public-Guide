@@ -9,4 +9,4 @@ Please click “Save” after the details of the item is done edited.
 
 image::LineItemsListing.png[Line Items, align = "center"]
 
-image::LineItemsListing-EditLineItem.png[Line Items, align = "center"]
+image::LineItemListing-EditLineItem.png[Line Items, align = "center"]
