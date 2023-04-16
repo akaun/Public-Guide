@@ -26,14 +26,14 @@ nav:
 - modules/internal-shopping-cart-applet/nav.adoc
 - modules/internal-stock-adjustment-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
-- modules/media-library-applet/nav.adoc
-- modules/membership-admin-applet/nav.adoc
 - modules/internal-delivery-order-applet/nav.adoc
 - modules/internal-job-sheet-applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
 - modules/internal-purchase-credit-note/nav.adoc
 - modules/internal-purchase-invoice-applet/nav.adoc
+- modules/internal-purchase-order-applet/nav.adoc
 - modules/internal-purchase-quotation-applet/nav.adoc
+- modules/internal-purchase-requisition-applet/nav.adoc
 - modules/internal-purchase-return-applet/nav.adoc
 - modules/internal-purchase-sales-return-applet/nav.adoc
 - modules/internal-rma-applet/nav.adoc
@@ -43,6 +43,8 @@ nav:
 - modules/internal-sales-quotation-applet/nav.adoc
 - modules/internal-sales-return-applet/nav.adoc
 - modules/ledger-and-journal-applet/nav.adoc
+- modules/media-library-applet/nav.adoc
+- modules/membership-admin-applet/nav.adoc
 - modules/merchant-access-applet/nav.adoc
 - modules/merchant-admin-maintenance-applet/nav.adoc
 - modules/multi-po-applet/nav.adoc
@@ -56,8 +58,6 @@ nav:
 - modules/pos-applet/nav.adoc
 - modules/pricebook-applet/nav.adoc
 - modules/process-maintenance-applet/nav.adoc
-- modules/internal-purchase-order-applet/nav.adoc
-- modules/internal-purchase-requisition-applet/nav.adoc
 - modules/sales-commission-applet/nav.adoc
 - modules/sales-contract-applet/nav.adoc
 - modules/sales-force-automation-applet/nav.adoc
