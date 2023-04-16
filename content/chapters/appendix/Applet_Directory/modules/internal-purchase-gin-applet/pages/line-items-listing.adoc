@@ -32,7 +32,7 @@ In the Delivery Message Card
 a. Add a message with the sender and receiver
 b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver
 
-image::InternalPurchaseGIN-EditLineItem-ItemDetails-DeliveryInstructions.png[Delivery Instructions, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-ItemDetails-DeliveryInstruction.png[Delivery Instructions, align = "center"]
 
 === 3.1.3 Department
 
@@ -46,7 +46,7 @@ image::InternalPurchaseGIN-EditLineItem-ItemDetails-Department.png[Department, a
 
 Doc Link tab has copied To and Copied From tabs.
 
-image::InternalPurchaseGIN-EditLineItem-ItemDetails-DocLink.png[Doc Link, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-ItemDetails-DocLink-CopiedTo.png[Doc Link, align = "center"]
 
 === 3.1.5 Delivery Details
 
@@ -131,49 +131,48 @@ A new Edit Issue column will be displayed on the right side when one of the issu
 
 In the Edit Issue, users can fill in fields of Issue Number and Summary.
 
-image::InternalPurchaseGIN-EditLineItem-IssueLink-EditIssueLink.png[Link, align = "center"]
-
 ==== 3.5.1.1 Details tab
 
 Drop down field like Project. Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date are selectable.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Details-1.png[Details, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details-1.png[Link, align = "center"]
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Details-2.png[Details, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details-2.png[Link, align = "center"]
 
 ==== 3.5.1.2 Planning tab
 
 The fields such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Allocated and Manday Billing can be filled。
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Planning-1.png[Planning, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-1.png[Planning, align = "center"]
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Planning-2.png[Planning, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-2.png[Planning, align = "center"]
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Planning-2.png[Planning, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning-3.png[Planning, align = "center"]
+
 
 ==== 3.5.1.3 Attachment tab
 
 Upload file from local device by dragging and dropping your file on the field or clicking the Upload File button.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Attachment.png[Attachment, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
 
 ==== 3.5.1.4 Comment tab
 
 A list of comments can be viewed at this tab.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Comment.png[Comment, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
 
 ==== 3.5.1.5 Subtasks tab
 
 A list of subtasks can be viewed at this tab.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Subtasks.png[Substasks, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Subtasks.png[Substasks, align = "center"]
 
 ==== 3.5.1.6 Linked Issues tab
 
 A list of linked issues can be viewed at this tab.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-LinkedIssues.png[Linked Issues, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issues, align = "center"]
 
 ==== 3.5.1.7 Worklogs tab
 
@@ -183,15 +182,15 @@ The Log Time tab will be displayed on the right side when the ‘+’ button is 
 
 There are fields such as Activity Type, Date, Duration and Description to be filled.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Worklogs.png[Worklogs, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Worklogs.png[Worklogs, align = "center"]
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-LogTime.png[Log Time, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-LogTime.png[Log Time, align = "center"]
 
 ==== 3.5.1.8 Activity tab
 
 A list of activities can be viewed in this tab.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink-Activity.png[Activity, align = "center"]
+image::CreateInternalPurchaseGIN-Lines-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
 
 
 
