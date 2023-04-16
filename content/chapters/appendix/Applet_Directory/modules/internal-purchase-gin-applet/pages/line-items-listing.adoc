@@ -19,7 +19,7 @@ You can edit the item that you have selected.
 
 Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
 
-image::LineItemsListing-EditLineItem-MainDetails.png[Main Details, align = "center"]
+image::LineItemsListing-EditLineItem.png[Main Details, align = "center"]
 
 === 3.1.2 Delivery Instruction
 
@@ -32,7 +32,7 @@ In the Delivery Message Card
 a. Add a message with the sender and receiver
 b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver
 
-image::LineItemsListing-EditLineItem-DeliveryInstructions.png[Delivery Instructions, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-ItemDetails-DeliveryInstructions.png[Delivery Instructions, align = "center"]
 
 === 3.1.3 Department
 
@@ -40,19 +40,19 @@ Click on the ‘Copy from Hdr’ for getting the settings for Department.
 
 Fill in the information for the department.
 
-image::LineItemsListing-EditLineItem-Department.png[Department, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-ItemDetails-Department.png[Department, align = "center"]
 
 === 3.1.4 Doc Link
 
 Doc Link tab has copied To and Copied From tabs.
 
-image::LineItemsListing-EditLineItem-DocLink.png[Doc Link, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-ItemDetails-DocLink.png[Doc Link, align = "center"]
 
 === 3.1.5 Delivery Details
 
 Delivery Details page has a table with listing of Trip No, Driver Name, Vehicle No, JobStart Date, Job End Date, Delivery Status, Recipient Name and Quantity.
 
-image::LineItemsListing-EditLineItem-DeliveryDetails.png[Delivery Details, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-ItemDetails-DeliveryDetails.png[Delivery Details, align = "center"]
 
 == 3.2 Serial Number
 
@@ -66,7 +66,7 @@ THere is also Serial Number at the bottom.
 
 User can choose to remove or delete details by clicking on the buttons below.
 
-image::LineItemsListing-EditLineItem-SerialNumber-Listing.png[Listing, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-SerialNumber-Listing.png[Listing, align = "center"]
 
 == 3.2.2 Scan
 
@@ -74,7 +74,7 @@ Scan tab has Delimiter dropdown and User can add serial number, to and from deta
 
 Users can choose to remove or delete details by clicking on the buttons below.
 
-image::LineItemsListing-EditLineItem-SerialNumber-Scan.png[Scan, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-SerialNumber-Scan.png[Scan, align = "center"]
 
 == 3.2.3 Import
 
@@ -82,7 +82,7 @@ The import tabs has drag and drop file option or user can choose to upload file.
 
 User can choose to remove or delete details by clicking on the buttons below.
 
-image::LineItemsListing-EditLineItem-SerialNumber-Import.png[Import, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-SerialNumber-Import.png[Import, align = "center"]
 
 == 3.3 Costing Detail
 
@@ -96,7 +96,7 @@ e. FIFO Unit Cost
 f. Manual Unit Cost
 g. Last Purchase Unit Cost
 
-image::LineItemsListing-EditLineItem-CostingDetail.png[Detail, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-CostingDetails.png[Detail, align = "center"]
 
 == 3.4 Pricing Detail
 
@@ -107,7 +107,7 @@ b. Pricing Schema Name
 c. Purchase Unit Price
 d. Modified Date
 
-image::LineItemsListing-EditLineItem-PricingDetail.png[Pricing Details, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-PricingDetail.png[Pricing Details, align = "center"]
 
 === 3.4.1 Edit Pricing Detail
 
@@ -115,7 +115,7 @@ A new column of Edit Pricing Details will be displayed on the right side when on
 
 User can also choose to delete the details by clicking the delete button at the very bottom.
 
-image::LineItemsListing-EditLineItem-PricingDetail-EditPricingDetail.png[Edit Pricing Details, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-EditPricingDetails.png[Edit Pricing Details, align = "center"]
 
 == 3.5 Issue Link
 
@@ -123,7 +123,7 @@ Showing list of issue link.
 
 Contain project name, issue number and issue summary.
 
-image::LineItemsListing-EditLineItem-IssueLink.png[Issue Link, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-IssueLink.png[Issue Link, align = "center"]
 
 === 3.5.1 Edit Issue
 
@@ -131,7 +131,7 @@ A new Edit Issue column will be displayed on the right side when one of the issu
 
 In the Edit Issue, users can fill in fields of Issue Number and Summary.
 
-image::LineItemsListing-EditLineItem-IssueLink-EditIssueLink.png[Link, align = "center"]
+image::InternalPurchaseGIN-EditLineItem-IssueLink-EditIssueLink.png[Link, align = "center"]
 
 ==== 3.5.1.1 Details tab
 
