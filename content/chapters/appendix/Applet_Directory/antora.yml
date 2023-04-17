@@ -28,6 +28,7 @@ nav:
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/internal-delivery-order-applet/nav.adoc
 - modules/internal-job-sheet-applet/nav.adoc
+- modules/internal-packing-order-applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
 - modules/internal-purchase-credit-note/nav.adoc
 - modules/internal-packing-order-applet/nav.adoc
