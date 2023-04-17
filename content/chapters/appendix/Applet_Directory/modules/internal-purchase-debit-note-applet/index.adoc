@@ -3,6 +3,18 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/purchase_debit_note_listing.adoc[leveloffset=3]
+
+include::pages/purchase_debit_note_line_items_listing.adoc[leveloffset=3]
+
+include::pages/edit_purchase_debit_note.adoc[leveloffset=3]
+
+include::pages/edit_purchase_debit_note_line_items.adoc[leveloffset=3]
+
+include::pages/delete_purchase_debit_note_.adoc[leveloffset=3]
+
+include::pages/create_purchase_debit_note_.adoc[leveloffset=3]
+
 include::pages/modules.adoc[leveloffset=3]
 
 include::pages/menu_01_sales_order_listing.adoc[leveloffset=3]
