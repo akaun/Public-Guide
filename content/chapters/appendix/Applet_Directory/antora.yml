@@ -31,6 +31,7 @@ nav:
 - modules/internal-packing-order-applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
 - modules/internal-purchase-credit-note/nav.adoc
+- modules/internal-purchase-debit-note-applet/nav.adoc
 - modules/internal-packing-order-applet/nav.adoc
 - modules/internal-purchase-gin-applet/nav.adoc
 - modules/internal-purchase-invoice-applet/nav.adoc
