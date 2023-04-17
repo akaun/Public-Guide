@@ -30,6 +30,7 @@ nav:
 - modules/internal-job-sheet-applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
 - modules/internal-purchase-credit-note/nav.adoc
+- modules/internal-packing-order-applet/nav.adoc
 - modules/internal-purchase-gin-applet/nav.adoc
 - modules/internal-purchase-invoice-applet/nav.adoc
 - modules/internal-purchase-order-applet/nav.adoc
