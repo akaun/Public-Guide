@@ -1,0 +1,28 @@
+[#h3_internal_purchase_gin_listing_applet_introduction]
+= 1.0 Introduction
+
+image::internal-purchase-gin-applet-logo.png[]
+
+include::intro_description.adoc[]
+
+== Who will use the Internal Purchase GIN Applet?
+
+Internal purchase GIN applets are generally used by companies or organisations that have an internal procurement or purchasing process. The applet is designed to streamline the procurement process by allowing employees to purchase goods or services from pre-approved vendors or suppliers using a company-specific purchasing system.
+
+== Where will  the Internal Purchase GIN Applet be used?
+
+The Internal Purchase GIN (Goods Issue Note) Applet is typically used within companies or organisations that have an internal procurement or purchasing process. This applet is used to manage the issuance of goods or services from the company's inventory or stock to its employees or other departments.
+
+== What are the benefits of using  the Internal Purchase GIN Applet?
+
+There are several benefits to using the Internal Purchase GIN (Goods Issue Note) Applet in a company or organisation:
+
+a. Streamlines the procurement process: The Internal Purchase GIN Applet helps streamline the procurement process by allowing employees to request goods or services from the company's inventory or stock in a centralised and efficient way.
+
+b. Increases accuracy and accountability: The applet helps ensure that the issuance of goods or services is accurately recorded and accounted for, reducing errors and increasing accountability.
+
+c. Improves inventory management: By using the Internal Purchase GIN Applet, companies can more effectively manage their inventory or stock levels, ensuring that they have the right goods and services available when needed.
+
+d. Enables better cost control: The applet provides better visibility into the company's procurement and purchasing processes, enabling better cost control and expense management.
+
+e. Enhances compliance: The Internal Purchase GIN Applet can be customised to include specific company policies and procedures, ensuring that employees adhere to them when requesting goods or services.

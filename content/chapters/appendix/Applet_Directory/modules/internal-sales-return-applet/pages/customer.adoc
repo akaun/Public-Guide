@@ -1,0 +1,372 @@
+[#h3_internal-sales-return-applet_customer]
+= 3.0 Customer
+
+Please change to “Create/Edit Mode” to add a new customer/edit customer.
+
+image::SelectCustomer-1.png[Customer, align = "center"]
+
+== 3.1 Create a new Customer
+
+Please click the ‘+’ button to add a new customer.
+
+image::SelectCustomer-2.png[Customer, align = "center"]
+
+=== 3.1.1  In the Main Details Tab of Create Customer
+
+Please fill up the compulsory (*) information for creating the customer. After filling up the compulsory information, please click Create to add a new customer. There are 9 components which allow the user to make changes respectively:
+
+a. Customer Name
+b. Customer Code
+c. Status
+d. Entity Type
+e. ID Number
+f. Tax Registration Number
+g. Currency
+h. Description
+i. GL Code
+
+image::SelectCustomer-CreateCustomer-Main.png[Main, align = "center"]
+
+=== 3.1.2 After adding the Customer, it will be listed in the customer page. Please click on the Customer to edit it.
+
+Only the Customer Name, Status, Type, ID Number, Tax Registration Number, Currency, Description, GL Code, Phone Number and Email can be edited. After updating it, please click “Save”.
+
+You can click on the “Remove” button to remove the Customer from the Customer Listing.
+
+image::SelectCustomer-CustomerEdit-Main-1.png[Main, align = "center"]
+
+image::SelectCustomer-CustomerEdit-Main-2.png[Main, align = "center"]
+
+image::SelectCustomer-CustomerEdit-Main-3.png[Main, align = "center"]
+
+== 3.2 Category Tab
+
+Please click the ‘+’ button to add categories.
+
+image::SelectCustomer-CustomerEdit-CustomerCategory.png[Customer Category, align = "center"]
+
+=== 3.2.1 A list of categories will be displayed on the right side
+
+Click on the category row to be added.
+
+After selecting the categories, please click on the ‘Add’ button to be added.
+
+image::SelectCustomer-CustomerEdit-CustomerCategory-CategoryAdd.png[CategoryAdd, align = "center"]
+
+=== 3.2.2 Edit Selected Category
+
+Click on the selected category to be edited.
+
+After selecting the category, can edit it.
+
+Click Update if want to update the category.
+
+Click Remove if want to remove the category.
+
+image::SelectCustomer-CustomerEdit-CustomerCategory-CategoryEdit-Main.png[Main, align = "center"]
+
+== 3.3 Login Tab
+
+Please click the ‘+’ button to add login.
+
+image::SelectCustomer-CustomerEdit-Login.png[Login, align = "center"]
+
+=== 3.3.1 Create new Login
+
+Please fill up the compulsory (*) information for creating the login. After filling up the compulsory information, please click Add to add a new login. Compulsory Information: 
+
+a. User email
+b. Rank
+c. Status
+
+Click the "Verify Email" button to check the validity of the email.
+
+image::SelectCustomer-CustomerEdit-Login-LoginCreate.png[Create, align = "center"]
+
+=== 3.3.2 Edit Login
+
+Edit on the Rank and Status of the Login that selected from the list of Logins.
+
+After making the changes, please click on the ‘Update’.
+
+Click on the Remove to remove the Login.
+
+image::SelectCustomer-CustomerEdit-Login-LoginEdit-Main.png[Main, align = "center"]
+
+== 3.4 Payment Config Tab
+
+Please click the ‘+’ button to add payment config.
+
+image::SelectCustomer-CustomerEdit-PaymentConfig.png[Config, align = "center"]
+
+=== 3.4.1 Create new Payment Config
+
+Please fill up the compulsory (*) information for creating the payment config. After filling up the compulsory information, please click Add to add a new payment config. Compulsory Information: 
+
+a. Payee Residential Status-Only have Resident or Non-Resident
+b. Payment Type-Can Add Payment Type in Cashbook Applet
+c. Country
+d. Other fields are optional
+
+image::SelectCustomer-CustomerEdit-PaymentConfig-PaymentConfigCreate.png[Main, align = "center"]
+
+=== 3.4.2 Edit Payment Config
+
+Edit on every field of the Payment Config that was selected from the list of Payment Configs.
+Compulsory field (Cannot be empty): 
+
+a. Payee Residential Status
+b. Payment Type
+c. Country
+
+After making the changes, please click on the ‘Update’.
+
+Click on the Remove button to remove the payment config.
+
+image::SelectCustomer-CustomerEdit-PaymentConfig-PaymentConfigEdit-Main-1.png[Main, align = "center"]
+
+image::SelectCustomer-CustomerEdit-PaymentConfig-PaymentConfigEdit-Main-2.png[Main, align = "center"]
+
+== 3.5 Tax Tab
+
+Please click the ‘+’ button to add tax.
+
+image::SelectCustomer-CustomerEdit-Tax.png[Tax, align = "center"]
+
+=== 3.5.1 Create new Tax
+
+Please fill up all the information for creating the tax. After filling up all the information, please click Add to add a new tax. Compulsory Information: 
+
+a. Country
+b. Tax Type-Show based on the Country selected
+c. Tax Code-Show based on the Tax Type selected
+d. Tax Rate-Auto show based on the Tax Code selected
+e. Tax Option-Have Include Tax and Exclude Tax Options
+
+image::SelectCustomer-CustomerEdit-Tax-TaxCreate-Main.png[Main, align = "center"]
+
+=== 3.5.2 Edit Tax
+
+Edit on every field of the Tax that was selected from the list of Taxes.
+
+Click on the Remove button to remove the tax.
+
+image::SelectCustomer-CustomerEdit-Tax-TaxEdit-Main.png[Main, align = "center"]
+
+== 3.6 Address Tab
+
+Please click the ‘+’ button to add Address.
+
+image::SelectCustomer-CustomerEdit-Address.png[Address, align = "center"]
+
+=== 3.6.1 Create new Address
+
+Please fill up the compulsory(*) information for creating the Address. After filling up the compulsory(*) information, please click Add to add a new Address. There are 11 components which allow the user to make changes respectively: 
+
+a. Address Name
+b. Address Type
+c. Address Line 1
+d. Address Line 2
+e. Address Line 3
+f. Address Line 4
+g. Address Line 5
+h. ountry
+i. State
+j. ity
+k. Postcode
+
+Tick on ‘Set as default’ for future default use.
+
+image::SelectCustomer-CustomerEdit-Address-AddressCreate-Main-1.png[Main, align = "center"]
+
+image::SelectCustomer-CustomerEdit-Address-AddressCreate-Main-2.png[Main, align = "center"]
+
+=== 3.6.2 Edit Address
+
+Edit on every field of the Address that was selected from the list of Address.
+
+After making the changes, please click on the ‘Update’.
+
+Click on the Remove button to remove the Address.
+
+Can click on “Set as default” for default address.
+
+image::SelectCustomer-CustomerEdit-Address-AddressEdit-Main-1.png[Main, align = "center"]
+
+image::SelectCustomer-CustomerEdit-Address-AddressEdit-Main-2.png[Main, align = "center"]
+
+== 2.7 Contact Tab
+
+Please click the ‘+’ button to add Contact.
+
+image::SelectCustomer-CustomerEdit-Contact.png[Contact, align = "center"]
+
+=== 2.7.1 Create new Contact
+
+Please fill up the compulsory(*) information for creating the Contact. After filling up the compulsory(*) information, please click Add to add a new Contact. There are 11 components which allow the user to make changes respectively: 
+
+a. Contact Name
+b. Contact ID
+c. Designation/Position
+d. Office No
+e. Extension No
+f. Mobile No
+g. Fax No
+h. Phone Number
+i. Email
+j. Other No
+
+image::SelectCustomer-CustomerEdit-Contact-ContactCreate-Main.png[Main, align = "center"]
+
+=== 2.7.2 Edit Contact
+
+Edit on every field of the Contact that was selected from the list of Contacts.
+
+After making the changes, please click on the ‘Update’.
+
+Click on the Remove button to remove the Contact.
+
+image::SelectCustomer-CustomerEdit-Contact-ContactEdit-Main-1.png[Main, align = "center"]
+
+image::SelectCustomer-CustomerEdit-Contact-ContactEdit-Main-2.png[Main, align = "center"]
+
+== 2.8 Branch Tab
+
+Please click the ‘+’ button to add Branch.
+
+image::SelectCustomer-CustomerEdit-Branch.png[Branch, align = "center"]
+
+=== 2.8.1 A list of branch will be displayed on the right side
+
+Click on the branch row to be added.
+
+After selecting the branch, please click on the ‘Add’ button to be added.
+
+image::SelectCustomer-CustomerEdit-Branch-SelectBranch.png[Select Branch, align = "center"]
+
+=== 2.8.2 Edit Branch
+
+Click on the Remove button to remove the Branch.
+
+image::SelectCustomer-CustomerEdit-Branch-BranchEdit-Main.png[Main, align = "center"]
+
+== 2.9 Item Pricing Tab
+
+=== 2.10.1 List of Item Pricing
+
+Show Item Code, Item Name, Customer Item Code, Customer Item Name, Currency, Purchase Price, Sales Price.
+
+image::SelectCustomer-CustomerEdit-ItemPricing.png[Item Pricing, align = "center"]
+
+== 2.10 Remark Tab
+
+Fill in the Remark which is optional.
+
+image::SelectCustomer-CustomerEdit-Remark.png[Remark, align = "center"]
+
+== 2.11 Credit Term and Limit
+
+Please click the ‘+’ button to add Credit Term and Credit Limit.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit.png[Limit, align = "center"]
+
+=== 2.11.1 Credit Term
+
+==== 2.11.1.1 Create new Credit Term
+
+Display the Customer Name and Customer Code.
+
+Select the Existing Credit Term or New Credit Term.
+
+Please fill up the compulsory( * ) information for creating the Credit Term. After filling up the compulsory ( * ) information in Existing Credit Term or New Credit Term, please click Add to add a new Credit Term.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-Main.png[Main, align = "center"]
+
+===== 2.11.1.1.1 Existing Credit Term
+
+Select the existing credit terms.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-Main-ExistingCreditTerm.png[Term, align = "center"]
+
+===== 2.11.1.1.2 New Credit Term
+
+There are 11 components which allow the user to make changes respectively: 
+
+a. Credit Term Code
+b. Credit Term Name
+c. Status
+d. Set Year
+e. Set Month
+f. Set Day
+g. Add Year
+h. Add Month
+i. Add Day
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-Main-NewCreditTerm-1.png[Term, align = "center"]
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermCreate-Main-NewCreditTerm-2.png[Term, align = "center"]
+
+=== 2.11.2 Edit Credit Term
+
+Edit on every field of the Credit Term that was selected from the list of Credit Term.
+
+After making the changes, please click on the ‘Update’.
+
+Click on the Remove button to remove the Credit Term.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermEdit-1.png[Edit, align = "center"]
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditTerm-CreditTermEdit-2.png[Edit, align = "center"]
+
+=== 2.11.3 Credit Limit
+
+==== 2.11.3.1 Create new Credit Limit
+
+Display the Customer Name and Customer Code.
+
+Select the Existing Credit Limit or New Credit Limit.
+
+Please fill up the compulsory(*) information for creating the Credit Limit. After filling up the compulsory( * ) information in Existing Credit Limit or New Credit Limit, please click Add to add a new Credit Limit.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-Main.png[Main, align = "center"]
+
+===== 2.11.3.1.1 Existing Credit Limit
+
+Select the existing credit limit.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-Main-ExistingCreditLimit.png[Limit, align = "center"]
+
+===== 2.11.3.1.2 New Credit Limit
+
+There are 5 components which allow the user to make changes respectively: 
+
+a. Credit Term Code
+b. Credit Term Name
+c. Status
+d. Currency
+e. Credit Limit Amount
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitCreate-Main-NewCreditLimit.png[Limit, align = "center"]
+
+==== 2.11.3.2 Edit Credit Limit
+
+Edit on every field of the Credit Limit that was selected from the list of Credit Limit.
+
+After making the changes, please click on the ‘Update’.
+
+Click on the Remove button to remove the Credit Limit.
+
+image::SelectCustomer-CustomerEdit-CreditTermAndLimit-CreditLimit-CreditLimitEdit.png[Edit, align = "center"]
+
+
+
+
+
+
+
+
+
+
+
+
+

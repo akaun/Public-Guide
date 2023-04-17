@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Packing Order Applet allows the user to view and manage the process of order packing by creating new packing orders based on the sales orders, and editing the related details.

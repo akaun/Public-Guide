@@ -1,0 +1,1 @@
+The Internal Sales Return Applet is used to add one or many internal sales returns. It is used to manage the listing of the internal sales return and line items. There are two modules in the applet which are ‘Internal Sales Return’ and ‘Line Items’. 

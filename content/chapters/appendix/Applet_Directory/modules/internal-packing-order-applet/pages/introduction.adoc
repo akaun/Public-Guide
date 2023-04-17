@@ -1,6 +1,28 @@
 [#h3_internal-packing-order-applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::internal_packing_order_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+== Who is going to use the Internal Packing Order Applet?
+
+The Internal Packing Applet can be used by employees or staff members within a company or organization who are responsible for packing and shipping orders. This could include warehouse staff, shipping department personnel, or logistics managers who need to keep track of packing materials, products, and shipping orders. 
+
+== Where will the Internal Packing Order Applet be used?
+
+The Internal Packing Applet will be used within a company or organization to manage the packing orders. The applet may be used in a warehouse or shipping department to manage new packing orders. 
+
+== What are the benefits of the Internal Packing Order Applet?
+
+There are many benefits of using Internal Packing Order Applet that includes:
+
+a. Streamlining order fulfillment: The applet could help streamline the process of packing and shipping internal orders by providing a centralized platform for managing order information, packing materials, and shipping details.
+
+b. Reducing errors: By automating certain aspects of the packing and shipping process, the applet could help reduce errors and improve order accuracy.
+
+c. Saving time: With features such as barcode scanning and automated labeling, the applet could help save time and increase efficiency in the packing and shipping process.
+
+d. Improving inventory management: The applet could help improve inventory management by providing real-time visibility into inventory levels and usage, which could help prevent stockouts and overstocking.
+
+e. Enhancing customer satisfaction: By improving order accuracy and speed of delivery, the applet could help enhance customer satisfaction and loyalty.

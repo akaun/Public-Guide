@@ -1,0 +1,32 @@
+[#h3_internal-packing-order-applet_packing_order]
+= 2.0 Packing Order
+
+image::packing_order.png[Packing Order, align = "center"]
+
+On the packing order tab you can view the list of the packing orders you have, you can click on the + button to create a new packing order, you can also search for an existing packing order by using the company, branch, location, creation date, packing order number, and status. Also, you can edit an existing packing order by clicking on the row of the packing order.
+
+== 2.1 Packing Order Create Main
+
+image::packing_order_create_main.png[Main, align = "center"]
+
+After clicking on the + button to create a new packing order, a new window will open on the right side, containing three tabs, the first tab is the Main tab. 
+
+In the Main tab, you can choose the branch, and location, enter the reference, transaction date, and remarks, then click on the Create button.
+
+== 2.2 Packing Order Create Line Items
+
+image::packing_order_create_line_items.png[Line Items, align = "center"]
+
+After clicking on the + button to create a new packing order, a new window will open on the right side, containing three tabs, the second tab is the Line Items tab. In the Line Items tab, you can view the items currently in line, you can also add new sales orders to the item line by clicking on the + button.
+
+=== 2.2.1 Packing Order Create Line Items Add
+
+image::packing_order_create_line_items_add.png[Line Items, align = "center"]
+
+After clicking on the + button, a list of the sales order will appear to choose the sales order you want to add to the packing order items lines.
+
+== 2.3 Packing Order Create Department Hdr
+
+image::packing_order_create_department_hdr.png[hdr, align = "center"]
+
+After clicking on the + button to create a new packing order, a new window will open on the right side, containing three tabs, the third tab is the Department Hdr tab. In the Department Hdr tab, you can choose the segment, dimension, profit center, and project, then click on the Create button to create the new packing order.
