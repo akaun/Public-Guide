@@ -130,15 +130,9 @@ image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-LinkedIssues.png[L
 * They can add and view “Linked Issues” to the issue details using the “Linked Issues” tab.
 
 
-image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Worklog.png[Line Item Issue Link Worklog, align = "center"]
+image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-WorkLog.png[Line Item Issue Link Worklog, align = "center"]
 
 * They can add and view their worklogs for the issue details using the “Worklogs” tab.
-
-
-image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Worklog.png[Line Item Issue Link Worklog, align = "center"]
-
-* They can add and view their worklogs for the issue details using the “Worklogs” tab.
-
 
 image::InternalPurchaseDebitNote-Create-AddLineItem-IssueLink-Activity.png[Line Item Issue Link Activity, align = "center"]
 
@@ -184,7 +178,7 @@ image::InternalPurchaseDebitNote-Create-KO.png[KnockOff, align = "center"]
 
 ===  2.2.10 Finalize Purchase Debit Note
 
-image::InternalPurchaseDebitNote-Create-CreateBtn.png[Finalize Purchase Debit Note, align = "center"]
+image::InternalPurchaseDebitNote-CreateBtn.png[Finalize Purchase Debit Note, align = "center"]
 
 image::InternalPurchaseDebitNote-Create-Success.png[Finalize Purchase Debit Note Success, align = "center"]
 
