@@ -1,4 +1,4 @@
-[#h3_internal_sales_invoice_applet_sales_invoice]
+[#h3_internal_sales_invoice_applet_sales_invoice_template]
 = 5.0 Sales Invoice Template
 
 When going into Sales Invoice Template Listing, it will show all the sales invoice templates that are created. Users can click on the “+” button to start creating a new sales invoice template.
