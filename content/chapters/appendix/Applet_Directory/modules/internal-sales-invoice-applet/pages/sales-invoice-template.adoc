@@ -1,0 +1,124 @@
+[#h3_internal_sales_invoice_applet_sales_invoice]
+= 5.0 Sales Invoice Template
+
+When going into Sales Invoice Template Listing, it will show all the sales invoice templates that are created. Users can click on the “+” button to start creating a new sales invoice template.
+
+image::sales-invoice-template-listing.png[Sales Invoice Listing, align = "center"]
+
+== 5.1 Main Details
+
+image::create-sales-invoice-template-main-details.png[Main Details, align = "center"]
+
+After clicking the “+” button, it will bring the users to create the sales invoice template. In Main Details tab, there are a few fields that are needed to be filled by users which consist of:
+
+a. Template Code
+b. Template Name
+c. Description
+d. Reference
+e. Remarks
+f. Currency
+g. Can be chosen from the drop down menu
+
+Users can click on the “create” button after finishing all the fields, or “reset” button to clear all the information filled.
+
+== 5.2 Lines
+
+When going into Lines Tab, users can click on the “+” button to start selecting the item to be added to the sales invoice template. 
+
+image::create-sales-invoice-template-lines.png[Lines, align = "center"]
+
+image::lines-select-item.png[Select Item, align = "center"]
+
+You can either manually search for the item by scrolling down, or go to the search bar and search for the item code or serial number to add the item into the sales invoice template. 
+
+After clicking on the selected item, it will prompt you to another page which gives the information of the item selected.
+
+=== 5.2.1 Item Details
+
+==== 5.2.1.1 Main Details
+
+image::additem-itemdetails-maindetails-1.png[Main Details, align = "center"]
+
+image::additem-itemdetails-maindetails-2.png[Main Details, align = "center"]
+
+image::additem-itemdetails-maindetails-3.png[Main Details, align = "center"]
+
+image::additem-itemdetails-maindetails-4.png[Main Details, align = "center"]
+
+In the Main Details tab, there are plenty of fields that are needed to be filled by users: 
+
+a. Item Code
+b. Item Name
+c. Unit Price STD (Exclusive of Tax)
+d. Unit Price STD (Inclusive of Tax)
+e. Unit Discount
+f. Quantity Base
+g. Quantity by UOM
+h. UOM to Base Ratio
+i. Unit Price by UOM (Exclusive of Tax)
+j. Unit Price STD by UOM (Inclusive of Tax)
+k. Unit Discount by UOM (Exclusive of Tax)
+l. Unit Price Net by UOM (Exclusive of Tax)
+m. Unit Price Transaction by UOM (Inclusive of Tax)
+n. Unit Price Net (Exclusive of Tax)
+o. STD Amount (Unit Price x Quantity)
+p. Discount Amount (Exclusive of Tax)
+q. Amount Net (Inclusive of Tax)
+r. SST Code
+s. SST/GST/VAT
+t. Tax Amount
+u. Tariff Codes
+v. WHT Code
+w. WHT
+x. WHT Amount
+y. Unit Price Transaction (Inclusive of Tax)
+z. Txn Amount
+Remarks
+
+Users can edit the item that they have selected.cNumber fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+==== 5.2.1.2 Delivery Instruction
+
+image::additem-itemdetails-deliveryinstruction.png[Delivery Instruction, align = "center"]
+
+In the Delivery Instruction:
+
+a. Add Instruction and Set the Delivery Date
+
+In the Delivery Message Card
+
+a. Add a message with the sender and receiver:
+b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ for getting the setting of the Sender and Receiver
+
+==== 5.2.1.3 Department
+
+image::additem-itemdetails-deparment.png[Department, align = "center"]
+
+There are a few fields required to be filled up in Department Tab, which are:
+
+a. Segment
+b. G/L Dimension
+c. Profit Centre
+d. Project 
+
+==== 5.2.1.3 Delivery Details
+
+image::additem-itemdetails-deliverydetails.png[Delivery Details, align = "center"]
+
+In the Delivery Tab, users are required to fill in the delivery details of the added item, the fields required are:
+
+a. Require Delivery
+b. Delivery Status
+c. Delivery Region code
+d. Delivery Region Status
+e. Delivery Logic
+f. Delivery ID
+g. Planned Delivery Date
+h. Estimate Delivery Date 
+i. Actual Delivery Date
+j. Delivery PIC Name
+k. Delivery PIC Contact
+l. Requested Delivery Date
+m. Delivery Remarks
+
+After filling in all the information required, press the “add” button to add the item selected to the sales invoice template. 

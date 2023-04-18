@@ -12,6 +12,8 @@ include::pages/menu_02_line_items.adoc[leveloffset=3]
 
 include::pages/menu_03_file_import.adoc[leveloffset=3]
 
+include::pages/sales-invoice-template.adoc[leveloffset=3]
+
 // include::pages/permission_settings.adoc[leveloffset=3]
 
 // include::pages/personalization_settings.adoc[leveloffset=3]

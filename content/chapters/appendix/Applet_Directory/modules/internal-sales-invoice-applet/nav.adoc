@@ -9,3 +9,4 @@
 ** xref:menu_01_sales_invoice.adoc[Doc Listing]
 ** xref:menu_02_line_items.adoc[Line Items]
 ** xref:menu_03_file_import.adoc[File Import]
+** xref:sales-invoice-template.adoc[Sales Invoice Template]
