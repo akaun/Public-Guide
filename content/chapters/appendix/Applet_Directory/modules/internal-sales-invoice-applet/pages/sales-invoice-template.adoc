@@ -92,7 +92,7 @@ b. Can click on the ‘Copy from Entity Name’ or ‘Copy from Recipient Name�
 
 ==== 5.2.1.3 Department
 
-image::additem-itemdetails-deparment.png[Department, align = "center"]
+image::additem-itemdetails-department.png[Department, align = "center"]
 
 There are a few fields required to be filled up in Department Tab, which are:
 
