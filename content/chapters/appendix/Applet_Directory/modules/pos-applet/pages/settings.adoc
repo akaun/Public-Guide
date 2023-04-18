@@ -1,0 +1,49 @@
+[#h3_pos_applet_settings]
+= 5.0 Settings
+
+== 5.1. Settlement Settings
+=== 5.1.1. Add New Settlement Method
+
+image::settlement_settings_1.png[align="center"]
+
+First, click on the Settings button on the bottom left. Next, click on the “Settlement Settings”. Upon clicking the “Settlement Settings”, there will be a list of branches displayed. Users can then select the Branch to add in a new Settlement method.
+
+image::settlement_settings_2.png[align="center"]
+
+Upon selecting a branch, the “Edit Settlement Method” tab will appear and the current settlement methods will be displayed. To create a new Settlement method, users can click on the “Create” button.
+
+Process Flow For POS Applet
+
+*Step 1 - Chart of Account Applet* 
+-Create Chart of Account
+-Create GL Category
+-Create GL Code
+
+*Step 2  - Organization* 
+- Create Company
+- Create Location
+- Create Branch
+
+*Step 3 - Cashbook Applet* 
+- Create Cashbook
+- Create Settlement Method and add it into the cash book
+
+*Step 4 - Employee Maintenance Applet* 
+- Create Employee
+
+*Step 5  - Doc Item Maintenance Applet* 
+- Create Item
+- Create Item Group
+- Create Item Category
+- Create Pricing Scheme
+- Assign pricing scheme and item category to the item
+
+*Step 6  - Customer Maintenance Applet* 
+- Create Customer ( A standard customer code for walk in customer)
+
+*Step 7 - Team Maintenance Applet* 
+- To give permission to employee to access
+
+*Step 8 - POS Applet* 
+- To add settle method and branch in settings
+- To add hardware device (If Any)

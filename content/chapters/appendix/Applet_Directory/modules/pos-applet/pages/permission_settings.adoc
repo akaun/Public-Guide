@@ -1,3 +1,0 @@
-[#h3_pos_permission_settings]
-=  Permission Settings
-
