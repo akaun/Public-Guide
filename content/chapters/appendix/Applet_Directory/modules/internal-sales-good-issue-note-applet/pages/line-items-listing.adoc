@@ -1,4 +1,4 @@
-[#h3_internal_sales_good_issue_note_applet_introduction]
+[#h3_internal_sales_good_issue_note_applet_line_items_listing]
 = 3.0 Line Items Listing
 
 == 3.1 Line Items

@@ -1,4 +1,4 @@
-[#h3_internal_sales_good_issue_note_applet_introduction]
+[#h3_internal_sales_good_issue_note_applet_internal_sales_gin]
 = 2.0 Internal Sales Gin 
 
 Upon clicking on Internal Sales GIN , the user will get to the Internal Sales GIN Listing page.
@@ -183,7 +183,7 @@ The Main Details has fields that are Document Type Doc No (Tenant), Doc No (Comp
 
 The fields with “*” sign with them are mandatory to be filled.
 
-image::EditInternalSalesGIN-MainDetails[Main Details, align = "center"]
+image::EditInternalSalesGIN-MainDetails.png[Main Details, align = "center"]
 
 === 2.3.2 Account
 
@@ -251,7 +251,7 @@ image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-Department.png[Department
 
 The Doc Link tab has 2 pages that are To and From
 
-image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-DocLinkTo_From[Doc Link To From, align = "center"]
+image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-DocLinkTo_From.png[Doc Link To From, align = "center"]
 
 ====== 2.3.3.1.5 Delivery Details
 
