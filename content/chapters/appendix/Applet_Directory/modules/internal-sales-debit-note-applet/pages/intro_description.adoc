@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The Internal Sales Debit Note applet takes care of account payable- debit note entry, to create new account payable debit note entry, to print account payable debit note listing, Account payable - credit note entry, Account payable - debit note analysis report and to view analysis report of A/P debit Note in columns according to debit note type.
