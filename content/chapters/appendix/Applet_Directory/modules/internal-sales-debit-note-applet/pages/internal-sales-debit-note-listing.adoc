@@ -291,7 +291,7 @@ image::EditInternalSalesDebitNote-Attachments.png[Attachments, align = "center"]
 
 The Add Attachment page has the option to Upload File or user can drag and drop the file.
 
-image::EditInternalSalesDebitNote-AddAttachments.png[Add Attachments, align = "center"]
+image::EditInternalSalesDebitNote-AddAttachment.png[Add Attachments, align = "center"]
 
 ===== 2.2.1.7 Export
 

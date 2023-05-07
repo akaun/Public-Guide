@@ -51,7 +51,7 @@ The Doc Link tab has 2 pages that are To and From.
 
 The To and From pages have tables that have Doc No, Branch, Server Doc Type, Status, and Date columns.
 
-image::LineItemListing-EditLineItem-ItemDetails-DocLink-From&To.png[From and To, align = "center"]
+image::LineItemListing-EditLineItem-ItemDetails-DocLink-From_To.png[From and To, align = "center"]
 
 === 3.2.5 Delivery Details
 
