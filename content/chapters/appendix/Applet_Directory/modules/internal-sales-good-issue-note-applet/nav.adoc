@@ -1,0 +1,4 @@
+* Internal Sales Gin Applet
+** xref:introduction.adoc[Introduction]
+** xref:internal-sales-gin.adoc[Internal Sales Gin Listing]
+** xref:line-items-listing.adoc[Line Items Listing]

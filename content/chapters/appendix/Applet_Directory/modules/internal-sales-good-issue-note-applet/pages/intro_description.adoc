@@ -1,0 +1,2 @@
+The Internal Sales Goods Issue Note Applet is used for stock issue, to record the issuance of stock items (that were taken out from warehouse) for any reason other than sales, to create new stock issue, to print stock issue listing, goods return, to keep the outstanding Goods Received Note updated (so that accurate invoice can later be issued), and to update the stock level as well.
+

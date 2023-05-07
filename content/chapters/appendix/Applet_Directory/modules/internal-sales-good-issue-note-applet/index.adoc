@@ -1,0 +1,13 @@
+[#h2_internal_sales_goods_issue_note_index]
+= Internal Sales Goods Issue Note Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/internal-sales-gin.adoc[leveloffset=3]
+
+include::pages/line-items-listing.adoc[leveloffset=3]
+
+
+
+
+

@@ -84,6 +84,8 @@ include::modules/internal-sales-credit-note-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-debit-note-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-sales-good-issue-note-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-invoice-applet/index.adoc[leveloffset=2]

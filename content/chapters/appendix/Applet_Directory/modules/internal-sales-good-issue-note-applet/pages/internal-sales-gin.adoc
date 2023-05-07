@@ -1,0 +1,416 @@
+[#h3_internal_sales_good_issue_note_applet_introduction]
+= 2.0 Internal Sales Gin 
+
+Upon clicking on Internal Sales GIN , the user will get to the Internal Sales GIN Listing page.
+
+== 2.1 Internal Sales GIN Listing
+
+The Internal Sales GIN Listing page has a This page has a listing of Sale GIN. There is also a Search Bar to search for Sales GIN No from the listing below. The Plus “+” sign button is used to get to Create Internal Sales GIN. The Listing table has columns that are:
+
+a. Sales GIN No
+b. Posting Status
+c. Branch
+d. Customer Name
+e. Sales Agent 
+f. Update Date
+g. Created Date
+h. Transaction Date
+i. Created by
+
+image::InternalSalesGINListing.png[Listing, align = "center"]
+
+== 2.2 Create Internal Sales GIN 
+
+The Create Internal Sales GIN page has further tabs that are Main Details, Account, Lines, Settlement and Department Hdr.
+
+=== 2.2.1 Main Details
+
+The Main Details has fields that are Branch, Location, Sales Agent, Member Card, Transaction Date, Debit Term, Due Date, Reference, Remarks, Permit No, Currency and Tracking ID.
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::CreateInternalSalesGIN-MainDetails.png[Main Details, align = "center"]
+
+=== 2.2.2 Account
+
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+
+==== 2.2.2.1 Entity Details
+
+The Entity Details Page has fields that are Entity ID, Entity Name, Status, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number. 
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::CreateInternalSalesGIN-Account-EntityDetails.png[Entity Details, align = "center"]
+
+==== 2.2.2.2 Bill To
+
+The Bill To  page has fields that are Name, Email, Phone No, Billing Address, Country, State, City and Postcode.
+
+image::CreateInternalSalesGIN-Account-BillTo.png[Bill To, align = "center"]
+
+==== 2.2.2.3 Ship To
+
+The Ship To page has fields that are Recipient Name, Email, Phone Number, Shipping Address, Country, State, City and Postcode.
+
+image::CreateInternalSalesGIN-Account-ShipTo.png[Ship To, align = "center"]
+
+=== 2.2.3 Lines
+
+The Lines page has a table with Item Code, Item Name, UOM, Qty, Unit Price, SST/VAT/GST,  and Txn Amount. There is a Plus Button to Add Item. The User can click on the plus button to get to the Select Item page. 
+
+image::CreateInternalSalesGIN-Lines.png[Lines, align = "center"]
+
+==== 2.2.3.1 Select Item
+
+The Select Item page has Further pages.
+
+===== 2.2.3.1.1 Search Item
+
+The Search Item page has a table that has Item Code, Item Name, UOM and System Stock Balance columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-SearchItem.png[Search Item, align = "center"]
+
+===== 2.2.3.1.2 KO by Sales Order Item
+
+The KO by Sales Order Item  page has a table that has Sales Order No., Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and Knocked off Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObySalesOrderItem.png[Sales Order, align = "center"]
+
+===== 2.2.3.1.3 KO for Sales Order Item
+
+The KO for Sales Order Item  page has a table that has Sales Order No., Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Knocked of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOForSalesOrderItem.png[Sales Order, align = "center"]
+
+===== 2.2.3.1.4 KO by Jobsheet Item
+
+The KO by Job Sheet Item  page has table that has Sales Job Sheet, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Knocked of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObyJobsheetItem.png[Jobsheet, align = "center"]
+
+===== 2.2.3.1.5 KO for Job Sheet Item
+
+The KO for Job Sheet Item  page has a table that has Sales Job Sheet, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOForJobsheetItem.png[Jobsheet, align = "center"]
+
+===== 2.2.3.1.6 KO by Delivery Order Item
+
+The KO by Delivery Order Item page has a table that has Delivery Order No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObyDeliveryOrderItem.png[Delivery Order, align = "center"]
+
+===== 2.2.3.1.7 KO for Delivery Order Item
+
+The KO for Delivery Order Item page has a table that has Delivery Order No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOforDeliveryOrderItem.png[Delivery Order, align = "center"]
+
+===== 2.2.3.1.8 KO by Purchase Order Item
+
+The KO by Purchase Order Item page has a table that has Purchase Order No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObyPurchaseOrderItem.png[Purchase Order, align = "center"]
+
+===== 2.2.3.1.9 KO for Purchase Order Item
+
+The KO for Purchase Order Item page has a table that has Purchase Order No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOforPurchaseOrderItem.png[Purchase Order, align = "center"]
+
+===== 2.2.3.1.10 KO by Purchase Requisition Item
+
+The KO by Purchase Requisition Item page has table that has Purchase Requisition No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObyPurchaseRequisitionItem.png[Purchase Requisition Item, align = "center"]
+
+===== 2.2.3.1.11 KO for Purchase Requisition Item
+
+The KO for Purchase Requisition Item page has table that has Purchase Requisition No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOforPurchaseRequisitionItem.png[Purchase Requisition Item, align = "center"]
+
+===== 2.2.3.1.12 KO by Purchase Quotation Item
+
+The KO by Purchase Quotation Item page has table that has Purchase Quotation No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObyPurchaseQuotationItem.png[Purchase Quotation Item, align = "center"]
+
+===== 2.2.3.1.13 KO for Purchase Quotation Item
+
+The KO by Purchase Quotation Item page has table that has Purchase Quotation No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOforPurchaseQuotationItem.png[Purchase Quotation Item, align = "center"]
+
+===== 2.2.3.1.14 KO by Purchase Invoice Item
+
+The KO by Purchase Invoice Item page has table that has Purchase Invoice No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KObyPurchaseInvoiceItem.png[Purchase Invoice Item, align = "center"]
+
+===== 2.2.3.1.15 KO for Purchase Invoice Item
+
+The KO by Purchase Invoice Item page has table that has Purchase Invoice No, Item Code, Item Name, Base Qty, UOM, Unit Price (Inclusive Tax), Balanced Quantity, Knocked off Qty and  Kockk of Qty columns.
+
+image::CreateInternalSalesGIN-Lines-SelectItem-KOforPurchaseInvoiceItem.png[Purchase Invoice Item, align = "center"]
+
+=== 2.2.4 Settlement
+
+The Settlement page of the Create Internal GIN tab has a table with Date, Amount, Details and Remarks Columns. The plus sign button can used to Add Settlement.
+
+image::CreateInternalSalesGIN-Settlement.png[Settlement, align = "center"]
+
+==== 2.2.4.1 Add Settlement
+
+The Add Settlement page has a dropdown of Settlement Methods and an Add button on top right to add the settlement methods.
+
+image::CreateInternalSalesGIN-Settlement-AddSettlement.png[Add Settlement, align = "center"]
+
+==== 2.2.4.2 Department Hdr
+
+The Department hdr page has Segment, G/L Dimension, Profit Centre and Project dropdowns.
+
+image::CreateInternalSalesGIN-DepartmentHdr.png[Department Hdr, align = "center"]
+
+== 2.3 Edit Internal Sales GIN 
+
+The User can get to the Edit Internal Sales GIN page by clicking on any of the listings.
+
+=== 2.3.1 Main Details
+
+The Main Details has fields that are Document Type Doc No (Tenant), Doc No (Company),  Doc No (Branch), Branch, Location, Sales Agent, Member Card, Transaction Date, Credit Term, Due Date, Reference, Remarks, Permit No, Currency, Customer and Tracking ID.
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::EditInternalSalesGIN-MainDetails[Main Details, align = "center"]
+
+=== 2.3.2 Account
+
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+
+==== 2.3.2.1 Entity Details
+
+The Entity Details Page has fields that are Entity ID, Entity Name, Status, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number. 
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::EditInternalSalesGIN-Account-EntityDetails.png[Entity Details, align = "center"]
+
+==== 2.3.2.2 Bill To
+
+The Bill To  page has fields that are Name, Email, Phone No, Billing Address, Country, State, City and Postcode.
+
+image::EditInternalSalesGIN-Account-BillTo.png[Bill To, align = "center"]
+
+==== 2.3.2.3 Ship To
+
+The Ship To page has fields that are Recipient Name, Email, Phone Number, Shipping Address, Country, State, City and Postcode.
+
+image::EditInternalSalesGIN-Account-ShipTo.png[Ship To, align = "center"]
+
+=== 2.3.3 Lines
+
+The Lines page has a table with Item Code, Item Name, UOM, Qty, Unit Price, SST/VAT/GST,  and Txn Amount. There is a Plus Button to Add Item. The User can click on the plus button to get to the Select Item page. 
+
+image::EditInternalSalesGIN-Lines.png[Lines, align = "center"]
+
+==== 2.3.3.1 Edit Item
+
+The user can get to the Edit Item page by clicking on any Item in the listing.
+
+===== 2.3.3.1.1 Item Details
+
+The Item Details page has further tabs that are Main Details, Delivery Instruction and Department. 
+
+====== 2.3.3.1.1.1 Main Details
+
+The Main Details page has fields that include details that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+There is a Delete Button at the very bottom to delete the information added.
+
+image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+====== 2.3.3.1.1.2 Delivery Instruction
+
+The Delivery Instruction page has fields that are Instructions and Delivery Date and Delivery Message Card that has From, To and Message fields. 
+
+There are 2 options for  Users that are to Copy from Entity Name and Copy from Recipient Name.
+
+There is a Delete Button at the very bottom to delete the information added.
+
+image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+====== 2.3.3.1.1.3 Department
+
+The Department page has fields that are Segment, G/L Dimension, Profit Centre, and Project.
+
+image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-Department.png[Department, align = "center"]
+
+====== 2.3.3.1.1.4 Doc Link
+
+The Doc Link tab has 2 pages that are To and From
+
+image::EditInternalSalesGIN-Lines-EditItem-ItemDetails-DocLinkTo_From[Doc Link To From, align = "center"]
+
+====== 2.3.3.1.5 Delivery Details
+
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity columns.
+
+image::EditInternalSalesGIN-DeliveryDetails.png[Delivery Details, align = "center"]
+
+==== 2.3.3.1.6 Costing Details
+
+The Costing Details page has tables with Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost, Last Purchase Unit Cost.
+
+There is also a Delete Button at the very bottom to delete the details.
+
+image::EditInternalSalesGIN-CostingDetails.png[Costing Details, align = "center"]
+
+===== 2.3.3.1.7 Pricing Details
+
+The Pricing Scheme page has a table that has Pricing Schema Code, Pricing Schema Name, Unit Price and Modified Date.
+
+There is also a Delete Button at the very bottom to delete the details.
+
+image::EditInternalSalesGIN-PricingDetails.png[Pricing Details, align = "center"]
+
+====== 2.3.3.1.8 Edit Pricing Details
+
+The user can get to the Edit Pricing Detail page by clicking any of the Pricing Schema. The Edit Pricing Details page has fields that are Pricing Schema Code, Pricing Schema Name, Sales Unit Price (Inclusive of Tax), Sales Unit Price Tax Amt, Sales Min Price (Inclusive of tax), Sales Min Price Tax Amount, Sales Max Price (Inclusive of tax), Sales Max Price Tax Amount, Sales Unit Price Before Discount (Inclusive of Tax), Sales Unit Price Before Discount, Purchase Unit Price Tax Amount, Purchase Minimum Price (Inclusive of Tax), Purchase Minimum Price Tax Amount, Purchase Maximum Price (Inclusive of Tax), Purchase Maximum Price Tax Amount, 
+
+image::EditInternalSalesGIN-PricingDetails-EditPricingDetails.png[Pricing Details, align = "center"]
+
+===== 2.3.3.1.8 Issue Link
+
+The Issue Link page has tables with Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+There is a search bar at the top to search for project listings below.
+
+There is a Delete button at very bottom to delete the info added. 
+
+image::EditInternalSalesGIN-IssueLink.png[Issue Link, align = "center"]
+
+====== 2.3.3.1.9 Edit Issue
+
+The Edit Issue page has Issue Number and Summary and further tabs that are Details, Planning, Attachment, Comment, Subtasks, Linked Issues, Worklogs  and Activity. 
+
+There is a save button on top right to save the data filled.
+
+image::EditInternalSalesGIN-IssueLink-EditIssueLink.png[Edit Issue Link, align = "center"]
+
+====== 2.3.3.1.9.1 Details
+
+The Details page has fields that are Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date.
+
+image::EditLineItem-IssueLink-EditIssue-Details.png[Details, align = "center"]
+
+====== 2.3.3.1.9.2 Planning
+
+The Planning page has field that are Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, , Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Actual, Manday Allocated,and Manday Billing.
+
+image::EditLineItem-IssueLink-EditIssue-Planning.png[Planning, align = "center"]
+
+====== 2.3.3.1.9.3 Attachment
+
+The Attachment page has the option to Upload File or user can drag and drop the file.
+
+image::EditLineItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+====== 2.3.3.1.9.4 Comment
+
+The Comment page has a table with User Name, Comments and Date. The plus sign button can be used to add comments. 
+
+image::EditLineItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+====== 2.3.3.1.9.5 Subtasks
+
+The Subtasks page has a table with Issue Type, Issue Number, Summary Description, Assignee, Priority Due and  Date Status. he plus sign button can be used to add tasks.
+
+image::EditLineItem-IssueLink-EditIssue-Subtask.png[Subtask, align = "center"]
+
+====== 2.3.3.1.9.6 Linked Issues
+
+The Linked Issue page has a table that has Project,  Issue Type, Issue Number, Summary Description, Assignee, Priority Due and  Date Status. The plus sign button can be used to add Issue.
+
+image::EditLineItem-IssueLink-EditIssue-LinkedIssue.png[Linked Issue, align = "center"]
+
+====== 2.3.3.1.9.7 Worklogs
+
+The Worklog page has a table with Date, Name, Time Spent and Description columns. The plus sign button can be used to add log work.
+
+image::EditLineItem-IssueLink-EditIssue-Worklogs.png[Worklog, align = "center"]
+
+====== 2.3.3.1.9.8 Log Time
+
+The Add worklog page has fields that are Activity Type, Duration and Description.
+
+image::EditLineItem-IssueLink-EditIssue-Worklogs-LogTime.png[Log Time, align = "center"]
+
+====== 2.3.3.1.9.9 Activity
+
+The Activity page has a search bar to search for activity in the table below. The table has Date, User and Activity columns. 
+
+image::EditLineItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+===== 2.3.3.2 Settlement
+
+The Settlement page of Create Internal Sales GIN tab has a table with Date, Amount, Details and Remarks Columns. The plus sign button can be used to Add Settlement.
+
+image::EditInternalSalesGIN-Settlement.png[Settlement, align = "center"]
+
+===== 2.3.3.2.1 Add Settlement
+
+The Add Settlement page has a dropdown of Settlement Methods and an Add button on top right to add the settlement methods.
+
+image::EditInternalSalesGIN-Settlement-AddSettlement.png[Add Settlement, align = "center"]
+
+==== 2.3.3.3 Department Hdr
+
+The Department hdr page has Segment, G/L Dimension, Profit Centre and Project dropdowns.
+
+image::EditLineItem-ItemDetails-Department.png[Department, align = "center"]
+
+==== 2.3.3.4 Contra
+
+In the Contra tab, there is a plus button to “Select Document ” and a table that has Server Doc Type, Doc Number, Branch, Status, Date and Amount Contra.
+
+image::EditInternalSalesGIN-Contra.png[Contra, align = "center"]
+
+===== 2.3.3.4.1 Add Contra
+
+The Add Contra page has fields that are Doc No, Branch, Server Doc Tpe, Doc Date, Transaction Date and Contra Amount.
+
+There is an Add button on top right to add contra.
+
+image::EditInternalSalesGIN-Contra-AddDocument-AddContra.png[Add Contra, align = "center"]
+
+==== 2.3.3.5 Doc Link
+
+The Doc Link tab has 2 pages that are To and From.
+
+===== 2.3.3.5.1 Copied From & Copied To
+
+The To and From pages have tables that has Doc No, Branch, Server Doc Type, Status, and Date columns.
+
+image::EditInternalSalesGIN-DocLink-CopiedTo-CopiedFrom.png[Copied To From, align = "center"]
+
+==== 2.3.3.6 Attachments
+
+The Attachment page has a table with File Name, Siza, Updated Date, Updated By and Actions columns. There is a plus sign button to get to the Attachment page. 
+
+image::EditInternalSalesGIN-Attachment.png[Attachment, align = "center"]
+
+===== 2.3.3.6.1 Add Attachment
+
+The Add Attachment page has the option to Upload File or user can drag and drop the file. 
+
+image::EditInternalSalesGIN-Attachment-AddAttachment.png[Add Attachment, align = "center"]
+
+==== 2.3.3.7 Export
+
+The Export page has a dropdown of Printable format and Button to Export file as PDF. 
+
+image::EditInternalSalesGIN-Export.png[Export, align = "center"]
+
+

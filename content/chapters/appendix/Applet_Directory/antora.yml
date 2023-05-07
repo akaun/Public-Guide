@@ -43,6 +43,7 @@ nav:
 - modules/internal-rma-applet/nav.adoc
 - modules/internal-sales-credit-note-applet/nav.adoc
 - modules/internal-sales-debit-note-applet/nav.adoc
+- modules/internal-sales-good-issue-note-applet/nav.adoc
 - modules/internal-sales-invoice-applet/nav.adoc
 - modules/internal-sales-order-applet/nav.adoc
 - modules/internal-sales-quotation-applet/nav.adoc
