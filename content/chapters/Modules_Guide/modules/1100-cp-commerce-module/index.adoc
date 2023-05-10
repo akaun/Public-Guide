@@ -128,5 +128,5 @@ include::pages/b2b2c/staff-purchases/00_overview.adoc[leveloffset=4]
 include::pages/b2b2c/marketplace-connector/00_overview.adoc[leveloffset=3]
 
 // ------
-include::pages/features-and-functions/introduction-cp-commerce.adoc[leveloffset=4]
+
 
