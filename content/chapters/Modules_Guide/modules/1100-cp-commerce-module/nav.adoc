@@ -1,5 +1,5 @@
 * CP Commerce Module
-** xref:introduction.adoc[]
+** xref:introduction/introduction.adoc[]
 // ------
 ** xref:project-implementation/00_overview.adoc[]
 *** xref:project-implementation/ui_design.adoc[]
