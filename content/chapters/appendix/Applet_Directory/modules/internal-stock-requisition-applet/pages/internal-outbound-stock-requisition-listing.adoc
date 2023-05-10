@@ -70,7 +70,7 @@ There is a Reset, Final and Save Button on top right that can be used to reset t
 
 === 2.2.1 Details
 
-image::ViewInternalOutboundStockRequisition-Details.png.[Details, align = "center"]
+image::ViewInternalOutboundStockRequisition-Details.png[Details, align = "center"]
 
 The Details page has details fields that are Document type, Doc No (Tenant), Doc No (Company), Doc No (Branch), Location Sending, Location Receiving, Stock Requisition Goods Issue Date, Reference #, Tracking ID, Doc Description.
 
