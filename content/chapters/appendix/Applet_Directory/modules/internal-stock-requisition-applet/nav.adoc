@@ -1,0 +1,3 @@
+* Internal Stock Requisition Applet
+** xref:introduction.adoc[Introduction]
+** xref:internal-outbound-stock-requisition-listing.adoc[Internal Outbound Stock Requisition Listing]

@@ -102,6 +102,8 @@ include::modules/internal-shopping-cart-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-stock-adjustment-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-stock-requisition-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-stock-transfer-applet/index.adoc[leveloffset=2]
 
 include::modules/inventory-item-maintenance-applet/index.adoc[leveloffset=2]

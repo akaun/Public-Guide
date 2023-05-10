@@ -1,0 +1,30 @@
+[#h3_internal_stock_requisition_applet_introduction]
+= 1.0 Introduction
+
+image::InternalStockRequisitionApplet-Logo.png[]
+
+include::intro_description.adoc[]
+
+== Who will use the Internal Stock Requisition Applet?
+
+The Stock Requisition Applet can be used by inventory managers, procurement officers, warehouse managers, and other personnel responsible for managing and tracking stock within an organization. Anyone involved in the procurement, management, and tracking of stock can benefit from using the Internal Stock Requisition Applet to streamline their processes and improve efficiency.
+
+== Where will the Internal Stock Requisition Applet be used?
+
+The Internal Stock Requisition Applet can be used in any organization where there is a need to manage and track stock requests and inventory levels. It can be used in various industries, including manufacturing, healthcare, hospitality, retail, and more.
+
+The applet can be deployed on desktop computers, tablets, and mobile devices, making it accessible to employees and managers from anywhere at any time. It can be integrated with existing inventory management systems, accounting software, and other business applications to provide a seamless experience for users.
+
+== What are the benefits of using an Internal Stock Requisition Applet?
+
+Using an Internal Stock Requisition Applet can bring many benefits to an organization, including:
+
+a. Increased Efficiency: The applet automates the stock requisition process, making it faster and more efficient. Employees can easily make requests for the stock items they need, and managers can quickly approve or reject them, without the need for manual paperwork, phone calls, or emails.
+
+b. Better Stock Management: The applet provides real-time visibility into stock levels and movements, helping managers make informed decisions about when to order more stock and avoid stockouts. This can help reduce costs associated with overstocking and understocking, and improve customer satisfaction by ensuring that the right items are available when needed.
+
+c. Improved Accuracy: The applet ensures that stock requests are properly recorded and tracked, reducing the risk of errors and miscommunications. It can also help ensure that the requested items are properly allocated to the right department or employee, reducing the risk of stock being misplaced or lost.
+
+d. Increased Productivity: The applet reduces the amount of time and effort required to manage stock within the organization, freeing up employees to focus on more critical tasks. It also eliminates the need for manual data entry and processing, reducing the risk of errors and delays.
+
+e. Enhanced Reporting: The applet provides detailed reports and analytics on stock levels, stock movements, and stock requests. This information can help managers make informed decisions about stock management, and identify areas for improvement in their processes.

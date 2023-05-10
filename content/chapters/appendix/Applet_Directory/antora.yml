@@ -48,6 +48,7 @@ nav:
 - modules/internal-sales-order-applet/nav.adoc
 - modules/internal-sales-quotation-applet/nav.adoc
 - modules/internal-sales-return-applet/nav.adoc
+- modules/internal-stock-requisition-applet/nav.adoc
 - modules/ledger-and-journal-applet/nav.adoc
 - modules/media-library-applet/nav.adoc
 - modules/membership-admin-applet/nav.adoc
