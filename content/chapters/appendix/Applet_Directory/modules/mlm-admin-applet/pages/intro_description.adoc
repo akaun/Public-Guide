@@ -1,2 +1,1 @@
-This applet is used to configure and manage the Multi Level Marketing, such as Entity Contacts, Invitations,Programs,Commission Report and Payout.
-
+MLM stands for Multi-Level Marketing, which is a business model where a company recruits individuals to become distributors of their products or services. These distributors are then incentivized to recruit other people into the business, creating a network of distributors who earn commissions based on their sales and the sales of the people they have recruited.There are several types of programs in MLM, including: Unilevel, Binary, Matrix, Stairstep/Breakaway, Hybrid or you can have your own type of programmes.
