@@ -1,0 +1,15 @@
+[#h2_Workflow_Design_applet_index]
+= Workflow Design Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/features.adoc[leveloffset=3]
+
+include::pages/settings.adoc[leveloffset=3]
+
+
+
+
+
+
+

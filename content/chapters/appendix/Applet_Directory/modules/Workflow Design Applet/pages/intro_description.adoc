@@ -1,0 +1,1 @@
+A workflow design applet is an application that allows to design, create, and manage workflows. This applet is often part of larger workflow management systems or business process automation platforms.

@@ -170,6 +170,8 @@ include::modules/url-shortening-applet/index.adoc[leveloffset=2]
 
 include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
+include::modules/workflow_design_applet/index.adoc[leveloffset=2]
+
 
 
 

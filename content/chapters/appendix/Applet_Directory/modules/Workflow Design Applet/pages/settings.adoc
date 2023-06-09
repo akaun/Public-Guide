@@ -1,0 +1,40 @@
+[#h3_Workflow_Design_applet_setting]
+=  Setting
+
+image::Setting.png[Setting, align = "center"]
+
+== 3.1 Applet Setting
+Applet Access
+The project setting tab is used to create or change the project. The project contains a lot of aspects of the data. It will be used in other tabs. For example, in some tabs, the user only needs to provide the project name, the other information will be automation filled by the applet based on the setting. 
+
+image::Setting_AppletAccess.png[Setting_AppletAccess, align = "center"]
+
+For the Client Side Permission by providing all the basic information after clicking the “SAVE”  button.
+Field：
+Role
+Client Side Permission
+
+image::Setting_AppletAccess2.png[Setting_AppletAccess2, align = "center"]
+
+Server Side Permission
+Tabs
+Permission Wizard
+Permission Set
+User Permission
+Team Permission
+Role Permission
+
+After changing the details, please click SAVE to save the new information.
+
+=== 3.2 Integration 
+Integration refers to the process of connecting different systems to work together seamlessly. This can involve exchanging data, automating tasks, or synchronizing information between systems.
+Triggers
+Triggers typically refer to events that initiate or trigger a specific action or process. For example, a trigger could be a change in code committed to a version control system that triggers an automated build and test process.
+
+image::Setting_Integration_Triggers.png[Setting_Integration_Triggers, align = "center"]
+
+Clients can create a new Trigger set by clicking the right down button. After filling in all the rows, please click the SAVE button to create the new Trigger.
+Field：
+Trigger #1
+Trigger #1
+Trigger #1

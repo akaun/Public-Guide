@@ -1,0 +1,6 @@
+[#h3_Workflow_Design_applet_introduction]
+=  Introduction
+
+image::Workflow_Design_applet.png[Workflow_Design_applet, align = "center"]
+
+include::intro_description.adoc[]

@@ -1,0 +1,72 @@
+[#h3_Workflow_Design_applet_features]
+=  Fntroduction
+
+== 2.1 Process Listing
+The Process listing page outlines the details regarding the process. The listing includes:
+Name
+Description
+Type
+Created By
+Date Created
+Update By
+Date Updated
+
+image::Process_Listing.png[Process_Listing, align = "center"]
+
+=== 2.2 Creating a Process
+The Add Button 
+First click on the “+” button to create a process sheet.
+
+image::Add_Button.png[Add_Button, align = "center"]
+
+Details Tab
+After clicking on a process listing, a side window will appear, the first tab in the window is the Details tab. In the details tab, we can Reset and the save button to save the changes. Fill in the form in the “Details” tab. Please note that the following fields are compulsory to fill in:
+Name 
+Description
+Type
+
+image::Create_Process.png[Create_Process, align = "center"]
+
+Status Tab
+Next click on the “Status” tab and the following fields are needed to fill Name, Description, Created By.
+
+image::ProcessListing_CreateProcess_Status.png[ProcessListing_CreateProcess_Status, align = "center"]
+
+Transition Tab
+Next click on a Transition from the process. Compulsory Information are, 
+From Status
+To Status
+Created By
+Created Date
+Updated By
+Updated Date
+
+image::ProcessListing_CreateProcess_Transition.png[ProcessListing_CreateProcess_Transition, align = "center"]
+
+==== 2.3 Process Status Listing
+
+The Process Status listing page outlines the details regarding the process. The listing includes:
+Name
+Description
+Code
+Created By
+Date Created
+
+image::Process_Status_Listing.png[Process_Status_Listing, align = "center"]
+
+Process Status Create
+By clicking on Plus sign button on Process Statues Listing page, use will get to Create Process Statues Page. This page has further tabs that are Code, Name and Description.
+
+image::CreateProcess_Status_Listing.png[CreateProcess_Status_Listing, align = "center"]
+
+===== 2.4 Process Resolution Listing 
+
+The Process Resolution Listing page has a Search Bar to search for line items listed below in the table and the table with columns which are Name, Description, Code, Created By, Date Created.
+
+image::Process_Resolution_Listing.png[Process_Resolution_Listing, align = "center"]
+
+Create Process Resolution Listing
+By clicking on Plus sign button on Process Resolution Listing page, use will get to Create Process Resolution Page. This page has further tabs that are Code, Name and Description.
+
+image::CreateProcess_Resolution_Listing.png[CreateProcess_Resolution_Listing, align = "center"]
+
