@@ -1,0 +1,284 @@
+[#h3_internal_purchase_invoice_supplier_access_applet_view]
+= 2.2 View Internal Purchase Invoice 
+
+image::2.2.0_view_purchase_invoice.png[Viewing an Internal Purchase Invoice, align = "center"]
+
+Users may click into any available purchase invoice on the listing page to view additional details on that purchase invoice.
+
+== 2.2.1 Main Details
+
+Under the Main Details tab, the following information about the purchase invoice is displayed:
+
+* Branch
+* Location
+* Purchaser
+* Transaction Date
+* Credit Terms
+* Reference
+* Remarks
+* Permit No
+* Currency
+* Tracking ID
+
+== 2.2.2 Account
+
+=== Entity Details
+
+image::2.2.2.1_account_tab_entity_details.png[Account Tab - Entity Details, align = "center"]
+
+Under the first sub tab of the Account tab, Entity Details will display the supplier’s general information as follows:
+
+* Entity ID
+* Entity Name
+* Status
+* Entity Type
+* Identity Type
+* ID Number
+* Currency
+* GL Code
+* Description
+* Email
+* Phone Number
+
+=== Bill To
+
+image::2.2.2.2_account_tab_bill_to.png[Account Tab - Bill To, align = "center"]
+
+The second sub tab, Bill To, will display the billing address of the supplier (if the purchaser selected one) with the following info:
+
+* Name
+* Email
+* Phone No.
+* Billing Address
+* Address Lines 1 - 5
+* Country
+* State
+* City
+* Postcode
+
+=== Ship To
+
+image::2.2.2.3_account_tab_ship_to.png[Account Tab - Ship To, align = "center"]
+
+The third sub tab, Ship To, will display the shipping address of the supplier (if the purchaser selected one), with the following info:
+
+* Recipient Name
+* Email
+* Phone No.
+* Shipping Address
+* Address Lines 1 - 5
+* Country
+* State
+* City
+* Postcode
+
+== 2.2.3 Line Items
+
+image::2.2.3.0_line_items_tab.png[Line Items Tab, align = "center"]
+
+The Line Items tab displays a listing of line items linked to that purchase invoice with the following information:
+
+* Item Code
+* Item Name
+* Unit Of Measurement
+* Quantity
+* Unit Price
+* SST/VAT/GST 
+* Transaction Amount
+
+Users may click into each line item available for detailed information on that line item.
+
+=== Item Details
+
+The Item Details tab contains its own sub-tabs: Main Details, Delivery Instruction, Department, Doc Link, and Delivery Details.
+
+==== Main Details
+
+image::2.2.3.1.1_line_items_tab_main_details.png[View Line Item - Item Details - Main Details 1, align = "center"]
+
+image::2.2.3.1.1_line_items_tab_main_details2.png[View Line Item - Item Details - Main Details 2, align = "center"]
+
+image::2.2.3.1.1_line_items_tab_main_details3.png[View Line Item - Item Details - Main Details 3, align = "center"]
+
+image::2.2.3.1.1_line_items_tab_main_details4.png[View Line Item - Item Details - Main Details 4, align = "center"]
+
+The Main Details sub-tab contains these information:
+
+* Item Code
+* Item Name
+* Quantity Base
+* Quantity by UOM
+* UOM to Base Ratio
+* Unit Price by UOM
+* Unit Discount by UOM
+* Unit Price
+* Unit Discount
+* Discount Amount
+* STD Amount (Unit Price * Quantity)
+* Net Amount (STD Amount - Discount Amount)
+* Tax Code
+* SST/GST/VAT
+* Tax Amount
+* Net Amount (SST/GST/VAT * Net Amount)
+* WHT Code
+* WHT
+* WHT Amount
+* Txn Amount
+* Remarks
+
+==== Delivery Instructions
+
+image::2.2.3.1.2_line_items_tab_delivery_instruction.png[View Line Item - Item Details - Delivery Instructions, align = "center"]
+
+The Delivery Instruction sub tab provides the supplier with specific instructions regarding the delivery of the line item. It contains the following information:
+
+* Delivery Instructions:
+** Instructions for the driver
+** Delivery Date
+
+* Delivery Message Card:
+** From: Sender
+** To: Receiver
+** Message
+
+==== Department
+
+image::2.2.3.1.3_line_items_tab_department.png[View Line Item - Item Details - Department, align = "center"]
+
+The Department sub tab allows the user to view the Segment, G/L Dimension, Profit Centre, and Project related to the line item for their customer.
+
+==== Doc Link
+
+The Doc Link sub tabs allow a user to view if the current  line item is linked to any other documents via the Copy From and Copy To sub tabs. Both sub tabs display a listing with these information:
+
+* Doc No
+* Branch
+* Server Doc Type
+* Status
+* Date
+
+image::2.2.3.1.4.1_line_items_tab_copy_from.png[View Line Item - Item Details - Doc Link Copy From, align = "center"]
+
+image::2.2.3.1.4.2_line_items_tab_copy_to.png[View Line Item - Item Details - Doc Link Copy To, align = "center"]
+
+==== Delivery Details
+
+image::2.2.3.1.5_line_items_tab_delivery_details.png[View Line Item - Item Details - Delivery Details, align = "center"]
+
+The Delivery Details sub tab provides a user the following information regarding delivery:
+
+* Trip No
+* Driver Name
+* Vehicle No
+* Job Start Date
+* Job End Date
+* Delivery Status
+* Recipient Name
+* Quantity
+
+=== Serial Number
+
+image::2.2.3.2_line_items_tab_serial_number.png[View Line Item - Serial Number, align = "center"]
+
+The Serial Number tab is only applicable for line items with a serial number.
+
+=== Costing Details
+
+image::2.2.3.3_line_items_tab_costing_details.png[View Line Item - Costing Details, align = "center"]
+
+The Costing Details tab shows the following costing details for a line item:
+
+* Company Code
+* Location Code
+* Quantity
+* Moving Average Unit Cost
+* Weighted Average Unit Cost
+* FIFO Unit Cost
+* Manual Unit Cost 
+* Last Purchase Unit Cost
+
+=== Pricing Details
+
+image::2.2.3.4_line_items_tab_pricing_details.png[View Line Item - Pricing Details, align = "center"]
+
+The Pricing Details tab shows a user the various pricing schemes related to the line item, along with these information:
+
+* Pricing Schema Code
+* Pricing Schema Name
+* Unit Price
+* Modified Date
+
+=== Issue Link
+
+image::2.2.3.5_line_items_tab_issue_link.png[View Line Item - Issue Link, align = "center"]
+
+The Issue Link tab allows users to view a list of linked issues to the line item, under which each linked issue can also display the logged time, if any, that was spent working on that issue. The listing contains these information:
+
+* Project
+* Issue Number
+* Issue Summary
+* Issue Description
+* Assignee
+* Created Date
+* Resolved Date
+* Status
+
+== 2.2.4 Payment
+
+image::2.2.4_payment_tab.png[Payment Tab, align = "center"]
+
+In the Payment tab, users can view the payment made by their customers when finalising the purchase invoice. The available information are:
+
+* Payment Method
+* Date
+* Paid Amount
+* Remarks
+
+== 2.2.5 Department Hdr
+
+image::2.2.5_department_hdr_tab.png[Department Hdr Tab, align = "center"]
+
+Users may view the Segment, G/L Dimension, Profit Centre, and Project related to the purchase invoice for their customer under the Department Hdr tab.
+
+== 2.2.6 Contra
+
+image::2.2.6_contra_tab.png[Contra Tab, align = "center"]
+
+Under the Contra tab, users can view any applicable contra document related to the purchase invoice created by their customers. Available information on the contra documents are as follows:
+
+* Server Doc Type
+* Status
+* Date
+* Amount Contra
+
+== 2.2.7 Doc Link
+
+The Doc Link tabs allow a user to view if the current purchase invoice is linked to any other documents via the Copy From and Copy To sub tabs. Both sub tabs display a listing with these information:
+
+* Doc No
+* Branch
+* Server Doc Type
+* Status
+* Date
+
+image::2.2.7.1_doc_link_tab_copy_from.png[Doc Link Tab - Copy From, align = "center"]
+
+image::2.2.7.2_doc_link_tab_copy_to.png[Doc Link Tab - Copy To, align = "center"]
+
+== 2.2.8 Attachment
+
+image::2.2.8_attachment_tab.png[Attachment Tab, align = "center"]
+
+Users may view any attachments uploaded to the current purchase invoice under the Attachment tab. The listing provides the following information:
+
+* File Name
+* Doc Type
+* Size
+* Status
+* Date
+
+== 2.2.9 Export
+
+image::2.2.9_export_tab.png[Export Tab, align = "center"]
+
+The Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a purchase invoice.

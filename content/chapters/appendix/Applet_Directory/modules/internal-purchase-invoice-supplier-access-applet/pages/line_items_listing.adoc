@@ -1,0 +1,21 @@
+[#h3_internal_purchase_invoice_supplier_access_applet_line_items_listing]
+= 2.3 Line Items Listing
+
+image::2.3_line_items_listing.png[Line Items Listing, align = "center"]
+
+The second module of the Internal Purchase Invoice Supplier Access Applet: Line Items features a line items listing page which outlines the details regarding all line items within purchase invoices received, including:
+
+* Purchase Invoice No
+* Branch
+* Supplier Name
+* Project
+* Shipping Address
+* Item Code
+* Item Name
+* Ordered Quantity
+* Open Quantity
+* Amount Transaction
+* Creation Date
+* equested Delivery Date
+* Delivery Status
+* Remarks

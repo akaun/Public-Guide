@@ -1,0 +1,6 @@
+[#h3_internal_purchase_invoice_supplier_access_applet_view_line_item]
+= 2.4 View Line Item
+
+image::2.4_view_line_item.png[View Line Item, align = "center"]
+
+Clicking a line item on the listing page will allow a user to view more detailed information related to that line item, as explained in the Line Items tab within the purchase invoice previously.
