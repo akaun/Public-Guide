@@ -1,0 +1,22 @@
+[#h3_internal_sales_good_issue_note_applet_line_items_listing]
+= 3.0 Line Items Listing
+
+== 3.1 Line Items
+
+The user can get to Line Item Listing by pressing the Line Item section in the slide bar.
+
+=== 3.1.1 Line Item Listing
+
+The line item listing page has a table that has columns with:
+
+a. Sales GIN No
+b. Item Code
+c. Item Name
+d. Qty
+e. Unit Price (Inclusive of tax)
+f. SST/VAT/GST
+g. Txn Amount
+
+The user can get to the Edit Line Item page by clicking any of the listing.
+
+image::LineItemListing.png[Line Item Listing, align = "center"]

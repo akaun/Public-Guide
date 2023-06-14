@@ -4,3 +4,66 @@
 image::mlm_admin_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+== Why MLM?
+
+MLM (Multi-Level Marketing) can be a cost-effective, scalable, and flexible business model that allows companies to leverage word-of-mouth marketing, expand their sales channels, and offer personalized service to their customers. MLM participants can earn commissions on their sales and recruitment efforts, and can recruit and train new members to join the network, leading to rapid growth and scalability. However, it is important for MLM businesses to design their compensation plans fairly, and to ensure that participants are able to earn a reasonable income for their sales and recruitment efforts.
+
+== Who Uses MLM?
+
+MLM (Multi-Level Marketing) is a business model that can be used by a variety of companies, including direct sales, network marketing, e-commerce, traditional brick-and-mortar businesses, startups, and small businesses. It is used by industries such as health and wellness, beauty and cosmetics, financial services, home goods and decor, and travel and tourism. Essentially, any company that wants to leverage word-of-mouth marketing, expand their sales channels, and incentivize participants to drive sales and growth can potentially benefit from using MLM as a business model.
+
+
+== Terms Used in MLM 
+
+Here are some common terms used in MLM (Multi-Level Marketing):
+
+1. Entity: A person or group that joins an MLM program to sell products or services and recruit others to do the same.
+Invitee: A person who recruits and invites new Entity in the MLM program.
+2. Upline: The network of entities above a particular invitee, including the invitee's sponsor, also known as parent Entity, in short Inviter of an invitee
+3. Downline: The network of distributors who were recruited by a particular invitee or sponsor, including both direct recruits and those recruited by their downline. The downline is an essential part of the MLM program as it allows the invitee  to earn commissions on the sales made by their downline. 
+4. Volume: The amount of product or services sold by a distributor or their downline.
+5. PV (Personal Volume): The amount of product or services sold by a distributor personally.
+6. BV (Business Volume): The amount of product or services sold by a distributor and their downline.
+7. Commission: The percentage of sales that a distributor earns as a commission from their downline's sales.
+8. Rank or Class: The achievement within the MLM program, based on sales and recruitment performance.
+9. Program: The MLM company's specific plan, policies, procedures, and rules that govern the distributor's activities and earnings within the MLM program.
+
+These are just a few of the common terms used in MLM programs. It's important for distributors to understand the terminology and compensation plan structure in order to be successful in the program.
+
+== Benefits of MLM
+
+MLM can benefit businesses by increasing sales, providing cost-effective marketing, reaching a wider market, increasing brand awareness, and experiencing faster growth through their network of distributors. It is important to research and evaluate any MLM opportunity before getting involved.
+
+The benefits of MLM programs vary depending on the industry they are based on. However, some general benefits of MLM programs include low start-up costs, flexible work hours, the potential for unlimited income, the ability to work from home, and the opportunity to develop personal and business skills. Additionally, MLM programs often offer training and support to help distributors succeed in the program. In specific industries, such as health and wellness, MLM programs can provide access to high-quality products, as well as the ability to share those products with others and earn commissions. In the technology industry, MLM programs can provide access to innovative products and services, as well as the opportunity to build a network of like-minded individuals. Overall, MLM programs can offer a unique and rewarding business opportunity for those willing to put in the time and effort to succeed.
+
+== Feature We Have 
+
+Our MLM (Multi-Level Marketing) module includes a number of features that are intended to assist businesses in effectively managing their MLM programmes. Some of the key features of MLM module include:
+
+1. Entity Management: The ability to manage entities (distributors) within the MLM program, including adding new entities, editing existing ones, and deleting entities.
+
+2. Invitation Management: With this feature, users can manage their entity or member network by sending and tracking invites to potential recruits. The module can send a personalized invitation message, track the status of the invitation, and even send automatic follow-up messages to individuals who haven't responded.
+Lineage Type: The ability to set the lineage of each entity within the MLM program, including their direct contacts and membership status.
+
+3. MLM Program Management: With this functionality, users may manage their MLM program directly from the platform. It comes with tools for creating a program, tracking sales and commissions, managing downline and upline relationships, and generating reports to analyze program effectiveness. 
+
+4. Commission Management: The ability to manage the commission structure and rates for each level within the MLM program.
+Multi-level commission calculation: The module is able to calculate commissions for multiple levels of the downline and upline by integrating with the Commission Scheme Applet.
+
+5. Rank Management: The ability to manage the rank structure and requirements for each level within the MLM program.
+Social media and Communication Platform integration: MLM software can be integrated with social media platforms to assist distributors in marketing their products and recruiting new members. By integrating with our UCC Module, you may contact your customers via WhatsApp, Facebook Messenger, mobile sms and email, or marketplaces such as Lazada Shoppe and others in a single platform. 
+
+6. Membership Management: By Integration with Membership Admin Applet MLM module enables Business to manage programme memberships. This also allows Business to keep track of status as well as the eligibility for various awards and bonuses.
+E-commerce integration: MLM modules can be integrated with e-commerce platforms to streamline online sales and commission monitoring, and it can also be integrated with our Cp-Commerce Module to expand your business's potential customers. .
+Payment processing: MLM module can integrate with payment gateways using our Payment Channel Applet and Sales Commission Applet to manage commission payouts.
+
+7. Commission Report: This feature is able to generate reports and analytics on many areas of MLM programs. This function assists businesses in analyzing their performance and identifying areas for improvement.
+There are more additional features that our MLM module can offer. 
+
+== Why Choose us for your MLM solution 
+
+We understand that as a business owner, you are constantly looking for new methods to improve your business . Our team of creative technology experts is committed to creating cutting-edge, customized technology solutions that will take your network marketing game to new heights.
+
+With our custom software development services, you'll have access to strong, cutting-edge apps that will catapult your success. Our innovative, agile professionals take the time to understand your specific requirements and build solutions that are precisely aligned with your business objectives and strategy. Trust us to give you the most cutting-edge technology in the market, providing you a competitive advantage and propelling you forward.
+We are dedicated to providing 360-degree service and great results at the most reasonable costs. Our knowledge, passion, and commitment to perfection distinguish us and assure that you will achieve exceptional, dynamic outcomes. Whether you're beginning from scratch or trying to expand an existing business, we're here to help you realize your full potential and achieve new levels of success. 

@@ -1,0 +1,100 @@
+[#h3_internal-sales-debit-note-applet_line_items]
+= 3.0 Line Items Listing
+
+The user can get to Line Item Listing by pressing the Line Item section in the slide bar.The line item listing page has a table that has columns with
+
+a. Sales Debit Note No
+b. Item Code
+c. Item Name
+d. Qty
+e. Unit Price (Inclusive of tax)
+f. SST/VAT/GST
+g. Txn Amount
+
+The user can get to the Edit Line Item page by clicking any of the listings.
+
+== 3.1 Edit Line Item 
+
+The Edit Line Item page has further tabs that are Item Details, Serial Number, Costing Detail, Pricing Detail, and Issue Link.
+
+image::LineItemListing.png[Line Item Listing, align = "center"]
+
+== 3.2 Item Details
+
+The Item Details page has further tabs that are:
+
+=== 3.2.1 Main Details 
+
+The Main Details page has fields that include details that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+image::LineItemListing-EditLineItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+=== 3.2.2 Delivery Instruction
+
+The Delivery Instruction page has fields that are Instructions and Delivery Date and Delivery Message Card that has From, To and Message fields. 
+
+There are 2 options for  Users that are to Copy from Entity Name and Copy from Recipient Name.
+
+image::LineItemListing-EditLineItem-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+=== 3.2.3 Department
+
+The Department page has fields that are Segment, G/L Dimension, Profit Centre, and Project.
+
+image::LineItemListing-EditLineItem-ItemDetails-Department.png[Department, align = "center"]
+
+=== 3.2.4 Doc Link
+
+The Doc Link tab has 2 pages that are To and From.
+
+==== 3.2.4.1 From & To 
+
+The To and From pages have tables that have Doc No, Branch, Server Doc Type, Status, and Date columns.
+
+image::LineItemListing-EditLineItem-ItemDetails-DocLink-From_To.png[From and To, align = "center"]
+
+=== 3.2.5 Delivery Details
+
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity columns.
+
+image::LineItemListing-EditLineItem-ItemDetails-DeliveryDetails.png[Delivery Details, align = "center"]
+
+=== 3.2.5 Serial Number
+
+The Serial Number tab has two pages that are Scan and Import.
+
+==== 3.2.5.1 Scan
+
+The Scan page has Add Serial Number field, Scan Serial Number Type dropdown and list of serial numbers and Remove and Delete button at the bottom.
+
+image::LineItemListing-EditLineItem-SerialNumber-Scan.png[Scan, align = "center"]
+
+==== 3.2.5.2 Import
+
+The Import page has an upload file option with a drag and drop file from anywhere option as well as a list of serial numbers and a Remove and Delete button at the bottom.
+
+image::LineItemListing-EditLineItem-SerialNumber-Import.png[Import, align = "center"]
+
+=== 3.2.6 Costing Details
+
+The Costing Details page has tables with Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost, Last Purchase Unit Cost.
+
+There is also a Delete Button at the very bottom to delete the details.
+
+image::LineItemListing-EditLineItem-CostingDetails.png[Costing Details, align = "center"]
+
+=== 3.2.7 Pricing Details
+
+The Pricing Scheme page has a table that has Pricing Schema Code, Pricing Schema Name, Unit Price and Modified Date.
+
+There is also a Delete Button at the very bottom to delete the details.
+
+image::LineItemListing-EditLineItem-PricingDetails.png[Pricing Details, align = "center"]
+
+=== 3.2.8 Issue Link
+
+The Issue Link page has tables with Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+There is a search bar at the top to search for project listings below.
+
+image::LineItemListing-EditLineItem-IssueLink.png[Issue Link, align = "center"]

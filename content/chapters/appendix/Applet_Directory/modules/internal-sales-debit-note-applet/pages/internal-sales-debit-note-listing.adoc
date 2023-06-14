@@ -1,0 +1,302 @@
+[#h3_internal-sales-debit-note-applet_listing]
+= 2.0 Internal Sales Debit Note Listing
+
+image::Listing.png[Listing, align = "center"]
+
+Users can click on the Internal Sales Debit Note section to get to the Internal Sales Debit Note Listing page. This page has a listing of Sales Debit Note. There is also a Search Bar to search for Sales Debit Note from the listing below. The Plus “+” sign button is used to get to the Create Internal Sales Debit Note page. The Listing table has columns that are:
+
+a. Sale Debit Note No.
+b. Branch
+c. Posting Status
+d. Customer Name
+e. Sales Agent Updated Date
+f. Created Date
+g. Transaction Date
+h. Created By
+i. Updated Date
+
+== 2.1 Create Internal Sales Debit Note 
+
+Create Internal Sales Debit Note page is the page to create a new Sales Debit Note. The Create Internal Sales Debit Note page has further tabs that are Main Details, Account, Lines, Settlement, Department Hdr & KO For. There are two buttons at the top left side: Reset button to clear data that has been inserted to the text box and Create button to create the new Sales Debit Note.
+
+=== 2.1.1 Main Details
+
+The Main Details has fields that are Branch, Location, Sales Agent, Member Card, Transaction Date, Debit Term, Due Date, Refrence, Remarks, Permit No, Currency and Tracking ID.
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::CreateInternalSalesDebitNote-MainDetails.png[Main Details, align = "center"]
+
+=== 2.1.2 Account
+
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+
+==== 2.1.2.1 Entity Details
+
+The Entity Details Page has fields that are Entity ID, Entity Name, Status, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number. 
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::CreateInternalSalesDebitNote-Account-EntityDetails.png[Entity Details, align = "center"]
+
+==== 2.1.2.2 Bill To
+
+The Bill To  page has fields that are Name, Email, Phone No, Billing Address, Country, State, City and Postcode.
+
+image::CreateInternalSalesDebitNote-Account-BillTo.png[Bill To, align = "center"]
+
+==== 2.1.2.3 Ship To
+
+The Ship To page has fields that are Recipient Name, Email, Phone Number, Shipping Address, Country, State, City and Postcode.
+
+=== 2.1.3 Lines
+
+The Lines page has a table with Item Code, Item Name, UOM, Qty, Unit Price, SST/VAT/GST,  and Txn Amount. There is a Plus Button to Add Item. The User can click on the plus button to get to the Select Item page. 
+
+image::CreateInternalSalesDebitNote-Lines.png[Lines, align = "center"]
+
+==== 2.1.3.1 Select Item
+
+The Select Item page has a table that has Item Code, Item Name, UOM, and System Stock Balance. There is also a Search Bar to search for items in the table below.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem.png[Select Item, align = "center"]
+
+===== 2.1.3.1.1 Add Item
+
+The user can get to the Add Item page which has further tabs that are Item Details, Costing Detail, Pricing Details and Issue Link.
+
+====== 2.1.3.1.1.1 Item Details
+
+The Item Details page has further tabs that are Main Details, Delivery Instruction and Department. 
+
+====== 2.1.3.1.1.1.1 Main Details
+
+The Main Details page has fields that include details that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+====== 2.1.3.1.1.1.2 Delivery Instructions
+
+The Delivery Instruction page has fields that are Instructions and Delivery Date and Delivery Message Card that has From, To and Message fields. 
+
+There are 2 options for  Users that are to Copy from Entity Name and Copy from Recipient Name.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+====== 2.1.3.1.1.1.3 Department
+
+The Department page has fields that are Segment, G/L Dimension, Profit Centre, and Project.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-ItemDetails-Department.png[Department, align = "center"]
+
+====== 2.1.3.1.1.2 Costing Details
+
+The Costing Details page has table with Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost, Last Purchase Unit Cost.
+
+image::Lines-SelectItem-AddItem-CostingDetails.png[Costing Details, align = "center"]
+
+====== 2.1.3.1.1.3 Pricing Details
+
+The Pricing Scheme page has a table that has Pricing Schema Code and Pricing Scheme Name. 
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-PricingDetails.png[Pricing Details, align = "center"]
+
+====== 2.1.3.1.1.4 Issue Link
+
+The Issue Link page has table with Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+The User can click on any listing to get to the Edit Issue page.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-IssueLink.png[Issue Link, align = "center"]
+
+====== 2.1.3.1.1.4.1 Edit Issue
+
+The Edit Issue page has Issue Number and Summary and further tabs that are Details, Planning, Attachment, Comment, Subtasks, Linked Issues, Worklogs  and Activity. 
+
+There is a save button on top right to save the data filled.
+
+====== 2.1.3.1.1.4.1.1 Details
+
+The Details page has fields that are Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-IssueLink-EditIssue-Details.png[Details, align = "center"]
+
+====== 2.1.3.1.1.4.1.2 Planning
+
+The Planning page has field that are Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, , Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Actual, Manday Allocated,and Manday Billing. 
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-IssueLink-EditIssue-Planning.png[Planning, align = "center"]
+
+====== 2.1.3.1.1.4.1.3 Attachment
+
+The Attachment page has the option to Upload File or the user can drag and drop the file. 
+
+image::Lines-SelectItem-AddItem-IssueLink-EditIssue-Attachment.png[Attachment, align = "center"]
+
+====== 2.1.3.1.1.4.1.4 Comment
+
+The Comment page has a table with User Name, Comments and Date. The plus sign button can be used to add comments. 
+
+image::Lines-SelectItem-AddItem-IssueLink-EditIssue-Comment.png[Comment, align = "center"]
+
+====== 2.1.3.1.1.4.1.5 Subtasks
+
+The Subtasks page has a table with Issue Type, Issue Number, Summary Description, Assignee, Priority Due and  Date Status. he plus sign button can be used to add tasks.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-IssueLink-EditIssue-Subtasks.png[Subtasks, align = "center"]
+
+====== 2.1.3.1.1.4.1.6 Linked Issues
+
+The Linked Issue page has a table that has Project,  Issue Type, Issue Number, Summary Description, Assignee, Priority Due and  Date Status. The plus sign button can be used to add Issue.
+
+image::Lines-SelectItem-AddItem-IssueLink-EditIssue-LinkedIssues.png[Linked Issues, align = "center"]
+
+====== 2.1.3.1.1.4.1.7 Worklogs
+
+The Worklog page has a table with Date, Name, Time Spent and Description columns. The plus sign button can be used to add log work.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-IssueLink-EditIssue-WorkLogs.png[Worklog, align = "center"]
+
+====== 2.1.3.1.1.4.1.7.1 Log Time
+
+The Add worklog page has fields that are Activity Type, Duration and Description.
+
+image::CreateInternalSalesDebitNote-Lines-SelectItem-AddItem-IssueLink-EditIssue-WorkLogs-LogTime.png[Log Time, align = "center"]
+
+====== 2.1.3.1.1.4.1.8 Activity
+
+The Activity page has a search bar to search for activity in the table below. The table has Date, User and Activity columns. 
+
+image::Lines-SelectItem-AddItem-IssueLink-EditIssue-Activity.png[Activity, align = "center"]
+
+=== 2.1.4 Settlement
+
+The Settlement page of the Create Internal Debit Note tab has a table with Date, Amount, Details and Remarks Columns. The plus sign button can used to Add Settlement.
+
+image::CreateInternalSalesDebitNote-Settlement.png[Settlement, align = "center"]
+
+=== 2.1.5 Department Hdr
+
+The Department hdr page has Segment, G/L Dimension, Profit Centre and Project dropdowns.
+
+image::CreateInternalSalesDebitNote-DepartmentHdr.png[Department Hdr, align = "center"]
+
+=== 2.1.6 KO For
+
+The KO For page has further tabs that are Delivery Order, Delivery Sheet, and Sales Order.
+
+image::CreateInternalSalesDebitNote-KOFor.png[KO For, align = "center"]
+
+==== 2.1.6.1 Delivery Order
+
+The Delivery Order page has a table with Doc No, Doc Type, Reference No, Txn Date, Branch Code, and Customer.
+
+There is a Search Bar to search for the document in the table below.
+
+image::CreateInternalSalesDebitNote-KOFor-DeliveryOrder.png[Delivery Order, align = "center"]
+
+==== 2.1.6.2 Job Sheet
+
+The Job Sheet page has a table with Doc No, Doc Type, Reference No, Txn Date, Branch Code, and Customer.
+
+There is a Search Bar to search for the document in the table below.
+
+image::CreateInternalSalesDebitNote-KOFor-JobSheet.png[Job Sheet, align = "center"]
+
+==== 2.1.6.3 Sales Order
+
+The Sales Order page has a table with Doc No, Doc Type, Reference No, Txn Date, Branch Code, and Customer.
+
+There is a Search Bar to search for the document listing in the table below.
+
+image::CreateInternalSalesDebitNote-KOFor-SalesOrder.png[Sales Order, align = "center"]
+
+==== 2.1.6.4 Contra
+
+In the Contra tab, there is a plus button to “Select Document ” and a table that has Server Doc Type, Doc Number, Branch, Status, Date and Amount Contra.
+
+image::CreateInternalSalesDebitNote-Contra.png[Contra, align = "center"]
+
+=== 2.2 Edit Internal Sales Debit Note 
+
+The User can Edit any Sales Note by clicking on any of the Internal Sales Debit Note listings.
+
+The Internal Sales Debit Note page has further tabs that are Main Details, Account, Lines Settlement, Department Hdr, Contra, Attachments and Export.
+
+There is a Reset, Final and Save Button on the top right corner that can be used to reset the data filled, finalize the data or save the changes made. 
+
+=== 2.2.1 Main Details
+
+The Main Details has fields that are Document Type, Document No (Tenant), Document No (Company), Document No (Branch), Branch, Location, Sales Agent, Member Card, Transaction Date, Debit Term, Due Date, Reference, Remarks, Permit No, Currency, Tracking ID, Workflow Status and Workflow Resolution.
+
+The fields with “*” signs with them are mandatory to be filled.
+
+image::EditInternalSalesDebitNote-MainDetails.png[Main Details, align = "center"]
+
+==== 2.2.1.1 Account
+
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+
+===== 2.2.1.1.1 Entity Details
+
+The Entity Details Page has fields that are Entity ID, Entity Name, Status, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number. 
+
+The fields with “*” sign with them are mandatory to be filled.
+
+image::EditInternalSalesDebitNote-Account-EntityDetails.png[Entity Details, align = "center"]
+
+===== 2.2.1.1.2 Bill To
+
+The Bill To  page has fields that are Name, Email, Phone No, Billing Address, Country, State, City and Postcode.
+
+image::EditInternalSalesDebitNote-Account-BillTo.png[Bill To, align = "center"]
+
+===== 2.2.1.1.3 Ship To
+
+The Ship To page has fields that are Recipient Name, Email, Phone Number, Shipping Address, Country, State, City and Postcode.
+
+image::EditInternalSalesDebitNote-Account-ShipTo.png[Ship To, align = "center"]
+
+==== 2.2.1.2 Lines
+
+The Lines page has a table with Item Code, Item Name, UOM, Qty, Unit Price, SST/VAT/GST,  and Txn Amount.
+
+image::EditInternalSalesDebitNote-Lines.png[Lines, align = "center"]
+
+==== 2.2.1.3 Settlement
+
+The Settlement page of Edit Internal Debit Note tab has table with Date, Amount, Details, Remarks Columns. 
+
+image::EditInternalSalesDebitNote-Settlement.png[Settlement, align = "center"]
+
+==== 2.2.1.4 Department Hdr
+
+The Department hdr page has Segment, G/L Dimension, Profit Centre and Project dropdowns.
+
+image::EditInternalSalesDebitNote-DepartmentHdr.png[Department Hdr, align = "center"]
+
+==== 2.2.1.5 Contra
+
+In the Contra tab, there is a plus button to “Select Document ” and a table that has Server Doc Type, Doc Number, Branch, Status, Date and Amount Contra.
+
+image::EditInternalSalesDebitNote-Contra.png[Contra, align = "center"]
+
+===== 2.2.1.6 Attachments
+
+The Attachment page has a table with File Name, Size, Uploaded Date, Updated By and Actions columns. There is a plus sign button to get to add Attachment page. 
+
+image::EditInternalSalesDebitNote-Attachments.png[Attachments, align = "center"]
+
+====== 2.2.1.6.1 Add Attachment
+
+The Add Attachment page has the option to Upload File or user can drag and drop the file.
+
+image::EditInternalSalesDebitNote-AddAttachment.png[Add Attachments, align = "center"]
+
+===== 2.2.1.7 Export
+
+The Export page has a dropdown of Printable format and a Button to Export file as PDF. 
+
+image::EditInternalSalesDebitNote-Export.png[Export, align = "center"]
+
+

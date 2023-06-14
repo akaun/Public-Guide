@@ -1,0 +1,30 @@
+[#h3_internal_sales_good_issue_note_applet_introduction]
+= 1.0 Introduction
+
+image::InternalSalesGoodsIssueNote-LOGO.png[]
+
+include::intro_description.adoc[]
+
+== What are the uses of Internal Sales Goods Issue Note Applet?
+The Internal Sales Goods Issue Note Applet is a useful to record the issuance of stock items (that were taken out from warehouse) for any reason other than sales, to create new stock issue, to print stock issue listing, goods return, to keep the outstanding Goods Received Note updated (so that accurate invoice can later be issued), and to update the stock level as well.
+
+== Who will use the Internal Sales Goods Issue Note Applet and where will it be used?
+The Internal Sales Goods Issue Note Applet is typically used by organizations that have an internal sales process and need to manage the sales orders, inventory, and goods issuance. It is also used by businesses that produce or distribute physical goods, such as manufacturers, wholesalers, and retailers.
+
+== How will Internal Sales Goods Issue Note Applet be used?
+The Internal Sales Goods Issue Note Applet is used to streamline the internal sales process, improve inventory management, track costs, and generate reports for analysis. By using the applet, organizations can improve their operational efficiency, reduce errors, and provide better service to their customers.
+
+== What are the Benefits of using  Internal Sales Goods Issue Note Applet?
+The Internal Sales Goods Issue Note Applet provides several benefits to organizations that use it to manage their internal sales process. Here are some of the key benefits:
+
+a. Streamlined Sales Process: The applet simplifies the sales process by enabling sales representatives to create and manage sales orders, and warehouse staff to issue goods to customers. This reduces the time and effort required to complete the sales process, and helps organizations to deliver products to their customers more quickly and efficiently.
+
+b. Improved Inventory Management: The applet helps organizations to manage their inventory more effectively by tracking the stock levels of each product in the warehouse and updating inventory records in real-time. This enables organizations to avoid stock-outs and excess inventory, which can lead to lost sales and increased costs.
+
+c. Cost Tracking: The applet allows organizations to track the costs associated with the sales process, including the cost of goods sold, shipping, and handling. This helps organizations to identify areas where they can reduce costs and improve profitability.
+
+d. Reporting and Analysis: The applet provides reports that help organizations to analyze the sales and inventory data, such as sales trends, stock levels, and customer order history. This enables organizations to make informed decisions about their sales and inventory management strategies.
+
+e. Collaboration: The applet allows different departments within an organization, such as sales, warehouse, logistics, and finance, to collaborate on the sales process and share information. This improves communication and reduces the risk of errors and miscommunications.
+
+f. Flexibility: The applet can be accessed on any device with internet access, including desktops, laptops, tablets, and smartphones. This enables employees to access the applet from anywhere, at any time, making it easier for them to work remotely or on-the-go.

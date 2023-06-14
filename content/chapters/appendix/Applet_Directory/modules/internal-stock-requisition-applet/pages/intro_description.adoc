@@ -1,0 +1,1 @@
+Internal Stock Requisition Applet is designed to streamline the process of requesting and managing stock within an organization. It allows employees to request stock items they need for their work, while ensuring that the requests are properly authorized and tracked.

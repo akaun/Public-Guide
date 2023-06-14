@@ -1,6 +1,34 @@
 [#h3_internal-sales-debit-note-applet_introduction]
-=  Introduction
+= 1.0 Introduction
 
 image::internal_sales_debit_note_applet_logo.png[150,300]
 
 include::intro_description.adoc[]
+
+== What are the uses of Internal Sales Debit Note Applet?
+
+An Internal Sales Debit Note Applet can have several uses within an organization Recording sales transactions which includes Recording sales transactions, Managing accounts, Generating debit notes, Tracking inventory and Streamlining processes.
+
+== Who will use  Internal Sales Debit Note Applet and where will it be used?
+
+The Internal Sales Debit Note Applet can be used by different teams and departments within an organization that are involved in the sales process, especially for internal sales transactions. The applet can be used by sales teams, accounting teams, inventory management teams, and other relevant departments to manage their internal sales transactions and associated debits.
+The applet can be used in any organization that conducts internal sales transactions. This could include large corporations with multiple departments or teams, government agencies, non-profit organizations, or any other type of organization that has internal sales operations.
+
+== How will Internal Sales Debit Note Applet be used?
+
+The Internal Sales Debit Note Applet can be used to manage the sales process, track inventory levels, manage accounts, generate reports, and streamline sales-related tasks within an organization.
+
+== What are the Benefits of using  Internal Sales Debit Note Applet?
+
+The use of an Internal Sales Debit Note Applet can provide several benefits to an organization. Some of these benefits include:
+
+a. Increased Accuracy: The applet can help ensure that all sales transactions and associated debit notes are recorded accurately, reducing the risk of errors or discrepancies.
+
+b. Improved Efficiency: The applet can automate tasks such as creating and sending debit notes, saving time and reducing the workload for sales and accounting teams.
+
+c. Better Tracking: The applet can help organizations track inventory levels, sales transactions, and account balances, providing a more comprehensive view of their sales activities.
+Cost Savings: By streamlining processes and reducing the risk of errors, the applet can help organizations save money in the long run.
+
+d. Improved Communication: The applet can improve communication between different departments and teams within an organization by providing a centralized platform for managing internal sales transactions.
+
+e. Better Decision Making: By providing access to real-time sales data, the applet can help organizations make informed decisions about inventory management, pricing, and other areas of the sales process.

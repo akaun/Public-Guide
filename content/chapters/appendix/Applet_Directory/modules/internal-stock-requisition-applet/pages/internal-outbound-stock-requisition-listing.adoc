@@ -1,0 +1,120 @@
+[#h3_internal_stock_requisition_applet_outbound_listing]
+= 2.0 Internal Outbound Stock Requisition Listing
+
+image::InternalOutboundStockRequisitionListing.png[Listing, align = "center"]
+
+The Internal Outbound Stock Listing page has a Search Bar to search for Outbound Requisition Stock in the listing below. There is a Plus “+” sign with the search bar to create  Internal Outbound Stock Requisition. The table of stock listing has columns that are:
+
+a. ST GIN ID
+b. Posting Status
+c. Tracking ID
+d. Location From
+e. Location To
+f. ST Goods Issue Date
+g. Ref #
+h. Doc Description
+i. Created By
+j. Created Date
+k. Updated Date
+l. Transaction Date
+
+There is a Final Button on top of the table that needs to be clicked upon finalizing the stock.
+
+== 2.1 Create Internal Outbound Stock Requisition
+
+The user can get to the Create Internal Outbound Stock Requisition page by clicking on the plus sign button on the Internal Outbound Stock Requisition Listing page. The Create Internal Outbound Stock Requisition page has 3 further tabs that are Details , Line and KO For. There is a Create and Reset Button on top right to reset the changes made or to create the internal outbound stock requisition.
+
+=== 2.1.1 Details
+
+The Details page of Create Internal Outbound Stock Requisition tab has details fields that are Location Sending, Location Receiving, Stock Requisition Goods Issue Date, Reference #, Tracking ID and DOC Description.
+
+image::InternalOutboundStockRequisitionListing-Create-Details.png[Details, align = "center"]
+
+=== 2.1.2 Line
+
+image::InternalOutboundStockRequisitionListing-Create-Line.png[Lines, align = "center"]
+
+The Line page of Create Internal Outbound Stock Requisition tab has a Search bar to search for items in the listing below. The table below has columns that are Item Code, UOM, Tracking ID, Item Name and Quantity. 
+
+The Plus sign button with the search bar can be clicked to get to the Create Line Item page. 
+
+==== 2.1.2.1 Create Line Item
+
+image::InternalStockOutboundRequisitionListing-Create-Line-CreateLineItem.png[Create Line Item, align = "center"]
+
+The Create Line Item page has a Search Item Bar and a table that has columns that are Item Code, Tracking ID, Item Name, Uom, Doc Reference and Doc Description.
+
+The user can get to the Add Line Item page by clicking on any of the listings in the table.
+
+===== 2.1.2.1.1 Add Line Item
+
+The Add Line Item page has an Item Details page and Add Button on top right to Add item after keying in all the details below.
+
+====== 2.1.2.1.1.1 Item Details
+
+image::InternalOutboundStockRequisitionListing-Create-Line-CreateLineItem-AddLineItem.png[Add Line Item, align = "center"]
+
+=== 2.1.3 KO For
+
+image::ko-for.png[KO For, align = "center"]
+
+The Item Details page of  Create Internal Outbound Stock Requisition tab has a Purchase GRN page and Search Bar to search for documents in the table below.
+
+The table has columns that are Doc No, Doc Type, Ref No, Txn Date, Branch Code and Supplier.
+
+== 2.2 View Internal Outbound Stock Requisition
+
+Users can get to the View Internal Outbound Stock Requisition page by clicking on any of the listings in the Internal Outbound Stock Requisition Listing page. This page has further more pages that are Details, Line and Doc Link. 
+
+There is a Reset, Final and Save Button on top right that can be used to reset the details, finalize the  details or save them.
+
+=== 2.2.1 Details
+
+image::ViewInternalOutboundStockRequisition-Details.png[Details, align = "center"]
+
+The Details page has details fields that are Document type, Doc No (Tenant), Doc No (Company), Doc No (Branch), Location Sending, Location Receiving, Stock Requisition Goods Issue Date, Reference #, Tracking ID, Doc Description.
+
+=== 2.2.2 Line
+
+The Line Item page has a table with Item Code, Opening Stock, Net Purchase, Closing Stock, Quantity to Bill, SST/WAT/GST, and Txn Amount columns.
+
+There is a Plus “+” sign button to get to the Add Item  page.
+
+==== 2.2.2.1 Edit Line Items
+
+The user can get to Edit Line Item by clicking on any of the listings in Line Page.
+
+==== 2.2.2.1.1 Item Details
+
+image::ViewInternalOutboundStockRequisition-EditLineItem-ItemDetails.png[Item Details, align = "center"]
+
+The Item Details page has fields that are Item Code, Item Name, UOM, Qty, Tracking ID, Doc Reference, Doc Description, and Remarks.
+
+==== 2.2.2.1.2 KO By GRN Item
+==== 2.2.2.1.3 KO For GRN Item
+==== 2.2.2.1.4 KO By - GRN Item
+==== 2.2.2.1.5 KO For ST - GRN Item
+
+The tabs above are under developement.
+
+=== 2.2.3 Doc Link
+
+The Doc Link tab has 2 pages that are To and From.
+
+==== 2.2.3.1 From
+
+The To page has a table that has Doc No, Branch, Server Doc Type, Status, and Date columns.
+
+image::InternalOutboundStockRequisitionListing-View-DocLink-From.png[From, align = "center"]
+
+==== 2.2.3.2 To
+
+The To page has a table that has Doc No, Branch, Server Doc Type, Status, and Date columns.
+
+image::InternalOutboundStockRequisitionListing-View-To.png[View, align = "center"]
+
+==== 2.2.3.3 Export
+
+The Export page has a dropdown of Printable format and Button to Export file as PDF. 
+
+image::InternalOutboundStockRequisitionListing-View-Export.png[Export, align = "center"]

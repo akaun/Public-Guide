@@ -1,5 +1,5 @@
 * CP Commerce Module
-** xref:introduction.adoc[]
+** xref:introduction/introduction.adoc[]
 // ------
 ** xref:project-implementation/00_overview.adoc[]
 *** xref:project-implementation/ui_design.adoc[]
@@ -103,5 +103,5 @@
 *** xref:b2b2c/marketplace-connector/00_overview.adoc[]
 
 // -----
-** xref:features-and-functions/introduction-cp-commerce.adoc[]
+
 
