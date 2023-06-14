@@ -1,0 +1,17 @@
+[#h3_internal_purchase_invoice_supplier_access_applet_listing]
+= 2.1 Internal Purchase Invoice Listing
+
+image::2.1_purchase_invoice_listing.png[Internal Purchase Invoice Listing, align = "center"]
+
+The first module of the Internal Purchase Invoice Supplier Access Applet: Internal Purchase Invoice features a purchase invoice listing page which outlines the details regarding all purchase invoices received, including:
+
+* Purchase Invoice No.
+* Branch
+* Purchaser Name
+* Supplier ID
+* Supplier Name
+* Amount Transaction
+* Updated Date
+* Created Date
+* Transaction Date
+* Status
