@@ -1,0 +1,6 @@
+[#h3_myBilling_applet_introduction]
+=  1.0 Introduction
+
+image::A_applet_logo.png[150,300]
+
+include::intro_description.adoc[]

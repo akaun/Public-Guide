@@ -1,0 +1,15 @@
+[#h3_myBilling_applet_statement_of_account_listing]
+= 2.13 Statement of Account Listing
+
+image::H0_statement_of_accounts.png[Statement of Account Listing, align = "center"]
+
+The seventh and final module of the myBilling Applet: Statement of Account features a listing page which outlines the closing balance of the user’s account as at a certain date, showing the following information:
+
+* Date
+* Branch
+* Description
+* Doc Reference No
+* Remarks
+* Debit
+* Credit
+* Balance

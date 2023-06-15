@@ -1,0 +1,74 @@
+[#h3_myBilling_applet_edit_debit_note]
+= 2.10 Edit Debit Note
+
+image::F1_main_details.png[Editing a Debit Note, align = "center"]
+
+Clicking a debit note on the listing page will allow a user to view more detailed information and edit certain informational fields in that debit note. After editing the debit note, users can click the ‘SAVE’ button to update the debit note with the latest information.
+
+== 2.10.1 Main details
+
+ Under the Main Details tab, the following information about the debit note is displayed:
+
+* Branch
+* Location
+* Purchaser
+* Transaction Date
+* Credit Terms
+* Reference
+* Remarks
+* Permit No
+* Currency
+* Tracking ID
+
+== 2.10.2 Line Items
+
+image::F2_line_items.png[Line Items Tab, align = "center"]
+
+The Line Items tab displays a listing of line items linked to that purchase debit note with the following information:
+
+* Item Code
+* Item Name
+* Unit Of Measurement
+* Quantity
+* Unit Price (Inclusive of Tax)
+* SST/VAT/GST 
+* Transaction Amount
+
+== 2.10.3 Payment
+
+image::F3_payment.png[Payment Tab, align = "center"]
+
+The Payment tab displays these information regarding the payment made that is related to the purchase debit note:
+
+* Payment Method
+* Date
+* Paid Amount
+* Remarks
+
+== 2.10.4 Contra
+
+image::F4_contra.png[Contra Tab, align = "center"]
+
+The Contra tab displays the following information about the contra for the purchase debit note:
+
+* Server Doc Type
+* Status
+* Date
+* Amount Contra
+
+== 2.10.5 Attachment
+
+image::F5_attachment.png[Attachment Tab, align = "center"]
+
+Users may view any attachments uploaded to the purchase debit note under the Attachment tab. The listing provides the following information:
+
+* File Name
+* Size
+* Uploaded Date
+* Uploaded By
+
+== 2.10.6 Export
+
+image::F6_export.png[Export Tab, align = "center"]
+
+The Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a purchase debit note.

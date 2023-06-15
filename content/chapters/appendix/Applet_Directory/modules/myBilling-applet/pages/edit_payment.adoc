@@ -1,0 +1,68 @@
+[#h3_myBilling_applet_edit_payment]
+= 2.6 Edit Payment
+
+image::D1_main.png[Editing a Payment, align = "center"]
+
+Clicking a payment on the listing page will allow a user to view more detailed information related to that payment. Users can click the ‘SAVE’ button after editing the payment to update it with the latest information.
+
+== 2.6.1 Main details
+
+Under the Main Details tab, the following information about the payment is displayed:
+
+* Branch
+* Location
+* Currency
+* Base Rate
+* Checked By
+* Approved By
+* Remarks
+
+== 2.6.2 Expenses
+
+image::D2_expenses.png[Expenses Tab, align = "center"]
+
+The Expenses tab displays a listing of expenses linked to the payment. Additionally, users can use the advanced search bar to search for specific expenses based on the Sales Invoice No, Item Code, Item Name, and Transaction Amount range. Each expense is displayed with the following information:
+
+* Item Code
+* Item Name
+* Unit Of Measurement
+* Quantity
+* Unit Price (Inclusive of Tax)
+* SST/VAT/GST 
+* Transaction Amount
+
+== 2.6.3 Payment
+
+image::D3_payment.png[Payment Tab, align = "center"]
+
+The Payment tab displays these information regarding the payment made for the incurred expenses by the user:
+
+* Date
+* Amount
+* Details
+* Remarks
+
+== 2.6.4 Attachments
+
+=== Listing
+
+image::D4.0_attachments.png[Attachments Tab - Listing, align = "center"]
+
+Users may view any attachments uploaded to the payment under the Attachments tab. The listing provides the following information:
+
+* File Name
+* Size
+* Uploaded Date
+* Uploaded By
+
+=== Add Attachment
+
+image::D4.1_attachments_add.png[Attachments Tab - Add, align = "center"]
+
+Users may also add new attachments to their payment by clicking the ‘+’ button, which brings them to a menu to upload a file. Files can be uploaded by clicking on the ‘Upload File(s)’ button or alternatively, by dragging the respective files and dropping them into the outlined box in the menu.
+
+== 2.6.5 Export
+
+image::D5_export.png[Export Tab, align = "center"]
+
+The Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a payment voucher.

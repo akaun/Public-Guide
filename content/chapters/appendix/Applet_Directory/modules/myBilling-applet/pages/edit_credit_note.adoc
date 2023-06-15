@@ -1,0 +1,179 @@
+[#h3_myBilling_applet_edit_credit_note]
+= 2.12 Edit Credit Note
+
+image::G1_main_details.png[Editing a Credit Note, align = "center"]
+
+Clicking a credit note on the listing page will allow a user to view more detailed information and edit certain informational fields in that credit note. The ‘RESET’ button allows the user to undo any modifications performed to the credit note in the same edit session, while the ‘SAVE’ button updates the credit note with the latest information input by the user. The ‘FINAL’ button provides the user the option to finalise the current credit note to be posted to the accounting journals, thus removing the ability to edit the credit note any further. 
+
+== 2.12.1 Main details
+
+ Under the Main Details tab, the following information about the credit note is displayed:
+
+* Branch
+* Location
+* Purchaser
+* Transaction Date
+* Credit Terms
+* Reference
+* Remarks
+* Permit No
+* Currency
+* Tracking ID
+
+== 2.12.2 Account
+
+=== Entity Details
+
+image::G2.1_account_entity_details.png[Account Tab - Entity Details, align = "center"]
+
+Under the first sub tab of the Account tab, Entity Details will display the supplier’s general information as follows:
+
+* Entity ID
+* Entity Name
+* Status
+* Entity Type
+* Identity Type
+* ID Number
+* Currency
+* GL Code
+* Description
+* Email
+* Phone Number
+
+=== Bill To 
+
+image::G2.2_account_bill_to.png[Account Tab - Bill To, align = "center"]
+
+The second sub tab, Bill To, will display the billing address of the supplier (if the purchaser selected one) with the following info:
+
+* Name
+* Email
+* Phone No.
+* Billing Address
+* Address Lines 1 - 5
+* Country
+* State
+* City
+* Postcode
+
+=== Ship To
+
+image::G2.3_account_ship_to.png[Account Tab - Ship To, align = "center"]
+
+The third sub tab, Ship To, will display the shipping address of the supplier (if the purchaser selected one), with the following info:
+
+* Recipient Name
+* Email
+* Phone No.
+* Shipping Address
+* Address Lines 1 - 5
+* Country
+* State
+* City
+* Postcode
+
+== 2.12.3 Line Items
+
+image::G3_line_items.png[Line Items Tab, align = "center"]
+
+The Line Items tab displays a listing of line items linked to that purchase credit note with the following information:
+
+* Item Code
+* Item Name
+* Unit Of Measurement
+* Quantity
+* Unit Price (Inclusive of Tax)
+* SST/VAT/GST 
+* Transaction Amount
+
+== 2.12.4 Payment
+
+=== Listing
+
+image::G4.0_payment.png[Payment Tab - Listing, align = "center"]
+
+The Payment tab displays these information regarding the payment made that is related to the purchase credit note:
+
+* Payment Method
+* Date
+* Paid Amount
+* Remarks
+
+=== Add Payment
+
+image::G4.1_payment_create.png[Payment Tab - Add Payment, align = "center"]
+
+Users may also add new payment to their purchase credit note by providing the following information:
+
+* Settlement Method
+* Date
+* Amount
+* Remarks
+
+== 2.12.5 Department Hdr
+
+image::G5_department_hdr.png[Deartment Hdr Tab, align = "center"]
+
+Users may view or select the Segment, G/L Dimension, Profit Centre, and Project related to the purchase credit note under the Department Hdr tab.
+
+== 2.12.6 Contra
+
+=== Listing
+
+image::G6.0_contra.png[Contra Tab - Listing, align = "center"]
+
+The Contra tab displays the following information about the contra for the purchase credit note:
+
+* Server Doc Type
+* Status
+* Date
+* Amount Contra
+
+=== Select Document 
+
+image::G6.1_contra_create.png[Contra Tab - Select Document, align = "center"]
+
+Users may add a document to contra with the purchase credit note by selecting a document from the listing.
+
+== 2.12.7 Doc Link
+
+The Doc Link tabs allow a user to view if the current purchase credit note is linked to any other documents via the Copy From and Copy To sub tabs. Both sub tabs display a listing with these information:
+
+* Doc No
+* Branch
+* Server Doc Type
+* Status
+* Date
+
+=== Copy From
+
+image::G7.1_doc_link_from.png[Doc Link Tab - Copy From, align = "center"]
+
+=== Copy To
+
+image::G7.2_doc_link_to.png[Doc Link Tab - Copy To, align = "center"]
+
+== 2.12.8 Attachment
+
+=== Listing
+
+image::G8.0_attachment.png[Attachment Tab - Listing, align = "center"]
+
+Users may view any attachments uploaded to the purchase credit note under the Attachment tab. The listing provides the following information:
+
+* File Name
+* Size
+* Uploaded Date
+* Uploaded By
+
+=== Add Attachment
+
+image::G8.1_attachment_create.png[Attachment Tab - Add, align = "center"]
+
+Users may also add new attachments to their credit note by clicking the ‘+’ button, which brings them to a menu to upload a file. Files can be uploaded by clicking on the ‘Upload File(s)’ button or alternatively, by dragging the respective files and dropping them into the outlined box in the menu.
+
+== 2.12.9 Export
+
+image::G9_export.png[Export Tab, align = "center"]
+
+The Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a purchase credit note.

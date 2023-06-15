@@ -1,0 +1,15 @@
+[#h3_myBilling_applet_bills_listing]
+= 2.3 My Bills Listing
+
+image::C0_my_bills.png[My Bills Listing, align = "center"]
+
+The second module of the myBilling Applet: My Bills features a listing page which outlines the details regarding all outstanding amounts to be paid by the user, including:
+
+* Doc No
+* Posting Status
+* Branch
+* Customer Name
+* Sales Agent
+* Created Date
+* Created By
+* Updated Date

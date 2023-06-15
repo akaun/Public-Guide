@@ -1,0 +1,98 @@
+[#h3_myBilling_applet_edit_bill]
+= 2.4 Edit Bill 
+
+image::C1_main_details.png[Editing a Bill, align = "center"]
+
+Clicking a bill on the listing page will allow a user to view more detailed information related to that bill. After editing the bill, users can click the ‘SAVE’ button to update the bill with the latest information.
+
+== 2.4.1 Main details
+
+Under the Main Details tab, the following information about the bill is displayed:
+
+* Branch
+* Location
+* Sales Agent
+* Transaction Date
+* Credit Terms
+* Reference
+* Remarks
+* Permit No
+* CRM Contact
+* Member Card
+* Currency
+* Sales Lead
+* Tracking ID
+
+== 2.4.2 Lines
+
+image::C2_lines.png[Lines Tab, align = "center"]
+
+The Line Items tab displays a listing of line items linked to that purchase invoice with the following information:
+
+* Item Code
+* Item Name
+* Unit Of Measurement
+* Quantity
+* Unit Price (Inclusive of Tax)
+* SST/VAT/GST 
+* Transaction Amount
+
+== 2.4.3 Delivery Details
+
+image::C3_delivery_details.png[Delivery Details Tab, align = "center"]
+
+The Delivery Details tab displays these information regarding the delivery for the purchase made by the user:
+
+* Require Delivery
+* Delivery Status
+* Delivery Region Code
+* Delivery Region Status
+* Delivery Logic
+* Delivery ID
+* Planned Delivery Date
+* Estimate Delivery Date
+* Actual Delivery Date
+* Delivery PIC Name
+* Delivery PIC Contact
+* Delivery Remarks
+
+== 2.4.4 Settlement
+
+=== Listing
+
+image::C4.0_settlement.png[Settlement Tab - Listing, align = "center"]
+
+The Settlement tab displays information regarding the settlements made by the user for the current outstanding bill, including:
+
+* Date
+* Amount
+* Details
+* Remarks
+
+=== Add Settlement
+
+image::C4.1_settlement_create.png[Settlement Tab - Create, align = "center"]
+
+Users may also add new settlements to their outstanding bills by providing the following information:
+
+* Settlement Method
+* Date
+* Amount
+* Remarks
+
+== 2.4.5 Export
+
+image::C5_export.png[Export Tab, align = "center"]
+
+The Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a sales invoice issued by the user’s supplier.
+
+== 2.4.6 Attachments
+
+image::C6_attachments.png[Attachments Tab, align = "center"]
+
+Users may view any attachments uploaded to the outstanding bill under the Attachments tab. The listing provides the following information:
+
+* File Name
+* Size
+* Uploaded Date
+* Uploaded By

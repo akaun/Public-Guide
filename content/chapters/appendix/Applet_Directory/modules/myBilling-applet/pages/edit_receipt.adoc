@@ -1,0 +1,69 @@
+[#h3_myBilling_applet_edit_receipt]
+= 2.8 Edit Receipt
+
+image::E1_main_details.png[Editing a Receipt, align = "center"]
+
+Clicking a receipt on the listing page will allow a user to view more detailed information related to that receipt. After editing the receipt, users can click the ‘SAVE’ button to update the receipt with the latest information.
+
+== 2.8.1 Main details
+
+ Under the Main Details tab, the following information about the receipt is displayed:
+
+* Branch
+* Location
+* Currency
+* Base Rate
+* Checked By
+* Approved By
+* Transaction Date
+* Remarks
+
+== 2.8.2 Revenue
+
+image::E2_revenue.png[Revenue Tab, align = "center"]
+
+The Revenue tab displays a listing of revenue linked to the receipt with the following information:
+
+* Item Code
+* Item Name
+* Unit Of Measurement
+* Quantity
+* Unit Price (Inclusive of Tax)
+* SST/VAT/GST 
+* Transaction Amount
+
+== 2.8.3 Payment
+
+image::E3_payment.png[Payment Tab, align = "center"]
+
+The Payment tab displays these information regarding the receipt for the revenue earned by the user:
+
+* Date
+* Amount
+* Details
+* Remarks
+
+== 2.8.4 Export
+
+image::E4_export.png[Export Tab, align = "center"]
+
+The Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a receipt voucher. Optionally, users can delete the current document on receipts collected. This may be applicable for example, in the event of a refund.
+
+== 2.8.5 Attachments
+
+=== Listing
+
+image::E5.0_attachments.png[Attachments Tab - Listing, align = "center"]
+
+Users may view any attachments uploaded to the receipt under the Attachments tab. The listing provides the following information:
+
+* File Name
+* Size
+* Uploaded Date
+* Uploaded By
+
+=== Add Attachment
+
+image::E5.1_attachments_create.png[Attachments Tab - Add, align = "center"]
+
+Users may also add new attachments to their receipt by clicking the ‘+’ button, which brings them to a menu to upload a file. Files can be uploaded by clicking on the ‘Upload File(s)’ button or alternatively, by dragging the respective files and dropping them into the outlined box in the menu. 

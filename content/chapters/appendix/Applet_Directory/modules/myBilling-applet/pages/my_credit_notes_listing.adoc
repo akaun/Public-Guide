@@ -1,0 +1,16 @@
+[#h3_myBilling_applet_credit_notes_listing]
+= 2.11 My Credit Notes Listing
+
+image::G0_my_credit_notes.png[My Credit Notes Listing, align = "center"]
+
+The sixth module of the myBilling Applet: My Credit Notes features a listing page which outlines the details of all the purchase credit notes belonging to the user. Additionally, users can use the advanced search bar to search for specific credit notes based on the Purchase Credit Note No, Branch Name, Supplier Name, Created Date range, and Status. The listing shows the following information regarding each credit note:
+
+* Purchase Credit Note No
+* Posting Status
+* Branch
+* Supplier ID
+* Supplier Name
+* Creation Date
+* Amount Transaction
+* Status
+* Updated Date

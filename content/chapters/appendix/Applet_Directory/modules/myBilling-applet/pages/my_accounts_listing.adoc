@@ -1,0 +1,13 @@
+[#h3_myBilling_applet_listing]
+= 2.1 My Accounts Listing
+
+image::B0_my_accounts.png[My Accounts Listing, align = "center"]
+
+The first module of the myBilling Applet: My Accounts features an account listing page which outlines the details regarding all linked customer accounts to the current login email, including:
+
+* Customer Code
+* Customer Name
+* Entity Type
+* Creation Date
+* Modified Date
+* Status

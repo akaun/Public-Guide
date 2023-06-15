@@ -1,0 +1,13 @@
+[#h3_myBilling_applet_receipts_listing]
+= 2.7 My Receipts Listing
+
+image::E0_my_receipts.png[My Receipts Listing, align = "center"]
+
+The fourth module of the myBilling Applet: My Receipts features a listing page which outlines the details regarding all receipts by the user. Additionally, users can use the advanced search bar to search for specific receipts based on the Branch, Customer Name, and Modified Date range. Each receipt in the listing is displayed with its corresponding information, including:
+
+* Doc No
+* Posting Status
+* Branch
+* Customer Name
+* Created Date
+* Created By

@@ -1,0 +1,14 @@
+[#h3_myBilling_applet_payments_listing]
+= 2.5 My Payments Listing
+
+image::D0_my_payments.png[My Payments Listing, align = "center"]
+
+The third module of the myBilling Applet: My Payments features a listing page which outlines the details regarding all payments made by the user, including:
+
+* Payment Voucher No
+* Posting Status
+* Branch
+* Supplier Name
+* Created Date
+* Created By
+* Updated Date

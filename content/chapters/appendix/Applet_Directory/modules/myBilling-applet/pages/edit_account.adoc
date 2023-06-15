@@ -1,0 +1,193 @@
+[#h3_myBilling_applet_edit_account]
+= 2.2 Edit Account 
+
+image::B1_main.png[Editing a Linked Account, align = "center"]
+
+Users may click into any available account on the listing page to view and edit additional details linked to that account.
+
+== 2.2.1 Main
+
+Under the Main tab, the following information about the account is displayed:
+
+* Customer Name
+* Code
+* Status
+* Type
+* Identity Type
+* ID Number
+* Gender 
+* Tax Registration Number
+* Currency
+* Description
+* AR/AP Type
+* Phone Number
+* Email
+* Created By
+* Creation Date
+* Modified By
+* Modified Date
+
+== 2.2.2 Login
+
+=== Listing
+
+image::B2.0_login.png[Login Tab - Listing, align = "center"]
+
+Under the Login tab, will display information regarding the customer’s linked login emails as follows:
+
+* User Email
+* Rank
+* Status
+* Modified Date
+
+=== Login Create
+
+image::B2.1_login_create.png[Login Tab - Create, align = "center"]
+
+Users may additionally link a new email to the customer account by clicking on the Add button. The create menu will require the following:
+
+* User Email
+* Rank
+* Status
+
+== 2.2.3 Payment Config
+
+=== Listing
+
+image::B3.0_payment_cfg.png[Payment Config Tab - Listing, align="center"]
+
+The Payment Config tab displays a listing of payment configurations linked to that customer account with the following information:
+
+* Country
+* Payee Resident Status
+* Payment Type
+* Bank
+* Bank Identifier Code
+* Bank Acc. No.
+* Bank Acc. Holder Name
+* IBN No.
+
+=== Payment Config Create
+
+image::B3.1_payment_cfg_create.png[Payment Config Tab - Create, align="center"]
+
+Users may create additional payment configurations for themselves in their customer accounts by providing these details:
+
+* Payee Resident Status
+* Payment Type
+* Country
+* Bank
+* Bank Identifier Code
+* Bank Acc. No.
+* Bank Acc. Holder Name
+* IBN No.
+* Account Expiry
+
+== 2.2.4 Tax
+
+image::B4.0_tax.png[Tax Tab, align = "center"]
+
+In the Tax tab, users can view the tax information subjected to their customer account. The available information are:
+
+* Country
+* Tax Code
+* Tax Type
+* Tax Rate
+* Tax Option
+
+== 2.2.5 Address
+
+=== Listing
+
+image::B5.0_address.png[Address Tab - Listing, align="center"]
+
+Users may view the following information about their addresses linked to their customer account in the Address tab:
+
+* Address Name
+* Address Type
+* Address Line 1
+* Address Line 2
+* Country
+* State
+* Postcode
+
+=== Address Create
+
+image::B5.1_address_create.png[Address Tab - Create, align="center"]
+
+Additionally, users may add new addresses to their accounts by providing these details:
+
+* Address Name
+* Address Type
+* Address Lines 1 to 5
+* Country
+* State
+* City
+* Postcode
+
+== 2.2.6 Contact
+
+=== Listing
+
+image::B6.0_contact.png[Contact Tab - Listing, align="center"]
+
+Under the Contact tab, users can view the contact information linked to their customer account. Available information on the contacts are as follows:
+
+* Contact Name
+* Contact ID
+* Designation/Position
+
+=== Contact Create
+
+image::B6.1_contact_create.png[Contact Tab - Create, align="center"]
+
+Users may also add new contact details to their customer record by providing the following information:
+
+* Contact Name
+* Contact ID
+* Designation/Position
+* Office No
+* Extension No
+* Mobile No
+* Fax No
+* Phone Number
+* Email
+* Other No
+
+== 2.2.7 Branch
+
+image::B7_branch.png[Branch Tab, align="center"]
+
+The Branch tab allows a user to view the branches linked to their customer account through a listing with these information:
+
+* Branch Name
+* Company Name
+* Location Name
+
+== 2.2.8 Credit Term and Limit
+
+The Credit Term and Limit tabs allow a user to view the associated credit terms and credit limit information to their customer account.
+
+=== Credit Term
+
+image::B8.0_credit_term.png[Credit Term and Limit Tab - Credit Term, align = "center"]
+
+The credit term sub-tab displays these information:
+
+* Credit Term Code
+* Credit Term Name
+* Status
+* Modification Date
+
+=== Credit Limit
+
+image::B8.1_credit_limit.png[Credit Term and Limit Tab - Credit Limit, align = "center"]
+
+The credit limit sub-tab displays these information:
+
+* Credit Limit Code
+* Credit Limit Name
+* Credit Limit Currency
+* Credit Limit Amount
+* Status
+* Modification Date

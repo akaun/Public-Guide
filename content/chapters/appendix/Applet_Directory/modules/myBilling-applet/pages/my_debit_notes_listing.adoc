@@ -1,0 +1,16 @@
+[#h3_myBilling_applet_debit_notes_listing]
+= 2.9 My Debit Notes Listing
+
+image::F0_my_debit_notes.png[My Debit Notes Listing, align = "center"]
+
+The fifth module of the myBilling Applet: My Debit Notes features a listing page which outlines the details of all the purchase debit notes belonging to the user, including:
+
+* Purchase Debit Note No
+* Posting Status
+* Branch
+* Supplier Name
+* Creation Date
+* Created By
+* Amount Transaction
+* Status
+* Updated Date
