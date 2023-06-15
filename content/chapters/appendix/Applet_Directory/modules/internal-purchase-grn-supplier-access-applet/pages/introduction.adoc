@@ -1,0 +1,19 @@
+[#h3_internal-purchase-grn-supplier-access-applet_introduction]
+=  1.0 Introduction
+
+image::internal_purchase_grn_supplier_access_applet_logo.png[150,300]
+
+include::intro_description.adoc[]
+
+*Who will be using this Applet?*
+
+This applet will be used by the suppliers of the users. The users have to use the Supplier Applet to grant the access to view to their suppliers. Suppliers are only allowed to view the information based on the accessibility granted by the users. For example, Company A will only have access to information of Company A if that’s what the users granted to Company A.
+
+*How is this Applet used?*
+
+This applet will be used by the suppliers of the users when they want to track the status of their stock items as this applet allows the suppliers to check whether their stock items have been received by the users and the recorded details of their stock items.
+
+
+*The Benefits of the Applet*
+
+The suppliers are able to track the record of their stock items that have been received by the users easily as the applet includes implementations that allow the suppliers to search and trace for the record of their stock items systematically.

@@ -1,0 +1,427 @@
+[#h3_ipgrn_supplier_access_listing]
+= 2.0 Internal Purchase GRN Supplier Access 
+
+image::Internal-Purchase-GRN-Listing.png[Listing, align = "center"]
+
+The Purchase GRN Listing is where the suppliers can track the record of their stock items being received by the users. Whenever the users received any stock items from a supplier, they will create a good received note in the Internal Purchase GRN Applet with the respective supplier chosen. Therefore, the suppliers will only be able to see the stock items that are from them in the listing of Internal Purchase GRN Supplier Access Applet. The displayed columns in the listing are:
+
+* Purchase GRN No.
+* Branch
+* Purchaser Name
+* Updated Date
+* Created Date
+* Transaction Date
+* Created By
+
+image::Internal-Purchase-GRN-Listing-Advanced-Search.png[Listing, align = "center"]
+
+To ease the suppliers, they are able to search the good received notes that they are searching using the advanced search tab which is located above the listing.
+
+== 2.1 View Purchase GRN 
+
+image::View-Purchase-GRN.png[View Purchase GRN, align = "center"]
+
+By clicking on one of the rows in the listing, the suppliers will be able to see the details of the good received note.
+
+=== 2.1.1 Main Details
+
+image::View-Purchase-GRN-Main-Details-Tab-1.png[Main Details, align = "center"]
+
+image::View-Purchase-GRN-Main-Details-Tab-2.png[Main Details, align = "center"]
+
+In the Main Details tab, there are 10 components which allow the suppliers to see:
+
+* Branch
+* Location
+* Purchaser Name
+* Transaction Date
+* Credit Terms
+* Reference
+* Remarks
+* Permit No
+* Currency
+* Tracking ID
+
+=== 2.1.2 Account
+
+==== 2.1.2.1 Entity Details 
+
+image::View-Purchase-GRN-Account-Tab-Entity-Details.png[Entity Details, align = "center"]
+
+In the Account’s Entity Details tab, the suppliers are able to see their own details:
+
+* Entity ID: Supplier Code
+* Entity Name: Supplier Name
+* Status: Active or Inactive
+* Entity Type: Corporate or Individual
+* Identity Type: IC or Passport
+* ID Number: IC or Passport number
+* Currency: To determine based on the pricing condition what you are maintaining
+* Email: A central email through which the Supplier wants to communicate
+* Description: Additional notes
+* Phone Number: A central phone number through which Supplier wants to communicate
+
+==== 2.1.2.2 Bill To
+
+image::View-Purchase-GRN-Account-Tab-Bill-to-1.png[Bill To, align = "center"]
+
+image::View-Purchase-GRN-Account-Tab-Bill-to-2.png[Bill To, align = "center"]
+
+
+In the Account’s Bill To tab, the suppliers are able to see where the users bill to:
+
+* Name
+* Email
+* Phone No
+* Billing Address
+* Address Line 1 to 5
+* Country
+* State
+* City
+* Postcode
+
+==== 2.1.2.3 Ship To
+
+image::View-Purchase-GRN-Account-Tab-Ship-to-1.png[Ship To, align = "center"]
+
+image::View-Purchase-GRN-Account-Tab-Ship-to-2.png[Ship To, align = "center"]
+
+In the Account’s Ship To tab, the suppliers are able to see where they need to ship to:
+
+* Recipient Name
+* Email
+* Phone No
+* Shipping Address
+* Address Line 1 to 5
+* Country
+* State
+* City
+* Postcode
+
+=== 2.1.3 Lines
+
+image::View-Purchase-GRN-Lines-Tab.png[Lines, align = "center"]
+
+In the Lines tab, the suppliers are able to see the stock items received by the users.
+
+image::Lines-Tab-View-Item-Tab.png[Lines, align = "center"]
+
+By clicking on one of the line item rows, the suppliers will be able to see the details of the selected item.
+
+
+==== 2.1.3.1 Item Details 
+
+===== 2.1.3.1.1 Main Details 
+
+image::Lines-Tab-Item-Details-Tab-Main-Details-1.png[Item Main Details, align = "center"]
+
+image::Lines-Tab-Item-Details-Tab-Main-Details-2.png[Item Main Details, align = "center"]
+
+image::Lines-Tab-Item-Details-Tab-Main-Details-3.png[Item Main Details, align = "center"]
+
+image::Lines-Tab-Item-Details-Tab-Main-Details-4.png[Item Main Details, align = "center"]
+
+In the Item Details’ Main Details tab, the main details of the selected item will be displayed to the suppliers. The main details are:
+
+* Item Code
+* Item Name
+* Quantity Base
+* Qty by UOM
+* UOM to Base Ratio
+* Unit Price by UOM
+* Unit Discount by UOM
+* Unit Price
+* Unit Discount
+* Discount Amount
+* STD Amount(Unit Price x Quantity)
+* Net Amount(STD Amount - Discount Amount)
+* SST Code
+* SST/GST/VAT
+* Tax Amount
+* Net Amount(SST/GST/VAT x Net Amount)
+* WHT Code
+* WHT
+* WHT Amount
+* Txn Amount
+* Remarks
+
+===== 2.1.3.1.2 Delivery Instruction 
+
+image::Lines-Tab-Item-Details-Tab-Delivery-Instruction.png[Item Delivery Instruction, align = "center"]
+
+In the Item Details’ Delivery Instruction tab, the suppliers are able to see:
+
+* The Delivery Instructions:
+** Instructions from the users
+** Delivery Date set by the users
+
+* Delivery Message Card:
+** From stated by the users
+** To stated by the users
+** Message stated by the users
+
+===== 2.1.3.1.3 Department
+
+image::Lines-Tab-Item-Details-Tab-Department.png[Item Department, align = "center"]
+
+In the Item Details’ Department tab, the suppliers will be able to see the information for the department. The information are:
+
+* Segment
+* G/L Dimensions
+* Profit Center
+* Project
+
+
+===== 2.1.3.1.4 Doc Link
+
+image::Lines-Tab-Item-Details-Tab-Doc-Link.png[Item Doc Link, align = "center"]
+
+In the Item Details’ Doc Link Tab, the suppliers are able to see where the documents that have the selected item have been *COPIED FROM AND COPIED TO*. Basically the Doc Link Tab visualizes the documents that have the selected item flows to other systems. The details shown in the listing are:
+
+* Doc No.
+* Branch
+* Server Document Type
+* Status 
+* Date
+
+===== 2.1.3.1.5 Delivery Details 
+
+image::Lines-Tab-Item-Details-Tab-Delivery-Details.png[Item Delivery Details, align = "center"]
+
+In the Item Details’ Delivery Details Tab, the suppliers are able to see the selected item’s delivery details. The details shown in the listing are:
+
+* Trip No
+* Driver Name
+* Vehicle No
+* Job Start Date
+* Job End Date
+* Delivery Status
+* Recipient Name
+* Qty
+
+==== 2.1.3.2 Serial Number
+
+image::Lines-Tab-Serial-Number-Tab.png[Lines Serial Number, align = "center"]
+
+In the Serial Number tab, the suppliers are able to see the serial numbers of the selected item.
+
+==== 2.1.3.3 Costing Details
+
+image::Lines-Tab-Costing-Details-Tab.png[Lines Costing Details, align = "center"]
+
+In the Costing Details tab, the suppliers are able to see the costing details of the selected item. The details are:
+
+* Company Code
+* Location Code
+* Qty
+* Moving Average Unit Cost
+* FIFO Unit Cost
+* Manual Unit Cost
+* Last Purchase Unit Cost
+
+==== 2.1.3.4 Pricing Details
+
+image::Lines-Tab-Pricing-Details-Tab.png[Lines Pricing Details, align = "center"]
+
+In the Pricing Details tab, the suppliers are able to see the pricing details of the selected item. The details are:
+
+* Pricing Scheme Code
+* Pricing Scheme Name
+* Unit Price
+* Modified Date
+
+==== 2.1.3.5 Issue Link
+
+image::Lines-Tab-Issue-Link-Tab.png[Lines Issue Link, align = "center"]
+
+In the Issue Link tab, the suppliers are able to see the issue link of the selected item. The details shown in the listing are:
+
+* Project
+* Issue Number
+* Issue Summary
+* Issue Description
+* Assignee
+* Created Date
+* Resolved Date
+* Status
+
+===== 2.1.3.5.1 View Issue
+
+image::Issue-Link-Tab-View-Issue.png[Lines Issue Link View Issue, align = "center"]
+
+By clicking on one of the issue link rows, the suppliers are able to see more of the selected issue link.
+
+===== 2.1.3.5.2 Details
+
+image::Issue-Link-Tab-View-Issue-Details-1.png[Lines Issue Link Details, align = "center"]
+
+image::Issue-Link-Tab-View-Issue-Details-2.png[Lines Issue Link Details, align = "center"]
+
+In the Issue Link’s Details tab, the suppliers are able to see the details of the selected issue link. The details are:
+
+* Project
+* Issue Type
+* Assignee
+* Reporter
+* Summary
+* Description
+* Parent
+* Created Date
+
+===== 2.1.3.5.3 Planning
+
+image::Issue-Link-Tab-View-Issue-Planning-1.png[Lines Issue Link Planning, align = "center"]
+
+image::Issue-Link-Tab-View-Issue-Planning-2.png[Lines Issue Link Planning, align = "center"]
+
+image::Issue-Link-Tab-View-Issue-Planning-3.png[Lines Issue Link Planning, align = "center"]
+
+In the Issue Link’s Planning tab, the suppliers are able to see the planning of the selected issue link. The planning details are:
+
+* Target Start Date
+* Target End Date
+* Actual Start Date
+* Actual End Date
+* Calculated Start Date
+* Calculated End Date
+* Baseline Start Date
+* Baseline End Date
+* Billing Currency
+* Billing Amount
+* Cost Currency 
+* Cost Amount
+* Story Point
+* Manday Target
+* Manday Actual
+* Manday Allocated
+* Manday Billing
+
+===== 2.1.3.5.4 Attachment
+
+image::Issue-Link-Tab-View-Issue-Attachment.png[Lines Issue Link Attachment, align = "center"]
+
+In the Issue Link’s Attachment tab, the suppliers are able to see the attachment of the selected issue link or upload files.
+
+===== 2.1.3.5.5 Comment
+
+image::Issue-Link-Tab-View-Issue-Comment.png[Lines Issue Link Comment, align = "center"]
+
+In the Issue Link’s Comment tab, the suppliers are able to see the comments of the selected issue link. The details shown in the listing are:
+
+* Date
+* User
+* Comments
+
+
+===== 2.1.3.5.6 Subtasks
+
+image::Issue=Link-Tab-View-Issue-Subtasks.png[Lines Issue Link Subtasks, align = "center"]
+
+In the Issue Link’s Subtasks tab, the suppliers are able to see the subtasks of the selected issue link. The details shown in the listing are:
+
+* Issue Type
+* Issue Number
+* Summary
+* Description
+* Assignee
+* Priority
+* Due Date
+* Status
+
+===== 2.1.3.5.7 Linked Issues
+
+image::Issue-Link-Tab-View-Issue-Linked-Issues.png[Lines Issue Link Linked Issues, align = "center"]
+
+In the Issue Link’s Linked Issues tab, the suppliers are able to see the linked issues of the selected issue link. The details shown are:
+
+* Project
+* Issue Type
+* Issue Number
+* Summary 
+* Description
+* Assignee
+* Due Date
+* Status
+
+===== 2.1.3.5.8 Worklogs
+
+image::Issue-Link-Tab-View-Issue-Worklogs.png[Lines Issue Link Worklogs, align = "center"]
+
+In the Issue Link’s Worklogs tab, the suppliers are able to see the worklogs of the selected issue link. The details shown are:
+
+* Date 
+* Name 
+* Time Spent
+* Description
+
+===== 2.1.3.5.9 Activity 
+
+image::Issue-Link-Tab-View-Issue-Activity.png[Lines Issue Link Activity, align = "center"]
+
+In the Issue Link’s Activity tab, the suppliers are able to see the activities of the selected issue link. The details shown are:
+
+* Date
+* User
+* Activities
+
+=== 2.1.4 Payment
+
+image::View-Purchase-GRN-Payment-Tab.png[Payment, align = "center"]
+
+In the Payment tab, the suppliers are able to see the list of payments for the selected Good Received Note. The details shown are:
+
+* Date
+* Amount
+* Details
+* Remarks
+
+=== 2.1.5 Department Hdr
+
+image::View-Purchase-GRN-Department-Hdr-Tab.png[Department Hdr, align = "center"]
+
+In the Department Hdr tab, the suppliers are able to see the Segment, G/L Dimensions, Profit Center, and Project of the selected Good Received Note. The details shown are:
+
+* Segment
+* G/L Dimensions
+* Profit Center
+* Project
+
+=== 2.1.6 Contra
+
+image::View-Purchase-GRN-Contra-Tab.png[Contra, align = "center"]
+
+In the Contra tab, the suppliers are able to see the list of contras for the selected Good Received Note. The details shown in the listing are:
+
+* Server Document Type
+* Status
+* Date
+* Amount Contra
+
+=== 2.1.7 Doc Link
+
+image::View-Purchase-GRN-Doc-Link-Tab.png[Doc Link, align = "center"]
+
+In the Doc Link Tab, the suppliers are able to see where the GRN document has been *COPIED FROM AND COPIED TO*. Basically the Doc Link Tab visualizes the GRN document flow to other systems. The details shown in the listing are:
+
+* Doc No.
+* Branch
+* Server Document Type
+* Status 
+* Date
+
+=== 2.1.8 Attachments
+
+image::View-Purchase-GRN-Attachments-Tab.png[Attachments, align = "center"]
+
+In the Contra tab, the suppliers are able to see the list of attachments for the selected Good Received Note added by the users. The details shown in the listing are:
+
+* File Name
+* Size
+* Updated Date
+* Update By
+
+=== 2.1.9 Export
+
+image::View-Purchase-GRN-Export-Tab.png[Export, align = "center"]
+
+In the Export tab, the suppliers are able to export the selected GRN with the printable formats provided by the users.

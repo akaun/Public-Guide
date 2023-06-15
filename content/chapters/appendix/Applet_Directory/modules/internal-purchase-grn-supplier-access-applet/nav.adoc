@@ -1,0 +1,4 @@
+* Internal Purchase GRN Supplier Access Applet
+** xref:introduction.adoc[Introduction]
+** xref:ipgrn_supplier_access_listing.adoc[Internal Purchase GRN Supplier Access Listing]
+** xref:line-items.adoc[Line Items]

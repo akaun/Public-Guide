@@ -1,0 +1,285 @@
+[#h3_ipgrn_supplier_access_line_items]
+= 3.0 Line Items
+
+image::Line-Items-Listing.png[Line Item Listing, align = "center"]
+
+The Line Items Listing will display all the line items according to the Purchase Good Received Notes No for the suppliers to view. The details shown in the listing are:
+
+* Purchase GRN No.
+* Item Code
+* Item Name
+* Qty
+* Unit Price
+* SST/VAT/GST
+* Txn Amount
+
+image::Line-Items-Listing-Advanced-Search.png[Line Item Listing: Advanced Search, align = "center"]
+
+To ease the suppliers, they are able to search the line items that they are searching using the advanced search tab which is located above the listing.
+
+== 3.1 View Item
+
+image::Line-Items-Listing-View-Item.png[View Item, align = "center"]
+
+By clicking on one of the rows in the listing, the suppliers will be able to see the details of the selected item.
+
+=== 3.1.1 Item Details
+
+==== 3.1.1.1 Main Details
+
+image::View-Item-Item-Details-Tab-Main-Details-1.png[Main Details, align = "center"]
+
+image::View-Item-Item-Details-Tab-Main-Details-2.png[Main Details, align = "center"]
+
+image::View-Item-Item-Details-Tab-Main-Details-3.png[Main Details, align = "center"]
+
+image::View-Item-Item-Details-Tab-Main-Details-4.png[Main Details, align = "center"]
+
+In the Item Details’ Main Details tab, the main details of the selected item will be displayed to the suppliers. The main details are:
+
+* Item Code
+* Item Name
+* Quantity Base
+* Qty by UOM
+* UOM to Base Ratio
+* Unit Price by UOM
+* Unit Discount by UOM
+* Unit Price
+* Unit Discount
+* Discount Amount
+* STD Amount(Unit Price x Quantity)
+* Net Amount(STD Amount - Discount Amount)
+* SST Code
+* SST/GST/VAT
+* Tax Amount
+* Net Amount(SST/GST/VAT x Net Amount)
+* WHT Code
+* WHT
+* WHT Amount
+* Txn Amount
+* Remarks
+
+==== 3.1.1.2 Delivery Instruction
+
+image::View-Item-Item-Details-Tab-Delivery-Instruction.png[Delivery Instruction, align = "center"]
+
+In the Item Details’ Delivery Instruction tab, the suppliers are able to see:
+
+* The Delivery Instructions:
+** Instructions from the users
+** Delivery Date set by the users
+
+* Delivery Message Card:
+** From stated by the users
+** To stated by the users
+** Message stated by the users
+
+==== 3.1.1.3 Department
+
+image::View-Item-Item-Details-Tab-Department.png[Department, align = "center"]
+
+In the Item Details’ Department tab, the suppliers will be able to see the information for the department. The information are:
+
+* Segment
+* G/L Dimensions
+* Profit Center
+* Project
+
+
+==== 3.1.1.4 Doc Link
+
+image::View-Item-Item-Details-Tab-Doc-Link.png[Doc Link, align = "center"]
+
+In the Item Details’ Doc Link Tab, the suppliers are able to see where the documents that have the selected item have been copied from and copied to. Basically the Doc Link Tab visualizes the documents that have the selected item flows to other systems. The details shown in the listing are:
+
+* Doc No.
+* Branch
+* Server Document Type
+* Status 
+* Date
+
+==== 3.1.1.5 Delivery Details
+
+image::View-Item-Item-Details-Tab-Delivery-Details.png[Delivery Details, align = "center"]
+
+In the Item Details’ Delivery Details Tab, the suppliers are able to see the selected item’s delivery details.The details shown in the listing are:
+
+* Trip No
+* Driver Name
+* Vehicle No
+* Job Start Date
+* Job End Date
+* Delivery Status
+* Recipient Name
+* Qty
+
+=== 3.1.2 Serial Number
+
+image::View-Item-Serial-Number-Tab.png[Serial Number, align = "center"]
+
+The Serial Number tab will only appear if and only if the selected item is a serial number type item. In the Serial Number tab, the suppliers are able to see the serial numbers of the selected item.
+
+=== 3.1.3 Costing Details
+
+image::View-Item-Costing-Details-Tab.png[Costing Details, align = "center"]
+
+In the Costing Details tab, the suppliers are able to see the costing details of the selected item. The details are:
+
+* Company Code
+* Location Code
+* Qty
+* Moving Average Unit Cost
+* FIFO Unit Cost
+* Manual Unit Cost
+* Last Purchase Unit Cost
+
+=== 3.1.4 Pricing Details
+
+image::View-Item-Pricing-Details-Tab.png[Pricing Details, align = "center"]
+
+In the Pricing Details tab, the suppliers are able to see the pricing details of the selected item. The details are:
+
+* Pricing Scheme Code
+* Pricing Scheme Name
+* Unit Price
+* Modified Date
+
+=== 3.1.5 Issue Link
+
+image::View-Item-Issue-Link-Tab.png[Issue Link, align = "center"]
+
+In the Issue Link tab, the suppliers are able to see the issue link of the selected item. The details shown in the listing are:
+
+* Project
+* Issue Number
+* Issue Summary
+* Issue Description
+* Assignee
+* Created Date
+* Resolved Date
+* Status
+
+==== 3.1.5.1 View Issue
+
+image::Line-Issue-Link-Tab-View-Issue.png[View Issue, align = "center"]
+
+By clicking on one of the issue link rows, the suppliers are able to see more of the selected issue link.
+
+==== 3.1.5.1.1 Details
+
+image::Line-Issue-Link-Tab-View-Issue-Details-1.png[Details, align = "center"]
+
+image::Line-Issue-Link-Tab-View-Issue-Details-2.png[Details, align = "center"]
+
+In the Issue Link’s Details tab, the suppliers are able to see the details of the selected issue link. The details are:
+
+* Project
+* Issue Type
+* Assignee
+* Reporter
+* Summary
+* Description
+* Parent
+* Created Date
+
+==== 3.1.5.1.2 Planning
+
+image::Line-Issue-Link-Tab-View-Issue-Planning-1.png[Planning, align = "center"]
+
+image::Line-Issue-Link-Tab-View-Issue-Planning-2.png[Planning, align = "center"]
+
+image::Line-Issue-Link-Tab-View-Issue-Planning-3.png[Planning, align = "center"]
+
+In the Issue Link’s Planning tab, the suppliers are able to see the planning of the selected issue link. The planning details are:
+
+* Target Start Date
+* Target End Date
+* Actual Start Date
+* Actual End Date
+* Calculated Start Date
+* Calculated End Date
+* Baseline Start Date
+* Baseline End Date
+* Billing Currency
+* Billing Amount
+* Cost Currency 
+* Cost Amount
+* Story Point
+* Manday Target
+* Manday Actual
+* Manday Allocated
+* Manday Billing
+
+
+==== 3.1.5.1.3 Attachment
+
+image::Line-Issue-Link-Tab-View-Issue-Attachment.png[Attachment, align = "center"]
+
+In the Issue Link’s Attachment tab, the suppliers are able to see the attachment of the selected issue link or upload files. The details shown in the listing are:
+
+* File Name
+* Size
+* Updated Date
+* Update By
+
+==== 3.1.5.1.4 Comment
+
+image::Line-Issue-Link-Tab-View Issue-Comment.png[Comment, align = "center"]
+
+In the Issue Link’s Comment tab, the suppliers are able to see the comments of the selected issue link. The details shown in the listing are:
+
+* Date
+* User
+* Comments
+
+==== 3.1.5.1.5 Subtasks
+
+image::Line-Issue-Link-Tab-View-Issue-Subtasks.png[Subtasks, align = "center"]
+
+In the Issue Link’s Subtasks tab, the suppliers are able to see the subtasks of the selected issue link. The details shown in the listing are:
+
+* Issue Type
+* Issue Number
+* Summary
+* Description
+* Assignee
+* Priority
+* Due Date
+* Status
+
+==== 3.1.5.1.6 Linked Issues
+
+image::Line-Issue-Link-Tab-View-Issue-Linked-Issues.png[Linked Issues, align = "center"]
+
+In the Issue Link’s Linked Issues tab, the suppliers are able to see the linked issues of the selected issue link. The details shown are:
+
+* Project
+* Issue Type
+* Issue Number
+* Summary 
+* Description
+* Assignee
+* Due Date
+* Status
+
+==== 3.1.5.1.7 Worklogs
+
+image::Line-Issue-Link-Tab-View-Issue-Worklogs.png[Worklogs, align = "center"]
+
+In the Issue Link’s Worklogs tab, the suppliers are able to see the worklogs of the selected issue link. The details shown are:
+
+* Date 
+* Name 
+* Time Spent
+* Description
+
+==== 3.1.5.1.8 Activity
+
+image::Line-Issue-Link-Tab-View-Issue-Activity.png[Activity, align = "center"]
+
+In the Issue Link’s Activity tab, the suppliers are able to see the activities of the selected issue link. The details shown are:
+
+* Date
+* User
+* Activities
+

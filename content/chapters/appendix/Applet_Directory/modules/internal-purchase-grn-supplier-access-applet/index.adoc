@@ -1,0 +1,14 @@
+[#h2_internal-purchase-grn-supplier-access_index]
+= Internal Purchase GRN Supplier Access Applet 
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/ipgrn_supplier_access_listing.adoc[leveloffset=3]
+
+include::pages/line-items.adoc[leveloffset=3]
+
+
+
+
+
+
