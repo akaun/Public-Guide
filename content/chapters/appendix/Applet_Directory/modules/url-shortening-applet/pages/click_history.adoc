@@ -1,0 +1,18 @@
+[#h3_click_history]
+= 4.0 Click History
+
+image::ClickHistory.png[Click History, align = "center"]
+
+After clicking on the Click History tab on the left side, the Click History listing would be shown.
+
+== 4.1 Click History Listing 
+
+image::ClickHistory-Listing.png[Click History Listing, align = "center"]
+
+In the Click History Listing, users are able to view the history information of their shortened URL link being clicked on. The history information shown in the listing are:
+
+* Source IP Address
+* Device Type
+* OS Type
+* Browser Agent
+* Created Date

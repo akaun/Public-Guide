@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+The URL Shortener Applet allows users to shorten a long URL link to a short URL link that can be shared on websites, chat, and emails. This user guide will help you have a clear understanding on how to use the URL Shortener Applet.

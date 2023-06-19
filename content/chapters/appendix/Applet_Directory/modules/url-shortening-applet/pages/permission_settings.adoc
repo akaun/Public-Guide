@@ -1,3 +1,0 @@
-[#h3_url_shortening_permission_settings]
-= Permission Settings
-

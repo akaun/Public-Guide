@@ -1,38 +1,18 @@
-[#h3_url_shortening_introduction]
-= Introduction
+[#h3_url_shortening_applet_introduction]
+=  1.0 Introduction
 
-include::intro_description.adoc[leveloffset=3]
+image::URL-Shortening-Applet-Logo.png[150,300]
 
-Vincent Lee, [02/06/2022 9:33 PM]
-https://drive.google.com/file/d/1IL4nMJRTWdENwB7t0402PNtAU0msEghE/view?usp=sharing
+include::intro_description.adoc[]
 
-Vincent Lee, [02/06/2022 9:36 PM]
-https://wavelet.atlassian.net/browse/BLPR-24640
+*Who will be using this Applet?*
 
-Vincent Lee, [02/06/2022 9:39 PM]
-i just forwarded you several emails
+This applet will be used by the users who want to manage their URL links. 
 
-Vincent Lee, [02/06/2022 9:40 PM]
-Below attached are the urls for the jamboard and moqup:
-moqups: https://app.moqups.com/nVNNUQ9keb/edit/page/a3d66bff5
-jamboard: https://jamboard.google.com/d/125D0f5IAFhqDPBbytADRVxxfHyOB77QPH-lWH8pv3oY/viewer?f=0
+*How is this Applet used?*
 
-Vincent Lee, [02/06/2022 9:40 PM]
-https://jamboard.google.com/d/125D0f5IAFhqDPBbytADRVxxfHyOB77QPH-lWH8pv3oY/viewer?f=0
+This applet will be used by users to condense long URL links into something easier to manage. They can also convert illegible addresses into more comprehensible ones with this applet.
 
+*The Benefits of the Applet*
 
-Vincent Lee, [02/06/2022 9:42 PM]
-https://docs.google.com/spreadsheets/d/19omgwglZ6QfZVdnfQQQ65VcreWfqssJhCDzy_OMdeiw/edit#gid=1640556344
-
-
-Useful pages for Universal Links/App Links:
-- https://branch.io/what-is-deep-linking/
-- https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html
-- https://developer.android.com/training/app-links
-- https://developer.android.com/studio/write/app-link-indexing.html
-- https://github.com/ionic-team/ionic-plugin-deeplinks
-
-
-Useful pages for Firebase Dynamic Links:
-- https://firebase.google.com/docs/dynamic-links/create-manually?authuser=0
-- https://firebase.google.com/docs/reference/dynamic-links/link-shortener?authuser=0
+With this applet, your lengthy, winded, and unclear website addresses can be transformed into a human readable address, making it more trustable as the individuals who click on the link know what to anticipate. Moreover, you are able to make branded links by modifying the URL links to fit your own brand and marketing initiatives. 

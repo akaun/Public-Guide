@@ -1,0 +1,69 @@
+[#h3_campaign]
+= 3.0 Campaign
+
+image::Campaign.png[Campaign, align = "center"]
+
+After clicking on the Campaign tab on the left side, the Campaign listing would be shown.
+
+== 3.1 Campaign Listing 
+
+image::Campaign-Listing.png[Campaign Listing, align = "center"]
+
+The Campaign Listing is where the users can see the information of the campaign they created. The displayed columns in the listing are:
+
+* Campaign ID
+* Campaign Code
+* Campaign Name
+* Created DAte
+* Remarks
+
+== 3.2 Campaign Create 
+
+image::Campaign-Create-Button.png[Campaign Create Button, align = "center"]
+
+The page to create a campaign will be invoked and displayed on the right side when the ‘+’ button is clicked. 
+
+image::Campaign-Create.png[Campaign Create, align = "center"]
+
+The Campaign Create page will be displayed on the right side. Users can create campaigns with the details such as Campaign Code, Campaign Name, and Remarks.  Your creation will be completed upon clicking on the save button. After the creation, your latest campaign details will be displayed in the Campaign listing.
+
+== 3.3 Campaign Edit
+
+image::Campaign-Edit.png[Campaign Edit, align = "center"]
+
+The Edit Campaign page will be displayed on the right side when one of the rows in the listing is clicked. The page allows users to view the information of the selected row and also edit the information they previously saved. 
+
+=== 3.3.1 Details
+
+image::Campaign-Edit-Details.png[Details, align = "center"]
+
+In the Details tab, users are able to view the details of the selected campaign and edit its following details which are:
+
+* Campaign Code
+* Campaign Name
+* Remarks
+
+In order for the changes to be saved, users must click on the save button at the top right corner. But if the users wanted to delete the selected campaign, they would have to click on the delete button below.
+
+=== 3.3.2 Hyperlink Listing
+
+image::Campaign-HyperlinkListing.png[Hyperlink Listing, align = "center"]
+
+In the Hyperlink Listing tab, users are able to view the hyperlink information of the selected campaign being clicked on. The hyperlink information shown in the listing are:
+
+* URL Key
+* URL Shortened
+* URL Destination
+* Source
+* Medium
+* Campaign
+* Term
+* Content
+* No of Clicks
+* No Unique Clicks
+
+==== 3.3.2.1 Hyperlink Edit
+
+image::Campaign-HyperlinkListing-Edit.png[Hyperlink Edit, align = "center"]
+
+Edit Hyperlink page will be displayed again on the right side when one of the rows in the hyperlink listing after clicking one of the campaigns is clicked. The page allows users to view the information of the selected hyperlink and also edit the information they previously saved. The Edit Hyperlink page is the same as the one mentioned in 2.3 Hyperlink Edit.

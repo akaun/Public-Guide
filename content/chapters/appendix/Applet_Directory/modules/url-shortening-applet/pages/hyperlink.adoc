@@ -1,0 +1,63 @@
+[#h3_hyperlink]
+= 2.0 Hyperlink
+
+== 2.1 Hyperlink Listing 
+
+image::Hyperlink-Listing.png[Hyperlink Listing, align = "center"]
+
+The Hyperlink Listing is where the users can see the URL links that they have shortened with their individual details. The displayed columns in the listing are:
+
+* URL Key
+* URL Shortened
+* URL Destination
+* Source
+* Medium
+* Campaign
+* Term
+* Content
+* No of Clicks
+* No Unique Clicks
+
+== 2.2 Hyperlink Create 
+
+image::Hyperlink-Create-Button.png[Hyperlink Create Button, align = "center"]
+
+The page to create a shortened URL link will be invoked and displayed on the right side when the ‘+’ button is clicked. 
+
+image::Hyperlink-Create.png[Hyperlink Create, align = "center"]
+
+In order to create a shortened URL link, you must fill up the URL Key as it is a compulsory (*) information, as for Source, Medium, Campaign, Term, Content, URL Destination, they are optional. Your creation will be completed upon clicking on the save button. After the creation, your latest shortened URL link details will be displayed in the Hyperlink listing.
+
+== 2.3 Hyperlink Edit 
+
+image::Hyperlink-Edit.png[Hyperlink Edit, align = "center"]
+
+Edit Hyperlink page will be displayed on the right side when one of the rows in the listing is clicked. The page allows users to view the information of the selected row and also edit the information they previously saved. To save the changes, users must click on the save button at the top right corner.
+
+=== 2.3.1 Details
+
+image::Hyperlink-Edit-Details.png[Details, align = "center"]
+
+In the Details tab, users are able to view the details of the selected shortened URL link and edit its following details which are:
+
+* URL Key
+* Source
+* Medium
+* Campaign
+* Term
+* Content
+* URL Destination
+
+In order for the changes to be saved, users must click on the save button at the top right corner. 
+
+=== 2.3.2 History Listing
+
+image::Hyperlink-Edit-HistoryListing.png[History Listing, align = "center"]
+
+In the History Listing tab, users are able to view the history information of the selected shortened URL link being clicked on. The history information shown in the listing are:
+
+* Source IP Address
+* Device Type
+* OS Type
+* Browser Agent
+* Created Date
