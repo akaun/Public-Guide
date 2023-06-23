@@ -1,0 +1,118 @@
+[#h3_internal_purchase_order_supplier_access_applet_line_items]
+= 3.0 Line Items
+
+image::14-LineItems-Listing.png[Line Items, align = "center"]
+
+This the second menu of the applet and suppliers can see the listing of the line Items that are being used in all of the purchase order. There are seven columns of information shown to the suppliers which are Purchase Order No, Item Code, Item Name, Qty, Unit Price, SST/VAT/GST and Txn Amount.
+
+== 3.1 Item Details
+
+=== 3.1.1 Main Details
+
+image::15-LineItems-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+This is the first subtab of the Item Details, this tab shows the information about that item. In this subtab, there are a lot of information are presented which are Item Code, Item Name, Quantity Base, Qty by UOM, UOM to Base Ratio, Unit Price by UOM, Unit Discount by UOM, Unit Price, Unit Discount, Discount Amount, STD Amount(Unit Price x Quantity), Net Amount(STD Amount - Discount Amount), SST Code, SST/GST/VAT, Tax Amount, Net Amount(SST/GST/VAT x Net Amount), WHT Code, WHT, WHT Amount, Txn Amount and Remarks.
+
+=== 3.1.2 Delivery Instruction
+
+image::16-LineItems-ItemDetails-DeliveryIntrustion.png[Delivery Instruction, align = "center"]
+
+This subtab provides the information to the supplier with specific instructions regarding the delivery of the line item. There are two sections in this subtab, the first section is Delivery Instructions which include Instructions and Delivery Date. The second section is Delivery Message Card which include From, To and Message.
+
+=== 3.1.3 Department
+
+image::17-LineItems-ItemDetails-Department.png[Department, align = "center"]
+
+Suppliers can view the Segment, G/L Dimensions, Profit Center, and Project that are connected to the purchase order under this Department tab.
+
+=== 3.1.4 Doc Link
+
+==== 3.1.4.1 Copied From
+
+image::18-LineItems-ItemDetails-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+The documents relevant to the current purchase order are displayed as Doc No, Branch, Server Doc Type, Status, and Date in the first subtab of Doc Link.
+
+==== 3.1.4.2 Copied To
+
+image::19-LineItems-ItemDetails-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+The information in the second subtab of Doc Link is identical to that in the Copied From subtab for Doc No, Branch, Server Doc Type, Status, and Date.
+
+=== 3.1.5 Delivery Details
+
+image::20-LineItems-ItemDetails-DeliveryDetails.png[Delivery Details, align = "center"]
+
+Under this tab, suppliers can see the details about the delivery in Trip No, Driver Name, Vehicle No, Job Start Date, Job End Date, Delivery Status, Recipient Name and Qty.
+
+== 3.2 Serial Number
+
+image::21-LineItems-SerialNumber.png[Serial Number, align = "center"]
+
+Only line items with a serial number are eligible for the Serial Number tab.
+
+== 3.3 Costing Details
+
+image::22-LineItems-CostingDetails.png[Costing Details, align = "center"]
+
+This tab shows costing details information for line items such as Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost and Last Purchase Unit Cost.
+
+== 3.4 Pricing Details
+
+image::23-LineItems-PricingDetails.png[Pricing Details, align = "center"]
+
+This tab shows the pricing scheme related to line items with the various information such as Pricing Scheme Code, Pricing Scheme Name, Unit Price and Modified Date.
+
+== 3.5 Issue Link
+
+image::24-LineItems-IssueLink.png[Issue Link, align = "center"]
+
+Users can view a list of issues that are linked to a line item using the Issue Link tab. Each linked issue can also show the logged time, if any, that was used to work on it. The list of issues contain this information such as Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+=== 3.5.1 View Issues And Details
+
+image::25-LineItems-IssueLink-ViewIssueAndDetails.png[View Issues And Details, align = "center"]
+
+When the user clicks on the issue, the additional information is shown on this tab. In this tab, users can see Issue Number and Summary as main information and below, Details tab, Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date.
+
+=== 3.5.2 Planning
+
+image::26-LineItems-IssueLink-Planning.png[Planning, align = "center"]
+
+In the Planning tab, user can see more information about the issue such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Actual, Manday Allocated and Manday Billing.
+
+=== 3.5.3 Attachment
+
+image::27-LineItems-IssueLink-Attachment.png[Attachment, align = "center"]
+
+In this tab, users can upload any related or important information that is needed for the issue. Just click the Upload File button and the user can choose any type of file to upload.
+
+=== 3.5.4 Comment
+
+image::28-LineItems-IssueLink-Comment.png[Comment, align = "center"]
+
+This is the comment tab, anyone can put their comment about the issue. After putting the comment, the user can see the Date, User and finally Comment in this section.
+
+=== 3.5.5 Subtasks
+
+image::29-LineItems-IssueLink-Subtasks.png[Subtasks, align = "center"]
+
+Sometimes one issue can have many subtasks like bug fixing or enhancement, this tab shows every subtask related to this issue. User can see Issue Type, Issue Number, Summary, Description, Assignee, Priority, Due Date and Status of the subtasks.
+
+=== 3.5.6 Linked Issues
+
+image::30-LineItems-IssueLink-LinkedIssues.png[Linked Issues, align = "center"]
+
+Sometime issues are made of two part such as frontend and backend, if a issue is a frontend issue then in this Linked Issues tab, users can see the linked backend issues with their details such as Project, Issue Type, Issue Number, Summary, Description, Assignee, Due Date and Status.
+
+=== 3.5.7 Worklogs
+
+image::31-LineItems-IssueLink-Worklogs.png[Worklogs, align = "center"]
+
+This is the tab where the issue is kept track by the assignee with the details such as Date, Name, Time Spent and Description.
+
+=== 3.5.8 Activity
+
+image::32-LineItems-IssueLink-Activity.png[Activity, align = "center"]
+
+This tab is like a history of the issue starting from the creation of the issue to the end of the issue, some information visible to the user are Date, User and Activities.

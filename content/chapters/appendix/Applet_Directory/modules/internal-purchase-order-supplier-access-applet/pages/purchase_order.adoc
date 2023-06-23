@@ -1,0 +1,82 @@
+[#h3_internal_purchase_order_supplier_access_applet_listing]
+= 2.0 Purchase Order
+
+image::1-PurchaseOrder-Listing.png[Purchase Order, align = "center"]
+
+This is the view loaded when the applet is open. Suppliers can see the listing of all the finalised orders created by the customers. There are seven columns of easy access information available which are Purchase Order No, Branch Code, Branch Name, Description, Purchaser Name, Created Date and Created By.
+
+== 2.1 Main Details
+
+image::2-PurchaseOrder-MainDetails.png[Main Details, align = "center"]
+
+This tab is open when the user clicks on one of the listing data and this tab is more sophisticated to show more important information such as Branch, Location, Purchaser, Transaction Date, Credit Terms, Reference, Remarks, Permit No, Currency and Tracking ID.
+
+== 2.2 Account
+
+=== 2.2.1 Entity Details
+
+image::3-PurchaseOrder-Account-EntityDetails.png[Entity Details, align = "center"]
+
+Under the Account tab, there are three subtabs and the first one is Entity Details. This sub tab shows the general information about the supplier. Such information are Entity Id, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, Email, Description and Phone Number.
+
+=== 2.2.2 Bill To
+
+image::4-PurchaseOrder-Account-BillTo.png[Bill To, align = "center"]
+
+This is the second subtab of the Account tab, which shows the information about the supplier bill to information such as Name, Email, Phone No, Billing Address, Address Line 1, Address Line 2, Address Line 3, Address Line 4, Address Line 5, Country, State, City and Postcode.
+
+=== 2.2.3 Ship To
+
+image::5-PurchaseOrder-Account-ShipTo.png[Ship To, align = "center"]
+
+This is third subtab of the Account tab and this is pretty similar to the Bill To tab, which shows the ship to information about the supplier which are Name, Email, Phone No, Shipping Address, Address Line 1, Address Line 2, Address Line 3, Address Line 4, Address Line 5, Country, State, City and Postcode.
+
+== 2.3 Lines
+
+image::6-PurchaseOrder-Lines.png[Lines, align = "center"]
+
+This is another important tab for the supplier to see the line items that are related to the purchase order. This tab shows all the line items that are linked to that particular purchase order. There is some information to view easily such as Item Code, Item Name, UOM, Qty, Unit Price(Inclusive of Tax), SST/VAT/GST and Txn Amount. Not only this information but also the total price and total tax are also being calculated and shown at the right hand side of the tab.
+
+== 2.4 Payment
+
+image::7-PurchaseOrder-Payment.png[Payment, align = "center"]
+
+In this Payment tab, the suppliers can see the payment made by the customers. The information available to view are Date, Amount, Details and Remarks. Also suppliers can see the total and outstanding amount at the top right corner of the tab.
+
+== 2.5 Department Hdr
+
+image::8-PurchaseOrder-DepartmentHdr.png[Department Hdr, align = "center"]
+
+Under this Department Hdr tab, suppliers can see the Segment, G/L Dimensions, Profit Center and Project that are linked to the purchase order.
+
+== 2.6 Contra
+
+image::9-PurchaseOrder-Contra.png[Contra, align = "center"]
+
+In the Contra tab, suppliers can see the contra documents that are related to the purchase order. Information available to view are Server Doc Type, Status, Date and Amount Contra.
+
+== 2.7 Doc Link
+
+=== 2.7.1 Copied From
+
+image::10-PurchaseOrder-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+The first subtab of Doc Link, which shows the documents that are related to the current purchase order in Doc No, Branch, Server Doc Type, Status and Date.
+
+=== 2.7.2 Copied To
+
+image::11-PurchaseOrder-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+The second subtab of Doc Link, which shows information exactly like the Copied From subtab in Doc No, Branch, Server Doc Type, Status and Date.
+
+== 2.8 Attachments
+
+image::12-PurchaseOrder-Attachments.png[Attachments, align = "center"]
+
+Suppliers can see any other attachments that are related to the current purchase order in this tab. Information available to view are File Name, Size, Uploaded Date and Uploaded By.
+
+== 2.9 Export
+
+image::13-PurchaseOrder-Export.png[Export, align = "center"]
+
+The last tab of the Purchase Order menu and the Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a purchase order.

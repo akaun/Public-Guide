@@ -36,6 +36,7 @@ nav:
 - modules/internal-purchase-gin-applet/nav.adoc
 - modules/internal-purchase-invoice-applet/nav.adoc
 - modules/internal-purchase-order-applet/nav.adoc
+- modules/internal-purchase-order-supplier-access-applet/nav.adoc
 - modules/internal-purchase-quotation-applet/nav.adoc
 - modules/internal-purchase-requisition-applet/nav.adoc
 - modules/internal-purchase-return-applet/nav.adoc

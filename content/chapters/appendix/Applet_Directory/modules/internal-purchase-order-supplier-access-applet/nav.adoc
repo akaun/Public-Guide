@@ -1,0 +1,5 @@
+* Internal Purchase Order Supplier Access Applet
+** xref:introduction.adoc[Introduction]
+** xref:purchase_order.adoc[Purchase Order]
+** xref:line_items.adoc[Line Items]
+** xref:purchase_order_detailed_report.adoc[Purchase Order Detailed Report]

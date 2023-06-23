@@ -1,0 +1,6 @@
+[#h3_internal_purchase_order_supplier_access_applet_introduction]
+= 1.0 Introduction
+
+image::InternalPurchaseOrderSupplierAccess-Logo.png[]
+
+include::intro_description.adoc[]

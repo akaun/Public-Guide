@@ -70,6 +70,8 @@ include::modules/internal-purchase-invoice-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-order-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-purchase-order-supplier-access-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-requisition-applet/index.adoc[leveloffset=2]
