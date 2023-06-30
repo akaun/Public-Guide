@@ -1,0 +1,41 @@
+[#h3_edit_internal_sales_goods_receive_note_applet]
+= 4.0 Edit Internal Sales GRN
+
+== 4.1 Main Details
+
+image::43-InternalSalesGRN-Edit.png[Main Details, align = "center"]
+
+This tab is open when the user clicks on one of the listing data and this tab is more sophisticated to show information such as Document type, Doc No.(Tenant), Doc No.(Company), Doc No.(Branch), Branch, Location, Sales Agent, Member Card, Transaction Date, Credit Terms, Due Date, Reference, Remarks, Permit No, Currency, Customer and Tracking ID. There are also three buttons at the top right corner, Reset, Final and Create, Reset is used to clear all the values that are entered in the fields, the Final is used to make the Draft notes to Final which make the notes to disable the edit option and finally the Create button is used for creating the new notes if all the necessary fields are present.
+The following Account tab is the same as <<create_internal_sales_grn.adoc#3.2 Account, 3.2 Account>>, Lines tab is the same as <<create_internal_sales_grn.adoc#3.5 Edit Lines, 3.5 Edit Lines>>, Settlement tab is the same as <<create_internal_sales_grn.adoc#3.6 Settlement, 3.6 Settlement>> and Department Hdr tab is the same as <<create_internal_sales_grn.adoc#3.7 Department Hdr, 3.7 Department Hdr>>.
+
+== 4.2 Contra
+
+image::45-InternalSalesGRN-Edit-Contra.png[Contra, align = "center"]
+
+In the Contra tab, users can see the contra documents that are related to the notes. Information available to view are Server Doc Type, Status, Date and Amount Contra.
+
+== 4.3 Doc Link
+
+=== 4.3.1 Copied From
+
+image::48-InternalSalesGRN-Edit-DocLink-CopiedFrom.png[Copied From, align = "center"]
+
+The first subtab of Doc Link, which shows the documents that are related to the current note in Doc No, Branch, Server Doc Type, Status and Date.
+
+=== 4.3.2 Copied To
+
+image::49-InternalSalesGRN-Edit-DocLink-CopiedTo.png[Copied To, align = "center"]
+
+The second subtab of Doc Link, which shows information exactly like the Copied From subtab in Doc No, Branch, Server Doc Type, Status and Date.
+
+== 4.4 Attachments
+
+image::50-InternalSalesGRN-Edit-Attachments.png[Attachments, align = "center"]
+
+Users can see any other attachments that are related to the current notes in this tab. Information available to view are File Name, Size, Uploaded Date and Uploaded By.
+
+== 4.5 Export
+
+image::52-InternalSalesGRN-Edit-Exports.png[Export, align = "center"]
+
+The last tab of the Internal Sales GRN menu and the Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a sales grn.

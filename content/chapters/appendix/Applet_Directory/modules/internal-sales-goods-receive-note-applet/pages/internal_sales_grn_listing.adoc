@@ -1,0 +1,6 @@
+[#h3_internal_sales_goods_receive_note_applet_listing]
+= 2.0 Internal Sales GRN Listing
+
+image::1-InternalSalesGRN-Listing.png[Internal Sales GRN Listing, align = "center"]
+
+This is the view loaded when the applet is open. Users can see the listing of all the final and draft notes inquired by the customers. There are nine columns of easy access information available which are Sales GRN No, Branch, Posting Status, Customer Name, Sales Agent, Updated Date, Created Date, Transaction Date and Created By. The users can also use the search bar to retrieve the data easily. When you click the Plus button at the top left corner you will go into the create mode Main Details Page where the user can create the new notes.

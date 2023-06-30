@@ -1,0 +1,6 @@
+* Internal Sales Goods Receive Note Applet
+** xref:introduction.adoc[Introduction]
+** xref:internal_sales_grn_listing.adoc[Internal Sales Goods Receive Note Listing]
+** xref:create_internal_sales_grn.adoc[Create Internal Sales Goods Receive Note]
+** xref:edit_internal_sales_grn.adoc[Edit Internal Sales Goods Receive Note]
+** xref:line_items.adoc[Line Items]
