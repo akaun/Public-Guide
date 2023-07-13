@@ -4,77 +4,28 @@
 
 //== ({counter2:guide_no}{guide_no}.{counter2:chapter_no_user_guide:2}{chapter_no_user_guide}) Applet Users
 
-The very first thing that every akaun-platform users would need to have, is to sign up for and AkaunID. You can do so by visiting https://akaun.com/
+Welcome to the akaun-platform User Manual! This comprehensive guide will walk you through the various features and functionalities of our platform. Let's get started.
 
 
 
 
 [#h4_user_guide_your_akaun_id]
-== Your AkaunID 
+== 1. Creating your AkaunID
 
-It is important for you to understand that with a single AkaunID, it is possible for you to have multiple Sign-In methods. You could be using an email with password, a phone number with the same password, you could also be adding access keys to your AkaunID for integration purposes.
+To begin using the akaun-platform, you'll need to sign up for an AkaunID. Simply visit https://akaun.com/ and follow the registration process. It's important to note that with a single AkaunID, you can have multiple sign-in methods. You can choose to sign in with your email and password, use a phone number with the same password, or even add access keys for seamless integration.
 
 [#h4_user_guide_prod_staging_dev]
-== The Production, Staging and Development Environment
+== 2. Understanding the Environments
 
-The very first thing to know is to understand the usage of each of the following environments.
+The akaun-platform operates in three distinct environments, each serving a specific purpose:
 
-|=
-| Environment | URL | Custom Domain |  Description
+- Production Environment: This is the live environment used by real businesses for their day-to-day operations. It can be accessed at https://akaun.com/ with the custom domain https://<something>.akaun.net.
 
-| Production
-| https://akaun.com
-| https://<something>.akaun.net
-| This is the life environment, used by real businesses in their day to day operations.
+- Staging Environment: The staging environment is primarily used for testing purposes by customers and project managers. It allows end users to try out new features before they are deployed to the production environment. Access it at https://akaun.cloud/ with the custom domain https://<something>.akaun.app.
 
-| Staging
-| https://akaun.cloud
-| https://<something>.akaun.app
-| This environment is usually used for testing by the customers and project managers. New features are tested by the end users here before it gets deployed to the production environment.
+- Development Environment: The development environment is dedicated to software developers for experimentation and testing. It provides a sandbox environment to explore the platform's capabilities. Access it at https://akaun.dev/ with the custom domain https://<something>.akaun.xyz.
 
-| Development
-| https://akaun.dev
-| https://<something>.akaun.xyz
-| This environment is usually used by the software developers to do their experiments. 
-
-|=
-
-If you have registered an AkaunID to login to the Production environment, that doesn't mean you have the same AkaunID registered in the Staging Environment and vice versa. 
-
-[#h4_user_guide_root_vs_tenant]
-== Understanding Root vs Tenant 
-
-Within a single environment (Production vs Staging vs Development) there's one and only one root database, and there could be MANY tenant databases.  Each user could be joining MULTIPLE tenants and they could have different "RANK" when joining each tenant, for example, OWNER, ADMIN, MEMBER, GUEST, VISTOR.
-
-
-|=
-
-| Rank of a users in a Tenant | Description
-
-| OWNER
-| The OWNER of a tenant is able to add any applets to an "applet catalog" if the person is also the owner/admin of the "applet catalog". The OWNER is able to add, remove or promote another user in the tenant to be the OWNER of the tenant. This RANK is usually granted to the business owners or MIS Manager of a company.
-
-| ADMIN
-| The ADMIN of a tenant can do almost everything that the OWNER can do, except adding , removing or promoting another user in the tenant to become the OWNER. This role is usually granted to the MIS Executive or managers in a company.
-
-| MEMBER
-| The MEMBER Rank does not entitle a user to administer the Tenants , Applet Catalogs, they can however, become the OWNER/ADMIN or MEMBER of an Applet after they installed the specific applet. 
-It is important to understand that the "OWNER/ADMIN of the Tenant" is NOT the same as the "OWNER/ADMIN" of the "Applet"
-
-|=
-
-
-[#h4_user_guide_applet_store]
-== The Applet Store
-
-By default, a newly signed up user would see the "Applet Store" (applet) upon successful login.
-From the *Applet Store* , a user would be able to install applets in the public or private applet-catalogs. 
-
-It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet, so that they are installing the right applet for themselves.
-
-If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog and choose to install any of the applets accordingly.
-
-
+Please remember that registering an AkaunID in the Production environment does not automatically register the same AkaunID in the Staging environment and vice versa.
 
 
 <<<<<<<<<<<
