@@ -1,0 +1,29 @@
+[#h3_admin_guide]
+= Additional Information for Admin
+
+Below are additional background information for yourself as the ADMIN user in akaun platform. It would help to start you off in ensuring that multiple other users and respective access are setup correctly for operational usage.
+
+[#h4_admin_guide_understanding_multipletenants_userranks]
+== 1. Understanding Multiple Tenants and Ranks of Users
+
+Upon successful login to akaun environment, you may identify your rank and tenancy profile through the "RANK" tag and "TENANT" tag.
+Within each environment (Production, Staging, Development), there is one root database and multiple tenant databases. Users can join multiple tenants, each with different ranks such as OWNER, ADMIN, MEMBER, GUEST, or VISITOR.
+
+- OWNER: The owner of a tenant has full control and can add any applets to the "applet catalog." They can also add and remove to a user to the tenant,  or promote other users within the tenant to become owners. They are not allowed to reset the user password as identity management is handled at the root or platform level.  This rank is typically granted to business owners or MIS Managers. 
+
+- ADMIN: The admin of a tenant has nearly the same privileges as the owner, except they cannot add, remove, or promote other users to become owners. This role is usually given to MIS Executives or managers within a company.
+
+- MEMBER: Members have limited administrative capabilities and cannot administer tenants or applet catalogs. However, after installing a specific applet, they can become an owner, admin, or member of that applet. It's important to note that the "OWNER/ADMIN of the Tenant" is not the same as the "OWNER/ADMIN" of the "Applet."
+
+
+
+[#h4_admin_guide_applet_store]
+== 2. Applet Store
+
+By default, a newly signed up user would see the "Applet Store" (applet) upon successful login. From the Applet Store , a user would be able to install applets in the public or private applet-catalogs.
+It is very important for users to take note that they are able to see "RANK" tag and "TENANT" tag before installing the applet, so that they are installing the right applet for themselves.
+If you are NOT the OWNER / ADMIN of a tenant, you can see a list of applet-catalogs and multiple applets in each of the applet-catalog and choose to install any of the applets accordingly.
+
+
+
+<<<<<<<<<<<

@@ -2,4 +2,5 @@
 = Applet Users
 include::pages/introduction.adoc[leveloffset=3]
 include::pages/user-registration/user-profile-management.adoc[leveloffset=3]
+include::pages/adminuser-additionalinfo.adoc[leveloffset=3]
 include::pages/whatsapp-business-setup/overview.adoc[leveloffset=3]
