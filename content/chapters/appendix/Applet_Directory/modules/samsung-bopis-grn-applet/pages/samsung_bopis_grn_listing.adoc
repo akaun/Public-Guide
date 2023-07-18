@@ -1,0 +1,6 @@
+[#h3_samsung_bopis_grn_applet_listing]
+= 2.0 Samsung BOPIS GRN Listing
+
+image::1_Samsung_BOPIS_GRN_Listing.png[Samsung BOPIS GRN Listing, align = "center"]
+
+ Users may view a list of all the completed and unfinished notes. Accessible information is provided in seven columns: Doc No, Posting Status, Branch, Reference, Created Date, Transaction Date, and Created By. Users may simply obtain the data by using the search box as well. The Main Details Page's create mode opens when you click the Plus icon in the upper left corner, allowing you to add additional notes. The notes can also be selected by users and changed from DRAFT to FINAL status by clicking the FINAL button at the top.
