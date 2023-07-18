@@ -1,0 +1,6 @@
+[#h3_samsung_bopis_gin_applet_listing]
+= 2.0 Samsung BOPIS GIN Listing
+
+image::1-Listing.png[Samsung BOPIS GIN Listing, align = "center"]
+
+This is the view loaded when the applet is open. Users can see the listing of all the final and draft notes. There are seven columns of easy access information available which are Doc No, Posting Status, Branch, Reference, Created Date, Transaction Date and Created By. The users can also use the search bar to retrieve the data easily. When you click the Plus button at the top left corner you will go into the create mode Main Details Page where the user can create the new notes. Users can also select the notes and click the FINAL button at the top, it  will make the notes from DRAFT to FINAL status.

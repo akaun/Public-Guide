@@ -1,0 +1,126 @@
+[#h3_create_samsung_bopis_gin_applet]
+= 3.0 Create Notes
+
+== 3.1 Main Details
+
+image::2-Create-MainDetails.png[Main Details, align = "center"]
+
+This tab is open when the user clicks on plus button at the top left corner and this tab is more sophisticated to add information such as Branch, Location, Transaction Date, Reference, Remarks and Sales Lead. There are also two buttons at the top right corner, Reset and Create, Reset is used to clear all the values that are entered in the fields, the Create button is used for creating the new notes if all the necessary fields are present.
+
+== 3.2 Lines
+
+image::3-Create-Line-Listing.png[Lines, align = "center"]
+
+This is another important tab for the users to see the line items that are related to the notes. This tab shows all the line items that are linked to that particular note. There is some information to view easily such as Item Code, Item Name, UOM and Qty. Not only this information but also the total price and total tax are also being calculated and shown at the right hand side of the tab. If the user clicks the Plus button at the top left corner then the create mode for the line items will appear.
+
+== 3.3 Create Lines
+
+=== 3.3.1 Search Item
+
+image::4-Create-Line-Create.png[Search Item, align = "center"]
+
+This tab shows the list of base items that can be added to the lines tab with the information such as Item Code, Item Name, UOM and System Stock Balance.
+
+==== 3.3.1.1 Item Details
+
+===== 3.3.1.1.1 Main Details
+
+image::5-Create-Line-Create-AddItem.png[Main Details, align = "center"]
+
+This tab open when the user click on the one the item from the list with the huge load of information such as Item Code, Item Name, UOM, Pricing Scheme, Unit Price STD(Exclusive of Tax), Unit Price STD(Inclusive of Tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM(Exclusive of Tax), Unit Price STD by UOM(Inclusive of Tax), Unit Discount by UOM(Exclusive of Tax), Unit Price Net by UOM(Exclusive of Tax), Unit Price Transaction by UOM(Inclusive of Tax), Unit Price Net(Exclusive of Tax), STD Amount(Unit Price x Quantity), Discount Amount(Exclusive of Tax), Amount Net(Exclusive of Tax), SST Code, SST/GST/VAT, Tax Amount, WHT Code, WHT, WHT Amount, Unit Price Transaction(Inclusive of Tax), Txn Amount and Remarks. If the user clicks the Add button at the top right corner then the selected line items will be added to current notes.
+
+===== 3.3.1.1.2 Delivery Instructions
+
+image::6-Create-Line-Create-ItemDetails-DeliveryInstructions.png[Delivery Instructions, align = "center"]
+
+This subtab provides the information to the user with specific instructions regarding the delivery of the line item. There are two sections in this subtab, the first section is Delivery Instructions which include Instructions and Delivery Date. The second section is Delivery Message Card which include From, To and Message. Also users can also mark the Copy from Entity Name or Copy from Recipient Name.
+
+===== 3.3.1.1.3 Department
+
+image::7-Create-Line-Create-ItemDetails-Department.png[Department, align = "center"]
+
+Users can view the Segment, G/L Dimensions, Profit Center, and Project that are connected to the purchase order under this Department tab.
+
+===== 3.3.1.1.4 Delivery Details
+
+image::8-Create-Line-Create-ItemDetails-DeliveryDeatils.png[Delivery Details, align = "center"]
+
+Under this tab, there are a lot of information for delivery details such as Require Delivery, Delivery Status, Delivery Region Code, Delivery Region Status, Delivery Logic, Delivery ID, Planned Delivery Date, Estimate Delivery Date, Actual Delivery Date, Delivery PIC Name, Delivery PIC Contact, Requested Delivery Date and Delivery Remarks.
+
+==== 3.3.1.2 Costing Details
+
+image::9-Create-Line-Create-CostingDetails.png[Costing Details, align = "center"]
+
+This tab shows costing details information for line items such as Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost and Last Purchase Unit Cost.
+
+==== 3.3.1.3 Pricing Details
+
+image::10-Create-Line-Create-PricingDetails.png[Pricing Details, align = "center"]
+
+This tab shows the pricing scheme related to line items with the various information such as Pricing Scheme Code, Pricing Scheme Name, Unit Price and Modified Date.
+
+==== 3.3.1.4 Issue Link
+
+image::11-Create-Line-Create-IssueLink.png[Issue Link, align = "center"]
+
+Users can view a list of issues that are linked to a line item using the Issue Link tab. Each linked issue can also show the logged time, if any, that was used to work on it. The list of issues contain this information such as Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+===== 3.3.1.4.1 Edit Issue
+
+image::12-Create-Line-Create-IssueLink-Edit-Details.png[Edit Issue, align = "center"]
+
+When the user clicks on the issue, the additional information is shown on this tab. In this tab, users can see Issue Number and Summary as main information and below, Details tab, Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date. After the user makes changes to the issue, they can click the Save button at the top right corner to save the latest issue.
+
+===== 3.3.1.4.2 Planning
+
+image::13-Create-Line-Create-IssueLink-Edit-Planniing.png[Planning, align = "center"]
+
+In the Planning tab, user can see more information about the issue such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Actual, Manday Allocated and Manday Billing.
+
+===== 3.3.1.4.3 Attachment
+
+image::14-Create-Line-Create-IssueLink-Edit-Attachment.png[Attachment, align = "center"]
+
+In this tab, users can upload any related or important information that is needed for the issue. Just click the Upload File button and the user can choose any type of file to upload.
+
+===== 3.3.1.4.4 Comment
+
+image::15-Create-Line-Create-IssueLink-Edit-Comment.png[Comment, align = "center"]
+
+This is the comment tab, anyone can put their comment about the issue. After putting the comment, the user can see the Date, User and finally Comment in this section. The users can search the required comments easily with the use of a search bar. Also users can create a new comment by clicking the Plus button at the top left corner.
+
+===== 3.3.1.4.5 Subtasks
+
+image::16-Create-Line-Create-IssueLink-Edit-Subtask.png[Subtasks, align = "center"]
+
+Sometimes one issue can have many subtasks like bug fixing or enhancement, this tab shows every subtask related to this issue. Users can see Issue Type, Issue Number, Summary, Description, Assignee, Priority, Due Date and Status of the subtasks. The users can search the required subtask easily with the use of a search bar. Also users can create a new subtask by clicking the Plus button at the top left corner.
+
+===== 3.3.1.4.6 Linked Issues
+
+image::17-Create-Line-Create-IssueLink-Edit-LinkedIssues.png[Linked Issues, align = "center"]
+
+Sometime issues are made of two part such as frontend and backend, if a issue is a frontend issue then in this Linked Issues tab, users can see the linked backend issues with their details such as Project, Issue Type, Issue Number, Summary, Description, Assignee, Due Date and Status. The users can search the required issues easily with the use of a search bar. Also users can create new issues by clicking the Plus button at the top left corner.
+
+===== 3.3.1.4.7 Worklogs
+
+image::18-Create-Line-Create-IssueLink-Edit-WorkLogs.png[Worklogs, align = "center"]
+
+This is the tab where the issue is kept track by the assignee with the details such as Date, Name, Time Spent and Description. The users can search the required worklog easily with the use of a search bar. Also users can create a new worklog by clicking the Plus button at the top left corner.
+
+====== 3.3.1.4.7.1 Create Worklogs
+
+image::19-Create-Line-Create-IssueLink-Edit-WorkLogs-LogTime.png[Create Worklogs, align = "center"]
+
+This is the tab where the users can create the new worklogs according to their need with the information such as Activity Type, Date, Duration and Description.
+
+===== 3.3.1.4.8 Activity
+
+image::20-Create-Line-Create-IssueLink-Edit-Activity.png[Activity, align = "center"]
+
+This tab is like a history of the issue starting from the creation of the issue to the end of the issue, some information visible to the user are Date, User and Activities.
+
+== 3.4 Edit Lines
+
+image::21.0-Create-Line-Edit.png[Edit Lines, align = "center"]
+
+This tab allows the users to edit the line items that were added to the lines tab with the various information based on the lines that were added before. For example, if the users added line items then it will show according to tab structure from <<3.3.1.1 Item Details>> until the <<3.3.1.4.8 Activity>>.

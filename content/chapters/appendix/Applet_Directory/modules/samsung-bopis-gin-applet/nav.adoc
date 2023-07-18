@@ -1,0 +1,6 @@
+* Samsung BOPIS GIN Applet
+** xref:introduction.adoc[Introduction]
+** xref:samsung_bopis_gin_listing.adoc[Samsung BOPIS GIN Applet Listing]
+** xref:create_samsung_bopis_gin.adoc[Create Samsung BOPIS GIN Applet]
+** xref:edit_samsung_bopis_gin.adoc[Edit Samsung BOPIS GIN Applet]
+** xref:line_items.adoc[Line Items]

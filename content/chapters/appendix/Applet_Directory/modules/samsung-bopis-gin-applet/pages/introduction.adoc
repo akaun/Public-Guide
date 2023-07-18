@@ -1,0 +1,6 @@
+[#h3_samsung_bopis_gin_applet_introduction]
+= 1.0 Introduction
+
+image::Logo.png[]
+
+include::intro_description.adoc[]
