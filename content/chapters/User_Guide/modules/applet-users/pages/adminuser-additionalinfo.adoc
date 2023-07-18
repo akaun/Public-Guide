@@ -1,5 +1,5 @@
 [#h3_admin_guide]
-= Additional Information for Admin
+= Additional Information for Admin/Owner
 
 Below are additional background information for yourself as the ADMIN user in akaun platform. It would help to start you off in ensuring that multiple other users and respective access are setup correctly for operational usage.
 
