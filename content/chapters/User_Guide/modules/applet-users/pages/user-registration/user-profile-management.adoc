@@ -6,26 +6,26 @@ Congratulations for your decision to register as new user of akaun platform. The
 Remember, this is just the starting point, and the user manual will provide more detailed instructions on utilizing the akaun platform and its various features
 
 
+[#h4_Sign-up-new-user]
 == Sign-Up as a New User
-
-1.	Go to https://akaun.com/#/auth/sign-up
-
-
 
 image::akaun-registration.png[Akaun Registration, 200, 200, align = "center"]
 
+1.	Go to https://akaun.com/#/auth/sign-up
 
-2.	Fill in the required details:
+2.  Fill in the required details:
 •	First Name
 •	Last Name
 •	Email
 •	Mobile Number
 •	Password
 •	Confirm Password
+
 3.	Agree to the terms and conditions by checking the box.
 4.	Click "Done" to proceed.
 
 
+[#h4_Verify-mobile-number]
 == Verification by Mobile Number
 
 image::confirm-full-num.png[Confirm Mobile Number, 200, 200, align = "center"]
@@ -34,6 +34,7 @@ If Mobile Number has been provided during registration,
 •	A TAC code will be sent to your mobile device.
 •	Enter the TAC code to confirm your mobile number.
 
+[#h4_Verify-email]
 == Verification by Email
 
 image::email-confirmation.png[Email Confirmation, 200, 200, align = "center"]
@@ -42,6 +43,7 @@ If Mobile Number has not been provided during registration,
 •	An email will be sent to your inbox.
 •	Go to your inbox and click on “Verify Email” on the email.
 
+[#h4_User-login]
 == User Login
 
 
@@ -49,6 +51,7 @@ image::sign-in-main-page.png[Sign In Main Page, 200, 200, align="center"]
 
 •	Use your registered email and password to log in.
 
+[#h4_Successful-login]
 == Successful Login
 
 image::login-successful.png[Login Successful, 500, 500, align = "center"]
