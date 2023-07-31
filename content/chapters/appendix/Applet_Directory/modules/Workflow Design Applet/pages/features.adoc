@@ -30,7 +30,7 @@ image::Create_Process.png[Create_Process, align = "center"]
 Status Tab
 Next click on the “Status” tab and the following fields are needed to fill Name, Description, Created By.
 
-image::ProcessListing_CreateProcess_Status.png[ProcessListing_CreateProcess_Status, align = "center"]
+image::ProcessListing_CreateProcess_AddStatus.png[ProcessListing_CreateProcess_Status, align = "center"]
 
 Transition Tab
 Next click on a Transition from the process. Compulsory Information are, 
@@ -41,7 +41,7 @@ Created Date
 Updated By
 Updated Date
 
-image::ProcessListing_CreateProcess_Transition.png[ProcessListing_CreateProcess_Transition, align = "center"]
+image::ProcessListing_CreateProcess_AddTransition.png[ProcessListing_CreateProcess_Transition, align = "center"]
 
 ==== 2.3 Process Status Listing
 

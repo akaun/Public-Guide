@@ -224,7 +224,7 @@ In the Issue Link’s Attachment tab, the suppliers are able to see the attachme
 
 ==== 3.1.5.1.4 Comment
 
-image::Line-Issue-Link-Tab-View Issue-Comment.png[Comment, align = "center"]
+image::Line-Issue-Link-Tab-View-Issue-Comment.png[Comment, align = "center"]
 
 In the Issue Link’s Comment tab, the suppliers are able to see the comments of the selected issue link. The details shown in the listing are:
 
