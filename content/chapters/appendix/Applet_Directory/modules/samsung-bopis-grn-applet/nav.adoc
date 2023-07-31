@@ -1,0 +1,6 @@
+* Samsung BOPIS GRN Applet
+** xref:introduction.adoc[Introduction]
+** xref:samsung_bopis_grn_listing.adoc[Samsung BOPIS GRN Applet Listing]
+** xref:create_samsung_bopis_grn.adoc[Create Samsung BOPIS GRN Applet]
+** xref:edit_samsung_bopis_grn.adoc[Edit Samsung BOPIS GRN Applet]
+** xref:line_items.adoc[Line Items]

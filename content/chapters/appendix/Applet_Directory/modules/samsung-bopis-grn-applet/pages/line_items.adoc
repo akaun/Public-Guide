@@ -1,0 +1,112 @@
+[#h3_samsung_bopis_grn_applet_line_items]
+= 5.0 Line Items
+
+image::11_Lines_Item_Listing.png[Line Items, align = "center"]
+
+This is the applet's second menu. The line items are listed here with information such as the BOPIS GRN No, Item Code, Item Name, Ordered Qty, Unit Price, SST/VAT/GST, Txn Amount, Creation Date, and Requested Delivery Date.
+
+== 5.1 Item Details
+
+=== 5.1.1 Main Details
+
+image::12_Item_Details_Main_Details_Subtab.png[Main Details, align = "center"]
+
+The first subtab of the Item Details tab displays details about the item. In this subtab, there are a lot of information are presented which are Item Code, Item Name, Quantity Base, Qty by UOM, UOM to Base Ratio, Unit Price by UOM, Unit Discount by UOM, Unit Price, Unit Discount, Discount Amount, STD Amount(Unit Price x Quantity), Net Amount(STD Amount - Discount Amount), SST Code, SST/GST/VAT, Tax Amount, Net Amount(SST/GST/VAT x Net Amount), WHT Code, WHT, WHT Amount, Txn Amount and Remarks.
+
+=== 5.1.2 Delivery Instruction
+
+image::13_Edit_Item_Details_Delivery_Instruction_Subtab.png[Delivery Instruction, align = "center"]
+
+This subtab gives the supplier information and detailed instructions on how to supply the line item. This subtab has two components, the first of which is Delivery Instructions, which includes Delivery Date and Instructions. Delivery Message Card, the second portion, has From, To, and Message.
+
+=== 5.1.3 Department
+
+image::14_Edit_Item_Details_Department_Subtab.png[Department, align = "center"]
+
+Under this Department tab, users may access the Segment, G/L Dimensions, Profit Centre, and Project associated with the purchase order.
+
+=== 5.1.4 Doc Link
+
+==== 5.1.4.1 Doc Link From subtab
+
+image::15_Edit_Item_Details_Doc_Link_From_Subtab.png[Doc Link From subtab, align = "center"]
+
+In the first subtab of Doc Link From tab , the documents pertinent to the current Sales Dispatch Note are shown as Doc No , Branch, Server Doc Type, Status and Date.
+
+==== 5.1.4.2 Doc Link To subtab
+
+image::16_Edit_Item_Details_Doc_Link_To_Subtab.png[Doc Link To subtab, align = "center"]
+
+The data in the second subtab of Doc Link To tab is the same as that in the subtab labeled "Copied From." They are Doc No, Branch, Server Doc Type, Status and Date.
+
+=== 5.1.5 Delivery Details
+
+image::17_Edit_Item_Details_Delivery_Details_Subtab.png[Delivery Details, align = "center"]
+
+Users can view the delivery-related information in the Require Delivery, Delivery Status, Delivery Region Code, Delivery Region Status, Delivery Logic, Delivery ID, Planned Delivery, Estimated Delivery, Actual Delivery, Delivery PIC Name, Delivery PIC Contact, Requested Delivery, and Delivery Remarks tabs under this tab.
+
+== 5.2 Costing Details
+
+image::18_Edit_Consting_Details_Tab.png[Costing Details, align = "center"]
+
+This tab displays costing information for individual line items, including Company Code, Location Code, Quantity, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost, and Last Purchase Unit Cost.
+
+== 5.3 Pricing Details
+
+image::19_Edit_Pricing_Details_Tab.png[Pricing Details, align = "center"]
+
+This tab displays the pricing scheme associated with line items along with different details including the pricing scheme code, name, unit price, and modified date.
+
+== 5.4 Issue Link
+
+image::20_Edit_Issue_Link_Tab.png[Issue Link, align = "center"]
+
+The Issue Link tab allows users to see a list of issues that are connected to a line item. Any logged time used to work on each related problem can also be displayed. Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date, and Status are all included in the list of issues.
+
+=== 5.4.1 Edit Issue
+
+image::21_Edit_Issue_Details_Subtab.png[Edit Issue, align = "center"]
+
+The extra information appears on this tab when the user clicks on the issue. Users may see Issue Number and Summary as the major pieces of information on this tab, and in the Details section below that, they can view Project, Issue Type, Assignee, Reporter, Summary, Description, Parent, and Created Date.
+
+=== 5.4.2 Planning
+
+image::22_Edit_Issue_Planning_Subtab.png[Planning, align = "center"]
+
+The user can view more details about the issue in the Planning tab, including the Target Start and End Dates, Actual Start and End Dates, Calculated Start and End Dates, Baseline Start and End Dates, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, and Manday Target, Actual, Allocated, and Billing.
+
+=== 5.4.3 Attachment
+
+image::23_Edit_Issue_Attachment_Subtab.png[Attachment, align = "center"]
+
+Users can upload any important or necessary information regarding the issue under this area. Any sort of file may be uploaded by simply clicking the Upload File button.
+
+=== 5.4.4 Comment
+
+image::24_Edit_Issue_Comment_Subtab.png[Comment, align = "center"]
+
+Everyone is welcome to leave comments on this specific subject using the comment tab. The user may view the Date, User, and comment in this area after adding a remark.
+
+=== 5.4.5 Subtasks
+
+image::25_Edit_Issue_Subtasks_Subtab.png[Subtasks, align = "center"]
+
+The subtasks for this issue are all displayed on this tab. Occasionally, one issue might have several subtasks, such as bug fixing or enhancement. The user may view the status of the subtasks as well as the Issue Type, Issue Number, Summary, and Assignee fields.
+
+=== 5.4.6 Linked Issues
+
+image::26_Edit_Issue_Linked_Issue_Subtab.png[Linked Issues, align = "center"]
+
+Issues can occasionally be divided between frontend and backend components; if this is the case, users can view the connected backend issues in the connected Issues page along with data like the Project, Issue Type, Issue Number, Summary, Description, Assignee, Due Date, and Status.
+
+=== 5.4.7 Worklogs
+
+image::27_Edit_Issue_Worklogs_Subtab.png[Worklogs, align = "center"]
+
+This tab is where the assignee records information about the issue, including the date, name, amount of time spent, and description.
+
+=== 5.4.8 Activity
+
+image::28_Edit_Issue_Activity_subtab.png[Activity, align = "center"]
+
+The user may see information like Date, User, and Activities on this tab, which acts as a history of the issue from its inception to its conclusion.

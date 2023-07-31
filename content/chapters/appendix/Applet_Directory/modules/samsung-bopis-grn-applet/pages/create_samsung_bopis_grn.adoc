@@ -1,0 +1,28 @@
+[#h3_create_samsung_bopis_grn_applet]
+= 3.0 Create Notes
+
+== 3.1 Main Details
+
+image::2_Create-Main_Details_Tab.png[Main Details, align = "center"]
+
+The + button in the top-left corner of the screen opens this page, which is more advanced and allows the user to enter information like Branch, Location, Transaction Date, Reference, Remarks, and Sales Lead. Additionally, two buttons that Reset and Create are located in the upper right corner of the screen. Reset is used to erase all values typed into the fields, while Create is used to add new notes when all required fields are present.
+== 3.2 Lines
+
+image::3_Create_Line_Listing.png[Lines, align = "center"]
+
+Users may view the line items connected to the notes on this tab, which is another crucial one. This tab displays each line item connected to that specific note. Information like Item Code, Item Name, UOM, and Qty may be easily seen. Along with this data, the total cost and total tax are also computed and displayed on the right side of the page. The generate mode for the line items will display if the user presses the Plus button in the upper left corner.
+
+== 3.3 Create Lines
+
+=== 3.3.1 Search Item
+
+image::4_Create_Lines_Search_Item_Tab.png[Search Item, align = "center"]
+
+This tab displays a list of the basic things that may be added to the lines tab, along with details like the item's code, name, UOM, and system stock balance.
+
+==== 3.3.1.1 Item Details
+
+image::5_Edit_Search_Item_Details_Tab.png[Main Details, align = "center"]
+
+This tab appears when the user selects an item from the list. It contains a wealth of data, including Item Code, Item Name, UOM, Pricing Scheme, Unit Price STD(Exclusive of Tax), Unit Price STD(Inclusive of Tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM(Exclusive of Tax), Unit Price STD by UOM(Inclusive of Tax), Unit Discount by UOM(Exclusive of Tax), Unit Price Net by UOM(Exclusive of Tax), Unit Price Transaction by UOM(Inclusive of Tax), Unit Price Net(Exclusive of Tax), STD Amount(Unit Price x Quantity), Discount Amount(Exclusive of Tax), Amount Net(Exclusive of Tax), SST Code, SST/GST/VAT, Tax Amount, WHT Code, WHT, WHT Amount, Unit Price Transaction(Inclusive of Tax), Txn Amount and Remarks. If the user clicks the Add button at the top right corner then the selected line items will be added to current notes.
+

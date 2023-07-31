@@ -1,0 +1,12 @@
+[#h2_samsung_bopis_grn_applet_index]
+= Samsung BOPIS GrN Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/samsung_bopis_grn_listing.adoc[leveloffset=3]
+
+include::pages/create_samsung_bopis_grn.adoc[leveloffset=3]
+
+include::pages/edit_samsung_bopis_grn.adoc[leveloffset=3]
+
+include::pages/line_items.adoc[leveloffset=3]

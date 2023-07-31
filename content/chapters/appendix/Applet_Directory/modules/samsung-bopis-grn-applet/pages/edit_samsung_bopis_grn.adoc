@@ -1,0 +1,20 @@
+[#h3_edit_samsung_bopis_grn_applet]
+= 4.0 Edit Notes
+
+== 4.1 Main Details
+
+image::6_Samsung_BOPIS_GRN_Edit_Main_Details.png[Main Details, align = "center"]
+
+When the user clicks on a listing's data, this tab opens. It is more advanced than the others and displays information like the Document type, Document No. (Tenant), Document No. (Company), Document No. (Branch), Branch, Location, Transaction Date, Reference, Remarks, Currency, and Sales Lead. Additionally, there are three buttons in the top right corner: Reset, Final, and Create. Reset is used to delete all values entered in the fields; Final is used to convert Draught notes into Final notes, which disables the ability to edit the notes; and Create is used to create new notes if all required fields are present. The Lines tab after that is the same as Lines 3.2.
+
+== 4.2 Attachments
+
+image::8_Samsung_BOPIS_GRN_Edit_Attachment.png[Contra, align = "center"]
+
+This page allows users to view any additional attachments linked to the current notes. The following details are viewable: File Name, Size, Date, and who Uploaded It.
+
+== 4.3 Export
+
+image::10_Samsung_BOPIS_GRN_Edit_Export.png[Export, align = "center"]
+
+Users may export the current document into the appropriate format or file type, which is a PDF, using the Export tab.
