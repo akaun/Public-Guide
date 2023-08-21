@@ -95,7 +95,7 @@ The Edit Issue Page has Project and Issue Number, Further tabs that include Deta
 
 ====== 3.3.1.1.6.1.1 Details
 
-image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Details.png[Details, align = "center"]
+image::Listing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Details.png[Details, align = "center"]
 
 The Details page has fields with dropdowns that are Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date.
 
@@ -143,7 +143,7 @@ The Worklog page has a Search Bar to search for worklogs in the table below and 
 
 ====== 3.3.1.1.6.1.8 Log Time
 
-image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-IssueLink-EditIssue-Worklogs-LogWork.png[Log Work, align = "center"]
+image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteItem-AddItem-IssueLink-EditIssue-Worklogs-LogWork.png[Log Work, align = "center"]
 
 The user will get to the Log Work page by clicking on the Plus Sign Button on the worklog page. This page has fields that are Activity Type, Duration and Description.
 

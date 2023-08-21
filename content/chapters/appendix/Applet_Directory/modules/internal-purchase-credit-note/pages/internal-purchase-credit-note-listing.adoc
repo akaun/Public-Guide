@@ -94,7 +94,7 @@ The Department page of item Details page has Segment, G/L Dimension, Profit Cent
 
 ====== 2.2.1.2.4 Costing Details
 
-image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteListing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-ItemDetails-CostingDetails.png[Costing Details, align = "center"]
+image::Listing-EditPurchaseCreditNote-Account-LineItems-SelectItem-AddItem-ItemDetails-CostingDetails.png[Costing Details, align = "center"]
 
 ====== 2.2.1.2.5 Pricing Details
 
