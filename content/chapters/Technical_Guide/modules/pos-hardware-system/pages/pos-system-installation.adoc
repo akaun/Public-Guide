@@ -47,14 +47,6 @@ Type java -version. Make sure the java version 1.8 is used.
 
 Extract the file and move the extracted folder to the desktop.
 
-image::specific-folder.png[Specific Folder, align = "center"]
-
-image::desktop.png[Desktop, align = "center"]
-
-image::specific-version.png[Specific Version, align = "center"]
-
-image::create-shortcut.png[Create Shortcut, align = "center"]
-
 image::run-default-shortcut.png[Run Default Shortcut, align = "center"]
 
 image::run-default.png[Run Shortcut, align = "center"]

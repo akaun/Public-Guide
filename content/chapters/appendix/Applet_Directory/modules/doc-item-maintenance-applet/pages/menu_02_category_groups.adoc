@@ -34,7 +34,7 @@ image::category_group_edit.png[1440 x 900]
 
 Categories Tab where the listing of linked categories is shown. Users can manage the categories in this tab. 
 
-image::cat_group_categories.png[1440 x 900]
+image::categories_listing.png[1440 x 900]
 
 == 3.3 In order to add the category to the group users click "+" and create new item.
 

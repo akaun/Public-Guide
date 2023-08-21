@@ -11,6 +11,4 @@ image::private-membership-admin.png[Private Membership Admin, align = "center"]
 
 Please click the "Install" button to install the applet.
 
-image::install-membership-admin.png[Install Membership Admin, align = "center"]
-
 Please click on "akaun" to go back to the Akaun.cloud page to search for the installed applet and click on it.
