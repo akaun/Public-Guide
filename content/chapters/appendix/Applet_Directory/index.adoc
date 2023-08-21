@@ -48,9 +48,11 @@ include::modules/group-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/im-msesd-order-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-consignor-purchase-billing/index.adoc[leveloffset=2]
+
 include::modules/internal-delivery-order-applet/index.adoc[leveloffset=2]
 
-include::modules/internal-consignor-purchase-billing/index.adoc[leveloffset=2]
+include::modules/internal-goods-delivery-note-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-job-sheet-applet/index.adoc[leveloffset=2]
 

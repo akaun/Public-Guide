@@ -27,6 +27,7 @@ nav:
 - modules/internal-stock-adjustment-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/internal-delivery-order-applet/nav.adoc
+- modules/internal-goods-delivery-note-applet/nav.adoc
 - modules/internal-job-sheet-applet/nav.adoc
 - modules/internal-packing-order-applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc

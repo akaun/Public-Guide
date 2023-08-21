@@ -1,0 +1,30 @@
+[#h3_internal-goods-delivery-note_applet_introduction]
+= 1.0 Introduction
+
+image::InternalGoodsDeliveryNote-AppletIcon.png[]
+
+include::intro_description.adoc[]
+
+== Who are the Internal Goods Delivery Note Applet users?
+
+Internal Goods Delivery Note Applet is used to manage internal goods transfer. Users include employees involved in internal deliveries such as purchasing, logistics and warehouse personnel. It can be used by various organizations, including manufacturing, retail and distribution businesses.
+
+== Where is the Internal Goods Delivery Note Applet used?
+
+Internal Goods Delivery Note Applet is used within an organization and businesses for managing internal goods transfer and tracking deliveries.
+
+
+== How is the Internal Goods Delivery Note Applet used?
+
+a. Create and store digital Internal Goods Delivery Notes to track the transfer of goods within an organization.
+b. Monitor and update delivery information in real-time, including the status of deliveries and any changes to delivery schedules.
+c. Streamline the internal goods transfer process by automating the tracking and management of deliveries, reducing the risk of errors and improving efficiency.
+
+
+== What are the benefits Internal Goods Delivery Note Applet  Provide? 
+
+a. Improved accuracy and efficiency
+b. Better visibility into delivery status
+c. Integration with other systems
+d. Reduce costs by reducing manual processes and minimizing errors.
+e. Increase compliance.

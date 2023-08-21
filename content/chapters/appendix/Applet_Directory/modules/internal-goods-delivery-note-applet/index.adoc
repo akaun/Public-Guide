@@ -1,0 +1,16 @@
+[#h2_internal_goods_delivery_note_applet_index]
+= Internal Goods Delivery Note Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/internal-goods-delivery-note-listing.adoc[leveloffset=3]
+
+include::pages/line-items.adoc[leveloffset=3]
+
+
+
+
+
+
+
+

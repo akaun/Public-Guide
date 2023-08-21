@@ -1,0 +1,417 @@
+[#h3_internal-goods-delivery-note_applet_listing]
+= 2.0 Internal Goods Delivery Note Listing
+
+image::InternalGoodsDeliveryNote-InternalGoodsDeliveryListing[Listing, align = "center"]
+
+In this section which is the first page of the applet to display a list of Internal Goods Delivery Note in a table. In the financial report listing page there are plus “+” icon, search bar and table records. Plus icon functionality is to add a new internal goods delivery note while search bar is to search for a particular internal goods delivery note . Table records are internal goods delivery notes when a user clicks on any record he/she is able to view all the internal goods delivery note details. 
+
+The table of the internal goods delivery note  is containing the following columns:
+a. Goods Delivery Note No 
+b. Posting Status
+c. Branch
+d. Customer Name
+e. Sales Agent 
+f. Created Date
+g. Created By
+
+== 2.1 Main Details
+
+image::InternalGoodsDeliveryNote-MainDetailsTab.png[Main Details, align = "center"]
+
+On the Main Details tab of the Internal Goods Delivery Note, users need to fill in all the necessary information to add a new goods delivery note. Please be noted that if there is a “*” sign on the column, users must fill in the information as it cannot not be modified later. There are 12 components which allow the user to make changes respectively:
+
+a. Branch
+b. Location
+c. Sales Agent
+d. Member Card
+e. Transaction Date
+f. Credit Terms
+g. Entity ID
+h. Remarks
+i. Permit No
+j. Currency
+k. Customer 
+l. Tracking ID
+
+== 2.2 Account Tab
+
+=== 2.2.1 Entity Details
+
+image::InternalGoodsDeliveryNote-AccountTab-EntityDetails.png[Entity Details, align = "center"]
+
+On the Entity Details tab there are 11 fields and two buttons located on the top right corner, Reset button to clear the data from the text fields  and a create button to create new account details. Please be noted that if there is a “*” sign on the column, users must fill in the data. There are 13 fields that user need to fill in which are:
+
+a. Entity ID
+b. Entity Name
+c. Status
+d. Entity Type
+e. Identity Type 
+f. ID Number
+g. Currency 
+h. GL Code
+i. Description
+j. Email
+k. Phone Number
+
+=== 2.2.2 Bill To
+
+image::InternalGoodsDeliveryNote-AccountTab-BillTo.png[Bill To, align = "center"]
+
+On the Bill To tab there are 13 fields and two buttons located on the top right corner, Reset button to clear the data from the text fields  and a create button to create new account details. Please be noted that if there is a “*” sign on the column, users must fill in the data. There are 13 fields that user need to fill in which are:
+
+a. Name 
+b. Email
+c. Phone No 
+d. Billing Address 1, 2, 3, 4 (Entity ID must be selected first)
+e. Country 
+f. State 
+g. City 
+h. Postcode
+
+=== 2.2.3 Ship To
+
+image::InternalGoodsDeliveryNote-AccountTab-ShipTo.png[Ship To, align = "center"]
+
+On the Ship To tab there are 13 fields and two buttons located on the top right corner, Reset button to clear the data from the text fields  and a create button to create new account details. Please be noted that if there is a “*” sign on the column, users must fill in the data. There are 13 fields that user need to fill in which are:
+
+a. Recipient’s Name
+b. Email
+c. Phone No 
+d. Shipping Address 1, 2, 3, 4, 5 (Entity ID must be selected first)
+e. Country 
+f. State 
+g. City 
+h. Postcode
+i. Users can click on the Entity Id column to select a recipient from the Recipient Listing. 
+
+== 2.3 Lines
+
+image::InternalGoodsDeliveryNote-LinesTab.png[Lines Tab, align = "center"]
+
+On the Lines tab, users can select the item based on the Item Code, Item Name, UOM, Qty, Unit Price (Inclusive or Tax), (SST, VAT, GST) and Txn Amount. Other than this, users can also edit or view the details of an item by clicking any of it. Take note, edit Item or add item having the same data. 
+
+=== 2.3.1 Item Details - Main Details
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-MainDetails2.png[Main Details, align = "center"]
+
+On the Item Details tab of the add line item page, the Main Details tab have several components which allow the user to make changes respectively:
+
+1. Item Code
+2. Item Name
+3. UOM
+4. Pricing Scheme
+5. Unit Price STD by UOM (Exclusive of tax)
+6. Unit Price STD (Inclusive of tax)
+7. Unit Discount
+8. Quantity Base
+9. Quantity by UOM
+10. UOM to Base Ratio
+11. Unit Price STD By UOM (Exclusive of tax)
+12. Unit Price STD by UOM (Inclusive of tax)
+13. Unit Price Discount By UOM (Exclusive of tax)
+14. Unit Price Net by UOM (Exclusive of tax)
+15. Unit Price Transaction by UOM (Inclusive of tax)
+16. Unit Price Net (Exclusive of tax)
+17. STD Amount (Unit Price x Quantity)
+18. Discount Amount (Exclusive of tax)
+19. Amount Net (Exclusive of tax)
+20. SST Code
+21. Unit Price STD (Exclusive of tax)
+22. SST/GST/VAT
+23. Tax Amount
+24. WHT Code
+25. WHT
+26. WHT Amount
+27. Unit Price Transaction (Inclusive of tax)
+28. Txn Amount
+29. Remarks
+
+There are two buttons: Save button located at the top right corner to save the data and Delete button at the bottom to delete the data.
+
+=== 2.3.2 Item Details - Delivery Instruction
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-DeliveryInstruction.png[Delivery Instruction, align = "center"]
+
+On the Delivery Instruction tab, there are two categories (Delivery Instructions and Delivery Message Card) which allow the user to make changes respectively:
+
+a. Delivery Instructions:
+b. Instructions for the driver
+c. Delivery Date
+
+Delivery Message Card:
+
+a. Option Box: ‘Copy from Entity Name’ or ‘Copy from Recipient Name’ 
+b. From: Sender
+c. To: Receiver
+d. Message
+
+=== 2.3.3 Item Details - Department 
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-Department.png[Department, align = "center"]
+
+On the Department tab, this is used to generate reports by filtering the following fields, therefore, users need to select the specific fields from the options:
+
+a. Segment: Business Segments, segments typically have discrete associated costs and operations
+b. G/L Dimension
+c. Profit Centre
+d. Project
+e. Option Box: Copy from Hdr
+
+=== 2.3.4 Item Details - Doc Link - From
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-DocLink-From.png[Doc Link From, align = "center"]
+
+On the From tab of Doc Link page, the Form tab have several components which are:
+
+a. Doc Vo
+b. Branch
+c. Server Doc Type
+d. Status 
+e. Date
+f. There is a button at the bottom to delete any record from the From tab.
+
+=== 2.3.5 Item Details - Doc Link - To
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-DocLink-To.png[Doc Link To, align = "center"]
+
+On the To tab of Doc Link page, the Form tab have several components which are:
+
+a. Doc No
+b. Branch
+c. Server Doc Type
+d. Status 
+e.  Date
+f. There is a button at the bottom to delete any record from the From tab.
+
+=== 2.3.6 Item Details - Delivery Details
+
+image::InternalGoodsDeliveryNote-LinesTab-ItemDetails-DeliveryDetails.png[Delivery Details, align = "center"]
+
+On the Delivery Details tab of Item Details, the Delivery Details tab have several components which are:
+
+a. Trip No
+b. Driver Name
+c. Vehicle No
+d. Job Start Date 
+e. Job End Date 
+f. Recipient Status 
+g. Qty
+
+There is a button at the bottom to delete any record from the Delivery Details tab.
+
+=== 2.3.7 Costing Details
+
+image::InternalGoodsDeliveryNote-LinesTab-CostingDetails.png[Costing Details, align = "center"]
+
+On the Costing Details tab, it shows all the details of:
+
+a. Company Code
+b. Location Code
+c. Qty
+d. Moving Average Unit Cost: The total cost of the items purchased divided by the number of items in stock
+e. FIFO Unit Cost: The costs of the first goods purchased are the costs of the first good sold
+f. Manual Unit Cost 
+g. Last Purchase Unit Cost: The most recent purchase unit cost for the item
+
+There is a button at the bottom to delete any record Costing Details.
+
+=== 2.3.8 Pricing Details
+
+image::InternalGoodsDeliveryNote-LinesTab-PricingDetails.png[Pricing Details, align = "center"]
+
+On the Pricing Details tab, there is a UOM options field that allows users to select, once the option is selected, all the details of Pricing will be shown based on the UOM:
+
+a. Schema Code
+b. Pricing Schema Name
+c. Purchase Unit Price
+d. Modified Date
+e. There is a button at the bottom to delete any record Pricing Details.
+
+=== 2.3.9 Issue Link
+
+image::InternalGoodsDeliveryNote-LinesTab-IssueLink.png[Issue Link, align = "center"]
+
+On the Issue Link tab, lists of issue links will be displayed for the user to select with the details of Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status. Users can click on the “ADD” button to add the line item after the details are filled in.
+
+==== 2.3.9.1 Details
+
+image::InternalGoodsDeliveryNote-IssueLink-DetailsTab.png[Details, align = "center"]
+
+On the Edit Issue Page Details tab there are two (2) sections: general data section  and internal data section. Internal section is based on the chosen tab and there are 8 data fields. Users can edit any of them and click the save button on the top right corner.
+
+a. General data section:
+b. Issue Number
+c. Summary 
+d. Internal data section:
+e. Project
+f. Issue Type 
+g. Assignee
+h. Reporter
+i. Summary 
+j. Description
+k. Parent
+l. Created Date
+
+==== 2.3.9.2 Planning
+
+image::InternalGoodsDeliveryNote-IssueLink-PlanningTab.png[Planning, align = "center"]
+
+On the Edit Issue Page Details tab there are two (2) sections: general data section  and internal data section. Internal section is based on the chosen tab and there are 8 data fields. Users can edit any of them and click the save button on the top right corner.
+
+a. General data section:
+b. Issue Number
+c. Summary 
+d. Internal data section:
+e. Target Start Date
+f. Target End Date
+g. Actual Start Date
+h. Actual EndDate
+i. Calculated Start Date
+j. Calculated End Date
+k. Baseline Start Date
+l. Baseline End Date
+m. Billing Currency 
+n. Billing Amount 
+o. Cost Currency 
+p. Cost Amount 
+q. Story Point
+r. Monday Target
+s. Monday Actual
+t. Monday Allocated
+u. Monday Billing
+
+=== 2.3.9.3 Attachment
+
+image::InternalGoodsDeliveryNote-IssueLink-AttachmentTab.png[Attachment, align = "center"]
+
+On the Edit Issue Page Attachment tab users can upload attachment by browning or drag and drop attachment into the drag and drop area.
+
+==== 2.3.9.4 Comment
+
+image::InternalGoodsDeliveryNote-IssueLink-CommentTab.png[Comment, align = "center"]
+
+On the Edit Issue Page Comment tab users can search for a comment using the search bar or create a comment using the “+” sign on the left side. The comment tab containing the following data:
+
+a. Date 
+b. User 
+c. Comments 
+
+==== 2.3.9.5 Subtasks
+
+image::InternalGoodsDeliveryNote-IssueLink-SubTasksTab.png[Subtasks, align = "center"]
+
+On the Edit Issue Page Subtasks tab users can search for subtasks using the search bar or create a subtask using the “+” sign on the left side. The subtask tab containing the following data:
+
+a. Issue Type
+b. Issue Number 
+c. Summary 
+d. Description 
+e. Assignee 
+f. Priority 
+g. Due Date
+h. Status
+
+==== 2.3.9.5 Linked Issue
+
+image::InternalGoodsDeliveryNote-IssueLink-LinkedIssuesTab.png[Linked Issue, align = "center"]
+
+On the Edit Issue Page Linked Issues tab users can search for linked issues using the search bar or create linked issues using the “+” sign on the left side. The subtask tab containing the following data:
+
+a. Project
+b. Issue Type
+c. Issue Number 
+d. Summary 
+e. Description 
+f. Assignee 
+g. Due Date
+h. Status 
+
+==== 2.3.9.5 Worklogs
+
+image::InternalGoodsDeliveryNote-IssueLink-WorkLogsTab.png[Worklogs, align = "center"]
+
+On the Edit Issue Page Worklogs tab users can search for workLogs using the search bar or create workLogs using the “+” sign on the left side. The subtask tab containing the following data:
+
+a. Date 
+b. Name
+c. Time Spent
+d. Description
+
+==== 2.3.9.5 Activity
+
+image::InternalGoodsDeliveryNote-IssueLink-ActivityTab.png[Activity, align = 'center"]
+
+On the Edit Issue Page Activity tab users can search for an activity using the search bar or create an activity using the “+” sign on the left side. The subtask tab containing the following data:
+
+a. Date 
+b. User
+c. Activities
+d. Description
+
+== 2.4 Settlement
+
+image::InternalGoodsDeliveryNote-SettlementTab.png[Settlement, align = "center]
+
+On the Settlement tab, users can view the settlements in a table or create new settlements. Settlements tab table containing the following data;
+
+a. Date 
+b. Amount 
+c. Details
+d. Remarks
+
+=== 2.4.1 Add Settlement
+
+image::InternalGoodsDeliveryNote-SettlementTab-AddSettlement.png[Add Settlement, align = "center]
+
+== 2.5 Department Hdr
+
+image::InternalGoodsDeliveryNote-DepartmentHdrTab.png[Department Hdr, align = "center"]
+
+On the Department Hdr tab, there are 4 data field user need to fill up to create new Department Hdr:
+
+a. Segment
+b. G/L Dimension 
+c. Profit Center 
+d. Project
+
+There are two buttons: Reset button to clear the data field data and Create button to create new Internal Goods Delivery-note Department Hdr.
+
+== 2.6 Contra 
+
+image::InternalGoodsDeliveryNote-ContraTab.png[Contra, align = "center"]
+
+A Contra account is a negative account that is netted from the balance of another account on the balance sheet. On the “Contra” tab, lists of contra with details of:
+
+a. Server Doc Type
+b. Status
+c. Date 
+d. Amount Contra
+
+Users can also click on the “+” button to add or select a different contra.
+
+=== 2.6.1 Select Contra
+
+image::InternalGoodsDeliveryNote-ContraTab-SelectContra.png[Select Contra, align = "center"]
+
+After clicking on the “+” icon to add a contra, users will be redirected to a different page with lists of contra where they can select among the existing contra. Contra columns are:
+
+a. Doc No
+b. Branch
+c. ServerDoc Type
+d. Status
+e. AR AP Bal
+f. Date
+
+=== 2.6.2 Add Contra
+
+image::InternalGoodsDeliveryNote-ContraTab-AddContra.png[Add Contra, align = "center"]
+
+After clicking on any of the contra, users are required to enter the contra amount, Doc Date and Transaction Date after that users can click on the “ADD” button to add the contra.
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+* Internal Goods Delivery Note Applet 
+** xref:introduction.adoc[Introduction]
+** xref:internal-goods-delivery-note-listing.adoc[Internal Goods Delivery Note Listing]
+** xref:line-items.adoc[Line Items]

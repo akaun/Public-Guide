@@ -1,0 +1,37 @@
+[#h3_internal-goods-delivery-note_applet_line_items]
+= 3.0 Line Items
+
+== 3.1 Line Items Search Filtration 
+
+image::InternalGoodsDeliveryNote-LineItem-searchFilteration.png[Search Filter, align = "center"]
+
+== 3.2 Line Item Listing
+
+image::InternalGoodsDeliveryNote-LineItemsListing.png[Line Item Listing, align = "center"]
+
+Line Items Listing is the main and the first page for the Line Items. In this page all the Line Items will be shown here as rows. Each row represents an item Line, when a customer clicks on any one of them he/she will be directed to the edit item line page. There are seven columns in the Line Item Listing page which are:
+
+a. Goods Delivery Note No
+b. Item Code
+c. Item Name
+d. Qty
+e. Unit price
+f. St/VAT/GST
+g. Txn Amount
+
+== 3.3 Serial Number Scan 
+
+image::InternalGoodsDeliveryNote-SerialNumber-Scan.png[Serial Number Scan, align = "center"]
+
+In this tab there are some field data to be filled which are:
+
+a. Serial Number 
+b. Serial Number Type 
+
+There are five buttons, two are red which remove the edited Item Line Serial Number. On the other hand there are three blue buttons: save button to save the edited Item Line Serial Number and add button to add serial number and scan button to scan the serial number type.
+
+== 3.4 Serial Number Import 
+
+image::InternalGoodsDeliveryNote-SerialNumber-Import.png[Serial Number Import, align = "center"]
+
+In this tab the customer is mainly uploading file by browning his/her local machine or drag and drop into the the drag and drop area. After uploading the serial number file, customers can save by clicking on the save button at the corner of the top right side or clicking on delete button to delete the uploaded file.
