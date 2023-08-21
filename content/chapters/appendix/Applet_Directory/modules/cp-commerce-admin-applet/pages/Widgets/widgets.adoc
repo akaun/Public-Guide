@@ -638,9 +638,6 @@ image::configure-my-invoice-payment.png[Configure My Invoice Payment, align = "c
 
 image::store-selector-example-1.png[Store Selector Example 1, align = "center"]
 
-
-image::store-selector-example-2.png[Store Selector Example 2, align = "center"]
-
 The image above shows the layout of the Store Selector widget.
 
 After creating a layout instance, go to the search bar and find the node title that you have created.
