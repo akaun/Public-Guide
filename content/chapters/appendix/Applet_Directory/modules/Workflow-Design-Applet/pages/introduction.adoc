@@ -1,6 +1,6 @@
 [#h3_Workflow_Design_applet_introduction]
 =  Introduction
 
-image::orkflow-design-applet.png[Workflow_Design_applet, align = "center"]
+image::workflow-design-applet.png[Workflow_Design_applet, align = "center"]
 
 include::intro_description.adoc[]

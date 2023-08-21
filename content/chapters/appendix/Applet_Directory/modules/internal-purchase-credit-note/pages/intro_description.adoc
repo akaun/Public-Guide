@@ -1,1 +1,1 @@
-The Purchase Credit Note Applet is used to create new account payable credit note entry, to print account payable credit note listing, account payable - credit note analysis report and finally to view analysis report of A/P credit Note in columns (according to credit note type.
+The Purchase Credit Note Applet is used to create new account payable credit note entry, to print account payable credit note listing, account payable - credit note analysis report and finally to view analysis report of A/P credit Note in columns (according to credit note type).
