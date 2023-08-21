@@ -1,7 +1,7 @@
 [#h3_internal-goods-delivery-note_applet_listing]
 = 2.0 Internal Goods Delivery Note Listing
 
-image::InternalGoodsDeliveryNote-InternalGoodsDeliveryListing[Listing, align = "center"]
+image::InternalGoodsDeliveryNote-InternalGoodsDeliveryListing.png[Listing, align = "center"]
 
 In this section which is the first page of the applet to display a list of Internal Goods Delivery Note in a table. In the financial report listing page there are plus “+” icon, search bar and table records. Plus icon functionality is to add a new internal goods delivery note while search bar is to search for a particular internal goods delivery note . Table records are internal goods delivery notes when a user clicks on any record he/she is able to view all the internal goods delivery note details. 
 
