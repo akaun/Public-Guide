@@ -143,7 +143,7 @@ The Worklog page has a Search Bar to search for worklogs in the table below and 
 
 ====== 3.3.1.1.6.1.8 Log Time
 
-image::InternalPurchaseCreditNoteApplet-InternalPurchaseCreditNoteItem-AddItem-IssueLink-EditIssue-Worklogs-LogWork.png[Log Work, align = "center"]
+image::Listing-CreatePurchaseCreditNote-LineItems-SelectItem-AddItem-EditIssue-Worklogs.png[Log Work, align = "center"]
 
 The user will get to the Log Work page by clicking on the Plus Sign Button on the worklog page. This page has fields that are Activity Type, Duration and Description.
 

@@ -176,7 +176,7 @@ include::modules/url-shortening-applet/index.adoc[leveloffset=2]
 
 include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
-include::modules/Workflow Design Applet/index.adoc[leveloffset=2]
+include::modules/Workflow-Design-Applet/index.adoc[leveloffset=2]
 
 
 
