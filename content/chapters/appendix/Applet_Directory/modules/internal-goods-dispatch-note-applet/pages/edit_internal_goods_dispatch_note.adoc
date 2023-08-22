@@ -1,0 +1,21 @@
+[#h3_edit_internal_goods_dispatch_note_applet]
+= 4.0 Edit Internal Goods Dispatch Note
+
+== 4.1 Main Details
+
+image::30-Line-Item-Edit-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+This tab is open when the user clicks on one of the listing data and this tab is more sophisticated to show information such as Document type, Doc No.(Tenant), Doc No.(Company), Doc No.(Branch), Branch, Location, Sales Agent, Member Card, Transaction Date, Credit Terms, Due Date, Reference, Remarks, Permit No, Currency, Customer and Tracking ID. There are also three buttons at the top right corner, Reset, Final and Create, Reset is used to clear all the values that are entered in the fields, the Final is used to make the Draft notes to Final which make the notes to disable the edit option and finally the Create button is used for creating the new notes if all the necessary fields are present.
+The following Account tab is the same as <<create_internal_goods_dispatch_note.adoc#3.2 Account, 3.2 Account>>, Lines tab is the same as <<create_internal_goods_dispatch_note.adoc#3.4 Edit Lines, 3.4 Edit Lines>>, Settlement tab is the same as <<create_internal_goods_dispatch_note.adoc#3.5 Settlement, 3.5 Settlement>>, Department Hdr tab is the same as <<create_internal_goods_dispatch_note.adoc#3.6 Department Hdr, 3.6 Department Hdr>> and Contra tab is the same as <<create_internal_goods_dispatch_note.adoc#3.7 Contra, 3.7 Contra>>.
+
+== 4.4 Attachments
+
+image::26-Internal-Goods-Dispatch-Note-Edit-Attachment.png[Attachments, align = "center"]
+
+Users can see any other attachments that are related to the current notes in this tab. Information available to view are File Name, Size, Uploaded Date and Uploaded By.
+
+== 4.5 Export
+
+image::28-Internal-Goods-Dispatch-Note-Edit-Export.png[Export, align = "center"]
+
+The last tab of the Internal Goods Dispatch Note menu and the Export tab allows a user to export the current document into an applicable format or file type, which is a PDF for a goods dispatch note.

@@ -1,0 +1,14 @@
+[#h3_internal_goods_dispatch_note_applet_listing]
+= 2.0 Internal Goods Dispatch Note Listing
+
+image::1-1-Internal-Goods-Dispatch-Note-Listing.png[Internal Goods Dispatch Note Listing, align = "center"]
+
+By selecting the  Internal Goods Dispatch section in the slide bar, the user can access the Internal Goods Dispatch Note listing page. The Internal Goods Dispatch Note Listing page is a component of the Internal Goods Dispatch Note Applet that provides an organized view of all the dispatch notes within an organization. It serves as a central hub where users can access and manage dispatch notes efficiently. This page includes the following information:
+
+* Goods Dispatch Note No
+* Posting Status
+* Branch
+* Customer Name
+* Sales Agent
+* Created Date
+* Created By

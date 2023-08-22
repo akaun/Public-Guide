@@ -1,0 +1,12 @@
+[#h2_internal_goods_dispatch_note_applet_index]
+= Internal Goods Dispatch Note Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/internal_goods_dispatch_note_listing.adoc[leveloffset=3]
+
+include::pages/create_internal_goods_dispatch_note.adoc[leveloffset=3]
+
+include::pages/edit_internal_goods_dispatch_note.adoc[leveloffset=3]
+
+include::pages/line_items.adoc[leveloffset=3]

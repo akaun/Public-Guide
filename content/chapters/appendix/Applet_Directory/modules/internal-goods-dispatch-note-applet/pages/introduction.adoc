@@ -1,0 +1,6 @@
+[#h3_internal_goods_dispatch_note_applet_introduction]
+= 1.0 Introduction
+
+image::Internal-Goods-Dispatch-Note-Applet-Logo.png[]
+
+include::intro_description.adoc[]

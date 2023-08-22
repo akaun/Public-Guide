@@ -1,0 +1,135 @@
+[#h3_create_internal_goods_dispatch_note_applet]
+= 3.0 Create Internal Goods Dispatch Note
+
+== 3.1 Main Details
+
+image::2-Internal-Goods-Dispatch-Note-Create-MainDetails.png[Main Details, align = "center"]
+
+This tab is open when the user clicks on plus button at the top left corner and this tab is more sophisticated to add information such as Branch, Location, Sales Agent, Member Card, Transaction Date, Credit Terms, Due Date, Reference, Remarks, Permit No, Currency, Customer and Tracking ID. There are also two buttons at the top right corner, Reset and Create, Reset is used to clear all the values that are entered in the fields, the Create button is used for creating the new notes if all the necessary fields are present.
+
+== 3.2 Account
+
+There are a total of three sub tabs under this Account tab, which are Entity Details, Bill To and Ship To.
+
+=== 3.2.1 Entity Details
+
+image::3-Internal-Goods-Dispatch-Note-Create-Account-EntityDetails.png[Entity Details, align = "center"]
+
+This sub tab shows the general information about the customers. Such information are Entity Id, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number.
+
+=== 3.2.2 Bill To
+
+image::4-Internal-Goods-Dispatch-Note-Create-Account-BillTo.png[Bill To, align = "center"]
+
+This is the second subtab of the Account tab, which shows the information about the customers bill to information such as Name, Email, Phone No, Billing Address, Address Line 1, Address Line 2, Address Line 3, Address Line 4, Address Line 5, Country, State, City and Postcode.
+
+=== 3.2.3 Ship To
+
+image::5-Internal-Goods-Dispatch-Note-Create-Accout-ShipTo.png[Ship To, align = "center"]
+
+This is third subtab of the Account tab and this is pretty similar to the Bill To tab, which shows the ship to information about the customers which are Name, Email, Phone No, Shipping Address, Address Line 1, Address Line 2, Address Line 3, Address Line 4, Address Line 5, Country, State, City and Postcode.
+
+== 3.3 Lines Listing
+
+image::6-Internal-Goods-Dispatch-Note-Create-LinesListing.png[Lines Listing, align = "center"]
+
+This is another important tab for the users to see the line items that are related to the notes. This tab shows all the line items that are linked to that particular note. There is some information to view easily such as Item Code, Item Name, UOM, Qty, Unit Price(Inclusive of Tax), SST/VAT/GST and Txn Amount. Not only this information but also the total price and total tax are also being calculated and shown at the right hand side of the tab. If the user clicks the Plus button at the top left corner then the create mode for the line items will appear.
+
+== 3.4 Create Lines
+
+=== 3.4.1 Search Item
+
+image::7-Internal-Goods-Dispatch-Note-Create-LinesCreate-SearchItem.png[Search Item, align = "center"]
+
+This tab shows the list of base items that can be added to the lines tab with the information such as Item Code, Item Name, UOM and System Stock Balance.
+
+=== 3.4.2 Create KO Sales Order Item
+
+image::8-Internal-Goods-Dispatch-Note-Create-LinesCreate-KOBySalesOrderItem.png[Create KO By Sales Order Item, align = "center"]
+image::9-Internal-Goods-Dispatch-Note-Create-LinesCreate-KOForSalesOrderItem.png[Create KO For Sales Order Item, align = "center"]
+
+This tab shows the list of sales order items that can be added to the lines tab with the information such as Sales Order No., Item Code, Item Name, Qty, UOM and Unit Price(Inclusive of Tax).
+
+=== 3.4.3 Create Jobsheet Item
+
+image::10-Internal-Goods-Dispatch-Note-Create-LinesCreate-KOByJobsheetItem.png[Create KO By Jobsheet Item, align = "center"]
+image::11-Internal-Goods-Dispatch-Note-Create-LinesCreate-KOForJobsheetItem.png[Create KO For Jobsheet Item, align = "center"]
+
+This tab shows the list of jobsheet items that can be added to the lines tab with the information such as Jobsheet No., Item Code, Item Name, Qty, UOM and Unit Price(Inclusive of Tax).
+
+=== 3.4.4 Create Delivery Order Item
+
+image::12-Internal-Goods-Dispatch-Note-Create-LinesCreate-KOByDeliveryOrderItem.png[Create KO By Delivery Order Item, align = "center"]
+image::13-Internal-Goods-Dispatch-Note-Create-LinesCreate-KOForDeliveryOrderItem.png[Create KO For Delivery Order Item, align = "center"]
+
+This tab shows the list of delivery order items that can be added to the lines tab with the information such as Delivery Order No., Item Code, Item Name, Qty, UOM and Unit Price(Inclusive of Tax).
+
+
+=== 3.4.5 Create Copy Quotation Item
+
+image::14-Internal-Goods-Dispatch-Note-Create-LinesCreate-CopyQuotationItem.png[Create Copy Quotation Item, align = "center"]
+
+This tab shows the list of purchase quotation items that can be added to the lines tab with the information such as Purchase Quotation No., Item Code, Item Name, Qty, UOM and Unit Price(Inclusive of Tax).
+
+==== 3.4.5.1 Item Details
+
+===== 3.4.5.1.1 Main Details
+
+image::15-Internal-Goods-Dispatch-Note-Create-LinesCreate-CopyQuotation-ItemDetails-MainDetails.png[Main Details, align = "center"]
+
+This tab open when the user click on the one the item from the list with the huge load of information such as Item Code, Item Name, UOM, Pricing Scheme, Unit Price STD(Exclusive of Tax), Unit Price STD(Inclusive of Tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM(Exclusive of Tax), Unit Price STD by UOM(Inclusive of Tax), Unit Discount by UOM(Exclusive of Tax), Unit Price Net by UOM(Exclusive of Tax), Unit Price Transaction by UOM(Inclusive of Tax), Unit Price Net(Exclusive of Tax), STD Amount(Unit Price x Quantity), Discount Amount(Exclusive of Tax), Amount Net(Exclusive of Tax), SST Code, SST/GST/VAT, Tax Amount, WHT Code, WHT, WHT Amount, Unit Price Transaction(Inclusive of Tax), Txn Amount and Remarks. If the user clicks the Add button at the top right corner then the selected line items will be added to current notes.
+
+===== 3.4.5.1.2 Delivery Instructions
+
+image::16-Internal-Goods-Dispatch-Note-Create-LinesCreate-CopyQuotation-ItemDetails-DeliveryInstruction.png[Delivery Instructions, align = "center"]
+
+This subtab provides the information to the user with specific instructions regarding the delivery of the line item. There are two sections in this subtab, the first section is Delivery Instructions which include Instructions and Delivery Date. The second section is Delivery Message Card which include From, To and Message. Also users can also mark the Copy from Entity Name or Copy from Recipient Name.
+
+===== 3.4.5.1.3 Department
+
+image::17-Internal-Goods-Dispatch-Note-Create-LinesCreate-CopyQuotation-ItemDetails-Department.png[Department, align = "center"]
+
+Users can view the Segment, G/L Dimensions, Profit Center, and Project that are connected to the purchase order under this Department tab.
+
+==== 3.4.5.2 Pricing Details
+
+image::18-Internal-Goods-Dispatch-Note-Create-LinesCreate-CopyQuotation-PricingDetails.png[Pricing Details, align = "center"]
+
+This tab shows the pricing scheme related to line items with the various information such as Pricing Scheme Code, Pricing Scheme Name, Unit Price and Modified Date.
+
+==== 3.4.5.3 Issue Link
+
+image::19-Internal-Goods-Dispatch-Note-Create-LinesCreate-CopyQuotation-IssueLink.png[Issue Link, align = "center"]
+
+Users can view a list of issues that are linked to a line item using the Issue Link tab. Each linked issue can also show the logged time, if any, that was used to work on it. The list of issues contain this information such as Project, Issue Number, Issue Summary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+
+===== 3.4.5.3.1 Edit Issue
+
+image::40-Line-Item-Edit-IssueLink-EditIssue.png[Edit Issue, align = "center"]
+
+When the user clicks on the issue, the additional information is shown on this tab. In this tab, users can see Issue Number and Summary as main information and below, Details tab, Project, Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date. After the user makes changes to the issue, they can click the Save button at the top right corner to save the latest issue.
+
+== 3.5 Settlement
+
+image::20-Internal-Goods-Dispatch-Note-Create-Settlement.png[Settlement, align = "center"]
+
+The settlement tab has the following details and also has the plus sign button that can be used to Add the Settlement. The information on the listing table are Date, Amount, Details and Remarks. Also users can see the total and outstanding amount at the top right corner of the tab. If the user clicks the Plus button at the top left corner, another tab for creating settlements will appear.
+
+=== 3.5.1 Add Settlement
+
+image::21-Internal-Goods-Dispatch-Note-Create-Settlement-AddSettlement.png[Add Settlement, align = "center"]
+
+This create section is a simple one, just choose the Settlement Method from the dropdown and add it to the Settlement tab. If the user chooses the Settlement Method then the Add button at the top right corner will appear to add the settlement.
+
+== 3.6 Department Hdr
+
+image::22-Internal-Goods-Dispatch-Note-Create-DepartmentHdr.png[Department Hdr, align = "center"]
+
+Under this Department Hdr tab, users can see the Segment, G/L Dimensions, Profit Center and Project that are linked to the purchase order. There are also two buttons at the top right corner, Reset and Create, Reset is used to clear all the values that are entered in the fields, the Create button is used for creating the new Hdr if all the necessary fields are present.
+
+== 3.7 Contra
+
+image::23-Internal-Goods-Dispatch-Note-Create-Contra.png[Contra, align = "center"]
+
+In the Contra tab, users can see the contra documents that are related to the notes. Information available to view are Server Doc Type, Status, Date and Amount Contra.
+
