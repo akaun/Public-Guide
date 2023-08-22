@@ -1,0 +1,18 @@
+[#h3_internal_blanket_purchase_order_supplier_access_applet_detailed_report]
+= 4.0 Blanket Purchase Order Detailed Report
+
+image::8-InternalBlanketPurchaseOrderSupplierAccessDetailedReportListing.png[Blanket Purchase Order Detailed Report, align = "center"]
+
+By selecting the start date and end date on this Internal Blanket Purchase Order Supplier Access Detailed Report Listing page, the report may be generated. Each blanket purchase order report is listed as a detailed that has been received in this internal blanket purchase order supplier access  detailed report. The listing provides the following information:
+
+* BPO Number 
+* Date
+* Item
+* Qty
+* Category 
+* Purchaser
+* Unit Price
+* Total Amount
+* PO Qty
+* Balance Qty 
+* PO Amount

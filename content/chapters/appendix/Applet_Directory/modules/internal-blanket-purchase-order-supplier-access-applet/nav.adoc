@@ -1,0 +1,5 @@
+* Internal Blanket Purchase Order Supplier Access Applet
+** xref:introduction.adoc[Introduction]
+** xref:blanket_purchase_order.adoc[Blanket Purchase Order]
+** xref:report.adoc[Report]
+** xref:blanket_purchase_order_detailed_report.adoc[Blanket Purchase Order Detailed Report]

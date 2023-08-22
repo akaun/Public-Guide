@@ -1,0 +1,15 @@
+[#h3_internal_blanket_purchase_order_supplier_access_applet_report]
+= 3.0 Report
+
+image::7-InternalBlanketPurchaseOrderSupplierAccessReportListing.png[Report, align = "center"]
+
+The user may access the internal blanket purchase order supplier access report listing page by choosing the Report section in the slide bar. A search bar is available on the Internal Blanket Purchase Order Supplier Access Report Listing page to find the listing for blanket purchase orders report. In this internal blanket purchase order supplier access report that lists each blanket purchase order report that has been obtained. The following details are on this page:
+
+* BPO No.
+* Company
+* Supplier Name
+* Amount
+* Created Date
+* Created By
+* Status
+

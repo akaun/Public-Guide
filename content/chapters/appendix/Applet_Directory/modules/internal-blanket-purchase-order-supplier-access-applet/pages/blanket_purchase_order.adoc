@@ -1,0 +1,67 @@
+[#h3_internal_blanket_purchase_order_supplier_access_applet_listing]
+= 2.0 Blanket Purchase Order
+
+image::1-InternalBlanketPurchaseOrderListing.png[Blanket Purchase Order, align = "center"]
+
+By selecting the Blanket Purchase Order section in the slide bar, the user can access the internal blanket purchase order listing page. The Internal Blanket Purchase Order Listing page provides a search bar to look for the listing for blanket purchase orders. This Internal Blanket Purchase Orders  includes a page detailing all blanket purchase orders that have been received. This page includes the following information:
+
+* Blanket Purchase Orders (BPO) No.
+* Company
+* Supplier Name
+* Amount
+* Updated Date
+* Created Date
+* Created By
+
+== 2.1 View Internal Blanket Purchase Order
+
+image::2-ViewInternalBlanketPurchaseOrder.png[View Blanket Purchase Order, align = "center"]
+
+Any accessible blanket purchase order can be clicked into by users on the listing page to view additional details about that order.
+
+=== 2.1.1 Main Details
+
+image::3-MainTab.png[Main Details, align = "center"]
+
+The following details about the Blanket Purchase Order is provided under the Main Details tab:
+
+* Branch
+* Location
+* Company
+* Reference No.
+* Start Date
+* Validity
+* Status
+* Sales Agent
+* Remarks
+
+=== 2.1.2 Supplier Info
+
+image::4-SupplierInfo.png[Supplier Info, align = "center"]
+
+The Supplier Infos tab presents a list of suppliers associated with that Blanket Purchase Order, along with the following information:
+* Entity ID
+* Entity Name
+* Phone Number
+* Email
+* Supplier Type
+
+=== 2.1.3 Line Item
+
+image::5-LineItem.png[Line Item, align = "center"]
+
+The Line Items tab shows a list of line items associated with that Blanket Purchase Order including with the following details:
+* Item Code
+* Item Name
+* Valid Date
+* UOM
+* Unit Price
+* Qty
+* Txn Amount
+
+=== 2.1.4 Export
+
+image::6-Export.png[Export, align = "center"]
+
+The Export tab enables users to export the current document into the appropriate file type or format, in this case, a PDF for a blanket purchase order.
+

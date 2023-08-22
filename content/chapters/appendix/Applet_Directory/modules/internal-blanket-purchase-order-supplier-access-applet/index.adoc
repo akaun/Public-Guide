@@ -1,0 +1,10 @@
+[#h2_internal_blanket_purchase_order_supplier_access_applet_index]
+= Internal Blanket Purchase Order Supplier Access Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/blanket_purchase_order.adoc[leveloffset=3]
+
+include::pages/report.adoc[leveloffset=3]
+
+include::pages/blanket_purchase_order_detailed_report.adoc[leveloffset=3]
