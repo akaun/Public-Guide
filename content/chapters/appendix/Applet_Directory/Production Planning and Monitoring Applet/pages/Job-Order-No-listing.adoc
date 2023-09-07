@@ -1,0 +1,131 @@
+[#h3_Production_Planning_and_Monitoring_applet_introduction]
+
+=  1.0 Slide Bar Access
+
+image::SlideBarAccess.png[SlideBarAcess, align=center]
+
+The Slide bar access has 3 sections that are Master List, Processes and Sales Order.
+
+= 2.0  Master List
+
+The Master List section opens with Job Order No Listing.
+
+== 2.1 Job Ordr No Listing
+
+image::JobOrderNoListing.png[JobOrderNoListing, align=center]
+
+The Job Order No Listing page has a table with Job Order No, Job Order Date, Item Code, Customer Name, Container Measure, Container Quantity, UOM and Process Status columns. There is also a Search bar to search for job order no from the listing. There is a plus sign button besides search bar to create job Order No. 
+
+== 2.2 Create Job Order No
+
+The Create Job Order No tab tab has further pages that are Main Details and Process Instance. There is a RESET and CREATE button on top right corner that can be pressed to rest the changes made or to create the job order no after filling in the details.
+
+=== 2.2.1 Main Details
+
+The Main Details page has fields with details such as Job Order No, Job Order Date, Item Code, Item Name, UOM, Process Status, Estimated Packing Date, Completions date, Description and Remarks.
+
+image::Create-MainDetails.png[MainDetails, align=center]
+
+== 2.2.1 Process Instance
+
+The Process Instance page has dropdoen of Group Name.
+
+image::Create-ProcessInstance.png[ProcessInstance, align=center]
+
+== 2.3 View Job Order No
+
+The user can get to View Job Order No page by clicking on any job order no in the listing page. This page has further tabs that are Main, Sales order Link, and Process Instance. There is a RESET and SAVE button on top right corner that can be pressed to reset the changes made or to save the job order no after filling in the details.
+
+=== 2.3.1 Main
+
+image::View-Main.png[Main, align=center]
+
+The main page of View Job Order No has fields that are Job Order No, Job Order Date, Item Code, item name, UOM, Container Quantity, Ad-Hoc Quantity, Total Container Measure, Process Status, Estimated Packing Date, Completion Date, Description and Remarks.
+
+=== 2.3.2 Sales Order Link
+
+image::View-SalesOrderLink.png[SalesOrderLink, align=center]
+
+The Sales Order Link page has a listing Sales iNvoice No, a Search Bar and a plus sign button to create or Add new order link. There is also a Delete button to delete the listing. 
+
+
+=== 2.3.2.1 Add Sales Order Link
+
+User can get to Sales Order Link Add page by clicking the plus button. Here the user will find the listing of Sales order No and search bar. There is plus sign button that can be used to add the sales order link. 
+
+image::View-SalesOrderLink-Add.png[SalesOrderLink-Add, align=center]
+
+=== 2.3.3 Process Instance
+
+Process instance page has dropdown of group name, a table listing of Job order No , a plus sign button to create new process instance and delete button to delete anything from the listing table. There is a Generate Process Instance button to generate the process instance. 
+
+image::View-ProcessInstance.png[ProcessInstance, align=center]
+
+=== 2.3.3.1 Create  Process Instance
+
+The Create Process Instance page has a table with Process Template, Machine, Process Type, and  Output Inv Item. There is and Add button on top right to add the Process instance.
+
+image::View-ProcessInstance-Add.png[ProcessInstance-Add, align=center]
+
+= 3.0 Processes
+
+== 3.1 Processes Listing
+
+The Processes Listing page has a table with Job Order No, Job Order Date, Item Template, Issued By, Machine Code, Priority, Length, Quantity, UOM, QC Input Status, Status and Remarks columns. There is also a Search bar to search for job order no from the listing. 
+
+image::ProcessesListing.png[ProcessesListing, align=center]
+
+== 3.2 View Job Order
+
+User can get to View Job Order page by clicking on any of the listing. This page has furthertabs that are Main, Planned Output, Planned Input, and Department
+
+=== 3.2.1 Main
+
+The main page of View Job Order No has fields that are Job Order No, Job Order Date,, Process type, Process Template Name, Machine Code, Issued By , Priority, QC input status, Process Status and Remarks.
+
+image::ProcessesListing-View-Main.png[ProcessesListing-Main, align=center]
+
+=== 3.2.2 Planned Output
+
+The Planned output page has table with Item Code, Description, Batch No, Planned Length, Planned Quantity, and Actual Length columns.
+
+
+image::ProcessesListing-View-PlannedOutput.png[PlannedOutput, align=center]
+
+=== 3.2.3 Planned Input
+The Planned intput page has table with Item Code, Description, Batch No, Planned Length, Planned Quantity, and Actual Length columns.
+
+image::ProcessesListing-View-PlannedInput.png[PlannedInput, align=center]
+
+
+=== 3.2.4 Department
+The Department page has Segment, Dimension, Profit Centre and Project dropdowns.
+
+image::ProcessesListing-View-Department.png[Department, align=center]
+
+
+= 4.0 Sales Order
+
+== 4.1 Sales order Listing
+
+The Processes Listing page has a table with Job Order No, Txn Date, Customer Name, Expected Delivery, Item Code, Item Name,  Quantity, UOM, Available Stock Balance, Scenario Option and Process Status. There is also a Search bar to search for job order no from the listing. 
+
+image::SalesOrderListing.png[SalesOrderListing , align=center]
+
+== 4.2 Sales Order Details
+
+User can get to Sales Order Details page by clicking on any of the listing. This page has furthertabs that are Main Details and Item Details. There is a SAVE button to save the changes made.
+
+=== 4.2.1 Main Details
+
+The Main Details page has fields taht are Sales Order No, Txn Date, Branch, Location, Entity ID, Entity Name, Expected Delivery Date, Scenario Option, Job Order No, Status and Process Status.
+
+image::SalesOrderDetails-MainDetails.png[MainDetails, align=center]
+
+=== 4.2.2 Item Details
+
+The Item details page has Item Code, Item Name, Quantity, UOM and Available Stock Balance fields. There is Stock Balance Summary button at the bottom to generate the summary.
+
+image::SalesOrderListing-SalesOrderDetails-ItemDetails.png[ItemDetails, align=center]
+
+
