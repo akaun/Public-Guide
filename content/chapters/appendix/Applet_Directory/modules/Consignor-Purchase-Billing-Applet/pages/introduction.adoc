@@ -1,0 +1,8 @@
+[#h3_Consignor_Purchase_Billing_Applet_introduction]
+=  Introduction
+
+image:ConsignorPurchaseBillingApplet-LOGO.png[align=center]
+
+include::intro_description.adoc[]
+
+

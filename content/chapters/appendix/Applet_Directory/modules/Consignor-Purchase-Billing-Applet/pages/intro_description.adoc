@@ -1,0 +1,2 @@
+
+The Consignor Purchase Billing applet in which the consignee (generally the receiver) pays for shipping charges (including oversize and DIM weight) and Additional Handling Charges; the shipper pays for all other charges.
