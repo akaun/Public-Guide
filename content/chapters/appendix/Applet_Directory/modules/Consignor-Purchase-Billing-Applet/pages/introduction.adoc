@@ -1,8 +1,35 @@
 [#h3_Consignor_Purchase_Billing_Applet_introduction]
 =  Introduction
 
-image:ConsignorPurchaseBillingApplet-LOGO.png[align=center]
+image:ConsignorPurchaseBillingApplet-LOGO.png[ConsignorPurchaseBillingApplet-LOGO, align=center]
 
 include::intro_description.adoc[]
+
+**What are the uses of  Consignor Purchase Billing Applet?**
+Consignor Purchase Billing Applet is a designed to simplify the purchase billing process for consignors. It allows consignors to create invoices for their consignment sales, record all relevant details of the sales transaction, and send invoices to their buyers. Consignor Purchase Billing Applet is a useful tool for consignors who want to simplify their billing and tracking processes and increase their efficiency when it comes to managing consignment sales.
+
+
+**Who will use Consignor Purchase Billing Applet and where will it be used?**
+The Consignor Purchase Billing Applet can be used by consignors to simplify the billing and tracking process associated with consignment sales. It allows consignors to create and send invoices for their consignment sales, record all relevant details of the sales transaction, and track their sales and revenue.The applet can be used in a variety of settings where consignment sales take place, including physical consignment stores, online consignment marketplaces, and other retail settings where consignment sales are offered. It can be used by individual consignors as well as consignment businesses that manage multiple consignors and sales.
+
+
+**How will Consignor Purchase Billing Applet be used?**
+The Consignor Purchase Billing Applet can be used to streamline the process of billing and tracking consignment sales, making it easier for consignors to manage their inventory and revenue.
+
+
+**What are the Benefits of using  Consignor Purchase Billing Applet?**
+There are several benefits to using the Consignor Purchase Billing Applet developed by BigLedger. Here are some of the key benefits:
+
+1. Streamlined billing process: The applet simplifies the process of billing consignment sales by allowing consignors to create and send invoices quickly and easily.
+
+2. Automated calculations: The applet automatically calculates commission fees and other charges associated with each sale, reducing the risk of errors and saving time.
+
+3. Enhanced accuracy: By tracking all sales and revenue in one place, the applet can help ensure greater accuracy and consistency in billing and record-keeping.
+
+4. Improved efficiency: By automating many of the tasks associated with consignment sales, the applet can help consignors save time and increase their efficiency.
+
+5. Enhanced reporting capabilities: The applet may offer various reporting features that allow consignors to view their sales and revenue over time, identify trends, and make more informed business decisions.
+
+
 
 
