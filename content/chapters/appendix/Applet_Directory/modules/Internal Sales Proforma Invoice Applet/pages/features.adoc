@@ -1,0 +1,282 @@
+[#h3_ Internal Sales Proforma_Invoice_applet_features]
+=  Features
+
+== 1.0 General Access
+
+== 1.1 Slide Bar Access
+There are 2 section at Slide Bar that are Sales Proforma & Line Items
+
+image::InternalSalesProformaInvoiceApplet-SlideBar.png[InternalSalesProformaInvoiceApplet-SlideBar, align = "center"]
+
+== 2.0 Features
+== 2.1 Sales Proforma 
+User can get to Internal Sales Proforma Invoice Listing page by clicking on Sales Proforma section in Slide Bar.
+
+=== 2.1.1 Internal Sales Proforma Invoice Listing
+The  Internal Sales Proforma Invoice Listing page has table with Proforma No, Posting Status, Branch, Customer Name, Creation Date, Sales Agent, Amount Txn and Updated Date. There is a Search Bar to search for Proforma Invoices in the listing below. The User can press the Plus “+” button to Create Internal Sales Proforma Invoice Order.
+There is a Final Button to finalise the added information
+
+image::InternalSalesProformaInvoiceApplet-Listing.png[InternalSalesProformaInvoiceApplet-Listing, align = "center"]
+
+=== 2.1.2 Create Internal Sales Proforma Invoice Order
+The  Create Internal Sales Proforma Invoice Order page has further tabs that are Main Details, Account, Line Items, Delivery Details, Settlement, Department Hdr, KO For, and Contra
+There are two buttons at the top left side: Reset button to clear data that has been inserted to the text box and Create button to create the new Internal Proforma Invoice Order.
+
+=== 2.1.2.1 Main Details
+The Main Details has fields that are Branch, Location, Reference, Sales Agent, Member Card, Transaction Date, Credit Terms, Credit Limit, CRM Contact, Sales Lead, Permit No, Currency, Tracking ID and Remarks
+The fields with “*” sign with them are mandatory to be filled.
+
+image::InternalSalesProformaInvoiceApplet-Create-MainDetails.png[InternalSalesProformaInvoiceApplet-Create-MainDetails, align = "center"]
+
+=== 2.1.2.2 Account
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+
+=== 2.1.2.2.1 Entity Details
+The Entity Details Page has fields that are Entity ID, Entity Name, Status, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number. 
+The fields with “*” sign with them are mandatory to be filled.
+
+image::InternalSalesProformaInvoiceApplet-Create-Account-EntityDetails.png[InternalSalesProformaInvoiceApplet-Create-Account-EntityDetails, align = "center"]
+
+=== 2.1.2.2.2 Bill To 
+The Bill To  page has fields that are Name, Email, Phone No, Billing Address, Country, State, City and Postcode.
+
+image::InternalSalesProformaInvoiceApplet-Create-Account-BillTo.png[InternalSalesProformaInvoiceApplet-Create-Account-BillTo, align = "center"]
+
+=== 2.1.2.2.3 Ship To
+The Ship To page has fields that are Receipient Name, Email, Phone Number, Shipping Address, Country, State, City and Postcode.
+
+image::InternalSalesProformaInvoiceApplet-Create-Account-ShipTo.png[InternalSalesProformaInvoiceApplet-Create-Account-ShipTo, align = "center"]
+
+=== 2.1.2.3 Line Items
+The line item listing page has a table that has columns with
+Sales Debit Note No
+Item Code
+Item Name
+Qty
+Unit Price (Inclusine of tax)
+SST/VAT/GST
+Txn Amount
+The user can get to Select Item  page by clicking on the plus sign button.
+
+image::InternalSalesProformaInvoiceApplet-Create-LineItems.png[InternalSalesProformaInvoiceApplet-Create-LineItems, align = "center"]
+
+=== 2.1.2.3.1 Select Item
+The Select Item page has further tabs that are Search Item, Jobsheet Item, Quotation Item, and Previous Sales Order.
+
+=== 2.1.2.3.1.1  Search Item
+The Search tem page has table that has Item Code, Item Name, UOM and System Stock Balance columns.
+
+image::InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-SearchItem.png[InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-SearchItem, align = "center"]
+
+=== 2.1.2.3.1.2 Jobsheet Item
+The Jobsheet Item  page has table that has Jobsheet No, Item Code, Item Name, Jobsheet Qty, Delivered Qty, Open Qty, UOM, and Unit Price (Inclusive of Tax) columns.
+
+image::InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-JobSheetItem.png[InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-JobSheetItem, align = "center"]
+
+=== 2.1.2.3.1.3 Quotation Item
+The Quotation Item  page has table that has Quotation No, Item Code, Item Name, Quotation Qty, Delivered Qty, Open Qty, UOM, and Unit Price (Inclusive of Tax) columns.
+
+image::InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-QuotationItem.png[InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-QuotationItem, align = "center"]
+
+=== 2.1.2.3.1.4 Previous Sales Order
+The  Previous Sales Order  page has table that has Sales Order No, Item Code, Item Name, Sales Order Qty, Delivered Qty, Open Qty, UOM, and Unit Price (Inclusive of Tax) columns.
+
+image::InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-PreviousSalesOrder.png[InternalSalesProformaInvoiceApplet-Create-LineItems-SelectItem-PreviousSalesOrder, align = "center"]
+
+=== 2.1.2.4 Delivery Details
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity coloumns.
+
+image::InternalSalesProformaInvoiceApplet-Create-DeliveryDetails.png[InternalSalesProformaInvoiceApplet-Create-DeliveryDetails, align = "center"]
+
+=== 2.1.2.5 Settlement
+The Settlement page of Create Internal Sales Proforma Invoice Order tab has tabe with Date, Amount, Details and Remarks Coloumns. The plus sign button can used to Add Settlement.
+
+image::InternalSalesProformaInvoiceApplet-Create-Settlement.png[InternalSalesProformaInvoiceApplet-Create-Settlement, align = "center"]
+
+=== 2.1.2.5.1 Select Settlement
+The Select Settlemnt page has dropdown of Settlement Methods and a Add button on top right to add the settlement methods.
+
+image::InternalSalesProformaInvoiceApplet-Create-Settlement-SelectSettlement.png[InternalSalesProformaInvoiceApplet-Create-Settlement-SelectSettlement, align = "center"]
+
+=== 2.1.2.6 Department Hdr
+The Department hdr page has Segment, Dimension, Profit Centre and Project dropdowns.
+
+image::InternalSalesProformaInvoiceApplet-Create-DepartmentHdr.png[InternalSalesProformaInvoiceApplet-Create-DepartmentHdr, align = "center"]
+
+=== 2.1.2.7 KO For
+The KO For page has further tab that is Sales Order. This tab has table with Doc No, Customer, Ref No, Txn Date, and Branch Code.
+
+image::InternalSalesProformaInvoiceApplet-Create-KOFor.png[InternalSalesProformaInvoiceApplet-Create-KOFor, align = "center"]
+
+=== 2.1.2.8 Contra
+In the Contra tab, there is a plus button to “Select Document ” and a table that has  Doc Number, Server Doc Type, Branch, Status and Date.
+
+image::InternalSalesProformaInvoiceApplet-Create-Contra.png[InternalSalesProformaInvoiceApplet-Create-Contra, align = "center"]
+
+=== 2.1.2.8.1 Add Contra
+The Add Contra page has fields that are Doc No, Branch, Server Doc Type, Status, and Date.
+There is a Add button on top right to add contra.
+
+image::InternalSalesProformaInvoiceApplet-Create-Contra-AddContra.png[InternalSalesProformaInvoiceApplet-Create-Contra-AddContra, align = "center"]
+
+=== 2.1.3 View Internal Sales Proforma Invoice
+The User can get to  View Internal Sales Proforma Invoice by clicking on any of the Internal Sales Proforma Invoice listing.
+The View Internal Sales Proforma Invoice page has furthe tabs that are Main, Account, Line Items, Delivery Details, Settlement, Department Hdr, Contra, Doc Link, Attachments, Export and Convert.
+There is Reset, Final and Save Button on top right corner that can be used to reset the data filled, finalize the data or save the changes made. 
+
+=== 2.1.3.1 Main 
+The Main page has fields that are Document Type, Document No (Tenant), Document No (Company), Document No (Branch), Branch, Location, Sales Agent, Member Card, Transaction Date, Credit Term, Refrence, Remarks, Permit No, Currency, and Tracking ID. There is a Email Payment Link Button at very bottom.
+The fields with “*” sign with them are mandatory to be filled.
+
+image::InternalSalesProformaInvoiceApplet-View-Main.png[InternalSalesProformaInvoiceApplet-View-Main, align = "center"]
+
+=== 2.1.3.2 Account
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+
+image::InternalSalesProformaInvoiceApplet-View-Account.png[InternalSalesProformaInvoiceApplet-View-Account, align = "center"]
+
+=== 2.1.3.2.1 Entity Details
+Same as 2.1.2.2.1
+
+=== 2.1.3.2.2 Bill To 
+Same as 2.1.2.2.2
+
+=== 2.1.3.2.3 Ship To
+Same as 2.1.2.2.3
+
+=== 2.1.3.2 Line Items
+The line item listing page has a table that has columns with
+Item Code
+Item Name
+UOM
+Unit Price (Inclusine of tax)
+Qty
+Txn Amount
+
+image::InternalSalesProformaInvoiceApplet-ListingInternalSalesProformaInvoiceApplet-View-LineItems.png[InternalSalesProformaInvoiceApplet-View-LineItems, align = "center"]
+
+=== 2.1.3.3 Delivery Details
+The Delivery Details tab has  table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity coloumns.
+
+image::InternalSalesProformaInvoiceApplet-View-DeliveryDetails.png[InternalSalesProformaInvoiceApplet-View-DeliveryDetails, align = "center"]
+
+=== 2.1.3.4 Settlement 
+The Settlement page of View Internal Sales Proforma Invoice  tab has tabe with Date, Amount, Details and Remarks Coloumns. The plus sign button can used to Add Settlement.
+
+image::InternalSalesProformaInvoiceApplet-View-Settlement.png[InternalSalesProformaInvoiceApplet-View-Settlement, align = "center"]
+
+=== 2.1.3.5 Department Hdr
+The Department hdr page has Segment, Dimension, Profit Centre and Project dropdowns.
+
+image::InternalSalesProformaInvoiceApplet-View-DepartmentHdr.png[InternalSalesProformaInvoiceApplet-View-DepartmentHdr, align = "center"]
+
+=== 2.1.3.6 Contra
+In the Contra tab, there is a plus button to “Select Document ” and a table that has  Doc Number, Server Doc Type, Branch, Status and Date.
+
+image::InternalSalesProformaInvoiceApplet-View-Contra.png[InternalSalesProformaInvoiceApplet-View-Contra, align = "center"]
+
+=== 2.1.3.7 Doc Link
+The Doc Link tab has 2 pages that are To and From
+
+=== 2.1.3.7.1 From & To
+The To and From pages have table that has Doc No, Branch, Server Doc Type, Status, and Date columns.
+
+image::InternalSalesProformaInvoiceApplet-View-DocLink-From&To.png[InternalSalesProformaInvoiceApplet-View-DocLink-From&To, align = "center"]
+
+=== 2.1.3.8 Attachments
+The Attachment page has a table with File Name, Siza, Updated Date, Updated By and Actions columns. There is a plus sign button to get to add Attachment page. 
+
+image::InternalSalesProformaInvoiceApplet-View-Attachment.png[InternalSalesProformaInvoiceApplet-View-Attachment, align = "center"]
+
+=== 2.1.3.8.1 Add Attachment
+The Add Attachment page has option to Upload File or user can drag and drop the file. There is an Add button on top right to add the attachment.
+
+image::InternalSalesProformaInvoiceApplet-View-AddAttachment.png[InternalSalesProformaInvoiceApplet-View-AddAttachment, align = "center"]
+
+=== 2.1.3.9 Export
+The Export page has dropdown of Printable format and Button to Export file as PDF. 
+
+image::InternalSalesProformaInvoiceApplet-View-Export.png[InternalSalesProformaInvoiceApplet-View-Export, align = "center"]
+
+=== 2.1.3.10 Convert
+The Convert page has Convert to Internal Receipt Voucher Button.
+
+image::InternalSalesProformaInvoiceApplet-View-Convert.png[InternalSalesProformaInvoiceApplet-View-Convert, align = "center"]
+
+== 2.2 Line Items
+The user can get to Line Item Listing by pressing the Line Item section in the slide bar.
+
+=== 2.2.1 Line Item Listing
+The line item listing page has a table that has columns with
+Proforma Invoice No
+Item Code
+Item Name
+Ordered Qty
+Unit Price (Inclusine of tax)
+SST/VAT/GST
+Txn Amount
+The user can get to Edit Line Item page by clicking any of the listing.
+
+image::InternalSalesProformaInvoiceApplet-LineItemListing.png[InternalSalesProformaInvoiceApplet-LineItemListing, align = "center"]
+
+=== 2.2.2 Edit Line Item
+The Edit Line Item page has further tabs that are Item Details, Serial Number, Costing Detail, Pricing Detail, and Issue Link.
+
+=== 2.2.2.1 Item Details
+The Item Details page has further tabs that are:
+
+=== 2.2.2.1.1 Main Details
+The Main Details page has fields that include details that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+image::InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-MainDetails.png[InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-MainDetails, align = "center"]
+
+=== 2.2.2.1.2 Delivery Instruction
+The Delivery Instruction page has fields that are Instructions and Delivery Date and Delivery Message Card that has From, To and Message fields. 
+There are 2 options for  Users that are to Copy from Entity Name and Copy from Receipient Name.
+
+image::InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-DeliveryInstruction.png[InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-DeliveryInstruction, align = "center"]
+
+=== 2.2.2.1.3 Department
+The Department page has fields that are Segment, G/L Dimension, Profit Centre, and Project.
+
+image::InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-Department.png[InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-Department, align = "center"]
+
+=== 2.2.2.1.4 Related Documents
+The Related Documents page has table with fields such as Doc No, Branch, Server Doc Type, Status and Date.
+
+image::InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-RelatedDocuments.png[InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-RelatedDocuments, align = "center"]
+
+=== 2.2.2.1.5 Delivery Details
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity coloumns.
+
+image::InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-DeliveryDetails.png[InternalSalesProformaInvoiceApplet-LineItemListing-EditLineItem-ItemDetails-DeliveryDetails, align = "center"]
+
+=== 2.2.2.2 Serial Number
+The Serial Number tab has two pages that are Scan and Import
+
+=== 2.2.2.2.1 Scan
+The Scan page has Add Serial Number field, Scan Serial Number Type dropdown and list of serial numbers and Remove and Delete button at the bottom.
+
+image::InternalSalesProformaInvoiceApplet-EditLineItem-SerialNumber-Scan.png[InternalSalesProformaInvoiceApplet-EditLineItem-SerialNumber-Scan, align = "center"]
+
+=== 2.2.2.2.2 Import
+The Import page has upload file option with drag and drop file from anywhere option as well as list of serial numbers and Remove and Delete button at the bottom.
+
+image::InternalSalesProformaInvoiceApplet-EditLineItem-SerialNumber-Import.png[InternalSalesProformaInvoiceApplet-EditLineItem-SerialNumber-Import, align = "center"]
+
+=== 2.2.2.3 Costing Detail
+The Costing Details page has table with Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost, Last Purchase Unit Cost.
+There is also a Delete Button at the very bottom to delete the details.
+
+image::InternalSalesProformaInvoiceApplet-EditLineItem-CostingDetails.png[InternalSalesProformaInvoiceApplet-EditLineItem-CostingDetails, align = "center"]
+
+=== 2.2.2.4 Pricing Detail
+The Pricing Scheme page has table that has Pricing Schema Code, Pricing Schema Name, Unit Price and Modified Date.
+
+image::InternalSalesProformaInvoiceApplet-EditLineItem-PricingDetails.png[InternalSalesProformaInvoiceApplet-EditLineItem-PricingDetails, align = "center"]
+
+=== 2.2.2.5 Issue Link
+The Issue Link page has table with Project, Issue Number, Issue Suummary, Issue Description, Assignee, Created Date, Resolved Date and Status.
+There is a search bar at the top to search for project listing below.
+
+image::InternalSalesProformaInvoiceApplet-EditLineItem-IssueLink.png[InternalSalesProformaInvoiceApplet-EditLineItem-IssueLink, align = "center"]
