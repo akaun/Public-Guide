@@ -48,11 +48,15 @@ include::modules/group-maintenance-applet/index.adoc[leveloffset=2]
 
 include::modules/im-msesd-order-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-blanket-purchase-order-supplier-access-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-consignor-purchase-billing/index.adoc[leveloffset=2]
 
 include::modules/internal-delivery-order-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-goods-delivery-note-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-goods-dispatch-note-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-job-sheet-applet/index.adoc[leveloffset=2]
 
@@ -68,7 +72,11 @@ include::modules/internal-purchase-gin-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-grn-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-purchase-grn-supplier-access-applet/index.adoc[leveloffset=2]
+
 include::modules/internal-purchase-invoice-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-purchase-invoice-supplier-access-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-purchase-order-applet/index.adoc[leveloffset=2]
 
@@ -89,6 +97,8 @@ include::modules/internal-sales-credit-note-applet/index.adoc[leveloffset=2]
 include::modules/internal-sales-debit-note-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-good-issue-note-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-sales-goods-receive-note-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
 
@@ -128,6 +138,8 @@ include::modules/mlm-admin-applet/index.adoc[leveloffset=2]
 
 include::modules/multi-po-applet/index.adoc[leveloffset=2]
 
+include::modules/myBilling-applet/index.adoc[leveloffset=2]
+
 include::modules/my-sst-applet/index.adoc[leveloffset=2]
 
 include::modules/ocr-cash-bill-applet/index.adoc[leveloffset=2]
@@ -153,6 +165,10 @@ include::modules/sales-force-automation-applet/index.adoc[leveloffset=2]
 include::modules/scheduler-applet/index.adoc[leveloffset=2]
 
 include::modules/sales-contract-applet/index.adoc[leveloffset=2]
+
+include::modules/samsung-bopis-gin-applet/index.adoc[leveloffset=2]
+
+include::modules/samsung-bopis-grn-applet/index.adoc[leveloffset=2]
 
 include::modules/staff-time-attendance-applet/index.adoc[leveloffset=2]
 
