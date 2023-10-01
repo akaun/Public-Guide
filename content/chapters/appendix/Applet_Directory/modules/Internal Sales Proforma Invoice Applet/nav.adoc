@@ -1,0 +1,4 @@
+* Internal Sales Proforma Invoice Applet
+** xref:introduction.adoc[Introduction]
+** xref:features.adoc[features]
+

@@ -1,0 +1,301 @@
+[#h3_internal_sale_inquiry_applet_listing]
+=  Features
+
+== 1.0 General Access
+
+== 1.1 Slide Bar Access
+
+Internal Sales Inquiry Applet: Slide Bar
+The Slide Bar access has 2 sections that are  Sales Inquiry and Line Items.
+
+image::InternalSalesInquiryApplet-SlideBar.png[InternalSalesInquiryApplet-SlideBar, align=center]
+
+== 2.0 Features
+
+== 2.1 Sales Inquiry
+The user can get to Internal Sales Inquiry Listing by clicking the Sales Inquiry section.
+
+=== 2.1.1 Internal Sales Inquiry Listing
+The  Internal Sales Inquiry Listing  page has table that has Sales Order No, Posting Status, Branch, Customer Name, Sales Agent, Amount Txn, Updated Date, Created Date, Transaction Datecoloumns. There is a Search Bar to search for Sales Order in the listing below. The User can press the Plus “+” button to Create Internal Sales Inquiry.
+
+image::InternalSalesInquiryApplet-Listing.png[InternalSalesInquiryApplet-Listing, align=center]
+
+=== 2.1.2 Create Internal Sales Inquiry
+The  Create Internal Sales Inquiry page has further tabs that are Main Details, Account, Line Items, Delivery Details, Collection, Department Hdr, and Contra.There is a Create button at the top left side to Create the new Internal Sales Inquiry. There is also a Reset button to reset the changes made.
+
+=== 2.1.2.1 Main Details
+The Main Details has fields that are Branch, Location, Reference, Transaction Date, Credit Terms, Currency, Sales Agent,  CRM Contact, Permit No,   Member Card, Sales Lead, Tracking ID , Due Date and Remarks
+The fields with “*” sign with them are mandatory to be filled.
+
+image::InternalSalesInquiryApplet-Create-MainDetails.png[InternalSalesInquiryApplet-Create-MainDetails, align=center]
+
+=== 2.1.2.2 Account
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To.
+
+=== 2.1.2.2.1 Entity Details
+The Entity Details Page has fields that are Entity ID, Entity Name, Status, Entity Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number. 
+The fields with “*” sign with them are mandatory to be filled.
+
+image::InternalSalesInquiryApplet-Create-Account-EntityDetails.png[InternalSalesInquiryApplet-Create-Account-EntityDetails, align=center]
+
+=== 2.1.2.2.2 Bill To
+The Bill To  page has fields that are Name, Email, Phone No, Billing Address, Country, State, City and Postcode.
+
+image::InternalSalesInquiryApplet-Create-Account-BillTo.png[InternalSalesInquiryApplet-Create-Account-BillTo, align=center]
+
+=== 2.1.2.2.3 Ship To
+The Ship To page has fields that are Receipient Name, Email, Phone Number, Shipping Address, Country, State, City and Postcode.
+
+image::InternalSalesInquiryApplet-Create-Account-ShipTo.png[InternalSalesInquiryApplet-Create-Account-ShipTo, align=center]
+
+=== 2.1.2.3 Line Items
+The line item listing page has a table that has columns with
+Item Code
+Item Name
+UOM
+Qty
+Unit Price (Inclusine of tax)
+SST/VAT/GST
+Txn Amount
+The user can get to Select Item  page by clicking on the plus “+” sign button.
+
+image::InternalSalesInquiryApplet-Create-LineItems.png[InternalSalesInquiryApplet-Create-LineItems, align=center]
+
+=== 2.1.2.3.1 Select Line Item
+The Select Item page has further tabs that are Search Item, Jobsheet Item, Quotation Item, and Previous Sales Order.
+
+=== 2.1.2.3.1.1 Search Item
+The Search tem page has table that has Item Code, Item Name, UOM and System Stock Balance columns.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem, align=center]
+
+=== 2.1.2.3.1.1.1 Add Line Item
+The user can get to Add Item page has further tabs that are Item Details, Costing Detail, Pricing Details and Issue Link. There is an Add Button on top right which can be clicked afer filling in the details to add them.
+
+=== 2.1.2.3.1.1.1.1 Item Details
+The Item Details page has further tabs that are Main Details, Delivery Instruction, Department, Related Document and Delivery Details.
+
+=== 2.1.2.3.1.1.1.1.1 Main Details
+
+The Main Details page has fields that include details that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-MainDetails.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-MainDetails, align=center]
+
+=== 2.3.1.1.1.1.2 Delivery Instructions
+The Delivery Instruction page has fields that are Instructions and Delivery Date and Delivery Message Card that has From, To and Message fields. 
+There are 2 options for  Users that are to Copy from Entity Name and Copy from Receipient Name.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-DeliveryInstructions.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-DeliveryInstructions, align=center]
+
+=== 2.1.2.3.1.1.1.1.3 Department
+The Department page has fields that are Segment, G/L Dimension, Profit Centre, and Project.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-Department.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-Department, align=center]
+
+=== 2.1.2.3.1.1.1.1.4 Related Documents
+The Related Documents page has table with fields such as Doc No, Branch, Server Doc Type, Status and Date.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-RelatedDocuments.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-RelatedDocuments, align=center]
+
+=== 2.1.2.3.1.1.1.1.5 Delivery Details
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity coloumns.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-DeliveryDetails.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-ItemDetails-DeliveryDetails, align=center]
+
+=== 2.1.2.3.1.1.1.2 Costing Details
+The Costing Detaisl page has table with Company Code, Location Code, Qty, Moving Average Unit Cost, FIFO Unit Cost, Manual Unit Cost Last Purchase Unit Cost.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-CostingDetails.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-CostingDetails, align=center]
+
+=== 2.1.2.3.1.1.1.3 Pricing Details
+The Pricing Scheme page has table that has Pricing Schema Code and Pricing Schemea Name. 
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-PricingDetails.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-PricingDetails, align=center]
+
+=== 2.1.2.3.1.1.1.4 Issue Link
+The Issue Link page has table with Project, Issue Number, Issue Suummary, Issue Description, Assignee, Created Date, Resolved Date and Status
+The User can click on any listing to get to Edit Issue page.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink, align=center]
+
+=== 2.1.2.3.1.1.1.4.1 Edit Issue
+The Edit Issue page has Issue Number and Summary and further tabs that are Details, Planning, Attachment, Comment, Subtasks, Linked Issues, Worklogs  and Activity. 
+There is a save button on top right to save the data filled.
+
+=== 2.1.2.3.1.1.1.4.1.1 Main Details
+The Details page has fields that are Project, Issue Type, Assignee, Reporter, Summary, Description, Parent, Created Date, Target Start Date, Target End Date, Actual Start Date, Actual End Date and Due Date.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-MainDetails.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-MainDetails, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.2 Planning
+The Planning page has field that are Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Amount, Currency, Cost Amount, Story Point, Manday Target, Manday Actual, Manday Allocated,and Manday Billing. 
+
+Iimage::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Planning.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Planning, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.3 Attachment
+The Attachment page has option to Upload File or user can drag and drop the file. 
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Attachment.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Attachment, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.4 Comment
+The Comment page has table with User Name, Comments and Date. The plus sign button can be used to add comments. 
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Comment.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Comment, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.5 Subtask
+The Subtasks page has table with Issue Type, Issue Number, Summary Description, Assignee, Priority Due and  Date Status. he plus sign button can be used to add tasks.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Subtasks.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Subtasks, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.6 Linked Issues
+The Linked Issue page has table that has Project,  Issue Type, Issue Number, Summary Description, Assignee, Priority Due and  Date Status. The plus sign button can be used to add Issue.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-LinkedIssue.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-LinkedIssue, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.7 Worklog
+The Worklog page has a table with Date, Name, Time Spent and Description columns. The plus sign button can be used to add logwork.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Worklog.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Worklog, align=center]
+
+=== 2.1.2.3.1.1.1.4.1.8 Activity
+The Activity page has a search bar to search for activity in the table below. The table has Date, User and Activity columns.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Activity.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Activity, align=center]
+
+=== 2.1.2.3.2 Jobsheet Item
+The Jobsheet Item  page has table that has Jobsheet No, Item Code, Item Name, Jobsheet Qty, Delivered Qty, Open Qty, UOM, Unit Price, and Status columns.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-JobsheetItem.png[InternalSalesInquiryApplet-Create-SelectLineItem-JobsheetItem, align=center]
+
+=== 2.1.2.3.1.3 Quotation Item
+The Quotation Item  page has table that has Quotation No, Item Code, Item Name, Quotation Qty, Delivered Qty, Open Qty, UOM, Unit Price and Status columns.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-QuotationItem.png[InternalSalesInquiryApplet-Create-SelectLineItem-QuotationItem, align=center]
+
+=== 2.1.2.3.1.4 Previous Sales Inquiry
+The  Previous Sales Order  page has table that has Sales Order No, Item Code, Item Name, Sales Order Qty, Delivered Qty, Open Qty, UOM, and Unit Price (Inclusive of Tax) columns.
+
+image::InternalSalesInquiryApplet-Create-SelectLineItem-PreviousSalesInquiry.png[InternalSalesInquiryApplet-Create-SelectLineItem-PreviousSalesInquiry, align=center]
+
+=== 2.1.2.4 Delivery Details
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity coloumns.
+
+image::InternalSalesInquiryApplet-Create-DeliveryDetails.png[InternalSalesInquiryApplet-Create-DeliveryDetails, align=center]
+
+=== 2.1.2.5 Collection
+The Collection page has Receipt Number, Collection Method, Date, Collection Amount, and Remarks coloumns.
+
+image::InternalSalesInquiryApplet-Create-Collection.png[InternalSalesInquiryApplet-Create-Collection, align=center]
+
+=== 2.1.2.5.1 Select Collection
+The Select Collection page has Collection Method dropdown.
+
+image::InternalSalesInquiryApplet-Create-SelectCollection.png[InternalSalesInquiryApplet-Create-SelectCollection, align=center]
+
+=== 2.1.2.6 Department Hdr
+The Department hdr page has Segment, Dimension, Profit Centre and Project dropdowns.
+
+image::InternalSalesInquiryApplet-Create-DepartmentHdr.png[InternalSalesInquiryApplet-Create-DepartmentHdr, align=center]
+
+=== 2.1.2.7 Contra
+In the Contra tab, there is a plus button to “Select Document ” and a table that has  Doc Number, Server Doc Type, Branch, Status and Date.
+
+image::InternalSalesInquiryApplet-Create-Contra.png[InternalSalesInquiryApplet-Create-Contra, align=center]
+
+=== 2.1.2.7.1 Add Contra
+The Add Contra page has fields that are Doc No, Branch, Server Doc Tpe, Doc Date, Transaction Date and Contra Amount.
+There is a Add button on top right to add contra.
+
+image::InternalSalesInquiryApplet-Create-AddContra.png[InternalSalesInquiryApplet-Create-AddContra, align=center]
+
+=== 2.1.3 View Internal Sales Inquiry
+The User can get to View Internal Sales Inquiry by clicking on any of the sales order in the Internal Sales Inquiry Listing page.
+There are three buttons at the top left side: Reset button to clear data that has been inserted to the text box and Create button to create the new Internal Sales Inquiry Order and Final  button that can be clicked when finalising the details edited.
+
+=== 2.1.3.1 Main 
+The Main page has fields that are Branch, Location, Reference, Sales Agent, Member Card, Transaction Date, Credit Terms, Credit Limit, CRM Contact, Sales Lead, Permit No, Currency, Tracking ID and Remarks
+The fields with “*” sign with them are mandatory to be filled.
+There is a Delete button at very bottom of the the page to delete the details added.
+
+image::InternalSalesInquiryApplet-View-Main.png[InternalSalesInquiryApplet-View-Main, align=center]
+
+=== 2.1.3.2 Account
+The Account page has further 3 tabs that are Entity Details, Bill To and Ship To. 
+There is a Delete button at very bottom of the the page to delete the details added.
+
+image::InternalSalesInquiryApplet-View-Account.png[InternalSalesInquiryApplet-View-Account, align=center]
+
+=== 2.1.3.3 Line Items
+The Line Item page has a table with Item Code, Opening Stock, Net Purchase, Closing Stock, Quantity to Bill, SST/WAT/GST, and Txn Amount columns.
+There is a Plus “+” sign button to get to Add Item  page.
+There is a Delete button at very bottom of the the page to delete the details added.
+
+image::InternalSalesInquiryApplet-View-LineItems.png[InternalSalesInquiryApplet-View-LineItems, align=center]
+
+=== 2.1.3.4 Delivery Details
+The Delivery Details tab has a search bar and table with Trip No. Driver Name, Vehicle Number, Job Start Date, Job End Date, Delivery Status, Recipient Name and Quantity coloumns.
+There is a Delete button at very bottom of the the page to delete the details added.
+
+image::InternalSalesInquiryApplet-View-DeliveryDetails.png[InternalSalesInquiryApplet-View-DeliveryDetails, align=center]
+
+=== 2.1.3.5 Collection
+The Collection page has Receipt Number, Collection Method, Date, Collection Amount, and Remarks coloumns.
+There is a Delete button at very bottom of the the page to delete the details added.
+
+
+image::InternalSalesInquiryApplet-View-Collection.png[InternalSalesInquiryApplet-View-Collection, align=center]
+
+=== 2.1.3.6 Department Hdr
+The Department hdr page has Segment, Dimension, Profit Centre and Project dropdowns.
+There is a Delete button at very bottom of the the page to delete the details added.
+
+image::InternalSalesInquiryApplet-View-DepartmentHdr.png[InternalSalesInquiryApplet-View-DepartmentHdr, align=center]
+
+=== 2.1.3.7 Contra
+In the Contra tab, there is a plus button to “Select Document ” and a table that has  Doc Number, Server Doc Type, Branch, Status and Date.
+There is a Delete button at very bottom of the the page to delete the details added.
+
+image::InternalSalesInquiryApplet-View-Contra.png[InternalSalesInquiryApplet-View-Contra, align=center]
+
+=== 2.1.3.8 Attachments
+The Attachment page has a table with File Name, Size, Uploaded Date, Updated By columns. There is a plus sign button to get to add Attachment page. 
+
+image::InternalSalesInquiryApplet-View-Attachments.png[InternalSalesInquiryApplet-View-Attachments, align=center]
+
+=== 2.1.3.8.1 Add Attachment
+The Add Attachment page has option to Upload File or user can drag and drop the file. 
+
+image::InternalSalesInquiryApplet-View-AddAttachments.png[InternalSalesInquiryApplet-View-AddAttachments, align=center]
+
+=== 2.1.3.9 Export
+The Export page has dropdown of Printable format and Button to Export file as PDF. 
+
+image::InternalSalesInquiryApplet-View-Export.png[InternalSalesInquiryApplet-View-Export, align=center]
+
+=== 2.1.3.10 Convert
+The Convert page has Convert to Internal Receipt Voucher Button.
+
+image::InternalSalesInquiryApplet-View-Convert.png[InternalSalesInquiryApplet-View-Convert, align=center]
+
+=== 2.2 Line Item
+The user can get to Line Item Listing page by clicking on Line Item section in Slide Bar.
+
+=== 2.2.1 Line Item Listing
+The line item listing page has a table that has columns with
+Sales Inquiry No
+Branch
+Salesman
+Customer Name
+Shipping Address
+Item Code
+Item Name
+Qty
+Creation Date
+Requested Delivery Date
+Delivery Status
+Remarks
+The user can get to Edit Line Item page by clicking any of the listing.
+
+image::InternalSalesInquiryApplet-LineItemListing.png[InternalSalesInquiryApplet-LineItemListing, align=center]
+
+

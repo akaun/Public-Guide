@@ -1,0 +1,1 @@
+The Production Planning and Monitoring Applet is used in Creating and issuing job orders by processes and machines.

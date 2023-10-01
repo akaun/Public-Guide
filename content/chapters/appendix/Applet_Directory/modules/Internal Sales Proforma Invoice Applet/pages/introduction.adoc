@@ -1,0 +1,38 @@
+[#h3_Internal_Sales_Proforma_Invoice_applet_introduction]
+=  Introduction
+
+image::InternalSalesProformaInvoiceApplet-LOGO.png[align=center]
+
+include::intro_description.adoc[]
+
+**What are the uses of  Internal Sales Proforma Invoice Applet?**
+
+An Internal Sales Proforma Invoice Applet can be a valuable tool for businesses that need to generate proforma invoices quickly and efficiently while maintaining accuracy and consistency.
+
+**Who will use Internal Sales Proforma Invoice Applet and where will it be used?**
+
+An Internal Sales Proforma Invoice Applet can be used by various departments within a business organization, including sales, finance, accounting, and operations. Here are some examples of who might use the applet and where it might be used
+The Internal Sales Proforma Invoice Applet can be used in any business that needs to generate invoices quickly and efficiently. It can be used in various settings, including offices, warehouses, and manufacturing facilities.
+
+**How will Internal Sales Proforma Invoice Applet  be used?**
+
+The Internal Sales Proforma Invoice Applet can help businesses streamline the process of generating proforma invoices while maintaining accuracy and consistency. It can also help improve communication between different departments within the organization and provide valuable data for sales and accounting analysis.
+
+**What are the Benefits of using  Internal Sales Proforma Invoice Applet?**
+
+There are several benefits of using an Internal Sales Proforma Invoice Applet, including:
+
+Time-saving: The applet can automate the process of generating proforma invoices, which can save time and reduce the risk of errors that can occur with manual invoice creation.
+
+Improved accuracy: The applet can help ensure that proforma invoices are accurate and consistent, which can help prevent disputes and improve customer satisfaction.
+
+Increased efficiency: The applet can streamline the invoicing process, which can help businesses process invoices more quickly and efficiently.
+
+Better communication: The applet can provide a standardized format for proforma invoices, which can help improve communication between different departments within the organization.
+
+Enhanced reporting: The applet can help businesses keep track of sales transactions and generate reports on sales activity, which can help identify trends and make informed business decisions.
+
+Reduced costs: By automating the invoicing process and improving accuracy, the applet can help reduce costs associated with manual invoice creation, disputes, and customer complaints.
+
+
+

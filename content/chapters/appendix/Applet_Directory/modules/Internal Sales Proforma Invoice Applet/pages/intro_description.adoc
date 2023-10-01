@@ -1,0 +1,1 @@
+The Internal Sales Proforma Invoice Applet is for staff to create proforma invoices to their customers. The Applet has two Sections that are Sales Proforma and Line Items

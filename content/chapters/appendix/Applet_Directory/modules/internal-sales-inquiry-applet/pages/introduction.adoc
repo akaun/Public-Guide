@@ -1,6 +1,31 @@
 [#h3_internal_sale_inquiry_applet_introduction]
 =  Introduction
 
-image::blank_logo.png[]
+image::InternalSalesInquiryApplet-LOGO.png[]
 
 include::intro_description.adoc[]
+
+
+**What are the uses of Internal Sales Inquiry Applet?**
+
+An Internal Sales Inquiry Applet is a software application designed to manage sales inquiries that come from within an organization. An Internal Sales Inquiry Applet can help businesses manage their sales inquiries more efficiently, streamline their sales process, and improve their bottom line.
+
+**Who will use Internal Sales Inquiry Applet  and where will it be used?**
+
+An Internal Sales Inquiry Applet can be used by various departments and individuals within an organization who are involved in the sales process. These can include sales reps, sales managers, marketing teams, customer service teams, and other relevant departments.The applet can be used in various locations within an organization, such as sales offices, call centers, and customer service centers. It can also be accessed remotely by sales reps who work remotely or travel frequently, as it is typically a cloud-based application.
+
+**What are the Benefits of using  Internal Sales Inquiry Applet?**
+
+Using an Internal Sales Inquiry Applet can provide several benefits for businesses, including:
+
+Improved Lead Management: The applet can help businesses manage leads generated from various sources, qualify them, and distribute them to the relevant sales reps or teams. This can increase the efficiency of the sales process and improve the chances of converting leads into customers.
+
+Streamlined Sales Process: An Internal Sales Inquiry Applet can streamline the sales process by providing a centralized platform for managing sales inquiries. This can help sales reps respond to inquiries quickly, track their progress, and collaborate with other teams to close deals faster.
+
+Better Customer Service: The applet can provide sales reps with access to relevant information about the leads and customers, enabling them to provide better service and support. This can lead to increased customer satisfaction and loyalty.
+
+Data-Driven Decisions: The applet can provide insights into the sales pipeline, such as the number of leads generated, lead conversion rates, and revenue generated. This information can help businesses make data-driven decisions to improve their sales process and grow their business.
+
+Increased Productivity: The applet can automate many tasks related to lead management, such as lead distribution and lead qualification, freeing up sales reps' time to focus on selling. This can lead to increased productivity and revenue for the business.
+
+Enhanced Collaboration: The applet can facilitate collaboration between sales reps and other teams involved in the sales process, such as marketing or customer service. This can lead to a more cohesive and effective sales team.
