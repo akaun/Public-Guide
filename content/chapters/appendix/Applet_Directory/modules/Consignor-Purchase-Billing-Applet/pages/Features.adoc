@@ -1,0 +1,118 @@
+[#h3_Consignor_Purchase_Billing_Applet_Introduction]
+= 1.0 General Access
+
+== 1.1 Slide Bar Access
+There is 1 section at Slide Bar that is Internal Consignor Purchase Billing.
+
+image::ConsignorPurchaseBillingApplet-SlideBar.png[ConsignorPurchaseBillingApplet-SlideBar, align=center]
+
+= 2.0 Features
+User can get to Consignor Purchase Billing Listing page by clicking on Internal Consignor Purchase Billing section.
+
+== 2.1 Consignor Purchase Billing Listing
+The  Consignor Purchase Billing Listing page has table with Consignor Name, Posting Status, Branch, Consignor, Start Date, End Date, and Status. There is a Search Bar to search for Consignor Purchase billing in the listing below. The User can press the Plus “+” button to Create Consignor Purchase Billing.
+
+
+image::ConsignorPurchaseBillingApplet-Listing.png[ConsignorPurchaseBillingApplet-Listing, align=center]
+
+
+== 2.1.1 Create Consignor Purchase Billing 
+The  Create Consignor Purchase Billing page has further tabs that are Main Details, Account, Line Items, and Payment.There is a Create button at the top left side to Create the new Consignor Purchase Billing.
+
+== 2.1.1.1 Main Details
+The Main Details has fields that are Start Date, End Date, Company, Branch, Location, Purchaser Agent, Status, Reference and Remarks
+The fields with “*” sign with them are mandatory to be filled.
+
+image::ConsignorPurchaseBillingApplet-Create-MainDetails.png[ConsignorPurchaseBillingApplet-Create-MainDetails, align=center]
+
+== 2.1.1.2 Account
+The Account page has fields tat are Consignor Code, Consignor Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number.
+
+image::ConsignorPurchaseBillingApplet-Create-Account.png[ConsignorPurchaseBillingApplet-Create-Account, align=center]
+
+== 2.1.1.3 Line Item
+The Line Item page has a table with Item Code, Opening Stock, Net Purchase, Closing Stock, Quantity to Bill, SST/WAT/GST, and Txn Amount columns.
+There is a Plus “+” sign button to get to Select Line Item  page.
+
+image::ConsignorPurchaseBillingApplet-Create-LineItem.png[ConsignorPurchaseBillingApplet-Create-LineItem, align=center]
+
+== 2.1.1.3.1 Select Line Item
+The Select Line Item page has a search bar to select the item from the table below. User can click on the listing to get to Add Item page.
+
+image::ConsignorPurchaseBillingApplet-LineItem-SelectLineItem.png[ConsignorPurchaseBillingApplet-LineItem-SelectLineItem, align=center]
+
+== 2.1.1.3.1.1 Add Item
+The Add item page has further 2 tabs that are Item Details and Calculations.
+
+=== 2.1.1.3.1.1.1 Item Details
+The Item Details page has fields that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+image::ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-EditItem-ItemDetails.png[ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-EditItem-ItemDetails, align=center]
+
+== 2.1.1.3.1.1.2 Calculation
+The Calculations page has fields that are Opening Quantity, Net Purchaser, Closing Stock and Quantity to Bill.
+
+image::ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-EditItem-Calculations.png[ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-EditItem-Calculations, align=center]
+
+== 2.1.1.3.2 Edit Item
+User can click on any of the listing on Line Item tab to get to Edit Item page. The Edit item page has further 2 tabs that are Item Details and Calculations.
+
+== 2.1.1.3.2.1 Item Details
+The Item Details page has fields that are Item Code, Item Name, UOM, Pricing Scheme, Unit Price (Exclusive and Inclusive of tax), Unit Discount, Quantity Base, Quantity by UOM, UOM to Base Ratio, Unit Price STD by UOM (Exclusive and Inclusive of tax), Unit Price Net by UOM (Exclusive of Tax), Unit Price Transaction by UOM (Inclusive of tax), Unit Price Net (Exclusive of tax), STD Amount (Unit Price and Quantity), Discount Amount (Exclusive of tax), Amount Net (Exclusive of tax), SST Code, SST/GST,VAT, Tax Amount, Tariff Codes, WHT Code, WHT, WHT Amount, Unit Price Transaction (Inclusive of tax), Txn Amount, Remarks.
+
+image::ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-AddItem-ItemDetails.png[ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-AddItem-ItemDetails, align=center]
+
+== 2.1.1.3.2.2 Calculation
+The Calculations page has fields that are Opening Quantity, Net Purchaser, Closing Stock and Quantity to Bill.
+
+image::ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-AddItem-Calculations.png[ConsignorPurchaseBillingApplet-Create-LineItem-SelectLineItem-AddItem-Calculations, align=center]
+
+== 2.1.1.5 Payment
+The Payment page of Create Consignor tab has a table with Payment Voucher No, Payment Method, Date, Paid Amount, and Remarks columns.There is a Plus Sign button that can be clicked to get to Add Payment page.
+
+image::ConsignorPurchaseBillingApplet-Create-Payment.png[ConsignorPurchaseBillingApplet-Create-Payment, align=center]
+
+== 2.1.1.5.1 Add Payment
+The Add Payment page has dropdown of settlement methods and an Add button on top right to add the payment after selecting from the dropdown.
+
+image::ConsignorPurchaseBillingApplet-Create-AddPayment.png[ConsignorPurchaseBillingApplet-Create-AddPayment, align=center]
+
+== 2.1.2 Edit Consignor Purchase Billing 
+The  Edit Consignor Purchase Billing page has further tabs that are Main Details, Account, Line Items, Payment and Export.There is a Reset and Save button at the top left side to reset the details added or to save the changes made.
+
+== 2.1.2.1 Main Details
+The Main Details has fields that are Start Date, End Date, Company, Branch, Location, Purchaser Agent, Status, Reference and Remarks
+The fields with “*” sign with them are mandatory to be filled.
+
+image::ConsignorPurchaseBillingApplet-Edit-MainDetails.png[ConsignorPurchaseBillingApplet-Edit-MainDetails, align=center]
+
+== 2.1.2.2 Account
+The Account page has fields that are Consignor Code, Consignor Name, Status, Entity Type, Identity Type, ID Number, Currency, GL Code, Description, Email and Phone Number.
+
+image::ConsignorPurchaseBillingApplet-Edit-Account.png[ConsignorPurchaseBillingApplet-Edit-Account, align=center]
+
+== 2.1.2.3 Line Items
+The Line Item page has a table with Item Code, Opening Stock, Net Purchase, Closing Stock, Quantity to Bill, SST/WAT/GST, and Txn Amount columns.
+There is a Plus “+” sign button to get to Add Item  page.
+
+image::ConsignorPurchaseBillingApplet-Edit-LineItem.png[ConsignorPurchaseBillingApplet-Edit-LineItem, align=center]
+
+== 2.1.2.3.1 Add Item
+The Add item page has further 2 tabs that are Item Details and Calculations.
+
+image::ConsignorPurchaseBillingApplet-edit-LineItem-SelectLineItem-AddItem.png[ConsignorPurchaseBillingApplet-edit-LineItem-SelectLineItem-AddItem, align=center]
+
+== 2.1.2.4 Payment
+The Payment page of Edit Consignor tab has a table with Payment Voucher No, Payment Method, Date, Paid Amount, and Remarks columns.There is a Plus Sign button that can be clicked to get to Add Payment page.
+
+image::ConsignorPurchaseBillingApplet-Edit-Payment.png[ConsignorPurchaseBillingApplet-Edit-Payment, align=center]
+
+== 2.1.2.4.1 Add Payment
+The Add Payment page has dropdown of settlement methods and an Add button on top right to add the payment after selecting from the dropdown.
+
+image::ConsignorPurchaseBillingApplet-Edit-EditPayment.png[ConsignorPurchaseBillingApplet-Edit-EditPayment, align=center]
+
+2.1.2.5 Export
+The Export page has Printable format dropdown and Export as PDF button.
+
+image::ConsignorPurchaseBillingApplet-Edit-Export.png[ConsignorPurchaseBillingApplet-Edit-Export, align=center]
