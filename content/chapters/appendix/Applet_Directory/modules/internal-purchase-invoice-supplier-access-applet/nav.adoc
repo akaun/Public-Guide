@@ -1,6 +1,6 @@
 * Internal Purchase Invoice Supplier Access Applet
 ** xref:introduction.adoc[Introduction]
-** xref:internal_purchase_invoice_listing.adoc[Features]
-** xref:view_internal_purchase_invoice.adoc[Features]
-** xref:line_items_listing.adoc[Features]
-** xref:view_line_item.adoc[Features]
+** xref:internal_purchase_invoice_listing.adoc[Internal Purchase Invoice Listing]
+** xref:view_internal_purchase_invoice.adoc[View Internal Purchase Invoice]
+** xref:line_items_listing.adoc[Line Items Listing]
+** xref:view_line_item.adoc[View Line Item]

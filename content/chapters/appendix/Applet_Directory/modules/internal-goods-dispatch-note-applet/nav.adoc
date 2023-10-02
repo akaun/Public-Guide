@@ -1,6 +1,6 @@
 * Internal Goods Dispatch Note Applet
 ** xref:introduction.adoc[Introduction]
 ** xref:internal_goods_dispatch_note_listing.adoc[Internal Goods Dispatch Note Listing]
-** xref:create_internal_sgoods_dispatch_note.adoc[Create Internal Goods Dispatch Note]
+** xref:create_internal_goods_dispatch_note.adoc[Create Internal Goods Dispatch Note]
 ** xref:edit_internal_goods_dispatch_note.adoc[Edit Internal Goods Dispatch Note]
 ** xref:line_items.adoc[Line Items]

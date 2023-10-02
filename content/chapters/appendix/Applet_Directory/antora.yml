@@ -22,12 +22,14 @@ nav:
 - modules/fixed-asset-applet/nav.adoc
 - modules/group-maintenance-applet/nav.adoc
 - modules/im-msesd-order-applet/nav.adoc
+- modules/internal-blanket-purchase-order-supplier-access-applet/nav.adoc
 - modules/internal-receipt-voucher-applet/nav.adoc
 - modules/internal-shopping-cart-applet/nav.adoc
 - modules/internal-stock-adjustment-applet/nav.adoc
 - modules/inventory-item-maintenance-applet/nav.adoc
 - modules/internal-delivery-order-applet/nav.adoc
 - modules/internal-goods-delivery-note-applet/nav.adoc
+- modules/internal-goods-dispatch-note-applet/nav.adoc
 - modules/internal-job-sheet-applet/nav.adoc
 - modules/internal-packing-order-applet/nav.adoc
 - modules/internal-payment-voucher-applet/nav.adoc
@@ -35,7 +37,10 @@ nav:
 - modules/internal-purchase-debit-note-applet/nav.adoc
 - modules/internal-packing-order-applet/nav.adoc
 - modules/internal-purchase-gin-applet/nav.adoc
+- modules/internal-purchase-grn-applet/nav.adoc
+- modules/internal-purchase-grn-supplier-access-applet/nav.adoc
 - modules/internal-purchase-invoice-applet/nav.adoc
+- modules/internal-purchase-invoice-supplier-access-applet/nav.adoc
 - modules/internal-purchase-order-applet/nav.adoc
 - modules/internal-purchase-order-supplier-access-applet/nav.adoc
 - modules/internal-purchase-quotation-applet/nav.adoc
@@ -46,17 +51,20 @@ nav:
 - modules/internal-sales-credit-note-applet/nav.adoc
 - modules/internal-sales-debit-note-applet/nav.adoc
 - modules/internal-sales-good-issue-note-applet/nav.adoc
+- modules/internal-sales-goods-receive-note-applet/nav.adoc
 - modules/internal-sales-invoice-applet/nav.adoc
 - modules/internal-sales-order-applet/nav.adoc
 - modules/internal-sales-quotation-applet/nav.adoc
 - modules/internal-sales-return-applet/nav.adoc
 - modules/internal-stock-requisition-applet/nav.adoc
+- modules/internal-stock-transfer-applet/nav.adoc
 - modules/ledger-and-journal-applet/nav.adoc
 - modules/media-library-applet/nav.adoc
 - modules/membership-admin-applet/nav.adoc
 - modules/merchant-access-applet/nav.adoc
 - modules/merchant-admin-maintenance-applet/nav.adoc
 - modules/multi-po-applet/nav.adoc
+- modules/myBilling-applet/nav.adoc
 - modules/my-sst-applet/nav.adoc
 - modules/issue-tracker-applet/nav.adoc
 - modules/mlm-admin-applet/nav.adoc
@@ -70,6 +78,8 @@ nav:
 - modules/sales-commission-applet/nav.adoc
 - modules/sales-contract-applet/nav.adoc
 - modules/sales-force-automation-applet/nav.adoc
+- modules/samsung-bopis-gin-applet/nav.adoc
+- modules/samsung-bopis-grn-applet/nav.adoc
 - modules/scheduler-applet/nav.adoc
 - modules/shipping-pricebook-applet/nav.adoc
 - modules/stock-availability-applet/nav.adoc
@@ -82,7 +92,11 @@ nav:
 - modules/url-shortening-applet/nav.adoc
 - modules/voucher-management-applet/nav.adoc
 - modules/Workflow-Design-Applet/nav.adoc
+<<<<<<< HEAD
 - modules/internal-purchase-grn-supplier-access-applet/nav.adoc
 - modules/url-shortening-applet/nav.adoc
 - modules/internal_sales_proforma_invoice_applet/nav.adoc
 - modules/internal_sales_inquiry_applet/nav.adoc
+=======
+
+>>>>>>> ccc3a41936aebba1ca29a3cfe5bb693dbf998629
