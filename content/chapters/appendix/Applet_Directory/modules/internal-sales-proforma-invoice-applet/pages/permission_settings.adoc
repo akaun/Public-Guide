@@ -1,3 +1,0 @@
-[#h3_internal-sales-proforma-invoice-applet_permission_settings]
-=  Permission Settings
-
