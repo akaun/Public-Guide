@@ -1,3 +1,0 @@
-[#h3_internal-consignor-purchase-billing_permission_settings]
-=  Permission Settings
-
