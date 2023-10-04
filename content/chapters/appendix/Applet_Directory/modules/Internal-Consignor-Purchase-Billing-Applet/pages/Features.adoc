@@ -1,4 +1,4 @@
-[#h3_Consignor_Purchase_Billing_Applet_Introduction]
+[#h3_Internal_Consignor_Purchase_Billing_Applet_Introduction]
 = 1.0 General Access
 
 == 1.1 Slide Bar Access
@@ -103,16 +103,16 @@ The Add item page has further 2 tabs that are Item Details and Calculations.
 image::ConsignorPurchaseBillingApplet-edit-LineItem-SelectLineItem-AddItem.png[ConsignorPurchaseBillingApplet-edit-LineItem-SelectLineItem-AddItem, align=center]
 
 == 2.1.2.4 Payment
-The Payment page of Edit Consignor tab has a table with Payment Voucher No, Payment Method, Date, Paid Amount, and Remarks columns.There is a Plus Sign button that can be clicked to get to Add Payment page.
+The Payment page of Edit Consignor tab has a table with Payment Voucher No, Payment Method, Date, Paid Amount, and Remarks columns.There is a Plus Sign button that can be clicked to get to Edit Payment page.
 
 image::ConsignorPurchaseBillingApplet-Edit-Payment.png[ConsignorPurchaseBillingApplet-Edit-Payment, align=center]
 
-== 2.1.2.4.1 Add Payment
-The Add Payment page has dropdown of settlement methods and an Add button on top right to add the payment after selecting from the dropdown.
+== 2.1.2.4.1 Edit Payment
+The Edit Payment page has dropdown of settlement methods and an Add button on top right to add the payment after selecting from the dropdown.
 
 image::ConsignorPurchaseBillingApplet-Edit-EditPayment.png[ConsignorPurchaseBillingApplet-Edit-EditPayment, align=center]
 
-2.1.2.5 Export
+== 2.1.2.5 Export
 The Export page has Printable format dropdown and Export as PDF button.
 
 image::ConsignorPurchaseBillingApplet-Edit-Export.png[ConsignorPurchaseBillingApplet-Edit-Export, align=center]

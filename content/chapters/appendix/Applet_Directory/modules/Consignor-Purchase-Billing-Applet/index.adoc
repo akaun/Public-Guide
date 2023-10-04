@@ -1,7 +1,0 @@
-[#h2_Consignor_Purchase_Billing_applet_index]
-= Consignor Purchase Billing Applet
-
-include::pages/introduction.adoc[leveloffset=3]
-
-include::pages/Features.adoc[leveloffset=3]
-
