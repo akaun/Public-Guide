@@ -130,7 +130,7 @@ image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineIte
 === 2.1.2.3.1.1.1.4.1.2 Planning
 The Planning page has field that are Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Amount, Currency, Cost Amount, Story Point, Manday Target, Manday Actual, Manday Allocated,and Manday Billing. 
 
-Iimage::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Planning.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Planning, align=center]
+image::InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Planning.png[InternalSalesInquiryApplet-Create-SelectLineItem-SearchItem-SelectLineItem-IssueLink-EditIssue-Planning, align=center]
 
 === 2.1.2.3.1.1.1.4.1.3 Attachment
 The Attachment page has option to Upload File or user can drag and drop the file. 
