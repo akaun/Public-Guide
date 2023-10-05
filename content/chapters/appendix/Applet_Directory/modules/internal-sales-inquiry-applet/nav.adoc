@@ -1,4 +1,4 @@
-* Named-Applet 
+* Internal Sales Inquiry Applet 
 ** xref:introduction.adoc[Introduction]
 ** xref:sales_inquiry_listing.adoc[Features]
 

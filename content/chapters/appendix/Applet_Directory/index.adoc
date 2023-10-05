@@ -196,7 +196,7 @@ include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
 include::modules/Workflow-Design-Applet/index.adoc[leveloffset=2]
 
-include::modules/Internal_Sales_Proforma_Invoice_Applet/index.adoc[leveloffset=2]
+include::modules/internal_sales_proforma_invoice_applet/index.adoc[leveloffset=2]
 
 include::modules/internal_sales_inquiry_applet/index.adoc[leveloffset=2]
 
