@@ -65,7 +65,7 @@ image::View-ProcessInstance.png[ProcessInstance, align=center]
 
 The Create Process Instance page has a table with Process Template, Machine, Process Type, and  Output Inv Item. There is and Add button on top right to add the Process instance.
 
-image::View-ProcessInstance-Add.png[ProcessInstance-Add, align=center]
+image::View-ProcessInstance-Create.png[View-ProcessInstance-Create, align=center]
 
 = 3.0 Processes
 

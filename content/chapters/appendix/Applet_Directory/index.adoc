@@ -202,6 +202,7 @@ include::modules/internal_sales_inquiry_applet/index.adoc[leveloffset=2]
 
 include::modules/internal_consignor_purchase_billing_applet/index.adoc[leveloffset=2]
 
+include::modules/production-planning-and-monitoring-applet/index.adoc[leveloffset=2]
 
 
 
