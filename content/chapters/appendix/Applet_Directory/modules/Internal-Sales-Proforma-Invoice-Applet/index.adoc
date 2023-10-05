@@ -1,4 +1,4 @@
-[#h2_ internal_sales_proforma_invoice_applet_index]
+[#h2_ internal-sales-proforma-invoice-applet_index]
 =  Internal Sales Proforma Invoice Applet
 
 include::pages/introduction.adoc[leveloffset=3]

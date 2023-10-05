@@ -1,5 +1,5 @@
-[#h2_internal_sale_inquiry_applet_index]
-= Sales Inquiry Applet
+[#h2_internal-sale-inquiry-applet_index]
+= Internal Sales Inquiry Applet
 
 include::pages/introduction.adoc[leveloffset=3]
 

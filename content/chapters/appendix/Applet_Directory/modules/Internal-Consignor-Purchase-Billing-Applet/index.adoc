@@ -1,4 +1,4 @@
-[#h2_internal_consignor_purchase_billing_applet_index]
+[#h2_internal-consignor-purchase-billing-applet_index]
 = Internal Consignor Purchase Billing Applet
 
 include::pages/introduction.adoc[leveloffset=3]
