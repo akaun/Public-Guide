@@ -1,0 +1,6 @@
+* Ecomsync Module
+** xref:introduction.adoc[Introduction]
+** xref:workflow.adoc[Workflow]
+** xref:applet-configurations.adoc[Applet Configurations]
+
+//xref:README.adoc[]

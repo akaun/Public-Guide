@@ -1,0 +1,13 @@
+[#h2_3508-ecomsync-module]
+= Ecomsync Module
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/workflow.adoc[leveloffset=3]
+
+include::pages/applet-configurations.adoc[leveloffset=3]
+
+
+
+
+

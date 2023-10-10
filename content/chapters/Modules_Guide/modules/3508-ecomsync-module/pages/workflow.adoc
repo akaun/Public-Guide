@@ -1,0 +1,29 @@
+= 2.0 Ecomsync Module Workflow
+
+1. There are a few applets that need to be configured in order to allow the operation of Ecomsync Module:
+
+a. Organisation Applet
+- Marketplace authorisation
+- Setting customer and settlement method
+
+b. Doc Item Maintenance Applet configuration
+- Single item/ bundle item/ grouped item
+
+c. Internal Sales Order
+- Update order from marketplace
+
+2. Organisation Applet Configurations:
+
+a. Create a virtual branch for each marketplace account
+b. Authorise the shop and link to Lazada Seller Centre
+c. Re-sync all the attributes and images
+d. Set the customer account and EMP Sales Order branch
+
+3. Doc Item Maintenance Applet Configurations:
+
+a. Single item, bundle item, group item
+b. Single item is individual item
+c. Bundle item only consists of multiple single items
+d. Group item consist of single and bundle item/ variants
+e. Users need to create the bundle and group item 
+f. Configurations for the bundle item and group item can be done manually or by upload method, using the provided template

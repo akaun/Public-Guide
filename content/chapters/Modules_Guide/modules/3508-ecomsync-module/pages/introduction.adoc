@@ -1,0 +1,51 @@
+= 1.0 Introduction
+
+**1. Uses of Ecomsync Module:**
+
+* Connected to multiple marketplaces
+* Enable sales order processing
+* Centralised product catalogue
+* Advanced stock balance syncing
+
+**2. Why Ecomsync Module is necessary?**
+
+* Managing sales and inventory is difficult across multiple marketplaces like Shopee, Lazada, Lelong.my, Presto Mall etc.
+
+* No consolidation and centralization of all the product details, orders and inventory in one platform.
+
+* Lack of automation to track and manage your orders and returns to keep the stock updates in real-time and never go out of stock again
+
+**2. Benefits of Ecomsync Module:**
+
+* Innovative integration solution to streamline end-to-end multi-channel selling operations:
+
+** Smooth selling operations on a robust, feature-rich, and user-friendly interface
+** Manage the marketplaces from a centralised platform
+** Obtain end-to-end control and visibility for all your marketplace activity 
+
+**4. Ecomsync Module Overview:**
+
+image::ModuleOverView1.png[ align = "center"]
+
+image::ModuleOverView2.png[ align = "center"]
+
+**5. Ecomsync Module Features:**
+
+* 2 ways syncing from and to online marketplace
+* Inventory sync from your choice of physical branches
+* Auto-deduction from stock balance during the conversion of sales order into sales invoice
+
+**Ecomsync Module Insights:**
+
+a. Catalogue Management
+- Effective item catalogue management
+- Auto category mapping
+
+b. Order Processing
+- Real-time order tracking
+- Omnichannel order management
+
+c. Centralised Inventory
+- Centralised auto-sync inventory
+- Intelligent inventory reporting and insights
+

@@ -53,7 +53,7 @@ include::modules/8800-process-automation-module/index.adoc[leveloffset=2]
 
 include::modules/9000-datalake-module/index.adoc[leveloffset=2]
 
-
+include::modules/3508-ecomsync-module/index.adoc[leveloffset=2]
 
 
 <<<<<<<<<<
