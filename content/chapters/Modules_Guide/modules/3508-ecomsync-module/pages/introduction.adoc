@@ -25,9 +25,11 @@
 
 **4. Ecomsync Module Overview:**
 
-image::ModuleOverView1.png[ align = "center"]
+image::ModuleOverView1.png[align = center]
 
-image::ModuleOverView2.png[ align = "center"]
+
+
+image::ModuleOverView2.png[align = center]
 
 **5. Ecomsync Module Features:**
 

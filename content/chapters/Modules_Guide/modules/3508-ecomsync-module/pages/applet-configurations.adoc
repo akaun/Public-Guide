@@ -131,6 +131,8 @@ c. SELECTIVE_ACTIVE - Able to configure specific sale order only to be deducted 
 
 image::Configure-StockBalance-MANUAL-1.png[align = center]
 
+
+
 image::Configure-StockBalance-MANUAL-2.png[align = center]
 
 1. Stock config type ; MANUAL
@@ -156,7 +158,9 @@ c. MANUAL
 
 Example calculation as below:
 
+
 image::Example-Calculation.png[align = center]
+
 
 1. Scenario 1
 AUTO with buffer stock ; 3 units and sale order ; ACTIVE
@@ -193,6 +197,8 @@ Existing Label - Select from the dropdown list of existing labels
 
 image::ExistingLabel.png[align = center]
 
+
+
 image::NewLabel.png[align = center]
 
 - Users may fill up compulsory information such as: 
@@ -200,6 +206,7 @@ image::NewLabel.png[align = center]
 * Label Name
 * Status (Active / Inactive)
 * Other fields are optional 
+
 
 image::CreateLabel.png[align = center]
 
@@ -386,8 +393,7 @@ image::CreateBundleItem-4
 *** Click on '+' button and select which item to be included in this bundle item . It can only consist of basic items.
 *** Tick the items by multiple select and click add.
 
-image::CreateBundleItem-5
-.png[align = center]
+image::CreateBundleItem-5.png[align = center]
 
 
 *** Once an item is added, you may click on the item to remove it or update the ratio of the item units . Ratio refers to the quantity of item (ie : 2 eggs selling as a bundle. The ratio will be 2).
@@ -470,7 +476,9 @@ Click on the marketplace to start configure the category, image and item attribu
 
 image::ConfigureSingleBundleItem-7.png[align = center]
 
+
 Click on the '+' icon to add the category. 
+
 
 image::EditCompany-Address.png[align = center]
 
@@ -483,6 +491,8 @@ image::ConfigureSingleBundleItem-10.png[align = center]
 Next will be the attribute tab . FIrst, users need to click on the brand field and choose the brand for the item.
 
 image::ConfigureSingleBundleItem-11.png[align = center]
+
+
 
 image::ConfigureSingleBundleItem-12.png[align = center]
 
@@ -500,9 +510,12 @@ In the marketplace tab, under the marketplace line, there will be a status colum
 
 image::ConfigureSingleBundleItem-15.png[align = center]
 
+
+
 image::ConfigureSingleBundleItem-16.png[align = center]
 
 The item successfully updated in the marketplace.
+
 
 image::ConfigureSingleBundleItem-17.png[align = center]
 
@@ -568,9 +581,12 @@ In the marketplace tab , under the marketplace line , there will be a status col
 
 image::ConfigureGroupedItem-13.png[align = center]
 
+
+
 image::ConfigureGroupedItem-14.png[align = center]
 
 The item successfully updated in the marketplace.
+
 
 image::ConfigureGroupedItem-15.png[align = center]
 
@@ -607,6 +623,7 @@ d. Branch (only applicable for AUTO stock config only) : user able to choose the
 
 image::StockBalance-3.png[align = center]
 
+
 After configuring for stock balance, users need to configure for sales order . There are three SO config type that can be set:
 
 a. ACTIVE - the system will deduct the current SO before recalculate the stock balance
@@ -614,6 +631,7 @@ b. INACTIVE - the system will not deduct the current SO before recalculate the s
 c. SELECTIVE ACTIVE - user can choose which SO to be deducted before recalculate the stock balance
 
 image::StockBalance-4.png[align = center]
+
 
 After all the settings are done , click on the Save button . Green popup will show to remark it as successfully updated.
 
@@ -624,6 +642,8 @@ In the stock availability listing, the marketplace will show the current stock b
 
 
 image::StockBalance-6.png[align = center]
+
+
 
 image::StockBalance-7.png[align = center]
 
@@ -641,7 +661,11 @@ When a user clicks on the sale order, all the relevant information regarding the
 
 image::SalesOrder-2.png[align = center]
 
+
+
 image::SalesOrder-3.png[align = center]
+
+
 
 image::SalesOrder-4.png[align = center]
 
@@ -662,6 +686,8 @@ By default, it will show SHOPEE_DEFAULT_ITEM or LAZADA_DEFAULT_ITEM if it does n
 
 image::SalesOrder-7.png[align = center]
 
+
+
 image::SalesOrder-8.png[align = center]
 
 Once changed, click update and then click save.
@@ -669,9 +695,12 @@ Once changed, click update and then click save.
 
 image::SalesOrder-9.png[align = center]
 
+
+
 image::SalesOrder-10.png[align = center]
 
 Lastly , tick the sale order to finalise the document before we update the marketplace status.
+
 
 image::SalesOrder-11.png[align = center]
 
@@ -730,6 +759,8 @@ f. Email 1 - To be notified for any missing items in the order
 g. Cron expression - the scheduler for each processor to run (at least every 15 minutes as global processor is set at every 15 minutes)
 
 image::EcomsyncScheduler-3.png[align = center]
+
+
 
 image::EcomsyncScheduler-4.png[align = center]
 
