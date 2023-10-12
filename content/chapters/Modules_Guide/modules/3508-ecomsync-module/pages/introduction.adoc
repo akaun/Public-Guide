@@ -23,15 +23,18 @@
 ** Manage the marketplaces from a centralised platform
 ** Obtain end-to-end control and visibility for all your marketplace activity 
 
+
 **4. Ecomsync Module Overview:**
 
-image::ModuleOverView1.png[align = center]
+image::ModuleOverview1.png[align = center]
 
 
 
-image::ModuleOverView2.png[align = center]
+image::ModuleOverview2.png[align = center]
+
 
 **5. Ecomsync Module Features:**
+
 
 * 2 ways syncing from and to online marketplace
 * Inventory sync from your choice of physical branches
