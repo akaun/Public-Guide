@@ -196,6 +196,7 @@ include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
 include::modules/Workflow-Design-Applet/index.adoc[leveloffset=2]
 
+<<<<<<< HEAD
 include::modules/internal-sales-proforma-invoice-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
@@ -203,33 +204,56 @@ include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
 include::modules/internal-consignor-purchase-billing-applet/index.adoc[leveloffset=2]
 
 include::modules/production-planning-and-monitoring-applet/index.adoc[leveloffset=2]
+=======
+include::modules/internal-packing-order-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-purchase-requisition-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-rma-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-sales-credit-note-applet/index.adoc[leveloffset=2]
+>>>>>>> MKT-3474-Internal-Purchase-GRN-Applet
 
+include::modules/issue-tracker-applet/index.adoc[leveloffset=2]
 
+include::modules/mlm-admin-applet/index.adoc[leveloffset=2]
 
+include::modules/multi-po-applet/index.adoc[leveloffset=2]
 
+include::modules/sales-force-automation-applet/index.adoc[leveloffset=2]
 
+include::modules/commision-scheme-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-consignor-purchase-billing/index.adoc[leveloffset=2]
 
+include::modules/fixed-asset-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-sales-quotation-applet/index.adoc[leveloffset=2]
 
+include::modules/merchant-access-applet/index.adoc[leveloffset=2]
 
+include::modules/ocr-cash-bill-applet/index.adoc[leveloffset=2]
 
+include::modules/scheduler-applet/index.adoc[leveloffset=2]
 
+include::modules/admin-time-attendance-applet/index.adoc[leveloffset=2]
 
+include::modules/delivery-and-installation-applet/index.adoc[leveloffset=2]
 
+include::modules/tenant-applet/index.adoc[leveloffset=2]
 
+include::modules/staff-time-attendance-applet/index.adoc[leveloffset=2]
 
+include::modules/recurring-sales-invoice-applet/index.adoc[leveloffset=2]
 
+include::modules/daily-cashier-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 
+include::modules/t2t-applet/index.adoc[leveloffset=2]
 
+//include::modules/ledger-and-journal-applet/index.adoc[leveloffset=2]
 
-
-
-
-
-
+//include::modules/financial-report-applet/index.adoc[leveloffset=2]

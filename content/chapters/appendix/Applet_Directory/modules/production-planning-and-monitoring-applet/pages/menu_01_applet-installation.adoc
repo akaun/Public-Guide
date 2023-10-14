@@ -1,0 +1,31 @@
+[#h3_internal_purchase_grn_applet_installation]
+=  2.0 Applet Installation 
+
+== 2.1 Login to Akaun platform 
+
+image::2_akaun_login.png[1440 x 900]
+
+== 2.2 Click on the “Applet Store” icon
+
+image::3_Applet_Store.png[1440 x 900]
+
+== 2.3 Search for the “Internal Purchase GRN” Applet from the Catalog
+
+image::4_Searching_Applet.png[1440 x 900]
+
+
+== 2.4 Click on the “Install” button to install the Applet
+
+image::5_Installing_Applet.png[1440 x 900]
+
+
+= 3.0 General Access
+== 3.1 Side Bar/Menu Items Access
+
+image::6_Accessing_Applet.png[1440 x 900]
+
+image::7_Menubar.png[1440 x 900]
+
+Users are able to open up the sidebar by clicking on the icon highlighted in the image, this will allow the user to switch to different sections of the applet easily. There are mainly 2 sections: Internal Purchase GRN and Line Items. Other than these 2 main sections, there are another 2 more menu items namely Settings & Personalization.
+
+

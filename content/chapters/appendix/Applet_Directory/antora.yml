@@ -94,6 +94,7 @@ nav:
 - modules/Workflow-Design-Applet/nav.adoc
 - modules/internal-purchase-grn-supplier-access-applet/nav.adoc
 - modules/url-shortening-applet/nav.adoc
+<<<<<<< HEAD
 - modules/internal-sales-proforma-invoice-applet/nav.adoc
 - modules/internal-sales-inquiry-applet/nav.adoc
 - modules/internal-consignor-purchase-billing-applet/nav.adoc
@@ -101,3 +102,6 @@ nav:
 
 
  
+=======
+- modules/internal-purchase-grn-applet/nav.adoc 
+>>>>>>> MKT-3474-Internal-Purchase-GRN-Applet

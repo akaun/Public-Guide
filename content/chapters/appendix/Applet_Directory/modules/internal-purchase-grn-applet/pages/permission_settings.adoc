@@ -1,0 +1,50 @@
+[#h3_internal_purchase_grn_applet_permission_settings]
+=  Permission Settings
+
+== 4.3 Settings
+
+Some the fields those described earlier can be hidden using the Settings Menu Item
+
+* System Configuration.
+
+image::64_Applet_Settings.png[1440 x 900]
+
+The system configuration allows the user to adjust various view settings as below
+
+** Application Settings
+** Default Selection
+** Printable Format Settings
+
+Under the Application Settings, the users can adjust some certain fields/information that they wanna view under the main Menu items 
+
+image::65_Default_Settings.png[1440 x 900]
+
+The Default Selection allows to set some default values for the default branch, location, validity and pricing scheme
+
+image::66_Printable_format1.png[1440 x 900]
+
+image::67_AddNew.png[1440 x 900]
+
+
+The Printable Format displays the available and previously created printable formats for the Purchase GRNs in a  tabular format. It also allows the users to create a new printable format as per their clients requirements
+
+**Server Side Permissions**
+
+image::68_Permission_Wizard.png[1440 x 900]
+
+image::69_Permission_Set.png[1440 x 900]
+
+
+** Permission Wizard
+** Permission Set
+** User Permission
+** Team Permission
+** Role Permission
+
+**Integration**
+
+* Triggers
+
+image::70_Trigger.png[1440 x 900]
+
+image::71_Trigger1.png[1440 x 900]

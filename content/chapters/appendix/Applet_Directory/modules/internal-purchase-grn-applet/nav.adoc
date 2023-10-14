@@ -1,0 +1,13 @@
+* Internal Purchase GRN Applet 
+** xref:introduction.adoc[Introduction]
+** xref:menu_01_applet-installation.adoc[Applet Installation]
+** xref:menu_02_internal-purchase-grn-listing.adoc[Listing]
+** xref:menu_03_internal-purchase-grn-edit.adoc[Edit]
+** xref:menu_04_internal-purchase-grn-line-items.adoc[Line Items]
+//** xref:modules.adoc[Modules]
+** xref:permission_settings.adoc[Permission and Settings]
+** xref:personalization_settings.adoc[Personalization]
+** xref:related_applets.adoc[Related Applets]
+//** xref:roadmap.adoc[Roadmap]
+//** xref:release_note.adoc[Release Note]
+//** xref:pricing.adoc[Pricing]

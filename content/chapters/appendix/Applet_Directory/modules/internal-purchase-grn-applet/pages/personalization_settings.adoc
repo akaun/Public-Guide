@@ -1,0 +1,16 @@
+[#h3_internal_purchase_grn_applet_personalization]
+=  Personalization
+
+== 4.4 Personalization
+
+image::72_Personalization1.png[1440 x 900]
+
+**Default Selection**
+
+image::73_Personalization2.png[1440 x 900]
+
+From the default selection, the users can change the default Branch and Location that will override the Master settings. This is useful when one user got access to multiple branches. By selecting the default branch, the user can prioritize which branch to view first
+
+
+
+
