@@ -1,7 +1,8 @@
 [#h3_internal_purchase_grn_applet_introduction]
 =  Introduction
 
-image::1_Applet_Logo.png[align = center]bash 
+image::1_Applet_Logo.png[align = center]
+
 include::intro_description.adoc[]
 
 The Purchase GRN is an important document for accounting and inventory management purposes. It helps to ensure that goods have been received as per the order and can be used to reconcile any discrepancies between the actual quantity or quality of goods received and what was originally ordered. It also helps in maintaining a proper record of inventory and assists in making timely payments to the supplier.
@@ -55,16 +56,19 @@ Overall, the use of Purchase GRNs is an important aspect of supply chain managem
 
 
 **Who will use the Purchase GRN Applet?**
+
 The Purchase GRN Applet will be typically used by businesses that purchase goods from suppliers. This can include retailers, wholesalers, manufacturers, and other types of businesses that require a regular supply of goods to operate.
 
 
 **Why & Where the Purchase GRN Applet will be used?**
+
 Within a business, the Purchase GRN Applet is typically used by the purchasing department, the receiving department, and the accounting department. The purchasing department is responsible for placing orders with suppliers and ensuring that goods are delivered as per the order. The receiving department is responsible for receiving and inspecting the goods, and preparing the Purchase GRN to confirm that the goods have been received in good condition. The accounting department is responsible for processing payments to the supplier and ensuring that all financial records related to the purchase are accurate and up-to-date.
 
 In some cases, the Purchase GRN system may also be used by other departments within a business, such as the inventory management department, to track the movement of goods within the organization.
 
 
 **How will the Purchase GRN Applet be used?**
+
 Using a Purchase GRN Applet typically involves the following steps:
 
 * Create a Purchase GRN: The purchasing department creates a Purchase GRN with the details of the goods to be ordered from the supplier.
