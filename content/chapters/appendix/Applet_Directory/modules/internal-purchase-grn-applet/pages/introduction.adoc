@@ -1,7 +1,84 @@
 [#h3_internal_purchase_grn_applet_introduction]
 =  Introduction
 
-image::1_Applet_Logo.png[align = center]
-
+image::1_Applet_Logo.png[align = center]bash 
 include::intro_description.adoc[]
+
+The Purchase GRN is an important document for accounting and inventory management purposes. It helps to ensure that goods have been received as per the order and can be used to reconcile any discrepancies between the actual quantity or quality of goods received and what was originally ordered. It also helps in maintaining a proper record of inventory and assists in making timely payments to the supplier.
+
+
+
+**Different Types of Purchase GRN**
+
+There are different types of Purchase GRN used in business transactions, depending on the nature of the purchase and the purpose of the GRN. Some common types of Purchase GRN include:
+
+* Standard Purchase GRN: This is the most common type of Purchase GRN used to record the receipt of goods ordered from a supplier.
+
+* Return Purchase GRN: This type of GRN is used when goods are returned to the supplier due to damage, defects, or other issues.
+
+* Transfer Purchase GRN: This type of GRN is used when goods are transferred from one location to another within the same organization.
+
+* Debit Note Purchase GRN: This type of GRN is used when the supplier has issued a debit note to the buyer, indicating that there is a discrepancy in the amount invoiced.
+
+* Advance Purchase GRN: This type of GRN is used when the buyer makes an advance payment to the supplier for goods that will be received at a later date.
+
+* Consignment Purchase GRN: This type of GRN is used when the supplier sends goods to the buyer on consignment, and the GRN is used to record the transfer of ownership when the goods are sold.
+
+Each of these types of Purchase GRN serves a specific purpose and helps to ensure that the transaction is recorded accurately and efficiently.
+
+
+
+**Benefits & Usage of Purchase GRN Applet**
+
+There are several benefits to using a Purchase GRN in business transactions. Some of the key benefits include:
+
+* Accurate record-keeping: A Purchase GRN provides an accurate record of the goods received, including their quantity and condition, which helps to ensure accurate inventory management.
+
+* Dispute resolution: If there is a dispute over the quantity or condition of goods received, the Purchase GRN can be used as evidence to resolve the dispute.
+
+*Efficient payment processing: A Purchase GRN provides the necessary information for processing payments to the supplier, ensuring timely and accurate payment.
+
+* Better supplier management: The use of Purchase GRNs helps to improve supplier management by providing a record of past transactions and ensuring that suppliers are delivering goods as per the order.
+
+* Improved financial reporting: Purchase GRNs provide accurate data on purchases, which can help to improve financial reporting and analysis.
+
+
+The usage of Purchase GRN varies based on the industry and organization. However, some common uses of Purchase GRN include:
+
+. Recording the receipt of goods ordered from a supplier
+. Tracking the inventory of goods received
+. Verifying the accuracy of supplier invoices
+. Identifying discrepancies between goods ordered and received
+. Ensuring compliance with purchasing policies and procedures
+
+Overall, the use of Purchase GRNs is an important aspect of supply chain management, and it helps to ensure that business transactions are recorded accurately and efficiently.
+
+
+**Who will use the Purchase GRN Applet?**
+The Purchase GRN Applet will be typically used by businesses that purchase goods from suppliers. This can include retailers, wholesalers, manufacturers, and other types of businesses that require a regular supply of goods to operate.
+
+
+**Why & Where the Purchase GRN Applet will be used?**
+Within a business, the Purchase GRN Applet is typically used by the purchasing department, the receiving department, and the accounting department. The purchasing department is responsible for placing orders with suppliers and ensuring that goods are delivered as per the order. The receiving department is responsible for receiving and inspecting the goods, and preparing the Purchase GRN to confirm that the goods have been received in good condition. The accounting department is responsible for processing payments to the supplier and ensuring that all financial records related to the purchase are accurate and up-to-date.
+
+In some cases, the Purchase GRN system may also be used by other departments within a business, such as the inventory management department, to track the movement of goods within the organization.
+
+
+**How will the Purchase GRN Applet be used?**
+Using a Purchase GRN Applet typically involves the following steps:
+
+* Create a Purchase GRN: The purchasing department creates a Purchase GRN with the details of the goods to be ordered from the supplier.
+
+* Receive the goods: The receiving department receives the goods and inspects them to ensure they are in good condition and match the details on the Purchase GRN.
+
+* Prepare the Purchase GRN: The receiving department prepares the Purchase GRN, which includes details of the goods received, such as the quantity, condition, and other relevant information.
+
+* Verify the Purchase GRN: The purchasing department verifies the Purchase GRN against the Purchase GRN to ensure that the goods received match the order.
+
+* Process payment: The accounting department processes payment to the supplier based on the details on the Purchase GRN.
+
+* Record the transaction: The details of the transaction, including the Purchase GRN, Purchase GRN, and payment information, are recorded in the organization's financial and inventory management systems.
+
+To use the Purchase GRN Applet effectively, it is important to have clear policies and procedures in place for purchasing, receiving, and accounting. This includes guidelines for creating Purchase GRNs, inspecting goods, preparing and verifying Purchase GRNs, and processing payments. In addition, it is important to have a reliable system for recording and tracking transactions, such as an accounting software or inventory management system, to ensure accurate and up-to-date financial records.
+
 
