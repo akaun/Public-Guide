@@ -196,7 +196,6 @@ include::modules/voucher-management-applet/index.adoc[leveloffset=2]
 
 include::modules/Workflow-Design-Applet/index.adoc[leveloffset=2]
 
-<<<<<<< HEAD
 include::modules/internal-sales-proforma-invoice-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
@@ -204,15 +203,6 @@ include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
 include::modules/internal-consignor-purchase-billing-applet/index.adoc[leveloffset=2]
 
 include::modules/production-planning-and-monitoring-applet/index.adoc[leveloffset=2]
-=======
-include::modules/internal-packing-order-applet/index.adoc[leveloffset=2]
-
-include::modules/internal-purchase-requisition-applet/index.adoc[leveloffset=2]
-
-include::modules/internal-rma-applet/index.adoc[leveloffset=2]
-
-include::modules/internal-sales-credit-note-applet/index.adoc[leveloffset=2]
->>>>>>> MKT-3474-Internal-Purchase-GRN-Applet
 
 include::modules/issue-tracker-applet/index.adoc[leveloffset=2]
 
@@ -223,8 +213,6 @@ include::modules/multi-po-applet/index.adoc[leveloffset=2]
 include::modules/sales-force-automation-applet/index.adoc[leveloffset=2]
 
 include::modules/commision-scheme-applet/index.adoc[leveloffset=2]
-
-include::modules/internal-consignor-purchase-billing/index.adoc[leveloffset=2]
 
 include::modules/fixed-asset-applet/index.adoc[leveloffset=2]
 
