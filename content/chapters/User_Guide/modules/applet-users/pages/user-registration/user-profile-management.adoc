@@ -63,7 +63,7 @@ image::login-successful.png[Login Successful, 500, 500, align = "center"]
 [#h4_Self-Registration]
 == Self-Registration
 
-This user guide is EMP's user, for the single sign on.
+This user guide is for EMP's users only, for the single sign on.
 
 1. Login to EMP with your own ID (EMP user login as usual).
 2. In the akaun invitation pop-up message, click "OK, Sign Up Akaun ID now."
