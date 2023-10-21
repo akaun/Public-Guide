@@ -1,0 +1,10 @@
+[#h3_pgw_introduction]
+
+= Introduction
+
+This module guide outlines the steps required to configure the payment gateway. The applets involved within this module includes the Payment Channel Applet, Merchant Admin Applet and Merchant Access Applet. For detailed explanations of each applet, please refer to the individual guides respectively.
+
+
+
+
+

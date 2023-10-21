@@ -1,0 +1,7 @@
+* Payment Switch Module
+** xref:introduction.adoc[Introduction]
+** xref:related_applets.adoc[Related Applets]
+** xref:pgw_setup.adoc[Setup]
+
+
+//xref:README.adoc[]
