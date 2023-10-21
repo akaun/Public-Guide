@@ -1,4 +1,4 @@
-[#h2_payment_switching_module]
+[#h2_1900-payment-gateway-module]
 = Payment Gateway Module
 
 include::pages/introduction.adoc[leveloffset=3]
