@@ -99,6 +99,8 @@ nav:
 - modules/production-planning-and-monitoring-applet/nav.adoc
 - modules/internal-purchase-grn-applet/nav.adoc
 - modules/stock-reservation-applet/nav.adoc
+- modules/interanl-stock-transfer-applet/nav.adoc
+
 
 
  

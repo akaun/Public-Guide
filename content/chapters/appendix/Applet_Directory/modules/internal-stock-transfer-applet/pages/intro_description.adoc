@@ -1,1 +1,1 @@
-This is a simple description of the applet, no more than 100 words.
+Internal Stock Transfer Applet simplifies and automates the process of transferring stocks within a company, reducing manual paperwork, minimizing errors, and improving efficiency. It provides transparency, control, and traceability throughout the stock transfer process, enhancing internal collaboration and compliance.
