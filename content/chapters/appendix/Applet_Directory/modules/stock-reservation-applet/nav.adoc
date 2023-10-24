@@ -1,0 +1,3 @@
+* Stock Reservation Applet 
+** xref:introduction.adoc[Introduction]
+** xref:features.adoc[Features]

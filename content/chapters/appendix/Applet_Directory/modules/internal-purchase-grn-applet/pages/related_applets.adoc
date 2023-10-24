@@ -1,19 +1,16 @@
 [#h3_internal_purchase_grn_applet_related_applets]
-=  Related Applets
+=  Connected Applets
 
 This applet also depends on the following applets:
 
 // * xref:reference_anchor_id[xrefstyle=full] 
-* Applet 1
+. Supplier Mainteance Applet - In the Account Tab, the Supplier information are pulled from the Supplier Maintenance Applet
 
-* Applet 2
+. Doc Item Maintenance Applet - In the Lines Tab, the items that a purchaser would like to order are coming from the Doc Item Maintenance Applet
 
+. Delivery Installation Applet - In the Delivery Details Tab, the delivery information is coming from the Delivery Installation Applet if the Purchase GRN is linked with certain Trip No
 
-The following applets depends on this applet:
+. Organization Applet - In the Main Details Tab, the Branch and Location information is coming from the Organization Applet settings
 
-* Applet 3
-
-* Applet 4
-
-Also see
+. Cashbook Applet - In the Payment Tab, the available settlement methods are coming from the Cashbook Applet.
 

@@ -1,0 +1,54 @@
+[#h3_stock-reservation-applet-features]
+
+= 2.0 General Access
+
+== 2.1 Slide Bar Access
+
+image::Stock_Reservation_AppletLOGO.png[align = center]
+
+The Slide Bar Access has 1 section which is Stock Reservation.
+
+== 3.0 Features
+3.1 Stock Reservation
+The User can get to the Stock Reservation Listing page by clicking on the Stock Reservation section in the slide bar.
+
+== 3.2 Stock Reservation Listing
+
+image::Stock_Reservation_Listing.png[align = center]
+
+
+The Stock Reservation Listing page has a Search Bar to search for Stock Reservation in the listing below. There is a Plus “+” sign with the search bar to create Stock Reservation. The table of stock listing has columns that are:
+
+Item Name
+Customer 
+Branch
+Location
+UOM
+Reserved Qty
+Status
+
+=== 3.2.1 Edit Stock Reservation
+
+The user can get to the Edit Stock Reservation page by clicking on the plus sign button on the Stock Reservation Listing page. The Edit Stock Reservation page has 3 further tabs that are Main Details , Account and Batches. There is a Reserve and Delete Button on down to set the changes made or to create the Stock Reservation.
+
+=== 3.2.2  Main Details
+
+image::Edit_Stock_Reservation_Main_Details.png[align = center]
+
+The Main Details page of Edit Stock Reservation tab has details fields that are Branch, Location, Item Name, Item Code, Stock Reservation Expiry Date, UOM Reference #, Description.
+
+=== 3.2.3  Account 
+
+image::Edit_Stock_Reservation_Account.png[align = center]
+
+The Account page of the Edit Stock Reservation Account tab has a Search bar to search for items in the listing below. The table below has columns that are Entity Details, Bill To,  and Ship To. 
+The Plus sign button with the search bar can be clicked to get to the Edit Account page. 
+
+=== 3.2.4 Batches
+
+image::Edit_Stock_Reservation_Batches.png[align = center]
+
+The Edit Stock Reservation Batches has a Search Item Bar and a table that has columns that are Batch No, Reserved Qty, and status.
+The user can get to the Add Line Item page by clicking on any of the listings in the table.
+
+

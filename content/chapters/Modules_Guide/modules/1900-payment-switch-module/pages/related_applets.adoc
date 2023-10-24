@@ -1,5 +1,0 @@
-[#h3_pgw_name_related_applets]
-= Module Name - Related Applets
-
-
-

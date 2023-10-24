@@ -1,0 +1,150 @@
+[#h3_internal_purchase_grn_applet_internal-purchase]
+=== 4.1.3 Edit Purchase GRN
+
+image::25_Edit_GRN.png[1440 x 900]
+
+Purchase GRN has link with items and once the Purchase GRN is set to FINAL, meaning the stock availability has already affected and the number of received items have been increased in available stock balance. Therefore, before marking a Purchase GRN as final, the purchaser can make some necessary adjustments if required.
+
+In order to Edit the Purchase GRN, the users need to click on the row of a particular Purchase GRN and then the users will be able to view the following Tabs as mentioned below
+
+
+
+==== 4.1.3.1 Edit Purchase GRN - Main Details Tab
+
+image::26_Edit_maindetails.png[1440 x 900]
+
+
+From the ‘Main Details” tab, users will be able to adjust some of the fields like Client Document Type, Client Doc No etc.
+
+
+
+==== 4.1.3.2 Edit Purchase GRN - Account Tab
+
+image::27_Edit_Account.png[1440 x 900]
+
+image::28_Edit_Account_1.png[1440 x 900]
+
+image::29_Edit_Account_Bill.png[1440 x 900]
+
+image::30_Edit_Account_Ship.png[1440 x 900]
+
+
+There are 3 sub-tabs under the account tab. They are as follows
+
+** Entity Details
+** Bill To
+** Ship To
+
+From the “Account Tab” users will be able to update the supplier information and also the billing and shipping details.
+
+
+
+==== 4.1.3.3 Edit Purchase GRN - Lines Tab
+
+image::31_Edit_Lines.png[1440 x 900]
+
+image::32_Edit_Lines_1.png[1440 x 900]
+
+image::33_Edit_Lines_2.png[1440 x 900]
+
+Under the Lines Tab, users can update the Pricing Scheme, Quantity Base and continue adding more items. The total value will be adjusted automatically based on the items quantity and price together with the other related information.
+
+
+
+==== 4.1.3.4 Edit Purchase GRN - Delivery Details Tab
+
+image::34_Edit_Delivery_Details.png[1440 x 900]
+
+
+The “Delivery Details” Tab can be used to update the delivery related information. This Tab can be removed as well if not required 
+
+
+
+==== 4.1.3.5 Edit Purchase GRN - Payment Tab
+
+image::35_Edit_Payment.png[1440 x 900]
+
+image::36_Edit_Payment_1.png[1440 x 900]
+
+
+The “Payment” Tab can be used to update the payment related information. The users will be able to make the payments and it’s not required to make a full payment at this point. The users can pay any amount they want and total will be updated accordingly
+
+
+
+==== 4.1.3.6 Edit Purchase GRN - Department Hdr Tab
+
+image::37_Edit_Dpt_Hdr.png[1440 x 900]
+
+The “Department Hdr” Tab can be used to update the reporting related information.
+
+
+
+==== 4.1.3.7 Edit Purchase GRN - Trace Document Tab
+
+image::38_Edit_TraceDoc.png[1440 x 900]
+
+Trace Document Tab helps to keep track of all the related transactions (if there's any)
+
+
+
+==== 4.1.3.8 Edit Purchase GRN - Contra Tab
+
+image::39_Edit_Contra.png[1440 x 900]
+
+image::40_Edit_Contra_1.png[1440 x 900]
+
+
+From the Contra Tab, the users will be able to Contra the selected Purchase GRN with any other document. The users just need to key in the Contra Amount and click save
+
+
+
+==== 4.1.3.9 Edit Purchase GRN - Doc Link Tab
+
+image::41_Edit_DocLink.png[1440 x 900]
+
+The Doc Link Tab contains the following 2 sub-tabs
+
+** From 
+** To
+
+The Doc Link Tab displays more information related to the Knock Off. It displays from where this Purchase GRN document has been Copied From for example: Purchase Requisition, Purchase Quotation etc. and where this Purchase GRN has been used after creation for example: Purchase Invoice. Basically the Doc Link Tab visualize the Purchase GRN Document flow to other systems
+
+
+==== 4.1.3.10 Edit Purchase GRN - Attachments Tab
+
+image::42_Edit_Attachment.png[1440 x 900]
+
+The users will be able to attach any relevant documents or images related to the Purchase GRN using the Attachments Tab. The users can either drag and drop the files or upload files from local or cloud
+
+
+
+==== 4.1.3.11 Edit Purchase GRN - Export Tab
+
+image::43_Edit_Export.png[1440 x 900]
+
+By using the Export Tab, the users will be able to export the Purchase GRN in a PDF format according to their pre-defined Pintable format configured from the settings Menu item
+
+
+
+==== 4.1.3.12 Edit Purchase GRN - Status Tab
+
+image::44_Edit_Status.png[1440 x 900]
+
+The Status Tab represents the process status. The available status can be configured using the Settings Menu Item based on the organizational flow. Who can view the status can be also configured using the permission matrix.
+
+
+
+=== 4.1.4 Search Bar
+
+image::45_Search1.png[1440 x 900]
+
+
+The users are able to search for any particular Purchase GRN using the search bar and typing the key data that they would like to search for. Once they click enter, the search results will be shown as per the available data list
+
+
+
+=== 4.1.5 Pagination 
+
+image::46_Pagination_1.png[1440 x 900]
+
+The pagination allows the users to determine the number of entries that they would like to see in each of the pages (5/10/20/25/50/75/100).

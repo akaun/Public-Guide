@@ -1,0 +1,135 @@
+
+
+[#h3_internal_purchase_grn_applet_line-items]
+== 4.2 Line Items
+
+=== 4.2.1 Line Items Listing
+
+image::47_LineItemListing.png[1440 x 900]
+
+From the Line Items Listing, the users can see all the items for all the created Purchase GRNs. From the Purchase GRN Tab users get a visualization from the Hdr level and from the Line Items Tab, the users get a visualization from the Line level. By searching with the Purchase GRN No, users can see the number of items that have been received under any particular Purchase GRN. Basically it works like a report for all the created Purchase GRNs
+
+
+
+=== 4.2.2 Line Items Edit
+
+==== 4.2.2.1 Line Items Listing - Item Details Tab
+
+image::48_PurchaseGRNLineItemListing_Details.png[1440 x 900]
+
+image::49_PurchaseGRNLineItemListing_Details_ItemDetails_MainDetails.png[1440 x 900]
+
+image::50_PurchaseGRNLineItemListing_Details_ItemDetails_DeliveryIns.png[1440 x 900]
+
+image::51_PurchaseGRNLineItemListing_Details_ItemDetails_Department.png[1440 x 900]
+
+image::52_PurchaseGRNLineItemListing_Details_ItemDetails_DocLink.png[1440 x 900]
+
+image::53_PurchaseGRNLineItemListing_Details_ItemDetails_DeliveryDetails.png[1440 x 900]
+
+
+** Main Details
+Users can edit the item that they have selected. Number fields such as Unit Price, Quantity Base etc are editable and it will affect other fields automatically.
+
+** Delivery Instruction
+In the Delivery Instruction, add Instruction and Set the Delivery Date. In the Delivery Message Card , add a message with the sender and receiver
+
+* Doc Link
+* Copied From
+* Copied To
+
+As explained earlier, Doc Link Tab displays from where this Purchase GRN document has been Copied From for example: Purchase Requisition, Purchase Quotation etc. and where this Purchase GRN has been used after creation for example: Purchase Invoice. Basically the Doc Link Tab visualize the Purchase GRN Document flow to other systems
+
+
+
+==== 4.2.2.2 Line Items Listing - Serial Number Tab
+
+image::54_PurchaseGRNLineItemListing_Details_ItemDetails_SerialNumber_Scan.png[1440 x 900]
+
+image::55_PurchaseGRNLineItemListing_Details_ItemDetails_SerialNumber_Import.png[1440 x 900]
+
+
+** Scan
+** Import
+
+There are several types of items in the Doc Item Maintenance Applet. The once that contains inventory is basic items. Basic items have serial Number, batch, batch expiry etc. While receiving the basic item, items can scanned one by one to update the GRN. So either the serial numbers can be scanned or imported all together. In case of small business, it’s only possible to to scan one by one
+
+
+
+==== 4.2.2.3 Line Items Listing - Costing Details Tab
+
+image::56_Line-Item_Costing.png[1440 x 900]
+
+The Costing Details Tab is showing all the costing details about the selected item:
+** Company Code
+** Location Code
+** Quantity
+** Moving Average Unit Cost
+** FIFO Unit Cost
+** Manual Unit Cost
+** Last Purchase Unit Cost
+
+
+
+==== 4.2.2.4 Line Items Listing - Pricing Details Tab
+
+image::57_PurchaseGRNLineItemListing_Details_ItemDetails_PricingDetails.png[1440 x 900]
+
+image::58_PurchaseGRNLineItemListing_Details_ItemDetails_PricingDetails1.png[1440 x 900]
+
+The Pricing Details Tab is showing all the pricing details: 
+** Pricing Scheme Code
+** Pricing Schema Name
+** Purchase Unit Price
+** Modified Date
+
+A new page of “Edit Pricing Details” will be displayed on the right side when one of the pricing details is clicked and the changes can be saved by clicking on the Add button
+
+
+
+==== 4.2.2.5 Line Items Listing - Issue Link Tab
+
+
+
+image::59_PurchaseGRNLineItemListing_Details_ItemDetails_IssueLink.png[1440 x 900]
+
+image::60_PurchaseGRNLineItemListing_Details_ItemDetails_IssueLinkDetails.png[1440 x 900]
+
+The Issue Link Tab is showing the list of linked issues which contains Project, Issue Number, Issue Summary, Issue Description, Assignee and so on. A new Edit Issue Page will be displayed on the right side when one of the issue link is clicked
+
+** Details - Drop down field like Project. Issue Type, Assignee, Reporter, Summary, Description, Parent and Created Date are selectable
+
+** Planning - The fields such as Target Start Date, Target End Date, Actual Start Date, Actual End Date, Calculated Start Date, Calculated End Date, Baseline Start Date, Baseline End Date, Billing Currency, Billing Amount, Cost Currency, Cost Amount, Story Point, Manday Target, Manday Allocated and Manday Billing can be filled
+
+** Attachment - Upload file from local device by dragging and dropping your file on the field or clicking the Upload File button
+
+** Comment - A list of comments can be viewed at this tab
+
+** Subtasks - A list of subtasks can be viewed at this tab
+
+** Linked Issues - A list of linked issues can be viewed at this tab
+
+** Worklogs - A list of worklogs can be viewed in this tab. Log Time tab will be displayed on the right side when the ‘+’ button is clicked. There are fields such as Activity Type, Date, Duration and Description to be filled.
+
+** Activity - A list of activities can be viewed in this tab
+
+
+In order to edit Line Items, users need to click on the line item that they want to make changes. For editing any particular Item, all the fields are the same as the steps of adding items, and are editable. In the Doc Link Tab, it will show the Doc No that copy from and copy to. The other tabs are the same as Adding Line items. The users need to click on “Save” after making the changes
+
+
+
+=== 4.2.3 Search Bar
+
+image::61_Search2.png[1440 x 900]
+
+image::62_Search3.png[]
+
+The users are able to search for any particular Purchase GRN using the search bar and typing the key data that they would like to search for. The users would also be able to search using Item Code, Item Name and Transaction Amount and so on.
+
+
+
+=== 4.2.4 Pagination 
+
+image::63_Pagination2.png[]
+
+The pagination allows the users to determine the number of entries that they would like to see in each of the pages (5/10/20/25/50/75/100).

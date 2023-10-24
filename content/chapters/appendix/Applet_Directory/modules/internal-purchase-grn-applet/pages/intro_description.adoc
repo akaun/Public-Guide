@@ -1,1 +1,2 @@
-This is a simple description of the applet, no more than 100 words.
+A Purchase GRN, or Purchase Goods Receipt Note, is a document that is typically used in business transactions to confirm that goods ordered from a supplier have been received and are in good condition. The Purchase GRN usually contains important details such as the description of the goods received, the quantity received, the date of receipt, the Purchase GRN number, and the name and contact information of the supplier. It is usually prepared by the receiving department or warehouse and sent to the purchasing department as a record of receipt of goods.
+

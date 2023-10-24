@@ -23,7 +23,8 @@ nav:
 - modules/1500-order-to-cash-module/nav.adoc
 - modules/1700-warehouse-management-module/nav.adoc
 - modules/1800-customer-data-platform-module/nav.adoc
-- modules/1900-payment-switch-module/nav.adoc
+- modules/1900-payment-gateway-module/nav.adoc
 - modules/8000-chatbot-module/nav.adoc
 - modules/8000-process-automation-module/nav.adoc
 - modules/9000-datalake-module/nav.adoc
+- modules/3508-ecomsync-module/nav.adoc

@@ -1,0 +1,17 @@
+[#h2_stock-reservation-applet_index]
+= Stock Reservation Applet
+
+include::pages/introduction.adoc[leveloffset=3]
+
+
+include::pages/features.adoc[leveloffset=3]
+
+
+
+
+
+
+
+
+
+

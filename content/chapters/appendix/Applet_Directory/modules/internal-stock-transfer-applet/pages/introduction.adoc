@@ -1,6 +1,33 @@
 [#h3_internal-stock-transfer-applet_introduction]
 =  Introduction
 
-image::stock_transfer_logo.png[150,300]
+image::AppletLogo.png[align = center]
 
 include::intro_description.adoc[]
+
+**Who will use the Internal Stock Transfer Applet?**
+
+The Stock Transfer Applet can be used by inventory managers, procurement officers, warehouse managers, and other personnel responsible for managing an internal network within an organization. Anyone involved in the procurement, management, and tracking of stock can benefit from using the Internal Stock Transfer Applet to streamline their processes and improve efficiency.
+
+
+
+**Where will the Internal Stock Transfer Applet be used?**
+
+The Internal Stock Transfer Applet can be used in any organization where there is a need to manage and track stock requests and the stock transfer process. It can be used in various industries, including manufacturing, healthcare, hospitality, retail, and more.
+The Internal Stock Transfer Applet can be installed on various devices such as desktop computers, tablets, and mobile devices, ensuring that employees and managers can access it conveniently regardless of their location or the time of day. It has the capability to seamlessly integrate with pre-existing inventory management systems, accounting software, and other business applications, offering users a smooth and uninterrupted experience.
+
+
+**What are the benefits of using an Internal Stock Transfer Applet?**
+
+Using an Internal Stock Transfer Applet can bring many benefits to an organization, including:
+
+Improved Productivity: By automating the stock Transfer process, the applet enhances efficiency, enabling employees to swiftly submit requests for required stock items. The applet ensures secure access by requiring users to authenticate themselves using their credentials or other specified authentication methods.
+Enhanced 
+
+Inventory Control: The applet offers up-to-the-minute visibility into stock levels and movements, empowering managers to make well-informed decisions regarding stock replenishment. This enables them to prevent stockouts by timely ordering additional items and avoid unnecessary costs associated with overstocking. Ultimately, it ensures that the right products are consistently available, improving customer satisfaction.
+
+Improved Accuracy: The applet ensures that workflow allows designated individuals or departments to review and approve stock transfers before they are executed. This helps ensure proper authorization and compliance with company policies.
+
+Increased Productivity: The applet reduces the amount of time and effort required to manage stock within the organization, freeing up employees to focus on more critical tasks. It also eliminates the need for manual data entry and processing, reducing the risk of errors and delays.
+
+Enhanced Reporting: The applet provides detailed reports and analytics on stock levels, stock movements, and stock requests. This information can help managers make informed decisions about stock management, and identify areas for improvement in their processes.

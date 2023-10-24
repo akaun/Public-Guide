@@ -204,32 +204,44 @@ include::modules/internal-consignor-purchase-billing-applet/index.adoc[leveloffs
 
 include::modules/production-planning-and-monitoring-applet/index.adoc[leveloffset=2]
 
+include::modules/issue-tracker-applet/index.adoc[leveloffset=2]
 
+include::modules/mlm-admin-applet/index.adoc[leveloffset=2]
 
+include::modules/multi-po-applet/index.adoc[leveloffset=2]
 
+include::modules/sales-force-automation-applet/index.adoc[leveloffset=2]
 
+include::modules/commision-scheme-applet/index.adoc[leveloffset=2]
 
+include::modules/fixed-asset-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-sales-inquiry-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-sales-quotation-applet/index.adoc[leveloffset=2]
 
+include::modules/merchant-access-applet/index.adoc[leveloffset=2]
 
+include::modules/ocr-cash-bill-applet/index.adoc[leveloffset=2]
 
+include::modules/scheduler-applet/index.adoc[leveloffset=2]
 
+include::modules/admin-time-attendance-applet/index.adoc[leveloffset=2]
 
+include::modules/delivery-and-installation-applet/index.adoc[leveloffset=2]
 
+include::modules/tenant-applet/index.adoc[leveloffset=2]
 
+include::modules/staff-time-attendance-applet/index.adoc[leveloffset=2]
 
+include::modules/recurring-sales-invoice-applet/index.adoc[leveloffset=2]
 
+include::modules/daily-cashier-applet/index.adoc[leveloffset=2]
 
+include::modules/internal-purchase-quotation-applet/index.adoc[leveloffset=2]
 
+include::modules/t2t-applet/index.adoc[leveloffset=2]
 
+include::modules/stock-reservation-applet/index.adoc[leveloffset=2]
 
-
-
-
-
-
-
-
-
-
+include::modules/internal-stock-transfer-applet/index.adoc[leveloffset=2]

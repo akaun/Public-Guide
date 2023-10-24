@@ -60,8 +60,88 @@ image::login-successful.png[Login Successful, 500, 500, align = "center"]
 
 
 
+[#h4_Self-Registration]
+== Self-Registration
+
+This user guide is for EMP's users only, for the single sign on.
+
+1. Login to EMP with your own ID (EMP user login as usual).
+2. In the akaun invitation pop-up message, click "OK, Sign Up Akaun ID now."
+3. Fill in the required data, including your First Name and Last Name. Email address is
+compulsory (for akaun.com login via email), and your password must meet the following
+requirements:
+a. Must be at least 8 characters long.
+b. Must include at least 1 uppercase letter.
+c. Must include at least 1 lowercase letter.
+d. Must include at least 1 special character.
+4. You will receive an email to verify your registration. Check your email inbox for an email
+with the subject: "Confirm your AKAUN registration." If you can't find it in your inbox,
+please check your spam folder.
+5. In the verification email, click the "Verify Email" button to proceed with the registration
+process.
+6. After verifying your email, please provide us with the email address you used to register
+under akaun.com.
+7. Once you have provided us with the email address, we will grant applet visibility and
+permissions and inform you accordingly.
+Please refer to the sample below
+
+image::SelfRegistration1.png[align = center]
 
 
+image::SelfRegistration2.png[align = center]
 
 
+image::SelfRegistration3.png[align = center]
 
+
+image::SelfRegistration4.png[align = center]
+
+
+image::SelfRegistration5.png[align = center]
+
+
+image::SelfRegistration6.png[align = center]
+
+
+=== First-time Login Steps
+1. Go to the EMP login page and enter your own ID as you would normally do to log in.
+2. In the akaun pop-up message, click "OK, Sign Up Akaun ID now" to proceed with the
+registration.
+3. Fill in the email address and password to login
+4. After logging in with your email, you will be prompted with a pop-up message confirming
+the successful linking of your EMP ID with your akaun ID. If you do not receive the
+pop-up message, please contact our support team for further assistance.
+5. Once logged in, navigate to the menu section, where you will see an additional menu
+item named "Applet."
+6. Click on the "Applet" menu and select "Launchpad." This will redirect you to the
+akaun.com home page.
+
+Please refer to the sample below:
+
+
+image::SelfRegistration7.png[align = center]
+
+
+image::SelfRegistration8.png[align = center]
+
+
+image::SelfRegistration9.png[align = center]
+
+
+image::SelfRegistration10.png[align = center]
+
+
+=== Continue Logging in to EMP
+
+1. Go to the EMP login page
+2. Click on the “Log in with Akaun”
+3. Enter your email address and password associated with your akaun ID to log in.
+4. Please note that you no longer need to use your EMP username for login.
+5. Once logged in with your akaun ID, you can seamlessly access and utilize the
+EMP functionality as you normally would.
+
+
+image::SelfRegistration11.png[align = center]
+
+
+image::SelfRegistration12.png[align = center]

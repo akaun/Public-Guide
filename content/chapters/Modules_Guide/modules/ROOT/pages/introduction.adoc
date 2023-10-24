@@ -99,9 +99,11 @@ A Payment Switch Module is a component of a payment processing system that facil
 
 A Chatbot Module is a component of a chatbot platform that enables the creation and management of chatbots for businesses to engage with customers and automate certain tasks. Chatbots are computer programs that use artificial intelligence and natural language processing to simulate human conversation with users. The Chatbot Module typically includes features such as dialog flow management, natural language processing, intent recognition, and context management. It may also include features such as integration with messaging platforms, analytics and reporting, and machine learning capabilities.
 
+=== Ecomsync Module
+EcomSync is a solution designed to streamline the complexities of managing sales and inventory across multiple e-commerce platforms such as Shopee, Lazada, Lelong.my, and Presto Mall. This comprehensive module offers a centralized platform for all product details, orders, and inventory, replacing the tedious task of manual tracking with automated, real-time order and inventory management. It features two-way syncing between online marketplaces and physical branches, auto-deduction from stock balance during sales order conversion, and intelligent, centralized auto-sync inventory for effective catalogue management. With EcomSync, businesses gain end-to-end control and visibility over their multi-channel selling operations, enhancing efficiency and ensuring they never run out of stock.
 
-
-
+=== Payment Gateway Module
+PGW module guide outlines the steps required to configure the payment gateway. The applets involved within this module includes the Payment Channel Applet, Merchant Admin Applet and Merchant Access Applet. For detailed explanations of each applet, please refer to the individual guides respectively.
 
 
 

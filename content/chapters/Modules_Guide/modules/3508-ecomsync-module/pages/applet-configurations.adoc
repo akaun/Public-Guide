@@ -1,0 +1,776 @@
+= 3.0 Applet Configurations
+
+== 3.1 Organisation Applet
+
+=== 3.1.1 Create A Company
+
+When creating a company, users need to click on the “+” button to open the “Create” tab.
+
+=== 3.1.1.1 Details
+
+Users must fill up compulsory information such as: 
+
+- Company Code 
+
+- Company Name 
+
+- Company Registration No.*
+
+- Company Incorporation Date
+
+- Select Currency
+
+- Other fields are optional 
+
+image::CreateCompany-Details-1.png[Create Company Details, align = center]
+
+image::CreateCompany-Details-2.png[Create Company Details, align = center]
+
+=== 3.1.1.2 Address
+
+User must fill up compulsory fields :
+
+- Address Line 
+- Postcode 
+- City 
+- Select Country 
+- Select State 
+- Other fields are optional 
+
+image::CreateCompany-Address-1.png[align = center]
+
+image::CreateCompany-Address-2.png[align = center]
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+
+=== 3.1.1.3 Company Listing
+
+Upon clicking the SAVE button, the registered company will appear in the Company's Listings as below:
+
+image::CompanyListing.png[align = center]
+
+
+=== 3.1.2 Create A Branch
+
+In creating a Branch, users need to click on the “+” button to open the Create tab.
+
+=== 3.1.2.1 Details
+
+Users may fill up compulsory information such as: 
+
+- Branch code 
+- Branch Name 
+- Select company 
+** When selecting a company, it will automatically fill in the:
+*** Company Registration No.
+*** Currency
+- Branch commencement date (select the current date) 
+- Other fields are optional 
+
+image::CreateBranch-Details-1.png[align = center]
+
+image::CreateBranch-Details-2.png[align = center]
+
+=== 3.1.2.2 Address
+
+User must fill up compulsory fields :
+
+- Address Line 1
+- Postcode 
+- City 
+- Select Country 
+- Select State 
+- Other fields are optional 
+
+image::CreateBranch-Address-1.png[align = center]
+
+image::CreateBranch-Address-2.png[align = center]
+
+=== 3.1.2.3 Marketplace
+
+- Allows you to authorise your seller shop with EcomSync
+
+- Users must select a marketplace, after selecting the marketplace user may proceed to SAVE the BRANCH.
+
+image::CreateBranch-Marketplace-1.png[align = center]
+
+- It will relocate to the marketplace website in order to generate Access Token.
+- After authorising all shops, users may proceed using Ecomsync
+
+image::CreateBranch-Marketplace-2.png[align = center]
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+=== 3.1.2.3.1 Stock Configuration
+
+Setting stock balance at branch level refers to setting the same configuration for all items under this branch (marketplace).
+
+Users can click on the marketplace tab, then go to stock configuration under the virtual branch.
+
+image::CreateBranch-Marketplace-StockConfiguration.png[align = center]
+
+=== 3.1.2.3.1.1 Configure Stock Balance - AUTO
+
+image::Configure-StockBalance-AUTO-1.png[align = center]
+
+image::Configure-StockBalance-AUTO-2.png[align = center]
+
+1. Stock config type ; AUTO
+2. Stock Mode ; CURRENT
+3. To choose either one and tick accordingly ; buffer numbers or stock balance percentage.
+4. Tick if users would like to overwrite all the settings done at item levels previously.
+5. Choose the inventory location from multiple companies - the system will total up all the stock balance from multiple locations as the stock availability in the marketplace.
+6. So config can be either one ; ACTIVE, INACTIVE, SELECTIVE_ACTIVE
+a. ACTIVE - To deduct any open sale order that haven't convert to invoice
+b. INACTIVE - To ignore any open sale order in stock calculation
+c. SELECTIVE_ACTIVE - Able to configure specific sale order only to be deducted from stock calculation
+7. Click on "Update Configuration" to run the inventory processor to update in the marketplace.
+
+=== 3.1.2.3.1.2 Configure Stock Balance - MANUAL
+
+image::Configure-StockBalance-MANUAL-1.png[align = center]
+
+
+
+image::Configure-StockBalance-MANUAL-2.png[align = center]
+
+1. Stock config type ; MANUAL
+2. Stock Mode ; CURRENT
+3. To key in manually the stock balance for all items in the marketplace (assume same stock balance for all items since using branch level)
+4. Tick if users would like to overwrite all the settings done at item levels previously.
+5. SO config can be either one ; ACTIVE, INACTIVE, SELECTIVE_ACTIVE
+a. ACTIVE - To deduct any open sale order that haven’t convert to invoice
+b. INACTIVE - To ignore any open sale order in stock calculation
+c. SELECTIVE_ACTIVE - Able to configure specific sale order only to be deducted from stock calculation
+6. Click on ‘Update Configuration’ to run the inventory processor to update in the marketplace.
+
+=== 3.1.2.3.1.3 System Stock Balance Calculation
+
+The formula will be as follow:
+
+a. AUTO (buffer stock)
+Stock Availability = Total stock balance from multi-location - buffer stock - sale order (depend on configuration)
+b. AUTO (balance percentage)
+- Stock Availability = (Total stock balance from multi-location - sale order (depend on configuration)) x balance percentage
+c. MANUAL
+- Stock Availability = Manual stock balance - sale order (depend on configuration)
+
+Example calculation as below:
+
+
+image::Example-Calculation.png[align = center]
+
+
+1. Scenario 1
+AUTO with buffer stock ; 3 units and sale order ; ACTIVE
+Stock Availability :
+Item A = 15 stocks -3 buffer -2 orders= 10 units
+Item B = 15 stocks -3 buffer -3 orders = 9 units
+
+
+2. Scenario 2
+AUTO with stock balance percentage ; 50% and sale order ; ACTIVE
+Stock Availability :
+Item A = (15 stocks - 2 orders) x 50% = 6 units
+Item A = (15 stocks - 3 orders) x 50% = 6 units
+
+3. Scenario 3
+MANUAL with stock balance ; 7 units and sale order ; ACTIVE
+Stock Availability :
+Item A = 7 stocks - 2 orders = 5 units
+Item A = 7 stocks - 3 orders = 4 units
+
+=== 3.1.2.3.1.4 Stock Availability Balance
+
+Users can refer to the stock availability tab to know how many quantities are being updated after the configuration.
+
+image::StockAvailabiltiyBalance.png[align = center]
+
+=== 3.1.3 Create Label
+
+This section allows the user to view the company’s label.
+
+To add a label, users need to click on the “+” button to open the Add tab.
+
+Existing Label - Select from the dropdown list of existing labels
+
+image::ExistingLabel.png[align = center]
+
+
+
+image::NewLabel.png[align = center]
+
+- Users may fill up compulsory information such as: 
+* Label Code
+* Label Name
+* Status (Active / Inactive)
+* Other fields are optional 
+
+
+image::CreateLabel.png[align = center]
+
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+=== 3.1.2.1 Label Listing
+
+Upon clicking the SAVE button, the registered location will appear in the Label Listings as below:
+
+image::LabelListing.png[align = center]
+
+=== 3.1.4 Advanced Search
+
+To find the company from the listings.
+
+All fields are optional to fill in but need correct keywords for it to function properly.
+
+image::AdvancedSearch-1.png[align = center]
+
+If users fill in the wrong keywords, it will redirect you back to all listings and will send an error message.
+
+image::AdvancedSearch-2.png[align = center]
+
+=== 3.1.5 Edit Company
+
+To edit the company, click on the company from the Company Listing.
+
+=== 3.1.5.1 Details
+
+This section allows the user to update the company’s profile details.
+
+The sections CANNOT be edited:
+
+- Company Code
+- Created By
+- Modified By
+- Creation Date
+- Modified Date
+
+image::EditCompany-Details.png[align = center]
+
+=== 3.1.5.2 Address
+
+This section allows the user to update the company’s address.
+
+image::EditCompany-Address.png[align = center]
+
+=== 3.1.6 Edit Branch
+
+To edit the branch, click on the branch from the Branch Listing.
+
+=== 3.1.6.1 Details
+
+This section allows the user to update the branch details.
+
+The sections CANNOT be edited:
+
+- Company Code
+- Created By
+- Modified By
+- Creation Date
+- Modified Date
+
+image::EditBranch-Details.png[align = center]
+
+=== 3.1.6.2 Address
+
+​​This section allows the user to update the branch address.
+
+image::EditBranch-Address.png[align = center]
+
+=== 3.1.6.3 Marketplace
+
+This section allows the user to update their marketplace entity.
+
+image::EditBranch-Marketplace.png[align = center]
+
+- Default Entity - this is Sales Order Entity
+
+=== 3.1.6.4 Extension
+
+This section allows the user to update the EMP Sales Order Branch.
+
+image::EditBranch-Extension-1.png[align = center]
+
+- Param code: EMP_BRANCH_PKID
+- Value:  (**get the branch pkid from emp)
+- ** In EMP Dynamic Reports, SQL Query: select pkid,code,name from acc_branch_index
+
+image::EditBranch-Extension-2.png[align = center]
+
+=== 3.1.7 Edit Label
+This section allows the user to update the location details.
+
+To edit the label, click on the label from the Label Listing.
+
+The sections CANNOT be edited:
+- Label Code
+- Created By
+- Modified By
+- Creation Date
+- Modified Date
+
+image::EditLabel-1.png[align = center]
+
+In adding a location to the Branch, users need to click on the “+” button to open the Add tab and select the location from the drop-down list to add for the branch.
+
+image::EditLabel-2.png[align = center]
+
+== 3.2 Doc Item Maintenance Applet
+
+=== 3.2.1 Create Single Item
+
+Single Item refers to a basic item. Users can create the item manually in Doc Item Maintenance applet or synced from EMP (if the user is currently using Wavelet EMP).
+
+Wavelet EMP user:
+
+- The user needs to create the basic item in their EMP and it will be synced back to the Doc Item Maintenance applet by ETL
+- Kindly ensure that the EMP item code = marketplace seller sku/parent sku
+
+image::CreateSingleItem-1.png[align = center]
+
+Non-wavelet EMP user:
+
+- The user can create the basic item directly in the Doc Item Maintenance applet
+
+- Step to add basic item:
+
+*** Click on the '+' icon in the items menu
+
+image::CreateSingleItem-2.png[align = center]
+
+*** Fill up all the required information to create a basic item and click create once done 
+
+- Item code - once item code is created it cannot be edited.
+- Item name - Item Name can be edited at any time
+- Item type - Basic Item
+- Sub Item Type - Basic Quantity/ Batch Number/Serial Number
+- Base UOM - Pcs/kg/gram/cm
+- Description - not compulsory
+- Currency - compulsory
+
+image::CreateSingleItem-3.png[align = center]
+
+*** Once all required fields are filled up, users can press on CREATE, so the item will be saved into the database and can proceed to be edited.
+
+image::CreateSingleItem-4.png[align = center]
+
+
+=== 3.2.2 Create Bundle Item
+
+- Bundle Item - Two or more complementary products grouped together and sold as one set of items. Ie : Selling a laptop together with mouse, keyboard, headphone as 1 package.
+- In the marketplace, a bundle item is considered as a single item since there is no way that the user is able to specify what the item consists of. Therefore, we will use the item code = marketplace seller sku/parent sku.
+- To create a bundle item in the marketplace , the user needs to create a new item to specify the set of items that are considered as one package (applicable to all users ; EMP and non-EMP).
+- Step to add bundle item:
+*** Click on the '+' icon in the items menu
+
+
+image::CreateBundleItem-1.png[align = center]
+
+*** Fill up all the required information to create a bundle item and click create once done.
+
+
+image::CreateBundleItem-2.png[align = center]
+
+- Item code - once item code is created it cannot be edited.
+- Item name - Item Name can be edited at any time
+- Item type - bundle Item
+- Sub Item Type - Basic Quantity/ Batch Number/Serial Number
+- Base UOM - Pcs/kg/gram/cm
+- Description - not compulsory
+- Currency - compulsory
+*** Once all required fields are filled up, users can press on CREATE, so the item will be saved into the database and can proceed to be edited.
+
+image::CreateBundleItem-3.png[align = center]
+
+*** In the edit item page , users need to go to the ‘bundle config’ tab to add the child for the bundle item.
+
+image::CreateBundleItem-4
+.png[align = center]
+
+
+*** Click on '+' button and select which item to be included in this bundle item . It can only consist of basic items.
+*** Tick the items by multiple select and click add.
+
+image::CreateBundleItem-5.png[align = center]
+
+
+*** Once an item is added, you may click on the item to remove it or update the ratio of the item units . Ratio refers to the quantity of item (ie : 2 eggs selling as a bundle. The ratio will be 2).
+
+image::CreateBundleItem-6.png[align = center]
+
+*** After done , click save.
+
+=== 3.2.3 Create Grouped Item
+
+- Grouped Item - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as an item type, users can add additional child items under EDIT.
+- To create a grouped item in marketplace , the user need to create a new item to group all the single item as one (applicable to all user ; EMP and non-EMP)
+- Step to add grouped item:
+Click on the '+' icon in the items menu.
+
+image::CreateGroupedItem-1.png[align = center]
+
+*** Fill up all the required information to create a grouped item and click create once done.
+
+image::CreateGroupedItem-2.png[align = center]
+
+- Item code - once item code is created it cannot be edited.
+- Item name - Item Name can be edited at any time
+- Item type - Grouped Item
+- Sub Item Type - Basic Quantity/ Batch Number/Serial Number
+- Base UOM - Pcs/kg/gram/cm
+- Description - not compulsory
+- Currency - compulsory
+
+*** Once all required fields are filled up, users can press on CREATE, so the item will be saved into the database and can proceed to be edited.
+
+image::CreateGroupedItem-3.png[align = center]
+
+*** In the edit item page , users need to go to the ‘child item’ tab to add the child for the grouped item.
+
+image::CreateGroupedItem-4.png[align = center]
+
+*** Click on the '+' button and select which item to be included in this grouped item. It may consist of basic items and bundle items. (REMEMBER : For marketplace, the seller sku cannot be duplicated . Basic/bundle items that already sync to the marketplace cannot be sync again via grouped items).
+*** Tick the items by multiple select and click add.
+
+image::CreateGroupedItem-5.png[align = center]
+
+*** Once an item is added, you may click on the item to remove it . The price and quantity can be ignored as we will set it separately at the marketplace later.
+
+
+image::CreateGroupedItem-6.png[align = center]
+
+After done , click save.
+
+=== 3.2.4 Configure Single Item/ Bundle Item to Marketplace
+
+After we create the single/bundle item in Doc Item Maintenance applet, users can start to configure it to be updated to the marketplace (Lazada,Shopee).
+
+Users need to click on the item in the item listing and the edit item page will be shown.
+
+image::ConfigureSingleBundleItem-1.png[align = center]
+
+In the dimension details tab , the user may input the item height, weight, length, width as well but it is NOT COMPULSORY. However, if the user configures it here, it will be reflected as well when we configure the attribute for the item in the marketplace tab.
+
+image::ConfigureSingleBundleItem-2.png[align = center]
+
+In the image tab , users can upload the image as well so that when configuring the marketplace, the image can be chosen directly from here but it is NOT COMPULSORY. Users are also able to upload the image directly when configured for the marketplace and it will be updated to the image tab as well.
+
+image::ConfigureSingleBundleItem-3.png[align = center]
+
+In the marketplace tab, users need to click on the '+' icons to choose the marketplace that is already authorised earlier in the organisation applet (refer guide Organization applet).
+
+image::ConfigureSingleBundleItem-4.png[align = center]
+
+
+A list of authorised marketplace will be shown and users are able to select the marketplace that user wants to configure.
+
+image::ConfigureSingleBundleItem-5.png[align = center]
+
+After selecting all the required marketplace, users need to click on the ‘Add’ button. The selected marketplace will be listed under the marketplace tab.
+
+image::ConfigureSingleBundleItem-6.png[align = center]
+
+Click on the marketplace to start configure the category, image and item attribute which is pulling directly from the marketplace API.
+
+image::ConfigureSingleBundleItem-7.png[align = center]
+
+
+Click on the '+' icon to add the category. 
+
+
+image::EditCompany-Address.png[align = center]
+
+image::ConfigureSingleBundleItem-9.png[align = center]
+
+Then , go to the image tab to add the image . Users can select the image (if they have uploaded any image in the earlier item image tab) or upload the image to be shown in the marketplace.
+
+image::ConfigureSingleBundleItem-10.png[align = center]
+
+Next will be the attribute tab . FIrst, users need to click on the brand field and choose the brand for the item.
+
+image::ConfigureSingleBundleItem-11.png[align = center]
+
+
+
+image::ConfigureSingleBundleItem-12.png[align = center]
+
+After selecting the brand (pulling from the marketplace), users need to fill up all the mandatory attributes as per Lmarketplace requirement. Kindly make sure SELLER SKU/PARENT SKU = EMP ITEM CODE.
+
+Some of the optional information is also compulsory to fill up ---> tax, bundle size (stock balance) . After all information is filled up, click on the save button.
+
+image::ConfigureSingleBundleItem-13.png[align = center]
+
+A green message will show if the item is successfully created and posted to the marketplace.
+
+image::ConfigureSingleBundleItem-14.png[align = center]
+
+In the marketplace tab, under the marketplace line, there will be a status column. It will show whether the item is pending, in progress, active in the marketplace.
+
+image::ConfigureSingleBundleItem-15.png[align = center]
+
+
+
+image::ConfigureSingleBundleItem-16.png[align = center]
+
+The item successfully updated in the marketplace.
+
+
+image::ConfigureSingleBundleItem-17.png[align = center]
+
+=== 3.2.5 Configure Grouped Item to Marketplace
+
+After we create the grouped item in Doc Item Maintenance applet, users can start to configure it to be updated to the marketplace.
+
+Users need to click on the item in the item listing and the edit item page will be shown.
+
+image::ConfigureGroupedItem-1.png[align = center]
+
+In the dimension details tab , the user may input the item height, weight, length, width as well but it is NOT COMPULSORY. However, if the user configures it here, it will be reflected as well when we configure the attribute for the item in the marketplace tab.
+
+image::ConfigureGroupedItem-2.png[align = center]
+
+In the image tab , users can upload the image as well so that when configuring the marketplace, the image can be chosen directly from here but it is NOT COMPULSORY. Users are also able to upload the image directly when configured for the marketplace and it will be updated to the image tab as well.
+
+image::ConfigureGroupedItem-3.png[align = center]
+
+In the marketplace tab, users need to click on the '+' icons to choose the marketplace that is already authorised earlier in the organisation applet (refer guide Organization applet).
+
+image::ConfigureGroupedItem-4.png[align = center]
+
+A list of authorised marketplace will be shown and users are able to select the marketplace that user wants to configure.
+
+image::ConfigureGroupedItem-5.png[align = center]
+
+
+After selecting all the required marketplace, users need to click on the ‘Add’ button. The selected marketplace will be listed under the marketplace tab.
+
+image::ConfigureGroupedItem-6.png[align = center]
+
+
+Click on the marketplace to start configure the category, image and item attribute which is pulling directly from the marketplace API.
+
+Click on the '+' icon to add the category. 
+
+image::ConfigureGroupedItem-7.png[align = center]
+
+Then , go to the group attribute to update all the brands and compulsory fields. Click on the brand field to choose and add a brand.
+
+image::ConfigureGroupedItem-8.png[align = center]
+
+Then , go to the child items tab to configure the child attribute. Click on each child item to update the attribute accordingly.
+
+image::ConfigureGroupedItem-9.png[align = center]
+
+User to add child item image . Users can select the image (if they have uploaded any image in the earlier item image tab) or upload the image to be shown in the marketplace.
+
+image::ConfigureGroupedItem-10.png[align = center]
+
+Next will be the attribute tab . Key in the attribute accordingly, especially the variation part. Then click save.
+
+image::ConfigureGroupedItem-11.png[align = center]
+
+Configure for the rest of the child items.
+
+Once done , click save. A green message will show if the item is successfully created and posted to the marketplace.
+
+image::ConfigureGroupedItem-12.png[align = center]
+
+In the marketplace tab , under the marketplace line , there will be a status column . It will show whether the item is pending, in progress, active in the marketplace.
+
+image::ConfigureGroupedItem-13.png[align = center]
+
+
+
+image::ConfigureGroupedItem-14.png[align = center]
+
+The item successfully updated in the marketplace.
+
+
+image::ConfigureGroupedItem-15.png[align = center]
+
+=== 3.2.6 Configure Stock Balance and Sales Order
+
+Configuration for stock balance can be done at item level one-by-one (doc item maintenance applet) or at branch level for all items under the marketplace (organisation applet).
+
+To configure for the stock balance, go to the stock availability tab. It will list down all the marketplace that are already updated for the item as per marketplace tab listing (for basic and bundle item type).
+
+For grouped items, the stock configuration is to be configured in each of the child items (basic/bundle item type).
+
+For bundle items, the system will calculate which item under the bundle config with lowest stock balance as bundle balance.
+
+First, select the item that already synced to the marketplace. Go to the stock availability tab.
+
+image::StockBalance-1.png[align = center]
+
+Click on the marketplace. Users will be able to configure the stock balance and sales order setting.
+
+image::StockBalance-2.png[align = center]
+
+For the stock balance configuration, user need to key in all the required fill:
+
+a. Stock Config Type: Item Config
+
+- The branch config will only be applicable when the user configures stock balance from branch level in the organisation applet.
+b. Stock Config Type:
+- AUTO : to set it to read the stock balance from the Bigledger stock balance.
+- MANUAL. : to set the stock balance figure manually
+c. Buffer : to set aside a certain number of stocks to avoid overselling. To choose any one of the configuration (applicable for AUTO stock config only)
+- Buffer numbers : Directly set how many stock to be deducted from the stock balance before update in marketplace
+- Buffer percentage : How many % of stock balance to be updated in the marketplace.
+d. Branch (only applicable for AUTO stock config only) : user able to choose the stock balance to read from which branch stock balance. It can be multiple branch selection and it will be total up in order to derive the stock balance.
+
+image::StockBalance-3.png[align = center]
+
+
+After configuring for stock balance, users need to configure for sales order . There are three SO config type that can be set:
+
+a. ACTIVE - the system will deduct the current SO before recalculate the stock balance
+b. INACTIVE - the system will not deduct the current SO before recalculate the stock balance
+c. SELECTIVE ACTIVE - user can choose which SO to be deducted before recalculate the stock balance
+
+image::StockBalance-4.png[align = center]
+
+
+After all the settings are done , click on the Save button . Green popup will show to remark it as successfully updated.
+
+image::StockBalance-5.png[align = center]
+
+
+In the stock availability listing, the marketplace will show the current stock balance after the configuration set. The same figure will be updated in the marketplace.
+
+
+image::StockBalance-6.png[align = center]
+
+
+
+image::StockBalance-7.png[align = center]
+
+== 3.3 Internal Sales Order Applet
+
+=== 3.3.1 Sales Order Listing
+
+The listing will show all the sale orders pulled from various marketplace and physical store orders.
+
+In order to identify which one is referring to marketplace order, users may check based on branch name and marketplace order no as it will show the related information from marketplace.
+
+image::SalesOrder-1.png[align = center]
+
+When a user clicks on the sale order, all the relevant information regarding the order will be shown. Three main tab to be used will be → Account, Line Items, Ecomsync
+
+image::SalesOrder-2.png[align = center]
+
+
+
+image::SalesOrder-3.png[align = center]
+
+
+
+image::SalesOrder-4.png[align = center]
+
+
+For bundle items, the system will help to unbundle and show all the SKUs under the bundle in the sale order.
+
+If the order items match with doc item maintenance listing , the sale order no will show in black colour and posting status  will be FINAL.
+
+However, if the order items do not match with item listing , the sale order no will show in red colour and posting status will be DRAFT.
+
+image::SalesOrder-5.png[align = center]
+
+If the order is in DRAFT mode, click on the order to edit the item to the correct one.
+
+image::SalesOrder-6.png[align = center]
+
+By default, it will show SHOPEE_DEFAULT_ITEM or LAZADA_DEFAULT_ITEM if it does not match with master item data. To change it, click on the default item code and select the correct item from the master listing.
+
+image::SalesOrder-7.png[align = center]
+
+
+
+image::SalesOrder-8.png[align = center]
+
+Once changed, click update and then click save.
+
+
+image::SalesOrder-9.png[align = center]
+
+
+
+image::SalesOrder-10.png[align = center]
+
+Lastly , tick the sale order to finalise the document before we update the marketplace status.
+
+
+image::SalesOrder-11.png[align = center]
+
+To update the marketplace order status, go to Ecomsync tab.
+
+a. For Lazada , the status will be : Pending → To Pack → Ready to ship
+- Pending = To Pack
+- To Pack = To Arrange Shipment
+- Ready to ship = To Handover
+
+b. For Shopee, the status will be : Ready To Ship → Processed
+
+- Ready to ship = To process
+- Processed = Processed
+
+Once the status is changed and saved , it will be reflected in the marketplace directly.
+
+Users may get the printable (AWB , shipping label , carrier manifest) directly from the applet once the status is updated. Printable will be available based on the marketplace current status.
+
+image::SalesOrder-12.png[align = center]
+
+=== 3.3.2 Line Items
+
+This module will show all the items from the sale order documents line-by-line. For Ecomsync , we will be focusing on this module.
+
+image::LineItems.png[align = center]
+
+=== 3.3.3 Ecomsync Dashboard
+
+This module will be more on reporting purposes to know more on the marketplace performance.
+
+Enhancement is on-going to improve this reporting.
+
+image::EcomsyncDashboard.png[align = center]
+
+=== 3.3.4 Ecomsync Scheduler
+
+In order to pull all the marketplace orders back to the internal sales order applet, we will need to run the order processor.
+
+This will be configured under the ‘Ecomsync Scheduler’ module in the applet.
+
+image::EcomsyncScheduler-1.png[align = center]
+
+Click '+' to configure the scheduler . Each marketplace will need to configure the scheduler to pull the orders.
+
+image::EcomsyncScheduler-2.png[align = center]
+
+Fill up all the required information.
+
+a. Scheduler code - to choose from the dropdown (LAZADA_SALES_ORDER_IDS/SHOPEE_ORDER)
+b. Scheduler name - Specify the name
+c. Time interval & interval - How long the interval between one processor run to next processor to run
+d. Branch List - Select the marketplace branch
+e. Event status - at what marketplace status the order to be pulled in to the applet
+f. Email 1 - To be notified for any missing items in the order
+g. Cron expression - the scheduler for each processor to run (at least every 15 minutes as global processor is set at every 15 minutes)
+
+image::EcomsyncScheduler-3.png[align = center]
+
+
+
+image::EcomsyncScheduler-4.png[align = center]
+
+=== 3.3.5 Batch Printing
+
+This module allows users to be able to do bulk printing for the marketplace order printable.
+
+image::BatchPrinting.png[align = center]
+
+1. Select the document type
+2. Tick which order to be print out
+3. Click ‘PRINT’ button
+4. The document will be printed.

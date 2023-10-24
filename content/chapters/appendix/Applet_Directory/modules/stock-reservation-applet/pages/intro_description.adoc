@@ -1,0 +1,1 @@
+Stock Reservation Applet is designed to streamline the process of managing and facilitating stock reservations in a business environment. It allows to reserve or allocate a certain quantity of inventory items for specific purposes, ensuring their availability for specific customers, orders, projects, or any other use case within the organization.
