@@ -2,7 +2,7 @@ By using the Internal Sales Order Applet, users will be able to create, edit, an
 
 === 1.1 Who can use this Applet?
 
-The Internal Sales Order Applet is intended to be used by the collection agent, sales consultant, account executive, account manager, sales representative, sales manager, and regional sales manager.
+The Internal Sales Order Applet is intended to be used by the collection agent, sales consultant, account executive, account manager, sales representative, sales manager and regional sales manager.
 
 === 1.2 Why is Sales Order important?
 
