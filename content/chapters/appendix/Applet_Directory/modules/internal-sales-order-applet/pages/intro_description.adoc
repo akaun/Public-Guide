@@ -6,7 +6,7 @@ The Internal Sales Order Applet is intended to be used by the collection agent, 
 
 === 1.2 Why is Sales Order important?
 
-Sales order are vital to businesses as they streamline operations, ensuring accurate order processing, inventory management, and timely deliveries. They serve as the basis for revenue recognition, financial management, and credit assessment.
+Sales order are vital to businesses as they streamline operations, ensuring accurate order processing, inventory management, and timely deliveries. They serve as the basis for revenue recognition, financial management and credit assessment.
 
 === 1.3 Why should businesses use Internal Sales Order Applet?
 
