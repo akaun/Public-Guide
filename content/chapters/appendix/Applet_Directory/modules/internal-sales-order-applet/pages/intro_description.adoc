@@ -1,14 +1,29 @@
-Internal Sales Order Applet is used to Create, Edit and Print sales orders.
+By using the Internal Sales Order Applet, users will be able to create, edit, and print sales orders. A sales order is a document issued by a seller in response to a purchase order from a buyer that contains information about the Product or Service, as well as Price, Quantity, and Buyer information such as shipping and billing addresses, payment methods, and terms and conditions.
 
-A sales order is a document issued by a seller in response to a purchase order from a buyer that contains information about the Product or Service, as well as Price, Quantity, and Buyer information such as shipping and billing addresses, payment methods, and terms and conditions.
+=== 1.1 Who can use this Applet?
 
-Who can use this Applet:
+The Internal Sales Order Applet is intended to be used by the collection agent, sales consultant, account executive, account manager, sales representative, sales manager, and regional sales manager.
 
-*Intended Users
-**Collection agent.
-**Sales consultant.
-**Account executive.
-**Account manager.
-**Sales representative.
-**Sales manager.
-**Regional sales manager.
+=== 1.2 Why is Sales Order important?
+
+Sales order are vital to businesses as they streamline operations, ensuring accurate order processing, inventory management, and timely deliveries. They serve as the basis for revenue recognition, financial management, and credit assessment.
+
+=== 1.3 Why should businesses use Internal Sales Order Applet?
+
+The use of Internal Sales Order Applet can provide several benefits to an organization. Some of these benefits include:
+
+Accuracy: Sales orders provide detailed information about products, quantities, prices, and customer preferences, ensuring accurate order processing and reducing errors.
+
+Inventory Management: Sales orders help in managing inventory levels by providing insights into demand patterns, preventing overstocking or stockouts, and optimizing supply chain operations.
+
+Timely Deliveries: By organizing customer orders, businesses can prioritize deliveries, ensuring products reach customers on time, leading to increased customer satisfaction.
+
+Financial Control: Sales orders initiate invoicing processes, allowing businesses to track sales, revenue, and cash flow accurately. They also aid in credit management by setting credit limits for customers.
+
+Customer Satisfaction: Sales orders enable businesses to understand customer requirements, tailor services, and enhance communication, leading to improved customer experiences and loyalty.
+
+Legal Protection: Sales orders serve as legal contracts, specifying terms and conditions, protecting businesses from disputes, and ensuring both parties adhere to agreed-upon terms.
+
+Data Analysis: Sales orders provide valuable data for sales analysis, helping businesses identify trends, customer preferences, and demands in the current market and guide strategic decisions.
+
+Streamlined Operations: Implementing a sales order system streamlines internal processes, facilitating efficient communication between sales, inventory, and finance departments and enhancing overall operational efficiency.
