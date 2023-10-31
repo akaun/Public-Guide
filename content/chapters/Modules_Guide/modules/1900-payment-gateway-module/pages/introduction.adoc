@@ -5,6 +5,99 @@
 This module guide outlines the steps required to configure the payment gateway. The applets involved within this module includes the Payment Channel Applet, Merchant Admin Applet and Merchant Access Applet. For detailed explanations of each applet, please refer to the individual guides respectively.
 
 
+== Payment Channel Applet
+
+**1.1 Payment Provider Menu**
+
+**1.1.1 Creating a Payment Provider**
+
+image::1-PayementGatewatModule.png[align = center]
+
+1. Create a payment provider by filling up all of the required input fields.
+
+**1.2 Payment Channel Menu**
+
+**1.2.1 Creating a Payment Channel**
+
+
+image::2-PayementGatewatModule.png[align = center]
+
+1. Create a payment channel by filling up all of the required input fields. 
+2. The Acquirer field is a drop down, which consists of providers configured in the Supplier Applet.
+
+3. Select a payment channel currency, which then populates a list of payment channel names to be selected. The payment channel code is populated based on the selected payment channel name.
+
+**1.2.2 Editing a Payment Channel**
+
+
+image::3-PayementGatewatModule.png[align = center]
+
+1. Under the configuration tab, select a forwarding rule as well as its maintenance mode. If required, enter a min and max payment amount to restrict the transaction amount that will be handled by the selected payment channel.
+
+image::4-PayementGatewatModule.png[align = center]
+
+2. Under the logo tab, upload an image file containing a logo for the selected payment channel.
+
+image::5-PayementGatewatModule.png[align = center]
+
+**1.3 Contract Menu**
+
+**1.3.1. Creating a Contract**
+
+image::6-PayementGatewatModule.png[align = center]
+
+1. Create a contract by filling up all of the required input fields.
+
+**1.3.2.Editing a Contract**
+
+1. Under the details tab, add two fields, merchantKey and merchantCode, and fill in its respective values based on the key and code obtained from the payment gateway company.
+
+image::7-PayementGatewatModule.png[align = center]
+
+2. Under the contract rate tab, if known beforehand, add charge rate values.
+
+image::8-PayementGatewatModule.png[align = center]
+
+== Merchant Admin Applet
+
+**2.1 Merchant Menu**
+
+**2.1.1.Creating a Merchant**
+
+image::9-PayementGatewatModule.png[align = center]
+
+1. Create a merchant by filling up all of the required input fields.
+
+**2.2 Contract Menu**
+
+**2.2.1. Creating a Contract**
+
+image::10-PayementGatewatModule.png[align = center]
+
+1. Create a contract by filling up all of the required input fields. This represents a contract between the merchant and the contract company.
+
+**2.2.2 Editing a Contract**
+
+1. Under the rate card tab, create a rate card by filling up all of the required input fields.
+
+image::11-PayementGatewatModule.png[align = center]
+
+== Merchant Access Applet
+
+**3.1 Merchant Menu**
+
+**3.1.1 Viewing Payment Providers**
+
+1. By clicking on a listed merchant, the payment provider code and name are displayed.	
+
+
+
+
+
+
+
+
+
 
 
 
