@@ -297,13 +297,15 @@ image::marketplace_url.png[1440 x 900]
 
 * Checking Tab is for the reports shown from the Ecomsync applet. 
 
+== Add Item Images to Marketplace
+
 image::DIMA-1.png[1440 x 900]
 
 image::DIMA-2.png[1440 x 900]
 
-image::DIMA-1.png[1440 x 900]
+image::DIMA-3.png[1440 x 900]
 
-image::DIMA-1.png[1440 x 900]
+image::DIMA-4.png[1440 x 900]
 
 
 === STOCK AVAILABILITY TAB
