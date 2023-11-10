@@ -297,9 +297,18 @@ image::marketplace_url.png[1440 x 900]
 
 * Checking Tab is for the reports shown from the Ecomsync applet. 
 
- === STOCK AVAILABILITY TAB
+image::DIMA-1.png[1440 x 900]
 
- Stock availability tabs allow users to check whether the products are available in-store.
+image::DIMA-2.png[1440 x 900]
+
+image::DIMA-1.png[1440 x 900]
+
+image::DIMA-1.png[1440 x 900]
+
+
+=== STOCK AVAILABILITY TAB
+
+Stock availability tabs allow users to check whether the products are available in-store.
 
 image::stock_availability_tab.png[1440 x 900]
 
