@@ -3,9 +3,19 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/workflow.adoc[leveloffset=3]
+include::pages/installationandsetup.adoc[leveloffset=3]
 
-include::pages/applet-configurations.adoc[leveloffset=3]
+include::pages/ecomsyncdashboard.adoc[leveloffset=3]
+
+include::pages/virtualbranchconfiguration.adoc[leveloffset=3]
+
+include::pages/stockbalanceandsalesorderconfigurations.adoc[leveloffset=3]
+
+include::pages/productmanagement.adoc[leveloffset=3]
+
+include::pages/salesordermanagement.adoc[leveloffset=3]
+
+include::pages/faqs.adoc[leveloffset=3]
 
 
 

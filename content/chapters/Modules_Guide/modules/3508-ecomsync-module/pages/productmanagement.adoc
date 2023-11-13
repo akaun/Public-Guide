@@ -1,0 +1,82 @@
+= 6.0 Product/Items Management and Synchronization 
+
+== 6.1 Create Items
+
+The users can create items (Single, Bundle, Group) under Doc Item Maintenance Applet
+
+=== 6.1.1 Create Single/Basic Item
+
+image::CreateSingleItem-2.png[align = center]
+
+The user can create the basic item directly in the Doc Item Maintenance applet. Simply click on the '+' icon in the items menu and fill up all the required information to create a basic/single item. Once all required fields are filled up, users can press on CREATE, so the item will be saved into the database and can proceed to be edited.
+
+
+
+
+image::CreateSingleItem-4.png[align = center]
+
+=== 6.1.2 Create Bundle Item
+
+* Two or more complementary products are grouped together and sold as one set of items. eg, Selling a laptop together with a mouse, keyboard, and headphones as 1 package. In the marketplace, a bundle item is considered as a single item since there is no way that the user is able to specify what the item consists of. Therefore, we will use the item code = marketplace seller SKU/parent SKU.
+
+* To create a bundle item in the marketplace, the user needs to create a new item to specify the set of items that are considered as one package. Simply click on the '+' icon in the items menu and fill up all the required information to create a bundle item. Once all required fields are filled up, users can press on CREATE, so the item will be saved into the database and can proceed to be edited. 
+
+image::CreateBundleItem-2.png[align = center]
+
+In the edit item page, users need to go to the ‘bundle config’ tab to add the child for the bundle item. Click on the '+' button and select which item to be included in this bundle item. It can only consist of basic items. Tick the items by multiple select and click add. Once an item is added, you may click on the item to remove it or update the ratio of the item units. The ratio refers to the number of items (ie: 2 eggs selling as a bundle. The ratio will be 2). After done, click on the save.
+
+image::CreateBundleItem-4.png[align = center]
+
+image::CreateBundleItem-5.png[align = center]
+
+image::CreateBundleItem-6.png[align = center]
+
+=== 6.1.3 Create Grouped Products
+
+Grouped Item is an item that is part of a group of related products which share common attributes like features, use, production processes, etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as an item type, users can add additional child items under the EDIT page.
+
+To create a grouped item in the marketplace, the user needs to create a new item to group all the single items as one. Click on the '+' icon in the items menu. Fill up all the required information to create a grouped item. Once all required fields are filled up, users can press on CREATE button, so the item will be saved into the database and can proceed to be edited.
+
+image::CreateGroupedItem-2.png[align = center]
+
+In the edit item page, users need to go to the ‘child item’ tab to add the child to the grouped item. Click on the '+' button and select which item to be included in this grouped item. It may consist of basic items and bundle items. (REMEMBER: For the marketplace, the seller SKU cannot be duplicated. Basic/bundle items that already sync to the marketplace cannot be synced again via grouped items). Tick the items by multiple select and click add. Once an item is added, you may click on the item to remove it. The price and quantity can be ignored as we will set it separately at the marketplace later. After done, click save.
+
+image::CreateGroupedItem-2.png[align = center]
+
+image::CreateGroupedItem-3.png[align = center]
+
+
+image::CreateGroupedItem-4.png[align = center]
+
+image::CreateGroupedItem-5.png[align = center]
+
+image::CreateGroupedItem-6.png[align = center]
+
+== 6.2 Sync Product/Item to Marketplace
+
+=== 6.2.1 Sync Basic/Single/Bundle Products to Marketplace
+
+After we create the single/bundle item in the Doc Item Maintenance applet, users can start to configure it to be updated to the marketplace (Lazada, Shopee, etc.). Users need to click on the item in the item listing and the edit item page will be shown. 
+
+* In the marketplace tab, users need to click on the '+' icons to choose the marketplace that was already authorized earlier in the organization applet. A list of the authorized marketplace will be shown and users will be able to select the marketplace that the user wants to configure. After selecting all the required marketplace, users need to click on the ‘Add’ button. The selected marketplace will be listed under the Marketplace tab. Click on the marketplace to start configuring the category, image, and item attribute which is pulling directly from the marketplace API. Click on the '+' icon to add the category. Then, go to the image tab to add the image. Users can select the image (if they have uploaded any image in the earlier item image tab) or upload the image to be shown in the marketplace. In the Attributes tab, users need to click on the brand field and choose the brand for the item. After selecting the brand (pulling from the marketplace), users need to fill up all the mandatory attributes as per Marketplace requirements. Some of the information is compulsory to fill up ---> tax, bundle size (stock balance). After all information is filled up, click on the save button. A green message will show if the item is successfully created and posted to the marketplace.
+
+* In the marketplace tab, under the marketplace line, there will be a status column. It will show whether the item is pending, in progress, or active in the marketplace.
+
+image::ConfigureSingleBundleItem-16.png[align = center]
+
+=== 6.2.3 Sync Group Products/Items to  Marketplace
+
+After we create the grouped item in the Doc Item Maintenance applet, users can start to configure it to be updated to the marketplace.
+
+* Users need to click on the item in the item listing and the edit item page will be shown. In the marketplace tab, users need to click on the '+' icons to choose the marketplace that is already authorized earlier in the organization applet. A list of the authorized marketplace will be shown and users are able to select the marketplace that the user wants to configure. After selecting all the required marketplace, users need to click on the ‘Add’ button. The selected marketplace will be listed under the Marketplace tab. Click on the marketplace to start configuring the category, image, and item attribute which is pulling directly from the marketplace API. Click on the '+' icon to add the category. Then, go to the group attribute to update all the brands and compulsory fields. Click on the brand field to choose and add a brand. Then, go to the child items tab to configure the child attribute. Click on each child item to update the attribute accordingly. Users can also add child item images. you can select the image (if they have been uploaded any image in the earlier item image tab) or upload the image to be shown in the marketplace. in the attribute tab, Key in the attribute accordingly, especially the variation part. Then click the save button. Same for the rest of the child item. 
+
+* Once done, click save. A green message will show if the item is successfully created and posted to the marketplace. In the marketplace tab, under the marketplace line, there will be a status column. It will show whether the item is pending, in progress, or active in the marketplace.
+
+image::ConfigureGroupedItem-14.png[align = center]
+
+
+== 6.3 Setting Item Dimensions and Images 
+
+In the dimension details tab, the user may input the item height, weight, length, and width as well but it is NOT COMPULSORY. However, if the user configures it here, it will be reflected as well when we configure the attribute for the item in the marketplace tab.
+
+In the image tab, users can upload the image as well so that when configuring the marketplace, the image can be chosen directly from here but it is NOT COMPULSORY. Users are also able to upload the image directly when configured for the marketplace and it will be updated to the image tab as well.

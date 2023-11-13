@@ -1,0 +1,20 @@
+= 7.0 Sales Order Management
+
+== 7.1 Order Processing
+
+The order processing journey begins when a customer places an order on a connected marketplace such as Lazada or Shopee. The marketplace relays this order information to the Ecomsync module.
+
+== 7.2 Viewing Orders
+Upon placement, the order is received within the Internal Sales Order Applet. This applet acts as a centralized hub where users can efficiently manage and process orders from various marketplaces. Users can view all the orders in the Sales Order Applet.
+
+== 7.3 Sales Order Status Update
+
+Users can navigate to the Sales Order Applet to update the status of the received order. Whether it's confirming the order, preparing for shipment, or marking it as delivered, this step allows for transparent order tracking and management.
+
+== 7.4 Dashboard Monitoring
+
+The Ecomsync dashboard in the Internal Sales Order Applet provides a visual representation of the performance of each marketplace. Within this dashboard, users can monitor incoming orders, track order statuses, and assess the overall sales performance. This real-time insight aids in decision-making and strategic planning.
+
+== 7.5 Marketplace Listing Update
+
+As users update the status of orders within the Sales Order Applet, the changes are dynamically reflected in the marketplace listing. This ensures that customers on platforms like Lazada and Shopee receive accurate and up-to-date information about their orders.

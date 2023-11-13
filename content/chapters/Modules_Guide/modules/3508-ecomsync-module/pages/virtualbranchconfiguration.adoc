@@ -1,0 +1,20 @@
+= 4.0 Virtual Branch Configuration
+It is essential to create a virtual branch for each of your marketplace accounts. This allows for clear organization and tracking of activities on each platform.
+
+== 4.1 Creating Virtual Branches
+
+* In Order to create a Virtual Branch, the user needs to go to the Organisation Applet.
+
+* Create a Virtual Branch for each Marketplace Account in order to manage your presence across different marketplaces seamlessly.
+
+image::CompanyListing.png[align = center]
+
+image::CreateBranch-Details-1.png[align = center]
+
+* In creating a Branch, users need to click on the “+” button to open the Create tab. Under  Details tab, users may fill up compulsory information such as Branch code, Branch Name and Company. When selecting a company, it will automatically fill in the Company Registration No., Currency, Branch commencement date (select the current date). In the Address Tab user needs to fill in all address details. 
+
+* To effectively manage your multi-channel selling operations, the creation and configuration of virtual branches are paramount. Virtual branches serve as organizational entities for different marketplace accounts, enabling you to streamline your activities and track performance across various platforms.
+
+* In Order to understand how to create a Branch in details refer to Organisation Applet Documentation here. https://playbook.akaun.com/bigdoc/handbook-applet-directory/1.0/organization-applet/branch-listing.html
+ 
+

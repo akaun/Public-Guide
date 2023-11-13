@@ -1,0 +1,121 @@
+= 5.0 Stock Balance and Sales Order Configurations
+
+1. Configuration for stock balance can be done at item level one-by-one in the doc item maintenance applet or at the branch level in the Organisation applet for all items under the marketplace (Branch level is explained in 5.1).
+
+2. To configure the stock balance, go to the stock availability tab. It will list down all the marketplace that is already updated for the item as per the marketplace tab listing (for basic and bundle item types).
+
+3. For grouped items, the stock configuration is to be configured in each of the child items (basic/bundle item type).
+
+4. For bundle items, the system will calculate which item under the bundle config with lowest stock balance as a bundle balance.
+
+5. First, select the item that already synced to the marketplace. Go to the stock availability tab.
+
+image::Ecomsync-6.png[align = center]
+
+
+6. Click on the marketplace. Users will be able to configure the stock balance and sales order settings.
+
+image::Ecomsync-7.png[align = center]
+
+7. For the stock balance configuration, the user needs to key in all the required fill Stock Config Type (AUTO or MANUAL). (Note: The branch config will only be applicable when the user configures stock balance from the branch level in the organization applet). When the Stock Config Type is set to AUTO, it will read the stock balance from the Bigledger stock balance. When the Stock Config Type is set to MANUAL, the stock balance is set to figure manually. The Buffer is to set aside a certain stock to avoid overselling. To choose any one of the configurations (applicable for AUTO stock config only)
+Buffer numbers, The user can directly set how much stocks to be deducted from the stock balance before updating in the marketplace. Buffer percentage is for how much % of the stock balance is to be updated in the marketplace.
+
+image::Ecomsync-8.png[align = center]
+
+The user is able to choose the stock balance to read from which branch stock balance. It can be multiple branch selection and it will be total up in order to derive the stock balance(only applicable for AUTO stock config only).
+
+
+8. After configuring for stock balance, the user needs to configure for the sales order . There are three SO config types that can be set:
+
+ACTIVE - the system will deduct the current SO before recalculating the stock balance
+
+INACTIVE - the system will not deduct the current SO before recalculating the stock balance
+
+SELECTIVE ACTIVE - The user can choose which SO to deduct before recalculate the stock balance
+
+image::Ecomsync-9.png[align = center]
+
+9. After all is setting is done, click on the Save button. A green popup will show to mark it as successfully updated.
+
+image::Ecomsync-10.png[align = center]
+
+10. In the stock availability listing, the marketplace will show the current stock balance after the configuration set. The same figure will be updated in the marketplace.
+
+image::Ecomsync-11.png[align = center]
+
+image::Ecomsync-12.png[align = center]
+
+== 5.1 Stock and Sale Order Configuration by Branch
+
+1. Setting stock balance at the branch level refers to setting the same configuration for all items under this branch (marketplace). Users can click on the marketplace tab in the Organisation Applet, go to stock configuration under the virtual branch.
+
+image::Ecomsync-14.png[align = center]
+
+
+
+image::Ecomsync-15.png[align = center]
+
+image::Ecomsync-16.png[align = center]
+
+2. When the Stock config type is set to  AUTO and Stock Mode is set to CURRENT in the Stock Balance tab, the user can choose either buffer numbers or stock balance percentages. 
+Choose the inventory location from multiple companies and the system will total up all the stock balance from multiple locations as the stock availability in the marketplace. SO config can be either be Active, Inactive, or  Selective Active. Click on ‘Update Configuration’ to run the inventory processor to update in the marketplace.
+
+
+image::Ecomsync-17.png[align = center]
+
+image::Ecomsync-18.png[align = center]
+
+When Stock config type is set to MANUAL and Stock Mode is set to  CURRENT. Users can key in the stock balance for all items in the marketplace manually. SO config can be either Active, Inactive, or  Selective Active. Click on ‘Update Configuration’ to run the inventory processor to update in the marketplace.
+
+== 5.2 System Stock Balance Calculation
+
+The formula for stock balance will be as follows:
+
+AUTO (buffer stock)
+
+Stock 
+Availability = Total stock balance from multi-location - buffer stock - sale order (depend on configuration)
+
+AUTO (balance percentage)
+
+Stock Availability = (Total stock balance from multi-location - sale order (depend on configuration)) x balance percentage
+
+MANUAL
+
+Stock Availability = Manual stock balance - sale order (depend on configuration)
+Example calculation as below ;
+
+image::Ecomsync-13.png[align = center]
+
+Scenario 1
+
+AUTO with buffer stock ; 3 units and sale order; ACTIVE
+Stock Availability :
+
+Item A = 15 stocks -3 buffer -2 orders= 10 units
+
+Item B = 15 stocks -3 buffer -3 orders = 9 units
+
+Scenario 2
+
+AUTO with stock balance percentage ; 50% and sale order ; ACTIVE
+Stock Availability :
+
+Item A = (15 stocks - 2 orders) x 50% = 6 units
+
+Item A = (15 stocks - 3 orders) x 50% = 6 units
+
+Scenario 3
+
+MANUAL with stock balance; 7 units and sale order; ACTIVE
+Stock Availability :
+
+Item A = 7 stocks - 2 orders = 5 units
+
+Item A = 7 stocks - 3 orders = 4 units
+
+== 5.3 Stock availability balance
+
+Can refer to the marketplace > stock availability tab to know how many quantity is being updated after the configuration.
+
+image::Ecomsync-19.png[align = center]

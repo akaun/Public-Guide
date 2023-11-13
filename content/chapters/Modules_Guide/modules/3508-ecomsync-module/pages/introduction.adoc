@@ -1,30 +1,15 @@
 = 1.0 Introduction
 
-**1. Uses of Ecomsync Module:**
+Welcome to the Ecomsync user manual, your comprehensive guide to streamlining and optimizing your multi-channel selling operations. Ecomsync is the innovative solution you need to conquer the challenges of managing sales and inventory across various marketplaces such as Shopee, Lazada, and more.
 
-* Connected to multiple marketplaces
-* Enable sales order processing
-* Centralised product catalogue
-* Advanced stock balance syncing
+== 1.1 About Ecomsync
 
-**2. Why Ecomsync Module is necessary?**
-
-* Managing sales and inventory is difficult across multiple marketplaces like Shopee, Lazada, Lelong.my, Presto Mall etc.
-
-* No consolidation and centralization of all the product details, orders and inventory in one platform.
-
-* Lack of automation to track and manage your orders and returns to keep the stock updates in real-time and never go out of stock again
-
-**2. Benefits of Ecomsync Module:**
-
-* Innovative integration solution to streamline end-to-end multi-channel selling operations:
-
-** Smooth selling operations on a robust, feature-rich, and user-friendly interface
-** Manage the marketplaces from a centralised platform
-** Obtain end-to-end control and visibility for all your marketplace activity 
+Ecomsync is a state-of-the-art software module meticulously designed to redefine your approach to multi-channel selling. In a rapidly evolving e-commerce landscape, managing sales and inventory across multiple marketplaces such as Shopee and Lazada can present formidable challenges. Ecomsync steps in as the answer, providing an innovative integration solution that seamlessly streamlines your end-to-end multi-channel selling operations. It offers an intuitive, feature-rich, and user-friendly interface, empowering you to carry out your selling operations with ease and efficiency. One of Ecomsync's core strengths lies in its ability to centralize your marketplace management, simplifying the complexity of dealing with various platforms. With Ecomsync, you obtain comprehensive control and visibility over every facet of your marketplace activity, ensuring that your multi-channel journey is smooth, successful, and stress-free. This user manual serves as your trusted guide to making the most of the Ecomsync module and maximizing its benefits for your e-commerce endeavors.
 
 
-**4. Ecomsync Module Overview:**
+== 1.3 Ecomsync Module Overview:
+
+
 
 image::ModuleOverview1.png[align = center]
 
@@ -33,24 +18,38 @@ image::ModuleOverview1.png[align = center]
 image::ModuleOverview2.png[align = center]
 
 
-**5. Ecomsync Module Features:**
+
+== 1.4 Ecomsync Workflow
+
+image::Ecomsync-1.png[align = center]
 
 
-* 2 ways syncing from and to online marketplace
-* Inventory sync from your choice of physical branches
-* Auto-deduction from stock balance during the conversion of sales order into sales invoice
 
-**Ecomsync Module Insights:**
+In order to understand how the Ecomsync Module works, the user needs to understand the Ecomsync workflow.
 
-a. Catalogue Management
-- Effective item catalogue management
-- Auto category mapping
+The first Applet under the Ecomsync workflow is the **Organisation Applet** where the users will need to create a Company with a Virtual Branch of each marketplace they want to add. These Virtual Branches will need to be authorized and linked with your branch/store. Each branch will have token authorization. The user must set the Default Entity in the Organisation Applet by linking to the customer created in the Customer Maintenance Applet. The settlement method needs to be added in the Organisation Applet as well. 
 
-b. Order Processing
-- Real-time order tracking
-- Omnichannel order management
+The **Customer Maintenance Applet** is to create the Customer. The user can set category, Credit Term, and Credit Limit under this applet.
 
-c. Centralised Inventory
-- Centralised auto-sync inventory
-- Intelligent inventory reporting and insights
+The **Doc Item Maintenance Applet** is to create your item (Single, Group, and Bundle items). The items created will be synced to the Marketplace basically managing the inventory. This applet is also to configure the Stock Balance and Sales Order. 
+
+The **Marketplace** (Lazada, Shopee, etc) will show all your items added to the listing. This listing will be updated when the user changes the status of the order placed under the Sales Order Applet
+
+When the Customer places an order in the Marketplace, the user will receive that order in the **Internal Sales Order Applet**. The order will show under the Marketplace Order Listing in the  Internal Sales Order Applet. The user can update the status of the order under the Sales Order Applet. The dashboard will show the user, the performance of each Marketplace. 
+The Internal Receipt Voucher is related to the Payment in the Marketplace. After the user receives the payment the user can do payment matching under the Internal Receipt Voucher Applet. 
+
+== 1.3 Challenges in Multi-Channel Selling
+
+Multi-channel selling in today's diverse e-commerce landscape presents intricate challenges that businesses must navigate. From juggling sales across platforms like Shopee and Lazada to managing a wide array of product details, orders, and inventory, the complexity can be overwhelming. Without a centralized platform, it's easy for essential information to become scattered and disjointed. Automation is a critical element often missing, leaving businesses to grapple with tracking and managing orders and returns in real time. The consequences of inadequate stock updates can result in stockouts and, subsequently, disappointed customers. Ecomsync rises to the occasion, addressing these challenges head-on by providing a unified solution. This user manual serves as your compass, guiding you through the complexities of multi-channel selling and empowering you to overcome these challenges effectively.
+
+
+== 1.4 Why should you choose our Ecomsync Module:
+
+In the dynamic world of e-commerce, the necessity of Ecomsync becomes evident. Managing sales and inventory can be a complex endeavor, especially when dealing with numerous marketplaces like Shopee and Lazada. The absence of a centralized platform creates a web of challenges, with product details, orders, and inventory scattered across platforms. Ecomsync is the solution that bridges these gaps. With Ecomsync, you gain the ability to consolidate and centralize all your product information, orders, and inventory in one unified platform, simplifying and streamlining your operations. What sets Ecomsync apart is its automation capabilities, ensuring that you can effortlessly track and manage your orders and returns in real-time, preventing stockouts and maintaining an impeccable customer experience. Ecomsync is the answer to the intricate demands of multi-channel selling, providing the essential tools to navigate the complex e-commerce landscape effectively.
+
+
+
+
+
+
 

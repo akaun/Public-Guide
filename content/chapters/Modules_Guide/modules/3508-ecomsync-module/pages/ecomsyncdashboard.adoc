@@ -1,0 +1,42 @@
+= 3.0 Ecomsync Dashboard
+
+== 3.1 Dashboard Overview
+
+Gain a comprehensive understanding of the Ecomsync module with an in-depth overview of the user dashboard, specifically under the Internal Sales Order Applet. The dashboard is uniquely designed to accommodate multiple marketplace dashboards, each offering insights into various facets of your multi-channel selling operations.
+
+== 3.2 Navigating the Dashboard
+
+image::Ecomsync-5.png[align = center]
+
+Learn how to navigate seamlessly through the user dashboard, exploring the marketplace-specific dashboards available under the Internal Sales Order Applet. Understand the layout, menu options, and interactive elements that facilitate a user-friendly experience, ensuring effortless navigation between different marketplace dashboards.
+
+== 3.3 Customizing Your Dashboard
+
+Tailor your user dashboard to suit your preferences and priorities within the Internal Sales Order Applet. Discover how to customize widgets, rearrange elements, and set up shortcuts for quick access to frequently used features. Each marketplace dashboard consists of essential components, including:
+
+**Dashboard Main:** Providing an overview of critical metrics and key performance indicators for the selected marketplace, the Dashboard Main serves as a central hub for monitoring overall performance.
+
+**Dashboard Total Orders:** Track the total number of orders received from the selected marketplace. This widget offers real-time insights into order volumes, allowing for effective order management.
+
+**Dashboard Total Sales:** Monitor the total sales generated from the selected marketplace. This widget provides a snapshot of your financial performance, aiding in strategic decision-making and financial planning.
+
+== 3.4  Ecomsync Scheduler
+
+In order to pull all the marketplace orders back to the internal sales order applet, we will need to run the order processor. This will be configured under the ‘Ecomsync Scheduler’ module in the applet.
+
+
+image::EcomsyncScheduler-1.png[align = center]
+
+Click '+' to configure the scheduler. Each marketplace will need to configure the scheduler to pull the orders.
+
+
+image::EcomsyncScheduler-2.png[align = center]
+
+Fill up all the required information such as Scheduler code, Scheduler name, Time interval & interval ( How long the interval between one processor runs to the next processor run), Branch List, Event status, Email 1 ( To notify of any missing items in the order), Cron expression ( the scheduler for each processor to run) (at least every 15 minutes as global processor is set at every 15 minutes)
+
+
+image::EcomsyncScheduler-3.png[align = center]
+
+image::EcomsyncScheduler-4.png[align = center]
+
+

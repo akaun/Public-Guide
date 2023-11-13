@@ -1,6 +1,15 @@
 * Ecomsync Module
 ** xref:introduction.adoc[Introduction]
-** xref:workflow.adoc[Workflow]
-** xref:applet-configurations.adoc[Applet Configurations]
+** xref:installationandsetup.adoc[Installation and Setup]
+** xref:ecomsyncdashboard.adoc[Ecomsync Dashboard]
 
-//xref:README.adoc[]
+** xref:avirtualbranchconfiguration.adoc[Virtual Branch Configuration]
+
+** xref:stockbalanceandsalesorderconfigurations.adoc[Stock Balance and Sales Order Configurations]
+
+** xref:productmanagement.adoc[Item Management and Synchronization]
+
+** xref:salesordermanagement.adoc[Sales Order Management]
+
+** xref:faqs.adoc[Troubleshooting and FAQs]
+
