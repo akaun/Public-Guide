@@ -3,7 +3,7 @@
 ** xref:installationandsetup.adoc[Installation and Setup]
 ** xref:ecomsyncdashboard.adoc[Ecomsync Dashboard]
 
-** xref:avirtualbranchconfiguration.adoc[Virtual Branch Configuration]
+** xref:virtualbranchconfiguration.adoc[Virtual Branch Configuration]
 
 ** xref:stockbalanceandsalesorderconfigurations.adoc[Stock Balance and Sales Order Configurations]
 

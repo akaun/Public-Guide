@@ -27,7 +27,6 @@ In the edit item page, users need to go to the ‘bundle config’ tab to add th
 
 image::CreateBundleItem-4.png[align = center]
 
-image::CreateBundleItem-5.png[align = center]
 
 image::CreateBundleItem-6.png[align = center]
 
@@ -41,7 +40,6 @@ image::CreateGroupedItem-2.png[align = center]
 
 In the edit item page, users need to go to the ‘child item’ tab to add the child to the grouped item. Click on the '+' button and select which item to be included in this grouped item. It may consist of basic items and bundle items. (REMEMBER: For the marketplace, the seller SKU cannot be duplicated. Basic/bundle items that already sync to the marketplace cannot be synced again via grouped items). Tick the items by multiple select and click add. Once an item is added, you may click on the item to remove it. The price and quantity can be ignored as we will set it separately at the marketplace later. After done, click save.
 
-image::CreateGroupedItem-2.png[align = center]
 
 image::CreateGroupedItem-3.png[align = center]
 
