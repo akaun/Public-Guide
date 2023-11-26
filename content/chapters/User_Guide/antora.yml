@@ -10,3 +10,6 @@ nav:
 - modules/resellers/nav.adoc
 - modules/tenant-owners/nav.adoc
 - modules/system-integrators/nav.adoc
+- modules/generate-access-key/nav.adoc
+
+

@@ -24,5 +24,9 @@ include::modules/resellers/index.adoc[leveloffset=2]
 include::modules/system-integrators/index.adoc[leveloffset=2]
 
 
+include::modules/generate-access-key/index.adoc[leveloffset=2]
+
+
+
 // This is the page break
 <<<<<<<<<<<
