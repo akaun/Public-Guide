@@ -1,0 +1,50 @@
+= How To Generate Your Own Access Key
+
+
+The following documentation outlines how to generate your own access keys for ETL endpoints.
+
+Please remember to save your access key, since this information will be available to you only once.
+Please also note that the access keys need to be generated only once.
+
+== Step 1: 
+
+(Login to Akaun)
+
+Login to akaun with your account credentials:
+
+image::accesskey1.png[align = center]
+
+
+== Step 2: 
+
+Locate the menu on the top right corner of the screen, and click on it to reveal the option to view the ‘Profile’. Locate and click ‘Profile’ in the menu as shown below.
+
+image::accesskey2.png[align = center]
+
+== Step 3:
+
+You should be able to view the page shown below. Please locate and click the Access Key/ID tab as shown below:
+
+image::accesskey3.png[align = center]
+
+== Step 4:
+
+Once the page generates, please follow along with locating and clicking the ‘+’ button situated at the left corner of the screen.
+
+image::accesskey4.png[align = center]
+
+== Step 5:
+
+The following window should pop-up on-click:
+
+image::accesskey5.png[align = center]
+
+On this window, first place fill in the ‘Access Key Label’ with any desired label name. Followed by clicking the add button on the bottom of the pop-up screen.
+
+== Step 5:
+
+On-clicking the add button, the following pop-up will appear with your secret access key.
+
+**PLEASE SAVE YOUR ACCESS KEY from this window since you will not be able to retrieve it again. PLEASE ALSO NOTE, not to share your access key with anyone.**
+
+image::accesskey6.png[align = center]

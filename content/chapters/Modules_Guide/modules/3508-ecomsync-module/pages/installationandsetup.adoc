@@ -2,7 +2,8 @@
 
 == 2.1 Installation Guide
 
-- The user can install the Ecomsync Applet and all related applets (Organisation Applet, Customer Maintenance Applet, Doc Item Maintenance Applet, Internal Sales Order Applet, Internal Receipt Voucher Applet, etc) from the Applet store in Akaun Platform. https://akaun.cloud/#/bigledger/akaun-platform/container/launchpad-panel
+- The user can install the Ecomsync Applet and all related applets (Organisation Applet, Customer Maintenance Applet, Doc Item Maintenance Applet, Internal Sales Order Applet, Internal Receipt Voucher Applet, etc) from the Applet store in Akaun Platform <a href="https://akaun.cloud/#/bigledger/akaun-platform/container/launchpad-panel">here</a> 
+
 
 
 - Search for the applet name in the Search Bar, select the applet, and select the Install button. 
