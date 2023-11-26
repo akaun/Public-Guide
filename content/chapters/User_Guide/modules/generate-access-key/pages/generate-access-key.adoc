@@ -31,20 +31,22 @@ image::accesskey3.png[align = center]
 
 Once the page generates, please follow along with locating and clicking the ‘+’ button situated at the left corner of the screen.
 
-image::accesskey4.png[align = center]
+
+image::accesskey5.png[align = center]
+
 
 == Step 5:
 
 The following window should pop-up on-click:
 
-image::accesskey5.png[align = center]
+image::accesskey6.png[align = center]
 
 On this window, first place fill in the ‘Access Key Label’ with any desired label name. Followed by clicking the add button on the bottom of the pop-up screen.
 
-== Step 5:
+== Step 6:
 
 On-clicking the add button, the following pop-up will appear with your secret access key.
 
 **PLEASE SAVE YOUR ACCESS KEY from this window since you will not be able to retrieve it again. PLEASE ALSO NOTE, not to share your access key with anyone.**
 
-image::accesskey6.png[align = center]
+image::accesskey7.png[align = center]
