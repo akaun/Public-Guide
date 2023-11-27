@@ -1,103 +1,53 @@
 [#h3_pgw_introduction]
 
-= Introduction
+= 1.0 Introduction
 
-This module guide outlines the steps required to configure the payment gateway. The applets involved within this module includes the Payment Channel Applet, Merchant Admin Applet and Merchant Access Applet. For detailed explanations of each applet, please refer to the individual guides respectively.
+== 1.1 About Payment Gateway Module
 
+The purpose of the Payment Gateway Module is to seamlessly facilitate electronic transactions between various entities within the payment ecosystem. Serving as a crucial intermediary, the module empowers businesses to securely accept and process payments from customers. By integrating with payment providers, suppliers, and merchants, the module ensures a smooth and efficient flow of transactions, supporting a variety of payment channels and methods. Payment Gateway Module simplifies the complex process of financial transactions, offering a secure and reliable platform for businesses to manage their payment operations. 
 
-== Payment Channel Applet
+== 1.2 Key Features
 
-**1.1 Payment Provider Menu**
+Key Features of the Payment Gateway Module:
 
-**1.1.1 Creating a Payment Provider**
-
-image::1-PayementGatewatModule.png[align = center]
-
-1. Create a payment provider by filling up all of the required input fields.
-
-**1.2 Payment Channel Menu**
-
-**1.2.1 Creating a Payment Channel**
+*Seamless Transaction Facilitation:*
 
 
-image::2-PayementGatewatModule.png[align = center]
+The module serves as a pivotal intermediary, facilitating electronic transactions seamlessly between various entities within the payment ecosystem.
 
-1. Create a payment channel by filling up all of the required input fields. 
-2. The Acquirer field is a drop down, which consists of providers configured in the Supplier Applet.
+*Secure Payment Processing:*
 
-3. Select a payment channel currency, which then populates a list of payment channel names to be selected. The payment channel code is populated based on the selected payment channel name.
+Empowers businesses to securely accept and process payments from customers, ensuring the confidentiality and integrity of financial transactions.
 
-**1.2.2 Editing a Payment Channel**
+*Integration Capabilities:*
 
+Integrates with payment providers, suppliers, and merchants to enable a smooth and efficient flow of transactions.
 
-image::3-PayementGatewatModule.png[align = center]
+*Support for Multiple Payment Channels:*
 
-1. Under the configuration tab, select a forwarding rule as well as its maintenance mode. If required, enter a min and max payment amount to restrict the transaction amount that will be handled by the selected payment channel.
+Supports a variety of payment channels and methods, allowing businesses to cater to diverse customer preferences.
 
-image::4-PayementGatewatModule.png[align = center]
+*Efficient Workflow Management:*
 
-2. Under the logo tab, upload an image file containing a logo for the selected payment channel.
+Simplifies the complex process of financial transactions, providing businesses with a secure and reliable platform to manage payment operations.
 
-image::5-PayementGatewatModule.png[align = center]
+== 1.3 Payment Gateway Module Workflow
 
-**1.3 Contract Menu**
+image::pgw-11.png[align = center]
 
-**1.3.1. Creating a Contract**
-
-image::6-PayementGatewatModule.png[align = center]
-
-1. Create a contract by filling up all of the required input fields.
-
-**1.3.2.Editing a Contract**
-
-1. Under the details tab, add two fields, merchantKey and merchantCode, and fill in its respective values based on the key and code obtained from the payment gateway company.
-
-image::7-PayementGatewatModule.png[align = center]
-
-2. Under the contract rate tab, if known beforehand, add charge rate values.
-
-image::8-PayementGatewatModule.png[align = center]
-
-== Merchant Admin Applet
-
-**2.1 Merchant Menu**
-
-**2.1.1.Creating a Merchant**
-
-image::9-PayementGatewatModule.png[align = center]
-
-1. Create a merchant by filling up all of the required input fields.
-
-**2.2 Contract Menu**
-
-**2.2.1. Creating a Contract**
-
-image::10-PayementGatewatModule.png[align = center]
-
-1. Create a contract by filling up all of the required input fields. This represents a contract between the merchant and the contract company.
-
-**2.2.2 Editing a Contract**
-
-1. Under the rate card tab, create a rate card by filling up all of the required input fields.
-
-image::11-PayementGatewatModule.png[align = center]
-
-== Merchant Access Applet
-
-**3.1 Merchant Menu**
-
-**3.1.1 Viewing Payment Providers**
-
-1. By clicking on a listed merchant, the payment provider code and name are displayed.	
+The transaction initiation begins with the CP-Commerce Web Browser transmitting vital parameters—comprising the Reference Number, Amount, Remarks, Merchant Indirect URL, Error Indirect URL, and Merchant Contract Key—to the CP-Commerce Backend. Upon receipt, the CP-Commerce Backend expeditiously processes the information and reciprocates by conveying the Reference Number back to the CP-Commerce Web Browser. Subsequently, armed with the Reference Number, the web browser instigates an HTTP request to the Payment Gateway (PGW) Backend. The PGW Backend, in turn, furnishes an HTML page to the PGW Web Browser, eliciting the customer's selection of a preferred payment channel. Upon selection, the transaction seamlessly transitions to the chosen payment channel's backend, such as Ipay88 or Xampay. For Xampay, where no backend is present, the payment seamlessly advances from the PGW directly to Maybank. The subsequent orchestration involves interactions between the payment channel's backend, associated web browser, the Maybank backend, and web browser, with iterative movements based on the intricacies of banking processes. The flow eventually returns through the PGW Backend, PGW Web Browser, and CP-Commerce Backend, culminating in the CP-Commerce website through seamless redirection.
 
 
 
+== 2.0 Getting Started
 
+== 2.1 Installation Steps
 
+In Order to set up the payment gateway module, users need to install the following applets from the Akaun platform here.
 
-
-
-
-
-
+Users can search for the following applets in the applet stores and install them.
+- Supplier Maintenance Applet
+- Payment Channel Applet
+- Merchant Admin Applet
+- Merchant Access Applet
 
