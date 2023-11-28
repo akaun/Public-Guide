@@ -31,7 +31,7 @@ In the Payment Channel applet, there is a contract section to set up the contrac
 
 Once the Contract is created, go to the contract listing and click on the Contract created to edit the contract. On the Details page, the user will see the Edit Credentials. These are the Credentials that are obtained from signing the physical Contract with the payment gateway Company. The user can create the Credentials by clicking on the “+” button and edit them as needed. Once the credentials are saved, they will be hidden. 
 
-image::pgw-2.png[align = center]
+image::pgw-3.png[align = center]
 
 
 === 6.2 Create and Edit Contract Rate 
