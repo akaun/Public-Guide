@@ -1,0 +1,25 @@
+[#h2_warehouse_management_system_applet_index]
+= Warehouse Management System Applet
+
+include::pages/1-introduction.adoc[leveloffset=3]
+
+include::pages/2-create_warehouse.adoc[leveloffset=3]
+
+include::pages/3-create_node.adoc[leveloffset=3]
+
+include::pages/4-create_layout.adoc[leveloffset=3]
+
+include::pages/5-create_layoutnode.adoc[leveloffset=3]
+
+
+
+
+
+
+
+
+
+
+
+
+

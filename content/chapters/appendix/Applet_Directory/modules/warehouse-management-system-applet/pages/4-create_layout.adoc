@@ -1,0 +1,10 @@
+[#h3_warehouse_management_system]
+= 4.0 Create Layout
+
+image::8-creating-layouts.png[]
+
+User can create layout based on the size of the warehouse. Usually layouts refer as floows. Which floor has the specific nodes. 
+
+image::9-creating-layouts.png[]
+
+Click save and then user can proceed to create another space called node under layout. 

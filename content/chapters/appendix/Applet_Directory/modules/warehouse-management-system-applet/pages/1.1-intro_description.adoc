@@ -1,0 +1,1 @@
+Warehouse Management System Applet helps user to manage goods' inventory, organizing goods in minimal space, locate specific item in certain shelves. Moreover, certain shelves might have another node called space to store and locate goods specifically.

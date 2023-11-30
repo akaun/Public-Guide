@@ -1,0 +1,18 @@
+[#h3_warehouse_management_system]
+= 2.0 Create Warehouse
+
+image::2-creating-warehouse.png[]
+
+Select the + button above to start creating a warehouse. 
+
+image::3-creating-warehouse.png[]
+
+There user needs to input information as required by the organization. Click the save button to store all the information.
+
+image::4-creating-warehouse.png[]
+
+Next, select the recently created warehouse and there user can see node settings and layouts. 
+
+
+
+

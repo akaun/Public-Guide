@@ -1,0 +1,6 @@
+* Warehouse Management System Applet 
+** xref:1-introduction.adoc[Introduction]
+** xref:2-create_warehouse.adoc[Create Warehouse]
+** xref:3-create_node.adoc[Create Node]
+** xref:4-create_layout.adoc[Create Layout]
+** xref:5-create_layoutnode.adoc[Create Space]
