@@ -1,0 +1,10 @@
+[#h3_internal-sales-report]
+= 2.0 Access
+
+image::2-access.png[]
+
+The applet contains a nav bar at the left corner of the page, clicking on it the user will get access to all the existing features/pages of the Applet (Sales Report by Item Code, Sales Report By Document, Sales Report By Finance Charges, Daily Sales Report With Cashflow Analysis) and can navigate to any of it very easily from there.
+
+
+
+

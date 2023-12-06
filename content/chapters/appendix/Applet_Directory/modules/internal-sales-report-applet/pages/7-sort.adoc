@@ -1,0 +1,11 @@
+[#h3_internal-sales-report]
+= 7.0 Sort by branch, date from and date to
+
+
+image::9-image.png[]
+
+
+For all of the pages user can sort with required date. User can click on search, then select specific branch for which branch he wants, then can key in the date from to the date till which he wants
+
+
+image::10-image.png[]

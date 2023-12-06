@@ -3,7 +3,7 @@
 
 image::8-creating-layouts.png[]
 
-User can create layout based on the size of the warehouse. Usually layouts refer as floows. Which floor has the specific nodes. 
+User can create layout based on the size of the warehouse. Usually layouts refer as floors. Which floor has the specific nodes. 
 
 image::9-creating-layouts.png[]
 

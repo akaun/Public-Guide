@@ -1,0 +1,11 @@
+[#h3_internal-sales-report]
+= 1.0 Introduction
+
+image::intro.png[]
+
+include::1.1-intro_description.adoc[]
+
+
+
+
+
