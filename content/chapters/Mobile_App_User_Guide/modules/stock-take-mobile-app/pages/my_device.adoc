@@ -1,0 +1,12 @@
+[#h3_stock_take_mobile_app_user_guide_app_my_device]
+= 7.0 My Device
+
+.Register a device
+image::register_device.jpg[Register a device, 300, 658, align="center"]
+
+The user can register their mobile device as a “Stock Take Device” over here for the first time. If you have not registered a device before, click the “Register Device” button to register your device. 
+
+.View device details
+image::device_details.jpg[View device details, 300, 658, align="center"]
+
+After registering a device, you will be able to view your device details. Through the interface, the user can change their device's name alone. After making changes to the device name, click “Save Changes.”.

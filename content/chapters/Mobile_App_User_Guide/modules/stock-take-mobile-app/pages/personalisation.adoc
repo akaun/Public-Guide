@@ -1,0 +1,12 @@
+[#h3_stock_take_mobile_app_user_guide_app_personalization]
+= 8.0 Personalization and Sign Out
+
+.Personalization Screen
+image::personalisation.png[Personalization Screen, 300, 658, align="center"]
+
+The personalization tab in the navigation drawer provides some user information, like the user profile picture, email, and mobile number.
+
+.Signing Out
+image::sign_out.jpg[Signing Out, 300, 658, align="center"]
+
+The user can sign out through the Sign Out tab in the navigation drawer, clicking “Yes” in the sign-out dialog box prompt.

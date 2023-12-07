@@ -1,0 +1,6 @@
+[#h1_mobile_app_user_guide]
+= Mobile App User Guide
+
+include::modules/internal-delivery-order-mobile-app/index.adoc[leveloffset=2]
+
+include::modules/stock-take-mobile-app/index.adoc[leveloffset=2]

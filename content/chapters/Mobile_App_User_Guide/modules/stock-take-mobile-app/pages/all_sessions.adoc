@@ -1,0 +1,12 @@
+[#h3_stock_take_mobile_app_user_guide_app_all_sessions]
+= 6.0 All Sessions
+
+.All Sessions Screen
+image::all_sessions.jpg[All Sessions Screen, 300, 658, align="center"]
+
+This “All Sessions” screen lists all the *OPEN* stock take sessions that are under the tenant. The user can view and filter all the open sessions through the search bar according to the session name and session code. 
+
+.Join a session
+image::join_session.jpg[Join a session, 300, 658, align="center"]
+
+The user can also join a session (link the device to the session for stock recording) by clicking on the session card. A dialog box prompt will appear. Click on “*Join*” to join the session. This feature will not work unless you have already registered a device for the tenant. More information on registering a device is in this section. Once joining is successful, head back to my sessions and refresh the page. The user should be able to see the most recent session that they joined.

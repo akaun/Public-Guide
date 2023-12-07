@@ -1,0 +1,12 @@
+[#h3_stock_take_mobile_app_user_guide_introduction]
+= 1.0 Introduction
+
+image::stock_take_V2_applet_logo.png[150,300]
+
+The Stock Take Mobile App serves as a complementary solution to the Stock Take Applet, offering an enhanced and more efficient method for recording and scanning stocks. This mobile application streamlines the process, ensuring simplicity and ease of use compared to its Applet counterpart. Moreover, it's specifically crafted for Android devices, offering a native experience that outperforms using the web-based version on Android, further improving the overall user experience while recording the stock at hand. 
+
+The main idea of the stock take mobile app is to treat the mobile device as a stock take device itself, as you might have seen in the stock take app. The mobile device will always record the stock under the same “Stock Take Device” for a particular tenant. So, the first time the user will download and install this app, when they log in to the app with their Akaun credentials, they will need to first register their device through one of the user interfaces in the app. From then on, any action of scanning and recording of stocks will take place under the same “Stock Take Device” that was created at the beginning. Each mobile device in a tenant will be recognized as a unique stock-take device.
+
+For optimal utilization of the app, ensure you've completed three crucial steps: First, create an account via the Akaun website. Second, ensure you've been added to the relevant tenant. Lastly, verify you've been granted the necessary permissions. These prerequisites will ensure seamless and effective use of the application.
+
+Before reading this user guide, please go through the Stock Take Applet guide first over here, where basic concepts of the stock take process and solution will be discussed. It will not be repeated in this user guide. This guide will guide the user on how to make use of the mobile version in addition with the stock take applet.

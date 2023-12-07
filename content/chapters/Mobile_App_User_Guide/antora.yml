@@ -1,0 +1,7 @@
+name: handbook-mobile-app-user-guide
+title: Mobile App User Guide
+version: '1.0' 
+start_page: introduction:introduction.adoc 
+nav: 
+- modules/stock-take-mobile-app/nav.adoc
+- modules/internal-delivery-order-mobile-app/nav.adoc

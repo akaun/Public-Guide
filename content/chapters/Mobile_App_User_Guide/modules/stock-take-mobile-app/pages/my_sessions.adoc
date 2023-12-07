@@ -1,0 +1,18 @@
+[#h3_stock_take_mobile_app_user_guide_app_my_sessions]
+= 4.0 My Sessions
+
+In this stock-take mobile app, all stock-taking takes place in the context of the same device that is to be registered from the start. More information about registering a stock-taking device on the mobile app is provided in this section.
+
+.My Sessions Screen
+image::my_sessions.jpg[My Sessions Screen, 300, 658, align="center"]
+
+This “My Sessions” screen lists all the stock take sessions that are linked to the unique stock take device of the user. Meaning that the user is assigned to and also under a particular session. This listing only shows the currently open sessions that the user’s stock take device on the Android mobile is linked to.
+
+There is a search bar on the top that will allow the user to filter the stock take sessions by their name and code.
+To go into the stock-take session and start the stock take recording process please click on the intended session card. This will take you to another screen to start/continue recording of the stock. More on this under this section.
+
+.Leaving a session
+image::leave_session.jpg[Leaving a session, 300, 658, align="center"]
+
+User is also given the functionality to leave a session if they desire to. This can be done by long clicking the session and a dialog box prompt will pop up to leave the session.
+

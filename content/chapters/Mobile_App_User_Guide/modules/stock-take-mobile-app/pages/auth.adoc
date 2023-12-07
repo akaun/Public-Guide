@@ -1,0 +1,17 @@
+[#h3_stock_take_mobile_app_user_guide_auth]
+= 2.0 Authorization and authentication
+
+.Sign In Screen
+image::sign_in.png[Sign In Screen, 300, 658, align="center"]
+
+Welcome to the sign-in screen, resembling the one on our Akaun website. Here, users have the flexibility to log in using Google Sign-In or by entering their email/mobile number along with the password. 
+
+.Environment selection screen
+image::env_selection.jpg[Environment selection screen, 300, 658, align="center"]
+
+At the top of the mobile screen, the settings button grants the ability to switch between environments, with "akaun.com" set as the default. For practical purposes, the primary environment will be "akaun.com".
+
+.Forgot password screen
+image::forgot_pw.jpg[Forgot password screen, 300, 658, align="center"]
+
+Furthermore, users can conveniently reset their passwords through the mobile app. To register an account or resend verification, the UI seamlessly guides users to the website, ensuring a smooth continuation of the process.
