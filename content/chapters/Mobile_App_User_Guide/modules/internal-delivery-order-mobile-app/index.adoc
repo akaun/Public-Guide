@@ -1,0 +1,16 @@
+[#h2_internal_delivery_order_mobile_app_user_guide]
+= Internal Delivery Order Mobile App
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/tenants.adoc[leveloffset=3]
+
+include::pages/app_overview.adoc[leveloffset=3]
+
+include::pages/delivery_orders.adoc[leveloffset=3]
+
+include::pages/delivery_order_details.adoc[leveloffset=3]
+
+include::pages/sales_orders.adoc[leveloffset=3]
+
+include::pages/sales_order_details.adoc[leveloffset=3]

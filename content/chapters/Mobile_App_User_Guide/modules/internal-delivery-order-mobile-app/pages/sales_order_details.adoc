@@ -1,0 +1,17 @@
+[#h3_internal_delivery_order_mobile_app_user_guide_sales_order_details]
+= 7.0 Sales Order Details
+
+== 7.1 Sales Order Details
+
+.Sales Order Details
+image::so_details.jpg[Sales Order Details, 300, 658, align="center"]
+
+All the lines in the sales order to be knocked off will be shown and there is a knockoff button at the bottom of screen to knockoff the sales order and create a new delivery order from it.
+
+== Sales Order Qty Edit ( Partial Knock off )
+
+.Partial knock off 
+image::so_search_bar.png[Partial knock off , 300, 658, align="center"]
+
+
+In order to edit the line quantity, the line needs to be hold and pressed on for a few seconds and this dialog box shown above will pop up. The new quantity can be inserted into the input field.

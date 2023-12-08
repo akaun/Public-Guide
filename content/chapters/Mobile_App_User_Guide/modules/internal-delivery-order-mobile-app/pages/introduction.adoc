@@ -1,0 +1,6 @@
+[#h3_internal_delivery_order_mobile_app_user_guide_introduction]
+= 1.0 Introduction
+
+image::Internal_delivery_order_applet_logo.png[150,300]
+
+The primary objective of the Internal Delivery Order Mobile App is to optimize and streamline the scanning process of items before a delivery order is shipped out, providing users a user-friendly and efficient alternative as compared to the more intricate procedures associated with the web applet. However, this emphasis on scanning functionality may result in the absence of certain features found in a more comprehensive web applet. Users should be aware that while the app excels in its specialized scanning capabilities, it may lack the broader range of functionalities inherent in a web-based platform.  

@@ -1,0 +1,16 @@
+[#h3_internal_delivery_order_mobile_app_user_guide_sales_orders]
+= 6.0 Sales Orders
+
+== 6.1 Sales Order Listings
+
+.Sales Order Listings
+image::sales_orders.png[Sales Order Listings, 300, 658, align="center"]
+
+Users are able to see a list of sales order that are finalized and can be knocked off to create a delivery order listing. Any sales order clicked on will be navigated to a Sales Order Details Screen.
+
+== 6.2 Document number search for sales order
+
+.Sales Order Search
+image::so_search_bar.png[Sales Order Search, 300, 658, align="center"]
+
+Users are also allowed to search for a specific sales order using the search bar by typing in the sales order number.

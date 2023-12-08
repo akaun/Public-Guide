@@ -1,0 +1,8 @@
+[#h3_interal_delivery_order_mobile_app_user_guide_tenants]
+= 2.0 Switching tenants
+
+
+.Switching tenants
+image::change_tenant.png[Switching tenants, 300, 658, align="center"]
+
+There is an options icon on the top right corner of the screen. When that icon is clicked, a list of tenants will be shown. Any tenant clicked on will make the app switch to that tenant. 
