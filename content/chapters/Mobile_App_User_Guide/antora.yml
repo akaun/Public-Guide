@@ -5,3 +5,4 @@ start_page: introduction:introduction.adoc
 nav: 
 - modules/stock-take-mobile-app/nav.adoc
 - modules/internal-delivery-order-mobile-app/nav.adoc
+- modules/delivery-driver-mobile-app/nav.adoc

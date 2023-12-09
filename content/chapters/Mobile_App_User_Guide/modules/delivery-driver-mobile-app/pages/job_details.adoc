@@ -1,0 +1,13 @@
+[#h3_delivery_driver_mobile_app_user_guide_job_details]
+= 4.0 Job Details
+
+.Job Details
+image::job_details.png[Job Details, 300, 658, align="center"]
+
+The job details section provides a snapshot of key information related to the specific job. This includes details such as the recipient's name, contact information, delivery address, and any specific instructions or notes associated with the job. Drivers can quickly reference this information to ensure accurate and personalized deliveries. Drivers can be directed to the phone app on their device when the phone icon is clicked. On the other hand, drivers can be directed to Google Maps or Waze when the map button is clicked.
+
+A prominently displayed table outlines the list of items to be delivered within the job, accompanied by their respective quantities. This tabular format enhances clarity and organization, enabling drivers to cross-reference the items against their inventory and ensuring that all items are accounted for during the delivery process.
+
+In instances where a job needs to be canceled or rescheduled due to unforeseen circumstances, the "Cancel Job" option provides a straightforward solution. This feature allows drivers to communicate changes in real-time, ensuring that the backoffice is promptly informed of any alterations to the delivery schedule.
+
+In order to confirm delivery so that proof of receive can be uploaded, a confirm delivery button can be clicked.

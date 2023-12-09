@@ -1,0 +1,7 @@
+[#h3_delivery_driver_mobile_app_user_guide_confirm_delivery]
+= 5.0 Confirm Delivery
+
+.Confirm Delivery Screen
+image::confirm_delivery.png[Confirm Delivery Screen, 300, 658, align="center"]
+
+This is where the proof of receive details can be uploaded. Delivery Driver will need to ensure that there is a signature from the recipient and also atleast 1 image as proof of received. The complete job button will upload all these details/documents to the server so the backoffice staff can view them.
