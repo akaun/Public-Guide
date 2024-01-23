@@ -1,5 +1,6 @@
 * CP Commerce Admin Applet
 ** xref:introduction.adoc[Introduction]
+** xref:menu_website_creation_requirements.adoc[Creation Requirements]
 ** xref:menu_websites.adoc[Websites]
 ** xref:menu_forms.adoc[Forms]
 ** xref:menu_topics.adoc[Topics]
