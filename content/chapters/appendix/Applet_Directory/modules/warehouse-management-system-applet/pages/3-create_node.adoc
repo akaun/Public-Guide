@@ -1,0 +1,13 @@
+[#h3_warehouse_management_system]
+= 3.0 Create Node
+
+image::5-creating-nodes.png[]
+
+User can create node in the same way as creating warehouse. Then the user needs to put relevant information regarding the warehouse nodes he will be using. 
+
+image::6-creating-nodes.png[]
+
+Click save button when user has already input all the necessary information.
+
+image::6.1-creating-nodes.jpg[]
+

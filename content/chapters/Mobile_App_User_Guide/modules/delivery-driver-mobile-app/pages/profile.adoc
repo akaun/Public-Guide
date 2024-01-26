@@ -1,0 +1,7 @@
+[#h3_delivery_driver_mobile_app_user_guide_profile]
+= 6.0 Profile
+
+.Profile Screen
+image::profile.png[Profile Screen, 300, 658, align="center"]
+
+Profile screen shows the account details of the driver and also an option to sign out.

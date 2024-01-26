@@ -1,0 +1,11 @@
+[#h3_warehouse_management_system]
+= 1.0 Introduction
+
+image::warehouse-management-system-logo.png[]
+
+include::1.1-intro_description.adoc[]
+
+image::intro.jpg[]
+
+
+

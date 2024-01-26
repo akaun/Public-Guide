@@ -1,0 +1,16 @@
+[#h3_internal_delivery_order_mobile_app_user_guide_delivery_orders]
+= 4.0 Delivery Orders
+
+== 4.1 Delivery Order Listings
+
+.Listing of delivery orders
+image::delivery_order_list.png[Listing of delivery orders, 300, 658, align="center"]
+
+After user has signed in, this is the first screen that the user will see. This screen has a list of delivery orders available in *DRAFT* status. A delivery order can be selected by clicking on the purple rectangular card.
+
+== 4.2 Search Bar
+
+.Search bar for delivery order
+image::do_search_bar.png[Search bar for delivery order, 300, 658, align="center"]
+
+Users are allowed to search for delivery order documents based on keywords. Any keyword can be typed in the search bar and the listings will be filtered based on that keyword.

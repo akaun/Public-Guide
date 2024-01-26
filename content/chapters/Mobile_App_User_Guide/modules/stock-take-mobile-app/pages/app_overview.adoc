@@ -1,0 +1,17 @@
+[#h3_stock_take_mobile_app_user_guide_app_overview]
+= 3.0 App Overview
+
+.Main sections of the app
+image::nav_drawer.jpg[Main sections of the app, 300, 658, align="center"]
+
+The stock take app contains of the three main sections:
+
+- My Sessions
+- All Sessions
+- My Device
+
+.Switching tenants
+image::change_tenant.jpg[Switching tenants, 300, 658, align="center"]
+
+To switch the tenants if by any change your login has more than one tenant you can change it using the options at the top right of the main screen. The current tenant that the user is under can be viewed in the navigation drawer.
+

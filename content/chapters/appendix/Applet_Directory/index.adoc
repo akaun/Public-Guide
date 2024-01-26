@@ -245,3 +245,8 @@ include::modules/t2t-applet/index.adoc[leveloffset=2]
 include::modules/stock-reservation-applet/index.adoc[leveloffset=2]
 
 include::modules/internal-stock-transfer-applet/index.adoc[leveloffset=2]
+
+include::modules/warehouse-management-system-applet/index.adoc[leveloffset=2]
+
+include::modules/internal-sales-report-applet/index.adoc[leveloffset=2]
+

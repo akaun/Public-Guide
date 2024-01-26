@@ -1,0 +1,9 @@
+* Internal Sales Report Applet 
+** xref:1-introduction.adoc[Introduction]
+** xref:2-access.adoc[Access]
+** xref:3-sales_report_by_itemcode.adoc[Sales Report By Item Code]
+** xref:4-sales_report_by_document.adoc[Sales Report By Document]
+** xref:5-sales_report_by_finance_charges.adoc[Sales Report By Finance Charges]
+** xref:6-sales_report_by_cashflow.adoc[Daily Sales Report with Cashflow Analysis]
+** xref:7-sort.adoc[Sort by branch, date from and date to]
+

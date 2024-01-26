@@ -1,0 +1,15 @@
+[#h3_delivery_driver_mobile_app_user_guide_trip_details]
+= 3.0 Trip Details
+
+Trips can be viewed in two different ways. 
+
+.Today's trips
+image::trip_details.png[Today's trips, 300, 658, align="center"]
+
+- Today's trips
+- All trips
+
+.All trips
+image::trip_details_all_trips.png[All trips, 300, 658, align="center"]
+
+When a trip selected, all the details of a trip will be shown like the start time, end time and also the delivery region. A list of jobs under the trip will also be shown. In each job, there will be details like the status of the job, the job number, the address and also the start time and end time.

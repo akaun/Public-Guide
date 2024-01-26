@@ -1,0 +1,26 @@
+[#h3_internal-sales-report]
+= 5.0 Sales Report By Finance Charges
+
+
+image::7-image.png[]
+
+The "Sales Report by Finance Charges" page is a pivotal segment within the applet that unveils key financial insights. Each entry on this page shows up essential entities that include 
+*	Branch
+*	Item Code
+*	Item Name
+*	Type 
+*	UOM
+*	Qty Sold
+*	Unit Price Std
+*	Unit Disc
+*	Unit Price Net
+*	Amount Net
+*	Fin Rate 
+*	Fin Charge Amt
+*	Sales Cost
+*	GP
+*	Gp%
+
+This page serves as a strategic window into financial landscape, providing a detailed breakdown of transactions related to finance charges. Users can navigate the data seamlessly by utilizing the search boxes within the columns, facilitating a focused analysis based on specific entities. Moreover, the functionality to effortlessly generate PDF or XLS reports ensures that these financial insights are readily available for reporting and decision-making. 
+
+

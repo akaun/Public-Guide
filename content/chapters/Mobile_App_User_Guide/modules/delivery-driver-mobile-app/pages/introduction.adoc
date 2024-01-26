@@ -1,0 +1,6 @@
+[#h3_delivery_driver_mobile_app_user_guide_introduction]
+= 1.0 Introduction
+
+// image::Internal_delivery_order_applet_logo.png[150,300]
+
+Delivery Driver mobile app ensures that drivers have a clear, organized view of their scheduled trips through a calendar available in different modes like Weekly, Monthly, Daily, and Agenda. The backoffice or headquarters manages/arrange all the trips and jobs seamlessly via the web applet, making sure drivers’ schedule is optimized and up-to-date. With a driver-centric approach, drivers are only allowed to see the trips assigned/associated to his/her account, enhancing security and efficiency. The app also allows drivers to view details of the trips and jobs, and also upload proofs of receive by the recipient.

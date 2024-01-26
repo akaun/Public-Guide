@@ -1,0 +1,58 @@
+[#h3_internal_delivery_order_mobile_app_user_guide_delivery_order_details]
+= 5.0 Delivery Order Details
+
+== 5.1 Delivery Order Listings - Lines Tab
+
+.Lines Tab
+image::lines_tab.png[Lines Tab, 300, 658, align="center"]
+
+All the lines of a delivery order selected will be displayed. Details such as item name, item code, uom and qty are displayed for each line. Each line can be clicked on and user will be navigated to scan tab with the scan code field populated with the item code selected.
+
+== 5.2 Delivery Order Listings - Scan Tab
+
+=== 5.2.1 Delivery Order Details – Scan Tab ( Manual Key In )
+
+.Manual scan
+image::scan_manual_code.png[Manual scan, 300, 658, align="center"]
+
+Users can manually type in the item code and click on the search icon on the right to search if the item code is valid. An item code is valid only if the item code is part of the lines and it is also available in the database.
+
+=== 5.2.2 Delivery Order Details – Scan Tab (Camera Scanner)
+
+.Camera scan
+image::camera_scan.png[Camera scan, 300, 658, align="center"]
+
+Users are also allowed to scan directly the item code by clicking on the scan icon on the left. This would eliminate the need of manually typing in the item code.
+
+=== 5.2.3 Delivery Order Details – Scan Tab (Serialized items)
+
+.Scanning serialized items
+image::scan_serial.png[Scanning serialized items, 300, 658, align="center"]
+
+When an item code that is scanned is a serialized item, an additional input field for serial number will show up. A serial number can be manually typed in or by clicking on the scanning icon on the left.
+
+=== 5.2.4 Delivery Order Details – Scan Tab (Settings - Auto Serial Scan)
+
+.Auto Serial Scan
+image::scan_settings.png[Auto Serial Scan, 300, 658, align="center"]
+
+There is also a settings icon at the top right corner. When that icon is clicked, a scan record settings toolbar will show up at the bottom of the screen. There is an option to switch on auto serial scan. With auto serial scan switched on, there is no need to scan item code before scanning serial number. Serial numbers can be scanned directly and automatically added to scan lines.
+
+== 5.3 Scan Line Tab
+
+.Scan Line Tab
+image::scan_line_tab.png[Scan Line Tab, 300, 658, align="center"]
+
+Scan line tab shows all the scans that have been made. There is also a save button at the very bottom of the page. When save button is clicked, the serial numbers will be saved to the lines and therefore synchronized to the web applets.
+
+== 5.4 Report Tab
+
+.Report Tab
+image::report_tab.png[Report Tab, 300, 658, align="center"]
+
+When user enters the screen for the first time, a generate report button will be shown. The report is use to show the difference/discrepancy between the quantity of each line with the quantity that has been scanned for that same line.
+
+.Generated Report
+image::report_tab.png[Generated Report, 300, 658, align="center"]
+
+A report will be shown when generate button is clicked. There is also a refresh button that will recalculate the difference/discrepancy when it is clicked. 

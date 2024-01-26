@@ -1,0 +1,15 @@
+[#h3_delivery_driver_mobile_app_user_guide_trip_calendar]
+= 2.0 Trip Calendar
+
+In the calendar UI feature, we have meticulously designed an intuitive and user-friendly interface that mirrors the familiar and efficient layout of Google Calendar. This ensures that drivers can effortlessly navigate and manage their schedules, providing a seamless experience for viewing scheduled trips.
+
+.Trip Calendar
+image::trip_calendar.png[Trip Calendar, 300, 658, align="center"]
+
+- *Day Mode:* The Day Mode offers a detailed and focused view of a driver's schedule for a specific day. Drivers can easily scroll through the day's itinerary, gaining a comprehensive understanding of their tasks at a glance. This mode is perfect for planning daily routes and optimizing time management.
+
+- *Week Mode:* In the Week Mode, drivers can zoom out and get an overview of their entire week. This view allows for strategic planning, enabling drivers to allocate resources efficiently, balance workloads, and ensure that they are well-prepared for the upcoming days.
+
+- *Month Mode:* The Month Mode provides a broader perspective, allowing drivers to view their scheduled trips for the entire month. This view is particularly useful for long-term planning, helping drivers to anticipate busy periods, optimize routes, and manage their overall workload effectively.
+
+- *Agenda Mode:* The Agenda Mode consolidates all scheduled trips in a list format for a specific month selected, providing a chronological overview of upcoming tasks. This streamlined view allows drivers to focus on the sequence of events, making it easy to plan and navigate their daily activities with precision.

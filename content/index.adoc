@@ -34,6 +34,10 @@ include::chapters/Modules_Guide/index.adoc[leveloffset=1]
 
 include::chapters/Technical_Guide/index.adoc[leveloffset=1]
 
+include::chapters/Mobile_App_User_Guide/index.adoc[leveloffset=1]
+
+include::chapters/appendix/Applet_Directory/index.adoc[leveloffset=1]
+
 // include::chapters/Handbook_Authoring/modules/authoring-handbook/pages/00_index.adoc[]
 
 <<<<<<<<<
@@ -42,7 +46,5 @@ include::chapters/Technical_Guide/index.adoc[leveloffset=1]
 include::glossary.adoc[leveloffset=1]
 
 <<<<<<<<<
-
-include::chapters/appendix/Applet_Directory/index.adoc[leveloffset=1]
 
 //include::other/appendix.adoc[]

@@ -1,0 +1,29 @@
+[#h3_internal-sales-report]
+= 4.0 Sales Report By Document
+
+image::6-image.png[]
+
+This is the "Sales Report by Document" page, a robust component of the applet. This page contains a rich array of entities for each listing
+*	Branch
+*	Location
+*	Customer 
+*	Salesman
+*	Item Code
+*	Item Name 
+*	Date
+*	Time
+*	Doc Type
+*	Doc No
+*	Qty
+*	Unit Price
+*	Unit Cost
+*	Gross Amount
+*	Amount Disc
+*	Amount Net
+*	Tax Amount
+*	Amount Txn
+*	Cost Amt
+*	GP
+*	GP%
+
+This page offers a nuanced view of the sales dynamics. By clicking in the search boxes within the columns user can look for specific entity from the listing. Plus, PDF or XLS reports are easily generatable. 

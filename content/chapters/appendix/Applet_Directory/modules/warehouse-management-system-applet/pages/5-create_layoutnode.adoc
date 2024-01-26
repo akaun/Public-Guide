@@ -1,0 +1,12 @@
+[#h3_warehouse_management_system]
+= 5.0 Create Space
+
+image::10-creating-nodes-layouts.png[]
+
+This node or space refers to boxes or any kind of storages that are stored on the shelf. 
+
+image::11-creating-nodes-layouts.png[]
+
+Click save after inputing relevant information of the space size and also max weight. 
+
+

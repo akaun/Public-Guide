@@ -1,0 +1,25 @@
+[#h3_internal-sales-report]
+= 3.0 Sales Report By Item Code
+
+image::3-image.png[]
+
+The first page "Sales Report by Item Code" page is a powerful tool within the applet designed for in-depth analysis of your product transactions. This page offers a comprehensive breakdown for each listing, including essential details such 
+*	Item Code
+*	Item Name 
+*	Type
+*	UOM
+*	Branch
+*	Stock balance
+*	Qty Sold
+*	Sales Cost
+*	GP (MA cost)
+*	GP% (MA cost)
+
+image::4-image.png[]
+
+Users have the flexibility to search and sort based on any of these entities, empowering them to tailor their analysis and effortlessly navigate through the wealth of sales data. Whether you're tracking specific products, evaluating stock balances, or assessing profitability, this feature provides a user-friendly interface for making informed decisions and optimizing your sales strategies.
+
+
+image::5-image.png[]
+
+The page also allows users to export the report conveniently in PDF or XLS format, by clicking on the Export PDF and Export XLS respectively. 

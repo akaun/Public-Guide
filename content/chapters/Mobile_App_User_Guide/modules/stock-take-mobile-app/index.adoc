@@ -1,0 +1,18 @@
+[#h2_stock_take_mobile_app_user_guide]
+= Stock Take Mobile App
+
+include::pages/introduction.adoc[leveloffset=3]
+
+include::pages/auth.adoc[leveloffset=3]
+
+include::pages/app_overview.adoc[leveloffset=3]
+
+include::pages/my_sessions.adoc[leveloffset=3]
+
+include::pages/records_scanning.adoc[leveloffset=3]
+
+include::pages/all_sessions.adoc[leveloffset=3]
+
+include::pages/my_device.adoc[leveloffset=3]
+
+include::pages/personalisation.adoc[leveloffset=3]

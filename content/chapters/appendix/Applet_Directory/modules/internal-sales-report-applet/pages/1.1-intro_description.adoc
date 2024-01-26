@@ -1,0 +1,1 @@
+The Sales Report Applet is designed to unravel the intricacies of business transactions. This sales report applet offers dynamic perspectives through features such as Sales Report by Item Code, Sales Report by Document, Sales Report by Finance Charges, and Daily Sales Reports with Cashflow Analysis. It will help in enhancing decision-making and business optimization.

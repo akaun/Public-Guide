@@ -1,0 +1,9 @@
+* Stock Take Mobile App
+** xref:introduction.adoc[Introduction]
+** xref:auth.adoc[Authorization and Authentication]
+** xref:app_overview.adoc[App Overview]
+** xref:my_sessions.adoc[My Sessions]
+** xref:records_scanning.adoc[Records Scanning]
+** xref:all_sessions.adoc[All Sessions]
+** xref:my_device.adoc[My Device]
+** xref:personalisation.adoc[Personalization and Sign Out]

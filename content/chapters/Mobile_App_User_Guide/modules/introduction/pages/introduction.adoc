@@ -1,0 +1,4 @@
+[#h3_mobile_app_user_guide_introduction]
+= Mobile App User Guide Introduction
+
+This module is meant to provide user guides to the various mobile apps that have been developed.
