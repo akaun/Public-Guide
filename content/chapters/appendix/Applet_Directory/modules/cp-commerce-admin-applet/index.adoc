@@ -3,6 +3,8 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
+include::pages/website-creation-requirements.adoc[leveloffset=3]
+
 include::pages/menu_websites.adoc[leveloffset=3]
 
 include::pages/menu_forms.adoc[leveloffset=3]
