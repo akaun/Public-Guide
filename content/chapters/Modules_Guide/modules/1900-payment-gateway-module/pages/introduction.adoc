@@ -6,7 +6,7 @@
 
 The Payment Gateway Module plays a pivotal role in the broader payment ecosystem, which encompasses a complex network of entities involved in electronic transactions. As a crucial intermediary, this module empowers businesses to securely accept and process payments from customers within this intricate environment. Through seamless integration with payment providers, suppliers, and merchants, the module ensures a smooth and efficient flow of transactions, accommodating diverse payment channels and methods within the broader payment ecosystem. 
 
-In essence, the Payment Gateway Module simplifies the intricate process of financial transactions, providing businesses with a secure and reliable platform to navigate and manage their operations in the dynamic landscape of the payment ecosystem.
+In essence, the *Payment Gateway Module* simplifies the intricate process of financial transactions, providing businesses with a secure and reliable platform to navigate and manage their operations in the dynamic landscape of the payment ecosystem.
 
 == 1.2 Key Features
 
@@ -15,7 +15,7 @@ Key Features of the Payment Gateway Module:
 *Seamless Transaction Facilitation:*
 
 
-The module serves as a pivotal intermediary, facilitating electronic transactions seamlessly between various entities within the payment ecosystem.
+The module acts as a central facilitator, streamlining communication and processes among diverse entities, ultimately contributing to a seamless and efficient electronic transaction experience within the payment ecosystem.
 
 *Secure Payment Processing:*
 
