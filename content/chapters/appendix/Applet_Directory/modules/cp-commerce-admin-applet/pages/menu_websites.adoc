@@ -1,247 +1,87 @@
 [#h3_cp_commerce_admin_websites]
-= 2.0 Websites
+= 2.0 Websites Creation
 
-The first feature that will be discussed in detailed is the Website Listing feature.
+It is important to note that creating a website that reflects your nature of business is crucial, as it will leave an impression on website visitors and customers. The information on your website has to be relevant to establish credibility and trust because it demonstrates that your website is authoritative and knowledgeable about the industry or niche you operate in. 
 
-image::website-listing-mainpage.jpg[Website Listing Main Page, align = "center"]
+Now that you have met all of the requirements, let us begin with the steps on how to create a website using our CP-Commerce Admin Applet. 
 
-When logging in into the CP Commerce Admin Applet, this is the first page that will be shown to the user, which is the Website Listing page. Then, users could proceed to press the "+" button placed at the top left corner to start creating their own website.
 
-== 2.1 Details
+== 2.1 Website Listing
 
-image::create-website-1.png[Create Website Page 1, align = "center"]
+image::2.1 Website Listing.png[2.1 Website Listing, align = "center"]
 
-image::create-website-2.png[Create Website Page 2, align = "center"]
+1. In the CP-Commerce Admin Applet, go to the website menu and click on “+” button. A tab to create a website will appear, and you may fill in the necessary information.
 
-Users then could fill in the necessary information on each column. Please be noted that if there is a * sign on the column, users must fill in relevant information in that column as it could not be modified later. Website code is the link to the website whereas website title is a title that should be given to every website created. 
+2. *Website Code:* The website code is how you want your website URL to appear when customers search for your website on any search engine. Do note that you cannot change the website code after you have clicked on “CREATE.”
 
-After creating the website, the website name will be listed in the main page. Users could click on the name of the website to make further changes. 
+3. *Website Title:* Enter the name of your website here in the space provided. It is important that the title of your website correspond with the name of your company.
 
-image::details.png[Edit Website Details, align = "center"]
+4. *Branch:* For the branch, select the branch that you have created for your company in the Organization Applet. You must select the right branch if you have multiple branches, as the prices of products might vary from one branch to another.
 
-When clicking on a website to edit it, there will be multiple columns showing in the Details tab which are explained below:
+5. *Pricing and Pricing Scheme:* In the pricing dropdown, choose “PRICING_SCHEME.” Then, an option for a pricing scheme will appear below. You have to choose the “CP-COMMERCE” pricing scheme that you have created in the Doc Item Maintenance Applet. This is to ensure that your items' prices will be linked to the CP-Commerce website.
 
-Branch:
 
-    1. Each company has several or many branches
-    2. The prices of products might vary from one branch to another
-    3. That is why is that important to select the branch for each website created
+image::cp-commerce-admin-applet-create-website2.png[cp-commerce-admin-applet-create-website2, align = "center"]
 
-Merchant:
 
-1. Need to be specific
-2. Need to be chosen in the list shown
+6. *Merchant:* This option will appear in the Website Edit > Details after you have clicked on the “CREATE” button above. The merchant option is to link the merchant or person who will be receiving the payment from the payment.
 
-Enable Shipping Fee Process:
+7. *Enable Shipping Fee Process:* You can check this box if you are selling your products through your website and there is a shipping fee associated with them. Then, you can choose the shipping fee options. 
 
-    1. Default Shipping Price Book Guide:
-        - related to Internal Sales Order Applet
-        - Set the price for the shipping
-    2. Item Code for Shipping Fee:
-        - The type of shipping service
+a. *Shipping Pricebook:* The price book has to be created in the Internal Sales Order Applet beforehand, and you will receive the code. The code will have its own specific shipping price.
 
-Top Menu, User Menu, Life-side Menu, Bottom Menu:
+b. *Delivery Charges:* This option is to select the shipping charges, whether they are by region or country.
 
-    1. The bars shown on the interface of the website
+8. *Status:* The status has to be changed to “ACTIVE” in order for the website to go live. You may make the website inaccessible for customers in the future by choosing “INACTIVE” in case you need to make changes to your website.
 
-Meta Description:
+9. *Membership Class:* For the membership, you have to choose the membership class that you have created in the Membership Admin Applet.
 
-    1. Description shown when being searched on google
+10. *Enable Web-Chat:* If you want to add the chat widget to the website, you have to check this box. Then, link your business’ UCC endpoint ID.
 
-Membership Class:
+11. *Restrict View/Access by Entity:* You can check this box if only specific people or businesses are intended to view your website. Then, go to settings and add the customer’s access in “Client Side Permissions.”
 
-    1. Tier classes could be set to customers, for example gold, silver, platinum, diamond
-    2. Status should be set to active to be able to use by end-customers
+== 2.3 Manage Image
 
-Default layout-routing
+image::cp-commerce-admin-applet-manage-image.png[cp-commerce-admin-applet-manage-image, align = "center"]
 
-Enable Web-Chat:
+The "Manage Image" tab is created to upload images to be shown on the website. Users can upload pictures and choose whether the pictures are in the logo, sliders, or favicon category. The images uploaded will be presented as sliders on the websites after the changes have been made. Users could upload as many images as the company desired. When users want to upload new images on their website, they can click on the + sign to bring them to a new page.
 
-    1. Selected WebChat Endpoint
-    2. Search UCC endpoint ID
-        - Integrate with Unified Contact Centre (UCC) Applet
+=== 2.3.1 cp-commerce-admin-applet-add-image
+image::cp-commerce-admin-applet-add-image.png[Edit Voucher, align = "center"]
 
-Restricted View/ Access by Entity
-    1. End-customers are restricted from viewing the website
-    2. Only allowed users can view the website
+1. When users want to post a new image on their website, they need to first choose the image type that they want to upload. The images will be available in your personal gallery, and you can add the image when you are creating layout instances.
 
-== 2.2 Manage Image
+2. *Image Type:* There are three types of images that users can choose from.
 
-image::manage-image.png[Manage Image, align = "center"]
+a. *Logo:* You can select this option to upload a logo. Then, in the layout instance, you can make use of this image that has been added to the gallery.
 
-The "Manage Image" tab is created to upload images to be shown on the website. The images uploaded will be presented as sliders on the websites after the changes have been made. Users could upload as many images as the company desired. When users want to upload new images on their website, they should click on the + sign to bring them to a new page. 
+b. *Favicon:* You can select this option to upload the favicon of your website. A favicon is a small, square-shaped icon that represents a website. It is typically displayed in the browser's address bar, next to the website's name in bookmarks or favorites, and in browser tabs.
 
-image::add-image.png[Add Image, align = "center"]
+c. *Sliders:* You can select sliders and upload as many images as you want. The image slider displays a series of images or content panels in a slideshow format.
 
-When users want to post a new image on their website, users need to first choose the image type and choose the files they want to upload, then press add. After the images are uploaded, it will be shown on the main page of your website.
+== 2.4 Digital Signature
 
-== 2.3 Digital Signature
 
-image::digital-signature.png[Digital Signature, align = "center"]
+image::cp-commerce-admin-applet-digital-signature.png[cp-commerce-admin-applet-digital-signature, align = "center"]
 
-The "Digital Signature" tab is created for security reasons. Users could set public and private keys. Thus, the information that end-customers or users add in the website is encrypted to protect the privacy of the end-customers or users. After everything is correctly filled, press the save button to update all the information entered. 
+The "Digital Signature" tab is for security reasons. Users could set public and private keys. Thus, the information that end-customers or users add to the website is encrypted to protect the privacy of the end-customers or users.
 
-== 2.4 Post Registration Config
+1. Key Algorithm: There are two types of encryption keys; RSA and DSA.
 
-image::post-registration-config.png[Post Registration Config, align = "center"]
+2. Key Size: There are four key sizes; 512, 1024, 2048, and 4096.
 
-When users have signed in or create an account in the website, they could assign 4 types of roles to their  end-customers which include:
+3. Key Status: The key status has to be set to “ACTIVE” for it to work. Once it is active, users can generate key pairs for private and public keys.
 
-1. Add user to tenant
-2. Create customer
-3. Create membership and customer
-4. Create membership without customer
+== 2.5 Post Registration Config
 
-== 2.5 3rd Party AUTH CONFIG
+image::cp-commerce-admin-applet-post-registration.png[cp-commerce-admin-applet-post-registration, align = "center"]
 
-image::3rd-party-auth-config.png[3rd Party AUTH Config, align = "center"]
+When users have signed in or created an account on the website, they can assign four types of roles to their end-customers which include:
 
-Google reCaptcha is a security service that protects websites from fraud and abuse. It could also avoid spam on the website. The site key and secret key are used to invoke reCaptcha service on the website. The reCaptcha could be enabled for login page, user registration and resetting password. There are several ways for end-customers to sign in or log in into the website which include:
+a. *Add user to tenant:* Allowing the user (or the tenant) to invite or create additional user accounts within their account or organization.
 
-1. Google Login:
-    a. Website Platform App ID
-    b. Android Platform App ID
-    c. iOS Platform App ID
-2. Facebook Login
-    a. Facebook App ID
-3. Apple Login
-    a. Apple App ID
+b. *Create customers:* Users who visit your site can register and establish their own accounts within your system.
 
-Google Analytics is used to help a company identify trends and patterns in how end-customers engage in their website. In this session, a measurement ID is needed.
+c. *Create membership and customers:* Users who visit your website can register as customers (engage in transactions, make purchases, etc.) and also join a membership program (participate in a community, access exclusive content, etc.).
 
-== 2.6 Reviews
-
-image::reviews.png[Reviews, align = "center"]
-
-There are two sections in the Reviews tab, which are:
-
-1. Review Settings
-    a. Create a system for the review
-    b. Can rate the website based on numbers or comments
-    c. Customise the review systems based on retailers' own preferences
-
-2. Review Votes
-    a. See the reviews on the website based on the settings
-    b. How many votes have gotten for each reviews
-    c. Get honest feedback from customers
-
-When wanting to create a new review config system, press the "+" sign and it will bring the users to a new page. 
-
-image::create-review.png[Create Reviews, align = "center"]
-
-Users will then need to fill in the information shown on each columns which include:
-
-1. Title
-2. Rating Default Value
-3. Min Rating Value
-4. Max Rating Value
-5. Rating Configuration
-6. Status 
-7. Company
-
-After everything is filled, the rating config system that is created will be shown on the main page.
-
-== 2.7 Menu List
-
-image::menu-list.png[Menu List, align = "center"]
-
-The top, bottom, left and right side of the website will show a line bar to let the end-customers choose the category that they are interested in looking more detailed. Each of these line bars could be edited or created in this menu list. To add a new menu list, go to click the + sign, however, to edit a menu list, just click on the menu list the user wishes to edit. New tabs would be shown which is presented below:
-
-image::create-menu-list.png[Create Menu List, align = "center"]
-
-1. Main Details:
-    a. Give a understandable title to the menu list created and give a brief introduction of its use
-    b. Must set the status to active
-
-2. Menu Items
-    a. Can add multiple items that want to be added into the menu list created
-    b. Including images, texts, or icons
-
-3. User registration menu list (User Menu)
-    a. Can specify what kind of user menu is shown on the website under the user profile
-    b. Menu items under user profile could be varied
-
-== 2.8 Label List
-
-image::label-list.png[Label List, align = "center"]
-
-The "Label List" tab is created to filter the posts that are posted. This could make sure that not every post created is posted on the website. After the label list is created, it will be shown on the main page. 
-
-== 2.9 Content Category
-
-image::nest-category.png[Create Nest Category, align = "center"]
-
-Users could use the "Content Category" tab to  edit the content shown on the website. If users do not want to publish a content you have created yet, you could keep it as a draft by setting the status as "Inactive". When everything is set correctly, change the status to "Active" so the content created will be automatically published to the website.
-
-There is a checkbox beside the "Nest Category" option:
-
-1. If more items wanted to be added under a certain category, a nested menu could be used.
-2. Items added would be shown on the category, it is easier for the end-customers when they search for a certain product on the website.
-3. Users have to first fill in the parent category to be able to create a nest category.
-
-Press the "Create" button to save all the changes that have been made.
-
-image::create-content-category.png[Create Content Category, align = "center"]
-
-== 2.10 Posts
-
-image::edit-post.png[Edit Post, align = "center"]
-
-Users could press on the "+" sign whenever they want to add a new post on their website. It allows users to create or update new posts of their own branch. Users could also add description and images to make their posts look more eye-catching or professional. Relevant terms and conditions could be applied to the posts as well. 
-
-== 2.11 Account
-
-image::account-main-page.png[Account Main Page, align = "center"]
-
-The "Account" tab restricts and limits a certain user to the website. For example, some companies would have websites open only for retailers while another is accessible for all end customers. If a user wants to give out a special price to certain customers, this tab could help the users to only give access to the selected users by linking accounts that are granted with access to the website. This situation only happens to dealers as they usually get bundle prices when they buy lots of stock. 
-
-If users want to grant access to a certain end-customer, just click the checkbox beside the customers' name and click "add". Then, the end-customer is now able to visit the website.
-
-image::add-account.png[Add Account, align = "center"]
-
-image::unlink-account.png[Unlink Account from Website, align = "center"]
-
-The basic information of the account linked to the website could also be edited by just pressing on the respective accounts.
-
-== 2.12 Layout Instance
-
-image::layout-instance-mainpage.png[Layout Instance Main Page, align = "center"]
-
-Each company might want a different website layout compared to another company. With this "Layout Instance" tab, each company could design their own layout. Users could click on the "+" sign to create a brand new layout or press on the layout that has been created to make further changes. 
-
-image::create-layout-instance.png[Create Layout Instance (Nodes), align = "center"]
-
-Users could click on the "+" sign to create a brand new layout or press on the layout that has been created to make further changes. After everything is done, press "update" so all the changes are saved to the system. The important part of this "Layout Instance" tab would be the "Nodes" tab:
-
-image::edit-layout-instance.png[Edit Layout Instance (Nodes), align = "center"]
-
-1. Could add widgets that have different functions
-2. Arrange the widgets according to the way they want
-3. Could be row, column or widget
-
-== 2.13 Language, Region and Country
-
-image::language.png[Language, align = "center"]
-
-image::region.png[Region, align = "center"]
-
-image::country.png[Country, align = "center"]
-
-The "Language", "Region" and "Country" tabs are created to support users using different languages, from different regions and countries.
-
-== 2.14 Voucher Management
-
-image::voucher-management-mainpage.png[Voucher Management Main Page, align = "center"]
-
-There are multiple different vouchers that are offered by the company. It is not necessary to show the same vouchers on every website. With this "Voucher Management" tab, users could choose the type of vouchers to be available on different websites based on the end-customers. Users could click on the "+" sign to create a new voucher. On the main page, the list of vouchers that have been created will be shown. 
-
-image::add-voucher.png[Add Voucher, align = "center"]
-
-By clicking the checkbox beside a certain voucher, when customers are visiting the website, they are able to use this voucher. 
-
-If users want to edit the voucher created, just choose the voucher on the main page. After all the changes have been made, click the "Save" button to update all the changes to the website. On the other hand, if they want to delete the voucher, users can do the same way by clicking the voucher on the main page then clicking on the "Delete" button. 
-
-image::edit-voucher.png[Edit Voucher, align = "center"]
-
-
-
+d. *Create membership without a customer:* Users have the ability to join your membership program, access exclusive content, or participate in a community, but they do not have the capability to make purchases, engage in transactions, or provide payment information on your website.
