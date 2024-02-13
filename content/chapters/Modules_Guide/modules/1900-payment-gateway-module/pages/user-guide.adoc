@@ -2,34 +2,66 @@
 
 === 3.1 Create Supplier 
 
-In order to set up a payment channel, the user needs to first create a supplier account. This can be done in the Supplier Maintenance Applet. Users can go the supplier listing page and press the “+” button to create a supplier. The next step is to fill in all the supplier details and press the Create button. Once the user selects the payment channel name from the dropdown (the list is provided by the tenant), the Payment channel code field will be automatically filled. Users can choose the payment provider as well from the drop-down. Change the Payment Channel status to Active and choose the Forwarding Rules to Single Channel. This helps to directly forward the customer to the payment channel. 
+. To set up a payment channel, start by creating a supplier account using the *Supplier Maintenance Applet*. 
+. Go to the supplier listing page and click the '+' button to add a new supplier. 
+. Fill in all the details and click '*Create*.' 
+. Choose the payment channel name from the dropdown menu (provided by your tenant), and the Payment Channel code will fill in automatically. 
+. Pick the payment provider from the dropdown.
+. Set the Payment Channel status to 'Active.’ 
+. Select 'Forwarding Rules' as 'Single Channel.' 
+
+This ensures that customers are directly sent to the payment channel when making a payment.
+
 
 ==== 3.1.1 Supplier Identification Code
 
-The Supplier identification is unique to each supplier and once set up during creating the supplier, it cannot be changed. 
+The *Supplier identification* is unique to each supplier and once set up during creating the supplier, it cannot be changed. 
 
 == 4.0 Payment Provider Setup
 
 === 4.1 Create Payment Provider 
 
-The Payment provider can be created in the Pyament Channel Applet. In the Payment Provider section, the user can create the payment provider by clicking on the “+” button and keying in all the payment provider details. Now you can go back to the listing and click on the payment provider created. This will open the edit payment provider page. Here you can edit the details and the Logo can also be updated in the manage images tab. In order to link the payment provider to the payment channel. Users need to go to Create the Payment Channel first. After the payment channel is created, the user can see the linked payment channel in the Payment Channel Priority tab under the Edit Payment Provider tab. Here the user needs to set the priority in order for the payment provider to fully function. 
-
+. Go to *Payment Channel Applet*.
+. In the Payment Provider section, click the '+' button to create a new payment provider.
+. Enter all payment provider details.
+. Navigate back to the listing and click on the created payment provider.
+. Access the 'Edit Payment Provider' page to modify details.
+. Users can update the logo in the 'Manage Images' tab.
+. In order to link the payment provider to the payment channel, users need to create a *Payment Channel* first.
+. After *Payment Channel* is created, users can view the linked payment channel in the 'Payment Channel Priority' tab under 'Edit Payment Provider' page.
+. Users are required to set the priority in order for the payment provider to fully function.
 
 == 5.0 Payment Channel Setup
 
 === 5.1 Create Payment Channel
 
-The payment channel can be created in the Payment Channel Applet. Users can go to the payment channel listing press the “+” button and key in all the details to create the payment channel. The Acquirer is the Payment Gateway Supplier (created in Supplier Applet). 
+. Access the *Payment Channel Applet*.
+. On the payment channel listing page, click the '+' button to create a Payment Channel.
+. Enter all the required details to set up the new Payment Channel.
+. Specify the *Acquirer*, which is the *Payment Gateway Supplier* created in the *Supplier Applet*.
 
 image::pgw-1.png[align = center]
 
 == 6.0 Payment Channel Contract Setup
 
-In the Payment Channel applet, there is a contract section to set up the contract between the Payment Gateway Supplier, the Payment Provider, and your own Company (Contract Company). To create linkage between the payment service provider and the company that is going to use the payment service fill in the Contract Company Name, Payment Gateway Company, Payment channel, Contract Key, and Contract Status. 
+To establish the link between the *Payment Service Provider* and *Your Company*, users are required to provide details such as:
+* Contract Company Name
+* Payment Gateway Company
+* Payment Channel
+* Contract Key
+* Contract Status
+
+Users can configure this in the *Payment Channel Applet*, you'll find a *Contract* section where you can set up contracts between the Payment Gateway Supplier, Payment Provider, and your own Company (Contract Company).
 
 === 6.1 Edit Contract Credentials
 
-Once the Contract is created, go to the contract listing and click on the Contract created to edit the contract. On the Details page, the user will see the Edit Credentials. These are the Credentials that are obtained from signing the physical Contract with the payment gateway Company. The user can create the Credentials by clicking on the “+” button and edit them as needed. Once the credentials are saved, they will be hidden. 
+After creating the contract, it will be shown on the contract listing page.
+. Click on the created contract to edit its details.
+. On the Details page, find the Edit Contract Credentials section.
+. These credentials are obtained from signing the physical contract with the Payment Gateway Company.
+. Create credentials by clicking the '+' button and make necessary edits.
+. Once saved, the credentials will be hidden, as we do not want the data to be exposed.
+
 
 image::pgw-3.png[align = center]
 
