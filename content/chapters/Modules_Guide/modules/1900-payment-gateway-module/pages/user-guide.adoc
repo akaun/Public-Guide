@@ -2,6 +2,8 @@
 
 === 3.1 Create Supplier 
 
+_This step ensures that customers are directly sent to the payment channel when making a payment._
+
 . To set up a payment channel, start by creating a supplier account using the *Supplier Maintenance Applet*. 
 . Go to the supplier listing page and click the '+' button to add a new supplier. 
 . Fill in all the details and click '*Create*.' 
@@ -9,8 +11,6 @@
 . Pick the payment provider from the dropdown.
 . Set the Payment Channel status to 'Active.’ 
 . Select 'Forwarding Rules' as 'Single Channel.' 
-
-This ensures that customers are directly sent to the payment channel when making a payment.
 
 
 ==== 3.1.1 Supplier Identification Code
@@ -20,6 +20,8 @@ The *Supplier identification* is unique to each supplier and once set up during 
 == 4.0 Payment Provider Setup
 
 === 4.1 Create Payment Provider 
+
+_This section explains how to set up a payment provider in the *Payment Channel Applet*. Users create a new provider, input details, and can modify settings later. After creating a payment channel, they link it to the provider for seamless operation, setting priority for functionality._
 
 . Go to *Payment Channel Applet*.
 . In the Payment Provider section, click the '+' button to create a new payment provider.
