@@ -45,11 +45,11 @@ image::pgw-1.png[align = center]
 == 6.0 Payment Channel Contract Setup
 
 To establish the link between the *Payment Service Provider* and *Your Company*, users are required to provide details such as:
-* Contract Company Name
-* Payment Gateway Company
-* Payment Channel
-* Contract Key
-* Contract Status
+** Contract Company Name
+** Payment Gateway Company
+** Payment Channel
+** Contract Key
+** Contract Status
 
 Users can configure this in the *Payment Channel Applet*, you'll find a *Contract* section where you can set up contracts between the Payment Gateway Supplier, Payment Provider, and your own Company (Contract Company).
 
@@ -68,7 +68,13 @@ image::pgw-3.png[align = center]
 
 === 6.2 Create and Edit Contract Rate 
 
-Once the Contract is created, the user can create and edit the Contract rate under the contract rate tab. Click the “+” button on the Contract Rate page to create the contract rate for any contract contract then change the Rate name and select if it is the percentage or fixed rate contract and lastly fill in the rate field. The Audit Rate is to check the action and who is editing the contract. 
+Once the Contract is created, the user can create and edit the *Contract Rate* under the *Contract Rate* tab. 
+
+. Click the “+” button on the Contract Rate page to add a contract rate.
+. Change the Rate Name and specify if it is a *Percentage* or *Fixed Rate* contract.
+. Fill in the rate amount accordingly.
+. Use the Audit Rate feature to track actions and identify users editing the contract.
+
 
 image::pgw-4.png[align = center]
 
@@ -77,37 +83,69 @@ image::pgw-4.png[align = center]
 
 For the Merchant setup, there are 2 applets that are Merchant Admin Applet and the Merchant Access Applet. Merchant Admin Applet is for setting up the Merchant and Merchant Access is for the Merchants to use. 
 
+To set up merchants, there are two applets: the *Merchant Admin Applet* for configuration and the *Merchant Access Applet* for merchants to use. The *Merchant Admin Applet* handles setup, while the *Merchant Access Applet* is for merchants to access and utilize the configured settings.
+
 === 7.1 Create and Edit Merchant 
 
 The user can create the Merchant in the Merchant Admin Applet. You can click on the “+” button on the merchant listing page and create a new merchant by adding all the merchant details.
 
 image::pgw-5.png[align = center]
 
-Once the new Merchant is created, the user can edit the setting by simply clicking on the merchant in the merchant listing. In the Edit tab, the user can see the merchant details, create the merchant login, Merchant contract, and Return URL for the merchant (if required), Payment Configuration, Address, Credit Limit, and Terms and logo. 
+Once the new Merchant is created, the user can edit the setting by clicking on the Merchant in the Merchant Listing. 
+
+In the Merchant Edit page, the user can see the following tabs:
+** Merchant Details
+** Merchant Login
+** Merchant Contract
+** Return URL (if required) 
+** Tax and Billing
+** Payment Configuration
+** Address
+** Contact
+** Company Linking
+** Credit Limit and Terms
+** Logo
+
+For this module, users only need to configure:
+** *Merchant Login*
+** *Merchant Contract*
+** *Return URL* if necessary
+** *Payment Configuration*
+** *Address*
+** *Credit limit and Terms*
+** *Logo*
+
+
 
 image::pgw-6.png[align = center]
 
 == 8.0 Merchant Contract Setup
 
-The Merchant Contract can be set in the Contract section of the Merchant Admin Applet.
+The *Merchant Contract* can be set in the Contract section of the *Merchant Admin Applet*.
 
 === 8.1 Create and Edit Merchant Contract
 
-The user can create the Merchant Contract in the Merchant Admin Applet by clicking on the “+” button on the Contract listing page and create a new merchant contract by adding all details.
+The user can create the *Merchant Contract* in the *Merchant Admin Applet* by clicking on the “+” button and add in all the details.
 
 image::pgw-7.png[align = center]
 
-Once the new Contract is created, the user can edit the Contract by simply clicking on the Contract in the contract listing. In the Edit tab, the user can see the details of the contract and create the rate card. 
+Once the new *Contract* is created, the user can edit the *Contract* by clicking on the Contract in the contract listing. In the Edit tab, the user can see the *Details* of the contract and access the *Rate Card* tab.
 
 image::pgw-8.png[align = center]
 
 == 9.0 Merchant Rate Card Setup
 
-The Merchant Rate Card setup is done in the Merchant Admin Applet. The user can go to the Contract listing and select the Contract. In the Rate Card tab, the user can create the rate card by selecting the payment provider from the listing. 
+The *Merchant Rate Card* setup is done in the *Merchant Admin Applet*. The user can go to the Contract listing and select the *Contract*. In the *Rate Card* tab, the user can create the rate card by selecting the payment provider from the listing.
 
 image::pgw-9.png[align = center]
 
-Once the Payment Provider is selected, the user can double-click on the payment provider in order to get to the change rate listing. Once the user is on the change rate listing page, click the “+” button to create the change rate. The user can now change the Rate name and select if it is the percentage or fixed rate contract and lastly fill in the rate field. Once all the setup is done, the payment provider status in the payment provider listing will be changed to “offered” meaning that the merchant can now accept the access in the Merchant Access Applet. 
+. Select the desired Payment Provider.
+. Double-click on the Payment Provider to access the change rate listing.
+. On the change rate listing page, click the “+” button to add a change rate.
+. Change the Rate name, specify if it is a percentage or fixed rate contract, and fill in the rate field.
+. Once setup is complete, the payment provider status in the listing will change to "OFFERED"
+. This status change indicates that the merchant can now accept the access in the Merchant Access Applet.
+
 
 == 10.0 Merchant Rate Card Acceptance Workflow
 
@@ -123,42 +161,4 @@ Merchants can go to the Merchant Access listing,  select their access listing, g
 The Reports can be accessed in the Reports section of the Merchant Access applet. 
 
 image::pgw-10.png[align = center]
-
-
-== 13.0 Transaction Process
-
-=== 13.1 Payment Gateway Workflow
-
-This is the workflow of when a customer makes a purchase on the website and clicks the payment button. 
-
-
-The CP-Commerce Web Browser initiates the transaction by transmitting essential parameters, including Reference Number, Amount, Remarks, Merchant Indirect URL, Error Indirect URL, and Merchant Contract Key, to the CP-Commerce Backend.
-
-Upon receiving the parameters, the CP-Commerce Backend processes the information and promptly responds by transmitting the Reference Number back to the CP-Commerce Web Browser.
-The web browser, having obtained the Reference Number, triggers an HTTP request to the Payment Gateway (PGW) Backend.
-
-In response, the PGW Backend delivers an HTML page to the PGW Web Browser, prompting the customer to select a preferred payment channel (e.g., ip88, GHL).
-
-Following the customer's selection, the transaction seamlessly transitions to the chosen payment channel's backend (e.g., Ipay88, xampay).
-
-Subsequently, the payment channel's backend orchestrates the process, interfacing with the associated Payment channel’s web browser.
-
-The transaction progresses to the Maybank backend from the payment channel’s web browser.
-From the Maybank Backend, the flow extends to the Maybank web browser, and this iterative interaction may occur based on the specific intricacies of the banking system.
-
-The flow moves back and forth between the Maybank web browser and the backend as dictated by the intricacies of the banking processes.
-
-From the Maybank web browser, the transaction re-routes to the payment channel backend.
-
-The payment channel backend manages the transition to the Payment channel’s web browser.
-
-The transaction progresses to the PGW Backend from the Payment channel’s web browser.
-
-Subsequently, the flow continues to the PGW Web Browser from the PGW backend.
-
-From the PGW Web Browser, the transaction transitions to the CP-Commerce backend.
-
-Finally, the CP-Commerce backend concludes the process by seamlessly redirecting the flow back to the CP-Commerce website.
-
-For Xampay, there is no backend, so payment can directly move from the PGW to Maybank
 
