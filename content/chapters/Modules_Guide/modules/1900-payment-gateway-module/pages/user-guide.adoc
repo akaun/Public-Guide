@@ -45,6 +45,7 @@ image::pgw-1.png[align = center]
 == 6.0 Payment Channel Contract Setup
 
 To establish the link between the *Payment Service Provider* and *Your Company*, users are required to provide details such as:
+
 ** Contract Company Name
 ** Payment Gateway Company
 ** Payment Channel
@@ -56,6 +57,7 @@ Users can configure this in the *Payment Channel Applet*, you'll find a *Contrac
 === 6.1 Edit Contract Credentials
 
 After creating the contract, it will be shown on the contract listing page.
+
 . Click on the created contract to edit its details.
 . On the Details page, find the Edit Contract Credentials section.
 . These credentials are obtained from signing the physical contract with the Payment Gateway Company.
@@ -80,8 +82,6 @@ image::pgw-4.png[align = center]
 
 
 == 7.0 Merchant Setup
-
-For the Merchant setup, there are 2 applets that are Merchant Admin Applet and the Merchant Access Applet. Merchant Admin Applet is for setting up the Merchant and Merchant Access is for the Merchants to use. 
 
 To set up merchants, there are two applets: the *Merchant Admin Applet* for configuration and the *Merchant Access Applet* for merchants to use. The *Merchant Admin Applet* handles setup, while the *Merchant Access Applet* is for merchants to access and utilize the configured settings.
 
@@ -139,26 +139,30 @@ The *Merchant Rate Card* setup is done in the *Merchant Admin Applet*. The user 
 
 image::pgw-9.png[align = center]
 
-. Select the desired Payment Provider.
+. Select the desired *Payment Provider*.
 . Double-click on the Payment Provider to access the change rate listing.
 . On the change rate listing page, click the “+” button to add a change rate.
-. Change the Rate name, specify if it is a percentage or fixed rate contract, and fill in the rate field.
-. Once setup is complete, the payment provider status in the listing will change to "OFFERED"
-. This status change indicates that the merchant can now accept the access in the Merchant Access Applet.
+. Change the *Rate* name, specify if it is a percentage or fixed rate contract, and fill in the rate field.
+. Once setup is complete, the payment provider status in the listing will change to "*OFFERED*"
+. This status change indicates that the merchant can now accept the access in the *Merchant Access Applet*.
 
 
 == 10.0 Merchant Rate Card Acceptance Workflow
 
-Now that the Merchant setup is done in the Merchant Admin Applet, the Merchant can go to the Merchant Access Applet in order to accept the access.
+Now that the Merchant setup is done in the *Merchant Admin Applet*, the Merchant can go to the *Merchant Access Applet* in order to accept the access.
 
 === 10.1 Review and Approval Process
 
-Merchants can go to the Merchant Access listing,  select their access listing, go to the payment provider listing page, select the payment provider, and accept the access after checking the details in the Merchant E Annex tab. Now the Rate card is accepted by the Merchant but the Merchant can only access it when someone activates the status in the Merchant Admin Applet (in the payment provider listing).
+. Merchants navigate to the *Merchant Access listing*.
+. They select their access listing.
+. Proceeding to the payment provider listing page, merchants select the relevant payment provider.
+. After reviewing details in the *Merchant E Annex* tab, merchants accept the access.
+. Although the Rate card is accepted by the Merchant, access is only granted upon activation of the status in the *Merchant Admin Applet* within the payment provider listing.
 
 
 == 11.0 Merchant Reporting
 
-The Reports can be accessed in the Reports section of the Merchant Access applet. 
+The Reports can be accessed in the Reports section of the *Merchant Access Applet*. 
 
 image::pgw-10.png[align = center]
 
