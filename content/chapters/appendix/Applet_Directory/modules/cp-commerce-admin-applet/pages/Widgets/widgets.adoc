@@ -1,1328 +1,499 @@
 [#h3_cp_commerce_admin_widgets]
 = 11.0 Widgets
 
-== 11.1 Button Single
+== How to Manage the Structure and Design of Your Store
 
-image::button-single-example.png[Button Single, align = "center"]
+Designing your Cp-commerce marketplace is now easier than ever. With our Cp-commerce Admin Applet, you can create a stunning online store in a short time, without needing any IT background or programming skills. Our applet offers an intuitive interface that allows you to effortlessly customize your marketplace. Whether you're adding products, managing promotions, or optimizing your store for search engines, our user-friendly tools make the process seamless. Join the ranks of successful online entrepreneurs and bring your marketplace vision to life with Cp-commerce Admin Applet.
 
-The image above shows the layout of the Button Single widget.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+This comprehensive guide will empower you to build your e-commerce website or online marketplace with ease.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+== Key Features:
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+* *Layout Instances for Device-Specific Optimization:* Design web page structures tailored to different devices for optimal viewing experiences.
 
-image::button-single-configure.png[Button Single Configure, align = "center"]
+* *Node-Based Structure:* Construct layouts with rows, columns, and widgets for flexible content organization.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* *Versatile Widgets:* Add a wide range of customizable components, extending functionality from headers and image displays to product listings and sales order management.
+Advanced Configuration Options: Tailor each widget to meet your specific needs.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “BUTTON SINGLE”.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+*Additional Tips:*
 
-Users could click on “Delete Node” to remove the unwanted node.
+* *Experiment with Node Combinations:* Try different combinations of rows, columns, and widgets to achieve unique and effective layouts across devices.
 
-== 11.2 Product Slider V2
+* *Refer to Widget Documentation:* Consult the widget documentation for detailed instructions on configuring individual widgets and their settings.Widgets add essential content and functionality to your website.Each widget offers unique customization options to match your design and content need.
 
-image::product-slider-v2-example-1.png[Product Slider V2 Example 1, align = "center"]
+* *Utilize Grid-Based Structure:* Create visually appealing and organized layouts using a grid-based approach.
 
-The image above shows the layout of the Product Slider V2 widget in desktop view.
+* *Ensure Responsive Design:* Optimize your website for optimal viewing across various devices.
 
-image::product-slider-v2-example-2.png[Product Slider V2 Example 2, align = "center"]
+== 1.0 Profile Widget
 
-The image above shows the layout of the Product Slider V2 widget in mobile view.
+*Purpose:*
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* Seamlessly display essential user information, including details such as name, email, order history, and more.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+* Create personalized experiences and enhance user engagement.
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::product-slider-v2-configure.png[Product Slider V2 Configure, align = "center"]
+*Configuration Options:* 
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* *Mandatory Fields:* Select which user information to make mandatory, ensuring the collection of crucial details.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “PRODUCT SLIDER V2”.
-** Title
-*** Title text to be displayed above the product slider.
-** Category Group
-*** Select a category group which contains the category of items to be displayed here.
-*** Category Groups that have been configured in the Doc Item Maintenance Applet will appear here.
-** Category
-*** Select a category which contains the items to be displayed here. 
-*** Categories that have been configured in the Doc Item Maintenance *** Applet will appear here.
-** Product List Display Layout
-*** Enter layout instance link to product listing.
-** Product Details Layout
-*** Enter layout instance link to product details.
-** Number of Visible Items (Web View)
-** Number of Visible Items (Mobile View)
-** Checkboxes
-Hide Navigation Arrows
+* *Appearance Customization:*
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+- Colors: Adjust the widget's background, text, and accent colors to match your website's design.
 
-Users could click on “Delete Node” to remove the unwanted node.
+- Fonts: Choose appropriate fonts for optimal readability and brand consistency.
 
-== 11.3 Tab Menu
+- Spacing: Control the spacing between elements for a visually pleasing layout.
 
-image::tab-menu-example.png[Tab Menu Example, align = "center"]
+*Key Features:*
 
-The image above shows the layout of the Tab Menu widget. This widget will only appear in the mobile view at the bottom of the screen.
+* *Dynamic Data Fetching:* Automatically retrieves user information from their profiles, ensuring real-time accuracy.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+*Example Use Cases:* 
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+* *Account Dashboard:* Integrate the Profile Widget into a user's account dashboard to provide a personalized overview of their information and order history.
 
-image::tab-menu-configure.png[Tab Menu Configure, align = "center"]
+* *Customer Profile Page:* Display key user details on a dedicated profile page to enhance customer engagement and transparency.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “TAB MENU”.
-** Menu List
-*** Choose a menu to be used as the tab menu. Menus that have been configured under the “Menu List” tab of the CP Commerce Admin Applet will appear in the dropdown box.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+image::40-widget.png[align = "center"]
 
-Users could click on “Delete Node” to remove the unwanted node.
 
-== 11.4 Generic Header
 
-image::generic-header-example-1.png[Generic Header Example 1, align = "center"]
 
-The image above shows the layout of the Generic Header widget without a search bar.
 
-image::generic-header-example-2.png[Generic Header Example 2, align = "center"]
-
-The image above shows the layout of the Generic Header widget with a search bar and a search button.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::generic-header-configure.png[Generic Header Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-Choose “GENERIC HEADER”.
-** Product Listing Layout URL
-Enter a product listing layout URL to enable a search bar.
-** Checkboxes
-*** Enable Generic Header Sticky Feature
-**** This allows the generic header to stick to the top of the page and remain in view when scrolling at all times.
-*** Enable Button for Search Bar
-**** This allows a search button to appear on the far right of the search bar. The button and text color can be configured. The button will only appear when the search bar has been enabled by entering a product listing layout URL.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.5 Static Page Display
-
-image::static-page-display-example.png[Static Page Display Example, align = "center"]
-
-The image above shows the layout of the Static Page Display widget (excluding the header).
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::static-page-display-configure.png[Static Page Display Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “STATIC PAGE DISPLAY”.
-** Posts
-*** Choose a post to display. Posts that have been configured under the “Posts” tab of the CP Commerce Admin Applet will appear in the dropdown box.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.6 My Shipping Address
-
-image::my-shipping-address-example.png[My Shipping Address Example, align = "center"]
-
-The image above shows the layout of the My Shipping Address widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::my-shipping-address-configure.png[My Shipping Address Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “MY SHIPPING ADDRESS”.
-** Shipping Address Add Layout URL
-*** Enter a layout instance URL containing the My Shipping Address Add widget to allow users to add a new shipping address.
-** Shipping Address Edit Layout URL
-*** Enter a layout instance URL containing the My Shipping Address Details widget to allow users to edit the details of their shipping address.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.7 My Shipping Address Add
-
-image::my-shipping-address-add-example.png[My Shipping Address Add Example, align = "center"]
-
-The image above shows the layout of the My Shipping Address Add widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::my-shipping-address-add-configure.png[My Shipping Address Add Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “MY SHIPPING ADDRESS ADD”.
-** Shipping Address On Save Layout URL
-*** Enter a layout instance URL that you would like to redirect the user to after saving.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.8
-
-image::my-shipping-address-details-example.png[My Shipping Address Details Example, align = "center"]
-
-The image above shows the layout of the My Shipping Address Details widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::my-shipping-address-add-configure.png[My Shipping Address Add Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “MY SHIPPING ADDRESS ADD”.
-** Shipping Address On Save Layout URL
-*** Enter a layout instance URL that you would like to redirect the user to after saving.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.9 News List
-
-image::news-list-example.png[News List Example, align = "center"]
-
-The image above shows the layout of the News List widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::news-list-configure.png[News List Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “NEWS LIST”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.10 News Details
-
-image::news-details-example.png[News Details Example, align = "center"]
-
-The image above shows the layout of the News Details widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::news-list-configure.png[News List Configure, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “NEWS DETAILS”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.11 Product Category
-
-image::product-category-example.png[Product Category, align = "center"]
-
-The image above shows the layout of the Product Category widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-product-details.png[Configure Test Product Details, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Product Category”.
-** Product List Layout URL
-** Category Group
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Product Category Widget is configured:
-
-image::configure-product-category.png[Configure Product Category, align = "center"]
-
-== 11.12 Order Listing
-
-image::order-listing-example.png[Order Listing, align = "center"]
-
-The image above shows the layout of the Order Listing widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-order-listing.png[Configure Test Order Listing, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Order Listing”.
-** Sale Order Details URL
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Order Listing Widget is configured: 
-
-image::configure-order-listing.png[Configure Order Listing, align = "center"]
-
-== 11.13 Membership
-
-image::membership-example.png[Membership, align = "center"]
-
-The image above shows the layout of the Membership widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-membership.png[Configure Test Membership, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created. 
-** Widget ID
-*** Choose “Membership”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Membership Widget is configured:
-
-image::configure-membership-example.png[Configure Membership, align = "center"]
-
-== 11.14 Product Details
-
-image::product-details-example.png[Product Details, align = "center"]
-
-
-The image above shows the layout of the Product Details widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-
-image::configure-test-product-details.png[Configure Test Product Details, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Product Details”.
-** Checkout Layout URL
-** Checkboxes
-*** Enable Free Shipping
-*** Enable 100% Authentication Guarantee
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Product Details Widget is configured:
-
-image::configure-product-details.png[Configure Product Details, align = "center"]
-
-== 11.15 My Vouchers
-
-image::my-vouchers-example.png[My Vouchers, align = "center"]
-
-The image above shows the layout of the My Vouchers widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-my-vouchers.png[Configure Test My Vouchers, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “My Vouchers”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the My Vouchers Widget is configured:
-
-image::configure-my-vouchers.png[Configure My Vouchers, align = "center"]
-
-== 11.16 My Voucher Details
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-my-vouchers.png[Configure Test My Vouchers, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “My Vouchers Details”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.17 My Invoice Detail
-
-image::my-invoice-item-detail-example.png[My Invoice Item Detail, align = "center"]
-
-The image above shows the layout of the My Invoice_Detail widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-my-invoice-detail.png[Configure Test My Invoice Detail, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “My Invoice_Detail”.
-** My Invoice Item Details Layout
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the My Invoice_Detail Widget is configured:
-
-image::configure-my-invoice-item-detail.png[Configure My Invoice Item Detail, align = "center"]
-
-== 11.18 My Invoice Item Detail
-
-image::my-invoice-item-detail-example.png[My Invoice Item Detail, align = "center"]
-
-The image above shows the layout of the My Invoice Item Detail widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-my-invoice-detail.png[Configure Test My Invoice Detail, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “My Invoice Item Detail”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the My Invoice Item Detail Widget is configured:
-
-image::configure-my-invoice-item-detail.png[Configure My Invoice Item Detail, align = "center"]
-
-== 11.19 My Invoice Payment
-
-image::my-invoivce-payment-example.png[My Invoivce Payment, align = "center"]
-
-The image above shows the layout of the My Invoice Payment widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-my-invoice-payment.png[Configure Test My Invoice Payment, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “My Invoice Payment”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the My Invoice Payment Widget is configured:
-
-image::configure-my-invoice-payment.png[Configure My Invoice Payment, align = "center"]
-
-== 11.20 Store Selector
-
-image::store-selector-example-1.png[Store Selector Example 1, align = "center"]
-
-The image above shows the layout of the Store Selector widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-store-selector.png[Configure Test Store Selector, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Store Selector”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Store Selector Widget is configured:
-
-image::configure-store-selector.png[Configure Store Selector, align = "center"]
-
-== 11.21 Checkout Step v2
-
-image::checkout-step-v2-example.png[Checkout Step V2, align = "center"]
-
-The image above shows the layout of the Checkout Step v2 widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-checkout-step-v2.png[Configure Test Checkout Step V2, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Checkout Step v2”.
-** Checkbox
-*** Enable Shipping
-*** Enable Membership Points Conversion
-*** Enable Cash Voucher
-*** Enable Payment Gateway
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Store Selector Widget is configured:
-
-image::configure-checkout-step-v2.png[Configure Checkout Step V2, align = "center"]
-
-If all the checkboxes are ticked, different URLs are required to fill in by users:
-
-** Shipping Address Layout URL
-** Billing Address Layout URL
-** Product Listing Layout URL
-
-Users need to provide the correct URL according to the checkboxes that are enabled. 
-
-== 11.22 Category Tiles Listing
-
-image::category-tiles-listing-example.png[Category Tiles Listing, align = "center"]
-
-The image above shows the layout of the Category Tiles Listing widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-category-tiles-listing.png[Configure Test Category Tiles Listing, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Category Tiles Listing”.
-** Title
-** Category Group
-** Add Categories
-*** Users could add as many categories as they want by clicking on the “+” button.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Category Tiles Listing is configured:
-
-image::configure-category-tiles-listing-1.png[Configure Category Tiles Listing 1, align = "center"]
-
-image::configure-category-tiles-listing-2.png[Configure Category Tiles Listing 2, align = "center"]
-
-Users need to provide the correct label header and URL according to the categories added.
-
-== 11.23 Mobile Header
-
-image::mobile-header-example.jpg[Mobile Header, align = "center"]
-
-The image above shows the layout of the Mobile Header widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-mobile-header.png[configure-test-mobile-header, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Mobile Header”.
-** Title
-** Product Listing Layout URL
-** Checkbox
-*** Enable Button for Search Bar
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.24 Bio Footer
-
-image::bio-footer-example.png[Bio Footer, align = "center"]
-
-The image above shows the layout of the Bio Footer widget.
-
-After creating a layout instance, go to the search bar and find the node title that you have created.
-
-image::layout-instance.png[Layout Instance, align = "center"]
-
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
-
-image::configure-test-bio-footer-1.png[Configure Test Bio Footer 1, align = "center"]
-
-
-image::configure-test-bio-footer-2.png[Configure Test Bio Footer 2, align = "center"]
-
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Bio Footer”.
-** Address Line 1, 2 and 3
-** Postal Code
-** City 
-** State 
-** Email
-** Phone
-** Social Media Title
-** Social Media Icons Color
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-== 11.25 Profile 
-
-image::Profile-example.png[Profile Example, align = "center"]
 
 The image above shows the layout of the Profile Widget.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+== 2.0 My Wishlist
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::Configure-test-profile.png[Configure Test Profile, align = "center"]
+*Purpose:*
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* Provide a dedicated space for users to save and manage their favorite items, fostering product engagement and potential conversions.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Profile”.
+* Create a personalized shopping experience that encourages revisits and repeat purchases.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+**Key Features:*
 
-Users could click on “Delete Node” to remove the unwanted node.
+*Dynamic Item Display:*  Automatically retrieves and displays items added to a user's wishlist, ensuring real-time accuracy.
 
-Below shows an example of how the Profile  Widget is configured:
+* *Item Details:* Showcases essential product information, such as name, images, price, and brief descriptions.
 
-image::Configure-test-profile.png[Configure Test Profile, align = "center"]
+* *Wishlist Management:* Empowers users to add, remove their favorite items within the widget.
 
-== 11.26 Sales Order Details
+*Example Use Cases:*
 
-// image::.png[, align = "center"]
+* *Product Pages:* Integrate the My Wishlist Widget directly onto product pages to encourage wishlisting and facilitate easy saving of favorite items.
 
-The image above shows the layout of the Store Locator Details.
+* *Account Dashboard:* Include the widget within a user's account dashboard to provide a centralized view of their wishlisted items, accessible from any device.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* *Personalized Recommendations:* Utilize wishlist data to recommend similar or complementary products to users, fostering further engagement and potential upselling.
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+image::41-widget.png[align = "center"]
 
-image::configure-test-sales-order-details.png[Configure Test Sales Order Details, align = "center"]
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
-
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Store Locator Details”.
-
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
-
-Users could click on “Delete Node” to remove the unwanted node.
-
-Below shows an example of how the Sales Order Details  Widget is configured:
-
-image::configured-test-sales-order-details-2.png[Configured Test Sales Order Details 2, align = "center"]
-
-== 11.27 My Wishlist
-
-image::my-wishlist-example.png[My Wishlist, align = "center"]
 
 The image above shows the layout of the My Wishlist.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::Configure-test-my-wishlist.png[Configure Test My Wishlist, align = "center"]
+== 2.0 Sales Order Details
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+*Purpose:*
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “My Wishlist”.
+* Provide users with a comprehensive overview of their past purchases, enhancing transparency and building trust.
+* Facilitate easy access to order details for reference and potential reordering.
+* Encourage repeat purchases and boost customer loyalty.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
 
-Users could click on “Delete Node” to remove the unwanted node.
+*Key Features:*
 
-Below shows an example of how the My Wishlist Widget is configured:
+* *Dynamic Order Retrieval:* Automatically fetches and displays a user's order history, ensuring real-time accuracy.
 
-image::Configure-test-my-wishlist.png[Configure Test My Wishlist, align = "center"]
+* *Order List:* Showcases essential information for each order, including:
 
-== 11.28 External Product Details
+- Order date
+- Order number
+- Total order amount
 
-image::external-product-details-example.png[External Product Details, align = "center"]
+* Search and Filtering: Enables users to quickly locate specific orders using search functionality and filters based on date.
 
-The image above shows the layout of the External Product Details widget.
+*Example Use Cases:*
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* *Account Dashboard:* Integrate the Order History Widget prominently within a user's account dashboard for easy access and management of past purchases.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+* *Personalized Recommendations:* Analyze order history data to recommend relevant or complementary products to users, potentially increasing cross-selling and upselling opportunities.
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::Configure-test-external-product-details1.png[Configure Test External Product Details 1, align = "center"]
+image::42-order-history.png[align = "center"]
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “External Product Details”.
+The image above shows the Order History Widget.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
 
-Users could click on “Delete Node” to remove the unwanted node.
 
-Below shows an example of how the External Product Details Widget is configured:
+== 4.0 External Product Details
 
-image::Configured-test-external-product-details2.png[Configured Test External Product Details 2, align = "center"]
+*Purpose:*
 
-== 11.29 Menu Button
+* Showcase product information and details from external marketplaces directly redirect to their website.
 
-image::menu-button-example.png[menu-button-example, align = "center"]
+*Key Features:*
+
+* Marketplace Redirection: Includes a "Buy Now" or similar button that redirects users to the product page on the chosen external marketplace, enabling seamless purchasing opportunities.
+
+*Example Use Cases:*
+
+* Out-of-Stock Situations: When a product is out of stock on your website, use the widget to showcase the same product from an external marketplace, potentially fulfilling customer needs and avoiding lost sales.
+
+
+image::43-cpcommerce.png[align = "center"]
+
+The image above shows the layout of the External Product Details.
+
+
+== 5.0 Menu Button Widget
+
+*Purpose:*
+
+* Create visually appealing and engaging buttons to guide users to specific pages or actions within your website or any external webpage.
+
+* Enhance user experience and navigation by providing clear calls to action.
+
+* Customize button appearance to align with your website's design and branding.
+
+*Configuration Options:*
+
+* Button Text: Set the text label that appears on the button to clearly convey its purpose.
+
+* Background Color: Choose the desired background color to complement your website's palette and make the button stand out.
+
+* Text Color: Select the text color to ensure optimal readability and contrast against the background.
+
+* Border Radius: Adjust the button's corners for a more rounded or squared aesthetic, matching your design preferences.
+
+* Redirect URL: Specify the web page users will be directed to when clicking the button, guiding them to relevant content or actions.
+
+* Image (optional): Incorporate an image within the button to further enhance visual appeal and attract attention.
+
+
+*Key Features:*
+
+* Customizable Appearance: Tailor the button's look and feel to match your website's design and branding through various configuration options.
+
+* Versatile Functionality: Use the button to link to internal pages, external websites, trigger specific actions, or launch pop-ups, providing diverse navigation and interaction possibilities.
+
+* Responsive Design: Ensures the button adapts seamlessly to different screen sizes and devices, providing optimal user experience across various platforms.
+
+*Example Use Cases:*
+
+* Call to Action Buttons: Create prominent buttons for primary actions such as "Contact Us" guiding users towards desired conversions.
+
+* Navigation Links: Integrate buttons as part of your website's main navigation menu for clear and engaging page links.
+
+* Featured Content: Highlight specific products, services, or promotions using eye-catching buttons that capture attention and drive traffic.
+
+
+image::44.png[align = "center"]
+
+
 
 The image above shows the layout of the Menu Button
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+== 6.0 Product Rating
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+*Purpose:*
 
-image::Configure-test-menu-button.png[Configure Test Menu Button, align = "center"]
+* Foster trust and transparency by displaying authentic product feedback from customers.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* Influence purchase decisions by showcasing product ratings and reviews prominently.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Menu Button”.
+* Gather valuable insights about product performance and customer opinions.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+*Key Features:*
 
-Users could click on “Delete Node” to remove the unwanted node.
+* *Dynamic Rating Display:* Automatically fetches and displays product ratings and reviews from your database, ensuring accuracy and relevance.
 
-Below shows an example of how the Menu Button Widget is configured:
+* *Rating Visualization:* Showcases ratings using a visual system, such as stars, bars, or numerical averages, for quick understanding.
 
-image::Configured-test-menu-button2.png[Configure Test Menu Button 2, align = "center"]
+* *Review Integration:* Includes options to display individual customer reviews alongside ratings, providing more detailed insights.
 
-== 11.30 Product Rating
+* *User Interaction:* Enables users to submit their own ratings and reviews, contributing to the collective feedback and fostering engagement.
 
-image::product-rating-example.png[Product Rating, align = "center"]
 
-The image above shows the layout of the Product Rating
+*Example Use Cases:*
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* *Product Pages:* Integrate the Product Rating Widget directly on individual product pages to provide instant feedback and influence purchase decisions.
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::Configured-test-product-rating.png[Configured Test Product Rating, align = "center"]
 
-// image::.png[, align = "center"]
+image::45.png[align = "center"]
 
-== 11.31 Slider V2 (Promotion Slider)
 
-image::slider-v2-example.png[Slider V2, align = "center"]
 
-The image above shows the layout of the Slider V2 widget.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+The image above shows the layout of the Product Ratings
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+== 7.0 Slider V2 (Promotion Slider)
 
-image::Configured-test-slider-v2.png[Configured Test Slider V2, align = "center"]
+*Purpose:*
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* Capture attention and highlight key content or promotions through visually engaging slideshows.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Slider V2”.
+* Showcase multiple images or messages in a dynamic and attention-grabbing format.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+* Drive traffic to specific pages or actions within your website.
 
-Users could click on “Delete Node” to remove the unwanted node.
+*Configuration Options:*
 
-Below shows an example of how the Slider V2  Widget is configured:
+* *Image Upload:* Allow users to add multiple images to the slider, creating a visually diverse presentation.
 
-// image::.png[, align = "center"]
+* *Redirect URLs:* Set individual URLs for each image, enabling users to click and navigate to specific pages or sections of your website.
 
-== 11.32 Reward Listing
+* *Padding and Margin:* Adjust the spacing around images to create a visually appealing layout and ensure optimal readability.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+*Key Features:*
 
-image::layout-instance.png[Layout Instance, align = "center"]
+* *Dynamic Image Display:* Showcases multiple images in a slideshow format, engaging users with varied content.
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+* *Clickable Navigation:* Allows users to manually navigate between slides using arrows or dots, providing control over viewing experience.
 
-image::Configured-test-reward-listing.png[Configured Test Reward Listing, align = "center"]
+* *Customizable Appearance:* Offers options to adjust padding, margin, transition effects, and speed to match your website's design and preferences.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Reward Listing”.
+*Example Use Cases:*
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+* *Homepage Hero Banners:* Create visually striking slideshows to highlight key products, promotions, or brand messages on your homepage.
 
-Users could click on “Delete Node” to remove the unwanted node.
+* *Product Feature Showcases:* Highlight multiple product features or benefits in an engaging slideshow format.
+Featured Content Rotation: Display a variety of articles, blog posts, or other content in a dynamic slider to attract attention and drive engagement.
 
-Below shows an example of how the Reward Listing Widget is configured:
+* *Testimonial Showcases:* Feature multiple customer testimonials or reviews in a slideshow to build trust and credibility.
 
-image::Configured-test-reward-listing.png[Configured Test Reward Listing, align = "center"]
 
-== 11.33 Power Search Filter
 
-image::power-search-filter-example.png[Power Search Filter, align = "center"]
+image::46.png[align = "center"]
 
-The image above shows the layout of the Power Search Filter widget.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+The image above shows the layout of Slider V2
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+== 8.0 Reward Listing 
 
-// image::.png[, align = "center"]
+*Purpose:*
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* Motivate and incentivize users by showcasing available rewards they can claim and redeem for discounts or benefits at checkout.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Power Search Filter”.
+* Enhance user engagement and loyalty by providing valuable rewards for their activities and purchases.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+* Drive repeat purchases and increase order value by encouraging users to utilize their earned rewards.
 
-Users could click on “Delete Node” to remove the unwanted node.
+*Key Features:*
 
-Below shows an example of how the Power Search Filter Widget is configured:
+* *Dynamic Reward Display:* Automatically retrieves and displays a personalized list of rewards available to each user based on their account status, activity, or purchase history.
 
-// image::.png[, align = "center"]
+* *Reward Details:* Showcases essential information for each reward, such as:
 
-== 11.34 Store Locator Details
+* Reward name and description
+Reward value (e.g., discount percentage, free shipping, Cash Settlement)
 
-image::store-locator-details-example1.png[Store Locator Details Example 1, align = "center"]
+* Eligibility criteria (e.g., minimum purchase amount, specific product categories)
 
-image::store-locator-details-example2.png[Store Locator Details Example 2, align = "center"]
+* Expiration date (if applicable)
 
-The image above shows the layout of the Store Locator Details widget.
+* *Claim and Redemption:* Enables users to easily claim available rewards directly within the widget and apply them at checkout.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+*Configuration Options:*
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+*Reward Types:* Choose the types of rewards to offer, such as discounts,Settlement, free shipping.
 
-image::Configured-test-store-locator-details.png[Configured Test Store Locator Details, align = "center"]
+* *Eligibility Rules:* Define the criteria for users to qualify for specific rewards based on actions, purchases, or account levels.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* *Reward Limits:* Set limits on how many times a user can claim or redeem a particular reward.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Store Locator Details”.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
 
-Users could click on “Delete Node” to remove the unwanted node.
+*Example Use Cases:*
 
-Below shows an example of how the Store Locator Details Widget is configured:
+* Account Dashboards: Integrate the Reward Listing Widget prominently within user account dashboards for easy access and management of available rewards.
 
-image::Configured-test-store-locator-details.png[Configured Test Store Locator Details, align = "center"]
+* Product Pages: Highlight relevant rewards alongside products to incentivize purchases and encourage reward utilization.
 
-== 11.35 Sales Order Item Details
+* Cart and Checkout Pages: Display claimed rewards and provide a clear option to apply them during the checkout process.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* Loyalty Programs: Enhance your loyalty program by showcasing reward options within the widget to drive engagement and encourage repeat purchases.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+*User Experience Considerations:*
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+* Ensure clear communication of reward details, eligibility criteria, and expiration dates to avoid confusion.
 
-image::configured-test-sales-order-item-details.png[Configured Test Sales Order Item Details, align = "center"]
+* Provide a seamless claiming and redemption process within the widget for a positive user experience.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* Consider integrating progress tracking visuals to motivate users and encourage them to earn more rewards.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Sales Order Item Details”.
 
+*Additional Notes:*
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+* Tailor the selection and design of rewards to align with your overall marketing strategy and target audience.
 
-Users could click on “Delete Node” to remove the unwanted node.
+* Monitor reward usage and analyze its impact on user engagement, loyalty, and purchase behavior to optimize your program and maximize its effectiveness.
 
-Below shows an example of how the Sales Order Item Details Widget is configured:
 
-image::configured-test-sales-order-item-details.png[Configured Test Sales Order Item Details, align = "center"]
 
-== 11.36 Category Slider
+== 9.0 Power Search Filter
 
-image::category-slider-example.png[Category Slider, align = "center"]
+*Purpose:*
 
-The image above shows the layout of the Category Slider widget.
+* Empower users to quickly and efficiently find specific content or products within a large dataset or catalog.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* Enhance user experience and navigation by providing advanced search and filtering capabilities.
 
-image::layout-instance.png[Layout Instance, align = "center"]
+* Streamline product discovery and decision-making, leading to increased conversions and customer satisfaction.
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+*Key Features:*
 
-// image::.png[, align = "center"]
+* *Dynamic Search Functionality:* Processes user queries in real-time and instantly updates results based on selected filters, providing a seamless search experience.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* *Comprehensive Filtering Options:* Offers a wide range of filter categories and types to help users narrow down results and find exactly what they're looking for.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Category Slider”.
+* *User-Friendly Interface:* Presents search and filtering options in an intuitive and accessible manner, ensuring ease of use for all users.
 
+* Responsive Design: Adapts seamlessly to different screen sizes and devices, providing optimal search experience across various platforms.
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+*Example Use Cases:*
 
-Users could click on “Delete Node” to remove the unwanted node.
+* *E-commerce Product Search:* Enable users to filter products by category, brand, name and more, streamlining product discovery and purchase decisions.
 
-Below shows an example of how the Category Slider is configured:
 
-// image::.png[, align = "center"]
+image::47.png[align = "center"]
 
-== 11.37 Category Filter Product List
 
-image::power-search-filter-example.png[power-search-filter-example, align = "center"]
 
-The image above shows the layout of the Category Filter Product List widget.
+The image above shows the layout of the Power Search Filter
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+== 10.0 Store Locator Details
 
-// image::.png[, align = "center"]
+*Purpose:*
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* Provide users with detailed information about specific stores within a broader store locator system, enhancing convenience and aiding informed decision-making.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Category Filter Product List”.
 
+*Key Features:*
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+*Dynamic Information Display:* Automatically pulls and displays relevant stores in list and map view in store locator.
 
-Users could click on “Delete Node” to remove the unwanted node.
+*Essential Details:* Showcases information such as:
+** Store address 
+** Store Image
 
-== 11.38 Fusion TechHeader
 
-image::fusiontech-header-example.png[Fusiontech Header, align = "center"]
+*Configuration Options:*
 
-The image above shows the layout of the Fusion TechHeader widget.
+* *Data Selection:*  Choose which specific details to display within the widget, ensuring relevance and information overload avoidance.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* *Image and Media Integration:* Define how to integrate store images, virtual tours, and other media assets for an engaging presentation.
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+*Example Use Cases:*
 
-image::Configured-test-fusion-header.png[Configured Test Fusion Header, align = "center"]
+* *Store Locator Results Pages:* Directly integrate the Store Locator Details Widget within the main store locator's results page, allowing users to access detailed information about each store without navigating away.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Fusion TechHeader”.
 
+*User Experience Considerations:*
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+* Design the widget for clarity and easy information access, avoiding clutter and overwhelming users.
 
-Users could click on “Delete Node” to remove the unwanted node.
+* Ensure consistency in layout and styling with the main store locator for a seamless user experience.
 
-Below shows an example of how the Fusion TechHeader is configured:
+* Optimize mobile responsiveness for smooth information access on various devices.
 
-// image::.png[, align = "center"]
 
-== 11.39 Monaliza Home
+*Additional Notes:*
 
-image::monaliza-home-example.png[Monaliza Home, align = "center"]
+* Regularly update store information and promotions within the widget to maintain accuracy and ensure a positive user experience.
 
-The image above shows the layout of the Monaliza Home widget.
+image::48.png[align = "center"]
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+image::49.png[align = "center"]
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
 
-image::Configure-test-monaliza-home1.png[Configure Test Monaliza Home 1, align = "center"]
+== 12.0 Category Slider
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “Monaliza Home”.
+image::50.png[align = "center"]
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
 
-Users could click on “Delete Node” to remove the unwanted node.
-Below shows an example of how the Monaliza Home is configured:
+*Purpose:*
 
-image::Configure-test-monaliza-home2.png[Configure Test Monaliza Home 2, align = "center"]
+* Visually showcase and promote key product categories on your website, capturing user attention and driving traffic to category pages.
 
-== 11.40 iFrame Display
+* Enhance navigation and product discovery by offering an interactive and engaging way to explore different categories.
 
-After creating a layout instance, go to the search bar and find the node title that you have created.
+* Increase click-through rates and potentially boost sales by highlighting popular or featured categories.
 
-image::layout-instance.png[Layout Instance, align = "center"]
 
-Click on the searched widget and go to the “Nodes” tab. Select the layout instance’s children as “widget” type to choose your desired widget ID.
+*Key Features:*
 
-// image::.png[, align = "center"]
+* *Dynamic Category Display:* Retrieves and displays information about selected product categories in a visually appealing slider format.
 
-In the layout instance’s children “Main” tab, you need to fill in the necessary information to create a widget.
+* *Customizable Slides:* Allows you to configure each slide with:
 
-** Node Title
-** Node Type
-*** Row
-*** Column
-*** Widget
-**** This has to be chosen in order for the node to appear as a widget in the website created.
-** Widget ID
-*** Choose “iFrame Display”.
+** Category name and description
+** Eye-catching category image 
+** Call to action button, linking to the corresponding category page
 
-After filling up all the information, click the “Update” button to save the changes made. The updated widget will be shown in the “Nodes” tab main page.
+* *Navigation Controls:* Provides users with intuitive controls to navigate through the slider, such as arrows, dots, or automatic rotation.
 
-Users could click on “Delete Node” to remove the unwanted node.
+* *Responsive Design:* Adapts seamlessly to different screen sizes and devices, ensuring optimal viewing experience across platforms.
 
-Below shows an example of how the iFrame Display is configured:
+*Configuration Options:*
 
-image::Configured-test-iframe-display.png[Configured Test iframe Display, align = "center"]
+* *Category Selection:* Choose which product categories to display in the slider, considering popularity, featured items, or strategic promotional goals.
+
+* *Slide Design:* Customize the layout and appearance of each slide, including image/icon selection, text formatting, and call to action button styles.
+
+* *Slider Behavior:* Set navigation options (manual, automatic), transition effects, and slider speed to match your website's design and user preferences.
+
+== Example Use Cases:
+
+* *Homepage Hero Banner:* Feature key product categories prominently on your homepage using an eye-catching category slider to capture attention and guide users to explore your product offerings.
+
+* *Landing Pages:* Integrate the Category Slider within relevant landing pages to promote specific categories related to the page's theme or offer.
+
+* *Category Navigation Menu:* Enhance your website's menu structure by including a visually appealing category slider alongside traditional text-based links.
+
+* **Featured Product Promotions:* Highlight specific categories with ongoing promotions or new arrivals using the slider to drive targeted traffic and interest.
+
+
+*Additional Notes:*
+
+* Analyze user interaction with the Category Slider to understand which categories receive the most engagement and optimize the selection accordingly.
+
+* Consider integrating the slider with product recommendations or targeted promotions based on user-clicked categories to further personalize the shopping experience.
+
+* Ensure the slider visually complements your website's overall design and branding for a seamless user experience.
+
+
+
+
+
+
+
