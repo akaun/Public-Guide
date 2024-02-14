@@ -62,7 +62,7 @@ Advanced Configuration Options: Tailor each widget to meet your specific needs.
 
 
 
-image::40-widget.png[align = "center"]
+image::40-wigdet.png[align = "center"]
 
 
 
@@ -98,7 +98,7 @@ The image above shows the layout of the Profile Widget.
 * *Personalized Recommendations:* Utilize wishlist data to recommend similar or complementary products to users, fostering further engagement and potential upselling.
 
 
-image::41-widget.png[align = "center"]
+image::41-wigdet.png[align = "center"]
 
 
 
