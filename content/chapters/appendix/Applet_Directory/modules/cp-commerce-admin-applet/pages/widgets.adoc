@@ -1,0 +1,499 @@
+[#h3_cp_commerce_admin_widgets]
+= 11.0 Widgets
+
+== How to Manage the Structure and Design of Your Store
+
+Designing your Cp-commerce marketplace is now easier than ever. With our Cp-commerce Admin Applet, you can create a stunning online store in a short time, without needing any IT background or programming skills. Our applet offers an intuitive interface that allows you to effortlessly customize your marketplace. Whether you're adding products, managing promotions, or optimizing your store for search engines, our user-friendly tools make the process seamless. Join the ranks of successful online entrepreneurs and bring your marketplace vision to life with Cp-commerce Admin Applet.
+
+
+This comprehensive guide will empower you to build your e-commerce website or online marketplace with ease.
+
+== Key Features:
+
+* *Layout Instances for Device-Specific Optimization:* Design web page structures tailored to different devices for optimal viewing experiences.
+
+* *Node-Based Structure:* Construct layouts with rows, columns, and widgets for flexible content organization.
+
+* *Versatile Widgets:* Add a wide range of customizable components, extending functionality from headers and image displays to product listings and sales order management.
+Advanced Configuration Options: Tailor each widget to meet your specific needs.
+
+
+*Additional Tips:*
+
+* *Experiment with Node Combinations:* Try different combinations of rows, columns, and widgets to achieve unique and effective layouts across devices.
+
+* *Refer to Widget Documentation:* Consult the widget documentation for detailed instructions on configuring individual widgets and their settings.Widgets add essential content and functionality to your website.Each widget offers unique customization options to match your design and content need.
+
+* *Utilize Grid-Based Structure:* Create visually appealing and organized layouts using a grid-based approach.
+
+* *Ensure Responsive Design:* Optimize your website for optimal viewing across various devices.
+
+== 1.0 Profile Widget
+
+*Purpose:*
+
+* Seamlessly display essential user information, including details such as name, email, order history, and more.
+
+* Create personalized experiences and enhance user engagement.
+
+
+*Configuration Options:* 
+
+* *Mandatory Fields:* Select which user information to make mandatory, ensuring the collection of crucial details.
+
+* *Appearance Customization:*
+
+- Colors: Adjust the widget's background, text, and accent colors to match your website's design.
+
+- Fonts: Choose appropriate fonts for optimal readability and brand consistency.
+
+- Spacing: Control the spacing between elements for a visually pleasing layout.
+
+*Key Features:*
+
+* *Dynamic Data Fetching:* Automatically retrieves user information from their profiles, ensuring real-time accuracy.
+
+
+*Example Use Cases:* 
+
+* *Account Dashboard:* Integrate the Profile Widget into a user's account dashboard to provide a personalized overview of their information and order history.
+
+* *Customer Profile Page:* Display key user details on a dedicated profile page to enhance customer engagement and transparency.
+
+
+
+image::40-wigdet.png[align = "center"]
+
+
+
+
+
+
+The image above shows the layout of the Profile Widget.
+
+
+== 2.0 My Wishlist
+
+
+*Purpose:*
+
+* Provide a dedicated space for users to save and manage their favorite items, fostering product engagement and potential conversions.
+
+* Create a personalized shopping experience that encourages revisits and repeat purchases.
+
+**Key Features:*
+
+*Dynamic Item Display:*  Automatically retrieves and displays items added to a user's wishlist, ensuring real-time accuracy.
+
+* *Item Details:* Showcases essential product information, such as name, images, price, and brief descriptions.
+
+* *Wishlist Management:* Empowers users to add, remove their favorite items within the widget.
+
+*Example Use Cases:*
+
+* *Product Pages:* Integrate the My Wishlist Widget directly onto product pages to encourage wishlisting and facilitate easy saving of favorite items.
+
+* *Account Dashboard:* Include the widget within a user's account dashboard to provide a centralized view of their wishlisted items, accessible from any device.
+
+* *Personalized Recommendations:* Utilize wishlist data to recommend similar or complementary products to users, fostering further engagement and potential upselling.
+
+
+image::41-wigdet.png[align = "center"]
+
+
+
+The image above shows the layout of the My Wishlist.
+
+
+
+
+== 2.0 Sales Order Details
+
+*Purpose:*
+
+* Provide users with a comprehensive overview of their past purchases, enhancing transparency and building trust.
+* Facilitate easy access to order details for reference and potential reordering.
+* Encourage repeat purchases and boost customer loyalty.
+
+
+*Key Features:*
+
+* *Dynamic Order Retrieval:* Automatically fetches and displays a user's order history, ensuring real-time accuracy.
+
+* *Order List:* Showcases essential information for each order, including:
+
+- Order date
+- Order number
+- Total order amount
+
+* Search and Filtering: Enables users to quickly locate specific orders using search functionality and filters based on date.
+
+*Example Use Cases:*
+
+* *Account Dashboard:* Integrate the Order History Widget prominently within a user's account dashboard for easy access and management of past purchases.
+
+* *Personalized Recommendations:* Analyze order history data to recommend relevant or complementary products to users, potentially increasing cross-selling and upselling opportunities.
+
+
+image::42-order-history.png[align = "center"]
+
+
+The image above shows the Order History Widget.
+
+
+
+== 4.0 External Product Details
+
+*Purpose:*
+
+* Showcase product information and details from external marketplaces directly redirect to their website.
+
+*Key Features:*
+
+* Marketplace Redirection: Includes a "Buy Now" or similar button that redirects users to the product page on the chosen external marketplace, enabling seamless purchasing opportunities.
+
+*Example Use Cases:*
+
+* Out-of-Stock Situations: When a product is out of stock on your website, use the widget to showcase the same product from an external marketplace, potentially fulfilling customer needs and avoiding lost sales.
+
+
+image::43-cpcommerce.png[align = "center"]
+
+The image above shows the layout of the External Product Details.
+
+
+== 5.0 Menu Button Widget
+
+*Purpose:*
+
+* Create visually appealing and engaging buttons to guide users to specific pages or actions within your website or any external webpage.
+
+* Enhance user experience and navigation by providing clear calls to action.
+
+* Customize button appearance to align with your website's design and branding.
+
+*Configuration Options:*
+
+* Button Text: Set the text label that appears on the button to clearly convey its purpose.
+
+* Background Color: Choose the desired background color to complement your website's palette and make the button stand out.
+
+* Text Color: Select the text color to ensure optimal readability and contrast against the background.
+
+* Border Radius: Adjust the button's corners for a more rounded or squared aesthetic, matching your design preferences.
+
+* Redirect URL: Specify the web page users will be directed to when clicking the button, guiding them to relevant content or actions.
+
+* Image (optional): Incorporate an image within the button to further enhance visual appeal and attract attention.
+
+
+*Key Features:*
+
+* Customizable Appearance: Tailor the button's look and feel to match your website's design and branding through various configuration options.
+
+* Versatile Functionality: Use the button to link to internal pages, external websites, trigger specific actions, or launch pop-ups, providing diverse navigation and interaction possibilities.
+
+* Responsive Design: Ensures the button adapts seamlessly to different screen sizes and devices, providing optimal user experience across various platforms.
+
+*Example Use Cases:*
+
+* Call to Action Buttons: Create prominent buttons for primary actions such as "Contact Us" guiding users towards desired conversions.
+
+* Navigation Links: Integrate buttons as part of your website's main navigation menu for clear and engaging page links.
+
+* Featured Content: Highlight specific products, services, or promotions using eye-catching buttons that capture attention and drive traffic.
+
+
+image::44.png[align = "center"]
+
+
+
+The image above shows the layout of the Menu Button
+
+
+== 6.0 Product Rating
+
+*Purpose:*
+
+* Foster trust and transparency by displaying authentic product feedback from customers.
+
+* Influence purchase decisions by showcasing product ratings and reviews prominently.
+
+* Gather valuable insights about product performance and customer opinions.
+
+*Key Features:*
+
+* *Dynamic Rating Display:* Automatically fetches and displays product ratings and reviews from your database, ensuring accuracy and relevance.
+
+* *Rating Visualization:* Showcases ratings using a visual system, such as stars, bars, or numerical averages, for quick understanding.
+
+* *Review Integration:* Includes options to display individual customer reviews alongside ratings, providing more detailed insights.
+
+* *User Interaction:* Enables users to submit their own ratings and reviews, contributing to the collective feedback and fostering engagement.
+
+
+*Example Use Cases:*
+
+* *Product Pages:* Integrate the Product Rating Widget directly on individual product pages to provide instant feedback and influence purchase decisions.
+
+
+
+
+image::45.png[align = "center"]
+
+
+
+
+The image above shows the layout of the Product Ratings
+
+
+== 7.0 Slider V2 (Promotion Slider)
+
+*Purpose:*
+
+* Capture attention and highlight key content or promotions through visually engaging slideshows.
+
+* Showcase multiple images or messages in a dynamic and attention-grabbing format.
+
+* Drive traffic to specific pages or actions within your website.
+
+*Configuration Options:*
+
+* *Image Upload:* Allow users to add multiple images to the slider, creating a visually diverse presentation.
+
+* *Redirect URLs:* Set individual URLs for each image, enabling users to click and navigate to specific pages or sections of your website.
+
+* *Padding and Margin:* Adjust the spacing around images to create a visually appealing layout and ensure optimal readability.
+
+*Key Features:*
+
+* *Dynamic Image Display:* Showcases multiple images in a slideshow format, engaging users with varied content.
+
+* *Clickable Navigation:* Allows users to manually navigate between slides using arrows or dots, providing control over viewing experience.
+
+* *Customizable Appearance:* Offers options to adjust padding, margin, transition effects, and speed to match your website's design and preferences.
+
+
+*Example Use Cases:*
+
+* *Homepage Hero Banners:* Create visually striking slideshows to highlight key products, promotions, or brand messages on your homepage.
+
+* *Product Feature Showcases:* Highlight multiple product features or benefits in an engaging slideshow format.
+Featured Content Rotation: Display a variety of articles, blog posts, or other content in a dynamic slider to attract attention and drive engagement.
+
+* *Testimonial Showcases:* Feature multiple customer testimonials or reviews in a slideshow to build trust and credibility.
+
+
+
+image::46.png[align = "center"]
+
+
+The image above shows the layout of Slider V2
+
+
+== 8.0 Reward Listing 
+
+*Purpose:*
+
+* Motivate and incentivize users by showcasing available rewards they can claim and redeem for discounts or benefits at checkout.
+
+* Enhance user engagement and loyalty by providing valuable rewards for their activities and purchases.
+
+* Drive repeat purchases and increase order value by encouraging users to utilize their earned rewards.
+
+*Key Features:*
+
+* *Dynamic Reward Display:* Automatically retrieves and displays a personalized list of rewards available to each user based on their account status, activity, or purchase history.
+
+* *Reward Details:* Showcases essential information for each reward, such as:
+
+* Reward name and description
+Reward value (e.g., discount percentage, free shipping, Cash Settlement)
+
+* Eligibility criteria (e.g., minimum purchase amount, specific product categories)
+
+* Expiration date (if applicable)
+
+* *Claim and Redemption:* Enables users to easily claim available rewards directly within the widget and apply them at checkout.
+
+
+*Configuration Options:*
+
+*Reward Types:* Choose the types of rewards to offer, such as discounts,Settlement, free shipping.
+
+* *Eligibility Rules:* Define the criteria for users to qualify for specific rewards based on actions, purchases, or account levels.
+
+* *Reward Limits:* Set limits on how many times a user can claim or redeem a particular reward.
+
+
+
+*Example Use Cases:*
+
+* Account Dashboards: Integrate the Reward Listing Widget prominently within user account dashboards for easy access and management of available rewards.
+
+* Product Pages: Highlight relevant rewards alongside products to incentivize purchases and encourage reward utilization.
+
+* Cart and Checkout Pages: Display claimed rewards and provide a clear option to apply them during the checkout process.
+
+* Loyalty Programs: Enhance your loyalty program by showcasing reward options within the widget to drive engagement and encourage repeat purchases.
+
+*User Experience Considerations:*
+
+* Ensure clear communication of reward details, eligibility criteria, and expiration dates to avoid confusion.
+
+* Provide a seamless claiming and redemption process within the widget for a positive user experience.
+
+* Consider integrating progress tracking visuals to motivate users and encourage them to earn more rewards.
+
+
+*Additional Notes:*
+
+* Tailor the selection and design of rewards to align with your overall marketing strategy and target audience.
+
+* Monitor reward usage and analyze its impact on user engagement, loyalty, and purchase behavior to optimize your program and maximize its effectiveness.
+
+
+
+== 9.0 Power Search Filter
+
+*Purpose:*
+
+* Empower users to quickly and efficiently find specific content or products within a large dataset or catalog.
+
+* Enhance user experience and navigation by providing advanced search and filtering capabilities.
+
+* Streamline product discovery and decision-making, leading to increased conversions and customer satisfaction.
+
+*Key Features:*
+
+* *Dynamic Search Functionality:* Processes user queries in real-time and instantly updates results based on selected filters, providing a seamless search experience.
+
+* *Comprehensive Filtering Options:* Offers a wide range of filter categories and types to help users narrow down results and find exactly what they're looking for.
+
+* *User-Friendly Interface:* Presents search and filtering options in an intuitive and accessible manner, ensuring ease of use for all users.
+
+* Responsive Design: Adapts seamlessly to different screen sizes and devices, providing optimal search experience across various platforms.
+
+*Example Use Cases:*
+
+* *E-commerce Product Search:* Enable users to filter products by category, brand, name and more, streamlining product discovery and purchase decisions.
+
+
+image::47.png[align = "center"]
+
+
+
+The image above shows the layout of the Power Search Filter
+
+
+
+== 10.0 Store Locator Details
+
+*Purpose:*
+
+* Provide users with detailed information about specific stores within a broader store locator system, enhancing convenience and aiding informed decision-making.
+
+
+*Key Features:*
+
+*Dynamic Information Display:* Automatically pulls and displays relevant stores in list and map view in store locator.
+
+*Essential Details:* Showcases information such as:
+** Store address 
+** Store Image
+
+
+*Configuration Options:*
+
+* *Data Selection:*  Choose which specific details to display within the widget, ensuring relevance and information overload avoidance.
+
+* *Image and Media Integration:* Define how to integrate store images, virtual tours, and other media assets for an engaging presentation.
+
+
+*Example Use Cases:*
+
+* *Store Locator Results Pages:* Directly integrate the Store Locator Details Widget within the main store locator's results page, allowing users to access detailed information about each store without navigating away.
+
+
+
+*User Experience Considerations:*
+
+* Design the widget for clarity and easy information access, avoiding clutter and overwhelming users.
+
+* Ensure consistency in layout and styling with the main store locator for a seamless user experience.
+
+* Optimize mobile responsiveness for smooth information access on various devices.
+
+
+*Additional Notes:*
+
+* Regularly update store information and promotions within the widget to maintain accuracy and ensure a positive user experience.
+
+image::48.png[align = "center"]
+
+image::49.png[align = "center"]
+
+
+
+== 12.0 Category Slider
+
+
+image::50.png[align = "center"]
+
+
+*Purpose:*
+
+* Visually showcase and promote key product categories on your website, capturing user attention and driving traffic to category pages.
+
+* Enhance navigation and product discovery by offering an interactive and engaging way to explore different categories.
+
+* Increase click-through rates and potentially boost sales by highlighting popular or featured categories.
+
+
+*Key Features:*
+
+* *Dynamic Category Display:* Retrieves and displays information about selected product categories in a visually appealing slider format.
+
+* *Customizable Slides:* Allows you to configure each slide with:
+
+** Category name and description
+** Eye-catching category image 
+** Call to action button, linking to the corresponding category page
+
+* *Navigation Controls:* Provides users with intuitive controls to navigate through the slider, such as arrows, dots, or automatic rotation.
+
+* *Responsive Design:* Adapts seamlessly to different screen sizes and devices, ensuring optimal viewing experience across platforms.
+
+*Configuration Options:*
+
+* *Category Selection:* Choose which product categories to display in the slider, considering popularity, featured items, or strategic promotional goals.
+
+* *Slide Design:* Customize the layout and appearance of each slide, including image/icon selection, text formatting, and call to action button styles.
+
+* *Slider Behavior:* Set navigation options (manual, automatic), transition effects, and slider speed to match your website's design and user preferences.
+
+== Example Use Cases:
+
+* *Homepage Hero Banner:* Feature key product categories prominently on your homepage using an eye-catching category slider to capture attention and guide users to explore your product offerings.
+
+* *Landing Pages:* Integrate the Category Slider within relevant landing pages to promote specific categories related to the page's theme or offer.
+
+* *Category Navigation Menu:* Enhance your website's menu structure by including a visually appealing category slider alongside traditional text-based links.
+
+* **Featured Product Promotions:* Highlight specific categories with ongoing promotions or new arrivals using the slider to drive targeted traffic and interest.
+
+
+*Additional Notes:*
+
+* Analyze user interaction with the Category Slider to understand which categories receive the most engagement and optimize the selection accordingly.
+
+* Consider integrating the slider with product recommendations or targeted promotions based on user-clicked categories to further personalize the shopping experience.
+
+* Ensure the slider visually complements your website's overall design and branding for a seamless user experience.
+
+
+
+
+
+
+

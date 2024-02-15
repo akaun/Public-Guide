@@ -10,6 +10,6 @@
 ** xref:menu_spending_limit.adoc[Spending Limit]
 ** xref:menu_blocked_customers.adoc[Blocked Customers]
 ** xref:menu_activities.adoc[Activities]
-** xref:Widgets/widgets.adoc[Widgets]
+** xref:widgets.adoc[Widgets]
 
 
