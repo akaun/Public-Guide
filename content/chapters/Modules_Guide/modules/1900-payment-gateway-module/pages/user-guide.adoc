@@ -2,47 +2,77 @@
 
 === 3.1 Create Supplier 
 
-_This step ensures that customers are directly sent to the payment channel when making a payment._
+This step ensures that customers are directly sent to the payment channel when making a payment.
 
-. To set up a payment channel, start by creating a supplier account using the *Supplier Maintenance Applet*. 
-. Go to the supplier listing page and click the '+' button to add a new supplier. 
-. Fill in all the details and click '*Create*.' 
-. Choose the payment channel name from the dropdown menu (provided by your tenant), and the Payment Channel code will fill in automatically. 
-. Pick the payment provider from the dropdown.
-. Set the Payment Channel status to 'Active.’ 
-. Select 'Forwarding Rules' as 'Single Channel.' 
+1. To set up a payment channel, start by creating a supplier account using the *Supplier Maintenance Applet*. 
+
+2. Go to the supplier listing page and click the '+' button to add a new supplier. 
+
+3. Fill in all the details and click '*Create*.
+
+image::02_Supplier-Maintenance-Applet_Creating-Supplier-Account.png[align = center]
+
 
 
 ==== 3.1.1 Supplier Identification Code
 
 The *Supplier identification* is unique to each supplier and once set up during creating the supplier, it cannot be changed. 
 
-== 4.0 Payment Provider Setup
 
-=== 4.1 Create Payment Provider 
+== 4.0 Payment Channel Setup
 
-_This section explains how to set up a payment provider in the *Payment Channel Applet*. Users create a new provider, input details, and can modify settings later. After creating a payment channel, they link it to the provider for seamless operation, setting priority for functionality._
+=== 4.1 Create Payment Channel
 
-. Go to *Payment Channel Applet*.
-. In the Payment Provider section, click the '+' button to create a new payment provider.
-. Enter all payment provider details.
-. Navigate back to the listing and click on the created payment provider.
-. Access the 'Edit Payment Provider' page to modify details.
-. Users can update the logo in the 'Manage Images' tab.
-. In order to link the payment provider to the payment channel, users need to create a *Payment Channel* first.
-. After *Payment Channel* is created, users can view the linked payment channel in the 'Payment Channel Priority' tab under 'Edit Payment Provider' page.
-. Users are required to set the priority in order for the payment provider to fully function.
+Once done creating a Supplier Account, go to Payment Channel Applet:
 
-== 5.0 Payment Channel Setup
+1. Specify the *Acquirer*, which is the *Payment Gateway Supplier* created in the Supplier Applet.
 
-=== 5.1 Create Payment Channel
+2. Choose the payment channel name from the dropdown menu (provided by your tenant), and the *Payment Channel Code* will fill in automatically. 
 
-. Access the *Payment Channel Applet*.
-. On the payment channel listing page, click the '+' button to create a Payment Channel.
-. Enter all the required details to set up the new Payment Channel.
-. Specify the *Acquirer*, which is the *Payment Gateway Supplier* created in the *Supplier Applet*.
+3. The user will notice they do not have any *Payment Provider* for now. If do not show anything, check the steps from *5.0 - Payment Provider Setup* later.
 
-image::pgw-1.png[align = center]
+4. Set the Payment Channel status to 'Active.’ 
+
+5. Select 'Forwarding Rules' as *'Single Channel'.* 
+
+
+image::03_Payment-Channel-Applet_Creating-Payment-Channel.png[align = center]
+
+
+=== 4.1.1 Supplier Identification Code
+
+The *Supplier identification* is unique to each supplier. Once set up during creating the supplier, it cannot be changed.
+
+
+== 5.0 Payment Provider Setup
+
+=== 5.1 Create Payment Provider
+
+This guide explains how to set up a payment provider in the *Payment Channel Applet*. Users create a new provider, input details, and can modify settings later. After creating a payment channel, they link it to the provider for seamless operation, setting priority for functionality.
+
+
+1. Go to Payment Channel Applet.
+
+2. In the Payment Provider section, click the '+' button to create a new payment provider.
+
+3. Enter all payment provider details.
+
+4. . Navigate back to the listing and click on the created payment provider.
+
+5. Access the 'Edit Payment Provider' page to modify details.
+
+6. Users can update the logo in the 'Manage Images' tab.
+
+7. In order to link the payment provider to the payment channel, users must created a 
+*Payment Channel* beforehand. Which is already mentioned in the previous steps.
+
+8. After Payment Channel is created, users can view the linked payment channel in the 'Payment Channel Priority' tab under 'Edit Payment Provider' page.
+
+9. Users are required to set the priority in order for the payment provider to fully function.
+
+image::04_Payment-Channel-Applet_Creating-Payment-Provider.png[align = center]
+
+Finally, navigate back to the Payment Channel side menu, and now users should be able to fill in the *Payment Provider Code* from the dropdown menu.
 
 == 6.0 Payment Channel Contract Setup
 
@@ -58,29 +88,55 @@ Users can configure this in the *Payment Channel Applet*, you'll find a *Contrac
 
 === 6.1 Edit Contract Credentials
 
+To establish the link between the Payment Service Provider and Your Company, users are required to provide details such as:
+
+* Contract Company Name
+
+* Payment Gateway Company
+
+* Payment Channel
+
+* Contract Key
+
+* Contract Status
+
+Users can configure this in the *Payment Channel Applet*, you'll find a Contract section where you can set up contracts between the Payment Gateway Supplier, Payment Provider, and your own Company (Contract Company).
+
+
+
+image::05_Payment-Channel-Applet_Creating-Contract.png[align = center]
+
+=== 6.1 Edit Contract Credentials
+
 After creating the contract, it will be shown on the contract listing page.
 
-. Click on the created contract to edit its details.
-. On the Details page, find the Edit Contract Credentials section.
-. These credentials are obtained from signing the physical contract with the Payment Gateway Company.
-. Create credentials by clicking the '+' button and make necessary edits.
-. Once saved, the credentials will be hidden, as we do not want the data to be exposed.
+1. Click on the created contract to edit its details.
 
+2. On the *Details* page, find the *Edit Contract Credentials* section.
 
-image::pgw-3.png[align = center]
+3. These credentials are obtained from signing the physical contract with the *Payment Gateway Company*.
+
+4. Create credentials by clicking the '+' button and make necessary edits.
+
+5. Once saved, the credentials will be hidden, as we do not want the data to be exposed.
+
+image::05_Payment-Channel-Applet_Creating-Contract.png[align = center]
 
 
 === 6.2 Create and Edit Contract Rate 
 
 Once the Contract is created, the user can create and edit the *Contract Rate* under the *Contract Rate* tab. 
 
-. Click the “+” button on the Contract Rate page to add a contract rate.
-. Change the Rate Name and specify if it is a *Percentage* or *Fixed Rate* contract.
-. Fill in the rate amount accordingly.
-. Use the Audit Rate feature to track actions and identify users editing the contract.
+1. Click the “+” button on the Contract Rate page to add a contract rate.
+
+2. Change the Rate Name and specify if it is a *Percentage* or *Fixed Rate* contract.
+
+3. Fill in the rate amount accordingly.
+
+4. Use the Audit Rate feature to track actions and identify users editing the contract.
 
 
-image::pgw-4.png[align = center]
+image::image::05_Payment-Channel-Applet_Creating-Contract.png[align = center].png[align = center]
 
 
 == 7.0 Merchant Setup
@@ -89,37 +145,30 @@ To set up merchants, there are two applets: the *Merchant Admin Applet* for conf
 
 === 7.1 Create and Edit Merchant 
 
-The user can create the Merchant in the Merchant Admin Applet. You can click on the “+” button on the merchant listing page and create a new merchant by adding all the merchant details.
+The user can create the Merchant in the *Merchant Admin Applet*. You can click on the “+” button on the merchant listing page and create a new merchant by adding all the merchant details.
 
-image::pgw-5.png[align = center]
+image::08_Merchant-Admin-Applet_Creating-Merchant.png[align = center]
 
 Once the new Merchant is created, the user can edit the setting by clicking on the Merchant in the Merchant Listing. 
 
-In the Merchant Edit page, the user can see the following tabs:
-** Merchant Details
-** Merchant Login
-** Merchant Contract
-** Return URL (if required) 
-** Tax and Billing
-** Payment Configuration
-** Address
-** Contact
-** Company Linking
-** Credit Limit and Terms
-** Logo
 
-For this module, users only need to configure:
 ** *Merchant Login*
+
 ** *Merchant Contract*
+
 ** *Return URL* if necessary
+
 ** *Payment Configuration*
+
 ** *Address*
+
 ** *Credit limit and Terms*
+
 ** *Logo*
 
 
 
-image::pgw-6.png[align = center]
+image::09_Merchant-Admin-Applet_Merchant-Details.png[align = center]
 
 == 8.0 Merchant Contract Setup
 
@@ -129,24 +178,36 @@ The *Merchant Contract* can be set in the Contract section of the *Merchant Admi
 
 The user can create the *Merchant Contract* in the *Merchant Admin Applet* by clicking on the “+” button and add in all the details.
 
-image::pgw-7.png[align = center]
+image::10_Merchant-Admin-Applet_Creating-Contract.png[align = center]
 
 Once the new *Contract* is created, the user can edit the *Contract* by clicking on the Contract in the contract listing. In the Edit tab, the user can see the *Details* of the contract and access the *Rate Card* tab.
 
-image::pgw-8.png[align = center]
+image::11_Merchant-Admin-Applet_Contract-Details.png[align = center]
 
 == 9.0 Merchant Rate Card Setup
 
 The *Merchant Rate Card* setup is done in the *Merchant Admin Applet*. The user can go to the Contract listing and select the *Contract*. In the *Rate Card* tab, the user can create the rate card by selecting the payment provider from the listing.
 
-image::pgw-9.png[align = center]
 
-. Select the desired *Payment Provider*.
-. Double-click on the Payment Provider to access the change rate listing.
-. On the change rate listing page, click the “+” button to add a change rate.
-. Change the *Rate* name, specify if it is a percentage or fixed rate contract, and fill in the rate field.
-. Once setup is complete, the payment provider status in the listing will change to "*OFFERED*"
-. This status change indicates that the merchant can now accept the access in the *Merchant Access Applet*.
+
+To create one:
+
+1. Select the desired *Payment Provider*.
+
+2. Double-click on the Payment Provider to access the change rate listing.
+
+3. On the change rate listing page, click the “+” button to add a change rate.
+
+4. Change the *Rate* name, specify if it is a percentage or fixed rate contract, and fill in the rate field.
+
+5. Once setup is complete, the payment provider status in the listing will change to "*OFFERED*"
+
+6. This status change indicates that the merchant can now accept the access in the *Merchant Access Applet*.
+
+image::12_Merchant-Admin-Applet_Creating-Rate-Card.png[align = center]
+
+image::13_Merchant-Admin-Applet_Editing-Rate-Card.png[align = center]
+
 
 
 == 10.0 Merchant Rate Card Acceptance Workflow
@@ -155,16 +216,24 @@ Now that the Merchant setup is done in the *Merchant Admin Applet*, the Merchant
 
 === 10.1 Review and Approval Process
 
-. Merchants navigate to the *Merchant Access listing*.
-. They select their access listing.
-. Proceeding to the payment provider listing page, merchants select the relevant payment provider.
-. After reviewing details in the *Merchant E Annex* tab, merchants accept the access.
-. Although the Rate card is accepted by the Merchant, access is only granted upon activation of the status in the *Merchant Admin Applet* within the payment provider listing.
 
+1. Merchants navigate to the *Merchant Access listing*.
+
+2. They select their access listing.
+
+3. Select the relevant payment provider.
+
+4. Proceeding to the payment provider listing page, merchants select the relevant payment provider.
+
+5.  After reviewing details in the *Merchant E Annex* tab, merchants accept the access.
+
+6. Access to the Rate card is granted only upon activation of the status in the Merchant Admin Applet within the payment provider listing.
+
+image::14_Merchant-Access-Applet_E-Annex.png[align = center]
 
 == 11.0 Merchant Reporting
 
 The Reports can be accessed in the Reports section of the *Merchant Access Applet*. 
 
-image::pgw-10.png[align = center]
+image::15.png[align = center]
 

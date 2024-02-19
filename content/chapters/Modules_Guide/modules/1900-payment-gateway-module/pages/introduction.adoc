@@ -8,14 +8,17 @@ The *Payment Gateway Module* plays a pivotal role in the broader payment ecosyst
 
 In essence, the *Payment Gateway Module* simplifies the intricate process of financial transactions, providing businesses with a secure and reliable platform to navigate and manage their operations in the dynamic landscape of the payment ecosystem.
 
+
 == 1.2 Key Features
 
-Key Features of the Payment Gateway Module:
+*Key Features of the Payment Gateway Module:*
 
 *Seamless Transaction Facilitation:*
 
 
 The module acts as a central facilitator, streamlining communication and processes among diverse entities, ultimately contributing to a seamless and efficient electronic transaction experience within the payment ecosystem.
+
+
 
 *Secure Payment Processing:*
 
@@ -35,39 +38,55 @@ Simplifies the complex process of financial transactions, providing businesses w
 
 == 1.3 Payment Gateway Module Workflow
 
-image::pgw-11.png[align = center]
+image::01_PGW-Module-Workflow.png[align = center]
 
 *This is the workflow of when a customer makes a purchase on a website and clicks the payment button.*
 
-. The CP-Commerce Web Browser initiates the transaction by transmitting essential parameters, including Reference Number, Amount, Remarks, Merchant Indirect URL, Error Indirect URL, and Merchant Contract Key, to the CP-Commerce Backend.
-. Upon receiving the parameters, the CP-Commerce Backend processes the information and promptly responds by transmitting the Reference Number back to the CP-Commerce Web Browser. 
-. The web browser, having obtained the Reference Number, triggers an HTTP request to the Payment Gateway (PGW) Backend.
-. In response, the PGW Backend delivers an HTML page to the PGW Web Browser, prompting the customer to select a preferred payment channel (e.g., ip88, GHL).
-. Following the customer’s selection, the transaction seamlessly transitions to the chosen payment channel’s backend (e.g., Ipay88, Ximpay).
-. Subsequently, the payment channel’s backend orchestrates the process, interfacing with the associated Payment channel’s web browser.
-. The transaction progresses to the Maybank backend from the payment channel’s web browser. 
-. From the Maybank Backend, the flow extends to the Maybank web browser, and this iterative interaction may occur based on the specific intricacies of the banking system.
-. The flow moves back and forth between the Maybank web browser and the backend as dictated by the intricacies of the banking processes.
-. From the Maybank web browser, the transaction re-routes to the payment channel backend.
-. The payment channel backend manages the transition to the Payment channel’s web browser.
-. The transaction progresses to the PGW Backend from the Payment channel’s web browser.
-. Subsequently, the flow continues to the PGW Web Browser from the PGW backend.
-. From the PGW Web Browser, the transaction transitions to the CP-Commerce backend.
-. Finally, the CP-Commerce backend concludes the process by seamlessly redirecting the flow back to the CP-Commerce website.
-. For Xampay, there is no backend, so payment can directly move from the PGW to Maybank
+1. The CP-Commerce Web Browser initiates the transaction by transmitting essential parameters, including Reference Number, Amount, Remarks, Merchant Indirect URL, Error Indirect URL, and Merchant Contract Key, to the CP-Commerce Backend.
 
+2. Upon receiving the parameters, the CP-Commerce Backend processes the information and promptly responds by transmitting the Reference Number back to the CP-Commerce Web Browser. 
 
+3. The web browser, having obtained the Reference Number, triggers an HTTP request to the Payment Gateway (PGW) Backend.
+
+4. In response, the PGW Backend delivers an HTML page to the PGW Web Browser, prompting the customer to select a preferred payment channel (e.g., ip88, GHL).
+
+5. Following the customer’s selection, the transaction seamlessly transitions to the chosen payment channel’s backend (e.g., Ipay88, Ximpay).
+
+6. Subsequently, the payment channel’s backend orchestrates the process, interfacing with the associated Payment channel’s web browser.
+
+7. The transaction progresses to the Maybank backend from the payment channel’s web browser. 
+
+8. From the Maybank Backend, the flow extends to the Maybank web browser, and this iterative interaction may occur based on the specific intricacies of the banking system.
+
+9. The flow moves back and forth between the Maybank web browser and the backend as dictated by the intricacies of the banking processes.
+
+10. From the Maybank web browser, the transaction re-routes to the payment channel backend.
+
+11. The payment channel backend manages the transition to the Payment channel’s web browser.
+
+12. The transaction progresses to the PGW Backend from the Payment channel’s web browser.
+
+13. Subsequently, the flow continues to the PGW Web Browser from the PGW backend.
+
+14. From the PGW Web Browser, the transaction transitions to the CP-Commerce backend.
+
+15. Finally, the CP-Commerce backend concludes the process by seamlessly redirecting the flow back to the CP-Commerce website.
+
+16. For Xampay, there is no backend, so payment can directly move from the PGW to Maybank
 
 
 == 2.0 Getting Started
 
-== 2.1 Installation Steps
+=== 2.1 Installation Steps
+In order to set up the payment gateway module, users are required to install the following applets from the Akaun platform.
 
-In Order to set up the payment gateway module, users need to install the following applets from the Akaun platform here.
+Users can search for the following applets in the applet stores and install them. 
+Supplier Maintenance Applet 
 
-Users can search for the following applets in the applet stores and install them.
-** Supplier Maintenance Applet
-** Payment Channel Applet
-** Merchant Admin Applet
-** Merchant Access Applet
+* Payment Channel Applet 
+
+* Merchant Admin Applet 
+
+* Merchant Access Applet
+
 
