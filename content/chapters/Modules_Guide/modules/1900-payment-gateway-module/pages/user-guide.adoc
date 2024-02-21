@@ -134,6 +134,7 @@ image::08_Merchant-Admin-Applet_Creating-Merchant.png[align = center]
 
 Once the new Merchant is created, the user can edit the setting by clicking on the Merchant in the Merchant Listing. 
 
+In the Merchant Edit page, the user can see a lot of tabs, but for this module, users *only need* to configure the following tabs:
 
 ** *Merchant Login*
 
