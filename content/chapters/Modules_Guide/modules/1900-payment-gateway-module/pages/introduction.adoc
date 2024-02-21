@@ -81,7 +81,8 @@ image::01_PGW-Module-Workflow.png[align = center]
 In order to set up the payment gateway module, users are required to install the following applets from the Akaun platform.
 
 Users can search for the following applets in the applet stores and install them. 
-Supplier Maintenance Applet 
+
+* Supplier Maintenance Applet 
 
 * Payment Channel Applet 
 

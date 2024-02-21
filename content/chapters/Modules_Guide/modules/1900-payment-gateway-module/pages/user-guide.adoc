@@ -25,7 +25,7 @@ The *Supplier identification* is unique to each supplier and once set up during 
 
 Once done creating a Supplier Account, go to Payment Channel Applet:
 
-1. Specify the *Acquirer*, which is the *Payment Gateway Supplier* created in the Supplier Applet.
+1. Specify the *Acquirer*, which is the *Payment Gateway Supplier* created in the *Supplier Applet*.
 
 2. Choose the payment channel name from the dropdown menu (provided by your tenant), and the *Payment Channel Code* will fill in automatically. 
 
@@ -39,7 +39,7 @@ Once done creating a Supplier Account, go to Payment Channel Applet:
 image::03_Payment-Channel-Applet_Creating-Payment-Channel.png[align = center]
 
 
-=== 4.1.1 Supplier Identification Code
+==== 4.1.1 Supplier Identification Code
 
 The *Supplier identification* is unique to each supplier. Once set up during creating the supplier, it cannot be changed.
 
@@ -51,7 +51,7 @@ The *Supplier identification* is unique to each supplier. Once set up during cre
 This guide explains how to set up a payment provider in the *Payment Channel Applet*. Users create a new provider, input details, and can modify settings later. After creating a payment channel, they link it to the provider for seamless operation, setting priority for functionality.
 
 
-1. Go to Payment Channel Applet.
+1. Go to *Payment Channel Applet*.
 
 2. In the Payment Provider section, click the '+' button to create a new payment provider.
 
@@ -86,27 +86,10 @@ To establish the link between the *Payment Service Provider* and *Your Company*,
 
 Users can configure this in the *Payment Channel Applet*, you'll find a *Contract* section where you can set up contracts between the Payment Gateway Supplier, Payment Provider, and your own Company (Contract Company).
 
-=== 6.1 Edit Contract Credentials
-
-To establish the link between the Payment Service Provider and Your Company, users are required to provide details such as:
-
-* Contract Company Name
-
-* Payment Gateway Company
-
-* Payment Channel
-
-* Contract Key
-
-* Contract Status
-
-Users can configure this in the *Payment Channel Applet*, you'll find a Contract section where you can set up contracts between the Payment Gateway Supplier, Payment Provider, and your own Company (Contract Company).
-
-
-
 image::05_Payment-Channel-Applet_Creating-Contract.png[align = center]
 
 === 6.1 Edit Contract Credentials
+
 
 After creating the contract, it will be shown on the contract listing page.
 
@@ -120,8 +103,8 @@ After creating the contract, it will be shown on the contract listing page.
 
 5. Once saved, the credentials will be hidden, as we do not want the data to be exposed.
 
-image::05_Payment-Channel-Applet_Creating-Contract.png[align = center]
 
+image::06_Payment-Channel-Applet_Edit-Contact-Credentials.png[align = center]
 
 === 6.2 Create and Edit Contract Rate 
 
@@ -136,7 +119,7 @@ Once the Contract is created, the user can create and edit the *Contract Rate* u
 4. Use the Audit Rate feature to track actions and identify users editing the contract.
 
 
-image::image::05_Payment-Channel-Applet_Creating-Contract.png[align = center].png[align = center]
+image::07_Payment-Channel-Applet_Edit-Contact-Rate.png[align = center]
 
 
 == 7.0 Merchant Setup
@@ -194,7 +177,7 @@ To create one:
 
 1. Select the desired *Payment Provider*.
 
-2. Double-click on the Payment Provider to access the change rate listing.
+2. Double-click on the *Payment Provider* to access the change rate listing.
 
 3. On the change rate listing page, click the “+” button to add a change rate.
 
@@ -227,13 +210,13 @@ Now that the Merchant setup is done in the *Merchant Admin Applet*, the Merchant
 
 5.  After reviewing details in the *Merchant E Annex* tab, merchants accept the access.
 
-6. Access to the Rate card is granted only upon activation of the status in the Merchant Admin Applet within the payment provider listing.
+6. Access to the *Rate card* is granted only upon activation of the status in the *Merchant Admin Applet* within the payment provider listing.
 
 image::14_Merchant-Access-Applet_E-Annex.png[align = center]
 
 == 11.0 Merchant Reporting
 
-The Reports can be accessed in the Reports section of the *Merchant Access Applet*. 
+The *Reports* can be accessed in the Reports section of the *Merchant Access Applet*. 
 
 image::15.png[align = center]
 
