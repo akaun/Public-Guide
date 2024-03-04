@@ -25,11 +25,11 @@ Users may fill up compulsory information such as:
 
 
 
-image::0–13-create-branch.png[align = center]
+image::0-13-create-branch.png[align = center]
 
 
 
-image::0–14-create-branch.png[align = center]
+image::0-14-create-branch.png[align = center]
 
 
 === 3.1.2 Address Tab
@@ -44,12 +44,12 @@ User must fill up compulsory fields :
 
 
 
-image::0–15-create-branch.png[align = center]
+image::0-15-create-branch.png[align = center]
 
 
 
 
-image::0–16-create-branch.png[align = center]
+image::0-16-create-branch.png[align = center]
 
 === 3.1.3 Marketplace Tab
 
@@ -60,7 +60,7 @@ image::0–16-create-branch.png[align = center]
 
 
 
-image::0–17-create-branch.png[align = center]
+image::0-17-create-branch.png[align = center]
 
 * It will relocate to the marketplace website in order to generate Access Token.
 * After authorizing all shops, users may proceed using ECOMSYNC APPLET.
@@ -68,7 +68,7 @@ image::0–17-create-branch.png[align = center]
 
 
 
-image::0–18-create-branch.png[align = center]
+image::0-18-create-branch.png[align = center]
 
 If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
 
@@ -80,7 +80,7 @@ Upon clicking the SAVE button, the registered branch will appear in the Branch L
 
 
 
-image::0–19-create-branch.png[align = center]
+image::0-19-create-branch.png[align = center]
 
 == 3.3 Edit Branch 
 
@@ -97,21 +97,21 @@ The sections CANNOT be edited:
 
 
 
-image::0–20-create-branch.png[align = center]
+image::0-20-create-branch.png[align = center]
 
 === 3.3.2 Address Tab
 This section allows the user to update the branch address
 
 
 
-image::0–21-create-branch.png[align = center]
+image::0-21-create-branch.png[align = center]
 
 === 3.3.3 Marketplace Tab
 This section allows the user to update their marketplace entity
 
 
 
-image::0–22-create-branch.png[align = center]
+image::0-22-create-branch.png[align = center]
 
 * Default Entity - this is Sales Order Entity
 
@@ -122,7 +122,7 @@ This section allows the user to update the EMP Sales Order Branch
 
 
 
-image::0–23-create-branch.png[align = center]
+image::0-23-create-branch.png[align = center]
 
 * Param code: EMP_BRANCH_PKID
 * Value: (**get the branch pkid from emp)
@@ -131,7 +131,7 @@ image::0–23-create-branch.png[align = center]
 
 
 
-image::0–24-create-branch.png[align = center]
+image::0-24-create-branch.png[align = center]
 
 === 3.3.4 Location Tab
 
@@ -141,13 +141,13 @@ image::0–24-create-branch.png[align = center]
 
 
 
-image::0–25-create-branch.png[align = center]
+image::0-25-create-branch.png[align = center]
 
 In adding a location to the Branch, users need to click on the button to open the Add tab and select the location from the drop-down list to add for the branch
 
 
 
-image::0–26-create-branch.png[align = center]
+image::0-26-create-branch.png[align = center]
 
 === 3.3.5 Label Tab
 
@@ -158,13 +158,13 @@ image::0–26-create-branch.png[align = center]
 
 
 
-image::0–27-create-branch.png[align = center]
+image::0-27-create-branch.png[align = center]
 
 * New Label - Labels can be created directly through this tab or can go to Label Module Create Label
 
 
 
-image::0–28-create-branch.png[align = center]
+image::0-28-create-branch.png[align = center]
 
 * To edit label Edit label
 
@@ -173,7 +173,7 @@ image::0–28-create-branch.png[align = center]
 
 
 
-image::0–29-create-branch.png[align = center]
+image::0-29-create-branch.png[align = center]
 
 == 3.4 Advance Search 
 
@@ -184,7 +184,7 @@ image::0–29-create-branch.png[align = center]
 
 
 
-image::0–30-create-branch.png[align = center]
+image::0-30-create-branch.png[align = center]
 
 * Users can type or pick the company name from the dropdown list
 
@@ -192,16 +192,16 @@ image::0–30-create-branch.png[align = center]
 
 
 
-image::0–31-create-branch.png[align = center]
+image::0-31-create-branch.png[align = center]
 
 * When entering the correct keywords it will direct you to the findings
 
 
 
-image::0–32-create-branch.png[align = center]
+image::0-32-create-branch.png[align = center]
 
 * The users CANNOT press the search button until correctly fill in the keywords
 
 
 
-image::0–33-create-branch.png[align = center]
+image::0-33-create-branch.png[align = center]

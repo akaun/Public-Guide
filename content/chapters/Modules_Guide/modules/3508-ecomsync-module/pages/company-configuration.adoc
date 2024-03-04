@@ -33,10 +33,10 @@ User must fill up compulsory fields :
 * Other fields are optional
 
 
-image::0–2-create-company.png[align = center]
+image::0-2-create-company.png[align = center]
 
 
-image::0–3-create-company.png[align = center]
+image::0-3-create-company.png[align = center]
 
 If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
 
@@ -45,7 +45,7 @@ If failed to fill up the compulsory information, the users CANNOT click the SAVE
 Upon clicking the SAVE button, the registered company will appear in the Company’s Listings as below:
 
 
-image::0–4-create-company.png[align = center]
+image::0-4-create-company.png[align = center]
 
 == 2.3 Edit company 
 
@@ -63,7 +63,7 @@ The sections CANNOT be edited:
 * Modified Date
 
 
-image::0–5-create-company.png[align = center]
+image::0-5-create-company.png[align = center]
 
 === 2.3.2 Address Tab
 
@@ -71,7 +71,7 @@ This section allows the user to update the company’s address
 
 
 
-image::0–6-create-company.png[align = center]
+image::0-6-create-company.png[align = center]
 
 
 
@@ -81,7 +81,7 @@ This section allows the user to view the company’s branch
 To add branch Create Branch
 To edit branch Edit Branch
 
-image::0–7-create-company.png[align = center]
+image::0-7-create-company.png[align = center]
 
 === 2.3.4 Location Tab
 
@@ -91,7 +91,7 @@ To edit location Edit location
 
 
 
-image::0–8-create-company.png[align = center]
+image::0-8-create-company.png[align = center]
 
 
 
@@ -104,20 +104,20 @@ This section allows the user to view the company’s label
 * Existing Label - Select from the dropdown list of existing labels
 
 
-image::0–9-create-company.png[align = center]
+image::0-9-create-company.png[align = center]
 
 * New Label - Labels can be created directly through this tab or can go to Label Module Create Label
 
 
 
-image::0–10-create-company.png[align = center]
+image::0-10-create-company.png[align = center]
 
 
 * To edit label Edit label
 
 
 
-image::0–11-create-company.png[align = center]
+image::0-11-create-company.png[align = center]
 
 == 2.4 Advance Search 
 
@@ -125,8 +125,8 @@ image::0–11-create-company.png[align = center]
 * All fields are optional to fill in but need correct keywords for it to function properly
 
 
-image::0–12-create-company.png[align = center]
+image::0-12-create-company.png[align = center]
 
 * If fill in the wrong keywords, it will redirect you back to all listings and will send an error message
 
-image::0–13-create-company.png[align = center]
+image::0-13-create-company.png[align = center]
