@@ -10,7 +10,7 @@ Let's get started!
 * Go to https://akaun.com/ and enter your login credentials.
 
 
-image::1-Installation-guide.png[align = center]
+image::1-installation-guide.png[align = center]
 
 2. Access the Applet Store:
 
@@ -19,14 +19,14 @@ image::1-Installation-guide.png[align = center]
 
 
 
-image::2-Installation-guide.png[align = center]
+image::2-installation-guide.png[align = center]
 
 3. Find the Applet you Need:
 
 * Use the search bar or browse to locate the desired applet. For example, search for "Ecomsync Applet."
  
 
-image::3-Installation-guide.png[align = center]
+image::3-installation-guide.png[align = center]
  
  
 4.  Install the Applet:
@@ -42,7 +42,7 @@ image::3-Installation-guide.png[align = center]
 
 
 
-image::4-Installation-guide.png[align = center]
+image::4-installation-guide.png[align = center]
 
 5. Start Using the Applet:
 
@@ -54,7 +54,7 @@ image::4-Installation-guide.png[align = center]
 * For a detailed guide on applet installations, please refer here
 
 
-image::5-Installation-guide.png[align = center]
+image::5-installation-guide.png[align = center]
 
 
 == 4.2 Configurations and Integration

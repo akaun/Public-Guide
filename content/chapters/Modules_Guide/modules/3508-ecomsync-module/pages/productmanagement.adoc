@@ -21,8 +21,6 @@
 * In order to add any single item from the listing to a marketplace, the user can select that item, go to the Marketplace tab, and add that item to any marketplace. Users can also configure any marketplace in this tab by selecting the marketplace and choosing the Category, Images, Attributes, and Information. This can only be done when the item has not already been synced to the marketplace.
 
 
-
-
 image::1-ecomsync.png[align = center]
 
 == 6.2 Sync Product/Item to Marketplace
@@ -114,7 +112,7 @@ image::13-sync.png[align = center]
 
 
 
-image::14-sync.png[align = center]
+image::14-sync-sync.png[align = center]
 
 In the marketplace tab , under the marketplace line , there will be a status column . It will show whether the item is pending, in progress, active in the marketplace.
 
