@@ -3,11 +3,11 @@
 
 include::pages/introduction.adoc[leveloffset=3]
 
-include::pages/installationandsetup.adoc[leveloffset=3]
-
-include::pages/ecomsyncdashboard.adoc[leveloffset=3]
+include::pages/company-configuration.adoc[leveloffset=3]
 
 include::pages/virtualbranchconfiguration.adoc[leveloffset=3]
+
+include::pages/installationandsetup.adoc[leveloffset=3]
 
 include::pages/stockbalanceandsalesorderconfigurations.adoc[leveloffset=3]
 

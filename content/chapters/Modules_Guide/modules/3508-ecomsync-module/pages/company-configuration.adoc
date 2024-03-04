@@ -1,0 +1,132 @@
+= 2.0 Company Configuration
+
+== 2.1 Creating Company 
+
+In Order to create a company, the user needs to go to the Organisation Applet.
+In creating a company, users need to click on the “+” button to open the Create tab.
+
+=== 2.1.1 Details Tab
+
+Users must fill up compulsory information such as:
+
+* Company Code
+* Company Name
+* Company Registration No.*
+* Company Incorporation Date
+* Select Currency
+* Other fields are optional
+
+image::0-create-company.png[align = center]
+
+
+image::0-1-create-company.png[align = center]
+
+=== 2.1.2 Address Tab
+
+User must fill up compulsory fields :
+
+* Address Line
+* Postcode
+* City
+* Select Country
+* Select State
+* Other fields are optional
+
+
+image::0–2-create-company.png[align = center]
+
+
+image::0–3-create-company.png[align = center]
+
+If failed to fill up the compulsory information, the users CANNOT click the SAVE button.
+
+== 2.2 Company Listings 
+
+Upon clicking the SAVE button, the registered company will appear in the Company’s Listings as below:
+
+
+image::0–4-create-company.png[align = center]
+
+== 2.3 Edit company 
+
+To edit the company, click on the company from the listings above.
+
+=== 2.3.1 Details Tab
+
+This section allows the user to update the company’s profile details. 
+
+The sections CANNOT be edited:
+* Company Code
+* Created By
+* Modified By
+* Creation Date
+* Modified Date
+
+
+image::0–5-create-company.png[align = center]
+
+=== 2.3.2 Address Tab
+
+This section allows the user to update the company’s address
+
+
+
+image::0–6-create-company.png[align = center]
+
+
+
+=== 2.3.3 Branch Tab
+
+This section allows the user to view the company’s branch
+To add branch Create Branch
+To edit branch Edit Branch
+
+image::0–7-create-company.png[align = center]
+
+=== 2.3.4 Location Tab
+
+This section allows the user to view the company’s location
+To add location Create location
+To edit location Edit location
+
+
+
+image::0–8-create-company.png[align = center]
+
+
+
+=== 2.3.5 Label Tab
+
+This section allows the user to view the company’s label
+* To add a label :
+* To add a label :
+* Users need to click on the “+” button to open the Add tab.
+* Existing Label - Select from the dropdown list of existing labels
+
+
+image::0–9-create-company.png[align = center]
+
+* New Label - Labels can be created directly through this tab or can go to Label Module Create Label
+
+
+
+image::0–10-create-company.png[align = center]
+
+
+* To edit label Edit label
+
+
+
+image::0–11-create-company.png[align = center]
+
+== 2.4 Advance Search 
+
+* To find the company from the listings
+* All fields are optional to fill in but need correct keywords for it to function properly
+
+
+image::0–12-create-company.png[align = center]
+
+* If fill in the wrong keywords, it will redirect you back to all listings and will send an error message
+
+image::0–13-create-company.png[align = center]

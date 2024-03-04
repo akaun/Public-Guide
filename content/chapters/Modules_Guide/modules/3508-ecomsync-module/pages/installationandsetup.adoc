@@ -1,71 +1,385 @@
-= Installation and Setup
+= 4.0 Installation and Setup
 
-== 2.1 Installation Guide
+== 4.1 Installation Guide
 
-- The user can install the Ecomsync Applet and all related applets (Organisation Applet, Customer Maintenance Applet, Doc Item Maintenance Applet, Internal Sales Order Applet, Internal Receipt Voucher Applet, etc) from the Applet store in Akaun Platform <a href="https://akaun.cloud/#/bigledger/akaun-platform/container/launchpad-panel">here</a> 
-
-
-
-- Search for the applet name in the Search Bar, select the applet, and select the Install button. 
-
-- For a detailed guide on applet installations, please refer here. https://playbook.akaun.com/bigdoc/handbook-applet-directory/1.0/applet-store/installing_applets.html
-
-
-== 2.2 Configurations and Integration
-
-=== 2.2.1 Organisation Applet
-
-- The Organisation applet is to Create the Company and to link the Branch and Location with the marketplace.
-
-- In Order to authorize each Branch, the user needs to go to the Marketplace tab (Details page) and authorize the Branch from there. The user can sign in to the Marketplace website (URL provided in the tab) in order to generate an Access Token. The Default Entity is to set the Entity for sales orders. After choosing the Default Entity, the sales order from the “Marketplace Type” will show under that Entity. Upon authorization, the user will receive the Token generated notification.
-
-image::Ecomsync-2.png[align = center]
-
-- The user can set the settlement method in the Settlement tab
-
-=== 2.2.2 Doc Item Maintenance Applet
-
-- Doc Item Maintenance Applet is used to create the item and sync it to the Marketplace. 
-
-- There are 3 types of Items which are Single, Group, and Bundle items.
+The user can install the Ecomsync Applet and all related applets like Organisation Applet, Customer Maintenance Applet, Doc Item Maintenance Applet, Internal Sales Order Applet, Internal Receipt Voucher Applet, etc.. 
+ 
+Let's get started!
+ 
+1. Log in to Akaun Platform:
+* Go to https://akaun.com/ and enter your login credentials.
 
 
-** Single Item refers to a basic item. Users can create the item manually in the Doc Item Maintenance applet or synced from EMP
+image::1-Installation-guide.png[align = center]
 
-** Bundle Item refers to Two or more complementary products grouped together and sold as one set of items. In the marketplace, a bundle item is considered a single item since there is no way that the user is able to specify what the item consists of. To create a bundle item in the marketplace, the user needs to create a new item to specify the set of items that are considered as one package
+2. Access the Applet Store:
 
-
-** Group Item refers to an item that is part of a group of related products that share common attributes like features, use, production processes, etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered. When selecting GROUPED ITEM as an item type, users can add additional child items under EDIT. 
-
-* For Group and Bundle items, the user needs to choose the child item. This can be done by going to the item listing and clicking on any bundle item or group item. This will open the edit tab where the user can go to Bundle Item Config/Group Item Config and click on the Create button to add the child items. 
-
-* In order to add any single item from the listing to a marketplace, the user can select that item, go to the Marketplace tab, and add that item to any marketplace. Users can also configure any marketplace in this tab by selecting the marketplace and choosing the Category, Images, Attributes, and Information. This can only be done when the item has not already been synced to the marketplace.
-
-image::Ecomsync-3.png[align = center]
+* Click the “Applet Store icon in the Dashboard
 
 
-* In order to add any group item from the listing to a marketplace, the user can select that item, go to the Marketplace tab, select the marketplace you want to add the item to and select the attributes and child items. Each child item in the listing needs to be configured in order to sync the group item to the marketplace.
 
-* The Stock Availability tab has all the branch listings that are synced to the marketplace. Users can pull stock from any branch in the listing and you can also select if you want to Auto pull the stock from the branch or Manually. For Manual stock pulling, the user has to set a Buffer Number or Stock Balance Percentage. Users can also choose the location/warehouse or cross-company. 
 
-image::Ecomsync-4.png[align = center]
+image::2-Installation-guide.png[align = center]
+
+3. Find the Applet you Need:
+
+* Use the search bar or browse to locate the desired applet. For example, search for "Ecomsync Applet."
+ 
+
+image::3-Installation-guide.png[align = center]
+ 
+ 
+4.  Install the Applet:
+
+* Click on the applet's tile to see its details and features.
+
+
+* Select any related applets you want to install by checking their boxes. For example, check "Doc Item Maintenance Applet" and "Customer Maintenance Applet" if needed.
+
+
+* Click the "Install" button 
+ 
+
+
+
+image::4-Installation-guide.png[align = center]
+
+5. Start Using the Applet:
+
+* Once installed, access the applet from your Akaun platform dashboard.
+ 
+* Search for the applet name in the Search Bar, select the applet, and select the Install button
+
+
+* For a detailed guide on applet installations, please refer here
+
+
+image::5-Installation-guide.png[align = center]
+
+
+== 4.2 Configurations and Integration
+
+=== 4.2.2 Doc Item Maintenance Applet
+
+* Users need to create items in the Doc Item Maintenance Applet and sync it to the Marketplace.
+
+
+* CREATE ITEM - items can be created manually or synced from EMP (if the user is currently using Wavelet EMP)
+
+
+* Wavelet EMP user - The user need to create the basic item in their EMP and it will be synced back to the Doc Item Maintenance applet by ETL.
+
+
+* Non-wavelet EMP user - The user can create the basic item directly in the Doc Item Maintenance applet.
+
+There are *3 types of Items* which are Single, Group, and Bundle items.
+
+1. *Single Item* - refers to a basic item, this is the default type that is relevant to most      items. 
+
+* Wavelet EMP user - The user need to create the basic item in their EMP and it will be synced back
+* Kindly ensure that the EMP item code = marketplace seller sku/parent sku. Ie: [ABC] = [ABC]
+
+
+image::1-Doc-Item.png[align = center]
+
+2. *Bundle Item* -  refers to Two or more complementary products grouped together and sold as one set of items. Ie : Selling a laptop together with mouse, keyboard, headphone as 1 package.
+
+* In the marketplace, a bundle item is considered as a single item since there is no way that the user is able to specify what the item consists of. Therefore, we will use the item code = marketplace seller sku/parent sku. Ie: [BND] [ITEM A,2] [ITEM B] [ITEM C] = need 2 quantities of item A and one quantity of item B,C
+
+3. Grouped Item - An item that is part of a group of related products which share common attributes like features, use, production processes etc. It could also sometimes be the market or customer segment in which these products are sold or the prices at which they are offered.
+
+
+* To create an item in the marketplace , the user needs to create a new item to specify the set of item that consider as one package (applicable to all user ; EMP and non-EMP).
+
+
+*Steps* outline the general process *for creating all types of items* in the marketplace, whether they are single, bundled, or grouped.
+* Click on the '+' icon in the Items menu. Create an item tab will be appeared.
+
+
+
+image::2-Doc-Item.png[align = center]
+
+* Fill up all the required information to create an item and click create once done .
+
+
+
+image::3-Doc-Item.png[align = center]
+
+- *Item code* - once item code is created it cannot be edited.
+- *Item name* - Item Name can be edited at any time
+- *Item type* - Basic Item/ Bundle Item/ Grouped Item
+- *Sub Item Type* - Basic Quantity/ Batch Number/Serial Number
+- *Base UOM* - Pcs/kg/gram/cm
+- *Description* - not compulsory
+- *Currency* - compulsory
+
+Once all required fields are fill up user can press on CREATE, so the item will be saved into the database and can be proceed to be edited.
+
+
+
+image::4-Doc-Item.png[align = center]
+
+
+For Group and Bundle items, the user needs to choose the child item. This can be done by going to the item listing and clicking on any bundle item or group item. This will open the edit tab where the user can go to Bundle Item Config/Group Item Config and click on the Create button to add the child items.
+
+
+
+image::5-Doc-Item.png[align = center]
+
+*Bundle Items*
+
+* Click on '+' button and select which item to be included in this bundle item . It can only consist of basic item .
+
+* Tick the items by multiple select and click add.
+
+
+
+
+
+image::6-Doc-Item.png[align = center]
+
+* Once an item is added, you may click on the item to remove it or update the ratio of the item units . Ratio refers to the quantity of item (ie : 2 eggs selling as a bundle. The ratio will be 2) .
+
+
+
+
+image::7-Doc-Item.png[align = center]
+
+* After done , click save.
+
+
+*Grouped item*
+ 
+* Click on '+' button and select which item to be included in this grouped item . It may consist of basic items and bundle items. (REMEMBER : For marketplace, the seller sku cannot be duplicated . Basic/bundle items that already sync to the marketplace cannot be sync again via grouped items). 
+
+* Tick the items by multiple select and click add.
+
+
+image::8-Doc-Item.png[align = center]
+
+* Once an item is added, you may click on the item to remove it . The price and quantity can be ignored as we will set it separately at marketplace later.
+
+
+
+image::9-Doc-Item.png[align = center]
+
+* After done , click save.
+
+
+
+
+After done, the processor will run to get THE EXACT match of the Bundle and Group, and the processor will pull all Attributes  and Images to the Bundle and Group items.
+
+
+== 4.3 Stock and Sales Order
+
+=== 4.3.1 - Organisation Applet - Marketplace 
+
+
+* The Stock Availability tab has all the branch listings that are synced to the marketplace. Users can pull stock from any branch in the listing and you can also select if you want to Auto pull the stock from the branch or Manually. 
+
+For Manual stock pulling, the user has to set a Buffer Number or Stock Balance Percentage. Users can also choose the location/warehouse or cross-company.
+
+
+
+=== 4.3.2 Marketplace Tab 
+
+* Setting stock balance at branch level refers to setting the same configuration for all items under this branch (marketplace).
+
+* Users can click on the marketplace tab > stock configuration under the virtual branch.
+
+
+image::1-stock-sales-order.png[align = center]
+
+=== 4.3.3 Configure stock balance - AUTO
+
+
+image::2-stock-sales-order.png[align = center]
+
+
+image::3-stock-sales-order.png[align = center]
+
+1. Stock config type ; AUTO
+2. Stock Mode ; CURRENT
+3. To choose either one and tick accordingly ; buffer numbers or stock balance percentage.
+4. Tick to overwrite all the settings done at item levels previously.
+5. SO config can be either one ; ACTIVE, INACTIVE, SELECTIVE_ACTIVE
+
+i. ACTIVE - To deduct any open sale order that haven’t convert to invoice
+
+ii. INACTIVE - To ignore any open sale order in stock calculation
+
+iii. SELECTIVE_ACTIVE - Able to configure specific sale order only to be deducted from stock calculation
+
+6. Click on ‘Update Configuration’ to run the inventory processor to update in the marketplace.
+
+=== 4.3.4 Configure stock balance - MANUAL
+
+
+
+image::4-stock-sales-order.png[align = center]
+
+
+
+image::5-stock-sales-order.png[align = center]
+
+
+
+
+
+1. Stock config type ; MANUAL
+2. Stock Mode ; CURRENT
+3. To key in manually the stock balance for all items in the marketplace (assume same stock balance for all items since using branch level)
+4. Tick if would like to overwrite all the settings done at item levels previously.
+5. SO config can be either one ; ACTIVE, INACTIVE, SELECTIVE_ACTIVE
+
+i. ACTIVE - To deduct any open sale order that haven’t convert to invoice
+
+ii. INACTIVE - To ignore any open sale order in stock calculation
+         
+
+iii. SELECTIVE_ACTIVE - Able to configure specific sale order only to be deducted from  stock calculation
+
+6. Click on ‘Update Configuration’ to run the inventory processor to update in marketplace
+
+== 4.4 Sales Order Applet 
+
+=== 4.4.1 Sales order Listing
+
+* Sales Order Applet has all the sales order listings from physical store orders and all the marketplaces (Lazada, Shopee, E-commerce, POS, Conversational Commerce like WhatsApp, etc.).
+
+
+* In order to identify which one is referring to marketplace order, users may check based on branch name and marketplace order no as it will show the related information from marketplace.
+
+
+image::1-Sales-Order.png[align = center]
+
+
+
+* When a user clicks on the sale order, all the relevant information regarding the order will be shown. Three main tab to be used will be  Account, Line Items, Ecomsync
+
+
+
+
+image::2-Sales-Order.png[align = center]
+
+
+image::3-Sales-Order.png[align = center]
+
+
+
+
+image::4-Sales-Order.png[align = center]
+
+
+* For bundle items, the system will help to unbundle and show all the SKUs under the bundle in the sale order.
+
+* If the order items match with doc item maintenance listing , the sale order no will show in black color and posting status will be FINAL.
+
+* However, if the order items do not match with item listing , the sale order no will show in red color and posting status will be DRAFT.
+
+
+
+image::5-Sales-Order.png[align = center]
+
+* If the order is in DRAFT mode, click on the order to edit the item to the correct one.
+
+
+
+
+image::6-Sales-Order.png[align = center]
+
+* By default, it will show SHOPEE_DEFAULT_ITEM or LAZADA_DEFAULT_ITEM if it does not match with master item data. To change it, click on the default item code and select the correct item from the master listing.
+
+
+
+image::7-Sales-Order.png[align = center]
+
+
+image::8-Sales-Order.png[align = center]
+
+* Once changed, click update and then click save.
+
+
 
  
-* The Sales Order tab has SO config type. The user can choose from which sales order, the stock needs to be pulled (Active, Inactive, or Selective Active). 
-
-* Users can define different Pricing Schemes based on each marketplace. The Pricing scheme is synced with all marketplaces. You can choose a certain pricing scheme for a product and sync it to the marketplaces. 
-
-=== 2.2.3 Sales Order Applet Applet
-
-* Sales Order Applet has all the sales order listings from all the marketplaces (Lazada, Shopee, E-commerce, POS, Conversational Commerce like WhatsApp, etc.).
-
-* Users can select any sales order from the listing, go to the Ecomsync tab, and change the status of the marketplace order. This will automatically change the order status in the marketplace. Users can also print the invoice under the printables and see the order Details. 
-
-* In Order to see the details of the end customer, you can select any sales order and go to the Account tab where you can see Entity Details, Bill To, and Ship To details, 
-
-== 2.3 Pricing Scheme
-
-The Pricing Scheme can be set in the Doc Item Maintenance Applet. Users can define different pricing schemes based on each marketplace, tailoring their pricing strategies to specific market dynamics. The beauty of Ecomsync lies in its ability to sync the pricing scheme with all connected marketplaces. This means you can choose a specific pricing scheme for a product and seamlessly sync it across your multi-channel landscape. 
+image::9-Sales-Order.png[align = center]
 
 
-image::Ecomsync-4.png[align = center]
+image::10-Sales-Order.png[align = center]
+
+
+* Lastly , tick the sale order to finalize the document before we update the marketplace status.
+
+
+
+image::11-Sales-Order.png[align = center]
+
+* To update the marketplace order status, go to Ecomsync tab.
+
+
+
+ 
+image::12-Sales-Order.png[align = center]
+
+* For Lazada , the status will be : Pending  To Pack  Ready to ship
+- Pending = To Pack
+- To Pack = To Arrange Shipment
+- Ready To Ship = To Handover
+
+
+* For Shopee, the status will be : Ready To Ship  Processed
+
+- Ready To Ship = To Handover
+- Processed = Processed
+
+* Once the status is changed and saved , it will be reflected in the marketplace directly.
+
+
+* Users may get the printable (AWB , shipping label , carrier manifest) directly from the applet once the status is updated. Printable will be available based on the marketplace current status.
+
+
+ 
+image::13-Sales-Order.png[align = center]
+
+
+=== 3.4.2 Line Items
+This module will show all the items from the sale order documents line-by-line
+
+
+ 
+image::14-Sales-Order.png[align = center]
+
+
+=== 4.4.3 Batch printing
+
+
+* This module allows users to be able to do bulk printing for the marketplace order printable.
+
+
+
+image::15-Sales-Order.png[align = center]
+
+
+* Select the document type
+
+
+* Tick which order to be print out
+
+
+* Click ‘PRINT’ button
+
+
+* The document will be printed.
+
+
+== 4.5 Pricing Scheme
+
+The Pricing Scheme can be set in the Doc Item Maintenance Applet. Users can define different pricing schemes based on each marketplace, tailoring their pricing strategies to specific market dynamics. The beauty of Ecomsync lies in its ability to sync the pricing scheme with all connected marketplaces. This means you can choose a specific pricing scheme for a product and seamlessly sync it across your multi-channel landscape.
+
+
+image::1-price-scheme.png[align = center]
+
+
+
+

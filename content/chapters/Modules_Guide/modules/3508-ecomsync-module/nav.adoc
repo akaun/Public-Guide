@@ -1,9 +1,14 @@
 * Ecomsync Module
+
 ** xref:introduction.adoc[Introduction]
-** xref:installationandsetup.adoc[Installation and Setup]
-** xref:ecomsyncdashboard.adoc[Ecomsync Dashboard]
+
+** xref:company-configuration.adoc[Company Configuration]
 
 ** xref:virtualbranchconfiguration.adoc[Virtual Branch Configuration]
+
+
+** xref:installationandsetup.adoc[Installation and Setup]
+
 
 ** xref:stockbalanceandsalesorderconfigurations.adoc[Stock Balance and Sales Order Configurations]
 
